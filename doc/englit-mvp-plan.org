@@ -1,0 +1,331 @@
+#+TITLE: canonical-engLit for MVP: Project Plan
+#+DATE: 2026-08-06
+#+AUTHOR: Clifford Wulfman
+#+OPTIONS: toc:t num:nil
+
+* Overview
+
+The goal of this project is to make the Globe Shakespeare editions and
+four key reference works — Abbott's /Shakespearean Grammar/, Schmidt's
+/Shakespeare-Lexicon/, Onions's /Shakespeare Glossary/, and Dyce's
+/Glossary/ — readable in the Minimum Viable Perseus (MVP) reading
+environment, and to lay the groundwork for their eventual use as
+linkable commentary alongside primary texts.
+
+This work is a practical precondition for the Hypervariorum project:
+Abbott, Schmidt, Onions, and Dyce are among the most frequently cited
+sources in Furness's New Variorum commentaries, and having them in MVP
+as navigable, citable texts is prerequisite to linking NVS citations to
+their referents. The relationship is reciprocal: the citation-resolution
+infrastructure developed for the Hypervariorum project is directly
+applicable here.
+
+The source repository is =canonical-engLit= (PerseusDLCode fork), =mvp=
+branch. The target is the =MinimumViablePerseus= development server.
+
+* Scope
+
+** In scope for this sprint
+
+- Globe Shakespeare: 44 plays and poems (=data/shakespeare/=)
+- Abbott, /A Shakespearean Grammar/ (=data/abbott/=)
+- Schmidt, /Shakespeare-Lexicon/ (=data/schmidt/=)
+- Onions, /A Shakespeare Glossary/ (=data/onions/=)
+- Dyce, /A Glossary of the Works of Shakespeare/ (=data/dyce/=)
+- Registration of the =engLit= CTS namespace in MVP
+- =refsDecl= → =citeStructure= migration for all in-scope texts
+- Foundation work for commentary linking (=<bibl @n>= citation resolution)
+
+** Deferred
+
+- Other =canonical-engLit= texts (Bacon, Hakluyt, Holinshed, Lanyer,
+  Marlowe, Sidney, Wilson, etc.): the same pipeline will apply, but
+  they are out of scope for this sprint
+- Morphological analysis and tokenization
+- Full-text search indexing (Anserini)
+- Deployment to production
+
+* Background: State of the Corpus
+
+The =canonical-engLit/data/= directory contains TEI P5 files migrated
+from earlier encodings last fall. The migration predates the current
+Perseus schema framework and the adoption of =citeStructure=.
+Consequently:
+
+- The Shakespeare files already carry a schema processing instruction
+  pointing to =perseus_drama.rng=, but the path references the old
+  =canonical-engLit/schemas/= directory rather than the current
+  =perseus-schemas= repository.
+- All files use =refsDecl= with =cRefPattern= elements rather than the
+  =citeStructure= declarations required by MVP's =ReferenceParser=.
+- CTS metadata (=__cts__.xml= files) is present for Shakespeare, Abbott,
+  and Schmidt but absent for Onions and Dyce.
+- There is a URN inconsistency in the Shakespeare files: the textgroup
+  =__cts__.xml= declares =urn:cts:engLit:shakespeare= but the body of
+  each play uses =urn:cts:engLit:shak.perseus-eng1=.
+- The reference works encode Shakespeare citations as structured
+  =<bibl @n>= elements (e.g. =<bibl n="shak. lll 5.1.50">=), providing
+  a machine-readable foundation for commentary linking that requires
+  only a play-abbreviation → CTS URN mapping to become actionable.
+
+* Phases and Tasks
+
+** Phase 0: Decisions (prerequisite to all implementation)
+
+These are design and coordination decisions, not implementation tasks.
+They require conversations with the named stakeholders before any code
+is written.
+
+*** 0a. Establish canonical CTS URNs [Cliff, Alison Babeu]
+
+The Shakespeare URN inconsistency (=shakespeare= vs. =shak= as the
+textgroup identifier) must be resolved before any file is processed.
+The same applies to the reference works: canonical textgroup and work
+identifiers need to be agreed upon and applied consistently across all
+=__cts__.xml= files and TEI document bodies.
+
+/Decision needed:/ What is the canonical textgroup identifier for
+Shakespeare? What are the canonical identifiers for Abbott, Schmidt,
+Onions, and Dyce? Are these identifiers already specified by Perseus
+cataloging conventions (Alison), or are they being established here?
+
+*** 0b. Establish schema path convention [Cliff, Charles Pletcher]
+
+The Shakespeare files reference schemas as =../../schemas/perseus_drama.rng=
+(the old =canonical-engLit/schemas/= directory). Current schemas live in
+the separate =perseus-schemas= repository. Three options:
+
+1. *Git submodule*: add =perseus-schemas= as a submodule of
+   =canonical-engLit=. Cleanest long-term; requires submodule discipline
+   across contributors.
+2. *Symlink*: =canonical-engLit/schemas= → sibling clone of
+   =perseus-schemas=. Easiest for now; fragile across machines unless
+   documented.
+3. *Commit compiled schemas*: copy =.rng= files from =perseus-schemas=
+   into =canonical-engLit/schemas/= and commit them. Simplest but
+   duplicates content that will drift.
+
+This question applies equally to other =canonical-*= repositories that
+validate against Perseus schemas; the decision establishes a precedent.
+
+/Decision needed:/ Which approach? Who owns the schema-update workflow?
+
+*** 0c. Corpus discovery in MVP [Cliff, Charles Pletcher]
+
+MVP's =config.py= does not include an =engLit= entry in =_CORPUS_LABELS=,
+and the corpus discovery code may need adjustment to handle the
+=canonical-engLit/data/= directory layout correctly. Adding =engLit=
+requires at minimum a one-line change to =config.py= and confirmation
+that =_discover_corpora= handles the =data/= subdirectory structure.
+
+/Decision needed:/ What changes to =MinimumViablePerseus= are needed,
+and who makes them?
+
+** Phase 1: Corpus Repair (=canonical-engLit/mvp= branch)
+
+*** 1a. CTS structure for Onions and Dyce
+
+Onions and Dyce are currently bare XML files with no CTS metadata.
+Required additions (following the pattern established by Abbott):
+
+- =data/onions/__cts__.xml= (textgroup)
+- =data/onions/glossary/__cts__.xml= (work + edition)
+- Relocate =onions.xml= to =data/onions/glossary/glossary.xml=
+- Same structure for Dyce
+
+Depends on: Phase 0a (URN naming).
+/Assignee:/ Claude Code.
+
+*** 1b. Content audit
+
+Before writing =citeStructure= elements, survey the actual document
+structures across all in-scope files:
+
+- Confirm all files are well-formed XML
+- Document the =refsDecl= pattern in each play (expected to be uniform
+  for Shakespeare; may vary for reference works)
+- Document the internal structure of each reference work (Abbott by
+  numbered section, Schmidt/Onions/Dyce by headword — but verify)
+- Survey =<bibl @n>= citation formats across all four reference works:
+  catalog play abbreviations, identify variant forms (ranges, missing
+  line numbers), confirm format consistency
+
+/Assignee:/ Claude Code; results reviewed by Cliff.
+
+*** 1c. =refsDecl= → =citeStructure= migration
+
+Every in-scope file needs a =citeStructure= element before MVP's
+=ReferenceParser= can chunk it.
+
+*Shakespeare (44 plays).* All plays appear to use a uniform three-level
+=refsDecl=: act / act.scene / act.scene.line, with Globe line numbers
+as =<lb ed="G" n="…"/>= milestones. The migration is uniform and can
+be handled by a single XSLT stylesheet. The resulting =citeStructure=
+will have three levels: act (=<div subtype="act">=), scene
+(=<div subtype="scene">=), and line (=<lb ed="G">= milestone).
+
+*Reference works.* The appropriate =citeStructure= depends on the
+actual document structure established in Phase 1b. Abbott's sections
+and the lexical headword entries will each require a purpose-built
+structure. These are typically one- or two-level, and simpler than the
+Shakespeare structure.
+
+Depends on: Phase 0a (URN naming), Phase 0b (schema path), Phase 1b
+(content audit).
+/Assignee:/ Claude Code (XSLT and encoding); Cliff (review and sign-off).
+
+*** 1d. Schema PI updates
+
+Update =<?xml-model?>= processing instructions in all files to point to
+the correct schema path, once Phase 0b is resolved. The applicable
+schema by document type:
+
+| Document type | Schema |
+|---------------+--------|
+| Shakespeare plays | =perseus_drama.rng= |
+| Abbott (grammar sections) | =perseus_prose.rng= |
+| Schmidt, Onions, Dyce (lexica) | =perseus_lexical.rng= |
+
+/Assignee:/ Claude Code.
+
+** Phase 2: MVP Pipeline Integration (=MinimumViablePerseus=)
+
+*** 2a. Register =engLit= in MVP
+
+Add =engLit= to =_CORPUS_LABELS= in =config.py=; confirm corpus
+discovery handles the =canonical-engLit/data/= layout correctly.
+
+Depends on: Phase 0c.
+/Assignee:/ Charles Pletcher (or Cliff with Charles's sign-off).
+
+*** 2b. Validate one Shakespeare play end-to-end
+
+Run King Lear through the full pipeline: corpus discovery →
+=ReferenceParser= → =ChunkCompiler= → dev server reading view. Review
+rendering before processing all 44 plays.
+
+Depends on: Phases 1a–1d, 2a.
+/Assignee:/ Cliff (running the pipeline); Claude Code (debugging).
+
+*** 2c. Full Shakespeare corpus
+
+Run all 44 plays through the pipeline; review a sample for rendering
+correctness.
+
+Depends on: Phase 2b.
+/Assignee:/ Claude Code; Cliff (sample review).
+
+*** 2d. Reference works through the pipeline
+
+Run Abbott, Schmidt, Onions, and Dyce through the pipeline. Lexical
+works chunk by headword rather than by act and scene; this step is
+likely to surface encoding issues not caught in the content audit.
+
+Depends on: Phase 1c (reference work =citeStructure=), Phase 2a.
+/Assignee:/ Claude Code; Cliff (review).
+
+** Phase 3: Commentary Linking Foundation
+
+*** 3a. Build play-abbreviation → CTS URN mapping
+
+The =<bibl @n>= values in the reference works (e.g.
+=n="shak. lll 5.1.50"=) encode Shakespeare citations in a normalized
+form: a play abbreviation plus act.scene.line. Once the canonical Globe
+Shakespeare CTS URNs are established (Phase 0a) and the abbreviation
+inventory is complete (Phase 1b), converting these to CTS URNs requires
+only a mapping table. This reuses citation-resolution infrastructure
+developed for the Hypervariorum project.
+
+Depends on: Phase 0a, Phase 1b.
+/Assignee:/ Cliff + Claude Chat (mapping table); Claude Code
+(implementation).
+
+*** 3b. Generate commentary links: Path A or Path B
+
+With the mapping table in place, two implementation paths are available:
+
+*Path A — encode in TEI source:* transform =<bibl @n>= to
+=<ref target="urn:cts:…">= directly in the source files.
+Philologically precise; makes citations machine-readable in the TEI.
+Requires re-running whenever source files are updated.
+
+*Path B — annotation layer:* leave source files unchanged; generate an
+inversion index (passage → reference work entries that cite it) as a
+stand-alone annotation file that MVP's commentary system can query.
+Keeps source clean; aligns with MVP's annotations-as-separate-data
+philosophy.
+
+/Decision needed/ (involves Charles on the MVP side): Path A or Path B?
+The choice determines where the commentary links live and how they are
+maintained.
+
+Depends on: Phase 3a; Path B requires alignment with MVP annotations
+architecture.
+
+* Open Questions and Decisions Needed
+
+| # | Question | Stakeholders | Phase |
+|---+----------+--------------+-------|
+| 1 | Canonical URN for Shakespeare textgroup (=shakespeare= vs. =shak=) | Cliff, Alison | 0a |
+| 2 | Canonical URNs for Abbott, Schmidt, Onions, Dyce | Cliff, Alison | 0a |
+| 3 | Schema path strategy: submodule, symlink, or committed copy | Cliff, Charles | 0b |
+| 4 | =engLit= corpus discovery changes in MVP | Cliff, Charles | 0c |
+| 5 | Commentary citation path: encode in TEI (Path A) or annotation layer (Path B) | Cliff, Charles | 3b |
+
+* Stakeholders
+
+| Person | Role | Responsibilities in this project |
+|--------+------+----------------------------------|
+| Clifford Wulfman | Project lead | Encoding decisions, TEI design, review |
+| Gregory Crane | PI | Priorities, direction, Schmidt Sciences liaison |
+| Charles Pletcher | MVP developer | Pipeline, config, corpus discovery, annotations architecture |
+| Alison Babeu | Perseus librarian | CTS URN conventions, =__cts__.xml= standards |
+| Claude Chat | Design/research assistant | Planning, analysis, deliberative record |
+| Claude Code | Implementation assistant | XSLT, Python, corpus processing |
+
+* Project Management
+
+Two infrastructure options are available for tracking this work. The
+choice should be made before implementation begins, since it affects
+how tasks are recorded and who can see them.
+
+** Option A: Forum + agenda files (as in the NVS project)
+
+Maintain a =forum.org= (deliberative record) and =agenda.org= (task
+list) in the =canonical-engLit= repository, following the protocol
+established for the NVS Hypervariorum project. Claude Chat and Claude
+Code have direct filesystem access; humans work in Emacs.
+
+/Suitable when:/ the project is primarily a one- or two-person effort;
+deliberation is complex enough to benefit from structured long-form
+records; external collaborators need no visibility into day-to-day
+progress.
+
+** Option B: GitHub Projects + Issues
+
+Use GitHub's issue tracker for task management, with issues linked to
+commits and pull requests. Claude Chat now has read/write access to
+GitHub and can create and update issues directly.
+
+/Suitable when:/ multiple human collaborators need visibility into task
+status; tasks map cleanly to discrete, well-bounded GitHub actions;
+deliberation is lightweight.
+
+** Option C: Hybrid (recommended)
+
+GitHub Issues for task tracking — visible to all collaborators and
+linked to commits — with a local =forum.org= for substantive design
+deliberation. The structured, multi-turn discussions that characterize
+encoding decisions and pipeline design choices are poorly suited to
+GitHub issue threads; a =forum.org= handles them better.
+
+This is the recommended model for this project, given that it involves
+collaboration with Charles and Alison alongside solo encoding work.
+
+*Concrete implementation:*
+- Create a milestone in =canonical-engLit= for this sprint
+- File GitHub issues for each Phase 0–3 task (linked to this document)
+- Maintain a =forum.org= in =canonical-engLit= for design questions
+  (URN naming, schema path, citation path choice)
+- Use the =agenda.org= convention only for tasks that Claude Code needs
+  detailed context to implement
