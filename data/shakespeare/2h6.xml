@@ -36,8 +36,8 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -294,10 +294,10 @@
         <stage type="setting">SCENE: England.</stage>
       </div>
 
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
         <lb ed="F1" n="2"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">London. The palace.</stage>
           <lb ed="F1" n="3"/>
@@ -620,7 +620,7 @@
           </sp>
 
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">The DUKE of GLOUCESTER'S house.</stage>
           <lb ed="F1" n="273"/>
@@ -777,7 +777,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">The palace.</stage>
           <lb ed="F1" n="384"/>
@@ -1221,7 +1221,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">GLOUCESTER'S garden.</stage>
           <lb ed="F1" n="619"/>
@@ -1395,9 +1395,9 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Saint Alban's</stage>
           <lb ed="F1" n="715"/>
@@ -2025,7 +2025,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">London. The DUKE of YORK'S garden.</stage>
           <lb ed="F1" n="959"/>
@@ -2156,7 +2156,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">A hall of justice.</stage>
           <lb ed="F1" n="1051"/>
@@ -2369,7 +2369,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">A street.</stage>
           <lb ed="F1" n="1169"/>
@@ -2567,10 +2567,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
 
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The Abbey at Bury St. Edmund's.</stage>
           <lb ed="F1" n="1292"/>
@@ -3104,7 +3104,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Bury St. Edmund's. A room of state.</stage>
           <lb ed="F1" n="1690"/>
@@ -3758,7 +3758,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">A bedchamber.</stage>
           <lb ed="F1" n="2132"/>
@@ -3841,9 +3841,9 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The coast of Kent. <lb ed="F1" n="2168"/>Alarum. Fight at sea.
             Ordnance goes off. </stage>
@@ -4123,7 +4123,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Blackheath.</stage>
           <stage type="entrance">Enter GEORGE BEVIS and JOHN HOLLAND.</stage>
@@ -4639,7 +4639,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Another part of Blackheath. <lb ed="F1" n="2511"/>Alarums to the
             fight, wherein both the STAFFORDS are slain.</stage>
@@ -4693,7 +4693,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">London. The palace.</stage>
           <lb ed="F1" n="2530"/>
@@ -4846,7 +4846,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">London. The Tower.</stage>
           <lb ed="F1" n="2598"/>
@@ -4881,7 +4881,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <stage type="setting">London. Cannon Street.</stage>
           <lb ed="F1" n="2613"/>
@@ -4931,7 +4931,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
           <head>SCENE VII</head>
           <stage type="setting">London. Smithfield. <lb ed="F1" n="2633"/>Alarums. MATTHEW GOFFE is
             slain, and all the rest.</stage>
@@ -5198,7 +5198,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="8">
+        <div type="scene" n="8">
           <head>SCENE VIII</head>
           <stage type="setting">Southwark. <lb ed="F1" n="2773"/>Alarum and retreat.</stage>
           <stage type="entrance">Enter CADE <lb ed="F1" n="2774"/>and all his rabblement. </stage>
@@ -5299,7 +5299,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="9">
+        <div type="scene" n="9">
           <head>SCENE IX</head>
           <stage type="setting">Kenilworth Castle. <lb ed="F1" n="2848"/>Sound trumpets.</stage>
           <stage type="entrance">Enter KING, QUEEN, and <lb ed="F1" n="2849"/>SOMERSET, on the
@@ -5390,7 +5390,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="10">
+        <div type="scene" n="10">
           <head>SCENE X</head>
           <stage type="setting">Kent. Iden's Garden.</stage>
           <lb ed="F1" n="2905"/>
@@ -5507,10 +5507,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
 
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Fields between Dartford and Blackheath.</stage>
           <lb ed="F1" n="2990"/>
@@ -5961,7 +5961,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">St. Alban's. Alarums to the battle.</stage>
           <lb ed="F1" n="3218"/>
@@ -6129,7 +6129,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Fields near St. Alban's. <lb ed="F1" n="3319"/>Alarum.
             Retreat.</stage>
@@ -6188,6 +6188,6 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

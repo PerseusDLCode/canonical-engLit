@@ -37,7 +37,7 @@
 
     <text xml:lang="eng">
         <front>
-            <div type="textpart" subtype="act" n="cast">
+            <div type="act" n="cast">
                 <head>DRAMATIS PERSONÆ</head>
                 <castList>
                     <castItem type="role">
@@ -139,12 +139,12 @@
             </div>
         </front>
 
-        <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+        <body>
 
-            <div type="textpart" subtype="act" n="1">
+            <div type="act" n="1">
                 <head>ACT I</head>
                 <lb ed="F1" n="2"/>
-                <div type="textpart" subtype="scene" n="1">
+                <div type="scene" n="1">
                     <head>SCENE I</head>
                     <stage type="setting">Windsor. Before PAGE'S house.</stage>
                     <lb ed="F1" n="3"/>
@@ -788,7 +788,7 @@
                         </p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="2">
+                <div type="scene" n="2">
                     <head>SCENE II</head>
                     <lb ed="F1" n="286"/>
                     <stage type="setting">The same.</stage>
@@ -816,7 +816,7 @@
                         </p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="3">
+                <div type="scene" n="3">
                     <head>SCENE III</head>
                     <lb ed="F1" n="299"/>
                     <stage type="setting">A room in the Garter Inn.</stage>
@@ -1046,7 +1046,7 @@
                         <p part="N">Thou art the Mars of malecontents: <lb ed="G"/>I second <lb ed="F1" n="396"/>thee; troop on. <lb ed="G"/><stage>[Exeunt.</stage></p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="4">
+                <div type="scene" n="4">
                     <head>SCENE IV</head>
                     <lb ed="F1" n="397"/>
                     <stage type="setting">A room in DOCTOR CAIUS'S house.</stage>
@@ -1375,10 +1375,10 @@
                 </div>
             </div>
 
-            <div type="textpart" subtype="act" n="2">
+            <div type="act" n="2">
                 <head>ACT II</head>
                 <lb ed="F1" n="551"/>
-                <div type="textpart" subtype="scene" n="1">
+                <div type="scene" n="1">
                     <head>SCENE I</head>
                     <stage type="setting">Before PAGE'S house. </stage>
                     <lb ed="F1" n="552"/>
@@ -1786,7 +1786,7 @@
                             labour well <lb ed="G"/>bestowed. <stage>[Exit.</stage></p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="2">
+                <div type="scene" n="2">
                     <head>SCENE II</head>
                     <lb ed="F1" n="769"/>
                     <stage type="setting">A room in the Garter Inn.</stage>
@@ -2263,7 +2263,7 @@
                             <stage>[Exit.</stage></p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="3">
+                <div type="scene" n="3">
                     <head>SCENE III</head>
                     <lb ed="F1" n="1065"/>
                     <stage type="setting">A field near Windsor.</stage>
@@ -2487,10 +2487,10 @@
                 </div>
             </div>
 
-            <div type="textpart" subtype="act" n="3">
+            <div type="act" n="3">
                 <head>ACT III</head>
                 <lb ed="F1" n="1157"/>
-                <div type="textpart" subtype="scene" n="1">
+                <div type="scene" n="1">
                     <head>SCENE I</head>
                     <stage type="setting">A field near Frogmore.</stage>
                     <lb ed="F1" n="1158"/>
@@ -2746,7 +2746,7 @@
                             <lb ed="G"/></p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="2">
+                <div type="scene" n="2">
                     <head>SCENE II</head>
                     <lb ed="F1" n="1268"/>
                     <lb ed="F1" n="1269"/>
@@ -2921,7 +2921,7 @@
                         </l>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="3">
+                <div type="scene" n="3">
                     <head>SCENE III</head>
                     <lb ed="F1" n="1350"/>
                     <stage type="setting">A room in FORD'S house.</stage>
@@ -3405,7 +3405,7 @@
                             <lb ed="G"/></p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="4">
+                <div type="scene" n="4">
                     <head>SCENE IV</head>
                     <lb ed="F1" n="1566"/>
                     <stage type="setting">A room in PAGE'S house.</stage>
@@ -3662,7 +3662,7 @@
                         </p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="5">
+                <div type="scene" n="5">
                     <head>SCENE V</head>
                     <lb ed="F1" n="1678"/>
                     <stage type="setting">A room in the Garter Inn.</stage>
@@ -3913,10 +3913,10 @@
                 </div>
             </div>
 
-            <div type="textpart" subtype="act" n="4">
+            <div type="act" n="4">
                 <head>ACT IV</head>
                 <lb ed="F1" n="1821"/>
-                <div type="textpart" subtype="scene" n="1">
+                <div type="scene" n="1">
                     <head>SCENE I</head>
                     <stage type="setting">A street.</stage>
                     <lb ed="F1" n="1822"/>
@@ -4130,7 +4130,7 @@
                         </p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="2">
+                <div type="scene" n="2">
                     <head>SCENE II</head>
                     <lb ed="F1" n="1898"/>
                     <stage type="setting">A room in FORD'S house.</stage>
@@ -4571,7 +4571,7 @@
                             <lb ed="G"/></p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="3">
+                <div type="scene" n="3">
                     <head>SCENE III</head>
                     <lb ed="F1" n="2107"/>
                     <stage type="setting">A room in the Garter Inn.</stage>
@@ -4604,7 +4604,7 @@
                         </p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="4">
+                <div type="scene" n="4">
                     <head>SCENE IV</head>
                     <lb ed="F1" n="2120"/>
                     <stage type="setting">A room in FORD'S house.</stage>
@@ -4790,7 +4790,7 @@
                         </l>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="5">
+                <div type="scene" n="5">
                     <head>SCENE V</head>
                     <lb ed="F1" n="2217"/>
                     <stage type="setting">A room in the Garter Inn.</stage>
@@ -5038,7 +5038,7 @@
                         </l>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="6">
+                <div type="scene" n="6">
                     <head>SCENE VI</head>
                     <lb ed="F1" n="2343"/>
                     <stage type="setting">Another room in the Garter Inn.</stage>
@@ -5129,10 +5129,10 @@
                 </div>
             </div>
 
-            <div type="textpart" subtype="act" n="5">
+            <div type="act" n="5">
                 <head>ACT V</head>
                 <lb ed="F1" n="2400"/>
-                <div type="textpart" subtype="scene" n="1">
+                <div type="scene" n="1">
                     <head>SCENE I</head>
                     <stage type="setting">A room in the Garter Inn.</stage>
                     <lb ed="F1" n="2401"/>
@@ -5179,7 +5179,7 @@
                         </p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="2">
+                <div type="scene" n="2">
                     <head>SCENE II</head>
                     <lb ed="F1" n="2430"/>
                     <stage type="setting">Windsor Park.</stage>
@@ -5214,7 +5214,7 @@
                         </p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="3">
+                <div type="scene" n="3">
                     <head>SCENE III</head>
                     <lb ed="F1" n="2446"/>
                     <stage type="setting">A street leading to the Park.</stage>
@@ -5276,7 +5276,7 @@
                         </p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="4">
+                <div type="scene" n="4">
                     <head>SCENE IV</head>
                     <lb ed="F1" n="2472"/>
                     <stage type="setting">Windsor Park.</stage>
@@ -5295,7 +5295,7 @@
                         </p>
                     </sp>
                 </div>
-                <div type="textpart" subtype="scene" n="5">
+                <div type="scene" n="5">
                     <head>SCENE V</head>
                     <lb ed="F1" n="2478"/>
                     <stage type="setting">Another part of the Park.</stage>
@@ -5468,7 +5468,7 @@
                         <speaker>Quick.</speaker>
                         <l part="N">Corrupt, corrupt, and tainted in desire! <lb ed="G"/><lb ed="F1" n="2575"/></l>
                         <l part="N">About him, fairies; sing a scornful rhyme; <lb ed="G"/><lb ed="F1" n="2576"/></l>
-                        <l part="N">And, as you trip, still pinch him to your time. <lb ed="G"/><lb ed="F1" n="2577"/><floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><head>SONG.</head>
+                        <l part="N">And, as you trip, still pinch him to your time. <lb ed="G"/><lb ed="F1" n="2577"/><floatingText xml:lang="eng"><body><head>SONG.</head>
                                     <lg type="song" part="N" org="uniform" sample="complete">
                                         <lb ed="G"/><lb ed="F1" n="2578"/><l part="N">Fie on sinful fantasy!
                                                 <lb ed="G"/></l><l part="N">Fie on lust and luxury! <lb ed="G"/><lb ed="F1" n="2579"/></l><l part="N">Lust is but a
@@ -5477,7 +5477,7 @@
                                             them, higher and higher. <lb ed="G"/><lb ed="F1" n="2582"/></l><l part="N">Pinch him, fairies, mutually; <lb ed="G"/></l><l part="N">Pinch him for his villany; <lb ed="G"/><lb ed="F1" n="2583"/></l><l part="N">Pinch him, and burn
                                             him, and turn him about, <lb ed="G"/><lb ed="F1" n="2584"/></l><l part="N">Till candles and starlight and
                                             moonshine be out.</l>
-                                    </lg></div></body></floatingText>
+                                    </lg></body></floatingText>
                             <stage>During this song they pinch FALSTAFF. DOCTOR CAIUS comes one way,
                                 and steals away a boy in green; SLENDER another way, and takes off a
                                 boy in white; and FENTON comes, and steals away MRS ANNE PAGE. A
@@ -5756,6 +5756,6 @@
                     </sp>
                 </div>
             </div>
-        </div></body>
+        </body>
     </text>
 </TEI>

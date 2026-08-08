@@ -36,8 +36,8 @@
  </teiHeader>
 
  <text xml:lang="eng">
-  <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-   <div type="textpart" subtype="act" n="cast">
+  <body>
+   <div type="act" n="cast">
     <head>DRAMATIS PERSONÆ</head>
     <castList>
      <castItem type="role">
@@ -206,7 +206,7 @@
      </castItem>
     </castList>
    </div>
-   <div type="textpart" subtype="act" n="prologue">
+   <div type="act" n="prologue">
     <head>THE PROLOGUE.</head>
     <lb ed="G"/>
     <lb ed="F1" n="2"/>
@@ -226,10 +226,10 @@
      then in a moment, see <lb ed="G" n="30"/><lb ed="F1" n="31"/>How soon this mightiness meets
      misery: <lb ed="G"/><lb ed="F1" n="32"/>And, if you can be merry then, I'll say <lb ed="G"/><lb ed="F1" n="33"/>A man may weep upon his wedding-day. </p>
    </div>
-   <div type="textpart" subtype="act" n="1">
+   <div type="act" n="1">
     <head>ACT I</head>
     <lb ed="F1" n="34"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">London. An ante-chamber in the palace.</stage>
      <lb ed="F1" n="35"/>
@@ -687,7 +687,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <lb ed="F1" n="316"/>
      <stage type="setting">The same. The council-chamber.</stage>
@@ -1084,7 +1084,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <lb ed="F1" n="569"/>
      <stage type="setting">An antechamber in the palace.</stage>
@@ -1252,7 +1252,7 @@
       <l part="N">I am your lordship's. <stage type="exit">Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <lb ed="F1" n="660"/>
      <stage type="setting">A Hall in York Place</stage>
@@ -1567,10 +1567,10 @@
      </sp>
     </div>
    </div>
-   <div type="textpart" subtype="act" n="2">
+   <div type="act" n="2">
     <head>ACT II</head>
     <lb ed="F1" n="819"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">Westminster. A street.</stage>
      <lb ed="F1" n="820"/>
@@ -1910,7 +1910,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <lb ed="F1" n="1026"/>
      <stage type="setting">An ante-chamber in the palace.</stage>
@@ -2250,7 +2250,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <lb ed="F1" n="1200"/>
      <stage type="setting">An ante-chamber of the QUEEN'S apartments.</stage>
@@ -2486,7 +2486,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <lb ed="F1" n="1331"/>
      <stage type="setting">A hall in Black-Friars.</stage>
@@ -2871,10 +2871,10 @@
      </sp>
     </div>
    </div>
-   <div type="textpart" subtype="act" n="3">
+   <div type="act" n="3">
     <head>ACT III</head>
     <lb ed="F1" n="1614"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">London. The QUEEN'S apartments.</stage>
      <lb ed="F1" n="1615"/>
@@ -3198,7 +3198,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <lb ed="F1" n="1823"/>
      <stage type="setting">Ante-chamber to the King's apartment.</stage>
@@ -4100,10 +4100,10 @@
      </sp>
     </div>
    </div>
-   <div type="textpart" subtype="act" n="4">
+   <div type="act" n="4">
     <head>ACT IV</head>
     <lb ed="F1" n="2376"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">A street in Westminster.</stage>
      <lb ed="F1" n="2377"/>
@@ -4408,7 +4408,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <lb ed="F1" n="2547"/>
      <stage type="setting">Kimbolton.</stage>
@@ -4752,10 +4752,10 @@
      </sp>
     </div>
    </div>
-   <div type="textpart" subtype="act" n="5">
+   <div type="act" n="5">
     <head>ACT V</head>
     <lb ed="F1" n="2768"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">London. A gallery in the palace.</stage>
      <lb ed="F1" n="2769"/>
@@ -5148,7 +5148,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <lb ed="F1" n="2987"/>
      <stage type="setting">Before the council-chamber.</stage>
@@ -5247,7 +5247,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <stage type="setting">The Council-Chamber.</stage>
      <lb ed="F1" n="3035"/>
@@ -5634,7 +5634,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <lb ed="F1" n="3256"/>
      <stage type="setting">The palace yard.</stage>
@@ -5785,7 +5785,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="5">
+    <div type="scene" n="5">
      <head>SCENE V</head>
      <lb ed="F1" n="3353"/>
      <stage type="setting">The palace.</stage>
@@ -5920,7 +5920,7 @@
      </sp>
     </div>
    </div>
-   <div type="textpart" subtype="act" n="epilogue">
+   <div type="act" n="epilogue">
     <head>EPILOGUE.</head>
     <lb ed="F1" n="3449"/>
     <lb ed="G"/>
@@ -5940,6 +5940,6 @@
     <l part="N">All the best men are ours; for 'tis ill hap, <lb ed="G"/><lb ed="F1" n="3463"/></l>
     <l part="N">If they hold when their ladies bid 'em clap.</l>
    </div>
-  </div></body>
+  </body>
  </text>
 </TEI>

@@ -36,8 +36,8 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -129,9 +129,9 @@
       </div>
 
 
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
 
           <stage type="setting">On a ship at sea: a tempestuous noise of thunder and lightning
@@ -295,7 +295,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="80"/>
           <stage type="setting">The island. Before PROSPERO'S cell.</stage>
@@ -1050,13 +1050,13 @@
             <l part="I">So, slave; hence! <stage type="exit">[Exit Caliban.</stage>
               <stage type="entrance"> Re-enter ARIEL, invisible, playing and singing; FERDINAND
                 following. </stage>
-              <lb ed="G"/><floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><head>ARIEL'S song.</head>
+              <lb ed="G"/><floatingText xml:lang="eng"><body><head>ARIEL'S song.</head>
                   <lg type="song" part="N" org="uniform" sample="complete">
                     <lb ed="F1" n="519"/><l part="N"> Come unto these yellow sands. <lb ed="G"/><lb ed="F1" n="520"/></l><l part="N">And then take hands: Courtsied when you have and kiss'd <lb ed="G" n="380"/><lb ed="F1" n="521"/></l><l part="N">The wild waves whist, Foot it
                       featly here and there; <lb ed="G"/><lb ed="F1" n="522"/></l><l part="N">And, sweet
                       sprites, the burthen bear. <stage>Burthen [dispersedly]</stage>
                       <lb ed="G"/><lb ed="F1" n="523"/></l><l part="I">. Hark, hark! <lb ed="G"/><lb ed="F1" n="524"/></l><l part="F">Bow-wow. <lb ed="G"/><lb ed="F1" n="525"/></l><l part="I">The watch-dogs bark: <lb ed="G"/><lb ed="F1" n="526"/></l><l part="F">Bow-wow.</l>
-                  </lg></div></body></floatingText>
+                  </lg></body></floatingText>
               <lb ed="G"/><lb ed="F1" n="527"/></l>
           </sp>
           <sp who="ari.">
@@ -1334,10 +1334,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
         <lb ed="F1" n="674"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Another part of the island.</stage>
           <lb ed="F1" n="675"/>
@@ -2200,7 +2200,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="1037"/>
           <stage type="setting">Another part of the island.</stage>
@@ -2504,10 +2504,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
         <lb ed="F1" n="1234"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Before PROSPERO's cell.</stage>
           <lb ed="F1" n="1235"/>
@@ -2710,7 +2710,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="1350"/>
           <stage type="setting">Another part of the island.</stage>
@@ -3068,7 +3068,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="1513"/>
           <stage type="setting">Another part of the island.</stage>
@@ -3315,10 +3315,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
         <lb ed="F1" n="1650"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Before PROSPERO'S cell.</stage>
           <lb ed="F1" n="1651"/>
@@ -3865,10 +3865,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
         <lb ed="F1" n="1945"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Before PROSPERO's cell.</stage>
           <lb ed="F1" n="1946"/>
@@ -4514,10 +4514,10 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
     <back>
 
-      <div type="textpart" subtype="act" n="epilogue">
+      <div type="act" n="epilogue">
         <head>EPILOGUE.</head>
         <lb ed="F1" n="2320"/>
         <lb ed="F1" n="2321"/>

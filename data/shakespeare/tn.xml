@@ -38,7 +38,7 @@
   <text xml:lang="eng">
     <front>
 
-      <div type="textpart" subtype="act" n="cast">
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -131,11 +131,11 @@
       </set>
     </front>
 
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+    <body>
       <lb ed="F1" n="2"/>
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The DUKE'S palace.</stage>
           <lb ed="F1" n="3"/>
@@ -212,7 +212,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="49"/>
           <stage type="setting">The sea-coast.</stage>
@@ -352,7 +352,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="117"/>
           <stage type="setting">OLIVIA'S house.</stage>
@@ -652,7 +652,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb ed="F1" n="249"/>
           <stage type="setting">The DUKE'S palace.</stage>
@@ -748,7 +748,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb ed="F1" n="295"/>
           <stage type="setting">OLIVIA'S house.</stage>
@@ -1377,10 +1377,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
         <lb ed="F1" n="610"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The sea-coast.</stage>
           <lb ed="F1" n="611"/>
@@ -1455,7 +1455,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="655"/>
           <stage type="setting">A street.</stage>
@@ -1521,7 +1521,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="698"/>
           <stage type="setting">OLIVIA'S house.</stage>
@@ -1952,7 +1952,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb ed="F1" n="882"/>
           <stage type="setting">The DUKE'S palace.</stage>
@@ -2078,7 +2078,7 @@
             <p part="N">
               <lb ed="F1" n="940"/>
               <floatingText xml:lang="eng">
-                <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+                <body>
                   <head>SONG</head>
                   <lg type="song" part="N" org="uniform" sample="complete">
                     <lb ed="F1" n="941"/>
@@ -2098,7 +2098,7 @@
                     <l part="N">Sad true lover never find my grave, </l>
                     <l part="N">To weep there! </l>
                   </lg>
-                </div></body>
+                </body>
               </floatingText>
 
 
@@ -2227,7 +2227,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb ed="F1" n="1015"/>
           <stage type="setting">OLIVIA'S garden.</stage>
@@ -2552,7 +2552,7 @@
             <speaker>Mal.</speaker>
             <p part="N">M, O, A, I; this simulation is not <lb ed="G"/>as the former: <lb ed="F1" n="1146"/>and yet, to crush this a little, <lb ed="G"/>it would bow to me, for every <lb ed="F1" n="1147"/>one of these <lb ed="G"/>letters are in my name. Soft! here
               follows <lb ed="G"/><lb ed="F1" n="1148"/><lb ed="G"/>prose. <stage>[Reads]</stage>
-              <floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+              <floatingText xml:lang="eng"><body>
                   <p part="N">'If this fall into thy hand, revolve. In <lb ed="G"/>my stars <lb ed="F1" n="1149"/>I am above thee; but be not afraid <lb ed="G"/>of greatness: some
                       <lb ed="F1" n="1150"/>are born great, some <lb ed="G"/>achieve greatness, and
                     some <lb ed="F1" n="1151"/>have greatnes <lb ed="G"/>thrust upon 'em. Thy Fates
@@ -2568,7 +2568,7 @@
                     <lb ed="G"/>to be so; if not, let me see thee a <lb ed="G"/>steward <lb ed="F1" n="1161"/>still, the fellow of servants, and not <lb ed="G"/>worthy to <lb ed="F1" n="1162"/>touch Fortune's fingers. Farewell. <lb ed="G"/>She that
                     would alter <lb ed="F1" n="1163"/>service with thee. <lb ed="G"/>
                   </p><closer><signed>THE FORTUNATE-UNHAPPY</signed>.'</closer>
-                </div></body></floatingText>
+                </body></floatingText>
               <lb ed="G"/>Daylight and <lb ed="F1" n="1164"/>champain discovers not more: <lb ed="G"/>this is open. I will be <lb ed="F1" n="1165"/>proud, I will read politic <lb ed="G"/>authors, I will baffle Sir <lb ed="F1" n="1166"/>Toby, I will wash off <lb ed="G"/>gross acquaintance, I will be point-devise <lb ed="F1" n="1167"/>the <lb ed="G"/>very man. I do not now fool myself, to let <lb ed="G"/><lb ed="F1" n="1168"/><lb ed="G"/>imagination jade me; for every reason excites <lb ed="G"/>to this, <lb ed="F1" n="1169"/>that my lady loves me. She did commend <lb ed="G"/>my yellow <lb ed="F1" n="1170"/>stockings of late, she did <lb ed="G"/>praise my leg being
               cross-gartered; <lb ed="F1" n="1171"/>and in this <lb ed="G"/>she manifests herself to
               my love, and <lb ed="F1" n="1172"/>with a <lb ed="G"/>kind of injunction drives me to
@@ -2577,11 +2577,11 @@
               yellow stockings, and <lb ed="G"/>cross-gartered, <lb ed="F1" n="1175"/>even with the
               swiftness of putting <lb ed="G"/>on. Jove and my <lb ed="F1" n="1176"/>stars be
               praised! Here <lb ed="G"/>is yet a postscript. <stage>[Reads]</stage>
-              <floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+              <floatingText xml:lang="eng"><body>
                   <lb ed="G"/><p part="N">'Thou canst <lb ed="F1" n="1177"/>not choose but know who <lb ed="G"/>I am. If thou entertainest my love, let <lb ed="F1" n="1178"/>it
                     appear <lb ed="G"/>in thy smiling; thy smiles become thee <lb ed="G"/>well;
                     therefore <lb ed="F1" n="1179"/>in my presence still smile, dear <lb ed="G"/>my
-                    sweet, I prithee.' </p></div></body></floatingText>
+                    sweet, I prithee.' </p></body></floatingText>
               <lb ed="G"/>Jove, <lb ed="F1" n="1180"/>I thank thee: I will smile; I will do <lb ed="G"/>everything that thou <lb ed="F1" n="1181"/>wilt have me.
                 <stage>[Exit.</stage>
               <lb ed="G"/><lb ed="F1" n="1182"/></p>
@@ -2660,10 +2660,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
         <lb ed="F1" n="1212"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">OLIVIA'S garden.</stage>
           <lb ed="F1" n="1213"/>
@@ -3017,7 +3017,7 @@
             <l part="N">That heart, which now abhors, to like his love. <stage>[Exeunt. </stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <lb ed="F1" n="1380"/>
           <stage type="setting">OLIVIA's house.</stage>
@@ -3164,7 +3164,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="1465"/>
           <stage type="setting">A street.</stage>
@@ -3273,7 +3273,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="1520"/>
           <stage type="setting">OLIVIA'S garden.</stage>
@@ -3664,12 +3664,12 @@
           <sp who="sir-to.">
             <speaker>Sir To.</speaker>
             <stage>[Reads]</stage>
-            <p part="N"><floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><lb ed="F1" n="1684"/><p part="N">'Fare thee well; and God <lb ed="G"/>have mercy
+            <p part="N"><floatingText xml:lang="eng"><body><lb ed="F1" n="1684"/><p part="N">'Fare thee well; and God <lb ed="G"/>have mercy
                     upon one of our <lb ed="F1" n="1685"/>souls! He may <lb ed="G"/>have mercy upon
                     mine; but my hope is better, <lb ed="G"/><lb ed="F1" n="1686"/><lb ed="G"/>and
                     so look to thyself. Thy friend, as thou <lb ed="G"/>usest him, and thy <lb ed="F1" n="1687"/>sworn enemy, <lb ed="G"/>
                   </p><closer><signed>ANDREW AGUECHEEK</signed>.</closer>
-                </div></body></floatingText>
+                </body></floatingText>
               <lb ed="G"/><lb ed="F1" n="1688"/><lb ed="G"/>If this letter move him not, his legs
               cannot: <lb ed="G"/><lb ed="F1" n="1689"/><lb ed="G"/>I'll give't him. <lb ed="G"/><lb ed="F1" n="1690"/></p>
           </sp>
@@ -4093,10 +4093,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
         <lb ed="F1" n="1917"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Before OLIVIA'S house.</stage>
           <lb ed="F1" n="1918"/>
@@ -4232,7 +4232,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="1984"/>
           <stage type="setting">OLIVIA'S house.</stage>
@@ -4516,7 +4516,7 @@
             <stage>[Exit.</stage>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="2113"/>
           <stage type="setting">OLIVIA'S garden.</stage>
@@ -4576,10 +4576,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
         <lb ed="F1" n="2152"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Before OLIVIA's house.</stage>
           <lb ed="F1" n="2153"/>
@@ -5209,7 +5209,7 @@
             <stage>[Reads]</stage>
             <p part="N">
               <floatingText xml:lang="eng">
-                <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+                <body>
                   <lb ed="F1" n="2469"/>
                   <p part="N">'By the Lord, madam, you <lb ed="G"/>wrong me, and <lb ed="F1" n="2470"/>the
                     world shall know it: <lb ed="G"/>though you have put me into <lb ed="F1" n="2471"/>darkness and <lb ed="G"/>given your drunken cousin rule over me, <lb ed="F1" n="2472"/>yet <lb ed="G"/>have I the benefit of my senses as well as
@@ -5221,7 +5221,7 @@
                     speak <lb ed="G"/>out of my injury. <lb ed="G"/>
                   </p>
                   <closer><signed>THE MADLY-USED MALVOLIO</signed>.'</closer>
-                </div></body>
+                </body>
               </floatingText>
 
 
@@ -5399,6 +5399,6 @@
         </div>
       </div>
 
-    </div></body>
+    </body>
   </text>
 </TEI>

@@ -37,7 +37,7 @@
 
    <text xml:lang="eng">
       <front>
-         <div type="textpart" subtype="act" n="cast">
+         <div type="act" n="cast">
             <head>DRAMATIS PERSONÆ</head>
             <castList>
                <castItem type="role">
@@ -106,11 +106,11 @@
             <p part="N">SCENE, Verona; Milan; the frontiers of Mantua.</p>
          </set>
       </front>
-      <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-         <div type="textpart" subtype="act" n="1">
+      <body>
+         <div type="act" n="1">
             <head>ACT I</head>
             <lb ed="F1" n="2"/>
-            <div type="textpart" subtype="scene" n="1">
+            <div type="scene" n="1">
                <head>SCENE I</head>
                <stage type="setting">Verona. An open place.</stage>
                <lb ed="F1" n="3"/>
@@ -458,7 +458,7 @@
                   </l>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="2">
+            <div type="scene" n="2">
                <head>SCENE II</head>
                <lb ed="F1" n="152"/>
                <stage type="setting">The same. Garden of JULIA'S house. </stage>
@@ -839,7 +839,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="3">
+            <div type="scene" n="3">
                <head>SCENE III</head>
                <lb ed="F1" n="300"/>
                <stage type="setting">The same. ANTONIO'S house.</stage>
@@ -1021,10 +1021,10 @@
                </sp>
             </div>
          </div>
-         <div type="textpart" subtype="act" n="2">
+         <div type="act" n="2">
             <head>ACT II</head>
             <lb ed="F1" n="395"/>
-            <div type="textpart" subtype="scene" n="1">
+            <div type="scene" n="1">
                <head>SCENE I</head>
                <stage type="setting">Milan. The DUKE'S palace.</stage>
                <lb ed="F1" n="396"/>
@@ -1477,7 +1477,7 @@
                   </p>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="2">
+            <div type="scene" n="2">
                <head>SCENE II</head>
                <lb ed="F1" n="566"/>
                <stage type="setting">Verona. JULIA'S house.</stage>
@@ -1542,7 +1542,7 @@
                   </l>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="3">
+            <div type="scene" n="3">
                <head>SCENE III</head>
                <lb ed="F1" n="591"/>
                <stage type="setting">The same. A street.</stage>
@@ -1646,7 +1646,7 @@
                   </p>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="4">
+            <div type="scene" n="4">
                <head>SCENE IV</head>
                <lb ed="F1" n="653"/>
                <stage type="setting">Milan. The DUKE'S palace</stage>
@@ -2166,7 +2166,7 @@
                   </l>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="5">
+            <div type="scene" n="5">
                <head>SCENE V</head>
                <lb ed="F1" n="871"/>
                <stage type="setting">The same. A street.</stage>
@@ -2316,7 +2316,7 @@
                   </p>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="6">
+            <div type="scene" n="6">
                <head>SCENE VI</head>
                <lb ed="F1" n="928"/>
                <stage type="setting">The same. The DUKE'S palace.</stage>
@@ -2373,7 +2373,7 @@
                   </l>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="7">
+            <div type="scene" n="7">
                <head>SCENE VII</head>
                <lb ed="F1" n="975"/>
                <stage type="setting">Verona. JULIA'S house.</stage>
@@ -2551,10 +2551,10 @@
             </div>
          </div>
 
-         <div type="textpart" subtype="act" n="3">
+         <div type="act" n="3">
             <head>ACT III</head>
             <lb ed="F1" n="1068"/>
-            <div type="textpart" subtype="scene" n="1">
+            <div type="scene" n="1">
                <head>SCENE I</head>
                <stage type="setting">Milan. The DUKE'S palace.</stage>
                <lb ed="F1" n="1069"/>
@@ -3327,7 +3327,7 @@
                   </p>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="2">
+            <div type="scene" n="2">
                <head>SCENE II</head>
                <lb ed="F1" n="1445"/>
                <stage type="setting">The same. The DUKE'S palace.</stage>
@@ -3530,10 +3530,10 @@
             </div>
          </div>
 
-         <div type="textpart" subtype="act" n="4">
+         <div type="act" n="4">
             <head>ACT IV</head>
             <lb ed="F1" n="1544"/>
-            <div type="textpart" subtype="scene" n="1">
+            <div type="scene" n="1">
                <head>SCENE I</head>
                <stage type="setting">The frontiers of Mantua. A forest.</stage>
                <lb ed="F1" n="1545"/>
@@ -3734,7 +3734,7 @@
                   </l>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="2">
+            <div type="scene" n="2">
                <head>SCENE II</head>
                <lb ed="F1" n="1622"/>
                <stage type="setting">Milan. Outside the DUKE'S palace, under SILVIA'S chamber. </stage>
@@ -4092,7 +4092,7 @@
                   </l>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="3">
+            <div type="scene" n="3">
                <head>SCENE III</head>
                <lb ed="F1" n="1766"/>
                <stage type="setting">The same.</stage>
@@ -4191,7 +4191,7 @@
                   </l>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="4">
+            <div type="scene" n="4">
                <head>SCENE IV</head>
                <lb ed="F1" n="1819"/>
                <stage type="setting">The same.</stage>
@@ -4542,10 +4542,10 @@
                </sp>
             </div>
          </div>
-         <div type="textpart" subtype="act" n="5">
+         <div type="act" n="5">
             <head>ACT V</head>
             <lb ed="F1" n="2024"/>
-            <div type="textpart" subtype="scene" n="1">
+            <div type="scene" n="1">
                <head>SCENE I</head>
                <stage type="setting">Milan. An abbey.</stage>
                <lb ed="F1" n="2025"/>
@@ -4578,7 +4578,7 @@
                   </l>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="2">
+            <div type="scene" n="2">
                <head>SCENE II</head>
                <lb ed="F1" n="2038"/>
                <stage type="setting">The same. The DUKE'S palace.</stage>
@@ -4778,7 +4778,7 @@
                   </l>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="3">
+            <div type="scene" n="3">
                <head>SCENE III</head>
                <lb ed="F1" n="2099"/>
                <stage type="setting">The frontiers of Mantua. The forest.</stage>
@@ -4825,7 +4825,7 @@
                   </l>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="4">
+            <div type="scene" n="4">
                <head>SCENE IV</head>
                <lb ed="F1" n="2117"/>
                <stage type="setting">Another part of the forest.</stage>
@@ -5184,6 +5184,6 @@
                </sp>
             </div>
          </div>
-      </div></body>
+      </body>
    </text>
 </TEI>

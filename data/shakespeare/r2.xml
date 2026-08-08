@@ -34,8 +34,8 @@
     <revisionDesc><change><ab>converted to TEI P5</ab></change></revisionDesc>
   </teiHeader>
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -274,10 +274,10 @@
         </castList>
       </div>
 
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
         <lb ed="F1" n="2"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">London. KING RICHARD'S palace.</stage>
           <lb ed="F1" n="3"/>
@@ -582,7 +582,7 @@
             <l part="N">Be ready to direct these home alarms. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="216"/>
           <stage type="setting">The DUKE OF LANCASTER'S palace.</stage>
@@ -690,7 +690,7 @@
             <l part="N">The last leave of thee takes my weeping eye. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="292"/>
           <stage type="setting">The lists at Coventry.</stage>
@@ -1199,7 +1199,7 @@
             <l part="N">Though banish'd, yet a trueborn Englishman. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb ed="F1" n="574"/>
           <stage type="setting">The court.</stage>
@@ -1320,10 +1320,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
         <lb ed="F1" n="640"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Ely House.</stage>
           <lb ed="F1" n="641"/>
@@ -1815,7 +1815,7 @@
               </stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="951"/>
           <stage type="setting">The palace..</stage>
@@ -2093,7 +2093,7 @@
             <l part="F">I fear me, never. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="1103"/>
           <stage type="setting">Wilds in Gloucestershire.</stage>
@@ -2402,7 +2402,7 @@
             <l part="N">Things past redress are now with me past care. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb ed="F1" n="1283"/>
           <stage type="setting">A camp in Wales.</stage>
@@ -2451,10 +2451,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
         <lb ed="F1" n="1309"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Bristol. Before the castle.</stage>
           <lb ed="F1" n="1310"/>
@@ -2529,7 +2529,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="1358"/>
           <stage type="setting">The coast of Wales. A castle in view.</stage>
@@ -2852,7 +2852,7 @@
             <l part="N">From Richard's night to Bolingbroke's fair day. <lb ed="F1" n="1580"/><stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="1581"/>
           <stage type="setting">Wales. Before Flint Castle.</stage>
@@ -3186,7 +3186,7 @@
             <l part="N">Then I must not say no. <lb ed="F1" n="1805"/><stage>[Flourish. Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb ed="F1" n="1806"/>
           <stage type="setting">Langley. The DUKE OF YORK's Garden.</stage>
@@ -3387,10 +3387,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
         <lb ed="F1" n="1920"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Westminster Hall.</stage>
           <lb ed="F1" n="1921"/>
@@ -3975,10 +3975,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
         <lb ed="F1" n="2259"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">London. A street leading to the Tower.</stage>
           <lb ed="F1" n="2260"/>
@@ -4145,7 +4145,7 @@
             <l part="N">Once more, adieu; the rest let sorrow say. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="2365"/>
           <stage type="setting">The DUKE OF YORK'S palace.</stage>
@@ -4419,7 +4419,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="2495"/>
           <stage type="setting">A royal palace.</stage>
@@ -4735,7 +4735,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">The same.</stage>
           <lb ed="F1" n="2652"/>
@@ -4772,7 +4772,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb ed="F1" n="2666"/>
           <stage type="setting">Pomfret castle.</stage>
@@ -4965,7 +4965,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <lb ed="F1" n="2791"/>
           <stage type="setting">Windsor castle.</stage>
@@ -5066,6 +5066,6 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

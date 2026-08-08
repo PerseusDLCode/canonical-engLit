@@ -36,7 +36,7 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+    <body>
       <div type="textpart" subtype="section" n="1">
         <head>THE PHOENIX AND THE TURTLE</head>
         <lg n="1" type="stanza" part="N" org="uniform" sample="complete">
@@ -147,6 +147,6 @@
           <l part="N">For these dead birds sigh a prayer.</l>
         </lg>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

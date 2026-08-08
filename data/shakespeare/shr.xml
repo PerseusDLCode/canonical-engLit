@@ -36,8 +36,8 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castGroup>
@@ -184,9 +184,9 @@
       </div>
       <lb ed="F1" n="2"/>
 
-      <div type="textpart" subtype="act" n="ind">
+      <div type="act" n="ind">
         <head>INDUCTION.</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Before an alehouse on a heath.</stage>
           <lb ed="F1" n="3"/>
@@ -435,7 +435,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">A bedchamber in the LORD's house.</stage>
           <lb ed="F1" n="151"/>
@@ -715,9 +715,9 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Padua. A public place.</stage>
           <stage type="entrance">Enter LUCENTIO and his man TRANIO.</stage>
@@ -1170,7 +1170,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Padua. Before HORTENSIO'S house.</stage>
           <lb ed="F1" n="565"/>
@@ -1711,9 +1711,9 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Padua. A room in BAPTISTA'S house.</stage>
           <lb ed="F1" n="855"/>
@@ -2575,10 +2575,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
         <lb ed="F1" n="1294"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Padua. BAPTISTA'S house.</stage>
           <lb ed="F1" n="1295"/>
@@ -2774,7 +2774,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Padua. Before BAPTISTA'S house.</stage>
           <lb ed="F1" n="1387"/>
@@ -3295,9 +3295,9 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">PETRUCHIO'S country house.</stage>
           <lb ed="F1" n="1639"/>
@@ -3690,7 +3690,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Padua. Before BAPTISTA'S house.</stage>
           <lb ed="F1" n="1846"/>
@@ -3976,7 +3976,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="1977"/>
           <stage type="setting">A room in PETRUCHIO'S house.</stage>
@@ -4420,7 +4420,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">Padua. Before BAPTISTA'S house.</stage>
           <lb ed="F1" n="2180"/>
@@ -4642,7 +4642,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">A public road.</stage>
           <lb ed="F1" n="2294"/>
@@ -4816,9 +4816,9 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Padua. Before LUCENTIO's house.</stage>
           <lb ed="F1" n="2379"/>
@@ -5196,7 +5196,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="2533"/>
           <stage type="setting">Padua. LUCENTIO'S house.</stage>
@@ -5710,6 +5710,6 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

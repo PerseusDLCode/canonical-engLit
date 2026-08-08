@@ -36,8 +36,8 @@
  </teiHeader>
 
  <text xml:lang="eng">
-  <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-   <div type="textpart" subtype="act" n="cast">
+  <body>
+   <div type="act" n="cast">
     <head>DRAMATIS PERSONÆ</head>
     <castList>
      <castItem type="role">
@@ -224,10 +224,10 @@
     </castList>
    </div>
 
-   <div type="textpart" subtype="act" n="1">
+   <div type="act" n="1">
     <head>ACT I</head>
     <lb ed="F1" n="2"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">Britain. The garden of Cymbeline's palace. </stage>
      <lb ed="F1" n="3"/>
@@ -649,7 +649,7 @@
       <l part="N">Go see my lord aboard: <lb ed="F1" n="224"/>for this time leave me. <stage type="exit">[Exeunt. </stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <lb ed="F1" n="225"/>
      <stage type="setting">The same. A public place.</stage>
@@ -769,7 +769,7 @@
       <p part="N">Well, my lord. <stage type="exit">[Exeunt.</stage></p>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <lb ed="F1" n="262"/>
      <stage type="setting">A room in Cymbeline's palace. </stage>
@@ -870,7 +870,7 @@
       <l part="F">Madam, I shall. <stage type="exit">[Exeunt. </stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <lb ed="F1" n="313"/>
      <stage type="setting">Rome. Philario's house. </stage>
@@ -1176,7 +1176,7 @@
         <stage type="exit">[Exeunt.</stage></p>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="5">
+    <div type="scene" n="5">
      <head>SCENE V</head>
      <lb ed="F1" n="488"/>
      <stage type="setting">Britain. A room in Cymbeline's palace. </stage>
@@ -1342,7 +1342,7 @@
       <l part="N">I'll choke myself: there's all I'll do for you. <stage type="exit">[Exit.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="6">
+    <div type="scene" n="6">
      <head>SCENE VI</head>
      <lb ed="F1" n="591"/>
      <stage type="setting">The same. Another room in the palace. </stage>
@@ -1767,10 +1767,10 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="2">
+   <div type="act" n="2">
     <head>ACT II</head>
     <lb ed="F1" n="838"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">Britain. Before Cymbeline's palace. </stage>
      <lb ed="F1" n="839"/>
@@ -1926,7 +1926,7 @@
       <l part="N">To enjoy thy banish'd lord and this great land! <stage type="exit">[Exit. </stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <lb ed="F1" n="902"/>
      <lb ed="F1" n="903"/>
@@ -2014,7 +2014,7 @@
         closes.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <lb ed="F1" n="960"/>
      <stage type="setting">An ante-chamber adjoining Imogen's apartments. </stage>
@@ -2365,7 +2365,7 @@
       <l part="N">'His meanest garment!' Well. <stage type="exit">[Exit.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <lb ed="F1" n="1142"/>
      <stage type="setting">Rome. Philario's house.</stage>
@@ -2737,7 +2737,7 @@
       <l part="F">With all my heart. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="5">
+    <div type="scene" n="5">
      <head>SCENE V</head>
      <stage type="setting">Another room in Philario's house. </stage>
      <lb ed="F1" n="1337"/>
@@ -2787,9 +2787,9 @@
    </div>
    <lb ed="F1" n="1373"/>
 
-   <div type="textpart" subtype="act" n="3">
+   <div type="act" n="3">
     <head>ACT III</head>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">Britain. A hall in Cymbeline's palace. </stage>
      <lb ed="F1" n="1374"/>
@@ -2939,7 +2939,7 @@
       <l part="N">All the remain is 'Welcome!' <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <lb ed="F1" n="1467"/>
      <stage type="setting">Another room in the palace. </stage>
@@ -3058,7 +3058,7 @@
       <l part="N">Accessible is none but Milford way. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <lb ed="F1" n="1553"/>
      <stage type="setting">Wales: a mountainous country with a cave.</stage>
@@ -3208,7 +3208,7 @@
       <l part="N">They take for natural father. The game is up. <stage type="exit">[Exit. </stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <lb ed="F1" n="1669"/>
      <stage type="setting">Country near Milford-Haven. </stage>
@@ -3539,7 +3539,7 @@
       <l part="N">Amen: I thank thee. <stage type="exit">[Exeunt, severally.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="5">
+    <div type="scene" n="5">
      <head>SCENE V</head>
      <lb ed="F1" n="1888"/>
      <stage type="setting">A room in Cymbeline's palace. </stage>
@@ -3901,7 +3901,7 @@
       <l part="N">Be cross'd with slowness; labor be his meed! <stage type="exit">[Exit. </stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="6">
+    <div type="scene" n="6">
      <head>SCENE VI</head>
      <lb ed="F1" n="2080"/>
      <stage type="setting">Wales. Before the cave of Belarius.</stage>
@@ -4120,7 +4120,7 @@
       <l part="N">I pray, draw near. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="7">
+    <div type="scene" n="7">
      <head>SCENE VII</head>
      <lb ed="F1" n="2196"/>
      <stage type="setting">Rome. A public place.</stage>
@@ -4169,10 +4169,10 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="4">
+   <div type="act" n="4">
     <head>ACT IV</head>
     <lb ed="F1" n="2217"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">Wales: near the cave of Belarius. </stage>
      <lb ed="F1" n="2218"/>
@@ -4188,7 +4188,7 @@
        lines of <lb ed="G"/>my body are as well drawn as his; no less <lb ed="G"/><lb ed="F1" n="2228"/>young, more strong, not beneath him in fortunes, <lb ed="G"/>beyond <lb ed="F1" n="2229"/>him in the advantage of the <lb ed="G"/>time, above him in <lb ed="F1" n="2230"/>birth, alike conversant <lb ed="G"/>in general services, and more remarkable <lb ed="F1" n="2231"/>in single <lb ed="G"/>oppositions: yet this imperceiverant <lb ed="F1" n="2232"/>thing <lb ed="G"/>loves him in my despite. What mortality is! <lb ed="G"/><lb ed="F1" n="2233"/>Posthumus, thy head, which now is growing <lb ed="G"/>upon thy <lb ed="F1" n="2234"/>shoulders, shall within this hour be <lb ed="G"/>off; thy mistress enforced; <lb ed="F1" n="2235"/>thy garments cut <lb ed="G"/>to pieces before thy face: and <lb ed="F1" n="2236"/>all this done, <lb ed="G"/>spurn her home to her father; who may <lb ed="F1" n="2237"/>haply <lb ed="G"/>be a little angry for my so rough usage; but <lb ed="G"/>my <lb ed="F1" n="2238"/>mother, having power of his testiness, shall <lb ed="G"/>turn all into <lb ed="F1" n="2239"/>my commendations. My horse is <lb ed="G"/>tied up safe: out, <lb ed="F1" n="2240"/>sword, and to a sore purpose! <lb ed="G"/>Fortune, put them into my <lb ed="F1" n="2241"/>hand! <lb ed="G"/>This is the very description of their meeting-place; <lb ed="G"/><lb ed="F1" n="2242"/>and the fellow dares not deceive me. <stage type="exit">[Exit.</stage></p>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <lb ed="F1" n="2243"/>
      <stage type="setting">Before the cave of Belarius.</stage>
@@ -5084,7 +5084,7 @@
       <l part="N">Some falls are means the happier to arise. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <lb ed="F1" n="2736"/>
      <stage type="setting">A room in Cymbeline's palace. </stage>
@@ -5175,7 +5175,7 @@
       <l part="N">Fortune brings in some boats that are not steer'd. <stage type="exit">[Exit. </stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <lb ed="F1" n="2790"/>
      <stage type="setting">Wales: before the cave of Belarius.</stage>
@@ -5292,10 +5292,10 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="5">
+   <div type="act" n="5">
     <head>ACT V</head>
     <lb ed="F1" n="2856"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">Britain. The Roman camp.</stage>
      <lb ed="F1" n="2857"/>
@@ -5340,7 +5340,7 @@
       <l part="N">The fashion, less without and more within. <stage type="exit">[Exit.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <lb ed="F1" n="2891"/>
      <stage type="setting">Field of battle between the British and Roman camps.</stage>
@@ -5399,7 +5399,7 @@
       <l part="N">Let's re-inforce, or fly. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <lb ed="F1" n="2924"/>
      <stage type="setting">Another part of the field. </stage>
@@ -5566,7 +5566,7 @@
         omnes.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <lb ed="F1" n="3032"/>
      <stage type="setting">A British prison.</stage>
@@ -5891,7 +5891,7 @@
        't. <stage type="exit">[Exit.</stage></p>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="5">
+    <div type="scene" n="5">
      <head>SCENE V</head>
      <lb ed="F1" n="3247"/>
      <stage type="setting">Cymbeline's tent. </stage>
@@ -6911,6 +6911,6 @@
      </sp>
     </div>
    </div>
-  </div></body>
+  </body>
  </text>
 </TEI>

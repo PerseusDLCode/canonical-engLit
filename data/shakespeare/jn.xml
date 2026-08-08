@@ -36,8 +36,8 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -142,10 +142,10 @@
           </castItem>
         </castList>
       </div>
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
         <lb n="2" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">KING JOHN'S palace </stage>
           <lb n="3" ed="F1"/>
@@ -619,10 +619,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
         <lb n="291" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">France. Before Angiers. </stage>
           <lb n="292" ed="F1"/>
@@ -1597,10 +1597,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
         <lb n="920" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The French KING'S pavilion. </stage>
           <lb n="921" ed="F1"/>
@@ -2188,7 +2188,7 @@
             <l part="N">No more than he that threats. To arms let's hie! <lb n="1281" ed="F1"/><stage type="exit">[Exeunt. </stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="1282" ed="F1"/>
           <stage type="setting">The same. Plains near Angiers. <lb ed="G"/><lb n="1283" ed="F1"/><lb ed="G"/>Alarums, excursions.</stage>
@@ -2219,7 +2219,7 @@
             <l part="N">Will bring this labor to a happy end. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">The same. <lb ed="G"/><lb n="1297" ed="F1"/><lb ed="G"/>Alarums,
             excursions, retreat.</stage>
@@ -2375,7 +2375,7 @@
             <l part="N">With all true duty. On toward Calais, ho! <lb n="1380" ed="F1"/><stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb n="1381" ed="F1"/>
           <stage type="setting">The same. The French KING'S tent. </stage>
@@ -2676,10 +2676,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
         <lb n="1569" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A room in a castle.</stage>
           <lb n="1570" ed="F1"/>
@@ -2964,7 +2964,7 @@
             <l part="N">Much danger do I undergo for thee. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="1716" ed="F1"/>
           <stage type="setting">KING JOHN'S palace. </stage>
@@ -3419,7 +3419,7 @@
             <l part="N">I conjure thee but slowly; run more fast. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="1995" ed="F1"/>
           <stage type="setting">Before the castle. </stage>
@@ -3758,10 +3758,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
         <lb n="2165" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">KING JOHN'S palace. </stage>
           <lb n="2166" ed="F1"/>
@@ -3896,7 +3896,7 @@
             <l part="N">Our party may well meet a prouder foe. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="2249" ed="F1"/>
           <stage type="setting">The DAUPHIN'S camp at St. Edmundsbury.</stage>
@@ -4145,7 +4145,7 @@
               </stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="2438" ed="F1"/>
           <stage type="setting">The field of battle. <lb n="2439" ed="F1"/>Alarums.</stage>
@@ -4193,7 +4193,7 @@
             <l part="N">Weakness possesseth me, and I am faint. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb n="2458" ed="F1"/>
           <stage type="setting">Another part of the field. </stage>
@@ -4303,7 +4303,7 @@
                 Melun.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb n="2523" ed="F1"/>
           <stage type="setting">The French camp. </stage>
@@ -4358,7 +4358,7 @@
             <l part="N">To try the fair adventure of to-morrow. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <lb n="2549" ed="F1"/>
           <stage type="setting">An open place in the neighborhood of Swinstead Abbey. </stage>
@@ -4476,7 +4476,7 @@
             <l part="N">I doubt he will be dead or ere I come. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
           <head>SCENE VII</head>
           <lb n="2603" ed="F1"/>
           <stage type="setting">The orchard in Swinstead Abbey. </stage>
@@ -4694,6 +4694,6 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

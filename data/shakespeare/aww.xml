@@ -34,8 +34,8 @@
     <revisionDesc><change><ab>converted to TEI P5</ab></change></revisionDesc>
   </teiHeader>
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -196,9 +196,9 @@
       </div>
 
       <lb n="2" ed="F1"/>
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Rousillon. The COUNT'S palace.</stage>
           <lb n="3" ed="F1"/>
@@ -608,7 +608,7 @@
               eye? <lb ed="G"/><lb n="229" ed="F1"/>The mightiest space in fortune nature brings <lb ed="G"/><lb n="230" ed="F1"/>To join like likes and kiss like native things. <lb n="239" ed="G"/><lb n="231" ed="F1"/>Impossible be strange attempts to those <lb ed="G"/><lb n="232" ed="F1"/>That weigh their pains in sense and do suppose <lb ed="G"/><lb n="233" ed="F1"/>What hath been cannot be: who ever strove <lb ed="G"/><lb n="234" ed="F1"/>To show her merit, that did miss her love? <lb ed="G"/><lb n="235" ed="F1"/>The king's disease--my project may deceive me, <lb ed="G"/><lb n="236" ed="F1"/>But my intents are fix'd and will not leave me. <stage type="exit">[Exit.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Paris. The KING'S palace.</stage>
           <lb n="237" ed="F1"/>
@@ -756,7 +756,7 @@
 
         </div>
 
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Rousillon. The COUNT'S palace.</stage>
           <lb n="328" ed="F1"/>
@@ -1190,10 +1190,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
         <lb n="593" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Paris. The KING'S palace.</stage>
           <stage>Flourish of cornets.</stage>
@@ -1635,7 +1635,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Rousillon. The COUNT'S palace.</stage>
           <lb n="824" ed="F1"/>
@@ -1803,7 +1803,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Paris. The KING'S palace.</stage>
           <lb n="892" ed="F1"/>
@@ -2485,7 +2485,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">Paris. The KING'S palace.</stage>
           <lb n="1209" ed="F1"/>
@@ -2629,7 +2629,7 @@
             <p part="N">I pray you. <stage type="exit">[Exit Parolles.</stage> Come, sirrah. <stage type="exit">[Exeunt.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">Paris. The KING'S palace.</stage>
           <lb n="1269" ed="F1"/>
@@ -2878,11 +2878,11 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
         <lb n="1371" ed="F1"/>
 
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Florence. The DUKE'S palace.</stage>
           <stage>Flourish.</stage>
@@ -2942,7 +2942,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Rousillon. The COUNT'S palace.</stage>
           <lb n="1401" ed="F1"/>
@@ -3218,7 +3218,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Florence. Before the DUKE'S palace.</stage>
           <lb n="1539" ed="F1"/>
@@ -3255,7 +3255,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">Rousillon. The COUNT'S palace.</stage>
           <lb n="1555" ed="F1"/>
@@ -3308,7 +3308,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">Florence. Without the walls. <lb n="1602" ed="F1"/>A tucket afar
             off.</stage>
@@ -3599,7 +3599,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
 
           <stage type="setting">Camp before Florence.</stage>
@@ -3853,7 +3853,7 @@
             <p part="N">With all my heart, my lord. <stage type="exit">[Exeunt.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
 
           <head>SCENE VII</head>
           <stage type="setting">Florence. The Widow's house.</stage>
@@ -3932,10 +3932,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
         <lb n="1910" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Without the Florentine camp.</stage>
           <lb n="1911" ed="F1"/>
@@ -4187,7 +4187,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Florence. The Widow's house.</stage>
           <lb n="2017" ed="F1"/>
@@ -4327,7 +4327,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">The Florentine camp.</stage>
           <lb n="2106" ed="F1"/>
@@ -5053,7 +5053,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">Florence. The Widow's house.</stage>
           <lb n="2439" ed="F1"/>
@@ -5104,7 +5104,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">Rousillon. The COUNT'S palace.</stage>
           <lb n="2481" ed="F1"/>
@@ -5334,11 +5334,11 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
         <lb n="2592" ed="F1"/>
 
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Marseilles. A street.</stage>
           <lb n="2593" ed="F1"/>
@@ -5449,7 +5449,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Rousillon. Before the COUNT'S palace.</stage>
           <lb n="2640" ed="F1"/>
@@ -5560,7 +5560,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Rousillon. The COUNT'S palace.</stage>
           <lb n="2695" ed="F1"/>
@@ -6303,6 +6303,6 @@
 
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

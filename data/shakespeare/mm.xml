@@ -36,8 +36,8 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -137,10 +137,10 @@
         </castList>
       </div>
 
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
         <lb n="2" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">An apartment in the DUKE'S palace.</stage>
 
@@ -298,7 +298,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="95" ed="F1"/>
           <stage type="setting">A street. </stage>
@@ -726,7 +726,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="288" ed="F1"/>
           <stage type="setting">A monastery.</stage>
@@ -815,7 +815,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb n="347" ed="F1"/>
           <stage type="setting">A nunnery.</stage>
@@ -1033,10 +1033,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
         <lb n="449" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A hall in ANGELO'S house.</stage>
           <lb n="450" ed="F1"/>
@@ -1612,7 +1612,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="731" ed="F1"/>
           <stage type="setting">Another room in the same.</stage>
@@ -2106,7 +2106,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="951" ed="F1"/>
           <stage type="setting">A room in a prison.</stage>
@@ -2230,7 +2230,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb n="1001" ed="F1"/>
           <stage type="setting">A room in ANGELO'S house.</stage>
@@ -2592,10 +2592,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
         <lb n="1202" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A room in the prison.</stage>
           <lb n="1203" ed="F1"/>
@@ -3061,7 +3061,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">The street before the prison.</stage>
           <lb n="1490" ed="F1"/>
@@ -3541,10 +3541,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
         <lb n="1768" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The moated grange at ST. LUKE'S.</stage>
           <lb n="1769" ed="F1"/>
@@ -3721,7 +3721,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="1855" ed="F1"/>
           <stage type="setting">A room in the prison.</stage>
@@ -4136,7 +4136,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="2076" ed="F1"/>
           <stage type="setting">Another room in the same.</stage>
@@ -4512,7 +4512,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb n="2271" ed="F1"/>
           <stage type="setting">A room in ANGELO'S house.</stage>
@@ -4574,7 +4574,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb n="2306" ed="F1"/>
           <stage type="setting">Fields without the town.</stage>
@@ -4611,7 +4611,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <lb n="2323" ed="F1"/>
           <stage type="setting">Street near the city gate.</stage>
@@ -4662,10 +4662,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
         <lb n="2345" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The city gate.</stage>
           <stage type="setting">MARIANA veiled, ISABELLA, and FRIAR PETER, at their stand.</stage>
@@ -5793,6 +5793,6 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

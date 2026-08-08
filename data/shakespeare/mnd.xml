@@ -36,8 +36,8 @@
      </teiHeader>
 
      <text xml:lang="eng">
-          <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-               <div type="textpart" subtype="act" n="cast">
+          <body>
+               <div type="act" n="cast">
                     <head>DRAMATIS PERSONÆ</head>
                     <castList>
                          <castItem type="role">
@@ -157,10 +157,10 @@
                     </castList>
                </div>
 
-               <div type="textpart" subtype="act" n="1">
+               <div type="act" n="1">
                     <head>ACT I</head>
                     <lb ed="F1" n="2"/>
-                    <div type="textpart" subtype="scene" n="1">
+                    <div type="scene" n="1">
                          <head>SCENE I</head>
                          <stage type="setting">Athens. The palace of THESEUS.</stage>
                          <lb ed="F1" n="3"/>
@@ -582,7 +582,7 @@
                               <l part="N">To have his sight thither and back again. <stage>[Exit.</stage></l>
                          </sp>
                     </div>
-                    <div type="textpart" subtype="scene" n="2">
+                    <div type="scene" n="2">
                          <head>SCENE II</head>
                          <stage type="setting">Athens. QUINCE'S house.</stage>
                          <lb ed="F1" n="266"/>
@@ -797,10 +797,10 @@
                     </div>
                </div>
 
-               <div type="textpart" subtype="act" n="2">
+               <div type="act" n="2">
                     <head>ACT II</head>
                     <lb ed="F1" n="372"/>
-                    <div type="textpart" subtype="scene" n="1">
+                    <div type="scene" n="1">
                          <head>SCENE I</head>
                          <stage type="setting">A wood near Athens.</stage>
                          <lb ed="F1" n="373"/>
@@ -1217,7 +1217,7 @@
                                    </stage></l>
                          </sp>
                     </div>
-                    <div type="textpart" subtype="scene" n="2">
+                    <div type="scene" n="2">
                          <head>SCENE II</head>
                          <stage type="setting">Another part of the wood.</stage>
                          <lb ed="F1" n="650"/>
@@ -1475,10 +1475,10 @@
                     </div>
                </div>
 
-               <div type="textpart" subtype="act" n="3">
+               <div type="act" n="3">
                     <head>ACT III</head>
                     <lb ed="F1" n="812"/>
-                    <div type="textpart" subtype="scene" n="1">
+                    <div type="scene" n="1">
                          <head>SCENE I</head>
                          <stage type="setting">The wood. Titania lying asleep.</stage>
                          <lb ed="F1" n="813"/>
@@ -1882,7 +1882,7 @@
                               </l>
                          </sp>
                     </div>
-                    <div type="textpart" subtype="scene" n="2">
+                    <div type="scene" n="2">
                          <head>SCENE II</head>
                          <stage type="setting">Another part of the wood.</stage>
                          <lb ed="F1" n="1021"/>
@@ -2755,10 +2755,10 @@
                     </div>
                </div>
 
-               <div type="textpart" subtype="act" n="4">
+               <div type="act" n="4">
                     <head>ACT IV</head>
                     <lb ed="F1" n="1508"/>
-                    <div type="textpart" subtype="scene" n="1">
+                    <div type="scene" n="1">
                          <head>SCENE I</head>
                          <stage type="setting">The same. LYSANDER, DEMETRIUS. HELENA, and HERMIA
                               lying asleep. </stage>
@@ -3156,7 +3156,7 @@
                               </p>
                          </sp>
                     </div>
-                    <div type="textpart" subtype="scene" n="2">
+                    <div type="scene" n="2">
                          <head>SCENE II</head>
                          <stage type="setting">Athens. QUINCE'S house.</stage>
                          <lb ed="F1" n="1746"/>
@@ -3240,10 +3240,10 @@
                     </div>
                </div>
 
-               <div type="textpart" subtype="act" n="5">
+               <div type="act" n="5">
                     <head>ACT V</head>
                     <lb ed="F1" n="1791"/>
-                    <div type="textpart" subtype="scene" n="1">
+                    <div type="scene" n="1">
                          <head>SCENE I</head>
                          <stage type="setting">Athens. The palace of THESEUS.</stage>
                          <lb ed="F1" n="1792"/>
@@ -4031,6 +4031,6 @@
                          </sp>
                     </div>
                </div>
-          </div></body>
+          </body>
      </text>
 </TEI>

@@ -89,7 +89,7 @@
           government changed from kings to consuls. </p>
       </div>
     </front>
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+    <body>
       <div type="textpart" subtype="section" n="The Rape of Lucrece">
         <head>The Rape of Lucrece</head>
         <div type="textpart" subtype="stanza" n="1">
@@ -4863,6 +4863,6 @@
           </lg>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

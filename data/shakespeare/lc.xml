@@ -36,7 +36,7 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+    <body>
       <div n="1" type="poem" part="N" org="uniform" sample="complete">
         <head>A LOVER'S COMPLAINT</head>
         <lg part="N" org="uniform" sample="complete">
@@ -461,6 +461,6 @@
           <l n="329" part="N">And new pervert reconciled maid!'</l>
         </lg>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

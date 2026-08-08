@@ -36,8 +36,8 @@
  </teiHeader>
 
  <text xml:lang="eng">
-  <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-   <div type="textpart" subtype="act" n="cast">
+  <body>
+   <div type="act" n="cast">
     <head>DRAMATIS PERSONÆ</head>
     <castList>
      <castItem type="role">
@@ -182,10 +182,10 @@
     </castList>
    </div>
 
-   <div type="textpart" subtype="act" n="1">
+   <div type="act" n="1">
     <head>ACT I</head>
     <lb n="2" ed="F1"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting"> Elsinore. A platform before the castle. FRANCISCO at his post.</stage>
      <lb n="3" ed="F1"/>
@@ -633,7 +633,7 @@
      </sp>
     </div>
 
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <lb n="175" ed="F1"/>
      <stage type="setting"> A room of state in the castle. </stage>
@@ -1227,7 +1227,7 @@
      </sp>
     </div>
 
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <lb n="460" ed="F1"/>
      <stage type="setting"> A room in Polonius' house.</stage>
@@ -1479,7 +1479,7 @@
       <l part="N">I shall obey, my lord. <stage type="exit">Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <stage type="setting"> The platform. </stage>
      <lb n="603" ed="F1"/>
@@ -1711,7 +1711,7 @@
       <l part="F">Nay, let's follow him. <stage type="exit">Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="5">
+    <div type="scene" n="5">
      <head>SCENE V</head>
 
      <stage type="setting"> Another part of the platform. </stage>
@@ -2191,10 +2191,10 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="2">
+   <div type="act" n="2">
     <head>ACT II</head>
     <lb n="888" ed="F1"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting"> A room in Polonius' house.</stage>
      <lb n="889" ed="F1"/>
@@ -2482,7 +2482,7 @@
       <l part="N">More grief to hide than hate to utter love. <stage type="exit">Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <lb n="1018" ed="F1"/>
      <stage type="setting"> A room in the castle. </stage>
@@ -2699,14 +2699,14 @@
       <l part="N">Hath given me this: now gather, and surmise. <!-- ***** Letter should be tagged ***** -->
        <lb n="1136" ed="F1"/>
        <stage>[Reads. </stage>
-       <floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+       <floatingText xml:lang="eng"><body>
          <lb ed="G"/><lb n="1137" ed="F1"/><p part="N">‘To the celestial and my soul's idol, the most
            <lb n="110" ed="G"/> beautified <lb n="1138" ed="F1"/>Ophelia,’
-        —</p></div></body></floatingText>
+        —</p></body></floatingText>
        <lb n="1139" ed="F1"/><lb ed="G"/>That's an ill phrase, a vile phrase; 'beautified' <lb ed="G"/>is a vile <lb n="1140" ed="F1"/>phrase: but you shall hear. <lb ed="G"/></l>
       <l part="N">Thus: <stage>Reads.</stage>
-       <floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><lb ed="G"/><l part="N">'In her excellent white <lb n="1141" ed="F1"/>bosom, these,
-          &amp;c.'</l></div></body></floatingText>
+       <floatingText xml:lang="eng"><body><lb ed="G"/><l part="N">'In her excellent white <lb n="1141" ed="F1"/>bosom, these,
+          &amp;c.'</l></body></floatingText>
        <lb ed="G"/></l>
      </sp>
      <sp who="queen.">
@@ -2718,10 +2718,10 @@
       <speaker>Pol.</speaker>
       <lb n="1143" ed="F1"/>
       <l part="N">Good madam, stay awhile; I will be faithful. <stage>[Reads. </stage>
-       <floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><lb ed="G"/><lb n="1144" ed="F1"/><l part="N">'Doubt thou the stars are fire; <lb ed="G"/><lb n="1145" ed="F1"/></l><l part="N"> Doubt that the sun doth move; <lb ed="G"/><lb n="1146" ed="F1"/></l><l part="I">Doubt truth to be a liar; <lb n="1147" ed="F1"/></l><l n="119" part="F"> But never doubt I love. <lb ed="G"/><lb n="1148" ed="F1"/></l><p part="N">'O dear
+       <floatingText xml:lang="eng"><body><lb ed="G"/><lb n="1144" ed="F1"/><l part="N">'Doubt thou the stars are fire; <lb ed="G"/><lb n="1145" ed="F1"/></l><l part="N"> Doubt that the sun doth move; <lb ed="G"/><lb n="1146" ed="F1"/></l><l part="I">Doubt truth to be a liar; <lb n="1147" ed="F1"/></l><l n="119" part="F"> But never doubt I love. <lb ed="G"/><lb n="1148" ed="F1"/></l><p part="N">'O dear
           Ophelia, I am ill at these numbers; <lb ed="G"/>I have not art to <lb n="1149" ed="F1"/>reckon my groans: but that <lb ed="G"/>I love thee best, O most best, believe <lb n="1150" ed="F1"/>it. Adieu. <lb n="1151" ed="F1"/><lb ed="G"/> 'Thine evermore, most
           dear lady, whilst <lb ed="G"/> this <lb n="1152" ed="F1"/>machine is to him, HAMLET. </p>
-        </div></body></floatingText>
+        </body></floatingText>
        <lb ed="G"/><lb n="1153" ed="F1"/></l>
       <l part="N">This, in obedience, hath my daughter shown me, <lb ed="G"/><lb n="1154" ed="F1"/></l>
       <l part="N">And more above, hath his solicitings, <lb ed="G"/><lb n="1155" ed="F1"/></l>
@@ -3770,9 +3770,9 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="3">
+   <div type="act" n="3">
     <head>ACT III</head>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting"> A room in the castle. </stage>
      <lb n="1646" ed="F1"/>
@@ -4159,7 +4159,7 @@
     </div>
 
 
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting"> A hall in the castle. </stage>
      <lb n="1848" ed="F1"/>
@@ -5144,7 +5144,7 @@
 
 
 
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <stage type="setting"> A room in the castle.</stage>
      <lb n="2271" ed="F1"/>
@@ -5299,7 +5299,7 @@
 
 
 
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <stage type="setting"> The Queen's closet. </stage>
      <lb n="2374" ed="F1"/>
@@ -5784,9 +5784,9 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="4">
+   <div type="act" n="4">
     <head>ACT IV</head>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting"> A room in the castle. </stage>
      <lb n="2586" ed="F1"/>
@@ -5875,7 +5875,7 @@
 
 
 
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting"> Another room in the castle. </stage>
      <lb n="2630" ed="F1"/>
@@ -5981,7 +5981,7 @@
     </div>
 
 
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
 
      <stage type="setting"> Another room in the castle. </stage>
@@ -6174,7 +6174,7 @@
 
 
 
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
 
      <stage type="setting"> A plain in Denmark. </stage>
@@ -6311,7 +6311,7 @@
      </sp>
     </div>
 
-    <div type="textpart" subtype="scene" n="5">
+    <div type="scene" n="5">
      <head>SCENE V</head>
 
      <stage type="setting"> Elsinore. A room in the castle. </stage>
@@ -6880,7 +6880,7 @@
     </div>
 
 
-    <div type="textpart" subtype="scene" n="6">
+    <div type="scene" n="6">
      <head>SCENE VI</head>
      <stage type="setting"> Another room in the castle.</stage>
      <lb n="2972" ed="F1"/>
@@ -6943,7 +6943,7 @@
     </div>
 
 
-    <div type="textpart" subtype="scene" n="7">
+    <div type="scene" n="7">
      <head>SCENE VII</head>
      <stage type="setting"> Another room in the castle. </stage>
      <lb n="3006" ed="F1"/>
@@ -7034,12 +7034,12 @@
       <l part="F">Laertes, you shall hear them. <lb ed="G"/><lb n="3053" ed="F1"/></l>
       <l part="N">Leave us. <stage type="exit">[Exit Messenger.</stage>
        <stage>[Reads]</stage>
-       <floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><lb n="3054" ed="F1"/><p part="N">'High and mighty, You shall know <lb ed="G"/>I am set
+       <floatingText xml:lang="eng"><body><lb n="3054" ed="F1"/><p part="N">'High and mighty, You shall know <lb ed="G"/>I am set
           naked on your <lb n="3055" ed="F1"/>kingdom. To-morrow <lb ed="G"/>shall I beg leave to
           see your kingly <lb n="3056" ed="F1"/>eyes: when <lb ed="G"/>I shall, first asking your
           pardon thereunto, recount <lb n="3057" ed="F1"/><lb ed="G"/>the occasion of my sudden and
           more <lb ed="G"/>strange return. <lb n="3058" ed="F1"/></p><closer><signed>'HAMLET.'</signed></closer>
-        </div></body></floatingText>
+        </body></floatingText>
        <lb n="50" ed="G"/><lb n="3059" ed="F1"/></l>
       <l part="N">What should this mean? Are all the rest come back? <lb ed="G"/><lb n="3060" ed="F1"/></l>
       <l part="N">Or is it some abuse and no such thing? <lb ed="G"/></l>
@@ -7328,9 +7328,9 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="5">
+   <div type="act" n="5">
     <head>ACT V</head>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
 
      <stage type="setting">A churchyard.</stage>
@@ -8096,7 +8096,7 @@
     </div>
 
 
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting"> A hall in the castle.</stage>
      <lb n="3499" ed="F1"/>
@@ -9105,6 +9105,6 @@
      </sp>
     </div>
    </div>
-  </div></body>
+  </body>
  </text>
 </TEI>

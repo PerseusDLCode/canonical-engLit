@@ -36,8 +36,8 @@
  </teiHeader>
 
  <text xml:lang="eng">
-  <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-   <div type="textpart" subtype="act" n="cast">
+  <body>
+   <div type="act" n="cast">
     <head>DRAMATIS PERSONÆ</head>
     <castList>
      <castItem type="role">
@@ -181,9 +181,9 @@
     </castList>
    </div>
 
-   <div type="textpart" subtype="act" n="1">
+   <div type="act" n="1">
     <head>ACT I</head>
-    <div type="textpart" subtype="scene" n="chorus">
+    <div type="scene" n="chorus">
      <stage type="entrance">Enter GOWER.</stage>
      <stage type="setting">Before the palace of Antioch.</stage>
      <sp who="gow.">
@@ -209,7 +209,7 @@
        justify. <stage type="exit">[Exit.</stage></p>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting"> Antioch. A room in the palace. </stage>
      <stage type="entrance">Enter ANTIOCHUS, PRINCE PERICLES, and followers.</stage>
@@ -491,7 +491,7 @@
       <l part="N">My heart can lend no succour to my head. <stage type="exit">[Exit.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting"> Tyre. A room in the palace. </stage>
      <stage type="entrance"> Enter PERICLES.</stage>
@@ -701,7 +701,7 @@
       <l part="N">Thou show'dst a subject's shine, I a true prince. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <stage type="setting">Tyre. An ante-chamber in the Palace. </stage>
      <stage type="entrance"> Enter THALIARD.</stage>
@@ -786,7 +786,7 @@
       <l part="N">As friends to Antioch, we may feast in Tyre. <stage type="exit">[Exeunt</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <stage type="setting">Tarsus. A room in the Governor's house. </stage>
      <stage type="entrance">Enter CLEON, the governor of Tarsus, with DIONYZA, and others.</stage>
@@ -990,9 +990,9 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="2">
+   <div type="act" n="2">
     <head>ACT II</head>
-    <div type="textpart" subtype="scene" n="chorus">
+    <div type="scene" n="chorus">
      <stage type="entrance">Enter GOWER.</stage>
      <sp who="gow.">
       <speaker>Gow.</speaker>
@@ -1043,7 +1043,7 @@
       <l n="40" part="N">Pardon old Gower,--this longs the text. <stage type="exit">[Exit.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting"> Pentapolis. An open place by the sea-side. </stage>
      <stage type="entrance"> Enter PERICLES, wet.</stage>
@@ -1364,7 +1364,7 @@
       <l part="N">This day I'll rise, or else add ill to ill. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting">The same. A public way or platform <lb/>leading to the lists. A pavilion
       by the <lb/>side of it for the reception of the King, <lb/>Princess, Lords, &amp;c. </stage>
@@ -1529,7 +1529,7 @@
        <stage>[Great shouts within, and all cry 'The mean knight!'</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <stage type="setting">The same. A hall of state: a banquet prepared. </stage>
      <stage type="entrance">Enter SIMONIDES, THAISA, Lords, Attendants, and Knights, from
@@ -1812,7 +1812,7 @@
       <l part="N">To-morrow all for speeding do their best. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <stage type="setting">Tyre. A room in the Governor's house.</stage>
      <stage type="entrance"> Enter HELICANUS and ESCANES. </stage>
@@ -1943,7 +1943,7 @@
       <l part="N">When peers thus knit, a kingdom ever stands. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="5">
+    <div type="scene" n="5">
      <head>SCENE V</head>
      <stage type="setting">Pentapolis. A room in the palace. </stage>
      <stage type="entrance"> Enter SIMONIDES, reading a letter, at one door: the Knights meet
@@ -2193,9 +2193,9 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="3">
+   <div type="act" n="3">
     <head>ACT III</head>
-    <div type="textpart" subtype="scene" n="chorus">
+    <div type="scene" n="chorus">
      <sp who="gow.">
       <speaker>Gow.</speaker>
       <stage type="entrance">Enter GOWER.</stage>
@@ -2273,7 +2273,7 @@
       <l part="N">The sea-tost Pericles appears to speak. <stage type="exit">[Exit.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="entrance"> Enter PERICLES, on shipboard. </stage>
      <sp who="per.">
@@ -2439,7 +2439,7 @@
       <l part="N">I'll bring the body presently. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting">Ephesus. A room in Cerimon's house. </stage>
      <stage type="entrance">Enter CERIMON, with a Servant, and some <lb/>Persons who have been
@@ -2707,7 +2707,7 @@
       <l part="N">And AEsculapius guide us! <stage type="exit">[Exeunt, carrying her away.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <stage type="setting">Tarsus. A room in Cleon's house. </stage>
      <stage type="entrance"> Enter PERICLES, CLEON, DIONYZA, and LYCHORIDA with MARINA in her
@@ -2794,7 +2794,7 @@
       <l part="N">You may depend hereafter. Come, my lord. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <stage type="setting">Ephesus. A room in Cerimon's house. </stage>
      <stage type="entrance"> Enter CERIMON and THAISA.</stage>
@@ -2835,9 +2835,9 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="4">
+   <div type="act" n="4">
     <head>ACT IV</head>
-    <div type="textpart" subtype="scene" n="chorus">
+    <div type="scene" n="chorus">
      <stage>Enter GOWER.</stage>
      <sp who="gow.">
       <speaker>Gow.</speaker>
@@ -2896,7 +2896,7 @@
       <l part="N">With Leonine, a murderer. <stage type="exit">Exit.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting"> Tarsus. An open place near the sea-shore.</stage>
      <stage type="entrance"> Enter DIONYZA and LEONINE. </stage>
@@ -3132,7 +3132,7 @@
       <l part="N">Whom they have ravish'd must by me be slain. <stage type="exit">[Exit.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting">Mytilene. A room in a brothel.</stage>
      <stage type="entrance"> Enter PANDAR, Bawd, and BOULT. </stage>
@@ -3444,7 +3444,7 @@
       <p part="N">What have we to do with Diana? <lb/>Pray you, will you go with us? <stage type="exit">[Exeunt.</stage></p>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <stage type="setting">Tarsus. A room in Clean's house. </stage>
      <stage type="entrance"> Enter CLEON and DIONYZA.</stage>
@@ -3552,7 +3552,7 @@
       <l part="N">But yet I know you'll do as I advise. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <stage type="entrance"> Enter GOWER, before the monument of MARINA at Tarsus.</stage>
      <sp who="gow.">
@@ -3623,7 +3623,7 @@
       <l part="N">And think you now are all in Mytilene. <stage type="exit">[Exit.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="5">
+    <div type="scene" n="5">
      <head>SCENE V</head>
      <stage type="setting">Mytilene. A street before the brothel.</stage>
      <stage type="entrance">Enter, from the brothel, two Gentlemen. </stage>
@@ -3649,7 +3649,7 @@
       <p part="N">I'll do any thing now that is <lb/>virtuous; but I am out of the road of rutting <lb n="10"/>for ever. <stage type="exit">[Exeunt.</stage></p>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="6">
+    <div type="scene" n="6">
      <head>SCENE VI</head>
      <stage type="setting">The same. A room in the brothel.</stage>
      <stage type="entrance"> Enter Pandar, Bawd, and BOULT. </stage>
@@ -4062,9 +4062,9 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="5">
+   <div type="act" n="5">
     <head>ACT V</head>
-    <div type="textpart" subtype="scene" n="chorus1">
+    <div type="scene" n="chorus1">
      <stage type="entrance">Enter GOWER.</stage>
      <sp who="gow.">
       <speaker>Gow.</speaker>
@@ -4095,7 +4095,7 @@
       <l part="N">Shall be discover'd; please you, sit and hark. <stage>Exit.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">On board Pericles' ship, off Mytilene. A close pavilion on deck, with a
       curtain before it; Pericles within it, reclined on a couch. A barge lying beside the Tyrian
@@ -4744,7 +4744,7 @@
       <l part="N">Come, my Marina. <stage type="exit">Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="exit">Enter GOWER, before the temple of DIANA at Ephesus.</stage>
      <sp who="gow.">
@@ -4772,7 +4772,7 @@
       <l n="20" part="N">Is by your fancy's thankful doom. <stage type="exit">Exit. </stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <stage type="setting">The temple of Diana at Ephesus; THAISA standing near the altar, as high
       priestess; a number of Virgins on each side; CERIMON and other Inhabitants of Ephesus
@@ -4985,7 +4985,7 @@
       <l part="N">To hear the rest untold: sir, lead's the way. <stage type="exit">[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="chorus2">
+    <div type="scene" n="chorus2">
      <stage type="entrance">Enter GOWER.</stage>
      <sp who="gow.">
       <speaker>Gow.</speaker>
@@ -5011,6 +5011,6 @@
      </sp>
     </div>
    </div>
-  </div></body>
+  </body>
  </text>
 </TEI>

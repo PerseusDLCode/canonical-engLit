@@ -34,8 +34,8 @@
     <revisionDesc><change><ab>converted to TEI P5</ab></change></revisionDesc>
   </teiHeader>
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -128,10 +128,10 @@
           </castItem>
         </castList>
       </div>
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
         <lb n="2" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">King Lear's palace.</stage>
           <lb n="3" ed="F1"/>
@@ -721,7 +721,7 @@
             <l part="N">We must do something, and i' the heat. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="333" ed="F1"/>
           <stage type="setting">The Earl of Gloucester's castle.</stage>
@@ -1016,7 +1016,7 @@
             <l part="N">All with me's meet that I can fashion fit. <stage type="exit">[Exit.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="505" ed="F1"/>
           <stage type="setting">The Duke of Albany's palace.</stage>
@@ -1075,7 +1075,7 @@
             <l part="N">To hold my very course. Prepare <lb n="528" ed="F1"/>for dinner. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb n="529" ed="F1"/>
           <stage type="setting">A hall in the same.</stage>
@@ -1763,7 +1763,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb n="873" ed="F1"/>
           <stage type="setting">Court before the same.</stage>
@@ -1902,10 +1902,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
         <lb n="925" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <lb n="926" ed="F1"/>
           <stage type="setting">The Earl of Gloucester's Castle.</stage>
@@ -2188,7 +2188,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="1074" ed="F1"/>
           <stage type="setting">Before Gloucester's castle.</stage>
@@ -2558,7 +2558,7 @@
                 <stage>[Sleeps.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">A wood.</stage>
           <lb n="1251" ed="F1"/>
@@ -2591,7 +2591,7 @@
             <l part="N">That's something yet: Edgar I nothing am. <stage type="exit">[Exit.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">Before Gloucester's castle. Kent in the stocks.</stage>
           <lb n="1273" ed="F1"/>
@@ -3240,10 +3240,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
         <lb n="1614" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A heath.</stage>
           <lb n="1615" ed="F1"/>
@@ -3345,7 +3345,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="1654" ed="F1"/>
           <stage type="setting">Another part of the heath. <lb n="1655" ed="F1"/>Storm
@@ -3489,7 +3489,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="1751" ed="F1"/>
           <stage type="setting">Gloucester's castle.</stage>
@@ -3527,7 +3527,7 @@
             <l part="N">The younger rises when the old doth fall. <stage type="exit">[Exit.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb n="1776" ed="F1"/>
           <stage type="setting">The heath. Before a hovel.</stage>
@@ -3881,7 +3881,7 @@
             <l part="N"> I smell the blood of a British man. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb n="1969" ed="F1"/>
           <stage type="setting">Gloucester's castle.</stage>
@@ -3935,7 +3935,7 @@
               dearer father in my love. <stage type="exit">[Exeunt.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <lb n="1996" ed="F1"/>
           <stage type="setting">A chamber in a farmhouse adjoining the castle.</stage>
@@ -4168,7 +4168,7 @@
             <l part="N">Lurk, lurk. <stage type="exit">[Exit.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
           <head>SCENE VII</head>
           <lb n="2057" ed="F1"/>
           <stage type="setting">Gloucester's castle.</stage>
@@ -4475,10 +4475,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
         <lb n="2177" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The heath.</stage>
           <lb n="2178" ed="F1"/>
@@ -4668,7 +4668,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="2266" ed="F1"/>
           <stage type="setting">Before the Duke of Albany's palace.</stage>
@@ -4885,7 +4885,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="2348" ed="F1"/>
           <stage type="setting">The French camp near Dover.</stage>
@@ -5018,7 +5018,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">The same. A tent.</stage>
           <lb n="2349" ed="F1"/>
@@ -5077,7 +5077,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb n="2382" ed="F1"/>
           <stage type="setting">Gloucester's castle.</stage>
@@ -5190,7 +5190,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <lb n="2429" ed="F1"/>
           <stage type="setting">Fields near Dover.</stage>
@@ -5780,7 +5780,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
           <head>SCENE VII</head>
           <lb n="2743" ed="F1"/>
           <stage type="setting">A tent in the French camp. <lb ed="G"/>LEAR on a bed asleep, soft
@@ -6037,10 +6037,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
         <lb n="2844" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The British camp, near Dover.</stage>
           <lb n="2845" ed="F1"/>
@@ -6233,7 +6233,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="2917" ed="F1"/>
           <stage type="setting">A field between the two camps.</stage>
@@ -6281,7 +6281,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="2937" ed="F1"/>
           <stage type="setting">The British camp near Dover.</stage>
@@ -7094,6 +7094,6 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

@@ -48,7 +48,7 @@
 
 
 
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+    <body>
 
 
       <div type="textpart" subtype="sonnet" n="I">
@@ -2668,6 +2668,6 @@
         <l part="N"> Came there for cure, and this by that I prove, </l>
         <l part="N"> Love's fire heats water, water cools not love.</l>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

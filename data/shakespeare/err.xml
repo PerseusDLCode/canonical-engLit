@@ -36,8 +36,8 @@
  </teiHeader>
 
  <text xml:lang="eng">
-  <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-   <div type="textpart" subtype="act" n="cast">
+  <body>
+   <div type="act" n="cast">
     <head>DRAMATIS PERSONÆ</head>
     <castList>
      <castItem type="role">
@@ -121,10 +121,10 @@
     </castList>
    </div>
 
-   <div type="textpart" subtype="act" n="1">
+   <div type="act" n="1">
     <head>ACT I</head>
     <lb ed="F1" n="2"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">A hall in the DUKE'S palace.</stage>
      <lb ed="F1" n="3"/>
@@ -319,7 +319,7 @@
       <l part="N">But to procrastinate his lifeless end. <stage>[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting"> The Mart. </stage>
      <stage type="entrance">Enter ANTIPHOLUS of Syracuse, DROMIO of Syracuse, and First
@@ -512,10 +512,10 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="2">
+   <div type="act" n="2">
     <head>ACT II</head>
     <lb ed="F1" n="272"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting"> The house of ANTIPHOLUS of Ephesus. </stage>
      <lb ed="F1" n="273"/>
@@ -762,7 +762,7 @@
       <l part="N">How many fond fools serve mad jealousy! <lb ed="F1" n="393"/><stage>[Exeunt. </stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting"> A public place.</stage>
      <lb ed="F1" n="394"/>
@@ -1233,10 +1233,10 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="3">
+   <div type="act" n="3">
     <head>ACT III</head>
     <lb ed="F1" n="616"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting"> Before the house of ANTIPHOLUS of Ephesus. </stage>
      <lb ed="F1" n="617"/>
@@ -1587,7 +1587,7 @@
        </stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting"> The same. </stage>
      <lb ed="F1" n="786"/>
@@ -1968,10 +1968,10 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="4">
+   <div type="act" n="4">
     <head>ACT IV</head>
     <lb ed="F1" n="980"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting"> A public place. </stage>
      <lb ed="F1" n="981"/>
@@ -2222,7 +2222,7 @@
       <l part="N">For servants must their masters' minds fulfil. <stage>[Exit.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting"> The house of ANTIPHOLUS of Ephesus. </stage>
      <lb ed="F1" n="1103"/>
@@ -2405,7 +2405,7 @@
       <l part="N">Conceit, my comfort and my injury. <stage>[Exeunt.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <stage type="setting"> A public place.</stage>
      <lb ed="F1" n="1183"/>
@@ -2584,7 +2584,7 @@
       <l part="N">For forty ducats is too much to lose. <stage>[Exit.</stage></l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="4">
+    <div type="scene" n="4">
      <head>SCENE IV</head>
      <stage type="setting"> A street. </stage>
      <lb ed="F1" n="1280"/>
@@ -3025,10 +3025,10 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="5">
+   <div type="act" n="5">
     <head>ACT V</head>
     <lb ed="F1" n="1462"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting"> A street before a Priory. </stage>
      <lb ed="F1" n="1463"/>
@@ -3911,6 +3911,6 @@
      </sp>
     </div>
    </div>
-  </div></body>
+  </body>
  </text>
 </TEI>

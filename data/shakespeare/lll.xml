@@ -37,7 +37,7 @@
 
  <text xml:lang="eng">
   <front>
-   <div type="textpart" subtype="act" n="cast">
+   <div type="act" n="cast">
     <head>DRAMATIS PERSONÆ</head>
     <castList>
      <castItem type="role">
@@ -132,11 +132,11 @@
    </div>
   </front>
 
-  <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-   <div type="textpart" subtype="act" n="1">
+  <body>
+   <div type="act" n="1">
     <head>ACT I</head>
     <lb ed="F1" n="2"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">The king of Navarre's park.</stage>
      <lb ed="F1" n="3"/>
@@ -733,7 +733,7 @@
       </p>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting">The same.</stage>
      <lb ed="F1" n="310"/>
@@ -1188,10 +1188,10 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="2">
+   <div type="act" n="2">
     <head>ACT II</head>
     <lb ed="F1" n="489"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">The setting.</stage>
      <lb ed="F1" n="490"/>
@@ -1820,10 +1820,10 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="3">
+   <div type="act" n="3">
     <head>ACT III</head>
     <lb ed="F1" n="769"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">The same.</stage>
      <stage type="entrance"> Enter ARMADO and MOTH.</stage>
@@ -2256,10 +2256,10 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="4">
+   <div type="act" n="4">
     <head>ACT IV</head>
     <lb ed="F1" n="972"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">The same.</stage>
      <lb ed="F1" n="973"/>
@@ -2602,7 +2602,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting">The same.</stage>
      <lb ed="F1" n="1151"/>
@@ -2876,7 +2876,7 @@
       </p>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="3">
+    <div type="scene" n="3">
      <head>SCENE III</head>
      <stage type="setting">The same.</stage>
      <lb ed="F1" n="1333"/>
@@ -3605,10 +3605,10 @@
     </div>
    </div>
 
-   <div type="textpart" subtype="act" n="5">
+   <div type="act" n="5">
     <head>ACT V</head>
     <lb ed="F1" n="1739"/>
-    <div type="textpart" subtype="scene" n="1">
+    <div type="scene" n="1">
      <head>SCENE I</head>
      <stage type="setting">The same.</stage>
      <lb ed="F1" n="1740"/>
@@ -3905,7 +3905,7 @@
       </l>
      </sp>
     </div>
-    <div type="textpart" subtype="scene" n="2">
+    <div type="scene" n="2">
      <head>SCENE II</head>
      <stage type="setting">The same.</stage>
      <lb ed="F1" n="1888"/>
@@ -6139,6 +6139,6 @@
      </sp>
     </div>
    </div>
-  </div></body>
+  </body>
  </text>
 </TEI>

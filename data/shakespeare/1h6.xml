@@ -36,8 +36,8 @@
    </teiHeader>
 
    <text xml:lang="eng">
-      <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-         <div type="textpart" subtype="act" n="cast">
+      <body>
+         <div type="act" n="cast">
             <head>DRAMATIS PERSONÆ</head>
             <castList>
                <castItem type="role">
@@ -252,10 +252,10 @@
                </castItem>
             </castList>
          </div>
-         <div type="textpart" subtype="act" n="1">
+         <div type="act" n="1">
             <head>ACT I</head>
             <lb n="2" ed="F1"/>
-            <div type="textpart" subtype="scene" n="1">
+            <div type="scene" n="1">
                <head>SCENE I</head>
                <lb n="3" ed="F1"/>
                <stage type="setting">Dead March.</stage>
@@ -513,7 +513,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="2">
+            <div type="scene" n="2">
                <head>SCENE II</head>
                <lb n="192" ed="F1"/>
                <stage type="setting">Sound a flourish.</stage>
@@ -780,7 +780,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="3">
+            <div type="scene" n="3">
                <head>SCENE III</head>
                <stage type="setting">London. Before the Tower.</stage>
                <lb n="359" ed="F1"/>
@@ -998,7 +998,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="4">
+            <div type="scene" n="4">
                <head>SCENE IV</head>
                <lb n="463" ed="F1"/>
                <stage type="entrance"> Enter, on the walls, a Master Gunner and <lb n="464" ed="F1"/>his Boy. </stage>
@@ -1149,7 +1149,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="5">
+            <div type="scene" n="5">
                <head>SCENE V</head>
                <lb n="587" ed="F1"/>
                <stage type="setting"> Here an alarum again; and TALBOT pursueth the DAUPHIN, <lb n="588" ed="F1"/>and driveth him: </stage>
@@ -1209,7 +1209,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="6">
+            <div type="scene" n="6">
                <head>SCENE VI</head>
                <lb n="639" ed="F1"/>
                <stage type="setting">Enter, on the walls, LA PUCELLE, CHARLES, REIGNIER, <lb n="640" ed="F1"/>ALENCON, and Soldiers, </stage>
@@ -1256,10 +1256,10 @@
             </div>
          </div>
 
-         <div type="textpart" subtype="act" n="2">
+         <div type="act" n="2">
             <head>ACT II</head>
             <lb n="674" ed="F1"/>
-            <div type="textpart" subtype="scene" n="1">
+            <div type="scene" n="1">
                <head>SCENE I</head>
                <stage type="setting"/>
                <lb n="675" ed="F1"/>
@@ -1470,7 +1470,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="2">
+            <div type="scene" n="2">
                <head>SCENE II</head>
                <stage type="setting"/>
                <lb n="771" ed="F1"/>
@@ -1577,7 +1577,7 @@
                   </p>
                </sp>
             </div>
-            <div type="textpart" subtype="scene" n="3">
+            <div type="scene" n="3">
 
                <head>SCENE III</head>
                <stage type="setting"/>
@@ -1771,7 +1771,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="4">
+            <div type="scene" n="4">
                <head>SCENE IV</head>
                <stage type="setting"/>
                <lb n="926" ed="F1"/>
@@ -2056,7 +2056,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="5">
+            <div type="scene" n="5">
                <head>SCENE V</head>
                <stage type="setting"/>
                <lb n="1069" ed="F1"/>
@@ -2238,10 +2238,10 @@
             </div>
          </div>
 
-         <div type="textpart" subtype="act" n="3">
+         <div type="act" n="3">
             <head>ACT III</head>
             <lb n="1201" ed="F1"/>
-            <div type="textpart" subtype="scene" n="1">
+            <div type="scene" n="1">
                <head>SCENE I</head>
                <lb n="1202" ed="F1"/>
                <stage type="setting"> Flourish. Enter KING, EXETER, GLOUCESTER, WARWICK, <lb n="1203" ed="F1"/>SOMERSET, and SUFFOLK; the BISHOP OF WINCHESTER, RICHARD
@@ -2658,7 +2658,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="2">
+            <div type="scene" n="2">
                <head>SCENE II</head>
                <lb n="1421" ed="F1"/>
                <stage type="setting"/>
@@ -2959,7 +2959,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="3">
+            <div type="scene" n="3">
                <head>SCENE III</head>
                <lb n="1584" ed="F1"/>
                <stage type="setting"/>
@@ -3132,7 +3132,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="4">
+            <div type="scene" n="4">
                <head>SCENE IV</head>
                <lb n="1689" ed="F1"/>
                <stage type="setting"/>
@@ -3232,10 +3232,10 @@
             </div>
          </div>
 
-         <div type="textpart" subtype="act" n="4">
+         <div type="act" n="4">
             <head>ACT IV</head>
             <lb n="1743" ed="F1"/>
-            <div type="textpart" subtype="scene" n="1">
+            <div type="scene" n="1">
                <head>SCENE I</head>
                <stage type="setting"/>
                <lb n="1744" ed="F1"/>
@@ -3547,7 +3547,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="2">
+            <div type="scene" n="2">
                <head>SCENE II</head>
                <stage type="setting"/>
                <lb n="1948" ed="F1"/>
@@ -3610,7 +3610,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="3">
+            <div type="scene" n="3">
                <head>SCENE III</head>
                <stage type="setting"/>
                <lb n="2008" ed="F1"/>
@@ -3694,7 +3694,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="4">
+            <div type="scene" n="4">
                <head>SCENE IV</head>
                <stage type="setting"/>
                <lb n="2064" ed="F1"/>
@@ -3783,7 +3783,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="5">
+            <div type="scene" n="5">
                <head>SCENE V</head>
                <lb n="2113" ed="F1"/>
                <stage type="entrance"> Enter TALBOT and JOHN, his son.</stage>
@@ -3906,7 +3906,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="6">
+            <div type="scene" n="6">
                <head>SCENE VI</head>
                <lb n="2169" ed="F1"/>
                <stage type="setting">Alarum: excursions, wherein TALBOT'S Son <lb n="2170" ed="F1"/>is hemmed about, and TALBOT <lb n="2171" ed="F1"/>rescues him. </stage>
@@ -3972,7 +3972,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="7">
+            <div type="scene" n="7">
                <head>SCENE VII</head>
                <lb n="2229" ed="F1"/>
                <stage type="entrance">Alarum: excursions. Enter old <lb n="2230" ed="F1"/>TALBOT led
@@ -4114,10 +4114,10 @@
             </div>
          </div>
 
-         <div type="textpart" subtype="act" n="5">
+         <div type="act" n="5">
             <head>ACT V</head>
             <lb n="2332" ed="F1"/>
-            <div type="textpart" subtype="scene" n="1">
+            <div type="scene" n="1">
                <head>SCENE I</head>
                <lb n="2333" ed="F1"/>
                <stage type="entrance">Sennet. <lb n="2334" ed="F1"/>Enter KING, GLOUCESTER, and
@@ -4240,7 +4240,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="2">
+            <div type="scene" n="2">
                <head>SCENE II</head>
                <lb n="2398" ed="F1"/>
                <lb n="2399" ed="F1"/>
@@ -4305,7 +4305,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="3">
+            <div type="scene" n="3">
                <head>SCENE III</head>
                <stage type="setting">Alarum. Excursions. <lb n="2425" ed="F1"/>Enter LA PUCELLE. </stage>
                <lb ed="G"/>
@@ -4748,7 +4748,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="4">
+            <div type="scene" n="4">
                <head>SCENE IV</head>
                <lb n="2640" ed="F1"/>
                <stage type="entrance"> Enter YORK, WARWICK, and others.</stage>
@@ -5030,7 +5030,7 @@
                </sp>
             </div>
 
-            <div type="textpart" subtype="scene" n="5">
+            <div type="scene" n="5">
                <head>SCENE V</head>
                <lb n="2819" ed="F1"/>
                <lb n="2820" ed="F1"/>
@@ -5134,6 +5134,6 @@
             </div>
          </div>
 
-      </div></body>
+      </body>
    </text>
 </TEI>

@@ -36,8 +36,8 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -207,7 +207,7 @@
         </castList>
       </div>
 
-      <div type="textpart" subtype="act" n="prologue">
+      <div type="act" n="prologue">
         <head>PROLOGUE</head>
         <lb ed="F1" n="2"/>
         <stage type="entrance">Enter Chorus.</stage>
@@ -237,10 +237,10 @@
         </sp>
       </div>
 
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
         <lb ed="F1" n="37"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <lb ed="F1" n="38"/>
           <stage type="entrance">Enter the ARCHBISHOP OF CANTERBURY, and the BISHOP OF ELY.</stage>
@@ -418,7 +418,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="G"/>
           <lb ed="F1" n="143"/>
@@ -842,9 +842,9 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
-        <div type="textpart" subtype="scene" n="prologue">
+        <div type="scene" n="prologue">
           <head>PROLOGUE</head>
           <stage>Flourish.</stage>
           <stage type="entrance">Enter Chorus.</stage>
@@ -898,7 +898,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">London. A street.</stage>
           <lb ed="F1" n="505"/>
@@ -1149,7 +1149,7 @@
             <l part="N">Let us condole the knight; for, lambkins, we <lb ed="F1" n="626"/>will live. </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Southampton. A council-chamber</stage>
           <lb ed="F1" n="627"/>
@@ -1446,7 +1446,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">London. Before a tavern.</stage>
           <lb ed="F1" n="823"/>
@@ -1575,7 +1575,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">France. The KING'S palace.</stage>
           <lb ed="F1" n="885"/>
@@ -1806,10 +1806,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
         <lb ed="F1" n="1043"/>
-        <div type="textpart" subtype="scene" n="prologue">
+        <div type="scene" n="prologue">
           <head>PROLOGUE</head>
           <lb ed="F1" n="1044"/>
           <stage type="entrance">Enter Chorus.</stage>
@@ -1858,7 +1858,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">France. Before Harfleur.</stage>
           <lb ed="F1" n="1081"/>
@@ -1907,7 +1907,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">The same.</stage>
           <lb ed="F1" n="1119"/>
@@ -2122,7 +2122,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">The same. Before the gates. The Governor and some Citizens on the
             walls; the English forces below.</stage>
@@ -2201,7 +2201,7 @@
                 King and his train enter the town.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">The FRENCH KING'S palace.</stage>
           <lb ed="F1" n="1320"/>
@@ -2357,7 +2357,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">The same.</stage>
           <lb ed="F1" n="1378"/>
@@ -2472,7 +2472,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <stage type="setting">The English camp in Picardy.</stage>
           <lb ed="F1" n="1449"/>
@@ -2744,7 +2744,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
           <head>SCENE VI</head>
           <stage type="setting">The French camp, near Agincourt.</stage>
           <lb ed="F1" n="1624"/>
@@ -3105,10 +3105,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
         <lb ed="F1" n="1788"/>
-        <div type="textpart" subtype="scene" n="prologue">
+        <div type="scene" n="prologue">
           <head>PROLOGUE</head>
           <lb ed="F1" n="1789"/>
           <stage type="entrance">Enter Chorus.</stage>
@@ -3174,7 +3174,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The English camp at Agincourt.</stage>
           <lb ed="F1" n="1844"/>
@@ -3684,7 +3684,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">The French camp.</stage>
           <lb ed="F1" n="2165"/>
@@ -3804,7 +3804,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">The English camp.</stage>
           <lb ed="F1" n="2237"/>
@@ -4028,7 +4028,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">The field of battle.</stage>
           <lb ed="F1" n="2384"/>
@@ -4194,7 +4194,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">Another part of the field.</stage>
           <lb ed="F1" n="2457"/>
@@ -4259,7 +4259,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <stage type="setting">Another part of the field.Alarums.</stage>
           <lb ed="F1" n="2483"/>
@@ -4325,7 +4325,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
           <head>SCENE VII</head>
           <lb ed="F1" n="2524"/>
           <stage type="setting">Another part of the field.</stage>
@@ -4641,7 +4641,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="8">
+        <div type="scene" n="8">
           <head>SCENE VIII</head>
           <stage type="setting">Before KING HENRY'S pavillion.</stage>
           <lb ed="F1" n="2713"/>
@@ -4880,10 +4880,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
         <lb ed="F1" n="2849"/>
-        <div type="textpart" subtype="scene" n="prologue">
+        <div type="scene" n="prologue">
           <head>PROLOGUE</head>
           <lb ed="F1" n="2850"/>
           <stage type="entrance">Enter Chorus.</stage>
@@ -4940,7 +4940,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">France. The English camp.</stage>
           <lb ed="F1" n="2897"/>
@@ -5098,7 +5098,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">France. A royal palace.</stage>
           <lb ed="F1" n="2984"/>
@@ -5665,7 +5665,7 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="epilogue">
+      <div type="act" n="epilogue">
         <head>EPILOGUE</head>
         <lb ed="F1" n="3367"/>
         <stage type="entrance">Enter Chorus.</stage>
@@ -5691,6 +5691,6 @@
           </l>
         </sp>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

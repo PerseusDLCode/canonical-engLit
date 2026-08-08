@@ -37,7 +37,7 @@
 
   <text xml:lang="eng">
     <front>
-      <div type="textpart" subtype="act" n="cast">
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -185,11 +185,11 @@
       </set>
     </front>
 
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="1">
+    <body>
+      <div type="act" n="1">
         <head>ACT I</head>
         <lb n="2" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Antechamber in LEONTES' palace.</stage>
           <lb n="3" ed="F1"/>
@@ -268,7 +268,7 @@
               crutches till he had one. <stage type="exit">[Exeunt.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="48" ed="F1"/>
           <stage type="setting">A room of state in the same.</stage>
@@ -1149,10 +1149,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
         <lb n="583" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A room in LEONTE'S palace.</stage>
           <lb n="584" ed="F1"/>
@@ -1567,7 +1567,7 @@
             <l part="N">If the good truth were known. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="819" ed="F1"/>
           <stage type="setting">A prison.</stage>
@@ -1722,7 +1722,7 @@
             <l part="N">Will stand betwixt you and danger. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="897" ed="F1"/>
           <stage type="setting">A room in LEONTES' palace.</stage>
@@ -2155,10 +2155,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
         <lb n="1144" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A sea-port in Sicilia.</stage>
           <lb n="1145" ed="F1"/>
@@ -2212,7 +2212,7 @@
             <l part="N">And gracious be the issue! <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="1173" ed="F1"/>
           <stage type="setting">A court of Justice.</stage>
@@ -2618,7 +2618,7 @@
             <l part="N">Unto these sorrows. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="1436" ed="F1"/>
           <stage type="setting">Bohemia. A desert country near the sea.</stage>
@@ -2810,10 +2810,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
         <lb n="1578" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <lb n="1579" ed="F1"/>
           <stage type="entrance"> Enter TIME, the Chorus.</stage>
@@ -2856,7 +2856,7 @@
             <l part="N">He wishes earnestly you never may. <stage type="exit">[Exit.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="1612" ed="F1"/>
           <stage type="setting">Bohemia. The palace of POLIXENES.</stage>
@@ -2921,7 +2921,7 @@
             <p part="N">My best Camillo! We must disguise <lb ed="G"/>ourselves. <stage type="exit">[Exeunt.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="1667" ed="F1"/>
           <stage type="setting">A road near the Shepherd's cottage.</stage>
@@ -3145,7 +3145,7 @@
             <l part="N">Your sad tires in a mile-a. <stage>[Exit.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb n="1795" ed="F1"/>
           <stage type="setting">The Shepherd's cottage.</stage>
@@ -4695,10 +4695,10 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
         <lb n="2724" ed="F1"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A room in LEONTES' palace.</stage>
           <lb n="2725" ed="F1"/>
@@ -5172,7 +5172,7 @@
               <lb ed="G"/></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="3009" ed="F1"/>
           <stage type="setting">Before LEONTES' palace.</stage>
@@ -5410,7 +5410,7 @@
                 <lb n="3182" ed="F1"/>Come, follow <lb ed="G"/>us: we'll be thy good masters. <stage type="exit">[Exeunt.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="3183" ed="F1"/>
           <stage type="setting">A chapel in PAULINA's house.</stage>
@@ -5728,6 +5728,6 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

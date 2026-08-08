@@ -36,7 +36,7 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+    <body>
       <div type="textpart" subtype="sequence" n="1">
         <head>THE PASSIONATE PILGRIM</head>
         <div type="textpart" subtype="poem" n="1">
@@ -586,6 +586,6 @@
           </lg>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

@@ -36,8 +36,8 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <castList>
           <head>DRAMATIS PERSONÆ</head>
           <castItem type="role">
@@ -184,9 +184,9 @@
         </castList>
       </div>
 
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A desert place. <lb ed="F1" n="2"/>Thunder and lightning.</stage>
           <stage type="entrance">Enter three Witches. </stage>
@@ -237,7 +237,7 @@
             <l part="N">Hover through the fog and filthy air. <stage type="exit">Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="14"/>
           <stage type="setting">A camp near Forres. <lb ed="F1" n="15"/>Alarum within.</stage>
@@ -381,7 +381,7 @@
             <l part="N">What he hath lost noble Macbeth hath won. <lb ed="F1" n="95"/><stage type="exit">Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="96"/>
           <stage type="setting">A heath near Forres. <lb ed="F1" n="97"/>Thunder.</stage>
@@ -726,7 +726,7 @@
             <l part="N">Till then, enough. <lb ed="F1" n="276"/>Come, friends. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb ed="F1" n="277"/>
           <stage type="setting">Forres. The palace. <lb ed="F1" n="278"/>Flourish.</stage>
@@ -838,7 +838,7 @@
             <l part="N">It is a peerless kinsman. <stage type="exit">[Flourish. Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb ed="F1" n="347"/>
           <stage type="setting">Inverness. Macbeth's castle. </stage>
@@ -960,7 +960,7 @@
             <l part="N">Leave all the rest to me. <stage type="exit">Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <lb ed="F1" n="430"/>
           <stage type="setting">Before Macbeth's castle. <lb ed="F1" n="431"/>Hautboys and
@@ -1030,7 +1030,7 @@
             <l part="N">By your leave, hostess. <stage type="exit">Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
           <head>SCENE VII</head>
           <lb ed="F1" n="471"/>
           <stage type="setting">Macbeth's castle. <lb ed="F1" n="472"/>Hautboys and torches.</stage>
@@ -1175,10 +1175,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
         <lb ed="F1" n="568"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Court of Macbeth's castle. </stage>
           <lb ed="F1" n="569"/>
@@ -1313,7 +1313,7 @@
             <l part="N">That summons thee to heaven or to hell. <stage type="exit">Exit.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="646"/>
           <stage type="setting">The same. </stage>
@@ -1505,7 +1505,7 @@
             <l part="N">Wake Duncan with thy knocking! <lb ed="F1" n="740"/>I would thou couldst! <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="741"/>
           <stage type="setting">The same. Knocking within.</stage>
@@ -1854,7 +1854,7 @@
             <l part="N">Which steals itself, when there's no mercy left. <lb ed="F1" n="922"/><stage type="exit">Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb ed="F1" n="923"/>
           <stage type="setting">Outside Macbeth's castle.</stage>
@@ -1982,10 +1982,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
         <lb ed="F1" n="980"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Forres. The palace. </stage>
           <lb ed="F1" n="981"/>
@@ -2256,7 +2256,7 @@
             <l part="N">If it find heaven, must find it out to-night. <stage type="exit">Exit.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="1150"/>
           <stage type="setting">The palace. </stage>
@@ -2372,7 +2372,7 @@
             <l part="N">So, prithee, go with me. <stage type="exit">Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="1216"/>
           <stage type="setting">A park near the palace. </stage>
@@ -2481,7 +2481,7 @@
             <l part="N">Well, let's away, and say how much is done. <lb ed="F1" n="1252"/><stage type="exit">[Exeunt. </stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb ed="F1" n="1253"/>
           <stage type="setting">The same. Hall in the palace. A <lb ed="F1" n="1254"/>banquet
@@ -2828,7 +2828,7 @@
             <l part="N">We are yet but young in deed. <stage type="exit">Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb ed="F1" n="1428"/>
           <stage type="setting">A Heath. <lb ed="F1" n="1429"/>Thunder.</stage>
@@ -2886,7 +2886,7 @@
             <l part="N">Come, let's make haste; she'll soon be <lb ed="F1" n="1469"/>back again. <stage type="exit">Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <lb ed="F1" n="1470"/>
           <stage type="setting">Forres. The palace. </stage>
@@ -2969,10 +2969,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
         <lb ed="F1" n="1526"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A cavern. In the middle, a boiling cauldron. <lb ed="F1" n="1527"/>Thunder.</stage>
           <stage type="entrance">Enter the three Witches.</stage>
@@ -3336,7 +3336,7 @@
             <l part="N">Come, bring me where they are. <stage type="exit">Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="1710"/>
           <stage type="setting">Fife. Macduff's castle. </stage>
@@ -3570,7 +3570,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="1812"/>
           <stage type="setting">England. Before the King's palace.</stage>
@@ -4059,10 +4059,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
         <lb ed="F1" n="2092"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Dunsinane. Ante-room in the castle. </stage>
           <lb ed="F1" n="2093"/>
@@ -4229,7 +4229,7 @@
             <l part="F">Good night, good doctor. <stage type="exit">Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb ed="F1" n="2173"/>
           <stage type="setting">The country near Dunsinane. <lb ed="F1" n="2174"/>Drum and
@@ -4307,7 +4307,7 @@
             <l part="N">Make we our march towards Birnam. <stage type="exit">Exeunt, marching.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb ed="F1" n="2213"/>
           <stage type="setting">Dunsinane. A room in the castle. </stage>
@@ -4452,7 +4452,7 @@
             <l part="N">Profit again should hardly draw me here. <stage type="exit">[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb ed="F1" n="2287"/>
           <stage type="setting">Country near Birnam mood. <lb ed="F1" n="2288"/>Drum and
@@ -4521,7 +4521,7 @@
             <l part="N">Towards which advance the war. <stage type="exit">Exeunt, marching.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb ed="F1" n="2318"/>
           <stage type="setting">Dunsinane. Within the castle. </stage>
@@ -4626,7 +4626,7 @@
             <l part="N">At least we'll die with harness on our back. <stage type="exit">Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <lb ed="F1" n="2377"/>
           <stage type="setting">Dunsinane. Before the castle. <lb ed="F1" n="2378"/>Drum and
@@ -4658,7 +4658,7 @@
               <lb ed="F1" n="2393"/></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
           <head>SCENE VII</head>
           <lb ed="F1" n="2394"/>
           <stage type="setting">Another part of the field. Alarums.</stage>
@@ -4752,7 +4752,7 @@
             <l part="F">Enter, sir, the castle. <stage>Exeunt. Alarums.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="8">
+        <div type="scene" n="8">
           <head>SCENE VIII</head>
           <stage type="setting">Another part of the field. </stage>
           <lb ed="F1" n="2435"/>
@@ -4927,6 +4927,6 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

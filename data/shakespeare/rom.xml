@@ -36,8 +36,8 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -194,7 +194,7 @@
         </castList>
       </div>
 
-      <div type="textpart" subtype="act" n="prologue">
+      <div type="act" n="prologue">
         <head>PROLOGUE</head>
         <lb ed="G"/>
         <sp who="chorus.">
@@ -211,10 +211,10 @@
         </sp>
       </div>
 
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
         <lb ed="F1" n="2"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Verona. A public place.</stage>
           <lb ed="F1" n="3"/>
@@ -756,7 +756,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">A street.</stage>
           <lb ed="F1" n="247"/>
@@ -949,7 +949,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">A room in Capulet's house.</stage>
           <lb ed="F1" n="351"/>
@@ -1157,7 +1157,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">A street.</stage>
           <lb ed="F1" n="454"/>
@@ -1372,7 +1372,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">A hall in Capulet's house. Musicians waiting.</stage>
           <lb ed="F1" n="568"/>
@@ -1704,9 +1704,9 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
-        <div type="textpart" subtype="scene" n="prologue">
+        <div type="scene" n="prologue">
           <head>PROLOGUE</head>
           <lb ed="F1" n="732"/>
           <stage type="entrance">Enter Chorus.</stage>
@@ -1728,7 +1728,7 @@
           <l part="N">Tempering extremities with extreme sweet. <stage>Exit.</stage>
           </l>
         </div>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A lane by the wall of Capulet's orchard.</stage>
           <lb ed="F1" n="747"/>
@@ -1813,7 +1813,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Capulet's orchard.</stage>
           <stage type="entrance">Enter ROMEO.</stage>
@@ -2203,7 +2203,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Friar Laurence's cell.</stage>
           <lb ed="F1" n="1005"/>
@@ -2369,7 +2369,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">A street. </stage>
           <lb ed="F1" n="1105"/>
@@ -2805,7 +2805,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">Capulet's orchard.</stage>
           <lb ed="F1" n="1310"/>
@@ -2951,7 +2951,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <stage type="setting">Friar Laurence's cell.</stage>
           <lb ed="F1" n="1392"/>
@@ -3028,9 +3028,9 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A public place.</stage>
           <lb ed="F1" n="1431"/>
@@ -3414,7 +3414,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Capulet's orchard.</stage>
           <lb ed="F1" n="1644"/>
@@ -3643,7 +3643,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Friar Laurence's cell.</stage>
           <lb ed="F1" n="1799"/>
@@ -3957,7 +3957,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
 
           <stage type="setting">A room in Capulet's house.</stage>
@@ -4029,7 +4029,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">Capulet's orchard.</stage>
           <lb ed="F1" n="2032"/>
@@ -4512,9 +4512,9 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Friar Laurence's cell.</stage>
           <lb ed="F1" n="2293"/>
@@ -4753,7 +4753,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Hall in Capulet's house.</stage>
           <lb ed="F1" n="2423"/>
@@ -4868,7 +4868,7 @@
             <l part="N">Since this same wayward girl is so reclaim'd. <lb ed="F1" n="2477"/></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Juliet's chamber.</stage>
           <lb ed="F1" n="2478"/>
@@ -4957,7 +4957,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">Hall in Capulet's house.</stage>
           <stage type="entrance">Enter LADY CAPULET and Nurse. </stage>
@@ -5038,7 +5038,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">Juliet's chamber.</stage>
           <stage type="entrance">Enter Nurse.</stage>
@@ -5341,9 +5341,9 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Mantua. A street.</stage>
           <lb ed="F1" n="2722"/>
@@ -5492,7 +5492,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Friar Laurence's cell.</stage>
           <lb ed="F1" n="2818"/>
@@ -5558,7 +5558,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">A churchyard; in it a tomb belonging to the Capulets.</stage>
           <lb ed="F1" n="2851"/>
@@ -6120,6 +6120,6 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

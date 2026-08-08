@@ -36,8 +36,8 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -138,10 +138,10 @@
           the Continent.</stage>
       </div>
 
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
         <lb ed="F1" n="2"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Venice. A street.</stage>
           <lb ed="F1" n="3"/>
@@ -437,7 +437,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Belmont. A room in PORTIA'S house.</stage>
           <lb ed="F1" n="195"/>
@@ -611,7 +611,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Venice. A public place. </stage>
           <lb ed="F1" n="325"/>
@@ -938,10 +938,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
         <lb ed="F1" n="513"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Belmont. A room in PORTIA'S house.</stage>
           <lb ed="F1" n="514"/>
@@ -1026,7 +1026,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Venice. A street.</stage>
           <lb ed="F1" n="567"/>
@@ -1382,7 +1382,7 @@
             <l part="N">But we will visit you at supper-time. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">The same. A room in SHYLOCK'S house. </stage>
           <lb ed="F1" n="771"/>
@@ -1420,7 +1420,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">The same. A street.</stage>
           <lb ed="F1" n="793"/>
@@ -1529,7 +1529,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">The same. Before SHYLOCK'S house.</stage>
           <lb ed="F1" n="835"/>
@@ -1643,7 +1643,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <stage type="setting">The same.</stage>
           <lb ed="F1" n="895"/>
@@ -1797,7 +1797,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
           <head>SCENE VII</head>
           <stage type="setting">Belmont. A room in PORTIA'S house.</stage>
           <lb ed="F1" n="972"/>
@@ -1913,7 +1913,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="8">
+        <div type="scene" n="8">
           <head>SCENE VIII</head>
           <stage type="setting">Venice. A street.</stage>
           <lb ed="F1" n="1054"/>
@@ -2012,7 +2012,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="9">
+        <div type="scene" n="9">
           <head>SCENE IX</head>
           <stage type="setting">Belmont. A room in PORTIA'S house.</stage>
           <lb ed="F1" n="1111"/>
@@ -2184,10 +2184,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
         <lb ed="F1" n="1217"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Venice. A street.</stage>
           <lb ed="F1" n="1218"/>
@@ -2390,7 +2390,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Belmont. A room in PORTIA'S house.</stage>
           <lb ed="F1" n="1341"/>
@@ -2888,7 +2888,7 @@
             <l part="N">No rest be interposer 'twixt us twain. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Venice. A street.</stage>
           <lb ed="F1" n="1684"/>
@@ -2965,7 +2965,7 @@
             <l part="N">To see me pay his debt, and then I care not! <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">Belmont. A room in PORTIA'S house.</stage>
           <lb ed="F1" n="1725"/>
@@ -3105,7 +3105,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">The same. A garden.</stage>
           <lb ed="F1" n="1813"/>
@@ -3263,10 +3263,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
         <lb ed="F1" n="1901"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Venice. A court of justice.</stage>
           <lb ed="F1" n="1902"/>
@@ -4161,7 +4161,7 @@
             </l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">The same. A street.</stage>
           <lb ed="F1" n="2379"/>
@@ -4217,10 +4217,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
         <lb ed="F1" n="2403"/>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Belmont. Avenue to PORTIA'S house.</stage>
           <lb ed="F1" n="2404"/>
@@ -4837,6 +4837,6 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

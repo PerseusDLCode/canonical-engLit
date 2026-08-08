@@ -36,8 +36,8 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -153,10 +153,10 @@
         </castList>
       </div>
 
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <lb n="2" ed="F1"/>
         <head>ACT I</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Orchard of OLIVER'S house. </stage>
           <lb n="3" ed="F1"/>
@@ -423,7 +423,7 @@
           </sp>
         </div>
 
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="169" ed="F1"/>
           <stage type="setting">Lawn before the DUKE's palace. </stage>
@@ -990,7 +990,7 @@
             <l part="N">But heavenly Rosalind! <stage>[Exit.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="458" ed="F1"/>
           <stage type="setting">A room in the palace. </stage>
@@ -1288,10 +1288,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <lb n="604" ed="F1"/>
         <head>ACT II</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The Forest of Arden. </stage>
           <lb n="605" ed="F1"/>
@@ -1403,7 +1403,7 @@
             <l part="N">I'll bring him to you straight <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="679" ed="F1"/>
           <stage type="setting">A room in the palace.</stage>
@@ -1446,7 +1446,7 @@
             <l part="N">To bring again these foolish runaways. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="702" ed="F1"/>
           <stage type="setting">Before OLIVER'S house.</stage>
@@ -1563,7 +1563,7 @@
             <l part="N">Than to die well and not my master's debtor. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb n="781" ed="F1"/>
           <stage type="setting">The Forest of Arden. </stage>
@@ -1771,7 +1771,7 @@
             <l part="N">And buy it with your gold right suddenly. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb n="888" ed="F1"/>
           <stage type="setting">The forest.</stage>
@@ -1894,7 +1894,7 @@
                 <stage>[Exeunt severally.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <lb n="949" ed="F1"/>
           <stage type="setting">The forest. </stage>
@@ -1924,7 +1924,7 @@
               Adam! <stage>[Exeunt.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
           <head>SCENE VII</head>
           <lb n="971" ed="F1"/>
           <stage type="setting">The forest. A table set out.</stage>
@@ -2257,10 +2257,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <lb n="1179" ed="F1"/>
         <head>ACT III</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A room in the palace. </stage>
           <lb n="1180" ed="F1"/>
@@ -2296,7 +2296,7 @@
             <l part="N">Do this expediently and turn him going. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="1199" ed="F1"/>
           <stage type="setting">The forest.</stage>
@@ -3025,7 +3025,7 @@
             <l part="N">Come, sister, <lb n="1612" ed="F1"/>will you go? <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="1613" ed="F1"/>
           <stage type="setting">The forest. </stage>
@@ -3193,7 +3193,7 @@
             <p part="N">'Tis no matter: ne'er a fantastical <lb ed="G"/>knave of them <lb n="1707" ed="F1"/>all shall flout me out of my <lb n="109" ed="G"/>calling. <stage>[Exit.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb n="1708" ed="F1"/>
           <stage type="setting">The forest. </stage>
@@ -3322,7 +3322,7 @@
             <l part="N">I'll prove a busy actor in their play. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb n="1769" ed="F1"/>
           <stage type="setting">Another part of the forest. </stage>
@@ -3548,10 +3548,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <lb n="1915" ed="F1"/>
         <head>ACT IV</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The forest. </stage>
           <lb n="1916" ed="F1"/>
@@ -3947,7 +3947,7 @@
             <l part="N">And I'll sleep. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="2125" ed="F1"/>
           <stage type="setting">The forest.</stage>
@@ -3991,7 +3991,7 @@
             <l part="N">Is not a thing to laugh to scorn. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="2146" ed="F1"/>
           <stage type="setting">The forest. </stage>
@@ -4334,10 +4334,10 @@
         </div>
       </div>
 
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <lb n="2339" ed="F1"/>
         <head>ACT V</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">The forest.</stage>
           <lb n="2340" ed="F1"/>
@@ -4482,7 +4482,7 @@
               <lb n="2406" ed="F1"/>I attend. <stage>[Exeunt.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <lb n="2407" ed="F1"/>
           <stage type="setting">The forest. </stage>
@@ -4716,7 +4716,7 @@
             <l part="N">Nor I. <stage>[Exeunt.</stage></l>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <lb n="2530" ed="F1"/>
           <stage type="setting">The forest. </stage>
@@ -4788,7 +4788,7 @@
             <p part="N">By my troth, yes; I count it but <lb ed="G"/>time lost to hear <lb n="2570" ed="F1"/>such a foolish song. God be <lb ed="G"/>wi' you; and God mend your <lb n="2571" ed="F1"/>voices! Come, <lb ed="G"/>Audrey. <stage>[Exeunt.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <lb n="2572" ed="F1"/>
           <stage type="setting">The forest. </stage>
@@ -5147,6 +5147,6 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

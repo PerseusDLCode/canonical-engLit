@@ -36,8 +36,8 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-      <div type="textpart" subtype="act" n="cast">
+    <body>
+      <div type="act" n="cast">
         <head>DRAMATIS PERSONÆ</head>
         <castList>
           <castItem type="role">
@@ -224,9 +224,9 @@
           </castGroup>
         </castList>
       </div>
-      <div type="textpart" subtype="act" n="1">
+      <div type="act" n="1">
         <head>ACT I</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <lb ed="F1" n="2"/>
           <stage type="setting">London. The Parliament-house.</stage>
@@ -971,7 +971,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Sandal Castle.</stage>
           <lb ed="F1" n="307"/>
@@ -1147,7 +1147,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Field of battle betwixt Sandal Castle and Wakefield.</stage>
           <lb ed="F1" n="399"/>
@@ -1275,7 +1275,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">Another part of the field.</stage>
           <lb ed="F1" n="457"/>
@@ -1504,9 +1504,9 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="2">
+      <div type="act" n="2">
         <head>ACT II</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A plain near Mortimer's Cross in Herefordshire.</stage>
           <lb ed="F1" n="651"/>
@@ -1796,7 +1796,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">Before York.</stage>
           <lb ed="F1" n="870"/>
@@ -2134,7 +2134,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">A field of battle between Towton and Saxton, in Yorkshire.</stage>
           <lb ed="F1" n="1056"/>
@@ -2236,7 +2236,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">Another part of the field</stage>
           <lb ed="F1" n="1119"/>
@@ -2274,7 +2274,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">Another part of the field.</stage>
           <lb ed="F1" n="1134"/>
@@ -2459,7 +2459,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <stage type="setting">Another part of the field</stage>
           <lb ed="F1" n="1281"/>
@@ -2661,9 +2661,9 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="3">
+      <div type="act" n="3">
         <head>ACT III</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">A forest in the north of England.</stage>
           <lb ed="F1" n="1396"/>
@@ -2862,7 +2862,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">London. The palace.</stage>
           <lb ed="F1" n="1500"/>
@@ -3349,7 +3349,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">France. The King's Palace</stage>
           <lb ed="F1" n="1720"/>
@@ -3856,9 +3856,9 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="4">
+      <div type="act" n="4">
         <head>ACT IV</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">London. The palace.</stage>
           <lb ed="F1" n="2016"/>
@@ -4183,7 +4183,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">A plain in Warwickshire.</stage>
           <lb ed="F1" n="2186"/>
@@ -4220,7 +4220,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Edward's camp, near Warwick.</stage>
           <lb ed="F1" n="2220"/>
@@ -4377,7 +4377,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">London. The palace.</stage>
           <lb ed="F1" n="2303"/>
@@ -4461,7 +4461,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <stage type="setting">A park near Middleham Castle in Yorkshire.</stage>
           <lb ed="F1" n="2341"/>
@@ -4545,7 +4545,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <stage type="setting">London. The tower.</stage>
           <lb ed="F1" n="2379"/>
@@ -4739,7 +4739,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
           <head>SCENE VII</head>
           <stage type="setting">Before York.</stage>
           <lb ed="F1" n="2491"/>
@@ -4951,7 +4951,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="8">
+        <div type="scene" n="8">
           <head>SCENE VIII</head>
           <stage type="setting">London. The palace.</stage>
           <lb ed="F1" n="2600"/>
@@ -5087,9 +5087,9 @@
           </sp>
         </div>
       </div>
-      <div type="textpart" subtype="act" n="5">
+      <div type="act" n="5">
         <head>ACT V</head>
-        <div type="textpart" subtype="scene" n="1">
+        <div type="scene" n="1">
           <head>SCENE I</head>
           <stage type="setting">Coventry.</stage>
           <lb ed="F1" n="2672"/>
@@ -5378,7 +5378,7 @@
               <lb ed="F1" n="2798"/><stage>March. Warwick and his company follow.</stage></p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="2">
+        <div type="scene" n="2">
           <head>SCENE II</head>
           <stage type="setting">A field of battle near Barnet.</stage>
           <lb ed="F1" n="2799"/>
@@ -5457,7 +5457,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="3">
+        <div type="scene" n="3">
           <head>SCENE III</head>
           <stage type="setting">Another part of the field.</stage>
           <lb ed="F1" n="2855"/>
@@ -5505,7 +5505,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="4">
+        <div type="scene" n="4">
           <head>SCENE IV</head>
           <stage type="setting">Plains near Tewksbury.</stage>
           <lb ed="F1" n="2881"/>
@@ -5621,7 +5621,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="5">
+        <div type="scene" n="5">
           <head>SCENE V</head>
           <lb ed="F1" n="2971"/>
           <stage type="setting">Flourish. Enter KING EDWARD, GLOUCESTER, CLARENCE, and soldiers;
@@ -5879,7 +5879,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="6">
+        <div type="scene" n="6">
           <head>SCENE VI</head>
           <stage type="setting">London. The Tower.</stage>
           <lb ed="F1" n="3072"/>
@@ -6014,7 +6014,7 @@
             </p>
           </sp>
         </div>
-        <div type="textpart" subtype="scene" n="7">
+        <div type="scene" n="7">
           <head>SCENE VII</head>
           <stage type="setting">London. The palace.</stage>
           <lb ed="F1" n="3170"/>
@@ -6090,6 +6090,6 @@
           </sp>
         </div>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

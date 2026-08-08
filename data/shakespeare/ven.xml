@@ -68,7 +68,7 @@
       </div>
     </front>
 
-    <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+    <body>
       <div n="ven" type="section" part="N" org="uniform" sample="complete">
         <lg>
           <lg>
@@ -2459,6 +2459,6 @@
           </lg>
         </lg>
       </div>
-    </div></body>
+    </body>
   </text>
 </TEI>

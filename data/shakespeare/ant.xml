@@ -36,8 +36,8 @@
       </teiHeader>
 
       <text xml:lang="eng">
-            <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
-                  <div type="textpart" subtype="act" n="cast">
+            <body>
+                  <div type="act" n="cast">
                         <head>DRAMATIS PERSONÆ</head>
                         <castList>
                               <castGroup>
@@ -196,10 +196,10 @@
                         </castList>
                   </div>
 
-                  <div type="textpart" subtype="act" n="1">
+                  <div type="act" n="1">
                         <head>ACT I</head>
                         <lb n="2" ed="F1"/>
-                        <div type="textpart" subtype="scene" n="1">
+                        <div type="scene" n="1">
                               <head>SCENE I</head>
                               <stage type="setting"> Alexandria. A room in Cleopatra's palace. </stage>
                               <lb n="3" ed="F1"/>
@@ -356,7 +356,7 @@
                                     </p>
                               </sp>
                         </div>
-                        <div type="textpart" subtype="scene" n="2">
+                        <div type="scene" n="2">
                               <head>SCENE II</head>
                               <stage type="setting">The same. Another room.</stage>
                               <lb n="77" ed="F1"/>
@@ -1038,7 +1038,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="3">
+                        <div type="scene" n="3">
                               <head>SCENE III</head>
                               <stage type="setting"> The same. Another room. </stage>
                               <lb n="298" ed="F1"/>
@@ -1355,7 +1355,7 @@
                                     </p>
                               </sp>
                         </div>
-                        <div type="textpart" subtype="scene" n="4">
+                        <div type="scene" n="4">
                               <head>SCENE IV</head>
                               <stage type="setting"> Rome. Cæsar's house. </stage>
                               <lb n="428" ed="F1"/>
@@ -1517,7 +1517,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="5">
+                        <div type="scene" n="5">
                               <head>SCENE V</head>
                               <stage type="setting">Alexandria. Cleopatra's palace. </stage>
                               <lb n="523" ed="F1"/>
@@ -1760,10 +1760,10 @@
                         </div>
                   </div>
 
-                  <div type="textpart" subtype="act" n="2">
+                  <div type="act" n="2">
                         <head>ACT II</head>
 
-                        <div type="textpart" subtype="scene" n="1">
+                        <div type="scene" n="1">
                               <head>SCENE I</head>
                               <stage type="setting"> Messina. Pompey's house. </stage>
                               <lb n="614" ed="F1"/>
@@ -1883,7 +1883,7 @@
                                     </p>
                               </sp>
                         </div>
-                        <div type="textpart" subtype="scene" n="2">
+                        <div type="scene" n="2">
                               <head>SCENE II</head>
                               <stage type="setting"> Rome. The house of Lepidus. </stage>
                               <lb n="678" ed="F1"/>
@@ -2577,7 +2577,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="3">
+                        <div type="scene" n="3">
                               <head>SCENE III</head>
                               <stage type="setting"> The same. Cæsar's house. </stage>
                               <lb n="963" ed="F1"/>
@@ -2696,7 +2696,7 @@
                         </div>
 
 
-                        <div type="textpart" subtype="scene" n="4">
+                        <div type="scene" n="4">
                               <head>SCENE IV</head>
                               <stage type="setting"> The same. A street. </stage>
                               <lb n="1011" ed="F1"/>
@@ -2752,7 +2752,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="5">
+                        <div type="scene" n="5">
                               <head>SCENE V</head>
                               <stage type="setting"> Alexandria. Cleopatra's palace. </stage>
                               <lb n="1024" ed="F1"/>
@@ -3186,7 +3186,7 @@
                                     </p>
                               </sp>
                         </div>
-                        <div type="textpart" subtype="scene" n="6">
+                        <div type="scene" n="6">
                               <head>SCENE VI</head>
                               <stage type="setting"> Near Misenum.</stage>
                               <lb n="1175" ed="F1"/>
@@ -3686,7 +3686,7 @@
                         </div>
 
 
-                        <div type="textpart" subtype="scene" n="7">
+                        <div type="scene" n="7">
                               <head>SCENE VII</head>
                               <stage type="setting"> On board Pompey's galley, off Misenum.</stage>
                               <lb n="1333" ed="F1"/>
@@ -4225,11 +4225,11 @@
                         </div>
                   </div>
 
-                  <div type="textpart" subtype="act" n="3">
+                  <div type="act" n="3">
                         <head>ACT III</head>
 
 
-                        <div type="textpart" subtype="scene" n="1">
+                        <div type="scene" n="1">
                               <head>SCENE I</head>
                               <stage type="setting"> A plain in Syria. </stage>
                               <lb n="1494" ed="F1"/>
@@ -4307,7 +4307,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="2">
+                        <div type="scene" n="2">
                               <head>SCENE II</head>
                               <stage type="setting"> Rome. An ante-chamber in Cæsar's house. </stage>
                               <lb n="1538" ed="F1"/>
@@ -4584,7 +4584,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="3">
+                        <div type="scene" n="3">
                               <head>SCENE III</head>
                               <stage type="setting"> Alexandria. Cleopatra's palace. </stage>
                               <lb n="1620" ed="F1"/>
@@ -4849,7 +4849,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="4">
+                        <div type="scene" n="4">
                               <head>SCENE IV</head>
                               <stage type="setting"> Athens. A room in Antony's house. </stage>
                               <lb n="1684" ed="F1"/>
@@ -4919,7 +4919,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="5">
+                        <div type="scene" n="5">
                               <head>SCENE V</head>
                               <stage type="setting"> The same. Another room. </stage>
                               <lb n="1726" ed="F1"/>
@@ -5009,7 +5009,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="6">
+                        <div type="scene" n="6">
                               <head>SCENE VI</head>
                               <stage type="setting"> Rome. Cæsar's house. </stage>
                               <lb n="1751" ed="F1"/>
@@ -5251,7 +5251,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="7">
+                        <div type="scene" n="7">
                               <head>SCENE VII</head>
                               <stage type="setting"> Near Actium. Antony's camp. </stage>
                               <lb n="1858" ed="F1"/>
@@ -5540,7 +5540,7 @@
                         </div>
 
 
-                        <div type="textpart" subtype="scene" n="8">
+                        <div type="scene" n="8">
                               <head>SCENE VIII</head>
                               <stage type="setting"> A plain near Actium. </stage>
                               <lb n="1960" ed="F1"/>
@@ -5570,7 +5570,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="9">
+                        <div type="scene" n="9">
                               <head>SCENE IX</head>
                               <stage type="setting"> Another part of the plain.</stage>
                               <lb n="1967" ed="F1"/>
@@ -5586,7 +5586,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="10">
+                        <div type="scene" n="10">
                               <head>SCENE X</head>
                               <stage type="setting"> Another part of the plain. <lb n="1972" ed="F1"/>CANIDIUS marcheth with his land army one way over the <lb n="1973" ed="F1"/>stage; and TAURUS, the lieutenant of
                                     CÆSAR, the other way. <lb n="1974" ed="F1"/>After their
@@ -5715,7 +5715,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="11">
+                        <div type="scene" n="11">
                               <head>SCENE XI</head>
                               <stage type="setting"> Alexandria. Cleopatra's palace. </stage>
                               <lb n="2023" ed="F1"/>
@@ -5936,7 +5936,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="12">
+                        <div type="scene" n="12">
                               <head>SCENE XII</head>
                               <stage type="setting"> Egypt. Cæsar's camp. </stage>
                               <lb n="2107" ed="F1"/>
@@ -6042,7 +6042,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="13">
+                        <div type="scene" n="13">
                               <head>SCENE XIII</head>
                               <stage type="setting"> Alexandria. Cleopatra's palace. </stage>
                               <stage type="entrance">Enter CLEOPATRA, ENOBARBUS, CHARMIAN, and
@@ -6609,9 +6609,9 @@
                         </div>
                   </div>
 
-                  <div type="textpart" subtype="act" n="4">
+                  <div type="act" n="4">
                         <head>ACT IV</head>
-                        <div type="textpart" subtype="scene" n="1">
+                        <div type="scene" n="1">
                               <head>SCENE I</head>
                               <stage type="setting"> Before Alexandria. Cæsar's camp. </stage>
                               <lb n="2389" ed="F1"/>
@@ -6650,7 +6650,7 @@
                                     </p>
                               </sp>
                         </div>
-                        <div type="textpart" subtype="scene" n="2">
+                        <div type="scene" n="2">
                               <head>SCENE II</head>
                               <stage type="setting"> Alexandria. Cleopatra's palace. </stage>
                               <lb n="2409" ed="F1"/>
@@ -6796,7 +6796,7 @@
                                     </p>
                               </sp>
                         </div>
-                        <div type="textpart" subtype="scene" n="3">
+                        <div type="scene" n="3">
                               <head>SCENE III</head>
                               <stage type="setting"> The same. Before the palace.</stage>
                               <lb n="2467" ed="F1"/>
@@ -6965,7 +6965,7 @@
                                     </p>
                               </sp>
                         </div>
-                        <div type="textpart" subtype="scene" n="4">
+                        <div type="scene" n="4">
                               <head>SCENE IV</head>
                               <stage type="setting"> The same. A room in the palace. </stage>
                               <lb n="2502" ed="F1"/>
@@ -7107,7 +7107,7 @@
                         </div>
 
 
-                        <div type="textpart" subtype="scene" n="5">
+                        <div type="scene" n="5">
                               <head>SCENE V</head>
                               <stage type="setting"> Alexandria. Antony's camp. <lb n="2552" ed="F1"/>Trumpets sound.</stage>
                               <stage type="entrance"> Enter ANTONY and EROS; a Soldier meeting them. </stage>
@@ -7190,7 +7190,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="6">
+                        <div type="scene" n="6">
                               <head>SCENE VI</head>
                               <stage type="setting"> Alexandria. Cæsar's camp. <lb n="2575" ed="F1"/>Flourish.</stage>
                               <stage type="entrance"> Enter CÆSAR, AGRIPPA, with ENOBARBUS,
@@ -7291,7 +7291,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="7">
+                        <div type="scene" n="7">
                               <head>SCENE VII</head>
                               <stage type="setting"> Field of battle between the camps.</stage>
                               <lb n="2621" ed="F1"/>
@@ -7375,7 +7375,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="8">
+                        <div type="scene" n="8">
                               <head>SCENE VIII</head>
                               <stage type="setting"> Under the walls of Alexandria. <lb n="2647" ed="F1"/>Alarum. </stage>
                               <stage type="entrance">Enter ANTONY, in a march; <lb n="2648" ed="F1"/>SCARUS, with others. </stage>
@@ -7451,7 +7451,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="9">
+                        <div type="scene" n="9">
                               <head>SCENE IX</head>
                               <stage type="setting"> Cæsar's camp. Sentinels at their post. </stage>
                               <lb ed="G"/>
@@ -7584,7 +7584,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="10">
+                        <div type="scene" n="10">
                               <head>SCENE X</head>
                               <stage type="setting"> Between the two camps. </stage>
                               <lb n="2736" ed="F1"/>
@@ -7615,7 +7615,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="11">
+                        <div type="scene" n="11">
                               <head>SCENE XI</head>
                               <stage type="setting"> Another part of the same. </stage>
                               <lb n="2747" ed="F1"/>
@@ -7632,7 +7632,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="12">
+                        <div type="scene" n="12">
                               <head>SCENE XII</head>
                               <stage type="setting"> Another part of the same. </stage>
                               <lb n="2752" ed="F1"/>
@@ -7721,7 +7721,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="13">
+                        <div type="scene" n="13">
                               <head>SCENE XIII</head>
                               <stage type="setting"> Alexandria. Cleopatra's palace. </stage>
                               <lb n="2809" ed="F1"/>
@@ -7757,7 +7757,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="14">
+                        <div type="scene" n="14">
                               <head>SCENE XIV</head>
                               <stage type="setting"> The same. Another room. </stage>
                               <lb n="2823" ed="F1"/>
@@ -8212,7 +8212,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="15">
+                        <div type="scene" n="15">
                               <head>SCENE XV</head>
                               <stage type="setting"> The same. A monument. </stage>
                               <lb n="2996" ed="F1"/>
@@ -8458,9 +8458,9 @@
 
                   </div>
 
-                  <div type="textpart" subtype="act" n="5">
+                  <div type="act" n="5">
                         <head>ACT V</head>
-                        <div type="textpart" subtype="scene" n="1">
+                        <div type="scene" n="1">
                               <head>SCENE I</head>
                               <stage type="setting">Cæsar's camp.</stage>
                               <lb n="3108" ed="F1"/>
@@ -8654,7 +8654,7 @@
                               </sp>
                         </div>
 
-                        <div type="textpart" subtype="scene" n="2">
+                        <div type="scene" n="2">
                               <head>SCENE II</head>
                               <stage type="setting"> Alexandria. A room in the monument. </stage>
                               <lb n="3200" ed="F1"/>
@@ -9751,6 +9751,6 @@
                               </sp>
                         </div>
                   </div>
-            </div></body>
+            </body>
       </text>
 </TEI>
