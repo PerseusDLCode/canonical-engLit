@@ -3507,7 +3507,7 @@
       <lg next="speech1.2" part="I" type="speech" xml:id="speech1.1" org="uniform" sample="complete">
        <l>‘The rugged Pyrrhus, like the Hyrcanian beast,’ </l>
       </lg>
-      <ab part="N">—</ab>
+      <ab>—</ab>
       
       <p>it is not so:—it begins with Pyrrhus:— 
       </p>
@@ -3593,7 +3593,7 @@
        
        <l>‘But who, O, who had seen the mobled queen’ </l>
       </lg>
-      <ab part="N">—</ab>
+      <ab>—</ab>
 
       
      </sp>
@@ -4788,7 +4788,7 @@
      </sp>
      <sp who="ham.">
       <speaker>Ham.</speaker>
-      <lg type="song" part="N" org="uniform" sample="complete">
+      <lg type="song" org="uniform" sample="complete">
        
        <l>Why, let the stricken deer go weep, </l>
        <l> The hart uncalled play; </l>
@@ -4808,7 +4808,7 @@
       <speaker>Ham.</speaker>
       
       <p>A whole one, I. </p>
-      <lg part="N" org="uniform" sample="complete">
+      <lg org="uniform" sample="complete">
        
        <l>For thou dost know, O Damon dear, </l>
        <l>This realm dismantled was </l>
@@ -4849,7 +4849,7 @@
       <speaker>Ham.</speaker>
       
       <p>Ah, ha! come, some music! come, the recorders! </p>
-      <lg part="N" org="uniform" sample="complete">
+      <lg org="uniform" sample="complete">
        
        <l>For if the king like not the comedy, </l>
        <l>Why, then, belike, he likes it not, perdy. </l>
@@ -6818,7 +6818,7 @@
       <speaker>Oph.</speaker>
       <stage>[Sings]</stage>
       <lg part="F" type="song" xml:id="s3.4" org="uniform" sample="complete">
-       <lg type="stanza" part="N" org="uniform" sample="complete">
+       <lg type="stanza" org="uniform" sample="complete">
         
         <l>And will he not come again? </l>
         <l>And will he not come again? </l>
@@ -6826,7 +6826,7 @@
         <l>Go to thy death-bed: </l>
         <l>He never will come again. </l>
        </lg>
-       <lg type="stanza" part="N" org="uniform" sample="complete">
+       <lg type="stanza" org="uniform" sample="complete">
         
         <l>His beard was as white as snow, </l>
         <l>All flaxen was his poll: </l>
@@ -7566,7 +7566,7 @@
       <speaker>First Clo.</speaker>
       
       <stage>[Sings]</stage>
-      <lg type="song" xml:id="g2.1" part="N" org="uniform" sample="complete">
+      <lg type="song" xml:id="g2.1" org="uniform" sample="complete">
        
        <l>A pick-axe, and a spade, a spade, </l>
        <l> For and a shrouding sheet: </l>
@@ -7618,7 +7618,7 @@
       
       <p>Mine, sir. <stage>[Sings]</stage>
       </p>
-      <lg type="song" xml:id="g3.1" part="N" org="uniform" sample="complete">
+      <lg type="song" xml:id="g3.1" org="uniform" sample="complete">
        
        <l>O, a pit of clay for to be made </l>
        <l>For such a guest is meet. </l>
@@ -7871,7 +7871,7 @@
       
       <p>No, faith, not a jot; but to follow him thither with
        modesty enough, and likelihood to lead it: as thus: Alexander died, Alexander was buried, Alexander returneth into dust; the dust is earth; of earth we make loam; and why of that loam, whereto he was converted, might they not stop a beer-barrel? </p>
-      <lg type="stanza" part="N" org="uniform" sample="complete">
+      <lg type="stanza" org="uniform" sample="complete">
        
        <l>Imperious Cæsar, dead and turn'd to clay, </l>
        <l>Might stop a hole to keep the wind away: </l>

@@ -39,79 +39,79 @@
     <body xml:base="urn:cts:engLit:shakespeare.pht.perseus-eng1">
       <div type="textpart" subtype="section" n="1">
         <head>THE PHOENIX AND THE TURTLE</head>
-        <lg n="1" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="1" type="stanza" org="uniform" sample="complete">
           <l>LET the bird of loudest lay,</l>
           <l>On the sole Arabian tree,</l>
           <l>Herald sad and trumpet be,</l>
           <l>To whose sound chaste wings obey.</l>
         </lg>
-        <lg n="2" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="2" type="stanza" org="uniform" sample="complete">
           <l>But thou shrieking harbinger,</l>
           <l>Foul precurrer of the fiend,</l>
           <l>Augur of the fever's end,</l>
           <l>To this troop come thou not near!</l>
         </lg>
-        <lg n="3" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="3" type="stanza" org="uniform" sample="complete">
           <l>From this session interdict</l>
           <l>Every fowl of tyrant wing,</l>
           <l>Save the eagle, feather'd king:</l>
           <l>Keep the obsequy so strict.</l>
         </lg>
-        <lg n="4" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="4" type="stanza" org="uniform" sample="complete">
           <l>Let the priest in surplice white,</l>
           <l>That defunctive music can,</l>
           <l>Be the death-divining swan,</l>
           <l>Lest the requiem lack his right.</l>
         </lg>
-        <lg n="5" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="5" type="stanza" org="uniform" sample="complete">
           <l>And thou treble-dated crow,</l>
           <l>That thy sable gender makest</l>
           <l>With the breath thou givest and takest,</l>
           <l>'Mongst our mourners shalt thou go.</l>
         </lg>
-        <lg n="6" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="6" type="stanza" org="uniform" sample="complete">
           <l>Here the anthem doth commence:</l>
           <l>Love and Constancy is dead;</l>
           <l>Phoenix and the turtle fled</l>
           <l>In a mutual flame from hence.</l>
         </lg>
-        <lg n="7" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="7" type="stanza" org="uniform" sample="complete">
           <l>So they lov'd, as love in twain</l>
           <l>Had the essence but in one;</l>
           <l>Two distincts, division none:</l>
           <l>Number there in love was slain.</l>
         </lg>
-        <lg n="8" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="8" type="stanza" org="uniform" sample="complete">
           <l>Hearts remote, yet not asunder;</l>
           <l>Distance, and no space was seen</l>
           <l>'Twixt the turtle and his queen:</l>
           <l>But in them it were a wonder.</l>
         </lg>
-        <lg n="9" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="9" type="stanza" org="uniform" sample="complete">
           <l>So between them love did shine,</l>
           <l>That the turtle saw his right</l>
           <l>Flaming in the phoenix' sight;</l>
           <l>Either was the other's mine.</l>
         </lg>
-        <lg n="10" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="10" type="stanza" org="uniform" sample="complete">
           <l>Property was thus appalled,</l>
           <l>That the self was not the same;</l>
           <l>Single nature's double name</l>
           <l>Neither two nor one was called.</l>
         </lg>
-        <lg n="11" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="11" type="stanza" org="uniform" sample="complete">
           <l>Reason, in itself confounded,</l>
           <l>Saw division grow together,</l>
           <l>To themselves yet either neither,</l>
           <l>Simple were so well compounded,</l>
         </lg>
-        <lg n="12" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="12" type="stanza" org="uniform" sample="complete">
           <l>That it cried, How true a twain</l>
           <l>Seemeth this concordant one!</l>
           <l>Love hath reason, reason none,</l>
           <l>If what parts can so remain.</l>
         </lg>
-        <lg n="13" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="13" type="stanza" org="uniform" sample="complete">
           <l>Whereupon it made this threne</l>
           <l>To the phoenix and the dove,</l>
           <l>Co-supremes and stars of love,</l>
@@ -121,27 +121,27 @@
 
       <div type="textpart" subtype="section" n="2">
         <head>THRENOS</head>
-        <lg n="14" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="14" type="stanza" org="uniform" sample="complete">
           <l>Beauty, truth, and rarity,</l>
           <l>Grace in all simplicity,</l>
           <l>Here enclosed in cinders lie.</l>
         </lg>
-        <lg n="15" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="15" type="stanza" org="uniform" sample="complete">
           <l>Death is now the phoenix' nest;</l>
           <l>And the turtle's loyal breast</l>
           <l>To eternity doth rest,</l>
         </lg>
-        <lg n="16" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="16" type="stanza" org="uniform" sample="complete">
           <l>Leaving no posterity:</l>
           <l>'T was not their infirmity,</l>
           <l>It was married chastity.</l>
         </lg>
-        <lg n="17" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="17" type="stanza" org="uniform" sample="complete">
           <l>Truth may seem, but cannot be:</l>
           <l>Beauty brag, but 'tis not she;</l>
           <l>Truth and beauty buried be.</l>
         </lg>
-        <lg n="18" type="stanza" part="N" org="uniform" sample="complete">
+        <lg n="18" type="stanza" org="uniform" sample="complete">
           <l>To this urn let those repair</l>
           <l>That are either true or fair;</l>
           <l>For these dead birds sigh a prayer.</l>

@@ -39,7 +39,7 @@
   <text xml:lang="eng">
     <front>
       <div type="textpart" subtype="section" n="epigraph">
-        <lg xml:lang="la" part="N" org="uniform" sample="complete">
+        <lg xml:lang="la" org="uniform" sample="complete">
           <l>Vilia miretur vulgus; mihi flavus Apollo</l>
           <l>Pocula Castalia plena ministret aqua.</l>
         </lg>
@@ -65,7 +65,7 @@
     </front>
 
     <body xml:base="urn:cts:engLit:shakespeare.ven.perseus-eng1">
-      <div n="ven" type="section" part="N" org="uniform" sample="complete">
+      <div n="ven" type="section" org="uniform" sample="complete">
         <lg>
           <lg>
             <l>EVEN as the sun with purple-color'd face</l>

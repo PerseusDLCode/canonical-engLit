@@ -15,5 +15,5 @@
     </xsl:template>
 
     <!-- @part="N" is the TEI default and carries no information; strip it -->
-    <xsl:template match="tei:p/@part[. = 'N']"/>
+    <xsl:template match="(tei:p | tei:lg | tei:div | tei:ab)/@part[. = 'N']"/>
 </xsl:stylesheet>

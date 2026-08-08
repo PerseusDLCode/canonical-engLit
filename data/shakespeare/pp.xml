@@ -41,7 +41,7 @@
         <head>THE PASSIONATE PILGRIM</head>
         <div type="poem" n="1">
           <head>I.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>WHEN my love swears that she is made of truth,</l>
             <l>I do believe her, though I know she lies,</l>
             <l>That she might think me some untutor'd youth,</l>
@@ -60,7 +60,7 @@
         </div>
         <div type="poem" n="2">
           <head>II.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Two loves I have, of comfort and despair,</l>
             <l>That like two spirits do suggest me still;</l>
             <l>My better angel is a man right fair,</l>
@@ -79,7 +79,7 @@
         </div>
         <div type="poem" n="3">
           <head>III.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Did not the heavenly rhetoric of thine eye,</l>
             <l>'Gainst whom the world could not hold argument,</l>
             <l>Persuade my heart to this false perjury?</l>
@@ -98,7 +98,7 @@
         </div>
         <div type="poem" n="4">
           <head>IV.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Sweet Cytherea, sitting by a brook</l>
             <l>With young Adonis, lovely, fresh, and green,</l>
             <l>Did court the lad with many a lovely look,</l>
@@ -117,7 +117,7 @@
         </div>
         <div type="poem" n="5">
           <head>V.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>If love make me forsworn, how shall I swear to love?</l>
             <l>O never faith could hold, if not to beauty vow'd:</l>
             <l>Though to myself forsworn, to thee I'll constant prove;</l>
@@ -136,7 +136,7 @@
         </div>
         <div type="poem" n="6">
           <head>VI.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Scarce had the sun dried up the dewy morn,</l>
             <l>And scarce the herd gone to the hedge for shade,</l>
             <l>When Cytherea, all in love forlorn,</l>
@@ -155,7 +155,7 @@
         </div>
         <div type="poem" n="7">
           <head>VII.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Fair is my love, but not so fair as fickle;</l>
             <l>Mild as a dove, but neither true nor trusty;</l>
             <l>Brighter than glass, and yet, as glass is, brittle;</l>
@@ -178,7 +178,7 @@
         </div>
         <div type="poem" n="8">
           <head>VIII.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>If music and sweet poetry agree,</l>
             <l>As they must needs, the sister and the brother,</l>
             <l>Then must the love be great 'twixt thee and me,</l>
@@ -197,7 +197,7 @@
         </div>
         <div type="poem" n="9">
           <head>IX.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Fair was the morn when the fair queen of love,</l>
             <l>* * * * * *</l>
             <l>Paler for sorrow than her milk-white dove,</l>
@@ -216,7 +216,7 @@
         </div>
         <div type="poem" n="10">
           <head>X.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Sweet rose, fair flower, untimely pluck'd, soon vaded,</l>
             <l>Pluck'd in the bud, and vaded in the spring!</l>
             <l>Bright orient pearl, alack, too timely shaded!</l>
@@ -233,7 +233,7 @@
         </div>
         <div type="poem" n="11">
           <head>XI.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Venus, with young Adonis sitting by her</l>
             <l>Under a myrtle shade, began to woo him:</l>
             <l>She told the youngling how god Mars did try her,</l>
@@ -252,7 +252,7 @@
         </div>
         <div type="poem" n="12">
           <head>XII.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Crabbed age and youth cannot live together:</l>
             <l>Youth is full of pleasance, age is full of care;</l>
             <l>Youth like summer morn, age like winter weather;</l>
@@ -269,7 +269,7 @@
         </div>
         <div type="poem" n="13">
           <head>XIII.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Beauty is but a vain and doubtful good;</l>
             <l>A shining gloss that vadeth suddenly;</l>
             <l>A flower that dies when first it gins to bud;</l>
@@ -286,7 +286,7 @@
         </div>
         <div type="poem" n="14">
           <head>XIV.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Good night, good rest. Ah, neither be my share:</l>
             <l>She bade good night that kept my rest away;</l>
             <l>And daff'd me to a cabin hang'd with care,</l>
@@ -303,7 +303,7 @@
         </div>
         <div type="poem" n="15">
           <head>XV.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Lord, how mine eyes throw gazes to the east!</l>
             <l>My heart doth charge the watch; the morning rise</l>
             <l>Doth cite each moving sense from idle rest.</l>
@@ -331,7 +331,7 @@
         <head>SONNETS TO SUNDRY NOTES OF MUSIC</head>
         <div type="poem" n="16">
           <head>[XVI.]</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>It was a lording's daughter, the fairest one of three,</l>
             <l>That liked of her master as well as well might be,</l>
             <l>Till looking on an Englishman, the fair'st that eye could see,</l>
@@ -352,7 +352,7 @@
         </div>
         <div type="poem" n="17">
           <head>XVII.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>On a day, alack the day!</l>
             <l>Love, whose month was ever May,</l>
             <l>Spied a blossom passing fair,</l>
@@ -376,7 +376,7 @@
 
         <div type="poem" n="18">
           <head>[XVIII.]</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>My flocks feed not,</l>
             <l>My ewes breed not,</l>
             <l>My rams speed not,</l>
@@ -436,7 +436,7 @@
 
         <div type="poem" n="19">
           <head>XIX.</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>When as thine eye hath chose the dame,</l>
             <l>And stall'd the deer that thou shouldst strike,</l>
             <l>Let reason rule things worthy blame,</l>
@@ -495,7 +495,7 @@
         </div>
         <div type="poem" n="20">
           <head>[XX.]</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>Live with me, and be my love,</l>
             <l>And we will all the pleasures prove</l>
             <l>That hills and valleys, dales and fields,</l>
@@ -513,7 +513,7 @@
             <l>And if these pleasures may thee move,</l>
             <l>Then live with me and be my love.</l>
           </lg>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <head>Love's Answer</head>
             <l>If that the world and love were young,</l>
             <l>And truth in every shepherd's tongue,</l>
@@ -524,7 +524,7 @@
 
         <div type="poem" n="21">
           <head>[XXI.]</head>
-          <lg part="N" org="uniform" sample="complete">
+          <lg org="uniform" sample="complete">
             <l>As it fell upon a day</l>
             <l>In the merry month of May,</l>
             <l>Sitting in a pleasant shade</l>

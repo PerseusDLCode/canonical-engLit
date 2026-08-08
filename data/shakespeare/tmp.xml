@@ -1051,7 +1051,7 @@
               <stage type="entrance"> Re-enter ARIEL, invisible, playing and singing; FERDINAND
                 following. </stage>
               <floatingText xml:lang="eng"><body><head>ARIEL'S song.</head>
-                  <lg type="song" part="N" org="uniform" sample="complete">
+                  <lg type="song" org="uniform" sample="complete">
                     <l> Come unto these yellow sands. </l><l>And then take hands: Courtsied when you have and kiss'd </l><l>The wild waves whist, Foot it
                       featly here and there; </l><l>And, sweet
                       sprites, the burthen bear. <stage>Burthen [dispersedly]</stage>
@@ -1076,7 +1076,7 @@
             <l>With its sweet air: thence I have follow'd it, </l>
             <l>Or it hath drawn me rather. But 'tis gone, </l>
             <l>No, it begins again. <stage>ARIEL sings.</stage></l>
-            <lg type="song" part="N" org="uniform" sample="complete">
+            <lg type="song" org="uniform" sample="complete">
               
               <l>Full fathom five thy father lies; </l>
               <l>Of his bones are coral made; </l>
@@ -2116,7 +2116,7 @@
             <l>My master through his art foresees the danger </l>
             <l>That you, his friend, are in; and sends me forth-- </l>
             <l part="I">For else his project dies--to keep them living, <stage>[Sings in Gonzalo's ear.</stage></l>
-            <lg type="song" part="N" org="uniform" sample="complete">
+            <lg type="song" org="uniform" sample="complete">
               <lb ed="G" n="300"/>
               
               <l>While you here do snoring lie, </l>
@@ -2250,14 +2250,14 @@
           </sp>
           <sp who="ste.">
             <speaker>Ste.</speaker>
-            <lg type="song" part="N" org="uniform" sample="complete">
+            <lg type="song" org="uniform" sample="complete">
               <l part="I">I shall no more to sea, to sea, </l>
               <l part="F">Here shall I die ashore--</l>
             </lg>
             
             <p>This is a very scurvy tune to sing at a man's funeral: well, here's my comfort. <stage>[Drinks.</stage>
               <stage>[Sings.</stage></p>
-            <lg type="song" part="N" org="uniform" sample="complete">
+            <lg type="song" org="uniform" sample="complete">
               
               <l part="I">The master, the swabber, the boatswain and I, </l>
               <l part="F">The gunner and his mate </l>
@@ -2981,7 +2981,7 @@
             <speaker>Ste.</speaker>
             <p>At thy request, monster, I will do reason, any
               reason. Come on, Trinculo, let us sing. <stage>[Sings.</stage></p>
-            <lg type="song" part="N" org="uniform" sample="complete">
+            <lg type="song" org="uniform" sample="complete">
               <lb ed="G" n="130"/>
               
               <l>Flout 'em and scout 'em </l>
@@ -3518,7 +3518,7 @@
           </sp>
           <sp who="juno.">
             <speaker>Juno.</speaker>
-            <lg type="song" part="N" org="uniform" sample="complete">
+            <lg type="song" org="uniform" sample="complete">
               <l>Honour, riches, marriage-blessing, </l>
               <l>Long continuance, and increasing, </l>
               <l>Hourly joys be still upon you </l>
@@ -3530,7 +3530,7 @@
           </sp>
           <sp who="cer.">
             <speaker>Cer.</speaker>
-            <lg type="song" part="N" org="uniform" sample="complete">
+            <lg type="song" org="uniform" sample="complete">
               <l>Earth's increase, foison plenty, </l>
               <l>Barns and garners never empty, </l>
               <l>Vines with clustering bunches growing, </l>
@@ -4006,7 +4006,7 @@
           </sp>
           <sp who="ari.">
             <speaker>Ari.</speaker>
-            <lg type="song" part="N" org="uniform" sample="complete">
+            <lg type="song" org="uniform" sample="complete">
               <l>Where the bee sucks, there suck I: </l>
               <l>In a cowslip's bell I lie; </l>
               <l>There I couch when owls do cry. </l>

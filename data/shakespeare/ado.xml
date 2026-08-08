@@ -1844,7 +1844,7 @@
             <speaker>Bene.</speaker>
             <p>Now, divine air! now is his soul ravished! Is it not
               strange that sheeps' guts should hale souls out of men's bodies? Well, a horn for my money, when all's done. <floatingText xml:lang="eng"><body><head> The Song.</head> <sp who="balth."><speaker>Balth.</speaker>
-                    <lg type="song" part="N" org="uniform" sample="complete">
+                    <lg type="song" org="uniform" sample="complete">
                       <l>Sigh no more, ladies, sigh no more, </l><l>Men were deceivers ever, </l><l>One foot in sea and one on shore, </l><l>To one thing constant never: </l><l>Then sigh not so, but let them go, </l><l>And be you blithe and bonny, </l><l>Converting all your sounds of woe </l><l>Into Hey nonny, nonny. </l><l>Sing no more ditties, sing no moe, </l><l>Of dumps so dull and heavy; </l><l>The fraud of men was ever so, </l><l>Since summer first was leavy: </l><l>Then sigh not so, &amp;c. </l></lg></sp>
                 </body></floatingText>
               </p>
@@ -4952,7 +4952,7 @@
             <p>And therefore will come. <stage>[Exit Margaret.</stage>
               <stage>[Sings]</stage>
             </p>
-            <lg type="song" part="N" org="uniform" sample="complete">
+            <lg type="song" org="uniform" sample="complete">
               
               <l>The god of love, </l>
               <l>That sits above, </l>
@@ -5106,7 +5106,7 @@
             <l>Hang thou there upon the tomb, </l>
             <l>Praising her when I am dumb. </l>
             <l>Now, music, sound, and sing your solemn hymn. <floatingText xml:lang="eng"><body><head>SONG.</head>
-                  <lg type="song" part="N" org="uniform" sample="complete">
+                  <lg type="song" org="uniform" sample="complete">
                     <l> Pardon, goddess of the night, </l><l>Those that slew thy virgin knight; </l><l>For the which, with songs of woe, </l><l>Round about her tomb they go. </l><l>Midnight, assist our moan; </l><l>Help
                       us to sigh and groan, </l><l>Heavily,
                       heavily: </l><l>Graves, yawn and yield your

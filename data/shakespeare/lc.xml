@@ -37,9 +37,9 @@
 
   <text xml:lang="eng">
     <body xml:base="urn:cts:engLit:shakespeare.lc.perseus-eng1">
-      <div n="1" type="poem" part="N" org="uniform" sample="complete">
+      <div n="1" type="poem" org="uniform" sample="complete">
         <head>A LOVER'S COMPLAINT</head>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>FROM off a hill whose concave womb reworded</l>
           <l>A plaintful story from a sistering vale,</l>
           <l>My spirits to attend this double voice accorded,</l>
@@ -48,7 +48,7 @@
           <l>Tearing of papers, breaking rings a-twain,</l>
           <l>Storming her world with sorrow's wind and rain.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>Upon her head a platted hive of straw,</l>
           <l>Which fortified her visage from the sun, </l>
           <l>Whereon the thought might think sometime it saw</l>
@@ -57,7 +57,7 @@
           <l>Nor youth all quit; but, spite of heaven's fell rage,</l>
           <l>Some beauty peep'd through lattice of sear'd age.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>Oft did she heave her napkin to her eyne,</l>
           <l>Which on it had conceited characters,</l>
           <l>Laundering the silken figures in the brine</l>
@@ -66,7 +66,7 @@
           <l>As often shrieking undistinguish'd woe,</l>
           <l>In clamours of all size, both high and low.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>Sometimes her levell'd eyes their carriage ride,</l>
           <l>As they did battery to the spheres intend;</l>
           <l>Sometime diverted their poor balls are tied</l>
@@ -75,7 +75,7 @@
           <l>To every place at once, and, nowhere fix'd,</l>
           <l>The mind and sight distractedly commix'd.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>Her hair, nor loose nor tied in formal plat,</l>
           <l>Proclaim'd in her a careless hand of pride</l>
           <l>For some, untuck'd, descended her sheaved hat,</l>
@@ -84,7 +84,7 @@
           <l>And true to bondage would not break from thence,</l>
           <l>Though slackly braided in loose negligence.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>A thousand favors from a maund she drew</l>
           <l>Of amber, crystal, and of beaded jet,</l>
           <l>Which one by one she in a river threw,</l>
@@ -93,7 +93,7 @@
           <l>Or monarch's hands that let not bounty fall</l>
           <l>Where want cries some, but where excess begs all.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>Of folded schedules had she many a one,</l>
           <l>Which she perused, sigh'd, tore, and gave the flood;</l>
           <l>Crack'd many a ring of posied gold and bone,</l>
@@ -102,7 +102,7 @@
           <l>With sleided silk feat and affectedly</l>
           <l>Enswathed, and seal'd to curious secrecy.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>These often bathed she in her fluxive eyes,</l>
           <l>And often kiss'd, and often 'gan to tear;</l>
           <l>Cried 'O false blood, thou register of lies,</l>
@@ -111,7 +111,7 @@
           <l>This said, in top of rage the lines she rents,</l>
           <l>Big discontent so breaking their contents.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>A reverend man that grazed his cattle nigh--</l>
           <l>Sometime a blusterer, that the ruffle knew</l>
           <l>Of court, of city, and had let go by</l>
@@ -120,7 +120,7 @@
           <l>And, privileged by age, desires to know</l>
           <l>In brief the grounds and motives of her woe.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>So slides he down upon his grained bat,</l>
           <l>And comely-distant sits he by her side;</l>
           <l>When he again desires her, being sat,</l>
@@ -129,7 +129,7 @@
           <l>Which may her suffering ecstasy assuage,</l>
           <l>'Tis promised in the charity of age.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'Father,' she says, 'though in me you behold</l>
           <l>The injury of many a blasting hour,</l>
           <l>Let it not tell your judgement I am old;</l>
@@ -138,7 +138,7 @@
           <l>Fresh to myself, if I had self-applied</l>
           <l>Love to myself and to no love beside.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'But, woe is me! too early I attended</l>
           <l>A youthful suit--it was to gain my grace--</l>
           <l>Of one by nature's outwards so commended,</l>
@@ -147,7 +147,7 @@
           <l>And when in his fair parts she did abide,</l>
           <l>She was new lodged and newly deified.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'His browny locks did hang in crooked curls;</l>
           <l>And every light occasion of the wind</l>
           <l>Upon his lips their silken parcels hurls.</l>
@@ -156,7 +156,7 @@
           <l>For on his visage was in little drawn</l>
           <l>What largeness thinks in Paradise was sawn.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'Small show of man was yet upon his chin;</l>
           <l>His phoenix down began but to appear</l>
           <l>Like unshorn velvet on that termless skin</l>
@@ -173,7 +173,7 @@
           <l>His rudeness so with his authorized youth</l>
           <l>Did livery falseness in a pride of truth.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'Well could he ride, and often men would say</l>
           <l>"That horse his mettle from his rider takes:</l>
           <l>Proud of subjection, noble by the sway,</l>
@@ -182,7 +182,7 @@
           <l>Whether the horse by him became his deed,</l>
           <l>Or he his manage by the well-doing steed.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'But quickly on this side the verdict went:</l>
           <l>His real habitude gave life and grace</l>
           <l>To appertainings and to ornament,</l>
@@ -191,7 +191,7 @@
           <l>Came for additions; yet their purposed trim</l>
           <l>Pieced not his grace, but were all graced by him.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'So on the tip of his subduing tongue</l>
           <l>All kind of arguments and question deep,</l>
           <l>All replication prompt, and reason strong,</l>
@@ -200,7 +200,7 @@
           <l>He had the dialect and different skill,</l>
           <l>Catching all passions in his craft of will:</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'That he did in the general bosom reign</l>
           <l>Of young, of old; and sexes both enchanted,</l>
           <l>To dwell with him in thoughts, or to remain</l>
@@ -209,7 +209,7 @@
           <l> And dialogued for him what he would say,</l>
           <l> Ask'd their own wills, and made their wills obey.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'Many there were that did his picture get,</l>
           <l>To serve their eyes, and in it put their mind;</l>
           <l>Like fools that in th' imagination set</l>
@@ -218,7 +218,7 @@
           <l>And labouring in moe pleasures to bestow them</l>
           <l>Than the true gouty landlord which doth owe them:</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'So many have, that never touch'd his hand,</l>
           <l>Sweetly supposed them mistress of his heart.</l>
           <l>My woeful self, that did in freedom stand,</l>
@@ -227,7 +227,7 @@
           <l>Threw my affections in his charmed power,</l>
           <l>Reserved the stalk and gave him all my flower.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'Yet did I not, as some my equals did,</l>
           <l>Demand of him, nor being desired yielded; </l>
           <l>Finding myself in honor so forbid,</l>
@@ -236,7 +236,7 @@
           <l>Of proofs new-bleeding, which remain'd the foil</l>
           <l>Of this false jewel, and his amorous spoil.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'But, ah, who ever shunn'd by precedent</l>
           <l>The destined ill she must herself assay?</l>
           <l>Or forced examples, 'gainst her own content,</l>
@@ -245,7 +245,7 @@
           <l>For when we rage, advice is often seen</l>
           <l>By blunting us to make our wits more keen.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'Nor gives it satisfaction to our blood,</l>
           <l>That we must curb it upon others' proof;</l>
           <l>To be forbod the sweets that seem so good,</l>
@@ -254,7 +254,7 @@
           <l>The one a palate hath that needs will taste,</l>
           <l>Though Reason weep, and cry "It is thy last."</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'For further I could say "This man's untrue,"</l>
           <l>And knew the patterns of his foul beguiling; </l>
           <l>Heard where his plants in others' orchards grew,</l>
@@ -263,7 +263,7 @@
           <l>Thought characters and words merely but art,</l>
           <l>And bastards of his foul adulterate heart.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'And long upon these terms I held my city,</l>
           <l>Till thus he gan besiege me: "Gentle maid,</l>
           <l>Have of my suffering youth some feeling pity,</l>
@@ -272,7 +272,7 @@
           <l>For feasts of love I have been call'd unto,</l>
           <l>Till now did ne'er invite, nor never woo.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"All my offences that abroad you see</l>
           <l>Are errors of the blood, none of the mind;</l>
           <l>Love made them not: with acture they may be,</l>
@@ -281,7 +281,7 @@
           <l>And so much less of shame in me remains,</l>
           <l>By how much of me their reproach contains.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"Among the many that mine eyes have seen,</l>
           <l>Not one whose flame my heart so much as warm'd,</l>
           <l>Or my affection put to the smallest teen,</l>
@@ -290,7 +290,7 @@
           <l>Kept hearts in liveries, but mine own was free,</l>
           <l>And reign'd, commanding in his monarchy.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"Look here, what tributes wounded fancies sent me,</l>
           <l>Of paled pearls and rubies red as blood;</l>
           <l>Figuring that they their passions likewise lent me</l>
@@ -299,7 +299,7 @@
           <l>Effects of terror and dear modesty,</l>
           <l>Encamp'd in hearts, but fighting outwardly.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"And, lo, behold these talents of their hair,</l>
           <l>With twisted metal amorously impleach'd,</l>
           <l>I have received from many a several fair,</l>
@@ -316,7 +316,7 @@
           <l>With objects manifold: each several stone,</l>
           <l>With wit well blazon'd, smiled or made some moan.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"Lo, all these trophies of affections hot,</l>
           <l>Of pensived and subdued desires the tender,</l>
           <l>Nature hath charged me that I hoard them not,</l>
@@ -325,7 +325,7 @@
           <l>For these, of force, must your oblations be,</l>
           <l>Since I their altar, you enpatron me.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"O, then, advance of yours that phraseless hand,</l>
           <l>Whose white weights down the airy scale of praise;</l>
           <l>Take all these similes to your own command,</l>
@@ -334,7 +334,7 @@
           <l>Works under you; and to your audit comes</l>
           <l>Their distract parcels in combined sums.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"Lo, this device was sent me from a nun,</l>
           <l>Or sister sanctified, of holiest note;</l>
           <l>Which late her noble suit in court did shun,</l>
@@ -343,7 +343,7 @@
           <l>But kept cold distance, and did thence remove,</l>
           <l>To spend her living in eternal love.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"But, O my sweet, what labor is 't to leave</l>
           <l>The thing we have not, mastering what not strives,</l>
           <l>Playing the place which did no form receive,</l>
@@ -352,7 +352,7 @@
           <l>The scars of battle 'scapeth by the flight,</l>
           <l>And makes her absence valiant, not her might.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"O, pardon me, in that my boast is true:</l>
           <l>The accident which brought me to her eye</l>
           <l>Upon the moment did her force subdue,</l>
@@ -361,7 +361,7 @@
           <l>Not to be tempted, would she be immured,</l>
           <l>And now, to tempt, all liberty procured.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"How mighty then you are, O, hear me tell!</l>
           <l>The broken bosoms that to me belong</l>
           <l>Have emptied all their fountains in my well,</l>
@@ -370,7 +370,7 @@
           <l>Must for your victory us all congest,</l>
           <l>As compound love to physic your cold breast.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"My parts had power to charm a sacred nun,</l>
           <l>Who, disciplined, ay, dieted in grace,</l>
           <l>Believed her eyes when they to assail begun,</l>
@@ -379,7 +379,7 @@
           <l>In thee hath neither sting, knot, nor confine,</l>
           <l>For thou art all, and all things else are thine.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"When thou impressest, what are precepts worth</l>
           <l>Of stale example? When thou wilt inflame,</l>
           <l>How coldly those impediments stand forth</l>
@@ -388,7 +388,7 @@
           <l>And sweetens, in the suffering pangs it bears,</l>
           <l>The aloes of all forces, shocks, and fears,</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'"Now all these hearts that do on mine depend,</l>
           <l>Feeling it break, with bleeding groans they pine;</l>
           <l>And supplicant their sighs to you extend,</l>
@@ -397,7 +397,7 @@
           <l>And credent soul to that strong-bonded oath</l>
           <l>That shall prefer and undertake my troth."</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'This said, his watery eyes he did dismount,</l>
           <l>Whose sights till then were levell'd on my face;</l>
           <l>Each cheek a river running from a fount</l>
@@ -406,7 +406,7 @@
           <l>Who glazed with crystal gate the glowing roses</l>
           <l>That flame through water which their hue encloses.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'O father, what a hell of witchcraft lies</l>
           <l>In the small orb of one particular tear!</l>
           <l>But with the inundation of the eyes</l>
@@ -415,7 +415,7 @@
           <l>O cleft effect! cold modesty, hot wrath,</l>
           <l>Both fire from hence and chill extincture hath.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'For, lo, his passion, but an art of craft,</l>
           <l>Even there resolved my reason into tears;</l>
           <l>There my white stole of chastity I daff'd,</l>
@@ -424,7 +424,7 @@
           <l>All melting; though our drops this difference bore,</l>
           <l>His poison'd me, and mine did him restore.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'In him a plenitude of subtle matter,</l>
           <l>Applied to cautels, all strange forms receives,</l>
           <l>Of burning blushes, or of weeping water,</l>
@@ -433,7 +433,7 @@
           <l>To blush at speeches rank, to weep at woes,</l>
           <l>Or to turn white and swoon at tragic shows:</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'That not a heart which in his level came</l>
           <l>Could 'scape the hail of his all-hurting aim,</l>
           <l>Showing fair nature is both kind and tame;</l>
@@ -442,7 +442,7 @@
           <l>When he most burn'd in heart-wish'd luxury,</l>
           <l>He preach'd pure maid, and praised cold chastity.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'Thus merely with the garment of a Grace</l>
           <l>The naked and concealed fiend he cover'd</l>
           <l>That th' unexperient gave the tempter place,</l>
@@ -451,7 +451,7 @@
           <l>Ay me! I fell; and yet do question make</l>
           <l>What I should do again for such a sake.</l>
         </lg>
-        <lg part="N" org="uniform" sample="complete">
+        <lg org="uniform" sample="complete">
           <l>'O, that infected moisture of his eye,</l>
           <l>O, that false fire which in his cheek so glow'd,</l>
           <l>O, that forced thunder from his heart did fly,</l>
