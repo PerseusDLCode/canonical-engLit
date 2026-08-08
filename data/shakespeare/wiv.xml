@@ -391,7 +391,7 @@
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
-                        <l part="N">The council shall know this. <lb ed="G"/><lb ed="F1" n="114"/></l>
+                        <l>The council shall know this. <lb ed="G"/><lb ed="F1" n="114"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -412,7 +412,7 @@
                     </sp>
                     <sp who="bard.">
                         <speaker>Bard.</speaker>
-                        <l part="N">You Banbury cheese! <lb ed="G"/><lb ed="F1" n="123"/></l>
+                        <l>You Banbury cheese! <lb ed="G"/><lb ed="F1" n="123"/></l>
                     </sp>
                     <sp who="slen.">
                         <speaker>Slen.</speaker>
@@ -454,7 +454,7 @@
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">He hears with ears. <lb ed="G"/><lb ed="F1" n="139"/></l>
+                        <l>He hears with ears. <lb ed="G"/><lb ed="F1" n="139"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -480,11 +480,11 @@
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">Ha, thou mountain-foreigner! Sir John and <lb ed="F1" n="150"/>master
+                        <l>Ha, thou mountain-foreigner! Sir John and <lb ed="F1" n="150"/>master
                             mine, <lb ed="G"/></l>
-                        <l part="N">I combat challenge of this latten bilbo. <lb ed="G"/><lb ed="F1" n="151"/></l>
-                        <l part="N">Word of denial in thy labras here! <lb ed="G"/></l>
-                        <l part="N">Word of denial; froth <lb ed="F1" n="152"/>and scum, thou liest! <lb ed="G"/><lb ed="F1" n="153"/></l>
+                        <l>I combat challenge of this latten bilbo. <lb ed="G"/><lb ed="F1" n="151"/></l>
+                        <l>Word of denial in thy labras here! <lb ed="G"/></l>
+                        <l>Word of denial; froth <lb ed="F1" n="152"/>and scum, thou liest! <lb ed="G"/><lb ed="F1" n="153"/></l>
                     </sp>
                     <sp who="slen.">
                         <speaker>Slen.</speaker>
@@ -586,7 +586,7 @@
                     </sp>
                     <sp who="slen.">
                         <speaker>Slen.</speaker>
-                        <l part="N">So I do, sir. <lb ed="G"/><lb ed="F1" n="198"/></l>
+                        <l>So I do, sir. <lb ed="G"/><lb ed="F1" n="198"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -604,7 +604,7 @@
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
-                        <l part="N">Ay, there's the point, sir. <lb ed="G"/><lb ed="F1" n="206"/></l>
+                        <l>Ay, there's the point, sir. <lb ed="G"/><lb ed="F1" n="206"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -623,7 +623,7 @@
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
-                        <l part="N">Cousin Abraham Slender, can you love her? <lb ed="G"/><lb ed="F1" n="214"/></l>
+                        <l>Cousin Abraham Slender, can you love her? <lb ed="G"/><lb ed="F1" n="214"/></l>
                     </sp>
                     <sp who="slen.">
                         <speaker>Slen.</speaker>
@@ -669,10 +669,10 @@
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
-                        <l part="N">Here comes fair Mistress Anne. <lb ed="G"/><stage type="entrance">
+                        <l>Here comes fair Mistress Anne. <lb ed="G"/><stage type="entrance">
                                 Re-enter ANNE PAGE.</stage>
                             <lb ed="G"/></l>
-                        <l part="N">Would I were <lb ed="F1" n="238"/>young for your sake, Mistress Anne! <lb ed="G"/><lb ed="F1" n="239"/></l>
+                        <l>Would I were <lb ed="F1" n="238"/>young for your sake, Mistress Anne! <lb ed="G"/><lb ed="F1" n="239"/></l>
                     </sp>
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
@@ -697,7 +697,7 @@
                     </sp>
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
-                        <l part="N">The dinner attends you, sir. <lb ed="G"/><lb ed="F1" n="246"/></l>
+                        <l>The dinner attends you, sir. <lb ed="G"/><lb ed="F1" n="246"/></l>
                     </sp>
                     <sp who="slen.">
                         <speaker>Slen.</speaker>
@@ -828,7 +828,7 @@
                     <lb ed="F1" n="301"/>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Mine host of the Garter! <lb ed="G"/><lb ed="F1" n="302"/></l>
+                        <l>Mine host of the Garter! <lb ed="G"/><lb ed="F1" n="302"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
@@ -844,7 +844,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">I sit at ten pounds a week. <lb ed="G"/><lb ed="F1" n="309"/></l>
+                        <l>I sit at ten pounds a week. <lb ed="G"/><lb ed="F1" n="309"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
@@ -854,7 +854,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Do so, good mine host. <lb ed="G"/><lb ed="F1" n="313"/></l>
+                        <l>Do so, good mine host. <lb ed="G"/><lb ed="F1" n="313"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
@@ -896,11 +896,11 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Well, sirs, I am almost out at heels. <lb ed="G"/><lb ed="F1" n="328"/></l>
+                        <l>Well, sirs, I am almost out at heels. <lb ed="G"/><lb ed="F1" n="328"/></l>
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">Why, then, let kibes ensue. <lb ed="G"/><lb ed="F1" n="329"/></l>
+                        <l>Why, then, let kibes ensue. <lb ed="G"/><lb ed="F1" n="329"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -908,11 +908,11 @@
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">Young ravens must have food. <lb ed="G"/><lb ed="F1" n="331"/></l>
+                        <l>Young ravens must have food. <lb ed="G"/><lb ed="F1" n="331"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Which of you know Ford of this town? <lb ed="G"/><lb ed="F1" n="332"/></l>
+                        <l>Which of you know Ford of this town? <lb ed="G"/><lb ed="F1" n="332"/></l>
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
@@ -924,7 +924,7 @@
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">Two yards, and more. <lb ed="G"/><lb ed="F1" n="335"/></l>
+                        <l>Two yards, and more. <lb ed="G"/><lb ed="F1" n="335"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -963,11 +963,11 @@
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">Then did the sun on dunghill shine. <lb ed="G"/><lb ed="F1" n="355"/></l>
+                        <l>Then did the sun on dunghill shine. <lb ed="G"/><lb ed="F1" n="355"/></l>
                     </sp>
                     <sp who="nym.">
                         <speaker>Nym.</speaker>
-                        <l part="N">I thank thee for that humor. <lb ed="G"/><lb ed="F1" n="356"/></l>
+                        <l>I thank thee for that humor. <lb ed="G"/><lb ed="F1" n="356"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -979,8 +979,8 @@
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">Shall I Sir Pandarus of Troy become, <lb ed="G"/><lb ed="F1" n="367"/></l>
-                        <l part="N">And by my side wear steel? then, Lucifer take all! <lb ed="G"/><lb ed="F1" n="368"/></l>
+                        <l>Shall I Sir Pandarus of Troy become, <lb ed="G"/><lb ed="F1" n="367"/></l>
+                        <l>And by my side wear steel? then, Lucifer take all! <lb ed="G"/><lb ed="F1" n="368"/></l>
                     </sp>
                     <sp who="nym.">
                         <speaker>Nym.</speaker>
@@ -990,21 +990,21 @@
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
                         <stage>[To Robin]</stage>
-                        <l part="N">Hold, sirrah, bear you these letters tightly; <lb ed="G"/><lb ed="F1" n="371"/></l>
-                        <l part="N">Sail like my pinnace to these golden shores. <lb ed="G" n="90"/><lb ed="F1" n="372"/></l>
-                        <l part="N">Rogues, hence, avaunt! vanish like hailstones go: <lb ed="G"/><lb ed="F1" n="373"/></l>
-                        <l part="N">Trudge, plod away o' the hoof; seek shelter, pack! <lb ed="G"/><lb ed="F1" n="374"/></l>
-                        <l part="N">Falstaff will learn the humor of the age, <lb ed="G"/><lb ed="F1" n="375"/></l>
-                        <l part="N">French thrift, you rogues; myself and skirted page. <lb ed="G"/><stage>[Exeunt Falstaff and Robin. </stage>
+                        <l>Hold, sirrah, bear you these letters tightly; <lb ed="G"/><lb ed="F1" n="371"/></l>
+                        <l>Sail like my pinnace to these golden shores. <lb ed="G" n="90"/><lb ed="F1" n="372"/></l>
+                        <l>Rogues, hence, avaunt! vanish like hailstones go: <lb ed="G"/><lb ed="F1" n="373"/></l>
+                        <l>Trudge, plod away o' the hoof; seek shelter, pack! <lb ed="G"/><lb ed="F1" n="374"/></l>
+                        <l>Falstaff will learn the humor of the age, <lb ed="G"/><lb ed="F1" n="375"/></l>
+                        <l>French thrift, you rogues; myself and skirted page. <lb ed="G"/><stage>[Exeunt Falstaff and Robin. </stage>
                             <lb ed="G"/><lb ed="F1" n="376"/></l>
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">Let vultures gripe thy guts! for gourd and <lb ed="F1" n="377"/>fullam
+                        <l>Let vultures gripe thy guts! for gourd and <lb ed="F1" n="377"/>fullam
                             holds, <lb ed="G"/></l>
-                        <l part="N">And high and low beguiles the rich and poor: <lb ed="G"/><lb ed="F1" n="378"/></l>
-                        <l part="N">Tester I'll have in pouch when thou shalt lack, <lb ed="G"/><lb ed="F1" n="379"/></l>
-                        <l part="N">Base Phrygian Turk! <lb ed="G"/><lb ed="F1" n="380"/></l>
+                        <l>And high and low beguiles the rich and poor: <lb ed="G"/><lb ed="F1" n="378"/></l>
+                        <l>Tester I'll have in pouch when thou shalt lack, <lb ed="G"/><lb ed="F1" n="379"/></l>
+                        <l>Base Phrygian Turk! <lb ed="G"/><lb ed="F1" n="380"/></l>
                     </sp>
                     <sp who="nym.">
                         <speaker>Nym.</speaker>
@@ -1013,27 +1013,27 @@
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">Wilt thou revenge? <lb ed="G"/><lb ed="F1" n="383"/></l>
+                        <l>Wilt thou revenge? <lb ed="G"/><lb ed="F1" n="383"/></l>
                     </sp>
                     <sp who="nym.">
                         <speaker>Nym.</speaker>
-                        <l part="N">By welkin and her star! <lb ed="G"/><lb ed="F1" n="384"/></l>
+                        <l>By welkin and her star! <lb ed="G"/><lb ed="F1" n="384"/></l>
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">With wit or steel? <lb ed="G"/><lb ed="F1" n="385"/></l>
+                        <l>With wit or steel? <lb ed="G"/><lb ed="F1" n="385"/></l>
                     </sp>
                     <sp who="nym.">
                         <speaker>Nym.</speaker>
-                        <l part="N">With both the humors, I: <lb ed="G"/><lb ed="F1" n="386"/></l>
-                        <l part="N">I will discuss the humor of this love to Page. <lb ed="G"/><lb ed="F1" n="387"/></l>
+                        <l>With both the humors, I: <lb ed="G"/><lb ed="F1" n="386"/></l>
+                        <l>I will discuss the humor of this love to Page. <lb ed="G"/><lb ed="F1" n="387"/></l>
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">And I to Ford shall eke unfold <lb ed="G"/><lb ed="F1" n="388"/></l>
-                        <l part="N">How Falstaff varlet vile, <lb ed="G"/><lb ed="F1" n="389"/></l>
-                        <l part="N">His dove will prove, his gold will hold, <lb ed="G"/><lb ed="F1" n="390"/></l>
-                        <l part="N">And his soft couch defile. <lb ed="G"/><lb ed="F1" n="391"/></l>
+                        <l>And I to Ford shall eke unfold <lb ed="G"/><lb ed="F1" n="388"/></l>
+                        <l>How Falstaff varlet vile, <lb ed="G"/><lb ed="F1" n="389"/></l>
+                        <l>His dove will prove, his gold will hold, <lb ed="G"/><lb ed="F1" n="390"/></l>
+                        <l>And his soft couch defile. <lb ed="G"/><lb ed="F1" n="391"/></l>
                     </sp>
                     <sp who="nym.">
                         <speaker>Nym.</speaker>
@@ -1064,7 +1064,7 @@
                     </sp>
                     <sp who="rug.">
                         <speaker>Rug.</speaker>
-                        <l part="N">I'll go watch. <lb ed="G"/><lb ed="F1" n="406"/></l>
+                        <l>I'll go watch. <lb ed="G"/><lb ed="F1" n="406"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -1077,15 +1077,15 @@
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
-                        <l part="N">Ay, for fault of a better. <lb ed="G"/><lb ed="F1" n="415"/></l>
+                        <l>Ay, for fault of a better. <lb ed="G"/><lb ed="F1" n="415"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">And Master Slender's your master? <lb ed="G"/><lb ed="F1" n="416"/></l>
+                        <l>And Master Slender's your master? <lb ed="G"/><lb ed="F1" n="416"/></l>
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
-                        <l part="N">Ay, forsooth. <lb ed="G"/><lb ed="F1" n="417"/></l>
+                        <l>Ay, forsooth. <lb ed="G"/><lb ed="F1" n="417"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -1098,7 +1098,7 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">A softly-sprighted man, is he not? <lb ed="G"/><lb ed="F1" n="422"/></l>
+                        <l>A softly-sprighted man, is he not? <lb ed="G"/><lb ed="F1" n="422"/></l>
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
@@ -1112,7 +1112,7 @@
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
-                        <l part="N">Yes, indeed, does he. <lb ed="G"/><lb ed="F1" n="428"/></l>
+                        <l>Yes, indeed, does he. <lb ed="G"/><lb ed="F1" n="428"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -1123,7 +1123,7 @@
                     </sp>
                     <sp who="rug.">
                         <speaker>Rug.</speaker>
-                        <l part="N">Out, alas! here comes my master. <lb ed="G"/><lb ed="F1" n="432"/></l>
+                        <l>Out, alas! here comes my master. <lb ed="G"/><lb ed="F1" n="432"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -1153,7 +1153,7 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">Is it this, sir? <lb ed="G"/><lb ed="F1" n="447"/></l>
+                        <l>Is it this, sir? <lb ed="G"/><lb ed="F1" n="447"/></l>
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
@@ -1161,11 +1161,11 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">What, John Rugby! John! <lb ed="G"/><lb ed="F1" n="450"/></l>
+                        <l>What, John Rugby! John! <lb ed="G"/><lb ed="F1" n="450"/></l>
                     </sp>
                     <sp who="rug.">
                         <speaker>Rug.</speaker>
-                        <l part="N">Here, sir! <lb ed="G"/><lb ed="F1" n="451"/></l>
+                        <l>Here, sir! <lb ed="G"/><lb ed="F1" n="451"/></l>
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
@@ -1174,7 +1174,7 @@
                     </sp>
                     <sp who="rug.">
                         <speaker>Rug.</speaker>
-                        <l part="N">'Tis ready, sir, here in the porch. <lb ed="G"/><lb ed="F1" n="455"/></l>
+                        <l>'Tis ready, sir, here in the porch. <lb ed="G"/><lb ed="F1" n="455"/></l>
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
@@ -1193,15 +1193,15 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">Good master, be content. <lb ed="G"/><lb ed="F1" n="462"/></l>
+                        <l>Good master, be content. <lb ed="G"/><lb ed="F1" n="462"/></l>
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">Wherefore shall I be content-a? <lb ed="G"/><lb ed="F1" n="463"/></l>
+                        <l>Wherefore shall I be content-a? <lb ed="G"/><lb ed="F1" n="463"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">The young man is an honest man. <lb ed="G"/><lb ed="F1" n="464"/></l>
+                        <l>The young man is an honest man. <lb ed="G"/><lb ed="F1" n="464"/></l>
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
@@ -1215,15 +1215,15 @@
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">Vell. <lb ed="G"/><lb ed="F1" n="470"/></l>
+                        <l>Vell. <lb ed="G"/><lb ed="F1" n="470"/></l>
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
-                        <l part="N">Ay, forsooth; to desire her to-- <lb ed="G"/><lb ed="F1" n="471"/></l>
+                        <l>Ay, forsooth; to desire her to-- <lb ed="G"/><lb ed="F1" n="471"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">Peace, I pray you. <lb ed="G"/><lb ed="F1" n="472"/></l>
+                        <l>Peace, I pray you. <lb ed="G"/><lb ed="F1" n="472"/></l>
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
@@ -1274,7 +1274,7 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">Alas, he speaks but for his friend. <lb ed="G"/><lb ed="F1" n="503"/></l>
+                        <l>Alas, he speaks but for his friend. <lb ed="G"/><lb ed="F1" n="503"/></l>
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
@@ -1341,7 +1341,7 @@
                     </sp>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
-                        <l part="N">Yes, marry, have I; what of that? <lb ed="G"/><lb ed="F1" n="534"/></l>
+                        <l>Yes, marry, have I; what of that? <lb ed="G"/><lb ed="F1" n="534"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -1521,7 +1521,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Well, I hope it be not so. <lb ed="G"/><lb ed="F1" n="652"/></l>
+                        <l>Well, I hope it be not so. <lb ed="G"/><lb ed="F1" n="652"/></l>
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
@@ -1529,35 +1529,35 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Why, sir, my wife is not young. <lb ed="G"/><lb ed="F1" n="655"/></l>
+                        <l>Why, sir, my wife is not young. <lb ed="G"/><lb ed="F1" n="655"/></l>
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">He wooes both high and low, both rich and poor. <lb ed="G"/><lb ed="F1" n="656"/></l>
-                        <l part="N">Both young and old, one with another, Ford; <lb ed="G"/></l>
-                        <l part="N">He loves the <lb ed="F1" n="657"/>gallimaufry: Ford, perpend. <lb ed="G" n="120"/><lb ed="F1" n="658"/></l>
+                        <l>He wooes both high and low, both rich and poor. <lb ed="G"/><lb ed="F1" n="656"/></l>
+                        <l>Both young and old, one with another, Ford; <lb ed="G"/></l>
+                        <l>He loves the <lb ed="F1" n="657"/>gallimaufry: Ford, perpend. <lb ed="G" n="120"/><lb ed="F1" n="658"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Love my wife! <lb ed="G"/><lb ed="F1" n="659"/></l>
+                        <l>Love my wife! <lb ed="G"/><lb ed="F1" n="659"/></l>
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">With liver burning hot. Prevent, <lb ed="F1" n="660"/>or go thou, <lb ed="G"/></l>
-                        <l part="N">Like Sir Actaeon he, with <lb ed="F1" n="661"/>Ringwood at thy heels: <lb ed="G"/></l>
-                        <l part="N">O, odious is the name! <lb ed="G"/><lb ed="F1" n="662"/></l>
+                        <l>With liver burning hot. Prevent, <lb ed="F1" n="660"/>or go thou, <lb ed="G"/></l>
+                        <l>Like Sir Actaeon he, with <lb ed="F1" n="661"/>Ringwood at thy heels: <lb ed="G"/></l>
+                        <l>O, odious is the name! <lb ed="G"/><lb ed="F1" n="662"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">What name, sir? <lb ed="G"/><lb ed="F1" n="663"/></l>
+                        <l>What name, sir? <lb ed="G"/><lb ed="F1" n="663"/></l>
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">The horn, I say. Farewell. <lb ed="G"/><lb ed="F1" n="664"/></l>
-                        <l part="N">Take heed, have open eyes, for thieves do foot by night: <lb ed="G"/><lb ed="F1" n="665"/></l>
-                        <l part="N">Take heed, ere summer comes or cuckoo-birds do sing. <lb ed="G"/><lb ed="F1" n="666"/></l>
-                        <l part="N">Away, Sir Corporal Nym! <lb ed="G"/><lb ed="F1" n="667"/></l>
-                        <l part="N">Believe it, Page; he speaks sense. <stage>[Exit.</stage>
+                        <l>The horn, I say. Farewell. <lb ed="G"/><lb ed="F1" n="664"/></l>
+                        <l>Take heed, have open eyes, for thieves do foot by night: <lb ed="G"/><lb ed="F1" n="665"/></l>
+                        <l>Take heed, ere summer comes or cuckoo-birds do sing. <lb ed="G"/><lb ed="F1" n="666"/></l>
+                        <l>Away, Sir Corporal Nym! <lb ed="G"/><lb ed="F1" n="667"/></l>
+                        <l>Believe it, Page; he speaks sense. <stage>[Exit.</stage>
                             <lb ed="G"/><lb ed="F1" n="668"/></l>
                     </sp>
                     <sp who="ford.">
@@ -1581,7 +1581,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">I will seek out Falstaff. <lb ed="G"/><lb ed="F1" n="680"/></l>
+                        <l>I will seek out Falstaff. <lb ed="G"/><lb ed="F1" n="680"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
@@ -1589,7 +1589,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">If I do find it; well. <lb ed="G"/><lb ed="F1" n="682"/></l>
+                        <l>If I do find it; well. <lb ed="G"/><lb ed="F1" n="682"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
@@ -1598,11 +1598,11 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">'Twas a good sensible fellow: well. <lb ed="G"/><lb ed="F1" n="685"/></l>
+                        <l>'Twas a good sensible fellow: well. <lb ed="G"/><lb ed="F1" n="685"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">How now, Meg! <lb ed="G"/><stage>[Mrs. Page and Mrs. Ford come
+                        <l>How now, Meg! <lb ed="G"/><stage>[Mrs. Page and Mrs. Ford come
                                 forward.</stage>
                             <lb ed="G"/><lb ed="F1" n="686"/></l>
                     </sp>
@@ -1638,7 +1638,7 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">You are come to see my <lb ed="G"/>daughter Anne? <lb ed="G"/><lb ed="F1" n="698"/></l>
+                        <l>You are come to see my <lb ed="G"/>daughter Anne? <lb ed="G"/><lb ed="F1" n="698"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -1652,7 +1652,7 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">How now, Master Ford! <lb ed="G"/><lb ed="F1" n="703"/></l>
+                        <l>How now, Master Ford! <lb ed="G"/><lb ed="F1" n="703"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -1726,7 +1726,7 @@
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
-                        <l part="N">What sayest thou, my bully-rook? <lb ed="G"/><lb ed="F1" n="737"/></l>
+                        <l>What sayest thou, my bully-rook? <lb ed="G"/><lb ed="F1" n="737"/></l>
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
@@ -1755,7 +1755,7 @@
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
-                        <l part="N">Have with you, mine host. <lb ed="G"/><lb ed="F1" n="751"/></l>
+                        <l>Have with you, mine host. <lb ed="G"/><lb ed="F1" n="751"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
@@ -1769,7 +1769,7 @@
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
-                        <l part="N">Here, boys, here, here shall we wag? <lb ed="G"/><lb ed="F1" n="760"/></l>
+                        <l>Here, boys, here, here shall we wag? <lb ed="G"/><lb ed="F1" n="760"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
@@ -1885,7 +1885,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Well, on: Mistress Ford, you say,-- <lb ed="G"/><lb ed="F1" n="818"/></l>
+                        <l>Well, on: Mistress Ford, you say,-- <lb ed="G"/><lb ed="F1" n="818"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -1901,7 +1901,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Well, Mistress Ford; what of her? <lb ed="G"/><lb ed="F1" n="825"/></l>
+                        <l>Well, Mistress Ford; what of her? <lb ed="G"/><lb ed="F1" n="825"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -1910,7 +1910,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Mistress Ford; come, Mistress Ford,-- <lb ed="G"/><lb ed="F1" n="829"/></l>
+                        <l>Mistress Ford; come, Mistress Ford,-- <lb ed="G"/><lb ed="F1" n="829"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -1939,7 +1939,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Ten and eleven? <lb ed="G"/><lb ed="F1" n="854"/></l>
+                        <l>Ten and eleven? <lb ed="G"/><lb ed="F1" n="854"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -1969,7 +1969,7 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">Blessing on your heart for't! <lb ed="G"/><lb ed="F1" n="874"/></l>
+                        <l>Blessing on your heart for't! <lb ed="G"/><lb ed="F1" n="874"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -1988,7 +1988,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Why, I will. <lb ed="G"/><lb ed="F1" n="887"/></l>
+                        <l>Why, I will. <lb ed="G"/><lb ed="F1" n="887"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -2007,9 +2007,9 @@
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">This punk is one of Cupid's carriers: <lb ed="G"/><lb ed="F1" n="898"/></l>
-                        <l part="N">'Clap on more sails; pursue; up with your fights: <lb ed="G"/><lb ed="F1" n="899"/></l>
-                        <l part="N">Give fire: she is my prize, or ocean whelm them all! <stage>[Exit. </stage>
+                        <l>This punk is one of Cupid's carriers: <lb ed="G"/><lb ed="F1" n="898"/></l>
+                        <l>'Clap on more sails; pursue; up with your fights: <lb ed="G"/><lb ed="F1" n="899"/></l>
+                        <l>Give fire: she is my prize, or ocean whelm them all! <stage>[Exit. </stage>
                             <lb ed="G"/><lb ed="F1" n="900"/></l>
                     </sp>
                     <sp who="fal.">
@@ -2028,11 +2028,11 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Brook is his name? <lb ed="G"/><lb ed="F1" n="910"/></l>
+                        <l>Brook is his name? <lb ed="G"/><lb ed="F1" n="910"/></l>
                     </sp>
                     <sp who="bard.">
                         <speaker>Bard.</speaker>
-                        <l part="N">Ay, sir. <lb ed="G"/><lb ed="F1" n="911"/></l>
+                        <l>Ay, sir. <lb ed="G"/><lb ed="F1" n="911"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -2042,11 +2042,11 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Bless you, sir! <lb ed="G"/><lb ed="F1" n="915"/></l>
+                        <l>Bless you, sir! <lb ed="G"/><lb ed="F1" n="915"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">And you, sir! Would you speak with me? <lb ed="G"/><lb ed="F1" n="916"/></l>
+                        <l>And you, sir! Would you speak with me? <lb ed="G"/><lb ed="F1" n="916"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -2073,7 +2073,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Money is a good soldier, sir, and will on. <lb ed="G"/><lb ed="F1" n="931"/></l>
+                        <l>Money is a good soldier, sir, and will on. <lb ed="G"/><lb ed="F1" n="931"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -2103,7 +2103,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Very well, sir; proceed. <lb ed="G"/><lb ed="F1" n="951"/></l>
+                        <l>Very well, sir; proceed. <lb ed="G"/><lb ed="F1" n="951"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -2111,7 +2111,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Well, sir. <lb ed="G"/><lb ed="F1" n="954"/></l>
+                        <l>Well, sir. <lb ed="G"/><lb ed="F1" n="954"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -2122,8 +2122,8 @@
                             have received <lb ed="F1" n="964"/><lb ed="G"/>none; unless experience
                             be a jewel that <lb ed="G"/>I have purchased <lb ed="F1" n="965"/>at an
                             infinite rate, and that <lb ed="G"/>hath taught me to say <lb ed="F1" n="966"/>this: <lb ed="G"/><lb ed="F1" n="967"/></p>
-                        <l part="N">'Love like a shadow flies when substance love pursues; <lb ed="G"/><lb ed="F1" n="968"/></l>
-                        <l part="N">Pursuing that that flies, and flying what pursues. <lb ed="G"/><lb ed="F1" n="969"/></l>
+                        <l>'Love like a shadow flies when substance love pursues; <lb ed="G"/><lb ed="F1" n="968"/></l>
+                        <l>Pursuing that that flies, and flying what pursues. <lb ed="G"/><lb ed="F1" n="969"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -2135,15 +2135,15 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Have you importuned her to such a purpose? <lb ed="G"/><lb ed="F1" n="973"/></l>
+                        <l>Have you importuned her to such a purpose? <lb ed="G"/><lb ed="F1" n="973"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Never. <lb ed="G"/><lb ed="F1" n="974"/></l>
+                        <l>Never. <lb ed="G"/><lb ed="F1" n="974"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Of what quality was your love, then? <lb ed="G"/><lb ed="F1" n="975"/></l>
+                        <l>Of what quality was your love, then? <lb ed="G"/><lb ed="F1" n="975"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -2164,7 +2164,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">O, sir! <lb ed="G"/><lb ed="F1" n="989"/></l>
+                        <l>O, sir! <lb ed="G"/><lb ed="F1" n="989"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -2198,11 +2198,11 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">O good sir! <lb ed="G"/><lb ed="F1" n="1012"/></l>
+                        <l>O good sir! <lb ed="G"/><lb ed="F1" n="1012"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">I say you shall. <lb ed="G"/><lb ed="F1" n="1013"/></l>
+                        <l>I say you shall. <lb ed="G"/><lb ed="F1" n="1013"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -2374,7 +2374,7 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">'Tis true, Master Shallow. <lb ed="G"/><lb ed="F1" n="1113"/></l>
+                        <l>'Tis true, Master Shallow. <lb ed="G"/><lb ed="F1" n="1113"/></l>
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
@@ -2389,7 +2389,7 @@
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">Mock-vater! vat is dat? <lb ed="G"/><lb ed="F1" n="1121"/></l>
+                        <l>Mock-vater! vat is dat? <lb ed="G"/><lb ed="F1" n="1121"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
@@ -2406,11 +2406,11 @@
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">Clapper-de-claw! vat is dat? <lb ed="G"/><lb ed="F1" n="1128"/></l>
+                        <l>Clapper-de-claw! vat is dat? <lb ed="G"/><lb ed="F1" n="1128"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
-                        <l part="N">That is, he will make thee amends. <lb ed="G"/><lb ed="F1" n="1129"/></l>
+                        <l>That is, he will make thee amends. <lb ed="G"/><lb ed="F1" n="1129"/></l>
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
@@ -2422,7 +2422,7 @@
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">Me tank you for dat. <lb ed="G"/><lb ed="F1" n="1133"/></l>
+                        <l>Me tank you for dat. <lb ed="G"/><lb ed="F1" n="1133"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
@@ -2433,7 +2433,7 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">Sir Hugh is there, is he? <lb ed="G"/><lb ed="F1" n="1137"/></l>
+                        <l>Sir Hugh is there, is he? <lb ed="G"/><lb ed="F1" n="1137"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
@@ -2442,7 +2442,7 @@
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
-                        <l part="N">We will do it. <lb ed="G"/><lb ed="F1" n="1140"/></l>
+                        <l>We will do it. <lb ed="G"/><lb ed="F1" n="1140"/></l>
                     </sp>
                     <sp who="page. shal. slen.">
                         <speaker>Page., Shal., and Slen.</speaker>
@@ -2472,15 +2472,15 @@
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">By gar, 'tis good; veil said. <lb ed="G"/><lb ed="F1" n="1154"/></l>
+                        <l>By gar, 'tis good; veil said. <lb ed="G"/><lb ed="F1" n="1154"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
-                        <l part="N">Let us wag, then. <lb ed="G"/><lb ed="F1" n="1155"/></l>
+                        <l>Let us wag, then. <lb ed="G"/><lb ed="F1" n="1155"/></l>
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">Come at my heels, Jack Rugby. <lb ed="F1" n="1156"/><lb ed="G"/>
+                        <l>Come at my heels, Jack Rugby. <lb ed="F1" n="1156"/><lb ed="G"/>
                             <stage>[Exeunt.</stage>
                         </l>
                     </sp>
@@ -2516,7 +2516,7 @@
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
-                        <l part="N">I will, sir. <lb ed="G"/><stage>[Exit. </stage>
+                        <l>I will, sir. <lb ed="G"/><stage>[Exit. </stage>
                             <lb ed="G"/><lb ed="F1" n="1170"/></l>
                     </sp>
                     <sp who="evans.">
@@ -2526,18 +2526,18 @@
                             will knog his urinals about <lb ed="F1" n="1173"/><lb ed="G"/>his
                             knave's costard when I have good opportunities <lb ed="F1" n="1174"/><lb ed="G"/>for the ork. 'Pless my soul! <lb ed="G"/><stage>[Sings. </stage>
                             <lb ed="G"/></p>
-                        <l part="N">To shallow rivers, to whose <lb ed="F1" n="1175"/>falls <lb ed="G"/></l>
-                        <l part="N">Melodious birds sings madrigals; <lb ed="G"/></l>
-                        <l part="N">There will we make <lb ed="F1" n="1176"/>our peds of roses, <lb ed="G" n="20"/></l>
-                        <l part="N">And a thousand fragrant posies. <lb ed="G"/></l>
-                        <l part="N">To shallow-- <lb ed="G"/><lb ed="F1" n="1177"/></l>
+                        <l>To shallow rivers, to whose <lb ed="F1" n="1175"/>falls <lb ed="G"/></l>
+                        <l>Melodious birds sings madrigals; <lb ed="G"/></l>
+                        <l>There will we make <lb ed="F1" n="1176"/>our peds of roses, <lb ed="G" n="20"/></l>
+                        <l>And a thousand fragrant posies. <lb ed="G"/></l>
+                        <l>To shallow-- <lb ed="G"/><lb ed="F1" n="1177"/></l>
                         <p part="N">Mercy on me! I have a great dispositions to <lb ed="G"/>cry.
                                 <stage>[Sings. </stage>
                             <lb ed="G"/><lb ed="F1" n="1178"/></p>
-                        <l part="N">Melodious birds sing madrigals-- <lb ed="G"/></l>
-                        <l part="N">When as I sat in Pabylon-- <lb ed="G"/><lb ed="F1" n="1179"/></l>
-                        <l part="N">And a thousand vagram posies. <lb ed="G"/></l>
-                        <l part="N">To shallow, &amp;c. <lb ed="G"/><stage type="entrance"> Re-enter
+                        <l>Melodious birds sing madrigals-- <lb ed="G"/></l>
+                        <l>When as I sat in Pabylon-- <lb ed="G"/><lb ed="F1" n="1179"/></l>
+                        <l>And a thousand vagram posies. <lb ed="G"/></l>
+                        <l>To shallow, &amp;c. <lb ed="G"/><stage type="entrance"> Re-enter
                                 SIMPLE.</stage>
                             <lb ed="G"/><lb ed="F1" n="1180"/></l>
                     </sp>
@@ -2549,8 +2549,8 @@
                         <speaker>Evans.</speaker>
                         <p part="N">He's welcome. <lb ed="G"/><stage>[Sings.</stage>
                             <lb ed="G"/></p>
-                        <l part="N">To shallow rivers, to whose falls-- <lb ed="G"/><lb ed="F1" n="1182"/></l>
-                        <l part="N">Heaven prosper the right! What weapons is he? <lb ed="G"/><lb ed="F1" n="1183"/></l>
+                        <l>To shallow rivers, to whose falls-- <lb ed="G"/><lb ed="F1" n="1182"/></l>
+                        <l>Heaven prosper the right! What weapons is he? <lb ed="G"/><lb ed="F1" n="1183"/></l>
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
@@ -2575,7 +2575,7 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">'Save you, good Sir Hugh! <lb ed="G"/><lb ed="F1" n="1193"/></l>
+                        <l>'Save you, good Sir Hugh! <lb ed="G"/><lb ed="F1" n="1193"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -2592,7 +2592,7 @@
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
-                        <l part="N">There is reasons and causes for it. <lb ed="G"/><lb ed="F1" n="1199"/></l>
+                        <l>There is reasons and causes for it. <lb ed="G"/><lb ed="F1" n="1199"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
@@ -2600,7 +2600,7 @@
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
-                        <l part="N">Fery well: what is it? <lb ed="G"/><lb ed="F1" n="1202"/></l>
+                        <l>Fery well: what is it? <lb ed="G"/><lb ed="F1" n="1202"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
@@ -2615,7 +2615,7 @@
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
-                        <l part="N">What is he? <lb ed="G"/><lb ed="F1" n="1210"/></l>
+                        <l>What is he? <lb ed="G"/><lb ed="F1" n="1210"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
@@ -2628,7 +2628,7 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">Why? <lb ed="G"/><lb ed="F1" n="1215"/></l>
+                        <l>Why? <lb ed="G"/><lb ed="F1" n="1215"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -2656,7 +2656,7 @@
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
-                        <l part="N">So do you, good master doctor. <lb ed="G"/><lb ed="F1" n="1225"/></l>
+                        <l>So do you, good master doctor. <lb ed="G"/><lb ed="F1" n="1225"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
@@ -2694,12 +2694,12 @@
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
-                        <l part="N">Peace, I say, Gallia and Gaul, <lb ed="G"/></l>
-                        <l part="N">French and Welsh, <lb ed="F1" n="1243"/>soul-curer and body-curer! <lb ed="G"/><lb ed="F1" n="1244"/></l>
+                        <l>Peace, I say, Gallia and Gaul, <lb ed="G"/></l>
+                        <l>French and Welsh, <lb ed="F1" n="1243"/>soul-curer and body-curer! <lb ed="G"/><lb ed="F1" n="1244"/></l>
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">Ay, dat is very good; excellent. <lb ed="G"/><lb ed="F1" n="1245"/></l>
+                        <l>Ay, dat is very good; excellent. <lb ed="G"/><lb ed="F1" n="1245"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
@@ -2721,7 +2721,7 @@
                         <stage>[Aside]</stage>
                         <lb ed="G"/>
                         <lb ed="F1" n="1258"/>
-                        <l part="N">O sweet Anne Page! <lb ed="G"/><stage type="exit">Exeunt Shal., Slen.,
+                        <l>O sweet Anne Page! <lb ed="G"/><stage type="exit">Exeunt Shal., Slen.,
                                 Page, and Host.</stage>
                             <lb ed="G"/><lb ed="F1" n="1259"/></l>
                     </sp>
@@ -2789,7 +2789,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Where had you this pretty weather-cock? <lb ed="G"/><lb ed="F1" n="1285"/></l>
+                        <l>Where had you this pretty weather-cock? <lb ed="G"/><lb ed="F1" n="1285"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
@@ -2798,11 +2798,11 @@
                     </sp>
                     <sp who="rob.">
                         <speaker>Rob.</speaker>
-                        <l part="N">Sir John Falstaff. <lb ed="G"/><lb ed="F1" n="1288"/></l>
+                        <l>Sir John Falstaff. <lb ed="G"/><lb ed="F1" n="1288"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Sir John Falstaff! <lb ed="G"/><lb ed="F1" n="1289"/></l>
+                        <l>Sir John Falstaff! <lb ed="G"/><lb ed="F1" n="1289"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
@@ -2811,7 +2811,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Indeed she is. <lb ed="G"/><lb ed="F1" n="1292"/></l>
+                        <l>Indeed she is. <lb ed="G"/><lb ed="F1" n="1292"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
@@ -2901,7 +2901,7 @@
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">Go home, John Rugby: I come anon. <lb ed="G"/><stage>[Exit Rugby.</stage>
+                        <l>Go home, John Rugby: I come anon. <lb ed="G"/><stage>[Exit Rugby.</stage>
                             <lb ed="G"/><lb ed="F1" n="1345"/></l>
                     </sp>
                     <sp who="host.">
@@ -2917,7 +2917,7 @@
                     </sp>
                     <sp who="all.">
                         <speaker>All.</speaker>
-                        <l part="N">Have with you to see this monster. <lb ed="G"/><stage>[Exeunt.</stage>
+                        <l>Have with you to see this monster. <lb ed="G"/><stage>[Exeunt.</stage>
                         </l>
                     </sp>
                 </div>
@@ -2937,7 +2937,7 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Quickly, quickly! Is the buck-basket-- <lb ed="G"/><lb ed="F1" n="1355"/></l>
+                        <l>Quickly, quickly! Is the buck-basket-- <lb ed="G"/><lb ed="F1" n="1355"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
@@ -2947,7 +2947,7 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Come, come, come. <lb ed="G"/><lb ed="F1" n="1357"/></l>
+                        <l>Come, come, come. <lb ed="G"/><lb ed="F1" n="1357"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
@@ -2968,7 +2968,7 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">You will do it? <lb ed="G"/><lb ed="F1" n="1367"/></l>
+                        <l>You will do it? <lb ed="G"/><lb ed="F1" n="1367"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
@@ -2978,7 +2978,7 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Here comes little Robin. <lb ed="G"/><stage type="entrance"> Enter
+                        <l>Here comes little Robin. <lb ed="G"/><stage type="entrance"> Enter
                                 ROBIN.</stage>
                             <lb ed="G"/><lb ed="F1" n="1370"/></l>
                     </sp>
@@ -3180,7 +3180,7 @@
                         <speaker>Fal.</speaker>
                         <stage>[Coming forward]</stage>
                         <p part="N">Let me see't, let <lb ed="G"/>me see't, O, let me see't! <lb ed="F1" n="1471"/>I'll in, I'll in. <lb ed="G"/></p>
-                        <l part="N">Follow your friend's counsel. I'll in. <lb ed="G"/><lb ed="F1" n="1472"/></l>
+                        <l>Follow your friend's counsel. I'll in. <lb ed="G"/><lb ed="F1" n="1472"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
@@ -3188,7 +3188,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">I love thee. Help me away. Let me <lb ed="G" n="150"/>creep in <lb ed="F1" n="1475"/>here. I'll never-- <lb ed="G"/><stage>[Gets into
+                        <l>I love thee. Help me away. Let me <lb ed="G" n="150"/>creep in <lb ed="F1" n="1475"/>here. I'll never-- <lb ed="G"/><stage>[Gets into
                                 the basket; they cover him with foul linen.</stage>
                             <lb ed="G"/><lb ed="F1" n="1476"/></l>
                     </sp>
@@ -3321,7 +3321,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Amen! <lb ed="G"/><lb ed="F1" n="1535"/></l>
+                        <l>Amen! <lb ed="G"/><lb ed="F1" n="1535"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
@@ -3329,7 +3329,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Ay, ay; I must bear it. <lb ed="G"/><lb ed="F1" n="1537"/></l>
+                        <l>Ay, ay; I must bear it. <lb ed="G"/><lb ed="F1" n="1537"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -3359,7 +3359,7 @@
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">By gar, I see 'tis an honest woman. <lb ed="G"/><lb ed="F1" n="1549"/></l>
+                        <l>By gar, I see 'tis an honest woman. <lb ed="G"/><lb ed="F1" n="1549"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -3376,7 +3376,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Any thing. <lb ed="G"/><lb ed="F1" n="1558"/></l>
+                        <l>Any thing. <lb ed="G"/><lb ed="F1" n="1558"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -3389,7 +3389,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Pray you, go, Master Page. <lb ed="G"/><lb ed="F1" n="1561"/></l>
+                        <l>Pray you, go, Master Page. <lb ed="G"/><lb ed="F1" n="1561"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -3417,8 +3417,8 @@
                     <lb ed="F1" n="1569"/>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
-                        <l part="N">I see I cannot get thy father's love; <lb ed="G"/><lb ed="F1" n="1570"/></l>
-                        <l part="N">Therefore no more turn me to him, sweet Nan. <lb ed="G"/><lb ed="F1" n="1571"/></l>
+                        <l>I see I cannot get thy father's love; <lb ed="G"/><lb ed="F1" n="1570"/></l>
+                        <l>Therefore no more turn me to him, sweet Nan. <lb ed="G"/><lb ed="F1" n="1571"/></l>
                     </sp>
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
@@ -3427,34 +3427,34 @@
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
                         <l part="F">Why, thou must be thyself. <lb ed="G"/><lb ed="F1" n="1573"/></l>
-                        <l part="N">He doth object I am too great of birth; <lb ed="G"/><lb ed="F1" n="1574"/></l>
-                        <l part="N">And that, my state being gall'd with my expense, <lb ed="G"/><lb ed="F1" n="1575"/></l>
-                        <l part="N">I seek to heal it only by his wealth: <lb ed="G"/><lb ed="F1" n="1576"/></l>
-                        <l part="N">Besides these, other bars he lays before me, <lb ed="G"/><lb ed="F1" n="1577"/></l>
-                        <l part="N">My riots past, my wild societies; <lb ed="G"/><lb ed="F1" n="1578"/></l>
-                        <l part="N">And tells me 'tis a thing impossible <lb ed="G" n="10"/><lb ed="F1" n="1579"/></l>
-                        <l part="N">I should love thee but as a property. <lb ed="G"/><lb ed="F1" n="1580"/></l>
+                        <l>He doth object I am too great of birth; <lb ed="G"/><lb ed="F1" n="1574"/></l>
+                        <l>And that, my state being gall'd with my expense, <lb ed="G"/><lb ed="F1" n="1575"/></l>
+                        <l>I seek to heal it only by his wealth: <lb ed="G"/><lb ed="F1" n="1576"/></l>
+                        <l>Besides these, other bars he lays before me, <lb ed="G"/><lb ed="F1" n="1577"/></l>
+                        <l>My riots past, my wild societies; <lb ed="G"/><lb ed="F1" n="1578"/></l>
+                        <l>And tells me 'tis a thing impossible <lb ed="G" n="10"/><lb ed="F1" n="1579"/></l>
+                        <l>I should love thee but as a property. <lb ed="G"/><lb ed="F1" n="1580"/></l>
                     </sp>
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
-                        <l part="N">May be he tells you true. <lb ed="G"/><lb ed="F1" n="1581"/></l>
+                        <l>May be he tells you true. <lb ed="G"/><lb ed="F1" n="1581"/></l>
                     </sp>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
-                        <l part="N">No, heaven so speed me in my time to come! <lb ed="G"/><lb ed="F1" n="1582"/></l>
-                        <l part="N">Albeit I will confess thy father's wealth <lb ed="G"/><lb ed="F1" n="1583"/></l>
-                        <l part="N">Was the first motive that I woo'd thee, Anne: <lb ed="G"/><lb ed="F1" n="1584"/></l>
-                        <l part="N">Yet, wooing thee, I found thee of more value <lb ed="G"/><lb ed="F1" n="1585"/></l>
-                        <l part="N">Than stamps in gold or sums in sealed bags; <lb ed="G"/><lb ed="F1" n="1586"/></l>
-                        <l part="N">And 'tis the very riches of thyself <lb ed="F1" n="1587"/></l>
+                        <l>No, heaven so speed me in my time to come! <lb ed="G"/><lb ed="F1" n="1582"/></l>
+                        <l>Albeit I will confess thy father's wealth <lb ed="G"/><lb ed="F1" n="1583"/></l>
+                        <l>Was the first motive that I woo'd thee, Anne: <lb ed="G"/><lb ed="F1" n="1584"/></l>
+                        <l>Yet, wooing thee, I found thee of more value <lb ed="G"/><lb ed="F1" n="1585"/></l>
+                        <l>Than stamps in gold or sums in sealed bags; <lb ed="G"/><lb ed="F1" n="1586"/></l>
+                        <l>And 'tis the very riches of thyself <lb ed="F1" n="1587"/></l>
                         <l part="I">That now I aim at. <lb ed="G"/><lb ed="F1" n="1588"/></l>
                     </sp>
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
                         <l part="F">Gentle Master Fenton, <lb ed="G"/><lb ed="F1" n="1589"/></l>
-                        <l part="N">Yet seek my father's love; still seek it, sir: <lb ed="G" n="20"/><lb ed="F1" n="1590"/></l>
-                        <l part="N">If opportunity and humblest suit <lb ed="G"/><lb ed="F1" n="1591"/></l>
-                        <l part="N">Cannot attain it, why, then,--hark you hither! <lb ed="G"/><stage>[They
+                        <l>Yet seek my father's love; still seek it, sir: <lb ed="G" n="20"/><lb ed="F1" n="1590"/></l>
+                        <l>If opportunity and humblest suit <lb ed="G"/><lb ed="F1" n="1591"/></l>
+                        <l>Cannot attain it, why, then,--hark you hither! <lb ed="G"/><stage>[They
                                 converse apart.</stage>
                             <lb ed="G"/><stage type="entrance"> Enter SHALLOW, SLENDER, and MISTRESS
                                 QUICKLY.</stage>
@@ -3472,7 +3472,7 @@
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
-                        <l part="N">Be not dismayed. <lb ed="G"/><lb ed="F1" n="1596"/></l>
+                        <l>Be not dismayed. <lb ed="G"/><lb ed="F1" n="1596"/></l>
                     </sp>
                     <sp who="slen.">
                         <speaker>Slen.</speaker>
@@ -3486,11 +3486,11 @@
                     </sp>
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
-                        <l part="N">I come to him. <stage>Aside</stage>
+                        <l>I come to him. <stage>Aside</stage>
                             <lb ed="G"/></l>
-                        <l part="N">This is my father's choice. <lb ed="G"/><lb ed="F1" n="1600"/></l>
-                        <l part="N">O, what a world of vile ill-favour'd faults <lb ed="G"/><lb ed="F1" n="1601"/></l>
-                        <l part="N">Looks handsome in three hundred pounds ayear! <lb ed="G"/><lb ed="F1" n="1602"/></l>
+                        <l>This is my father's choice. <lb ed="G"/><lb ed="F1" n="1600"/></l>
+                        <l>O, what a world of vile ill-favour'd faults <lb ed="G"/><lb ed="F1" n="1601"/></l>
+                        <l>Looks handsome in three hundred pounds ayear! <lb ed="G"/><lb ed="F1" n="1602"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -3510,7 +3510,7 @@
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
-                        <l part="N">Mistress Anne, my cousin loves you. <lb ed="G"/><lb ed="F1" n="1610"/></l>
+                        <l>Mistress Anne, my cousin loves you. <lb ed="G"/><lb ed="F1" n="1610"/></l>
                     </sp>
                     <sp who="slen.">
                         <speaker>Slen.</speaker>
@@ -3518,7 +3518,7 @@
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
-                        <l part="N">He will maintain you like a gentlewoman. <lb ed="G"/><lb ed="F1" n="1613"/></l>
+                        <l>He will maintain you like a gentlewoman. <lb ed="G"/><lb ed="F1" n="1613"/></l>
                     </sp>
                     <sp who="slen.">
                         <speaker>Slen.</speaker>
@@ -3539,15 +3539,15 @@
                     </sp>
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
-                        <l part="N">Now, Master Slender,-- <lb ed="G"/><lb ed="F1" n="1622"/></l>
+                        <l>Now, Master Slender,-- <lb ed="G"/><lb ed="F1" n="1622"/></l>
                     </sp>
                     <sp who="slen.">
                         <speaker>Slen.</speaker>
-                        <l part="N">Now, good Mistress Anne,-- <lb ed="G"/><lb ed="F1" n="1623"/></l>
+                        <l>Now, good Mistress Anne,-- <lb ed="G"/><lb ed="F1" n="1623"/></l>
                     </sp>
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
-                        <l part="N">What is your will? <lb ed="G"/><lb ed="F1" n="1624"/></l>
+                        <l>What is your will? <lb ed="G"/><lb ed="F1" n="1624"/></l>
                     </sp>
                     <sp who="slen.">
                         <speaker>Slen.</speaker>
@@ -3566,14 +3566,14 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">Now, Master Slender: love him, daughter Anne. <lb ed="G"/><lb ed="F1" n="1635"/></l>
-                        <l part="N">Why, how now! what does Master Fenton here? <lb ed="G"/><lb ed="F1" n="1636"/></l>
-                        <l part="N">You wrong me, sir, thus still to haunt my house: <lb ed="G"/><lb ed="F1" n="1637"/></l>
-                        <l part="N">I told you, sir, my daughter is disposed of. <lb ed="G"/><lb ed="F1" n="1638"/></l>
+                        <l>Now, Master Slender: love him, daughter Anne. <lb ed="G"/><lb ed="F1" n="1635"/></l>
+                        <l>Why, how now! what does Master Fenton here? <lb ed="G"/><lb ed="F1" n="1636"/></l>
+                        <l>You wrong me, sir, thus still to haunt my house: <lb ed="G"/><lb ed="F1" n="1637"/></l>
+                        <l>I told you, sir, my daughter is disposed of. <lb ed="G"/><lb ed="F1" n="1638"/></l>
                     </sp>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
-                        <l part="N">Nay, Master Page, be not impatient. <lb ed="G"/><lb ed="F1" n="1639"/></l>
+                        <l>Nay, Master Page, be not impatient. <lb ed="G"/><lb ed="F1" n="1639"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
@@ -3581,7 +3581,7 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">She is no match for you. <lb ed="G"/><lb ed="F1" n="1641"/></l>
+                        <l>She is no match for you. <lb ed="G"/><lb ed="F1" n="1641"/></l>
                     </sp>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
@@ -3590,52 +3590,52 @@
                     <sp who="page.">
                         <speaker>Page.</speaker>
                         <l part="F">No, good Master Fenton. <lb ed="G"/><lb ed="F1" n="1643"/></l>
-                        <l part="N">Come, Master Shallow; come, son Slender in. <lb ed="G"/><lb ed="F1" n="1644"/></l>
-                        <l part="N">Knowing my mind, you wrong me, Master Fenton. <lb ed="G"/><stage>[Exeunt
+                        <l>Come, Master Shallow; come, son Slender in. <lb ed="G"/><lb ed="F1" n="1644"/></l>
+                        <l>Knowing my mind, you wrong me, Master Fenton. <lb ed="G"/><stage>[Exeunt
                                 Page, Shal., and Slen. </stage>
                             <lb ed="G" n="81"/><lb ed="F1" n="1645"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">Speak to Mistress Page. <lb ed="G"/><lb ed="F1" n="1646"/></l>
+                        <l>Speak to Mistress Page. <lb ed="G"/><lb ed="F1" n="1646"/></l>
                     </sp>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
-                        <l part="N">Good Mistress Page, for that I love your daughter <lb ed="G"/><lb ed="F1" n="1647"/></l>
-                        <l part="N">In such a righteous fashion as I do, <lb ed="G"/><lb ed="F1" n="1648"/></l>
-                        <l part="N">Perforce, against all checks, rebukes and manners, <lb ed="G"/><lb ed="F1" n="1649"/></l>
-                        <l part="N">I must advance the colours of my love <lb ed="G"/><lb ed="F1" n="1650"/></l>
-                        <l part="N">And not retire: let me have your good will. <lb ed="G"/><lb ed="F1" n="1651"/></l>
+                        <l>Good Mistress Page, for that I love your daughter <lb ed="G"/><lb ed="F1" n="1647"/></l>
+                        <l>In such a righteous fashion as I do, <lb ed="G"/><lb ed="F1" n="1648"/></l>
+                        <l>Perforce, against all checks, rebukes and manners, <lb ed="G"/><lb ed="F1" n="1649"/></l>
+                        <l>I must advance the colours of my love <lb ed="G"/><lb ed="F1" n="1650"/></l>
+                        <l>And not retire: let me have your good will. <lb ed="G"/><lb ed="F1" n="1651"/></l>
                     </sp>
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
-                        <l part="N">Good mother, do not marry me to yond fool. <lb ed="G"/><lb ed="F1" n="1652"/></l>
+                        <l>Good mother, do not marry me to yond fool. <lb ed="G"/><lb ed="F1" n="1652"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">I mean it not; I seek you a better <lb ed="F1" n="1653"/>husband. <lb ed="G"/><lb ed="F1" n="1654"/></l>
+                        <l>I mean it not; I seek you a better <lb ed="F1" n="1653"/>husband. <lb ed="G"/><lb ed="F1" n="1654"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">That's my master, master doctor. <lb ed="G" n="90"/><lb ed="F1" n="1655"/></l>
+                        <l>That's my master, master doctor. <lb ed="G" n="90"/><lb ed="F1" n="1655"/></l>
                     </sp>
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
-                        <l part="N">Alas, I had rather be set quick i' the earth <lb ed="G"/><lb ed="F1" n="1656"/></l>
-                        <l part="N">And bowl'd to death with turnips! <lb ed="G"/><lb ed="F1" n="1657"/></l>
+                        <l>Alas, I had rather be set quick i' the earth <lb ed="G"/><lb ed="F1" n="1656"/></l>
+                        <l>And bowl'd to death with turnips! <lb ed="G"/><lb ed="F1" n="1657"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Come, trouble not yourself. Good Master Fenton, <lb ed="G"/><lb ed="F1" n="1658"/></l>
-                        <l part="N">I will not be your friend nor enemy: <lb ed="G"/><lb ed="F1" n="1659"/></l>
-                        <l part="N">My daughter will I question how she loves you, <lb ed="G"/><lb ed="F1" n="1660"/></l>
-                        <l part="N">And as I find her, so am I affected. <lb ed="G"/><lb ed="F1" n="1661"/></l>
-                        <l part="N">Till then farewell, sir: she must needs go in; <lb ed="G"/><lb ed="F1" n="1662"/></l>
-                        <l part="N">Her father will be angry. <lb ed="G"/><lb ed="F1" n="1663"/></l>
+                        <l>Come, trouble not yourself. Good Master Fenton, <lb ed="G"/><lb ed="F1" n="1658"/></l>
+                        <l>I will not be your friend nor enemy: <lb ed="G"/><lb ed="F1" n="1659"/></l>
+                        <l>My daughter will I question how she loves you, <lb ed="G"/><lb ed="F1" n="1660"/></l>
+                        <l>And as I find her, so am I affected. <lb ed="G"/><lb ed="F1" n="1661"/></l>
+                        <l>Till then farewell, sir: she must needs go in; <lb ed="G"/><lb ed="F1" n="1662"/></l>
+                        <l>Her father will be angry. <lb ed="G"/><lb ed="F1" n="1663"/></l>
                     </sp>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
-                        <l part="N">Farewell, gentle mistress; farewell, Nan. <lb ed="G"/><stage>[Exeunt Mrs.
+                        <l>Farewell, gentle mistress; farewell, Nan. <lb ed="G"/><stage>[Exeunt Mrs.
                                 Page and Anne. </stage>
                             <lb ed="G"/><lb ed="F1" n="1664"/></l>
                     </sp>
@@ -3646,8 +3646,8 @@
                     </sp>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
-                        <l part="N">I thank thee; and I pray thee, once to-night <lb ed="G"/><lb ed="F1" n="1668"/></l>
-                        <l part="N">Give my sweet Nan this ring: there's for thy pains. <lb ed="G"/><lb ed="F1" n="1669"/></l>
+                        <l>I thank thee; and I pray thee, once to-night <lb ed="G"/><lb ed="F1" n="1668"/></l>
+                        <l>Give my sweet Nan this ring: there's for thy pains. <lb ed="G"/><lb ed="F1" n="1669"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -3673,11 +3673,11 @@
                     <lb ed="F1" n="1680"/>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Bardolph, I say,-- <lb ed="G"/><lb ed="F1" n="1681"/></l>
+                        <l>Bardolph, I say,-- <lb ed="G"/><lb ed="F1" n="1681"/></l>
                     </sp>
                     <sp who="bard.">
                         <speaker>Bard.</speaker>
-                        <l part="N">Here, sir. <lb ed="G"/><lb ed="F1" n="1682"/></l>
+                        <l>Here, sir. <lb ed="G"/><lb ed="F1" n="1682"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -3708,7 +3708,7 @@
                     </sp>
                     <sp who="bard.">
                         <speaker>Bard.</speaker>
-                        <l part="N">Come in, woman! <lb ed="G"/><stage type="entrance"> Enter MISTRESS
+                        <l>Come in, woman! <lb ed="G"/><stage type="entrance"> Enter MISTRESS
                                 QUICKLY.</stage>
                             <lb ed="G"/><lb ed="F1" n="1702"/></l>
                     </sp>
@@ -3723,7 +3723,7 @@
                     </sp>
                     <sp who="bard.">
                         <speaker>Bard.</speaker>
-                        <l part="N">With eggs, sir? <lb ed="G"/><lb ed="F1" n="1707"/></l>
+                        <l>With eggs, sir? <lb ed="G"/><lb ed="F1" n="1707"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -3759,7 +3759,7 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">I will tell her. <lb ed="G"/><lb ed="F1" n="1725"/></l>
+                        <l>I will tell her. <lb ed="G"/><lb ed="F1" n="1725"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -3767,15 +3767,15 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">Eight and nine, sir. <lb ed="G"/><lb ed="F1" n="1727"/></l>
+                        <l>Eight and nine, sir. <lb ed="G"/><lb ed="F1" n="1727"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Well, be gone: I will not miss her. <lb ed="G"/><lb ed="F1" n="1728"/></l>
+                        <l>Well, be gone: I will not miss her. <lb ed="G"/><lb ed="F1" n="1728"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">Peace be with you, sir. <lb ed="G"/><stage>[Exit.</stage>
+                        <l>Peace be with you, sir. <lb ed="G"/><stage>[Exit.</stage>
                             <lb ed="G"/><lb ed="F1" n="1729"/></l>
                     </sp>
                     <sp who="fal.">
@@ -3786,7 +3786,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Bless you, sir! <lb ed="G"/><lb ed="F1" n="1733"/></l>
+                        <l>Bless you, sir! <lb ed="G"/><lb ed="F1" n="1733"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -3794,7 +3794,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">That, indeed, Sir John, is my business. <lb ed="G"/><lb ed="F1" n="1736"/></l>
+                        <l>That, indeed, Sir John, is my business. <lb ed="G"/><lb ed="F1" n="1736"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -3803,11 +3803,11 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">And sped you, sir? <lb ed="G"/><lb ed="F1" n="1739"/></l>
+                        <l>And sped you, sir? <lb ed="G"/><lb ed="F1" n="1739"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Very ill-favouredly, Master Brook. <lb ed="G"/><lb ed="F1" n="1740"/></l>
+                        <l>Very ill-favouredly, Master Brook. <lb ed="G"/><lb ed="F1" n="1740"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -3824,11 +3824,11 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">What, while you were there? <lb ed="G"/><lb ed="F1" n="1749"/></l>
+                        <l>What, while you were there? <lb ed="G"/><lb ed="F1" n="1749"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">While I was there. <lb ed="G"/><lb ed="F1" n="1750"/></l>
+                        <l>While I was there. <lb ed="G"/><lb ed="F1" n="1750"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -3841,7 +3841,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">A buck-basket! <lb ed="G"/><lb ed="F1" n="1756"/></l>
+                        <l>A buck-basket! <lb ed="G"/><lb ed="F1" n="1756"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -3851,7 +3851,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">And how long lay you there? <lb ed="G"/><lb ed="F1" n="1762"/></l>
+                        <l>And how long lay you there? <lb ed="G"/><lb ed="F1" n="1762"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -3889,7 +3889,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">'Tis past eight already, sir. <lb ed="G"/><lb ed="F1" n="1801"/></l>
+                        <l>'Tis past eight already, sir. <lb ed="G"/><lb ed="F1" n="1801"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -3949,7 +3949,7 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">Blessing of his heart! <lb ed="G"/><lb ed="F1" n="1834"/></l>
+                        <l>Blessing of his heart! <lb ed="G"/><lb ed="F1" n="1834"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
@@ -3970,7 +3970,7 @@
                     </sp>
                     <sp who="will.">
                         <speaker>Will.</speaker>
-                        <l part="N">Two. <lb ed="G"/><lb ed="F1" n="1842"/></l>
+                        <l>Two. <lb ed="G"/><lb ed="F1" n="1842"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -3982,7 +3982,7 @@
                     </sp>
                     <sp who="will.">
                         <speaker>Will.</speaker>
-                        <l part="N">Pulcher. <lb ed="G"/><lb ed="F1" n="1846"/></l>
+                        <l>Pulcher. <lb ed="G"/><lb ed="F1" n="1846"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -3994,15 +3994,15 @@
                     </sp>
                     <sp who="will.">
                         <speaker>Will.</speaker>
-                        <l part="N">A stone. <lb ed="G"/><lb ed="F1" n="1851"/></l>
+                        <l>A stone. <lb ed="G"/><lb ed="F1" n="1851"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
-                        <l part="N">And what is 'a stone,' William? <lb ed="G"/><lb ed="F1" n="1852"/></l>
+                        <l>And what is 'a stone,' William? <lb ed="G"/><lb ed="F1" n="1852"/></l>
                     </sp>
                     <sp who="will.">
                         <speaker>Will.</speaker>
-                        <l part="N">A pebble. <lb ed="G"/><lb ed="F1" n="1853"/></l>
+                        <l>A pebble. <lb ed="G"/><lb ed="F1" n="1853"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -4010,7 +4010,7 @@
                     </sp>
                     <sp who="will.">
                         <speaker>Will.</speaker>
-                        <l part="N">Lapis. <lb ed="G"/><lb ed="F1" n="1856"/></l>
+                        <l>Lapis. <lb ed="G"/><lb ed="F1" n="1856"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -4028,7 +4028,7 @@
                     </sp>
                     <sp who="will.">
                         <speaker>Will.</speaker>
-                        <l part="N">Accusativo, hinc. <lb ed="G"/><lb ed="F1" n="1863"/></l>
+                        <l>Accusativo, hinc. <lb ed="G"/><lb ed="F1" n="1863"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -4044,7 +4044,7 @@
                     </sp>
                     <sp who="will.">
                         <speaker>Will.</speaker>
-                        <l part="N">O,--vocativo, O. <lb ed="G"/><lb ed="F1" n="1869"/></l>
+                        <l>O,--vocativo, O. <lb ed="G"/><lb ed="F1" n="1869"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -4052,15 +4052,15 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">And that's a good root. <lb ed="G"/><lb ed="F1" n="1871"/></l>
+                        <l>And that's a good root. <lb ed="G"/><lb ed="F1" n="1871"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
-                        <l part="N">'Oman, forbear. <lb ed="G"/><lb ed="F1" n="1872"/></l>
+                        <l>'Oman, forbear. <lb ed="G"/><lb ed="F1" n="1872"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Peace! <lb ed="G"/><lb ed="F1" n="1873"/></l>
+                        <l>Peace! <lb ed="G"/><lb ed="F1" n="1873"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -4068,15 +4068,15 @@
                     </sp>
                     <sp who="will.">
                         <speaker>Will.</speaker>
-                        <l part="N">Genitive case! <lb ed="G"/><lb ed="F1" n="1875"/></l>
+                        <l>Genitive case! <lb ed="G"/><lb ed="F1" n="1875"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
-                        <l part="N">Ay. <lb ed="G"/><lb ed="F1" n="1876"/></l>
+                        <l>Ay. <lb ed="G"/><lb ed="F1" n="1876"/></l>
                     </sp>
                     <sp who="will.">
                         <speaker>Will.</speaker>
-                        <l part="N">Genitive,--horum, harum, horum. <lb ed="G"/><lb ed="F1" n="1877"/></l>
+                        <l>Genitive,--horum, harum, horum. <lb ed="G"/><lb ed="F1" n="1877"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -4084,7 +4084,7 @@
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
-                        <l part="N">For shame, 'oman. <lb ed="G"/><lb ed="F1" n="1880"/></l>
+                        <l>For shame, 'oman. <lb ed="G"/><lb ed="F1" n="1880"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -4107,7 +4107,7 @@
                     </sp>
                     <sp who="will.">
                         <speaker>Will.</speaker>
-                        <l part="N">Forsooth, I have forgot. <lb ed="G"/><lb ed="F1" n="1891"/></l>
+                        <l>Forsooth, I have forgot. <lb ed="G"/><lb ed="F1" n="1891"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -4172,7 +4172,7 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Indeed! <lb ed="G"/><lb ed="F1" n="1914"/></l>
+                        <l>Indeed! <lb ed="G"/><lb ed="F1" n="1914"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
@@ -4198,7 +4198,7 @@
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
-                        <l part="N">Why, does he talk of him? <lb ed="G"/><lb ed="F1" n="1926"/></l>
+                        <l>Why, does he talk of him? <lb ed="G"/><lb ed="F1" n="1926"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
@@ -4232,8 +4232,8 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">No, I'll come no more i' the basket. <lb ed="G" n="51"/><lb ed="F1" n="1942"/></l>
-                        <l part="N">May I not go out ere he come? <lb ed="G"/><lb ed="F1" n="1943"/></l>
+                        <l>No, I'll come no more i' the basket. <lb ed="G" n="51"/><lb ed="F1" n="1942"/></l>
+                        <l>May I not go out ere he come? <lb ed="G"/><lb ed="F1" n="1943"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
@@ -4251,7 +4251,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Where is it? <lb ed="G"/><lb ed="F1" n="1951"/></l>
+                        <l>Where is it? <lb ed="G"/><lb ed="F1" n="1951"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
@@ -4260,7 +4260,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">I'll go out then. <lb ed="G"/><lb ed="F1" n="1957"/></l>
+                        <l>I'll go out then. <lb ed="G"/><lb ed="F1" n="1957"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
@@ -4337,10 +4337,10 @@
                         <speaker>Mrs. Page.</speaker>
                         <p part="N">Hang him, dishonest varlet! <lb ed="F1" n="1992"/>we <lb ed="G"/>cannot
                             misuse him enough. <lb ed="G"/><lb ed="F1" n="1993"/></p>
-                        <l part="N">We'll leave a proof, by that which we will do, <lb ed="G"/><lb ed="F1" n="1994"/></l>
-                        <l part="N">Wives may be merry, and yet honest too: <lb ed="G"/><lb ed="F1" n="1995"/></l>
-                        <l part="N">We do not act that often jest and laugh; <lb ed="G"/><lb ed="F1" n="1996"/></l>
-                        <l part="N">'Tis old, but true, Still swine eats all the draff. <lb ed="G"/><stage>[Exit.</stage>
+                        <l>We'll leave a proof, by that which we will do, <lb ed="G"/><lb ed="F1" n="1994"/></l>
+                        <l>Wives may be merry, and yet honest too: <lb ed="G"/><lb ed="F1" n="1995"/></l>
+                        <l>We do not act that often jest and laugh; <lb ed="G"/><lb ed="F1" n="1996"/></l>
+                        <l>'Tis old, but true, Still swine eats all the draff. <lb ed="G"/><stage>[Exit.</stage>
                             <lb ed="G"/><stage type="entrance">Re-enter MISTRESS FORD with two
                                 Servants.</stage>
                             <lb ed="G"/><lb ed="F1" n="1997"/></l>
@@ -4353,7 +4353,7 @@
                     </sp>
                     <sp who="first-serv.">
                         <speaker>First Serv.</speaker>
-                        <l part="N">Come, come, take it up. <lb ed="G"/><lb ed="F1" n="2001"/></l>
+                        <l>Come, come, take it up. <lb ed="G"/><lb ed="F1" n="2001"/></l>
                     </sp>
                     <sp who="sec.-serv.">
                         <speaker>Sec. Serv.</speaker>
@@ -4361,7 +4361,7 @@
                     </sp>
                     <sp who="first-serv.">
                         <speaker>First Serv.</speaker>
-                        <l part="N">I hope not; I had as lief bear <lb ed="G"/>so much lead. <lb ed="G"/><stage type="entrance">Enter FORD, PAGE, SHALLOW, CAIUS, and SIR
+                        <l>I hope not; I had as lief bear <lb ed="G"/>so much lead. <lb ed="G"/><stage type="entrance">Enter FORD, PAGE, SHALLOW, CAIUS, and SIR
                                 HUGH EVANS.</stage>
                             <lb ed="G"/><lb ed="F1" n="2003"/></l>
                     </sp>
@@ -4398,14 +4398,14 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Well said, brazen-face! hold it out. <lb ed="G"/></l>
-                        <l part="N">Come forth, <lb ed="F1" n="2022"/>sirrah! <lb ed="G"/><stage>[Pulling
+                        <l>Well said, brazen-face! hold it out. <lb ed="G"/></l>
+                        <l>Come forth, <lb ed="F1" n="2022"/>sirrah! <lb ed="G"/><stage>[Pulling
                                 clothes out of the basket.</stage>
                             <lb ed="G"/><lb ed="F1" n="2023"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">This passes! <lb ed="G"/><lb ed="F1" n="2024"/></l>
+                        <l>This passes! <lb ed="G"/><lb ed="F1" n="2024"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
@@ -4413,7 +4413,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">I shall find you anon. <lb ed="G"/><lb ed="F1" n="2026"/></l>
+                        <l>I shall find you anon. <lb ed="G"/><lb ed="F1" n="2026"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -4421,11 +4421,11 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Empty the basket, I say! <lb ed="G" n="150"/><lb ed="F1" n="2029"/></l>
+                        <l>Empty the basket, I say! <lb ed="G" n="150"/><lb ed="F1" n="2029"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
-                        <l part="N">Why, man, why? <lb ed="G"/><lb ed="F1" n="2030"/></l>
+                        <l>Why, man, why? <lb ed="G"/><lb ed="F1" n="2030"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -4438,7 +4438,7 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">Here's no man. <lb ed="G"/><lb ed="F1" n="2038"/></l>
+                        <l>Here's no man. <lb ed="G"/><lb ed="F1" n="2038"/></l>
                     </sp>
                     <sp who="shal.">
                         <speaker>Shal.</speaker>
@@ -4460,7 +4460,7 @@
                             extremity; let <lb ed="F1" n="2045"/>me for ever be your table-sport;
                                 <lb ed="G"/>let them say of me, 'As <lb ed="F1" n="2046"/>jealous as
                                 <lb ed="G"/><lb ed="F1" n="2047"/></p>
-                        <l part="N">Ford, that searched a hollow walnut for his <lb ed="F1" n="2048"/><lb ed="G"/>wife's leman.' Satisfy me once more; once <lb ed="G"/>more
+                        <l>Ford, that searched a hollow walnut for his <lb ed="F1" n="2048"/><lb ed="G"/>wife's leman.' Satisfy me once more; once <lb ed="G"/>more
                             search <lb ed="F1" n="2049"/>with me. <lb ed="G"/><lb ed="F1" n="2050"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
@@ -4469,7 +4469,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Old woman! what old woman's that? <lb ed="G"/><lb ed="F1" n="2054"/></l>
+                        <l>Old woman! what old woman's that? <lb ed="G"/><lb ed="F1" n="2054"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
@@ -4510,7 +4510,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Hang her, witch! <lb ed="G"/><lb ed="F1" n="2075"/></l>
+                        <l>Hang her, witch! <lb ed="G"/><lb ed="F1" n="2075"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -4593,7 +4593,7 @@
                     </sp>
                     <sp who="bard.">
                         <speaker>Bard.</speaker>
-                        <l part="N">Ay, sir; I'll call them to you. <lb ed="G"/><lb ed="F1" n="2116"/></l>
+                        <l>Ay, sir; I'll call them to you. <lb ed="G"/><lb ed="F1" n="2116"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
@@ -4625,25 +4625,25 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Within a quarter of an hour. <lb ed="G"/><lb ed="F1" n="2128"/></l>
+                        <l>Within a quarter of an hour. <lb ed="G"/><lb ed="F1" n="2128"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Pardon me, wife. Henceforth do what thou wilt; <lb ed="G"/><lb ed="F1" n="2129"/></l>
-                        <l part="N">I rather will suspect the sun with cold <lb ed="G"/><lb ed="F1" n="2130"/></l>
-                        <l part="N">Than thee with wantonness: now doth thy honour stand, <lb ed="G"/><lb ed="F1" n="2131"/></l>
-                        <l part="N">In him that was of late an heretic, <lb ed="G"/><lb ed="F1" n="2132"/></l>
-                        <l part="N">As firm as faith. <lb ed="G" n="10"/><lb ed="F1" n="2133"/></l>
+                        <l>Pardon me, wife. Henceforth do what thou wilt; <lb ed="G"/><lb ed="F1" n="2129"/></l>
+                        <l>I rather will suspect the sun with cold <lb ed="G"/><lb ed="F1" n="2130"/></l>
+                        <l>Than thee with wantonness: now doth thy honour stand, <lb ed="G"/><lb ed="F1" n="2131"/></l>
+                        <l>In him that was of late an heretic, <lb ed="G"/><lb ed="F1" n="2132"/></l>
+                        <l>As firm as faith. <lb ed="G" n="10"/><lb ed="F1" n="2133"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">'Tis well, 'tis well; no more: <lb ed="G"/><lb ed="F1" n="2134"/></l>
-                        <l part="N">Be not as extreme in submission <lb ed="G"/></l>
-                        <l part="N">As in offence. <lb ed="G"/><lb ed="F1" n="2135"/></l>
-                        <l part="N">But let our plot go forward: let our wives <lb ed="G"/><lb ed="F1" n="2136"/></l>
-                        <l part="N">Yet once again, to make us public sport, <lb ed="G"/><lb ed="F1" n="2137"/></l>
-                        <l part="N">Appoint a meeting with this old fat fellow, <lb ed="G"/><lb ed="F1" n="2138"/></l>
-                        <l part="N">Where we may take him and disgrace him for it. <lb ed="G"/><lb ed="F1" n="2139"/></l>
+                        <l>'Tis well, 'tis well; no more: <lb ed="G"/><lb ed="F1" n="2134"/></l>
+                        <l>Be not as extreme in submission <lb ed="G"/></l>
+                        <l>As in offence. <lb ed="G"/><lb ed="F1" n="2135"/></l>
+                        <l>But let our plot go forward: let our wives <lb ed="G"/><lb ed="F1" n="2136"/></l>
+                        <l>Yet once again, to make us public sport, <lb ed="G"/><lb ed="F1" n="2137"/></l>
+                        <l>Appoint a meeting with this old fat fellow, <lb ed="G"/><lb ed="F1" n="2138"/></l>
+                        <l>Where we may take him and disgrace him for it. <lb ed="G"/><lb ed="F1" n="2139"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -4662,33 +4662,33 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">So think I too. <lb ed="G"/><lb ed="F1" n="2148"/></l>
+                        <l>So think I too. <lb ed="G"/><lb ed="F1" n="2148"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
-                        <l part="N">Devise but how you'll use him when he comes, <lb ed="G"/><lb ed="F1" n="2149"/></l>
-                        <l part="N">And let us two devise to bring him thither. <lb ed="G"/><lb ed="F1" n="2150"/></l>
+                        <l>Devise but how you'll use him when he comes, <lb ed="G"/><lb ed="F1" n="2149"/></l>
+                        <l>And let us two devise to bring him thither. <lb ed="G"/><lb ed="F1" n="2150"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">There is an old tale goes that Herne the <lb ed="F1" n="2151"/>hunter,
+                        <l>There is an old tale goes that Herne the <lb ed="F1" n="2151"/>hunter,
                                 <lb ed="G"/></l>
-                        <l part="N">Sometime a keeper here in Windsor forest, <lb ed="G" n="30"/><lb ed="F1" n="2152"/></l>
-                        <l part="N">Doth all the winter-time, at still midnight, <lb ed="G"/><lb ed="F1" n="2153"/></l>
-                        <l part="N">Walk round about an oak, with great ragg'd horns; <lb ed="G"/><lb ed="F1" n="2154"/></l>
-                        <l part="N">And there he blasts the tree and takes the cattle <lb ed="G"/><lb ed="F1" n="2155"/></l>
-                        <l part="N">And makes milch-kine yield blood and shakes a chain <lb ed="G"/><lb ed="F1" n="2156"/></l>
-                        <l part="N">In a most hideous and dreadful manner: <lb ed="G"/><lb ed="F1" n="2157"/></l>
-                        <l part="N">You have heard of such a spirit, and well you know <lb ed="G"/><lb ed="F1" n="2158"/></l>
-                        <l part="N">The superstitious idle-headed eld <lb ed="G"/><lb ed="F1" n="2159"/></l>
-                        <l part="N">Received and did deliver to our age <lb ed="G"/><lb ed="F1" n="2160"/></l>
-                        <l part="N">This tale of Herne the hunter for a truth. <lb ed="G"/><lb ed="F1" n="2161"/></l>
+                        <l>Sometime a keeper here in Windsor forest, <lb ed="G" n="30"/><lb ed="F1" n="2152"/></l>
+                        <l>Doth all the winter-time, at still midnight, <lb ed="G"/><lb ed="F1" n="2153"/></l>
+                        <l>Walk round about an oak, with great ragg'd horns; <lb ed="G"/><lb ed="F1" n="2154"/></l>
+                        <l>And there he blasts the tree and takes the cattle <lb ed="G"/><lb ed="F1" n="2155"/></l>
+                        <l>And makes milch-kine yield blood and shakes a chain <lb ed="G"/><lb ed="F1" n="2156"/></l>
+                        <l>In a most hideous and dreadful manner: <lb ed="G"/><lb ed="F1" n="2157"/></l>
+                        <l>You have heard of such a spirit, and well you know <lb ed="G"/><lb ed="F1" n="2158"/></l>
+                        <l>The superstitious idle-headed eld <lb ed="G"/><lb ed="F1" n="2159"/></l>
+                        <l>Received and did deliver to our age <lb ed="G"/><lb ed="F1" n="2160"/></l>
+                        <l>This tale of Herne the hunter for a truth. <lb ed="G"/><lb ed="F1" n="2161"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">Why, yet there want not many that do fear <lb ed="G"/><lb ed="F1" n="2162"/></l>
-                        <l part="N">In deep of night to walk by this Herne's oak: <lb ed="G"/><lb ed="F1" n="2163"/></l>
-                        <l part="N">But what of this? <lb ed="G"/><lb ed="F1" n="2164"/></l>
+                        <l>Why, yet there want not many that do fear <lb ed="G"/><lb ed="F1" n="2162"/></l>
+                        <l>In deep of night to walk by this Herne's oak: <lb ed="G"/><lb ed="F1" n="2163"/></l>
+                        <l>But what of this? <lb ed="G"/><lb ed="F1" n="2164"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
@@ -4697,44 +4697,44 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">Well, let it not be doubted but he'll come: <lb ed="G"/><lb ed="F1" n="2167"/></l>
-                        <l part="N">And in this shape when you have brought him thither, <lb ed="G"/><lb ed="F1" n="2168"/></l>
-                        <l part="N">What shall be done with him? what is your plot? <lb ed="G"/><lb ed="F1" n="2169"/></l>
+                        <l>Well, let it not be doubted but he'll come: <lb ed="G"/><lb ed="F1" n="2167"/></l>
+                        <l>And in this shape when you have brought him thither, <lb ed="G"/><lb ed="F1" n="2168"/></l>
+                        <l>What shall be done with him? what is your plot? <lb ed="G"/><lb ed="F1" n="2169"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">That likewise have we thought upon, and thus: <lb ed="G"/><lb ed="F1" n="2170"/></l>
-                        <l part="N">Nan Page my daughter and my little son <lb ed="G"/><lb ed="F1" n="2171"/></l>
-                        <l part="N">And three or four more of their growth we'll dress <lb ed="G"/><lb ed="F1" n="2172"/></l>
-                        <l part="N">Like urchins, ouphes and fairies, green and white, <lb ed="G" n="50"/><lb ed="F1" n="2173"/></l>
-                        <l part="N">With rounds of waxen tapers on their heads, <lb ed="G"/><lb ed="F1" n="2174"/></l>
-                        <l part="N">And rattles in their hands: upon a sudden, <lb ed="G"/><lb ed="F1" n="2175"/></l>
-                        <l part="N">As Falstaff, she and I, are newly met, <lb ed="G"/><lb ed="F1" n="2176"/></l>
-                        <l part="N">Let them from forth a sawpit rush at once <lb ed="G"/><lb ed="F1" n="2177"/></l>
-                        <l part="N">With some diffused song: upon their sight, <lb ed="G"/><lb ed="F1" n="2178"/></l>
-                        <l part="N">We two in great amazedness will fly: <lb ed="G"/><lb ed="F1" n="2179"/></l>
-                        <l part="N">Then let them all encircle him about <lb ed="G"/><lb ed="F1" n="2180"/></l>
-                        <l part="N">And, fairy-like, to pinch the unclean knight, <lb ed="G"/><lb ed="F1" n="2181"/></l>
-                        <l part="N">And ask him why, that hour of fairy revel, <lb ed="G"/><lb ed="F1" n="2182"/></l>
-                        <l part="N">In their so sacred paths he dares to tread <lb ed="G"/><lb ed="F1" n="2183"/></l>
-                        <l part="N">In shape profane. <lb ed="G" n="60"/><lb ed="F1" n="2184"/></l>
+                        <l>That likewise have we thought upon, and thus: <lb ed="G"/><lb ed="F1" n="2170"/></l>
+                        <l>Nan Page my daughter and my little son <lb ed="G"/><lb ed="F1" n="2171"/></l>
+                        <l>And three or four more of their growth we'll dress <lb ed="G"/><lb ed="F1" n="2172"/></l>
+                        <l>Like urchins, ouphes and fairies, green and white, <lb ed="G" n="50"/><lb ed="F1" n="2173"/></l>
+                        <l>With rounds of waxen tapers on their heads, <lb ed="G"/><lb ed="F1" n="2174"/></l>
+                        <l>And rattles in their hands: upon a sudden, <lb ed="G"/><lb ed="F1" n="2175"/></l>
+                        <l>As Falstaff, she and I, are newly met, <lb ed="G"/><lb ed="F1" n="2176"/></l>
+                        <l>Let them from forth a sawpit rush at once <lb ed="G"/><lb ed="F1" n="2177"/></l>
+                        <l>With some diffused song: upon their sight, <lb ed="G"/><lb ed="F1" n="2178"/></l>
+                        <l>We two in great amazedness will fly: <lb ed="G"/><lb ed="F1" n="2179"/></l>
+                        <l>Then let them all encircle him about <lb ed="G"/><lb ed="F1" n="2180"/></l>
+                        <l>And, fairy-like, to pinch the unclean knight, <lb ed="G"/><lb ed="F1" n="2181"/></l>
+                        <l>And ask him why, that hour of fairy revel, <lb ed="G"/><lb ed="F1" n="2182"/></l>
+                        <l>In their so sacred paths he dares to tread <lb ed="G"/><lb ed="F1" n="2183"/></l>
+                        <l>In shape profane. <lb ed="G" n="60"/><lb ed="F1" n="2184"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
-                        <l part="N">And till he tell the truth, <lb ed="G"/><lb ed="F1" n="2185"/></l>
-                        <l part="N">Let the supposed fairies pinch him sound <lb ed="F1" n="2186"/></l>
+                        <l>And till he tell the truth, <lb ed="G"/><lb ed="F1" n="2185"/></l>
+                        <l>Let the supposed fairies pinch him sound <lb ed="F1" n="2186"/></l>
                         <l part="I">And burn him with their tapers. <lb ed="G"/><lb ed="F1" n="2187"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
                         <l part="F">The truth being known, <lb ed="G"/><lb ed="F1" n="2188"/></l>
-                        <l part="N">We'll all present ourselves, dis-horn the spirit, <lb ed="F1" n="2189"/></l>
+                        <l>We'll all present ourselves, dis-horn the spirit, <lb ed="F1" n="2189"/></l>
                         <l part="I">And mock him home to Windsor. <lb ed="G"/><lb ed="F1" n="2190"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
                         <l part="F">The children must <lb ed="G"/><lb ed="F1" n="2191"/></l>
-                        <l part="N">Be practised well to this, or they'll ne'er do't. <lb ed="G"/><lb ed="F1" n="2192"/></l>
+                        <l>Be practised well to this, or they'll ne'er do't. <lb ed="G"/><lb ed="F1" n="2192"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -4747,26 +4747,26 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">My Nan shall be the queen of all the <lb ed="F1" n="2198"/>fairies, <lb ed="G"/></l>
-                        <l part="N">Finely attired in a robe of white. <lb ed="G"/><lb ed="F1" n="2199"/></l>
+                        <l>My Nan shall be the queen of all the <lb ed="F1" n="2198"/>fairies, <lb ed="G"/></l>
+                        <l>Finely attired in a robe of white. <lb ed="G"/><lb ed="F1" n="2199"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">That silk will I go buy. <stage>[Aside]</stage>
+                        <l>That silk will I go buy. <stage>[Aside]</stage>
                             <lb ed="G"/></l>
-                        <l part="N">And in that time <lb ed="G"/><lb ed="F1" n="2200"/></l>
-                        <l part="N">Shall Master Slender steal my Nan away <lb ed="G"/><lb ed="F1" n="2201"/></l>
-                        <l part="N">And marry her at Eton. Go send to Falstaff straight. <lb ed="G"/><lb ed="F1" n="2202"/></l>
+                        <l>And in that time <lb ed="G"/><lb ed="F1" n="2200"/></l>
+                        <l>Shall Master Slender steal my Nan away <lb ed="G"/><lb ed="F1" n="2201"/></l>
+                        <l>And marry her at Eton. Go send to Falstaff straight. <lb ed="G"/><lb ed="F1" n="2202"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Nay, I'll to him again in name of Brook: <lb ed="G"/><lb ed="F1" n="2203"/></l>
-                        <l part="N">He'll tell me all his purpose: sure, he'll come. <lb ed="G"/><lb ed="F1" n="2204"/></l>
+                        <l>Nay, I'll to him again in name of Brook: <lb ed="G"/><lb ed="F1" n="2203"/></l>
+                        <l>He'll tell me all his purpose: sure, he'll come. <lb ed="G"/><lb ed="F1" n="2204"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Fear not you that. Go get us properties <lb ed="G"/><lb ed="F1" n="2205"/></l>
-                        <l part="N">And tricking for our fairies. <lb ed="G"/><lb ed="F1" n="2206"/></l>
+                        <l>Fear not you that. Go get us properties <lb ed="G"/><lb ed="F1" n="2205"/></l>
+                        <l>And tricking for our fairies. <lb ed="G"/><lb ed="F1" n="2206"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -4776,17 +4776,17 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Go, Mistress Ford, <lb ed="G"/><lb ed="F1" n="2209"/></l>
-                        <l part="N">Send quickly to Sir John, to know his mind. <lb ed="G"/><stage>[Exit Mrs.
+                        <l>Go, Mistress Ford, <lb ed="G"/><lb ed="F1" n="2209"/></l>
+                        <l>Send quickly to Sir John, to know his mind. <lb ed="G"/><stage>[Exit Mrs.
                                 Ford.</stage>
                             <lb ed="G"/><lb ed="F1" n="2210"/></l>
-                        <l part="N">I'll to the doctor: he hath my good will. <lb ed="G"/><lb ed="F1" n="2211"/></l>
-                        <l part="N">And none but he, to marry with Nan Page. <lb ed="G"/><lb ed="F1" n="2212"/></l>
-                        <l part="N">That Slender, though well landed, is an idiot; <lb ed="G"/><lb ed="F1" n="2213"/></l>
-                        <l part="N">And he my husband best of all affects. <lb ed="G"/><lb ed="F1" n="2214"/></l>
-                        <l part="N">The doctor is well money'd and his friends <lb ed="G"/><lb ed="F1" n="2215"/></l>
-                        <l part="N">Potent at court: he, none but he, shall have her, <lb ed="G" n="90"/><lb ed="F1" n="2216"/></l>
-                        <l part="N">Though twenty thousand worthier come to crave her. <lb ed="G"/><stage>[Exit. </stage>
+                        <l>I'll to the doctor: he hath my good will. <lb ed="G"/><lb ed="F1" n="2211"/></l>
+                        <l>And none but he, to marry with Nan Page. <lb ed="G"/><lb ed="F1" n="2212"/></l>
+                        <l>That Slender, though well landed, is an idiot; <lb ed="G"/><lb ed="F1" n="2213"/></l>
+                        <l>And he my husband best of all affects. <lb ed="G"/><lb ed="F1" n="2214"/></l>
+                        <l>The doctor is well money'd and his friends <lb ed="G"/><lb ed="F1" n="2215"/></l>
+                        <l>Potent at court: he, none but he, shall have her, <lb ed="G" n="90"/><lb ed="F1" n="2216"/></l>
+                        <l>Though twenty thousand worthier come to crave her. <lb ed="G"/><stage>[Exit. </stage>
                         </l>
                     </sp>
                 </div>
@@ -4807,8 +4807,8 @@
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
-                        <l part="N">Marry, sir, I come to speak with Sir <lb ed="G"/></l>
-                        <l part="N">John Falstaff <lb ed="F1" n="2224"/>from Master Slender. <lb ed="G"/><lb ed="F1" n="2225"/></l>
+                        <l>Marry, sir, I come to speak with Sir <lb ed="G"/></l>
+                        <l>John Falstaff <lb ed="F1" n="2224"/>from Master Slender. <lb ed="G"/><lb ed="F1" n="2225"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
@@ -4858,11 +4858,11 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">I spake with the old woman about it. <lb ed="G"/><lb ed="F1" n="2253"/></l>
+                        <l>I spake with the old woman about it. <lb ed="G"/><lb ed="F1" n="2253"/></l>
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
-                        <l part="N">And what says she, I pray, sir? <lb ed="G"/><lb ed="F1" n="2254"/></l>
+                        <l>And what says she, I pray, sir? <lb ed="G"/><lb ed="F1" n="2254"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -4875,19 +4875,19 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">What are they? let us know. <lb ed="G"/><lb ed="F1" n="2260"/></l>
+                        <l>What are they? let us know. <lb ed="G"/><lb ed="F1" n="2260"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
-                        <l part="N">Ay, come; quick. <lb ed="G"/><lb ed="F1" n="2261"/></l>
+                        <l>Ay, come; quick. <lb ed="G"/><lb ed="F1" n="2261"/></l>
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
-                        <l part="N">I may not conceal them, sir. <lb ed="G"/><lb ed="F1" n="2262"/></l>
+                        <l>I may not conceal them, sir. <lb ed="G"/><lb ed="F1" n="2262"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
-                        <l part="N">Conceal them, or thou diest. <lb ed="G"/><lb ed="F1" n="2263"/></l>
+                        <l>Conceal them, or thou diest. <lb ed="G"/><lb ed="F1" n="2263"/></l>
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
@@ -4896,11 +4896,11 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">'Tis, 'tis his fortune. <lb ed="G"/><lb ed="F1" n="2267"/></l>
+                        <l>'Tis, 'tis his fortune. <lb ed="G"/><lb ed="F1" n="2267"/></l>
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
-                        <l part="N">What, sir? <lb ed="G"/><lb ed="F1" n="2268"/></l>
+                        <l>What, sir? <lb ed="G"/><lb ed="F1" n="2268"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -4908,11 +4908,11 @@
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
-                        <l part="N">May I be bold to say so, sir? <lb ed="G"/><lb ed="F1" n="2271"/></l>
+                        <l>May I be bold to say so, sir? <lb ed="G"/><lb ed="F1" n="2271"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Ay, sir; like who more bold. <lb ed="G"/><lb ed="F1" n="2272"/></l>
+                        <l>Ay, sir; like who more bold. <lb ed="G"/><lb ed="F1" n="2272"/></l>
                     </sp>
                     <sp who="sim.">
                         <speaker>Sim.</speaker>
@@ -4921,8 +4921,8 @@
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
-                        <l part="N">Thou art clerkly, thou art clerkly, Sir <lb ed="G"/></l>
-                        <l part="N">John. <lb ed="F1" n="2275"/>Was there a wise woman with thee? <lb ed="G"/><lb ed="F1" n="2276"/></l>
+                        <l>Thou art clerkly, thou art clerkly, Sir <lb ed="G"/></l>
+                        <l>John. <lb ed="F1" n="2275"/>Was there a wise woman with thee? <lb ed="G"/><lb ed="F1" n="2276"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -4932,7 +4932,7 @@
                     </sp>
                     <sp who="bard.">
                         <speaker>Bard.</speaker>
-                        <l part="N">Out, alas, sir! cozenage, mere cozenage! <lb ed="G"/><lb ed="F1" n="2281"/></l>
+                        <l>Out, alas, sir! cozenage, mere cozenage! <lb ed="G"/><lb ed="F1" n="2281"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
@@ -4952,11 +4952,11 @@
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
-                        <l part="N">Where is mine host? <lb ed="G"/><lb ed="F1" n="2291"/></l>
+                        <l>Where is mine host? <lb ed="G"/><lb ed="F1" n="2291"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
-                        <l part="N">What is the matter, sir? <lb ed="G"/><lb ed="F1" n="2292"/></l>
+                        <l>What is the matter, sir? <lb ed="G"/><lb ed="F1" n="2292"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -4970,7 +4970,7 @@
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">Vere is mine host de Jarteer? <lb ed="G"/><lb ed="F1" n="2300"/></l>
+                        <l>Vere is mine host de Jarteer? <lb ed="G"/><lb ed="F1" n="2300"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
@@ -5002,7 +5002,7 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">From the two parties, forsooth. <lb ed="G"/><lb ed="F1" n="2321"/></l>
+                        <l>From the two parties, forsooth. <lb ed="G"/><lb ed="F1" n="2321"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -5034,7 +5034,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Come up into my chamber. <lb ed="G"/><stage>[Exeunt.</stage>
+                        <l>Come up into my chamber. <lb ed="G"/><stage>[Exeunt.</stage>
                         </l>
                     </sp>
                 </div>
@@ -5053,77 +5053,77 @@
                     </sp>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
-                        <l part="N">Yet hear me speak. Assist me in my purpose, <lb ed="G"/><lb ed="F1" n="2348"/></l>
-                        <l part="N">And, as I am a gentleman, I'll give thee <lb ed="G"/><lb ed="F1" n="2349"/></l>
-                        <l part="N">A hundred pound in gold more than your loss. <lb ed="G"/><lb ed="F1" n="2350"/></l>
+                        <l>Yet hear me speak. Assist me in my purpose, <lb ed="G"/><lb ed="F1" n="2348"/></l>
+                        <l>And, as I am a gentleman, I'll give thee <lb ed="G"/><lb ed="F1" n="2349"/></l>
+                        <l>A hundred pound in gold more than your loss. <lb ed="G"/><lb ed="F1" n="2350"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
-                        <l part="N">I will hear you, Master Fenton; and <lb ed="G"/></l>
-                        <l part="N">I will at <lb ed="F1" n="2351"/>the least keep your counsel. <lb ed="G"/><lb ed="F1" n="2352"/></l>
+                        <l>I will hear you, Master Fenton; and <lb ed="G"/></l>
+                        <l>I will at <lb ed="F1" n="2351"/>the least keep your counsel. <lb ed="G"/><lb ed="F1" n="2352"/></l>
                     </sp>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
-                        <l part="N">From time to time I have acquainted you <lb ed="G"/><lb ed="F1" n="2353"/></l>
-                        <l part="N">With the dear love I bear to fair Anne Page; <lb ed="G" n="10"/><lb ed="F1" n="2354"/></l>
-                        <l part="N">Who mutually hath answer'd my affection, <lb ed="G"/><lb ed="F1" n="2355"/></l>
-                        <l part="N">So far forth as herself might be her chooser, <lb ed="G"/><lb ed="F1" n="2356"/></l>
-                        <l part="N">Even to my wish: I have a letter from her <lb ed="G"/><lb ed="F1" n="2357"/></l>
-                        <l part="N">Of such contents as you will wonder at; <lb ed="G"/><lb ed="F1" n="2358"/></l>
-                        <l part="N">The mirth whereof so larded with my matter, <lb ed="G"/><lb ed="F1" n="2359"/></l>
-                        <l part="N">That neither singly can be manifested, <lb ed="G"/><lb ed="F1" n="2360"/></l>
-                        <l part="N">Without the show of both; fat Falstaff <lb ed="G"/><lb ed="F1" n="2361"/></l>
-                        <l part="N">Hath a great scene: the image of the jest <lb ed="G"/><lb ed="F1" n="2362"/></l>
-                        <l part="N">I'll show you here at large. Hark, good mine host. <lb ed="G"/><lb ed="F1" n="2363"/></l>
-                        <l part="N">To-night at Herne's oak, just 'twixt twelve and one, <lb ed="G"/><lb ed="F1" n="2364"/></l>
-                        <l part="N">Must my sweet Nan present the Fairy Queen; <lb ed="G"/><lb ed="F1" n="2365"/></l>
-                        <l part="N">The purpose why, is here: in which disguise, <lb ed="G"/><lb ed="F1" n="2366"/></l>
-                        <l part="N">While other jests are something rank on foot, <lb ed="G"/><lb ed="F1" n="2367"/></l>
-                        <l part="N">Her father hath commanded her to slip <lb ed="G"/><lb ed="F1" n="2368"/></l>
-                        <l part="N">Away with Slender and with him at Eton <lb ed="G"/><lb ed="F1" n="2369"/></l>
-                        <l part="N">Immediately to marry: she hath consented: <lb ed="G"/></l>
-                        <l part="N">Now, sir, <lb ed="G"/><lb ed="F1" n="2370"/></l>
-                        <l part="N">Her mother, ever strong against that match <lb ed="G"/><lb ed="F1" n="2371"/></l>
-                        <l part="N">And firm for Doctor Caius, hath appointed <lb ed="G"/><lb ed="F1" n="2372"/></l>
-                        <l part="N">That he shall likewise shuffle her away, <lb ed="G" n="30"/><lb ed="F1" n="2373"/></l>
-                        <l part="N">While other sports are tasking of their minds, <lb ed="G"/><lb ed="F1" n="2374"/></l>
-                        <l part="N">And at the deanery, where a priest attends, <lb ed="G"/><lb ed="F1" n="2375"/></l>
-                        <l part="N">Straight marry her: to this her mother's plot <lb ed="G"/><lb ed="F1" n="2376"/></l>
-                        <l part="N">She seemingly obedient likewise hath <lb ed="G"/><lb ed="F1" n="2377"/></l>
-                        <l part="N">Made promise to the doctor. Now, thus it rests: <lb ed="G"/><lb ed="F1" n="2378"/></l>
-                        <l part="N">Her father means she shall be all in white, <lb ed="G"/><lb ed="F1" n="2379"/></l>
-                        <l part="N">And in that habit, when Slender sees his time <lb ed="G"/><lb ed="F1" n="2380"/></l>
-                        <l part="N">To take her by the hand and bid her go, <lb ed="G"/><lb ed="F1" n="2381"/></l>
-                        <l part="N">She shall go with him: her mother hath intended, <lb ed="G"/><lb ed="F1" n="2382"/></l>
-                        <l part="N">The better to denote her to the doctor, <lb ed="G" n="40"/><lb ed="F1" n="2383"/></l>
-                        <l part="N">For they must all be mask'd and vizarded, <lb ed="G"/><lb ed="F1" n="2384"/></l>
-                        <l part="N">That quaint in green she shall be loose enrobed, <lb ed="G"/><lb ed="F1" n="2385"/></l>
-                        <l part="N">With ribands pendent, flaring 'bout her head: <lb ed="G"/><lb ed="F1" n="2386"/></l>
-                        <l part="N">And when the doctor spies his vantage ripe, <lb ed="G"/><lb ed="F1" n="2387"/></l>
-                        <l part="N">To pinch her by the hand, and, on that token, <lb ed="G"/><lb ed="F1" n="2388"/></l>
-                        <l part="N">The maid hath given consent to go with him. <lb ed="G"/><lb ed="F1" n="2389"/></l>
+                        <l>From time to time I have acquainted you <lb ed="G"/><lb ed="F1" n="2353"/></l>
+                        <l>With the dear love I bear to fair Anne Page; <lb ed="G" n="10"/><lb ed="F1" n="2354"/></l>
+                        <l>Who mutually hath answer'd my affection, <lb ed="G"/><lb ed="F1" n="2355"/></l>
+                        <l>So far forth as herself might be her chooser, <lb ed="G"/><lb ed="F1" n="2356"/></l>
+                        <l>Even to my wish: I have a letter from her <lb ed="G"/><lb ed="F1" n="2357"/></l>
+                        <l>Of such contents as you will wonder at; <lb ed="G"/><lb ed="F1" n="2358"/></l>
+                        <l>The mirth whereof so larded with my matter, <lb ed="G"/><lb ed="F1" n="2359"/></l>
+                        <l>That neither singly can be manifested, <lb ed="G"/><lb ed="F1" n="2360"/></l>
+                        <l>Without the show of both; fat Falstaff <lb ed="G"/><lb ed="F1" n="2361"/></l>
+                        <l>Hath a great scene: the image of the jest <lb ed="G"/><lb ed="F1" n="2362"/></l>
+                        <l>I'll show you here at large. Hark, good mine host. <lb ed="G"/><lb ed="F1" n="2363"/></l>
+                        <l>To-night at Herne's oak, just 'twixt twelve and one, <lb ed="G"/><lb ed="F1" n="2364"/></l>
+                        <l>Must my sweet Nan present the Fairy Queen; <lb ed="G"/><lb ed="F1" n="2365"/></l>
+                        <l>The purpose why, is here: in which disguise, <lb ed="G"/><lb ed="F1" n="2366"/></l>
+                        <l>While other jests are something rank on foot, <lb ed="G"/><lb ed="F1" n="2367"/></l>
+                        <l>Her father hath commanded her to slip <lb ed="G"/><lb ed="F1" n="2368"/></l>
+                        <l>Away with Slender and with him at Eton <lb ed="G"/><lb ed="F1" n="2369"/></l>
+                        <l>Immediately to marry: she hath consented: <lb ed="G"/></l>
+                        <l>Now, sir, <lb ed="G"/><lb ed="F1" n="2370"/></l>
+                        <l>Her mother, ever strong against that match <lb ed="G"/><lb ed="F1" n="2371"/></l>
+                        <l>And firm for Doctor Caius, hath appointed <lb ed="G"/><lb ed="F1" n="2372"/></l>
+                        <l>That he shall likewise shuffle her away, <lb ed="G" n="30"/><lb ed="F1" n="2373"/></l>
+                        <l>While other sports are tasking of their minds, <lb ed="G"/><lb ed="F1" n="2374"/></l>
+                        <l>And at the deanery, where a priest attends, <lb ed="G"/><lb ed="F1" n="2375"/></l>
+                        <l>Straight marry her: to this her mother's plot <lb ed="G"/><lb ed="F1" n="2376"/></l>
+                        <l>She seemingly obedient likewise hath <lb ed="G"/><lb ed="F1" n="2377"/></l>
+                        <l>Made promise to the doctor. Now, thus it rests: <lb ed="G"/><lb ed="F1" n="2378"/></l>
+                        <l>Her father means she shall be all in white, <lb ed="G"/><lb ed="F1" n="2379"/></l>
+                        <l>And in that habit, when Slender sees his time <lb ed="G"/><lb ed="F1" n="2380"/></l>
+                        <l>To take her by the hand and bid her go, <lb ed="G"/><lb ed="F1" n="2381"/></l>
+                        <l>She shall go with him: her mother hath intended, <lb ed="G"/><lb ed="F1" n="2382"/></l>
+                        <l>The better to denote her to the doctor, <lb ed="G" n="40"/><lb ed="F1" n="2383"/></l>
+                        <l>For they must all be mask'd and vizarded, <lb ed="G"/><lb ed="F1" n="2384"/></l>
+                        <l>That quaint in green she shall be loose enrobed, <lb ed="G"/><lb ed="F1" n="2385"/></l>
+                        <l>With ribands pendent, flaring 'bout her head: <lb ed="G"/><lb ed="F1" n="2386"/></l>
+                        <l>And when the doctor spies his vantage ripe, <lb ed="G"/><lb ed="F1" n="2387"/></l>
+                        <l>To pinch her by the hand, and, on that token, <lb ed="G"/><lb ed="F1" n="2388"/></l>
+                        <l>The maid hath given consent to go with him. <lb ed="G"/><lb ed="F1" n="2389"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
-                        <l part="N">Which means she to deceive, father or <lb ed="F1" n="2390"/>mother? <lb ed="G"/><lb ed="F1" n="2391"/></l>
+                        <l>Which means she to deceive, father or <lb ed="F1" n="2390"/>mother? <lb ed="G"/><lb ed="F1" n="2391"/></l>
                     </sp>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
-                        <l part="N">Both, my good host, to go along with me: <lb ed="G"/><lb ed="F1" n="2392"/></l>
-                        <l part="N">And here it rests, that you'll procure the vicar <lb ed="G"/><lb ed="F1" n="2393"/></l>
-                        <l part="N">To stay for me at church 'twixt twelve and one, <lb ed="G" n="50"/><lb ed="F1" n="2394"/></l>
-                        <l part="N">And, in the lawful name of marrying, <lb ed="G"/><lb ed="F1" n="2395"/></l>
-                        <l part="N">To give our hearts united ceremony. <lb ed="G"/><lb ed="F1" n="2396"/></l>
+                        <l>Both, my good host, to go along with me: <lb ed="G"/><lb ed="F1" n="2392"/></l>
+                        <l>And here it rests, that you'll procure the vicar <lb ed="G"/><lb ed="F1" n="2393"/></l>
+                        <l>To stay for me at church 'twixt twelve and one, <lb ed="G" n="50"/><lb ed="F1" n="2394"/></l>
+                        <l>And, in the lawful name of marrying, <lb ed="G"/><lb ed="F1" n="2395"/></l>
+                        <l>To give our hearts united ceremony. <lb ed="G"/><lb ed="F1" n="2396"/></l>
                     </sp>
                     <sp who="host.">
                         <speaker>Host.</speaker>
-                        <l part="N">Well, husband your device; I'll to the vicar: <lb ed="G"/><lb ed="F1" n="2397"/></l>
-                        <l part="N">Bring you the maid, you shall not lack a priest. <lb ed="G"/><lb ed="F1" n="2398"/></l>
+                        <l>Well, husband your device; I'll to the vicar: <lb ed="G"/><lb ed="F1" n="2397"/></l>
+                        <l>Bring you the maid, you shall not lack a priest. <lb ed="G"/><lb ed="F1" n="2398"/></l>
                     </sp>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
-                        <l part="N">So shall I evermore be bound to thee; <lb ed="G"/><lb ed="F1" n="2399"/></l>
-                        <l part="N">Besides, I'll make a present recompense. <lb ed="G"/><stage>[Exeunt.</stage>
+                        <l>So shall I evermore be bound to thee; <lb ed="G"/><lb ed="F1" n="2399"/></l>
+                        <l>Besides, I'll make a present recompense. <lb ed="G"/><stage>[Exeunt.</stage>
                         </l>
                     </sp>
                 </div>
@@ -5232,7 +5232,7 @@
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">I know vat I have to do. Adieu. <lb ed="G"/><lb ed="F1" n="2453"/></l>
+                        <l>I know vat I have to do. Adieu. <lb ed="G"/><lb ed="F1" n="2453"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
@@ -5267,8 +5267,8 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Against such lewdsters and their lechery <lb ed="G"/><lb ed="F1" n="2469"/></l>
-                        <l part="N">Those that betray them do no treachery. <lb ed="G"/><lb ed="F1" n="2470"/></l>
+                        <l>Against such lewdsters and their lechery <lb ed="G"/><lb ed="F1" n="2469"/></l>
+                        <l>Those that betray them do no treachery. <lb ed="G"/><lb ed="F1" n="2470"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
@@ -5348,7 +5348,7 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Alas, what noise? <lb ed="G"/><lb ed="F1" n="2512"/></l>
+                        <l>Alas, what noise? <lb ed="G"/><lb ed="F1" n="2512"/></l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
@@ -5356,7 +5356,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">What should this be? <lb ed="G"/><lb ed="F1" n="2514"/></l>
+                        <l>What should this be? <lb ed="G"/><lb ed="F1" n="2514"/></l>
                     </sp>
                     <sp who="mrs.-page. mrs.-ford.">
                         <speaker>Mrs. Page. Mrs. Ford</speaker>
@@ -5373,66 +5373,66 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">Fairies, black, grey, green, and white, <lb ed="G"/><lb ed="F1" n="2520"/></l>
-                        <l part="N">You moonshine revellers, and shades of night, <lb ed="G"/><lb ed="F1" n="2521"/></l>
-                        <l part="N">You orphan heirs of fixed destiny, <lb ed="G"/><lb ed="F1" n="2522"/></l>
-                        <l part="N">Attend your office and your quality. <lb ed="G"/><lb ed="F1" n="2523"/></l>
-                        <l part="N">Crier Hobgoblin, make the fairy oyes. <lb ed="G"/><lb ed="F1" n="2524"/></l>
+                        <l>Fairies, black, grey, green, and white, <lb ed="G"/><lb ed="F1" n="2520"/></l>
+                        <l>You moonshine revellers, and shades of night, <lb ed="G"/><lb ed="F1" n="2521"/></l>
+                        <l>You orphan heirs of fixed destiny, <lb ed="G"/><lb ed="F1" n="2522"/></l>
+                        <l>Attend your office and your quality. <lb ed="G"/><lb ed="F1" n="2523"/></l>
+                        <l>Crier Hobgoblin, make the fairy oyes. <lb ed="G"/><lb ed="F1" n="2524"/></l>
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">Elves, list your names; silence, you airy toys. <lb ed="G"/><lb ed="F1" n="2525"/></l>
-                        <l part="N">Cricket, to Windsor chimneys shalt thou leap: <lb ed="G"/><lb ed="F1" n="2526"/></l>
-                        <l part="N">Where fires thou find'st unraked and hearts unswept, <lb ed="G"/><lb ed="F1" n="2527"/></l>
-                        <l part="N">There pinch the maids as blue as bilberry: <lb ed="G" n="50"/><lb ed="F1" n="2528"/></l>
-                        <l part="N">Our radiant queen hates sluts and sluttery. <lb ed="G"/><lb ed="F1" n="2529"/></l>
+                        <l>Elves, list your names; silence, you airy toys. <lb ed="G"/><lb ed="F1" n="2525"/></l>
+                        <l>Cricket, to Windsor chimneys shalt thou leap: <lb ed="G"/><lb ed="F1" n="2526"/></l>
+                        <l>Where fires thou find'st unraked and hearts unswept, <lb ed="G"/><lb ed="F1" n="2527"/></l>
+                        <l>There pinch the maids as blue as bilberry: <lb ed="G" n="50"/><lb ed="F1" n="2528"/></l>
+                        <l>Our radiant queen hates sluts and sluttery. <lb ed="G"/><lb ed="F1" n="2529"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">They are fairies; he that speaks to them shall die: <lb ed="G"/><lb ed="F1" n="2530"/></l>
-                        <l part="N">I'll wink and couch: no man their works must eye. <lb ed="G"/><stage>[Lies down upon his face. </stage>
+                        <l>They are fairies; he that speaks to them shall die: <lb ed="G"/><lb ed="F1" n="2530"/></l>
+                        <l>I'll wink and couch: no man their works must eye. <lb ed="G"/><stage>[Lies down upon his face. </stage>
                             <lb ed="G"/><lb ed="F1" n="2531"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
-                        <l part="N">Where's Bede? Go you, and where you find a maid <lb ed="G"/><lb ed="F1" n="2532"/></l>
-                        <l part="N">That, ere she sleep, has thrice her prayers said, <lb ed="G"/><lb ed="F1" n="2533"/></l>
-                        <l part="N">Raise up the organs of her fantasy; <lb ed="G"/><lb ed="F1" n="2534"/></l>
-                        <l part="N">Sleep she as sound as careless infancy: <lb ed="G"/><lb ed="F1" n="2535"/></l>
-                        <l part="N">But those as sleep and think not on their sins, <lb ed="G"/><lb ed="F1" n="2536"/></l>
-                        <l part="N">Pinch them, arms, legs, backs, shoulders, sides and shins. <lb ed="G" n="59"/><lb ed="F1" n="2537"/></l>
+                        <l>Where's Bede? Go you, and where you find a maid <lb ed="G"/><lb ed="F1" n="2532"/></l>
+                        <l>That, ere she sleep, has thrice her prayers said, <lb ed="G"/><lb ed="F1" n="2533"/></l>
+                        <l>Raise up the organs of her fantasy; <lb ed="G"/><lb ed="F1" n="2534"/></l>
+                        <l>Sleep she as sound as careless infancy: <lb ed="G"/><lb ed="F1" n="2535"/></l>
+                        <l>But those as sleep and think not on their sins, <lb ed="G"/><lb ed="F1" n="2536"/></l>
+                        <l>Pinch them, arms, legs, backs, shoulders, sides and shins. <lb ed="G" n="59"/><lb ed="F1" n="2537"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">About, about; <lb ed="G"/><lb ed="F1" n="2538"/></l>
-                        <l part="N">Search Windsor Castle, elves, within and out: <lb ed="G"/><lb ed="F1" n="2539"/></l>
-                        <l part="N">Strew good luck, ouphes, on every sacred room: <lb ed="G"/><lb ed="F1" n="2540"/></l>
-                        <l part="N">That it may stand till the perpetual doom, <lb ed="G"/><lb ed="F1" n="2541"/></l>
-                        <l part="N">In state as wholesome as in state 'tis fit, <lb ed="G"/><lb ed="F1" n="2542"/></l>
-                        <l part="N">Worthy the owner, and the owner it. <lb ed="G"/><lb ed="F1" n="2543"/></l>
-                        <l part="N">The several chairs of order look you scour <lb ed="G"/><lb ed="F1" n="2544"/></l>
-                        <l part="N">With juice of balm and every precious flower: <lb ed="G"/><lb ed="F1" n="2545"/></l>
-                        <l part="N">Each fair instalment, coat, and several crest, <lb ed="G"/><lb ed="F1" n="2546"/></l>
-                        <l part="N">With loyal blazon, evermore be blest! <lb ed="G"/><lb ed="F1" n="2547"/></l>
-                        <l part="N">And nightly, meadow-fairies, look you sing, <lb ed="G" n="70"/><lb ed="F1" n="2548"/></l>
-                        <l part="N">Like to the Garter's compass, in a ring: <lb ed="G"/><lb ed="F1" n="2549"/></l>
-                        <l part="N">The expressure that it bears, green let it be, <lb ed="G"/><lb ed="F1" n="2550"/></l>
-                        <l part="N">More fertile-fresh than all the field to see; <lb ed="G"/><lb ed="F1" n="2551"/></l>
-                        <l part="N">And 'Honi soit qui mal y pense' write <lb ed="G"/><lb ed="F1" n="2552"/></l>
-                        <l part="N">In emerald tufts, flowers purple, blue, and white; <lb ed="G"/><lb ed="F1" n="2553"/></l>
-                        <l part="N">Like sapphire, pearl and rich embroidery, <lb ed="G"/><lb ed="F1" n="2554"/></l>
-                        <l part="N">Buckled below fair knighthood's bending knee: <lb ed="G"/><lb ed="F1" n="2555"/></l>
-                        <l part="N">Fairies use flowers for their charactery. <lb ed="G"/><lb ed="F1" n="2556"/></l>
-                        <l part="N">Away; disperse: but till 'tis one o'clock, <lb ed="G"/><lb ed="F1" n="2557"/></l>
-                        <l part="N">Our dance of custom round about the oak <lb ed="G" n="80"/><lb ed="F1" n="2558"/></l>
-                        <l part="N">Of Herne the hunter, let us not forget. <lb ed="G"/><lb ed="F1" n="2559"/></l>
+                        <l>About, about; <lb ed="G"/><lb ed="F1" n="2538"/></l>
+                        <l>Search Windsor Castle, elves, within and out: <lb ed="G"/><lb ed="F1" n="2539"/></l>
+                        <l>Strew good luck, ouphes, on every sacred room: <lb ed="G"/><lb ed="F1" n="2540"/></l>
+                        <l>That it may stand till the perpetual doom, <lb ed="G"/><lb ed="F1" n="2541"/></l>
+                        <l>In state as wholesome as in state 'tis fit, <lb ed="G"/><lb ed="F1" n="2542"/></l>
+                        <l>Worthy the owner, and the owner it. <lb ed="G"/><lb ed="F1" n="2543"/></l>
+                        <l>The several chairs of order look you scour <lb ed="G"/><lb ed="F1" n="2544"/></l>
+                        <l>With juice of balm and every precious flower: <lb ed="G"/><lb ed="F1" n="2545"/></l>
+                        <l>Each fair instalment, coat, and several crest, <lb ed="G"/><lb ed="F1" n="2546"/></l>
+                        <l>With loyal blazon, evermore be blest! <lb ed="G"/><lb ed="F1" n="2547"/></l>
+                        <l>And nightly, meadow-fairies, look you sing, <lb ed="G" n="70"/><lb ed="F1" n="2548"/></l>
+                        <l>Like to the Garter's compass, in a ring: <lb ed="G"/><lb ed="F1" n="2549"/></l>
+                        <l>The expressure that it bears, green let it be, <lb ed="G"/><lb ed="F1" n="2550"/></l>
+                        <l>More fertile-fresh than all the field to see; <lb ed="G"/><lb ed="F1" n="2551"/></l>
+                        <l>And 'Honi soit qui mal y pense' write <lb ed="G"/><lb ed="F1" n="2552"/></l>
+                        <l>In emerald tufts, flowers purple, blue, and white; <lb ed="G"/><lb ed="F1" n="2553"/></l>
+                        <l>Like sapphire, pearl and rich embroidery, <lb ed="G"/><lb ed="F1" n="2554"/></l>
+                        <l>Buckled below fair knighthood's bending knee: <lb ed="G"/><lb ed="F1" n="2555"/></l>
+                        <l>Fairies use flowers for their charactery. <lb ed="G"/><lb ed="F1" n="2556"/></l>
+                        <l>Away; disperse: but till 'tis one o'clock, <lb ed="G"/><lb ed="F1" n="2557"/></l>
+                        <l>Our dance of custom round about the oak <lb ed="G" n="80"/><lb ed="F1" n="2558"/></l>
+                        <l>Of Herne the hunter, let us not forget. <lb ed="G"/><lb ed="F1" n="2559"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
-                        <l part="N">Pray you, lock hand in hand; yourselves in order set; <lb ed="G"/><lb ed="F1" n="2560"/></l>
-                        <l part="N">And twenty glow-worms shall our lanterns be, <lb ed="G"/><lb ed="F1" n="2561"/></l>
-                        <l part="N">To guide our measure round about the tree. <lb ed="G"/><lb ed="F1" n="2562"/></l>
-                        <l part="N">But, stay; I smell a man of middle-earth. <lb ed="G"/><lb ed="F1" n="2563"/></l>
+                        <l>Pray you, lock hand in hand; yourselves in order set; <lb ed="G"/><lb ed="F1" n="2560"/></l>
+                        <l>And twenty glow-worms shall our lanterns be, <lb ed="G"/><lb ed="F1" n="2561"/></l>
+                        <l>To guide our measure round about the tree. <lb ed="G"/><lb ed="F1" n="2562"/></l>
+                        <l>But, stay; I smell a man of middle-earth. <lb ed="G"/><lb ed="F1" n="2563"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -5440,15 +5440,15 @@
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
-                        <l part="N">Vile worm, thou wast o'erlook'd even in thy <lb ed="F1" n="2566"/>birth.
+                        <l>Vile worm, thou wast o'erlook'd even in thy <lb ed="F1" n="2566"/>birth.
                                 <lb ed="G"/><lb ed="F1" n="2567"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">With trial-fire touch me his fingerend: <lb ed="G"/><lb ed="F1" n="2568"/></l>
-                        <l part="N">If he be chaste, the flame will back descend <lb ed="G" n="90"/><lb ed="F1" n="2569"/></l>
-                        <l part="N">And turn him to no pain; but if he start, <lb ed="G"/><lb ed="F1" n="2570"/></l>
-                        <l part="N">It is the flesh of a corrupted heart. <lb ed="G"/><lb ed="F1" n="2571"/></l>
+                        <l>With trial-fire touch me his fingerend: <lb ed="G"/><lb ed="F1" n="2568"/></l>
+                        <l>If he be chaste, the flame will back descend <lb ed="G" n="90"/><lb ed="F1" n="2569"/></l>
+                        <l>And turn him to no pain; but if he start, <lb ed="G"/><lb ed="F1" n="2570"/></l>
+                        <l>It is the flesh of a corrupted heart. <lb ed="G"/><lb ed="F1" n="2571"/></l>
                     </sp>
                     <sp who="pist.">
                         <speaker>Pist.</speaker>
@@ -5462,20 +5462,20 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">Oh, Oh, Oh! <lb ed="G"/><lb ed="F1" n="2574"/></l>
+                        <l>Oh, Oh, Oh! <lb ed="G"/><lb ed="F1" n="2574"/></l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l part="N">Corrupt, corrupt, and tainted in desire! <lb ed="G"/><lb ed="F1" n="2575"/></l>
-                        <l part="N">About him, fairies; sing a scornful rhyme; <lb ed="G"/><lb ed="F1" n="2576"/></l>
-                        <l part="N">And, as you trip, still pinch him to your time. <lb ed="G"/><lb ed="F1" n="2577"/><floatingText xml:lang="eng"><body><head>SONG.</head>
+                        <l>Corrupt, corrupt, and tainted in desire! <lb ed="G"/><lb ed="F1" n="2575"/></l>
+                        <l>About him, fairies; sing a scornful rhyme; <lb ed="G"/><lb ed="F1" n="2576"/></l>
+                        <l>And, as you trip, still pinch him to your time. <lb ed="G"/><lb ed="F1" n="2577"/><floatingText xml:lang="eng"><body><head>SONG.</head>
                                     <lg type="song" part="N" org="uniform" sample="complete">
-                                        <lb ed="G"/><lb ed="F1" n="2578"/><l part="N">Fie on sinful fantasy!
-                                                <lb ed="G"/></l><l part="N">Fie on lust and luxury! <lb ed="G"/><lb ed="F1" n="2579"/></l><l part="N">Lust is but a
-                                            bloody fire, <lb ed="G" n="100"/></l><l part="N">Kindled with
-                                            unchaste desire. <lb ed="G"/><lb ed="F1" n="2580"/></l><l part="N">Fed in heart, whose flames aspire <lb ed="G"/><lb ed="F1" n="2581"/></l><l part="N">As thoughts do blow
-                                            them, higher and higher. <lb ed="G"/><lb ed="F1" n="2582"/></l><l part="N">Pinch him, fairies, mutually; <lb ed="G"/></l><l part="N">Pinch him for his villany; <lb ed="G"/><lb ed="F1" n="2583"/></l><l part="N">Pinch him, and burn
-                                            him, and turn him about, <lb ed="G"/><lb ed="F1" n="2584"/></l><l part="N">Till candles and starlight and
+                                        <lb ed="G"/><lb ed="F1" n="2578"/><l>Fie on sinful fantasy!
+                                                <lb ed="G"/></l><l>Fie on lust and luxury! <lb ed="G"/><lb ed="F1" n="2579"/></l><l>Lust is but a
+                                            bloody fire, <lb ed="G" n="100"/></l><l>Kindled with
+                                            unchaste desire. <lb ed="G"/><lb ed="F1" n="2580"/></l><l>Fed in heart, whose flames aspire <lb ed="G"/><lb ed="F1" n="2581"/></l><l>As thoughts do blow
+                                            them, higher and higher. <lb ed="G"/><lb ed="F1" n="2582"/></l><l>Pinch him, fairies, mutually; <lb ed="G"/></l><l>Pinch him for his villany; <lb ed="G"/><lb ed="F1" n="2583"/></l><l>Pinch him, and burn
+                                            him, and turn him about, <lb ed="G"/><lb ed="F1" n="2584"/></l><l>Till candles and starlight and
                                             moonshine be out.</l>
                                     </lg></body></floatingText>
                             <stage>During this song they pinch FALSTAFF. DOCTOR CAIUS comes one way,
@@ -5489,16 +5489,16 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">Nay, do not fly; I think we have watch'd you <lb ed="F1" n="2586"/>now:
+                        <l>Nay, do not fly; I think we have watch'd you <lb ed="F1" n="2586"/>now:
                                 <lb ed="G"/></l>
-                        <l part="N">Will none but Herne the hunter serve your <lb ed="F1" n="2587"/>turn? <lb ed="G"/><lb ed="F1" n="2588"/></l>
+                        <l>Will none but Herne the hunter serve your <lb ed="F1" n="2587"/>turn? <lb ed="G"/><lb ed="F1" n="2588"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">I pray you, come, hold up the jest no higher. <lb ed="G" n="110"/><lb ed="F1" n="2589"/></l>
-                        <l part="N">Now, good Sir John, how like you Windsor wives? <lb ed="G"/><lb ed="F1" n="2590"/></l>
-                        <l part="N">See you these, husband? do not these fair yokes <lb ed="G"/><lb ed="F1" n="2591"/></l>
-                        <l part="N">Become the forest better than the town? <lb ed="G"/><lb ed="F1" n="2592"/></l>
+                        <l>I pray you, come, hold up the jest no higher. <lb ed="G" n="110"/><lb ed="F1" n="2589"/></l>
+                        <l>Now, good Sir John, how like you Windsor wives? <lb ed="G"/><lb ed="F1" n="2590"/></l>
+                        <l>See you these, husband? do not these fair yokes <lb ed="G"/><lb ed="F1" n="2591"/></l>
+                        <l>Become the forest better than the town? <lb ed="G"/><lb ed="F1" n="2592"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -5533,7 +5533,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Well, said, fairy Hugh. <lb ed="G"/><lb ed="F1" n="2616"/></l>
+                        <l>Well, said, fairy Hugh. <lb ed="G"/><lb ed="F1" n="2616"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -5566,11 +5566,11 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">What, a hodge-pudding? a bag of flax! <lb ed="G" n="160"/><lb ed="F1" n="2637"/></l>
+                        <l>What, a hodge-pudding? a bag of flax! <lb ed="G" n="160"/><lb ed="F1" n="2637"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">A puffed man? <lb ed="G"/><lb ed="F1" n="2638"/></l>
+                        <l>A puffed man? <lb ed="G"/><lb ed="F1" n="2638"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
@@ -5582,11 +5582,11 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">And as poor as Job? <lb ed="G"/><lb ed="F1" n="2642"/></l>
+                        <l>And as poor as Job? <lb ed="G"/><lb ed="F1" n="2642"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">And as wicked as his wife? <lb ed="G"/><lb ed="F1" n="2643"/></l>
+                        <l>And as wicked as his wife? <lb ed="G"/><lb ed="F1" n="2643"/></l>
                     </sp>
                     <sp who="evans.">
                         <speaker>Evans.</speaker>
@@ -5620,7 +5620,7 @@
                     </sp>
                     <sp who="slen.">
                         <speaker>Slen.</speaker>
-                        <l part="N">Whoa, ho! ho, father Page! <lb ed="G"/><lb ed="F1" n="2663"/></l>
+                        <l>Whoa, ho! ho, father Page! <lb ed="G"/><lb ed="F1" n="2663"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
@@ -5632,7 +5632,7 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">Of what, son? <lb ed="G"/><lb ed="F1" n="2668"/></l>
+                        <l>Of what, son? <lb ed="G"/><lb ed="F1" n="2668"/></l>
                     </sp>
                     <sp who="slen.">
                         <speaker>Slen.</speaker>
@@ -5677,8 +5677,8 @@
                     </sp>
                     <sp who="caius.">
                         <speaker>Caius.</speaker>
-                        <l part="N">Ay, by gar, and 'tis a boy: by gar, <lb ed="G"/></l>
-                        <l part="N">I'll raise all <lb ed="F1" n="2694"/>Windsor. <lb ed="G"/><stage>[Exit.</stage>
+                        <l>Ay, by gar, and 'tis a boy: by gar, <lb ed="G"/></l>
+                        <l>I'll raise all <lb ed="F1" n="2694"/>Windsor. <lb ed="G"/><stage>[Exit.</stage>
                             <lb ed="G"/><lb ed="F1" n="2695"/></l>
                     </sp>
                     <sp who="ford.">
@@ -5692,7 +5692,7 @@
                     </sp>
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
-                        <l part="N">Pardon, good father! good my mother, pardon! <lb ed="G"/><lb ed="F1" n="2699"/></l>
+                        <l>Pardon, good father! good my mother, pardon! <lb ed="G"/><lb ed="F1" n="2699"/></l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
@@ -5700,27 +5700,27 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Why went you not with master doctor, maid? <lb ed="G"/><lb ed="F1" n="2702"/></l>
+                        <l>Why went you not with master doctor, maid? <lb ed="G"/><lb ed="F1" n="2702"/></l>
                     </sp>
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
-                        <l part="N">You do amaze: hear the truth of it. <lb ed="G"/><lb ed="F1" n="2703"/></l>
-                        <l part="N">You would have married her most shamefully, <lb ed="G"/><lb ed="F1" n="2704"/></l>
-                        <l part="N">Where there was no proportion held in love. <lb ed="G"/><lb ed="F1" n="2705"/></l>
-                        <l part="N">The truth is, she and I, long since contracted, <lb ed="G"/><lb ed="F1" n="2706"/></l>
-                        <l part="N">Are now so sure that nothing can dissolve us. <lb ed="G"/><lb ed="F1" n="2707"/></l>
-                        <l part="N">The offence is holy that she hath committed; <lb ed="G"/><lb ed="F1" n="2708"/></l>
-                        <l part="N">And this deceit loses the name of craft, <lb ed="G" n="240"/><lb ed="F1" n="2709"/></l>
-                        <l part="N">Of disobedience, or unduteous title, <lb ed="G"/><lb ed="F1" n="2710"/></l>
-                        <l part="N">Since therein she doth evitate and shun <lb ed="G"/><lb ed="F1" n="2711"/></l>
-                        <l part="N">A thousand irreligious cursed hours, <lb ed="G"/><lb ed="F1" n="2712"/></l>
-                        <l part="N">Which forced marriage would have brought upon her. <lb ed="G"/><lb ed="F1" n="2713"/></l>
+                        <l>You do amaze: hear the truth of it. <lb ed="G"/><lb ed="F1" n="2703"/></l>
+                        <l>You would have married her most shamefully, <lb ed="G"/><lb ed="F1" n="2704"/></l>
+                        <l>Where there was no proportion held in love. <lb ed="G"/><lb ed="F1" n="2705"/></l>
+                        <l>The truth is, she and I, long since contracted, <lb ed="G"/><lb ed="F1" n="2706"/></l>
+                        <l>Are now so sure that nothing can dissolve us. <lb ed="G"/><lb ed="F1" n="2707"/></l>
+                        <l>The offence is holy that she hath committed; <lb ed="G"/><lb ed="F1" n="2708"/></l>
+                        <l>And this deceit loses the name of craft, <lb ed="G" n="240"/><lb ed="F1" n="2709"/></l>
+                        <l>Of disobedience, or unduteous title, <lb ed="G"/><lb ed="F1" n="2710"/></l>
+                        <l>Since therein she doth evitate and shun <lb ed="G"/><lb ed="F1" n="2711"/></l>
+                        <l>A thousand irreligious cursed hours, <lb ed="G"/><lb ed="F1" n="2712"/></l>
+                        <l>Which forced marriage would have brought upon her. <lb ed="G"/><lb ed="F1" n="2713"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l part="N">Stand not amazed; here is no remedy: <lb ed="G"/><lb ed="F1" n="2714"/></l>
-                        <l part="N">In love the heavens themselves do guide the state; <lb ed="G"/><lb ed="F1" n="2715"/></l>
-                        <l part="N">Money buys lands, and wives are sold by fate. <lb ed="G"/><lb ed="F1" n="2716"/></l>
+                        <l>Stand not amazed; here is no remedy: <lb ed="G"/><lb ed="F1" n="2714"/></l>
+                        <l>In love the heavens themselves do guide the state; <lb ed="G"/><lb ed="F1" n="2715"/></l>
+                        <l>Money buys lands, and wives are sold by fate. <lb ed="G"/><lb ed="F1" n="2716"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
@@ -5729,28 +5729,28 @@
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
-                        <l part="N">Well, what remedy? Fenton, heaven give thee <lb ed="F1" n="2719"/>joy!
+                        <l>Well, what remedy? Fenton, heaven give thee <lb ed="F1" n="2719"/>joy!
                                 <lb ed="G"/></l>
-                        <l part="N">'What cannot be eschew'd must be embraced. <lb ed="G"/><lb ed="F1" n="2720"/></l>
+                        <l>'What cannot be eschew'd must be embraced. <lb ed="G"/><lb ed="F1" n="2720"/></l>
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l part="N">When night-dogs run, all sorts of deer are <lb ed="F1" n="2721"/>chased.
+                        <l>When night-dogs run, all sorts of deer are <lb ed="F1" n="2721"/>chased.
                                 <lb ed="G"/><lb ed="F1" n="2722"/></l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l part="N">Well, I will must no further, Master Fenton, <lb ed="G"/><lb ed="F1" n="2723"/></l>
-                        <l part="N">Heaven give you many, many merry days! <lb ed="G"/><lb ed="F1" n="2724"/></l>
-                        <l part="N">Good husband, let us every one go home, <lb ed="G"/><lb ed="F1" n="2725"/></l>
-                        <l part="N">And laugh this sport o'er by a country fire; <lb ed="F1" n="2726"/></l>
+                        <l>Well, I will must no further, Master Fenton, <lb ed="G"/><lb ed="F1" n="2723"/></l>
+                        <l>Heaven give you many, many merry days! <lb ed="G"/><lb ed="F1" n="2724"/></l>
+                        <l>Good husband, let us every one go home, <lb ed="G"/><lb ed="F1" n="2725"/></l>
+                        <l>And laugh this sport o'er by a country fire; <lb ed="F1" n="2726"/></l>
                         <l part="I">Sir John and all. <lb ed="G"/><lb ed="F1" n="2727"/></l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
                         <l part="F">Let it be so, Sir John, <lb ed="G"/><lb ed="F1" n="2728"/></l>
-                        <l part="N">To Master Brook you yet shall hold your word; <lb ed="G"/><lb ed="F1" n="2729"/></l>
-                        <l part="N">For he to-night shall lie with Mistress Ford. <lb ed="G"/>
+                        <l>To Master Brook you yet shall hold your word; <lb ed="G"/><lb ed="F1" n="2729"/></l>
+                        <l>For he to-night shall lie with Mistress Ford. <lb ed="G"/>
                             <lb ed="G"/><stage>[Exeunt.</stage>
                             <lb ed="F1" n="2730"/></l>
                     </sp>
