@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../../perseus-schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
@@ -43,7 +43,7 @@
   <text xml:lang="eng">
     <front>
       <div type="textpart" subtype="section" n="epigraph">
-        <lg lang="la" part="N" org="uniform" sample="complete">
+        <lg xml:lang="la" part="N" org="uniform" sample="complete">
           <l part="N">Vilia miretur vulgus; mihi flavus Apollo</l>
           <l part="N">Pocula Castalia plena ministret aqua.</l>
         </lg>

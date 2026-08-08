@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../../perseus-schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader xml:lang="eng">
   <fileDesc>
    <titleStmt>
@@ -2699,14 +2699,14 @@
       <l part="N">Hath given me this: now gather, and surmise. <!-- ***** Letter should be tagged ***** -->
        <lb n="1136" ed="F1"/>
        <stage>[Reads. </stage>
-       <text xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+       <floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
          <lb ed="G"/><lb n="1137" ed="F1"/><p part="N">‘To the celestial and my soul's idol, the most
            <lb n="110" ed="G"/> beautified <lb n="1138" ed="F1"/>Ophelia,’
-        —</p></div></body></text>
+        —</p></div></body></floatingText>
        <lb n="1139" ed="F1"/><lb ed="G"/>That's an ill phrase, a vile phrase; 'beautified' <lb ed="G"/>is a vile <lb n="1140" ed="F1"/>phrase: but you shall hear. <lb ed="G"/></l>
       <l part="N">Thus: <stage>Reads.</stage>
-       <text xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><lb ed="G"/><l part="N">'In her excellent white <lb n="1141" ed="F1"/>bosom, these,
-          &amp;c.'</l></div></body></text>
+       <floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><lb ed="G"/><l part="N">'In her excellent white <lb n="1141" ed="F1"/>bosom, these,
+          &amp;c.'</l></div></body></floatingText>
        <lb ed="G"/></l>
      </sp>
      <sp who="queen.">
@@ -2718,10 +2718,10 @@
       <speaker>Pol.</speaker>
       <lb n="1143" ed="F1"/>
       <l part="N">Good madam, stay awhile; I will be faithful. <stage>[Reads. </stage>
-       <text xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><lb ed="G"/><lb n="1144" ed="F1"/><l part="N">'Doubt thou the stars are fire; <lb ed="G"/><lb n="1145" ed="F1"/></l><l part="N"> Doubt that the sun doth move; <lb ed="G"/><lb n="1146" ed="F1"/></l><l part="I">Doubt truth to be a liar; <lb n="1147" ed="F1"/></l><l n="119" part="F"> But never doubt I love. <lb ed="G"/><lb n="1148" ed="F1"/></l><p part="N">'O dear
+       <floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><lb ed="G"/><lb n="1144" ed="F1"/><l part="N">'Doubt thou the stars are fire; <lb ed="G"/><lb n="1145" ed="F1"/></l><l part="N"> Doubt that the sun doth move; <lb ed="G"/><lb n="1146" ed="F1"/></l><l part="I">Doubt truth to be a liar; <lb n="1147" ed="F1"/></l><l n="119" part="F"> But never doubt I love. <lb ed="G"/><lb n="1148" ed="F1"/></l><p part="N">'O dear
           Ophelia, I am ill at these numbers; <lb ed="G"/>I have not art to <lb n="1149" ed="F1"/>reckon my groans: but that <lb ed="G"/>I love thee best, O most best, believe <lb n="1150" ed="F1"/>it. Adieu. <lb n="1151" ed="F1"/><lb ed="G"/> 'Thine evermore, most
           dear lady, whilst <lb ed="G"/> this <lb n="1152" ed="F1"/>machine is to him, HAMLET. </p>
-        </div></body></text>
+        </div></body></floatingText>
        <lb ed="G"/><lb n="1153" ed="F1"/></l>
       <l part="N">This, in obedience, hath my daughter shown me, <lb ed="G"/><lb n="1154" ed="F1"/></l>
       <l part="N">And more above, hath his solicitings, <lb ed="G"/><lb n="1155" ed="F1"/></l>
@@ -3474,8 +3474,8 @@
       <speaker>Ham.</speaker>
       <lb n="1462" ed="F1"/>
       <p part="N">Why, <lb ed="G"/>
-       <q direct="unspecified">‘As by lot, God wot,’</q>
-       <lb ed="G"/>and then, you know, <lb ed="G"/><q direct="unspecified">‘It <lb n="1463" ed="F1"/>came to pass, as most like it was,’</q>— <lb ed="G"/>the first row of
+       <q>‘As by lot, God wot,’</q>
+       <lb ed="G"/>and then, you know, <lb ed="G"/><q>‘It <lb n="1463" ed="F1"/>came to pass, as most like it was,’</q>— <lb ed="G"/>the first row of
        the <lb n="1464" ed="F1"/>pious chanson will show <lb ed="G"/>you more; for look, where my
         <lb n="1465" ed="F1"/>abridgement comes. <lb n="1466" ed="F1"/><stage type="entrance"> Enter
         four or five Players.</stage>
@@ -3504,14 +3504,14 @@
        where he <lb ed="G"/>speaks <lb n="1491" ed="F1"/>of Priam's slaughter: if it live in your
         <lb ed="G"/>memory, begin at <lb n="1492" ed="F1"/>this line: let me see, let me <lb n="471" ed="G"/>see— <lb ed="G"/>
       </p>
-      <lg next="speech1.2" part="I" type="speech" id="speech1.1" org="uniform" sample="complete">
+      <lg next="speech1.2" part="I" type="speech" xml:id="speech1.1" org="uniform" sample="complete">
        <l part="N">‘The rugged Pyrrhus, like <lb n="1493" ed="F1"/>the Hyrcanian beast,’ </l>
       </lg>
-      <seg part="N">—</seg>
+      <ab part="N">—</ab>
       <lb ed="G"/>
       <p part="N">it is not so:—it begins with Pyrrhus:— <lb ed="G"/>
       </p>
-      <lg next="speech1.3" part="Y" type="speech" id="speech1.2" org="uniform" sample="complete">
+      <lg next="speech1.3" part="Y" type="speech" xml:id="speech1.2" org="uniform" sample="complete">
        <lb n="1494" ed="F1"/>
        <l part="N">‘The rugged Pyrrhus, he whose sable arms, <lb n="1495" ed="F1"/></l>
        <l part="N">Black as his purpose, did the night resemble <lb n="1496" ed="F1"/></l>
@@ -3539,7 +3539,7 @@
      </sp>
      <sp who="first-play.">
       <speaker>First Play.</speaker>
-      <lg next="speech1.4" part="Y" type="speech" id="speech1.3" org="uniform" sample="complete">
+      <lg next="speech1.4" part="Y" type="speech" xml:id="speech1.3" org="uniform" sample="complete">
        <lb n="1509" ed="F1"/>
        <l part="N">‘Anon he finds him <lb n="1510" ed="F1"/></l>
        <l n="491" part="N">Striking too short at Greeks; his antique sword, <lb n="1511" ed="F1"/></l>
@@ -3589,11 +3589,11 @@
      </sp>
      <sp who="first-play.">
       <speaker>First Play.</speaker>
-      <lg next="speech1.5" part="Y" type="speech" id="speech1.4" org="uniform" sample="complete">
+      <lg next="speech1.5" part="Y" type="speech" xml:id="speech1.4" org="uniform" sample="complete">
        <lb n="1542" ed="F1"/>
        <l part="N">‘But who, O, who had seen the mobled queen’ </l>
       </lg>
-      <seg part="N">—</seg>
+      <ab part="N">—</ab>
 
       <lb ed="G"/>
      </sp>
@@ -3601,7 +3601,7 @@
       <speaker>Ham.</speaker>
       <lb n="1543" ed="F1"/>
       <p part="N">
-       <q direct="unspecified">‘The mobled queen?’</q>
+       <q>‘The mobled queen?’</q>
 
        <lb ed="G"/>
       </p>
@@ -3613,7 +3613,7 @@
      </sp>
      <sp who="first-play.">
       <speaker>First Play.</speaker>
-      <lg part="F" type="speech" id="speech1.5" org="uniform" sample="complete">
+      <lg part="F" type="speech" xml:id="speech1.5" org="uniform" sample="complete">
        <lb n="1545" ed="F1"/>
        <l part="N">‘Run barefoot up and down, <lb n="1546" ed="F1"/>threatening the flames <lb n="1547" ed="F1"/></l>
        <l part="N">With bisson rheum; a clout upon that head <lb n="1548" ed="F1"/></l>
@@ -6379,7 +6379,7 @@
      <sp who="oph.">
       <speaker>Oph.</speaker>
       <stage>[Sings]</stage>
-      <lg next="tl2" part="Y" type="song" id="tl1" org="uniform" sample="complete">
+      <lg next="tl2" part="Y" type="song" xml:id="tl1" org="uniform" sample="complete">
        <lb n="2769" ed="F1"/>
        <l part="N">How should I your true love know </l>
        <l part="N">From another one? <lb n="2770" ed="F1"/></l>
@@ -6399,7 +6399,7 @@
       <lb n="2772" ed="F1"/>
       <p part="N">Say you? nay, pray you, mark. <stage>[Sings]</stage>
       </p>
-      <lg next="tl3" part="Y" type="song" id="tl2" org="uniform" sample="complete">
+      <lg next="tl3" part="Y" type="song" xml:id="tl2" org="uniform" sample="complete">
        <lb n="2773" ed="F1"/>
        <l part="N">He is dead and gone, lady, </l>
        <l part="N"> He is dead and gone; <lb n="2774" ed="F1"/></l>
@@ -6419,7 +6419,7 @@
       <lb n="2777" ed="F1"/>
       <p part="N">Pray you, mark. <stage>Sings</stage>
       </p>
-      <lg next="tl4" part="Y" type="song" id="tl3" org="uniform" sample="complete">
+      <lg next="tl4" part="Y" type="song" xml:id="tl3" org="uniform" sample="complete">
        <lb n="2778" ed="F1"/>
        <l part="N">White his shroud as the mountain snow,— </l>
       </lg>
@@ -6436,7 +6436,7 @@
      <sp who="oph.">
       <speaker>Oph.</speaker>
       <stage>[Sings]</stage>
-      <lg part="F" type="song" id="tl4" org="uniform" sample="complete">
+      <lg part="F" type="song" xml:id="tl4" org="uniform" sample="complete">
        <lb n="2780" ed="F1"/>
        <l part="I">Larded with sweet flowers; <lb n="2781" ed="F1"/></l>
        <l part="N"> Which bewept to the grave did go <lb n="2782" ed="F1"/></l>
@@ -6468,7 +6468,7 @@
       <p part="N">Pray you, let's have no words of <lb ed="G"/>this; but when <lb n="2789" ed="F1"/>they ask
        you what it means, <lb ed="G"/>say you this: <stage>[Sings]</stage>
       </p>
-      <lg next="sv2" part="I" type="song" id="sv1" org="uniform" sample="complete">
+      <lg next="sv2" part="I" type="song" xml:id="sv1" org="uniform" sample="complete">
        <lb n="2790" ed="F1"/>
        <l part="N">To-morrow is Saint Valentine's day, </l>
        <l part="N"> All in the morning betime, <lb n="2791" ed="F1"/></l>
@@ -6492,7 +6492,7 @@
       <lb n="2795" ed="F1"/>
       <p part="N">Indeed, la, without an oath, I'll make <lb ed="G"/>an end on't: <stage>[Sings]</stage>
       </p>
-      <lg part="F" type="song" id="sv2" org="uniform" sample="complete">
+      <lg part="F" type="song" xml:id="sv2" org="uniform" sample="complete">
        <lb n="2796" ed="F1"/>
        <l part="N">By Gis and by Saint Charity, <lb n="2797" ed="F1"/></l>
        <l part="N">Alack, and fie for shame! <lb n="2798" ed="F1"/></l>
@@ -6748,7 +6748,7 @@
      <sp who="oph.">
       <speaker>Oph.</speaker>
       <stage>[Sings]</stage>
-      <lg next="s3.2" part="I" type="song" id="s3.1" org="uniform" sample="complete">
+      <lg next="s3.2" part="I" type="song" xml:id="s3.1" org="uniform" sample="complete">
        <lb n="2917" ed="F1"/>
        <l part="N">They bore him barefaced on the bier; <lb n="2918" ed="F1"/></l>
        <l part="N">Hey non nonny, nonny, hey nonny; <lb n="2919" ed="F1"/></l>
@@ -6767,7 +6767,7 @@
      <sp who="oph.">
       <speaker>Oph.</speaker>
       <stage>[Sings]</stage>
-      <lg next="s3.3" part="Y" type="song" id="s3.2" org="uniform" sample="complete">
+      <lg next="s3.3" part="Y" type="song" xml:id="s3.2" org="uniform" sample="complete">
        <lb n="2923" ed="F1"/>
        <l part="N">You must sing a-down a-down, </l>
        <l part="N"> An you call <lb n="2924" ed="F1"/>him a-down-a. </l>
@@ -6801,7 +6801,7 @@
        made a good end,— <lb ed="G"/>
        <stage>[Sings]</stage>
       </p>
-      <lg next="s3.4" part="Y" type="song" id="s3.3" org="uniform" sample="complete">
+      <lg next="s3.4" part="Y" type="song" xml:id="s3.3" org="uniform" sample="complete">
        <lb n="2938" ed="F1"/>
        <l part="N">For bonny sweet Robin is all my joy. </l>
       </lg>
@@ -6817,7 +6817,7 @@
      <sp who="oph.">
       <speaker>Oph.</speaker>
       <stage>[Sings]</stage>
-      <lg part="F" type="song" id="s3.4" org="uniform" sample="complete">
+      <lg part="F" type="song" xml:id="s3.4" org="uniform" sample="complete">
        <lg type="stanza" part="N" org="uniform" sample="complete">
         <lb n="2941" ed="F1"/>
         <l part="N">And will he not come again? <lb n="2942" ed="F1"/></l>
@@ -7034,12 +7034,12 @@
       <l part="F">Laertes, you shall hear them. <lb ed="G"/><lb n="3053" ed="F1"/></l>
       <l part="N">Leave us. <stage type="exit">[Exit Messenger.</stage>
        <stage>[Reads]</stage>
-       <text xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><lb n="3054" ed="F1"/><p part="N">'High and mighty, You shall know <lb ed="G"/>I am set
+       <floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><lb n="3054" ed="F1"/><p part="N">'High and mighty, You shall know <lb ed="G"/>I am set
           naked on your <lb n="3055" ed="F1"/>kingdom. To-morrow <lb ed="G"/>shall I beg leave to
           see your kingly <lb n="3056" ed="F1"/>eyes: when <lb ed="G"/>I shall, first asking your
           pardon thereunto, recount <lb n="3057" ed="F1"/><lb ed="G"/>the occasion of my sudden and
           more <lb ed="G"/>strange return. <lb n="3058" ed="F1"/></p><closer><signed>'HAMLET.'</signed></closer>
-        </div></body></text>
+        </div></body></floatingText>
        <lb n="50" ed="G"/><lb n="3059" ed="F1"/></l>
       <l part="N">What should this mean? Are all the rest come back? <lb ed="G"/><lb n="3060" ed="F1"/></l>
       <l part="N">Or is it some abuse and no such thing? <lb ed="G"/></l>
@@ -7488,7 +7488,7 @@
         Clown.</stage>
        <lb n="3251" ed="F1"/><stage>[He digs, and sings.</stage>
       </p>
-      <lg next="g1.2" part="I" type="song" id="g1.1" org="uniform" sample="complete">
+      <lg next="g1.2" part="I" type="song" xml:id="g1.1" org="uniform" sample="complete">
        <lb n="3252" ed="F1"/>
        <l part="N">In youth, when I did love, did love, <lb n="3253" ed="F1"/></l>
        <l n="70" part="N"> Methought it was very sweet, <lb n="3254" ed="F1"/></l>
@@ -7519,7 +7519,7 @@
       <speaker>First Clo.</speaker>
       <lb n="3262" ed="F1"/>
       <stage>[Sings]</stage>
-      <lg part="F" type="song" id="g1.2" org="uniform" sample="complete">
+      <lg part="F" type="song" xml:id="g1.2" org="uniform" sample="complete">
        <lb n="3263" ed="F1"/>
        <l part="N">But age, with his stealing steps, <lb n="3264" ed="F1"/></l>
        <l part="N"> Hath claw'd me in his clutch, <lb n="3265" ed="F1"/><lb n="3266" ed="F1"/></l>
@@ -7566,7 +7566,7 @@
       <speaker>First Clo.</speaker>
       <lb n="3284" ed="F1"/>
       <stage>[Sings]</stage>
-      <lg type="song" id="g2.1" part="N" org="uniform" sample="complete">
+      <lg type="song" xml:id="g2.1" part="N" org="uniform" sample="complete">
        <lb n="3285" ed="F1"/>
        <l part="N">A pick-axe, and a spade, a spade, <lb n="3286" ed="F1"/></l>
        <l part="N"> For and a shrouding sheet: <lb n="3287" ed="F1"/></l>
@@ -7618,7 +7618,7 @@
       <lb n="3310" ed="F1"/>
       <p part="N">Mine, sir. <stage>[Sings]</stage>
       </p>
-      <lg type="song" id="g3.1" part="N" org="uniform" sample="complete">
+      <lg type="song" xml:id="g3.1" part="N" org="uniform" sample="complete">
        <lb n="3311" ed="F1"/>
        <l part="N">O, a pit of clay for to be made <lb n="3312" ed="F1"/></l>
        <l part="N">For such a guest is meet. </l>

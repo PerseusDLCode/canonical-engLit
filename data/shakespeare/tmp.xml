@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../../perseus-schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
@@ -1050,13 +1050,13 @@
             <l part="I">So, slave; hence! <stage type="exit">[Exit Caliban.</stage>
               <stage type="entrance"> Re-enter ARIEL, invisible, playing and singing; FERDINAND
                 following. </stage>
-              <lb ed="G"/><text xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><head>ARIEL'S song.</head>
+              <lb ed="G"/><floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><head>ARIEL'S song.</head>
                   <lg type="song" part="N" org="uniform" sample="complete">
                     <lb ed="F1" n="519"/><l part="N"> Come unto these yellow sands. <lb ed="G"/><lb ed="F1" n="520"/></l><l part="N">And then take hands: Courtsied when you have and kiss'd <lb ed="G" n="380"/><lb ed="F1" n="521"/></l><l part="N">The wild waves whist, Foot it
                       featly here and there; <lb ed="G"/><lb ed="F1" n="522"/></l><l part="N">And, sweet
                       sprites, the burthen bear. <stage>Burthen [dispersedly]</stage>
                       <lb ed="G"/><lb ed="F1" n="523"/></l><l part="I">. Hark, hark! <lb ed="G"/><lb ed="F1" n="524"/></l><l part="F">Bow-wow. <lb ed="G"/><lb ed="F1" n="525"/></l><l part="I">The watch-dogs bark: <lb ed="G"/><lb ed="F1" n="526"/></l><l part="F">Bow-wow.</l>
-                  </lg></div></body></text>
+                  </lg></div></body></floatingText>
               <lb ed="G"/><lb ed="F1" n="527"/></l>
           </sp>
           <sp who="ari.">

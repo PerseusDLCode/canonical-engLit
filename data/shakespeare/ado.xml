@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../../perseus-schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
@@ -1843,10 +1843,10 @@
           <sp who="bene.">
             <speaker>Bene.</speaker>
             <p part="N">Now, divine air! now is his soul <lb ed="G"/>ravished! Is it <lb n="895" ed="F1"/>not
-              strange that sheeps' guts <lb ed="G"/>should hale souls out of <lb n="896" ed="F1"/>men's bodies? Well, <lb ed="G"/>a horn for my money, when all's <lb n="897" ed="F1"/>done. <lb n="898" ed="F1"/><text xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><head> The Song.</head> <lb ed="G"/><sp who="balth."><speaker>Balth.</speaker>
+              strange that sheeps' guts <lb ed="G"/>should hale souls out of <lb n="896" ed="F1"/>men's bodies? Well, <lb ed="G"/>a horn for my money, when all's <lb n="897" ed="F1"/>done. <lb n="898" ed="F1"/><floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><head> The Song.</head> <lb ed="G"/><sp who="balth."><speaker>Balth.</speaker>
                     <lg type="song" part="N" org="uniform" sample="complete">
                       <lb n="899" ed="F1"/><l part="N">Sigh no more, ladies, sigh no more, <lb ed="G"/><lb n="900" ed="F1"/></l><l part="N">Men were deceivers ever, <lb ed="G"/><lb n="901" ed="F1"/></l><l part="N">One foot in sea and one on shore, <lb ed="G"/><lb n="902" ed="F1"/></l><l part="N">To one thing constant never: <lb ed="G"/><lb n="903" ed="F1"/></l><l part="N">Then sigh not so, but let them go, <lb ed="G"/><lb n="904" ed="F1"/></l><l part="N">And be you blithe and bonny, <lb ed="G"/><lb n="905" ed="F1"/></l><l part="N">Converting all your sounds of woe <lb ed="G"/><lb n="906" ed="F1"/></l><l part="N">Into Hey nonny, nonny. <lb ed="G"/><lb n="907" ed="F1"/></l><l part="N">Sing no more ditties, sing no moe, <lb ed="G"/><lb n="908" ed="F1"/></l><l part="N">Of dumps so dull and heavy; <lb ed="G"/><lb n="909" ed="F1"/></l><l part="N">The fraud of men was ever so, <lb ed="G"/><lb n="910" ed="F1"/></l><l part="N">Since summer first was leavy: <lb ed="G"/><lb n="911" ed="F1"/></l><l part="N">Then sigh not so, &amp;c. </l></lg></sp>
-                </div></body></text>
+                </div></body></floatingText>
               <lb ed="G"/><lb n="912" ed="F1"/></p>
           </sp>
           <sp who="d.-pedro.">
@@ -5105,13 +5105,13 @@
             <l part="N"> Lives in death with glorious fame. <lb ed="G"/><lb n="2530" ed="F1"/></l>
             <l part="N">Hang thou there upon the tomb, <lb n="10" ed="G"/><lb n="2531" ed="F1"/></l>
             <l part="N">Praising her when I am dumb. <lb ed="G"/><lb n="2532" ed="F1"/></l>
-            <l part="N">Now, music, sound, and sing your solemn hymn. <lb n="2533" ed="F1"/><text xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><head>SONG.</head>
+            <l part="N">Now, music, sound, and sing your solemn hymn. <lb n="2533" ed="F1"/><floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><head>SONG.</head>
                   <lg type="song" part="N" org="uniform" sample="complete">
                     <lb ed="G"/><lb n="2534" ed="F1"/><l part="N"> Pardon, goddess of the night, <lb ed="G"/><lb n="2535" ed="F1"/></l><l part="N">Those that slew thy virgin knight; <lb ed="G"/><lb n="2536" ed="F1"/></l><l part="N">For the which, with songs of woe, <lb ed="G"/><lb n="2537" ed="F1"/></l><l part="N">Round about her tomb they go. <lb ed="G"/><lb n="2538" ed="F1"/></l><l part="N">Midnight, assist our moan; <lb ed="G"/></l><l part="N">Help
                       us to sigh and groan, <lb ed="G"/><lb n="2539" ed="F1"/></l><l part="N">Heavily,
                       heavily: <lb ed="G"/><lb n="2540" ed="F1"/></l><l part="N">Graves, yawn and yield your
                       dead, <lb ed="G"/><lb n="2541" ed="F1"/></l><l part="N">Till death be uttered, <lb ed="G"/><lb n="2542" ed="F1"/></l><l part="N">Heavily, heavily. </l></lg>
-                </div></body></text>
+                </div></body></floatingText>
               <lb ed="G"/><lb n="2543" ed="F1"/></l>
           </sp>
           <sp who="claud.">

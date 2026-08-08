@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../../perseus-schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="eng">
         <fileDesc>
             <titleStmt>
@@ -5468,7 +5468,7 @@
                         <speaker>Quick.</speaker>
                         <l part="N">Corrupt, corrupt, and tainted in desire! <lb ed="G"/><lb ed="F1" n="2575"/></l>
                         <l part="N">About him, fairies; sing a scornful rhyme; <lb ed="G"/><lb ed="F1" n="2576"/></l>
-                        <l part="N">And, as you trip, still pinch him to your time. <lb ed="G"/><lb ed="F1" n="2577"/><text xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><head>SONG.</head>
+                        <l part="N">And, as you trip, still pinch him to your time. <lb ed="G"/><lb ed="F1" n="2577"/><floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><head>SONG.</head>
                                     <lg type="song" part="N" org="uniform" sample="complete">
                                         <lb ed="G"/><lb ed="F1" n="2578"/><l part="N">Fie on sinful fantasy!
                                                 <lb ed="G"/></l><l part="N">Fie on lust and luxury! <lb ed="G"/><lb ed="F1" n="2579"/></l><l part="N">Lust is but a
@@ -5477,7 +5477,7 @@
                                             them, higher and higher. <lb ed="G"/><lb ed="F1" n="2582"/></l><l part="N">Pinch him, fairies, mutually; <lb ed="G"/></l><l part="N">Pinch him for his villany; <lb ed="G"/><lb ed="F1" n="2583"/></l><l part="N">Pinch him, and burn
                                             him, and turn him about, <lb ed="G"/><lb ed="F1" n="2584"/></l><l part="N">Till candles and starlight and
                                             moonshine be out.</l>
-                                    </lg></div></body></text>
+                                    </lg></div></body></floatingText>
                             <stage>During this song they pinch FALSTAFF. DOCTOR CAIUS comes one way,
                                 and steals away a boy in green; SLENDER another way, and takes off a
                                 boy in white; and FENTON comes, and steals away MRS ANNE PAGE. A

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../../perseus-schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
@@ -1609,7 +1609,7 @@
           <sp who="clo.">
             <speaker>Clo.</speaker>
             <stage>[Sings.]</stage>
-            <lg id="mm1.1" type="song" next="mm1.2" part="I" org="uniform" sample="complete">
+            <lg xml:id="mm1.1" type="song" next="mm1.2" part="I" org="uniform" sample="complete">
               <lb ed="F1" n="739"/>
               <l part="N">O mistress mine, where are you roaming? <lb ed="F1" n="740"/></l>
               <l part="N">O, stay and hear; your true love's coming, <lb ed="F1" n="741"/></l>
@@ -1632,7 +1632,7 @@
           <sp who="clo.">
             <speaker>Clo.</speaker>
             <stage>[Sings.]</stage>
-            <lg id="mm1.2" type="song" part="F" org="uniform" sample="complete">
+            <lg xml:id="mm1.2" type="song" part="F" org="uniform" sample="complete">
               <lb ed="F1" n="747"/>
               <l part="N">What is love? 'tis not hereafter; <lb ed="F1" n="748"/></l>
               <l part="N">Present mirth hath present laughter; <lb ed="F1" n="749"/></l>
@@ -2077,7 +2077,7 @@
             <speaker>Clo.</speaker>
             <p part="N">
               <lb ed="F1" n="940"/>
-              <text xml:lang="eng">
+              <floatingText xml:lang="eng">
                 <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
                   <head>SONG</head>
                   <lg type="song" part="N" org="uniform" sample="complete">
@@ -2099,7 +2099,7 @@
                     <l part="N">To weep there! </l>
                   </lg>
                 </div></body>
-              </text>
+              </floatingText>
 
 
               <lb ed="G"/>
@@ -2552,7 +2552,7 @@
             <speaker>Mal.</speaker>
             <p part="N">M, O, A, I; this simulation is not <lb ed="G"/>as the former: <lb ed="F1" n="1146"/>and yet, to crush this a little, <lb ed="G"/>it would bow to me, for every <lb ed="F1" n="1147"/>one of these <lb ed="G"/>letters are in my name. Soft! here
               follows <lb ed="G"/><lb ed="F1" n="1148"/><lb ed="G"/>prose. <stage>[Reads]</stage>
-              <text xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+              <floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
                   <p part="N">'If this fall into thy hand, revolve. In <lb ed="G"/>my stars <lb ed="F1" n="1149"/>I am above thee; but be not afraid <lb ed="G"/>of greatness: some
                       <lb ed="F1" n="1150"/>are born great, some <lb ed="G"/>achieve greatness, and
                     some <lb ed="F1" n="1151"/>have greatnes <lb ed="G"/>thrust upon 'em. Thy Fates
@@ -2568,7 +2568,7 @@
                     <lb ed="G"/>to be so; if not, let me see thee a <lb ed="G"/>steward <lb ed="F1" n="1161"/>still, the fellow of servants, and not <lb ed="G"/>worthy to <lb ed="F1" n="1162"/>touch Fortune's fingers. Farewell. <lb ed="G"/>She that
                     would alter <lb ed="F1" n="1163"/>service with thee. <lb ed="G"/>
                   </p><closer><signed>THE FORTUNATE-UNHAPPY</signed>.'</closer>
-                </div></body></text>
+                </div></body></floatingText>
               <lb ed="G"/>Daylight and <lb ed="F1" n="1164"/>champain discovers not more: <lb ed="G"/>this is open. I will be <lb ed="F1" n="1165"/>proud, I will read politic <lb ed="G"/>authors, I will baffle Sir <lb ed="F1" n="1166"/>Toby, I will wash off <lb ed="G"/>gross acquaintance, I will be point-devise <lb ed="F1" n="1167"/>the <lb ed="G"/>very man. I do not now fool myself, to let <lb ed="G"/><lb ed="F1" n="1168"/><lb ed="G"/>imagination jade me; for every reason excites <lb ed="G"/>to this, <lb ed="F1" n="1169"/>that my lady loves me. She did commend <lb ed="G"/>my yellow <lb ed="F1" n="1170"/>stockings of late, she did <lb ed="G"/>praise my leg being
               cross-gartered; <lb ed="F1" n="1171"/>and in this <lb ed="G"/>she manifests herself to
               my love, and <lb ed="F1" n="1172"/>with a <lb ed="G"/>kind of injunction drives me to
@@ -2577,11 +2577,11 @@
               yellow stockings, and <lb ed="G"/>cross-gartered, <lb ed="F1" n="1175"/>even with the
               swiftness of putting <lb ed="G"/>on. Jove and my <lb ed="F1" n="1176"/>stars be
               praised! Here <lb ed="G"/>is yet a postscript. <stage>[Reads]</stage>
-              <text xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+              <floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
                   <lb ed="G"/><p part="N">'Thou canst <lb ed="F1" n="1177"/>not choose but know who <lb ed="G"/>I am. If thou entertainest my love, let <lb ed="F1" n="1178"/>it
                     appear <lb ed="G"/>in thy smiling; thy smiles become thee <lb ed="G"/>well;
                     therefore <lb ed="F1" n="1179"/>in my presence still smile, dear <lb ed="G"/>my
-                    sweet, I prithee.' </p></div></body></text>
+                    sweet, I prithee.' </p></div></body></floatingText>
               <lb ed="G"/>Jove, <lb ed="F1" n="1180"/>I thank thee: I will smile; I will do <lb ed="G"/>everything that thou <lb ed="F1" n="1181"/>wilt have me.
                 <stage>[Exit.</stage>
               <lb ed="G"/><lb ed="F1" n="1182"/></p>
@@ -3664,12 +3664,12 @@
           <sp who="sir-to.">
             <speaker>Sir To.</speaker>
             <stage>[Reads]</stage>
-            <p part="N"><text xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><lb ed="F1" n="1684"/><p part="N">'Fare thee well; and God <lb ed="G"/>have mercy
+            <p part="N"><floatingText xml:lang="eng"><body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng"><lb ed="F1" n="1684"/><p part="N">'Fare thee well; and God <lb ed="G"/>have mercy
                     upon one of our <lb ed="F1" n="1685"/>souls! He may <lb ed="G"/>have mercy upon
                     mine; but my hope is better, <lb ed="G"/><lb ed="F1" n="1686"/><lb ed="G"/>and
                     so look to thyself. Thy friend, as thou <lb ed="G"/>usest him, and thy <lb ed="F1" n="1687"/>sworn enemy, <lb ed="G"/>
                   </p><closer><signed>ANDREW AGUECHEEK</signed>.</closer>
-                </div></body></text>
+                </div></body></floatingText>
               <lb ed="G"/><lb ed="F1" n="1688"/><lb ed="G"/>If this letter move him not, his legs
               cannot: <lb ed="G"/><lb ed="F1" n="1689"/><lb ed="G"/>I'll give't him. <lb ed="G"/><lb ed="F1" n="1690"/></p>
           </sp>
@@ -5208,7 +5208,7 @@
             <speaker>Fab.</speaker>
             <stage>[Reads]</stage>
             <p part="N">
-              <text xml:lang="eng">
+              <floatingText xml:lang="eng">
                 <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
                   <lb ed="F1" n="2469"/>
                   <p part="N">'By the Lord, madam, you <lb ed="G"/>wrong me, and <lb ed="F1" n="2470"/>the
@@ -5222,7 +5222,7 @@
                   </p>
                   <closer><signed>THE MADLY-USED MALVOLIO</signed>.'</closer>
                 </div></body>
-              </text>
+              </floatingText>
 
 
 
