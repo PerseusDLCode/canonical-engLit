@@ -23,7 +23,7 @@
     </fileDesc>
 
     <encodingDesc>
-      <refsDecl n="CTS"><cRefPattern n="asl" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath((//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2']//lb[@ed='G'])[$3]/parent::*)"><p>This pointer pattern extracts act, scene, and line.</p></cRefPattern><cRefPattern n="as" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2'])"><p>This pointer pattern extracts act and scene.</p></cRefPattern><cRefPattern n="a" matchPattern="(\w+)" replacementPattern="#xpath(//div[@subtype='act' and @n='$1'])"><p>This pointer pattern extracts act.</p></cRefPattern></refsDecl>
+      <refsDecl n="CTS" xml:id="CTS"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure unit="act" delim=":" match="div[@type='act']" use="@n"><citeStructure unit="scene" delim="." match="div[@type='scene']" use="@n"><citeStructure unit="line" delim="." match=".//lb[@ed='G']" use="position()"/></citeStructure></citeStructure></citeStructure></refsDecl>
     </encodingDesc>
 
     <profileDesc>
@@ -36,7 +36,7 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body>
+    <body xml:base="urn:cts:engLit:shakespeare.mac.perseus-eng1">
       <div type="act" n="cast">
         <castList>
           <head>DRAMATIS PERSONÆ</head>

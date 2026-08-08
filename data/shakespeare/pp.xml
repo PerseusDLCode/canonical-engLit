@@ -23,7 +23,7 @@
     </fileDesc>
 
     <encodingDesc>
-      <refsDecl n="CTS"><cRefPattern n="asl" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath((//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2']//lb[@ed='G'])[$3]/parent::*)"><p>This pointer pattern extracts act, scene, and line.</p></cRefPattern><cRefPattern n="as" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2'])"><p>This pointer pattern extracts act and scene.</p></cRefPattern><cRefPattern n="a" matchPattern="(\w+)" replacementPattern="#xpath(//div[@subtype='act' and @n='$1'])"><p>This pointer pattern extracts act.</p></cRefPattern></refsDecl>
+      <refsDecl n="CTS" xml:id="CTS"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure unit="sequence" delim=":" match="div[@type='sequence']" use="@n"><citeStructure unit="poem" delim="." match="div[@type='poem']" use="@n"><citeStructure unit="line" delim="." match=".//l" use="position()"/></citeStructure></citeStructure></citeStructure></refsDecl>
     </encodingDesc>
 
     <profileDesc>
@@ -36,10 +36,10 @@
   </teiHeader>
 
   <text xml:lang="eng">
-    <body>
-      <div type="textpart" subtype="sequence" n="1">
+    <body xml:base="urn:cts:engLit:shakespeare.pp.perseus-eng1">
+      <div type="sequence" n="1">
         <head>THE PASSIONATE PILGRIM</head>
-        <div type="textpart" subtype="poem" n="1">
+        <div type="poem" n="1">
           <head>I.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">WHEN my love swears that she is made of truth,</l>
@@ -58,7 +58,7 @@
             <l part="N"> Since that our faults in love thus smother'd be. </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="2">
+        <div type="poem" n="2">
           <head>II.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Two loves I have, of comfort and despair,</l>
@@ -77,7 +77,7 @@
             <l part="N"> Till my bad angel fire my good one out. </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="3">
+        <div type="poem" n="3">
           <head>III.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Did not the heavenly rhetoric of thine eye,</l>
@@ -96,7 +96,7 @@
             <l part="N"> To break an oath, to win a paradise? </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="4">
+        <div type="poem" n="4">
           <head>IV.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Sweet Cytherea, sitting by a brook</l>
@@ -115,7 +115,7 @@
             <l part="N"> He rose and ran away; ah, fool too froward! </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="5">
+        <div type="poem" n="5">
           <head>V.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">If love make me forsworn, how shall I swear to love?</l>
@@ -134,7 +134,7 @@
             <l n="70" part="N"> To sing heaven's praise with such an earthly tongue, </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="6">
+        <div type="poem" n="6">
           <head>VI.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Scarce had the sun dried up the dewy morn,</l>
@@ -153,7 +153,7 @@
             <l part="N"> 'O Jove,' quoth she, 'why was not I a flood!' </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="7">
+        <div type="poem" n="7">
           <head>VII.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Fair is my love, but not so fair as fickle;</l>
@@ -176,7 +176,7 @@
             <l part="N"> Bad in the best, though excellent in neither. </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="8">
+        <div type="poem" n="8">
           <head>VIII.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">If music and sweet poetry agree,</l>
@@ -195,7 +195,7 @@
             <l part="N"> One knight loves both, and both in thee remain. </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="9">
+        <div type="poem" n="9">
           <head>IX.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Fair was the morn when the fair queen of love,</l>
@@ -214,7 +214,7 @@
             <l n="130" part="N"> And blushing fled, and left her all alone. </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="10">
+        <div type="poem" n="10">
           <head>X.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Sweet rose, fair flower, untimely pluck'd, soon vaded,</l>
@@ -231,7 +231,7 @@
             <l part="N"> Thy discontent thou didst bequeath to me. </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="11">
+        <div type="poem" n="11">
           <head>XI.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Venus, with young Adonis sitting by her</l>
@@ -250,7 +250,7 @@
             <l part="N"> To kiss and clip me till I run away! </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="12">
+        <div type="poem" n="12">
           <head>XII.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Crabbed age and youth cannot live together:</l>
@@ -267,7 +267,7 @@
             <l part="N"> For methinks thou stay'st too long. </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="13">
+        <div type="poem" n="13">
           <head>XIII.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Beauty is but a vain and doubtful good;</l>
@@ -284,7 +284,7 @@
             <l part="N"> In spite of physic, painting, pain and cost. </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="14">
+        <div type="poem" n="14">
           <head>XIV.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Good night, good rest. Ah, neither be my share:</l>
@@ -301,7 +301,7 @@
             <l part="N"> As take the pain, but cannot pluck the pelf. </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="15">
+        <div type="poem" n="15">
           <head>XV.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Lord, how mine eyes throw gazes to the east!</l>
@@ -327,9 +327,9 @@
       </div>
 
 
-      <div type="textpart" subtype="sequence" n="2">
+      <div type="sequence" n="2">
         <head>SONNETS TO SUNDRY NOTES OF MUSIC</head>
-        <div type="textpart" subtype="poem" n="16">
+        <div type="poem" n="16">
           <head>[XVI.]</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">It was a lording's daughter, the fairest one of three,</l>
@@ -350,7 +350,7 @@
             <l part="N"> For now my song is ended. </l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="17">
+        <div type="poem" n="17">
           <head>XVII.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">On a day, alack the day!</l>
@@ -374,7 +374,7 @@
           </lg>
         </div>
 
-        <div type="textpart" subtype="poem" n="18">
+        <div type="poem" n="18">
           <head>[XVIII.]</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">My flocks feed not,</l>
@@ -434,7 +434,7 @@
           </lg>
         </div>
 
-        <div type="textpart" subtype="poem" n="19">
+        <div type="poem" n="19">
           <head>XIX.</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">When as thine eye hath chose the dame,</l>
@@ -493,7 +493,7 @@
             <l part="N"> To hear her secrets so bewray'd.</l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="20">
+        <div type="poem" n="20">
           <head>[XX.]</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">Live with me, and be my love,</l>
@@ -522,7 +522,7 @@
           </lg>
         </div>
 
-        <div type="textpart" subtype="poem" n="21">
+        <div type="poem" n="21">
           <head>[XXI.]</head>
           <lg part="N" org="uniform" sample="complete">
             <l part="N">As it fell upon a day</l>

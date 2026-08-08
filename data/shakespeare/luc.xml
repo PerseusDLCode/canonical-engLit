@@ -23,10 +23,7 @@
     </fileDesc>
 
     <encodingDesc>
-      <refsDecl n="CTS"><cRefPattern n="asl" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath((//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2']//lb[@ed='G'])[$3]/parent::*)"><p>This pointer pattern extracts act, scene, and line.</p></cRefPattern><cRefPattern n="as" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2'])"><p>This pointer pattern extracts act and scene.</p></cRefPattern><cRefPattern n="a" matchPattern="(\w+)" replacementPattern="#xpath(//div[@subtype='act' and @n='$1'])"><p>This pointer pattern extracts act.</p></cRefPattern></refsDecl>
-
-      <refsDecl n="CTS"><cRefPattern n="asl" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath((//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2']//lb[@ed='G'])[$3]/parent::*)"><p>This pointer pattern extracts act, scene, and line.</p></cRefPattern><cRefPattern n="as" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2'])"><p>This pointer pattern extracts act and scene.</p></cRefPattern><cRefPattern n="a" matchPattern="(\w+)" replacementPattern="#xpath(//div[@subtype='act' and @n='$1'])"><p>This pointer pattern extracts act.</p></cRefPattern></refsDecl>
-      <refsDecl n="CTS"><cRefPattern n="asl" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath((//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2']//lb[@ed='G'])[$3]/parent::*)"><p>This pointer pattern extracts act, scene, and line.</p></cRefPattern><cRefPattern n="as" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2'])"><p>This pointer pattern extracts act and scene.</p></cRefPattern><cRefPattern n="a" matchPattern="(\w+)" replacementPattern="#xpath(//div[@subtype='act' and @n='$1'])"><p>This pointer pattern extracts act.</p></cRefPattern></refsDecl>
+      <refsDecl n="CTS" xml:id="CTS"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure unit="stanza" delim=":" match=".//div[@type='stanza']" use="@n"><citeStructure unit="line" delim="." match=".//l" use="position()"/></citeStructure></citeStructure></refsDecl>
     </encodingDesc>
 
     <profileDesc>
@@ -89,10 +86,10 @@
           government changed from kings to consuls. </p>
       </div>
     </front>
-    <body>
+    <body xml:base="urn:cts:engLit:shakespeare.luc.perseus-eng1">
       <div type="textpart" subtype="section" n="The Rape of Lucrece">
         <head>The Rape of Lucrece</head>
-        <div type="textpart" subtype="stanza" n="1">
+        <div type="stanza" n="1">
           <head>1</head>
           <lg>
             <lg>
@@ -110,7 +107,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="2">
+        <div type="stanza" n="2">
           <head>2</head>
           <lg>
             <lg>
@@ -128,7 +125,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="3">
+        <div type="stanza" n="3">
           <head>3</head>
           <lg>
             <lg>
@@ -146,7 +143,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="4">
+        <div type="stanza" n="4">
           <head>4</head>
           <lg>
             <lg>
@@ -164,7 +161,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="5">
+        <div type="stanza" n="5">
           <head>5</head>
           <lg>
             <lg>
@@ -182,7 +179,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="6">
+        <div type="stanza" n="6">
           <head>6</head>
           <lg>
             <lg>
@@ -200,7 +197,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="7">
+        <div type="stanza" n="7">
           <head>7</head>
           <lg>
             <lg>
@@ -218,7 +215,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="8">
+        <div type="stanza" n="8">
           <head>8</head>
           <lg>
             <lg>
@@ -236,7 +233,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="9">
+        <div type="stanza" n="9">
           <head>9</head>
           <lg>
             <lg>
@@ -254,7 +251,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="10">
+        <div type="stanza" n="10">
           <head>10</head>
           <lg>
             <lg>
@@ -272,7 +269,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="11">
+        <div type="stanza" n="11">
           <head>11</head>
           <lg>
             <lg>
@@ -290,7 +287,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="12">
+        <div type="stanza" n="12">
           <head>12</head>
           <lg>
             <lg>
@@ -308,7 +305,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="13">
+        <div type="stanza" n="13">
           <head>13</head>
           <lg>
             <lg>
@@ -326,7 +323,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="14">
+        <div type="stanza" n="14">
           <head>14</head>
           <lg>
             <lg>
@@ -344,7 +341,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="15">
+        <div type="stanza" n="15">
           <head>15</head>
           <lg>
             <lg>
@@ -362,7 +359,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="16">
+        <div type="stanza" n="16">
           <head>16</head>
           <lg>
             <lg>
@@ -380,7 +377,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="17">
+        <div type="stanza" n="17">
           <head>17</head>
           <lg>
             <lg>
@@ -398,7 +395,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="18">
+        <div type="stanza" n="18">
           <head>18</head>
           <lg>
             <lg>
@@ -416,7 +413,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="19">
+        <div type="stanza" n="19">
           <head>19</head>
           <lg>
             <lg>
@@ -434,7 +431,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="20">
+        <div type="stanza" n="20">
           <head>20</head>
           <lg>
             <lg>
@@ -452,7 +449,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="21">
+        <div type="stanza" n="21">
           <head>21</head>
           <lg>
             <lg>
@@ -470,7 +467,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="22">
+        <div type="stanza" n="22">
           <head>22</head>
           <lg>
             <lg>
@@ -488,7 +485,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="23">
+        <div type="stanza" n="23">
           <head>23</head>
           <lg>
             <lg>
@@ -506,7 +503,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="24">
+        <div type="stanza" n="24">
           <head>24</head>
           <lg>
             <lg>
@@ -524,7 +521,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="25">
+        <div type="stanza" n="25">
           <head>25</head>
           <lg>
             <lg>
@@ -542,7 +539,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="26">
+        <div type="stanza" n="26">
           <head>26</head>
           <lg>
             <lg>
@@ -560,7 +557,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="27">
+        <div type="stanza" n="27">
           <head>27</head>
           <lg>
             <lg>
@@ -578,7 +575,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="28">
+        <div type="stanza" n="28">
           <head>28</head>
           <lg>
             <lg>
@@ -596,7 +593,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="29">
+        <div type="stanza" n="29">
           <head>29</head>
           <lg>
             <lg>
@@ -614,7 +611,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="30">
+        <div type="stanza" n="30">
           <head>30</head>
           <lg>
             <lg>
@@ -632,7 +629,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="31">
+        <div type="stanza" n="31">
           <head>31</head>
           <lg>
             <lg>
@@ -650,7 +647,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="32">
+        <div type="stanza" n="32">
           <head>32</head>
           <lg>
             <lg>
@@ -668,7 +665,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="33">
+        <div type="stanza" n="33">
           <head>33</head>
           <lg>
             <lg>
@@ -686,7 +683,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="34">
+        <div type="stanza" n="34">
           <head>34</head>
           <lg>
             <lg>
@@ -704,7 +701,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="35">
+        <div type="stanza" n="35">
           <head>35</head>
           <lg>
             <lg>
@@ -722,7 +719,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="36">
+        <div type="stanza" n="36">
           <head>36</head>
           <lg>
             <lg>
@@ -740,7 +737,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="37">
+        <div type="stanza" n="37">
           <head>37</head>
           <lg>
             <lg>
@@ -758,7 +755,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="38">
+        <div type="stanza" n="38">
           <head>38</head>
           <lg>
             <lg>
@@ -776,7 +773,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="39">
+        <div type="stanza" n="39">
           <head>39</head>
           <lg>
             <lg>
@@ -794,7 +791,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="40">
+        <div type="stanza" n="40">
           <head>40</head>
           <lg>
             <lg>
@@ -812,7 +809,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="41">
+        <div type="stanza" n="41">
           <head>41</head>
           <lg>
             <lg>
@@ -830,7 +827,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="42">
+        <div type="stanza" n="42">
           <head>42</head>
           <lg>
             <lg>
@@ -848,7 +845,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="43">
+        <div type="stanza" n="43">
           <head>43</head>
           <lg>
             <lg>
@@ -866,7 +863,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="44">
+        <div type="stanza" n="44">
           <head>44</head>
           <lg>
             <lg>
@@ -884,7 +881,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="45">
+        <div type="stanza" n="45">
           <head>45</head>
           <lg>
             <lg>
@@ -902,7 +899,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="46">
+        <div type="stanza" n="46">
           <head>46</head>
           <lg>
             <lg>
@@ -920,7 +917,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="47">
+        <div type="stanza" n="47">
           <head>47</head>
           <lg>
             <lg>
@@ -938,7 +935,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="48">
+        <div type="stanza" n="48">
           <head>48</head>
           <lg>
             <lg>
@@ -956,7 +953,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="49">
+        <div type="stanza" n="49">
           <head>49</head>
           <lg>
             <lg>
@@ -974,7 +971,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="50">
+        <div type="stanza" n="50">
           <head>50</head>
           <lg>
             <lg>
@@ -992,7 +989,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="51">
+        <div type="stanza" n="51">
           <head>51</head>
           <lg>
             <lg>
@@ -1010,7 +1007,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="52">
+        <div type="stanza" n="52">
           <head>52</head>
           <lg>
             <lg>
@@ -1028,7 +1025,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="53">
+        <div type="stanza" n="53">
           <head>53</head>
           <lg>
             <lg>
@@ -1046,7 +1043,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="54">
+        <div type="stanza" n="54">
           <head>54</head>
           <lg>
             <lg>
@@ -1064,7 +1061,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="55">
+        <div type="stanza" n="55">
           <head>55</head>
           <lg>
             <lg>
@@ -1082,7 +1079,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="56">
+        <div type="stanza" n="56">
           <head>56</head>
           <lg>
             <lg>
@@ -1100,7 +1097,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="57">
+        <div type="stanza" n="57">
           <head>57</head>
           <lg>
             <lg>
@@ -1118,7 +1115,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="58">
+        <div type="stanza" n="58">
           <head>58</head>
           <lg>
             <lg>
@@ -1136,7 +1133,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="59">
+        <div type="stanza" n="59">
           <head>59</head>
           <lg>
             <lg>
@@ -1154,7 +1151,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="60">
+        <div type="stanza" n="60">
           <head>60</head>
           <lg>
             <lg>
@@ -1172,7 +1169,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="61">
+        <div type="stanza" n="61">
           <head>61</head>
           <lg>
             <lg>
@@ -1190,7 +1187,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="62">
+        <div type="stanza" n="62">
           <head>62</head>
           <lg>
             <lg>
@@ -1208,7 +1205,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="63">
+        <div type="stanza" n="63">
           <head>63</head>
           <lg>
             <lg>
@@ -1226,7 +1223,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="64">
+        <div type="stanza" n="64">
           <head>64</head>
           <lg>
             <lg>
@@ -1244,7 +1241,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="65">
+        <div type="stanza" n="65">
           <head>65</head>
           <lg>
             <lg>
@@ -1262,7 +1259,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="66">
+        <div type="stanza" n="66">
           <head>66</head>
           <lg>
             <lg>
@@ -1280,7 +1277,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="67">
+        <div type="stanza" n="67">
           <head>67</head>
           <lg>
             <lg>
@@ -1298,7 +1295,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="68">
+        <div type="stanza" n="68">
           <head>68</head>
           <lg>
             <lg>
@@ -1316,7 +1313,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="69">
+        <div type="stanza" n="69">
           <head>69</head>
           <lg>
             <lg>
@@ -1334,7 +1331,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="70">
+        <div type="stanza" n="70">
           <head>70</head>
           <lg>
             <lg>
@@ -1352,7 +1349,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="71">
+        <div type="stanza" n="71">
           <head>71</head>
           <lg>
             <lg>
@@ -1370,7 +1367,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="72">
+        <div type="stanza" n="72">
           <head>72</head>
           <lg>
             <lg>
@@ -1388,7 +1385,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="73">
+        <div type="stanza" n="73">
           <head>73</head>
           <lg>
             <lg>
@@ -1406,7 +1403,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="74">
+        <div type="stanza" n="74">
           <head>74</head>
           <lg>
             <lg>
@@ -1424,7 +1421,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="75">
+        <div type="stanza" n="75">
           <head>75</head>
           <lg>
             <lg>
@@ -1442,7 +1439,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="76">
+        <div type="stanza" n="76">
           <head>76</head>
           <lg>
             <lg>
@@ -1460,7 +1457,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="77">
+        <div type="stanza" n="77">
           <head>77</head>
           <lg>
             <lg>
@@ -1478,7 +1475,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="78">
+        <div type="stanza" n="78">
           <head>78</head>
           <lg>
             <lg>
@@ -1496,7 +1493,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="79">
+        <div type="stanza" n="79">
           <head>79</head>
           <lg>
             <lg>
@@ -1514,7 +1511,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="80">
+        <div type="stanza" n="80">
           <head>80</head>
           <lg>
             <lg>
@@ -1532,7 +1529,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="81">
+        <div type="stanza" n="81">
           <head>81</head>
           <lg>
             <lg>
@@ -1550,7 +1547,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="82">
+        <div type="stanza" n="82">
           <head>82</head>
           <lg>
             <lg>
@@ -1568,7 +1565,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="83">
+        <div type="stanza" n="83">
           <head>83</head>
           <lg>
             <lg>
@@ -1586,7 +1583,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="84">
+        <div type="stanza" n="84">
           <head>84</head>
           <lg>
             <lg>
@@ -1604,7 +1601,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="85">
+        <div type="stanza" n="85">
           <head>85</head>
           <lg>
             <lg>
@@ -1622,7 +1619,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="86">
+        <div type="stanza" n="86">
           <head>86</head>
           <lg>
             <lg>
@@ -1640,7 +1637,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="87">
+        <div type="stanza" n="87">
           <head>87</head>
           <lg>
             <lg>
@@ -1658,7 +1655,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="88">
+        <div type="stanza" n="88">
           <head>88</head>
           <lg>
             <lg>
@@ -1676,7 +1673,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="89">
+        <div type="stanza" n="89">
           <head>89</head>
           <lg>
             <lg>
@@ -1694,7 +1691,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="90">
+        <div type="stanza" n="90">
           <head>90</head>
           <lg>
             <lg>
@@ -1712,7 +1709,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="91">
+        <div type="stanza" n="91">
           <head>91</head>
           <lg>
             <lg>
@@ -1730,7 +1727,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="92">
+        <div type="stanza" n="92">
           <head>92</head>
           <lg>
             <lg>
@@ -1748,7 +1745,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="93">
+        <div type="stanza" n="93">
           <head>93</head>
           <lg>
             <lg>
@@ -1766,7 +1763,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="94">
+        <div type="stanza" n="94">
           <head>94</head>
           <lg>
             <lg>
@@ -1784,7 +1781,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="95">
+        <div type="stanza" n="95">
           <head>95</head>
           <lg>
             <lg>
@@ -1802,7 +1799,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="96">
+        <div type="stanza" n="96">
           <head>96</head>
           <lg>
             <lg>
@@ -1820,7 +1817,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="97">
+        <div type="stanza" n="97">
           <head>97</head>
           <lg>
             <lg>
@@ -1838,7 +1835,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="98">
+        <div type="stanza" n="98">
           <head>98</head>
           <lg>
             <lg>
@@ -1856,7 +1853,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="99">
+        <div type="stanza" n="99">
           <head>99</head>
           <lg>
             <lg>
@@ -1874,7 +1871,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="100">
+        <div type="stanza" n="100">
           <head>100</head>
           <lg>
             <lg>
@@ -1892,7 +1889,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="101">
+        <div type="stanza" n="101">
           <head>101</head>
           <lg>
             <lg>
@@ -1910,7 +1907,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="102">
+        <div type="stanza" n="102">
           <head>102</head>
           <lg>
             <lg>
@@ -1928,7 +1925,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="103">
+        <div type="stanza" n="103">
           <head>103</head>
           <lg>
             <lg>
@@ -1946,7 +1943,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="104">
+        <div type="stanza" n="104">
           <head>104</head>
           <lg>
             <lg>
@@ -1964,7 +1961,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="105">
+        <div type="stanza" n="105">
           <head>105</head>
           <lg>
             <lg>
@@ -1982,7 +1979,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="106">
+        <div type="stanza" n="106">
           <head>106</head>
           <lg>
             <lg>
@@ -2000,7 +1997,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="107">
+        <div type="stanza" n="107">
           <head>107</head>
           <lg>
             <lg>
@@ -2018,7 +2015,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="108">
+        <div type="stanza" n="108">
           <head>108</head>
           <lg>
             <lg>
@@ -2036,7 +2033,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="109">
+        <div type="stanza" n="109">
           <head>109</head>
           <lg>
             <lg>
@@ -2054,7 +2051,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="110">
+        <div type="stanza" n="110">
           <head>110</head>
           <lg>
             <lg>
@@ -2072,7 +2069,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="111">
+        <div type="stanza" n="111">
           <head>111</head>
           <lg>
             <lg>
@@ -2090,7 +2087,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="112">
+        <div type="stanza" n="112">
           <head>112</head>
           <lg>
             <lg>
@@ -2108,7 +2105,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="113">
+        <div type="stanza" n="113">
           <head>113</head>
           <lg>
             <lg>
@@ -2126,7 +2123,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="114">
+        <div type="stanza" n="114">
           <head>114</head>
           <lg>
             <lg>
@@ -2144,7 +2141,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="115">
+        <div type="stanza" n="115">
           <head>115</head>
           <lg>
             <lg>
@@ -2162,7 +2159,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="116">
+        <div type="stanza" n="116">
           <head>116</head>
           <lg>
             <lg>
@@ -2180,7 +2177,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="117">
+        <div type="stanza" n="117">
           <head>117</head>
           <lg>
             <lg>
@@ -2198,7 +2195,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="118">
+        <div type="stanza" n="118">
           <head>118</head>
           <lg>
             <lg>
@@ -2216,7 +2213,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="119">
+        <div type="stanza" n="119">
           <head>119</head>
           <lg>
             <lg>
@@ -2234,7 +2231,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="120">
+        <div type="stanza" n="120">
           <head>120</head>
           <lg>
             <lg>
@@ -2252,7 +2249,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="121">
+        <div type="stanza" n="121">
           <head>121</head>
           <lg>
             <lg>
@@ -2270,7 +2267,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="122">
+        <div type="stanza" n="122">
           <head>122</head>
           <lg>
             <lg>
@@ -2288,7 +2285,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="123">
+        <div type="stanza" n="123">
           <head>123</head>
           <lg>
             <lg>
@@ -2306,7 +2303,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="124">
+        <div type="stanza" n="124">
           <head>124</head>
           <lg>
             <lg>
@@ -2324,7 +2321,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="125">
+        <div type="stanza" n="125">
           <head>125</head>
           <lg>
             <lg>
@@ -2342,7 +2339,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="126">
+        <div type="stanza" n="126">
           <head>126</head>
           <lg>
             <lg>
@@ -2360,7 +2357,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="127">
+        <div type="stanza" n="127">
           <head>127</head>
           <lg>
             <lg>
@@ -2378,7 +2375,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="128">
+        <div type="stanza" n="128">
           <head>128</head>
           <lg>
             <lg>
@@ -2396,7 +2393,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="129">
+        <div type="stanza" n="129">
           <head>129</head>
           <lg>
             <lg>
@@ -2414,7 +2411,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="130">
+        <div type="stanza" n="130">
           <head>130</head>
           <lg>
             <lg>
@@ -2432,7 +2429,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="131">
+        <div type="stanza" n="131">
           <head>131</head>
           <lg>
             <lg>
@@ -2450,7 +2447,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="132">
+        <div type="stanza" n="132">
           <head>132</head>
           <lg>
             <lg>
@@ -2468,7 +2465,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="133">
+        <div type="stanza" n="133">
           <head>133</head>
           <lg>
             <lg>
@@ -2486,7 +2483,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="134">
+        <div type="stanza" n="134">
           <head>134</head>
           <lg>
             <lg>
@@ -2504,7 +2501,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="135">
+        <div type="stanza" n="135">
           <head>135</head>
           <lg>
             <lg>
@@ -2522,7 +2519,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="136">
+        <div type="stanza" n="136">
           <head>136</head>
           <lg>
             <lg>
@@ -2540,7 +2537,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="137">
+        <div type="stanza" n="137">
           <head>137</head>
           <lg>
             <lg>
@@ -2558,7 +2555,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="138">
+        <div type="stanza" n="138">
           <head>138</head>
           <lg>
             <lg>
@@ -2576,7 +2573,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="139">
+        <div type="stanza" n="139">
           <head>139</head>
           <lg>
             <lg>
@@ -2594,7 +2591,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="140">
+        <div type="stanza" n="140">
           <head>140</head>
           <lg>
             <lg>
@@ -2612,7 +2609,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="141">
+        <div type="stanza" n="141">
           <head>141</head>
           <lg>
             <lg>
@@ -2630,7 +2627,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="142">
+        <div type="stanza" n="142">
           <head>142</head>
           <lg>
             <lg>
@@ -2648,7 +2645,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="143">
+        <div type="stanza" n="143">
           <head>143</head>
           <lg>
             <lg>
@@ -2666,7 +2663,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="144">
+        <div type="stanza" n="144">
           <head>144</head>
           <lg>
             <lg>
@@ -2684,7 +2681,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="145">
+        <div type="stanza" n="145">
           <head>145</head>
           <lg>
             <lg>
@@ -2702,7 +2699,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="146">
+        <div type="stanza" n="146">
           <head>146</head>
           <lg>
             <lg>
@@ -2720,7 +2717,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="147">
+        <div type="stanza" n="147">
           <head>147</head>
           <lg>
             <lg>
@@ -2738,7 +2735,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="148">
+        <div type="stanza" n="148">
           <head>148</head>
           <lg>
             <lg>
@@ -2756,7 +2753,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="149">
+        <div type="stanza" n="149">
           <head>149</head>
           <lg>
             <lg>
@@ -2774,7 +2771,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="150">
+        <div type="stanza" n="150">
           <head>150</head>
           <lg>
             <lg>
@@ -2792,7 +2789,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="151">
+        <div type="stanza" n="151">
           <head>151</head>
           <lg>
             <lg>
@@ -2810,7 +2807,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="152">
+        <div type="stanza" n="152">
           <head>152</head>
           <lg>
             <lg>
@@ -2828,7 +2825,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="153">
+        <div type="stanza" n="153">
           <head>153</head>
           <lg>
             <lg>
@@ -2846,7 +2843,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="154">
+        <div type="stanza" n="154">
           <head>154</head>
           <lg>
             <lg>
@@ -2864,7 +2861,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="155">
+        <div type="stanza" n="155">
           <head>155</head>
           <lg>
             <lg>
@@ -2882,7 +2879,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="156">
+        <div type="stanza" n="156">
           <head>156</head>
           <lg>
             <lg>
@@ -2900,7 +2897,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="157">
+        <div type="stanza" n="157">
           <head>157</head>
           <lg>
             <lg>
@@ -2918,7 +2915,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="158">
+        <div type="stanza" n="158">
           <head>158</head>
           <lg>
             <lg>
@@ -2936,7 +2933,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="159">
+        <div type="stanza" n="159">
           <head>159</head>
           <lg>
             <lg>
@@ -2954,7 +2951,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="160">
+        <div type="stanza" n="160">
           <head>160</head>
           <lg>
             <lg>
@@ -2972,7 +2969,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="161">
+        <div type="stanza" n="161">
           <head>161</head>
           <lg>
             <lg>
@@ -2990,7 +2987,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="162">
+        <div type="stanza" n="162">
           <head>162</head>
           <lg>
             <lg>
@@ -3008,7 +3005,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="163">
+        <div type="stanza" n="163">
           <head>163</head>
           <lg>
             <lg>
@@ -3026,7 +3023,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="164">
+        <div type="stanza" n="164">
           <head>164</head>
           <lg>
             <lg>
@@ -3044,7 +3041,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="165">
+        <div type="stanza" n="165">
           <head>165</head>
           <lg>
             <lg>
@@ -3062,7 +3059,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="166">
+        <div type="stanza" n="166">
           <head>166</head>
           <lg>
             <lg>
@@ -3080,7 +3077,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="167">
+        <div type="stanza" n="167">
           <head>167</head>
           <lg>
             <lg>
@@ -3098,7 +3095,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="168">
+        <div type="stanza" n="168">
           <head>168</head>
           <lg>
             <lg>
@@ -3116,7 +3113,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="169">
+        <div type="stanza" n="169">
           <head>169</head>
           <lg>
             <lg>
@@ -3134,7 +3131,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="170">
+        <div type="stanza" n="170">
           <head>170</head>
           <lg>
             <lg>
@@ -3152,7 +3149,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="171">
+        <div type="stanza" n="171">
           <head>171</head>
           <lg>
             <lg>
@@ -3170,7 +3167,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="172">
+        <div type="stanza" n="172">
           <head>172</head>
           <lg>
             <lg>
@@ -3188,7 +3185,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="173">
+        <div type="stanza" n="173">
           <head>173</head>
           <lg>
             <lg>
@@ -3206,7 +3203,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="174">
+        <div type="stanza" n="174">
           <head>174</head>
           <lg>
             <lg>
@@ -3224,7 +3221,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="175">
+        <div type="stanza" n="175">
           <head>175</head>
           <lg>
             <lg>
@@ -3242,7 +3239,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="176">
+        <div type="stanza" n="176">
           <head>176</head>
           <lg>
             <lg>
@@ -3260,7 +3257,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="177">
+        <div type="stanza" n="177">
           <head>177</head>
           <lg>
             <lg>
@@ -3278,7 +3275,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="178">
+        <div type="stanza" n="178">
           <head>178</head>
           <lg>
             <lg>
@@ -3296,7 +3293,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="179">
+        <div type="stanza" n="179">
           <head>179</head>
           <lg>
             <lg>
@@ -3314,7 +3311,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="180">
+        <div type="stanza" n="180">
           <head>180</head>
           <lg>
             <lg>
@@ -3332,7 +3329,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="181">
+        <div type="stanza" n="181">
           <head>181</head>
           <lg>
             <lg>
@@ -3350,7 +3347,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="182">
+        <div type="stanza" n="182">
           <head>182</head>
           <lg>
             <lg>
@@ -3368,7 +3365,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="183">
+        <div type="stanza" n="183">
           <head>183</head>
           <lg>
             <lg>
@@ -3386,7 +3383,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="184">
+        <div type="stanza" n="184">
           <head>184</head>
           <lg>
             <lg>
@@ -3404,7 +3401,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="185">
+        <div type="stanza" n="185">
           <head>185</head>
           <lg>
             <lg>
@@ -3422,7 +3419,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="186">
+        <div type="stanza" n="186">
           <head>186</head>
           <lg>
             <lg>
@@ -3440,7 +3437,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="187">
+        <div type="stanza" n="187">
           <head>187</head>
           <lg>
             <lg>
@@ -3458,7 +3455,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="188">
+        <div type="stanza" n="188">
           <head>188</head>
           <lg>
             <lg>
@@ -3476,7 +3473,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="189">
+        <div type="stanza" n="189">
           <head>189</head>
           <lg>
             <lg>
@@ -3494,7 +3491,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="190">
+        <div type="stanza" n="190">
           <head>190</head>
           <lg>
             <lg>
@@ -3512,7 +3509,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="191">
+        <div type="stanza" n="191">
           <head>191</head>
           <lg>
             <lg>
@@ -3530,7 +3527,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="192">
+        <div type="stanza" n="192">
           <head>192</head>
           <lg>
             <lg>
@@ -3548,7 +3545,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="193">
+        <div type="stanza" n="193">
           <head>193</head>
           <lg>
             <lg>
@@ -3566,7 +3563,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="194">
+        <div type="stanza" n="194">
           <head>194</head>
           <lg>
             <lg>
@@ -3584,7 +3581,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="195">
+        <div type="stanza" n="195">
           <head>195</head>
           <lg>
             <lg>
@@ -3602,7 +3599,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="196">
+        <div type="stanza" n="196">
           <head>196</head>
           <lg>
             <lg>
@@ -3620,7 +3617,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="197">
+        <div type="stanza" n="197">
           <head>197</head>
           <lg>
             <lg>
@@ -3638,7 +3635,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="198">
+        <div type="stanza" n="198">
           <head>198</head>
           <lg>
             <lg>
@@ -3656,7 +3653,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="199">
+        <div type="stanza" n="199">
           <head>199</head>
           <lg>
             <lg>
@@ -3674,7 +3671,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="200">
+        <div type="stanza" n="200">
           <head>200</head>
           <lg>
             <lg>
@@ -3692,7 +3689,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="201">
+        <div type="stanza" n="201">
           <head>201</head>
           <lg>
             <lg>
@@ -3710,7 +3707,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="202">
+        <div type="stanza" n="202">
           <head>202</head>
           <lg>
             <lg>
@@ -3728,7 +3725,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="203">
+        <div type="stanza" n="203">
           <head>203</head>
           <lg>
             <lg>
@@ -3746,7 +3743,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="204">
+        <div type="stanza" n="204">
           <head>204</head>
           <lg>
             <lg>
@@ -3764,7 +3761,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="205">
+        <div type="stanza" n="205">
           <head>205</head>
           <lg>
             <lg>
@@ -3782,7 +3779,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="206">
+        <div type="stanza" n="206">
           <head>206</head>
           <lg>
             <lg>
@@ -3800,7 +3797,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="207">
+        <div type="stanza" n="207">
           <head>207</head>
           <lg>
             <lg>
@@ -3818,7 +3815,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="208">
+        <div type="stanza" n="208">
           <head>208</head>
           <lg>
             <lg>
@@ -3836,7 +3833,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="209">
+        <div type="stanza" n="209">
           <head>209</head>
           <lg>
             <lg>
@@ -3854,7 +3851,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="210">
+        <div type="stanza" n="210">
           <head>210</head>
           <lg>
             <lg>
@@ -3872,7 +3869,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="211">
+        <div type="stanza" n="211">
           <head>211</head>
           <lg>
             <lg>
@@ -3890,7 +3887,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="212">
+        <div type="stanza" n="212">
           <head>212</head>
           <lg>
             <lg>
@@ -3908,7 +3905,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="213">
+        <div type="stanza" n="213">
           <head>213</head>
           <lg>
             <lg>
@@ -3926,7 +3923,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="214">
+        <div type="stanza" n="214">
           <head>214</head>
           <lg>
             <lg>
@@ -3944,7 +3941,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="215">
+        <div type="stanza" n="215">
           <head>215</head>
           <lg>
             <lg>
@@ -3962,7 +3959,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="216">
+        <div type="stanza" n="216">
           <head>216</head>
           <lg>
             <lg>
@@ -3980,7 +3977,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="217">
+        <div type="stanza" n="217">
           <head>217</head>
           <lg>
             <lg>
@@ -3998,7 +3995,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="218">
+        <div type="stanza" n="218">
           <head>218</head>
           <lg>
             <lg>
@@ -4016,7 +4013,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="219">
+        <div type="stanza" n="219">
           <head>219</head>
           <lg>
             <lg>
@@ -4034,7 +4031,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="220">
+        <div type="stanza" n="220">
           <head>220</head>
           <lg>
             <lg>
@@ -4052,7 +4049,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="221">
+        <div type="stanza" n="221">
           <head>221</head>
           <lg>
             <lg>
@@ -4070,7 +4067,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="222">
+        <div type="stanza" n="222">
           <head>222</head>
           <lg>
             <lg>
@@ -4088,7 +4085,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="223">
+        <div type="stanza" n="223">
           <head>223</head>
           <lg>
             <lg>
@@ -4106,7 +4103,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="224">
+        <div type="stanza" n="224">
           <head>224</head>
           <lg>
             <lg>
@@ -4124,7 +4121,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="225">
+        <div type="stanza" n="225">
           <head>225</head>
           <lg>
             <lg>
@@ -4142,7 +4139,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="226">
+        <div type="stanza" n="226">
           <head>226</head>
           <lg>
             <lg>
@@ -4160,7 +4157,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="227">
+        <div type="stanza" n="227">
           <head>227</head>
           <lg>
             <lg>
@@ -4178,7 +4175,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="228">
+        <div type="stanza" n="228">
           <head>228</head>
           <lg>
             <lg>
@@ -4196,7 +4193,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="229">
+        <div type="stanza" n="229">
           <head>229</head>
           <lg>
             <lg>
@@ -4214,7 +4211,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="230">
+        <div type="stanza" n="230">
           <head>230</head>
           <lg>
             <lg>
@@ -4232,7 +4229,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="231">
+        <div type="stanza" n="231">
           <head>231</head>
           <lg>
             <lg>
@@ -4250,7 +4247,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="232">
+        <div type="stanza" n="232">
           <head>232</head>
           <lg>
             <lg>
@@ -4268,7 +4265,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="233">
+        <div type="stanza" n="233">
           <head>233</head>
           <lg>
             <lg>
@@ -4286,7 +4283,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="234">
+        <div type="stanza" n="234">
           <head>234</head>
           <lg>
             <lg>
@@ -4304,7 +4301,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="235">
+        <div type="stanza" n="235">
           <head>235</head>
           <lg>
             <lg>
@@ -4322,7 +4319,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="236">
+        <div type="stanza" n="236">
           <head>236</head>
           <lg>
             <lg>
@@ -4340,7 +4337,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="237">
+        <div type="stanza" n="237">
           <head>237</head>
           <lg>
             <lg>
@@ -4358,7 +4355,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="238">
+        <div type="stanza" n="238">
           <head>238</head>
           <lg>
             <lg>
@@ -4376,7 +4373,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="239">
+        <div type="stanza" n="239">
           <head>239</head>
           <lg>
             <lg>
@@ -4394,7 +4391,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="240">
+        <div type="stanza" n="240">
           <head>240</head>
           <lg>
             <lg>
@@ -4412,7 +4409,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="241">
+        <div type="stanza" n="241">
           <head>241</head>
           <lg>
             <lg>
@@ -4430,7 +4427,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="242">
+        <div type="stanza" n="242">
           <head>242</head>
           <lg>
             <lg>
@@ -4448,7 +4445,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="243">
+        <div type="stanza" n="243">
           <head>243</head>
           <lg>
             <lg>
@@ -4466,7 +4463,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="244">
+        <div type="stanza" n="244">
           <head>244</head>
           <lg>
             <lg>
@@ -4484,7 +4481,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="245">
+        <div type="stanza" n="245">
           <head>245</head>
           <lg>
             <lg>
@@ -4502,7 +4499,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="246">
+        <div type="stanza" n="246">
           <head>246</head>
           <lg>
             <lg>
@@ -4520,7 +4517,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="247">
+        <div type="stanza" n="247">
           <head>247</head>
           <lg>
             <lg>
@@ -4538,7 +4535,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="248">
+        <div type="stanza" n="248">
           <head>248</head>
           <lg>
             <lg>
@@ -4556,7 +4553,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="249">
+        <div type="stanza" n="249">
           <head>249</head>
           <lg>
             <lg>
@@ -4574,7 +4571,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="250">
+        <div type="stanza" n="250">
           <head>250</head>
           <lg>
             <lg>
@@ -4592,7 +4589,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="251">
+        <div type="stanza" n="251">
           <head>251</head>
           <lg>
             <lg>
@@ -4610,7 +4607,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="252">
+        <div type="stanza" n="252">
           <head>252</head>
           <lg>
             <lg>
@@ -4628,7 +4625,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="253">
+        <div type="stanza" n="253">
           <head>253</head>
           <lg>
             <lg>
@@ -4646,7 +4643,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="254">
+        <div type="stanza" n="254">
           <head>254</head>
           <lg>
             <lg>
@@ -4664,7 +4661,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="255">
+        <div type="stanza" n="255">
           <head>255</head>
           <lg>
             <lg>
@@ -4682,7 +4679,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="256">
+        <div type="stanza" n="256">
           <head>256</head>
           <lg>
             <lg>
@@ -4700,7 +4697,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="257">
+        <div type="stanza" n="257">
           <head>257</head>
           <lg>
             <lg>
@@ -4718,7 +4715,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="258">
+        <div type="stanza" n="258">
           <head>258</head>
           <lg>
             <lg>
@@ -4736,7 +4733,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="259">
+        <div type="stanza" n="259">
           <head>259</head>
           <lg>
             <lg>
@@ -4754,7 +4751,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="260">
+        <div type="stanza" n="260">
           <head>260</head>
           <lg>
             <lg>
@@ -4772,7 +4769,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="261">
+        <div type="stanza" n="261">
           <head>261</head>
           <lg>
             <lg>
@@ -4790,7 +4787,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="262">
+        <div type="stanza" n="262">
           <head>262</head>
           <lg>
             <lg>
@@ -4808,7 +4805,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="263">
+        <div type="stanza" n="263">
           <head>263</head>
           <lg>
             <lg>
@@ -4826,7 +4823,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="264">
+        <div type="stanza" n="264">
           <head>264</head>
           <lg>
             <lg>
@@ -4844,7 +4841,7 @@
             </lg>
           </lg>
         </div>
-        <div type="textpart" subtype="stanza" n="265">
+        <div type="stanza" n="265">
           <head>265</head>
           <lg>
             <lg>

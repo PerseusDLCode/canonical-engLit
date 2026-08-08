@@ -23,7 +23,7 @@
     </fileDesc>
 
     <encodingDesc>
-      <refsDecl n="CTS"><cRefPattern n="asl" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath((//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2']//lb[@ed='G'])[$3]/parent::*)"><p>This pointer pattern extracts act, scene, and line.</p></cRefPattern><cRefPattern n="as" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(//div[@subtype='act' and @n='$1']/div[@subtype='scene' and @n='$2'])"><p>This pointer pattern extracts act and scene.</p></cRefPattern><cRefPattern n="a" matchPattern="(\w+)" replacementPattern="#xpath(//div[@subtype='act' and @n='$1'])"><p>This pointer pattern extracts act.</p></cRefPattern></refsDecl>
+      <refsDecl n="CTS" xml:id="CTS"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure unit="sonnet" delim=":" match="div[@type='sonnet']" use="@n"><citeStructure unit="line" delim="." match=".//l" use="position()"/></citeStructure></citeStructure></refsDecl>
     </encodingDesc>
 
     <profileDesc>
@@ -37,7 +37,7 @@
 
   <text xml:lang="eng">
     <front>
-      <div type="textpart" subtype="sonnet" n="dedication">
+      <div type="sonnet" n="dedication">
         <head>DEDICATION</head>
         <p part="N">
           <lb rend="centered"/>TO THE ONLIE BEGETTER OF <lb rend="centered"/>THESE INSUING SONNETS
@@ -48,10 +48,10 @@
 
 
 
-    <body>
+    <body xml:base="urn:cts:engLit:shakespeare.son.perseus-eng1">
 
 
-      <div type="textpart" subtype="sonnet" n="I">
+      <div type="sonnet" n="I">
         <head>I</head>
         <l part="N">FROM fairest creatures we desire increase,</l>
         <l part="N">That thereby beauty's rose might never die,</l>
@@ -68,7 +68,7 @@
         <l part="N"> Pity the world, or else this glutton be,</l>
         <l part="N"> To eat the world's due, by the grave and thee.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="II">
+      <div type="sonnet" n="II">
         <head>II</head>
         <l part="N">When forty winters shall besiege thy brow,</l>
         <l part="N">And dig deep trenches in thy beauty's field,</l>
@@ -85,7 +85,7 @@
         <l part="N"> This were to be new made when thou art old,</l>
         <l part="N"> And see thy blood warm when thou feel'st it cold. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="III">
+      <div type="sonnet" n="III">
         <head>III</head>
         <l part="N">Look in thy glass, and tell the face thou viewest </l>
         <l part="N">Now is the time that face should form another;</l>
@@ -102,7 +102,7 @@
         <l part="N"> But if thou live, remember'd not to be,</l>
         <l part="N"> Die single, and thine image dies with thee.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="IV">
+      <div type="sonnet" n="IV">
         <head>IV</head>
         <l part="N">Unthrifty loveliness, why dost thou spend</l>
         <l part="N">Upon thyself thy beauty's legacy?</l>
@@ -119,7 +119,7 @@
         <l part="N"> Thy unused beauty must be tomb'd with thee, </l>
         <l part="N"> Which, used, lives th' executor to be.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="V">
+      <div type="sonnet" n="V">
         <head>V</head>
         <l part="N">Those hours, that with gentle work did frame</l>
         <l part="N">The lovely gaze where every eye doth dwell,</l>
@@ -136,7 +136,7 @@
         <l part="N"> But flowers distill'd, though they with winter meet, </l>
         <l part="N"> Leese but their show; their substance still lives sweet. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="VI">
+      <div type="sonnet" n="VI">
         <head>VI</head>
         <l part="N">Then let not winter's ragged hand deface</l>
         <l part="N">In thee thy summer, ere thou be distill'd:</l>
@@ -153,7 +153,7 @@
         <l part="N"> Be not self-will'd, for thou art much too fair</l>
         <l part="N"> To be death's conquest and make worms thine heir. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="VII">
+      <div type="sonnet" n="VII">
         <head>VII</head>
         <l part="N">Lo! in the orient when the gracious light</l>
         <l part="N">Lifts up his burning head, each under eye</l>
@@ -170,7 +170,7 @@
         <l part="N"> So thou, thyself out-going in thy noon,</l>
         <l part="N"> Unlook'd on diest, unless thou get a son.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="VIII">
+      <div type="sonnet" n="VIII">
         <head>VIII</head>
         <l part="N">Music to hear, why hear'st thou music sadly?</l>
         <l part="N">Sweets with sweets war not, joy delights in joy. </l>
@@ -187,7 +187,7 @@
         <l part="N"> Whose speechless song, being many, seeming one, </l>
         <l part="N"> Sings this to thee: 'thou single wilt prove none. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="IX">
+      <div type="sonnet" n="IX">
         <head>IX</head>
         <l part="N">Is it for fear to wet a widow's eye</l>
         <l part="N">That thou consumest thyself in single life?</l>
@@ -204,7 +204,7 @@
         <l part="N"> No love toward others in that bosom sits</l>
         <l part="N"> That on himself such murderous shame commits. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="X">
+      <div type="sonnet" n="X">
         <head>X</head>
         <l part="N">For shame deny that thou bear'st love to any, </l>
         <l part="N">Who for thyself art so unprovident.</l>
@@ -221,7 +221,7 @@
         <l part="N"> Make thee another self, for love of me,</l>
         <l part="N"> That beauty still may live in thine or thee.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XI">
+      <div type="sonnet" n="XI">
         <head>XI</head>
         <l part="N">As fast as thou shalt wane, so fast thou growest </l>
         <l part="N">In one of thine, from that which thou departest; </l>
@@ -238,7 +238,7 @@
         <l part="N"> She carved thee for her seal, and meant thereby </l>
         <l part="N"> Thou shouldst print more, not let that copy die. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XII">
+      <div type="sonnet" n="XII">
         <head>XII</head>
         <l part="N">When I do count the clock that tells the time,</l>
         <l part="N">And see the brave day sunk in hideous night;</l>
@@ -255,7 +255,7 @@
         <l part="N"> And nothing 'gainst Time's scythe can make defence </l>
         <l part="N"> Save breed, to brave him when he takes thee hence. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XIII">
+      <div type="sonnet" n="XIII">
         <head>XIII</head>
         <l part="N">O, that you were yourself! but, love, you are</l>
         <l part="N">No longer yours than you yourself here live:</l>
@@ -272,7 +272,7 @@
         <l part="N"> O, none but unthrifts! Dear my love, you know </l>
         <l part="N"> You had a father: let your son say so.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XIV">
+      <div type="sonnet" n="XIV">
         <head>XIV</head>
         <l part="N">Not from the stars do I my judgement pluck;</l>
         <l part="N">And yet methinks I have astronomy,</l>
@@ -289,7 +289,7 @@
         <l part="N"> Or else of thee this I prognosticate:</l>
         <l part="N"> Thy end is truth's and beauty's doom and date. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="xv">
+      <div type="sonnet" n="xv">
         <head>XV</head>
         <l part="N">When I consider every thing that grows</l>
         <l part="N">Holds in perfection but a little moment,</l>
@@ -306,7 +306,7 @@
         <l part="N"> And all in war with Time for love of you,</l>
         <l part="N"> As he takes from you, I engraft you new.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XVI">
+      <div type="sonnet" n="XVI">
         <head>XVI</head>
         <l part="N">But wherefore do not you a mightier way</l>
         <l part="N">Make war upon this bloody tyrant, Time?</l>
@@ -323,7 +323,7 @@
         <l part="N"> To give away yourself keeps yourself still,</l>
         <l part="N"> And you must live, drawn by your own sweet skill. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XVII">
+      <div type="sonnet" n="XVII">
         <head>XVII</head>
         <l part="N">Who will believe my verse in time to come,</l>
         <l part="N">If it were fill'd with your most high deserts?</l>
@@ -340,7 +340,7 @@
         <l part="N"> But were some child of yours alive that time, </l>
         <l part="N"> You should live twice; in it and in my rhyme. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XVIII">
+      <div type="sonnet" n="XVIII">
         <head>XVIII</head>
         <l part="N">Shall I compare thee to a summer's day?</l>
         <l part="N">Thou art more lovely and more temperate:</l>
@@ -357,7 +357,7 @@
         <l part="N"> So long as men can breathe or eyes can see,</l>
         <l part="N"> So long lives this and this gives life to thee.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XIX">
+      <div type="sonnet" n="XIX">
         <head>XIX</head>
         <l part="N">Devouring Time, blunt thou the lion's paws,</l>
         <l part="N">And make the earth devour her own sweet brood; </l>
@@ -374,7 +374,7 @@
         <l part="N"> Yet, do thy worst, old Time: despite thy wrong, </l>
         <l part="N"> My love shall in my verse ever live young.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XX">
+      <div type="sonnet" n="XX">
         <head>XX</head>
         <l part="N">A woman's face with Nature's own hand painted </l>
         <l part="N">Hast thou, the master-mistress of my passion;</l>
@@ -391,7 +391,7 @@
         <l part="N"> But since she prick'd thee out for women's pleasure, </l>
         <l part="N"> Mine be thy love and thy love's use their treasure. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXI">
+      <div type="sonnet" n="XXI">
         <head>XXI</head>
         <l part="N">So is it not with me as with that Muse</l>
         <l part="N">Stirr'd by a painted beauty to his verse,</l>
@@ -408,7 +408,7 @@
         <l part="N"> Let them say more that like of hearsay well;</l>
         <l part="N"> I will not praise that purpose not to sell,</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXII">
+      <div type="sonnet" n="XXII">
         <head>XXII</head>
         <l part="N">My glass shall not persuade me I am old,</l>
         <l part="N">So long as youth and thou are of one date;</l>
@@ -425,7 +425,7 @@
         <l part="N"> Presume not on thy heart when mine is slain; </l>
         <l part="N"> Thou gavest me thine, not to give back again.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXIII">
+      <div type="sonnet" n="XXIII">
         <head>XXIII</head>
         <l part="N">As an unperfect actor on the stage</l>
         <l part="N">Who with his fear is put besides his part,</l>
@@ -442,7 +442,7 @@
         <l part="N"> O, learn to read what silent love hath writ:</l>
         <l part="N"> To hear with eyes belongs to love's fine wit.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXIV">
+      <div type="sonnet" n="XXIV">
         <head>XXIV</head>
         <l part="N">Mine eye hath play'd the painter and hath stell'd </l>
         <l part="N">Thy beauty's form in table of my heart;</l>
@@ -459,7 +459,7 @@
         <l part="N"> Yet eyes this cunning want to grace their art; </l>
         <l part="N"> They draw but what they see, know not the heart. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXV">
+      <div type="sonnet" n="XXV">
         <head>XXV</head>
         <l part="N">Let those who are in favor with their stars</l>
         <l part="N">Of public honor and proud titles boast</l>
@@ -476,7 +476,7 @@
         <l part="N"> Then happy I, that love and am beloved</l>
         <l part="N"> Where I may not remove nor be removed.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXVI">
+      <div type="sonnet" n="XXVI">
         <head>XXVI</head>
         <l part="N">Lord of my love, to whom in vassalage</l>
         <l part="N">Thy merit hath my duty strongly knit,</l>
@@ -493,7 +493,7 @@
         <l part="N"> Then may I dare to boast how I do love thee;</l>
         <l part="N"> Till then not show my head where thou <lb/> mayst prove me. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXVII">
+      <div type="sonnet" n="XXVII">
         <head>XXVII</head>
         <l part="N">Weary with toil, I haste me to my bed,</l>
         <l part="N">The dear repose for limbs with travel tired;</l>
@@ -510,7 +510,7 @@
         <l part="N"> Lo! thus, by day my limbs, by night my mind, </l>
         <l part="N"> For thee and for myself no quiet find.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXVIII">
+      <div type="sonnet" n="XXVIII">
         <head>XXVIII</head>
         <l part="N">How can I then return in happy plight,</l>
         <l part="N">That am debarr'd the benefit of rest?</l>
@@ -527,7 +527,7 @@
         <l part="N"> But day doth daily draw my sorrows longer</l>
         <l part="N"> And night doth nightly make grief's strength seem stronger. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXIX">
+      <div type="sonnet" n="XXIX">
         <head>XXIX</head>
         <l part="N">When, in disgrace with fortune and men's eyes,</l>
         <l part="N">I all alone beweep my outcast state</l>
@@ -544,7 +544,7 @@
         <l part="N"> For thy sweet love remember'd such wealth brings </l>
         <l part="N"> That then I scorn to change my state with kings. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXX">
+      <div type="sonnet" n="XXX">
         <head>XXX</head>
         <l part="N">When to the sessions of sweet silent thought</l>
         <l part="N">I summon up remembrance of things past,</l>
@@ -561,7 +561,7 @@
         <l part="N"> But if the while I think on thee, dear friend,</l>
         <l part="N"> All losses are restored and sorrows end.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXXI">
+      <div type="sonnet" n="XXXI">
         <head>XXXI</head>
         <l part="N">Thy bosom is endeared with all hearts,</l>
         <l part="N">Which I by lacking have supposed dead,</l>
@@ -578,7 +578,7 @@
         <l part="N"> Their images I loved I view in thee,</l>
         <l part="N"> And thou, all they, hast all the all of me.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXXII">
+      <div type="sonnet" n="XXXII">
         <head>XXXII</head>
         <l part="N">If thou survive my well-contented day,</l>
         <l part="N">When that churl Death my bones with dust shall cover, </l>
@@ -595,7 +595,7 @@
         <l part="N"> But since he died and poets better prove,</l>
         <l part="N"> Theirs for their style I'll read, his for his love.' </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXXIII">
+      <div type="sonnet" n="XXXIII">
         <head>XXXIII</head>
         <l part="N">Full many a glorious morning have I seen</l>
         <l part="N">Flatter the mountain-tops with sovereign eye,</l>
@@ -612,7 +612,7 @@
         <l part="N"> Yet him for this my love no whit disdaineth; </l>
         <l part="N"> Suns of the world may stain when heaven's sun staineth. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXXIV">
+      <div type="sonnet" n="XXXIV">
         <head>XXXIV</head>
         <l part="N">Why didst thou promise such a beauteous day</l>
         <l part="N">And make me travel forth without my cloak,</l>
@@ -629,7 +629,7 @@
         <l part="N"> Ah! but those tears are pearl which thy love sheds, </l>
         <l part="N"> And they are rich and ransom all ill deeds.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXXV">
+      <div type="sonnet" n="XXXV">
         <head>XXXV</head>
         <l part="N">No more be grieved at that which thou hast done: </l>
         <l part="N">Roses have thorns, and silver fountains mud;</l>
@@ -646,7 +646,7 @@
         <l part="N"> That I an accessary needs must be</l>
         <l part="N"> To that sweet thief which sourly robs from me. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXXVI">
+      <div type="sonnet" n="XXXVI">
         <head>XXXVI</head>
         <l part="N">Let me confess that we two must be twain,</l>
         <l part="N">Although our undivided loves are one:</l>
@@ -663,7 +663,7 @@
         <l part="N"> But do not so; I love thee in such sort</l>
         <l part="N"> As, thou being mine, mine is thy good report. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXXVII">
+      <div type="sonnet" n="XXXVII">
         <head>XXXVII</head>
         <l part="N">As a decrepit father takes delight</l>
         <l part="N">To see his active child do deeds of youth,</l>
@@ -680,7 +680,7 @@
         <l part="N"> Look, what is best, that best I wish in thee:</l>
         <l part="N"> This wish I have; then ten times happy me!</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXXVIII">
+      <div type="sonnet" n="XXXVIII">
         <head>XXXVIII</head>
         <l part="N">How can my Muse want subject to invent,</l>
         <l part="N">While thou dost breathe, that pour'st into my verse </l>
@@ -697,7 +697,7 @@
         <l part="N"> If my slight Muse do please these curious days, </l>
         <l part="N"> The pain be mine, but thine shall be the praise. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XXXIX">
+      <div type="sonnet" n="XXXIX">
         <head>XXXIX</head>
         <l part="N">O, how thy worth with manners may I sing,</l>
         <l part="N">When thou art all the better part of me?</l>
@@ -714,7 +714,7 @@
         <l part="N"> And that thou teachest how to make one twain, </l>
         <l part="N"> By praising him here who doth hence remain! </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XL">
+      <div type="sonnet" n="XL">
         <head>XL</head>
         <l part="N">Take all my loves, my love, yea, take them all;</l>
         <l part="N">What hast thou then more than thou hadst before? </l>
@@ -731,7 +731,7 @@
         <l part="N"> Lascivious grace, in whom all ill well shows,</l>
         <l part="N"> Kill me with spites; yet we must not be foes.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XLI">
+      <div type="sonnet" n="XLI">
         <head>XLI</head>
         <l part="N">Those pretty wrongs that liberty commits,</l>
         <l part="N">When I am sometime absent from thy heart,</l>
@@ -748,7 +748,7 @@
         <l part="N"> Hers by thy beauty tempting her to thee,</l>
         <l part="N"> Thine, by thy beauty being false to me.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XLII">
+      <div type="sonnet" n="XLII">
         <head>XLII</head>
         <l part="N">That thou hast her, it is not all my grief,</l>
         <l part="N">And yet it may be said I loved her dearly;</l>
@@ -765,7 +765,7 @@
         <l part="N"> But here's the joy; my friend and I are one;</l>
         <l part="N"> Sweet flattery! then she loves but me alone.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XLIII">
+      <div type="sonnet" n="XLIII">
         <head>XLIII</head>
         <l part="N">When most I wink, then do mine eyes best see,</l>
         <l part="N">For all the day they view things unrespected;</l>
@@ -782,7 +782,7 @@
         <l part="N"> All days are nights to see till I see thee,</l>
         <l part="N"> And nights bright days when dreams do show thee me. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XLIV">
+      <div type="sonnet" n="XLIV">
         <head>XLIV</head>
         <l part="N">If the dull substance of my flesh were thought,</l>
         <l part="N">Injurious distance should not stop my way;</l>
@@ -799,7 +799,7 @@
         <l part="N"> Receiving nought by elements so slow</l>
         <l part="N"> But heavy tears, badges of either's woe.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XLV">
+      <div type="sonnet" n="XLV">
         <head>XLV</head>
         <l part="N">The other two, slight air and purging fire,</l>
         <l part="N">Are both with thee, wherever I abide;</l>
@@ -816,7 +816,7 @@
         <l part="N"> This told, I joy; but then no longer glad,</l>
         <l part="N"> I send them back again and straight grow sad. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XLVI">
+      <div type="sonnet" n="XLVI">
         <head>XLVI</head>
         <l part="N">Mine eye and heart are at a mortal war</l>
         <l part="N">How to divide the conquest of thy sight;</l>
@@ -833,7 +833,7 @@
         <l part="N"> As thus; mine eye's due is thy outward part,</l>
         <l part="N"> And my heart's right thy inward love of heart. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XLVII">
+      <div type="sonnet" n="XLVII">
         <head>XLVII</head>
         <l part="N">Betwixt mine eye and heart a league is took,</l>
         <l part="N">And each doth good turns now unto the other:</l>
@@ -850,7 +850,7 @@
         <l part="N"> Or, if they sleep, thy picture in my sight</l>
         <l part="N"> Awakes my heart to heart's and eye's delight. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XLVIII">
+      <div type="sonnet" n="XLVIII">
         <head>XLVIII</head>
         <l part="N">How careful was I, when I took my way,</l>
         <l part="N">Each trifle under truest bars to thrust,</l>
@@ -867,7 +867,7 @@
         <l part="N"> And even thence thou wilt be stol'n, I fear,</l>
         <l part="N"> For truth proves thievish for a prize so dear.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XLIX">
+      <div type="sonnet" n="XLIX">
         <head>XLIX</head>
         <l part="N">Against that time, if ever that time come,</l>
         <l part="N">When I shall see thee frown on my defects,</l>
@@ -884,7 +884,7 @@
         <l part="N"> To leave poor me thou hast the strength of laws, </l>
         <l part="N"> Since why to love I can allege no cause.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="L">
+      <div type="sonnet" n="L">
         <head>L</head>
         <l part="N">How heavy do I journey on the way,</l>
         <l part="N">When what I seek, my weary travel's end,</l>
@@ -901,7 +901,7 @@
         <l part="N"> For that same groan doth put this in my mind; </l>
         <l part="N"> My grief lies onward and my joy behind.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LI">
+      <div type="sonnet" n="LI">
         <head>LI</head>
         <l part="N">Thus can my love excuse the slow offence</l>
         <l part="N">Of my dull bearer when from thee I speed:</l>
@@ -918,7 +918,7 @@
         <l part="N"> Since from thee going he went wilful-slow,</l>
         <l part="N"> Towards thee I'll run, and give him leave to go. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LII">
+      <div type="sonnet" n="LII">
         <head>LII</head>
         <l part="N">So am I as the rich, whose blessed key</l>
         <l part="N">Can bring him to his sweet up-locked treasure,</l>
@@ -935,7 +935,7 @@
         <l part="N"> Blessed are you, whose worthiness gives scope, </l>
         <l part="N"> Being had, to triumph, being lack'd, to hope. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LIII">
+      <div type="sonnet" n="LIII">
         <head>LIII</head>
         <l part="N">What is your substance, whereof are you made,</l>
         <l part="N">That millions of strange shadows on you tend?</l>
@@ -952,7 +952,7 @@
         <l part="N"> In all external grace you have some part,</l>
         <l part="N"> But you like none, none you, for constant heart. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LIV">
+      <div type="sonnet" n="LIV">
         <head>LIV</head>
         <l part="N">O, how much more doth beauty beauteous seem </l>
         <l part="N">By that sweet ornament which truth doth give!</l>
@@ -969,7 +969,7 @@
         <l part="N"> And so of you, beauteous and lovely youth,</l>
         <l part="N"> When that shall fade, my verse distills your truth. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LV">
+      <div type="sonnet" n="LV">
         <head>LV</head>
         <l part="N">Not marble, nor the gilded monuments</l>
         <l part="N">Of princes, shall outlive this powerful rhyme;</l>
@@ -986,7 +986,7 @@
         <l part="N"> So, till the judgement that yourself arise,</l>
         <l part="N"> You live in this, and dwell in lovers' eyes.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LVI">
+      <div type="sonnet" n="LVI">
         <head>LVI</head>
         <l part="N">Sweet love, renew thy force; be it not said</l>
         <l part="N">Thy edge should blunter be than appetite,</l>
@@ -1003,7 +1003,7 @@
         <l part="N"> Else call it winter, which being full of care</l>
         <l part="N"> Makes summer's welcome thrice more wish'd, more rare. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LVII">
+      <div type="sonnet" n="LVII">
         <head>LVII</head>
         <l part="N">Being your slave, what should I do but tend</l>
         <l part="N">Upon the hours and times of your desire?</l>
@@ -1020,7 +1020,7 @@
         <l part="N"> So true a fool is love that in your will,</l>
         <l part="N"> Though you do any thing, he thinks no ill.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LVIII">
+      <div type="sonnet" n="LVIII">
         <head>LVIII</head>
         <l part="N">That god forbid that made me first your slave,</l>
         <l part="N">I should in thought control your times of pleasure, </l>
@@ -1037,7 +1037,7 @@
         <l part="N"> I am to wait, though waiting so be hell;</l>
         <l part="N"> Not blame your pleasure, be it ill or well.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LIX">
+      <div type="sonnet" n="LIX">
         <head>LIX</head>
         <l part="N">If there be nothing new, but that which is</l>
         <l part="N">Hath been before, how are our brains beguiled, </l>
@@ -1054,7 +1054,7 @@
         <l part="N"> O, sure I am, the wits of former days</l>
         <l part="N"> To subjects worse have given admiring praise. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LX">
+      <div type="sonnet" n="LX">
         <head>LX</head>
         <l part="N">Like as the waves make towards the pebbled shore, </l>
         <l part="N">So do our minutes hasten to their end;</l>
@@ -1071,7 +1071,7 @@
         <l part="N"> And yet to times in hope my verse shall stand, </l>
         <l part="N"> Praising thy worth, despite his cruel hand.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXI">
+      <div type="sonnet" n="LXI">
         <head>LXI</head>
         <l part="N">Is it thy will thy image should keep open</l>
         <l part="N">My heavy eyelids to the weary night?</l>
@@ -1088,7 +1088,7 @@
         <l part="N"> For thee watch I whilst thou dost wake elsewhere, </l>
         <l part="N"> From me far off, with others all too near.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXII">
+      <div type="sonnet" n="LXII">
         <head>LXII</head>
         <l part="N">Sin of self-love possesseth all mine eye</l>
         <l part="N">And all my soul and all my every part;</l>
@@ -1105,7 +1105,7 @@
         <l part="N"> 'Tis thee, myself, that for myself I praise,</l>
         <l part="N"> Painting my age with beauty of thy days.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXIII">
+      <div type="sonnet" n="LXIII">
         <head>LXIII</head>
         <l part="N">Against my love shall be, as I am now,</l>
         <l part="N">With Time's injurious hand crush'd and o'erworn; </l>
@@ -1122,7 +1122,7 @@
         <l part="N"> His beauty shall in these black lines be seen,</l>
         <l part="N"> And they shall live, and he in them still green. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXIV">
+      <div type="sonnet" n="LXIV">
         <head>LXIV</head>
         <l part="N">When I have seen by Time's fell hand defaced</l>
         <l part="N">The rich proud cost of outworn buried age;</l>
@@ -1139,7 +1139,7 @@
         <l part="N"> This thought is as a death, which cannot choose </l>
         <l part="N"> But weep to have that which it fears to lose.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXV">
+      <div type="sonnet" n="LXV">
         <head>LXV</head>
         <l part="N">Since brass, nor stone, nor earth, nor boundless sea, </l>
         <l part="N">But sad mortality o'er-sways their power,</l>
@@ -1156,7 +1156,7 @@
         <l part="N"> O, none, unless this miracle have might,</l>
         <l part="N"> That in black ink my love may still shine bright. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXVI">
+      <div type="sonnet" n="LXVI">
         <head>LXVI</head>
         <l part="N">Tired with all these, for restful death I cry,</l>
         <l part="N">As, to behold desert a beggar born,</l>
@@ -1173,7 +1173,7 @@
         <l part="N"> Tired with all these, from these would I be gone, </l>
         <l part="N"> Save that, to die, I leave my love alone.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXVII">
+      <div type="sonnet" n="LXVII">
         <head>LXVII</head>
         <l part="N">Ah! wherefore with infection should he live,</l>
         <l part="N">And with his presence grace impiety,</l>
@@ -1190,7 +1190,7 @@
         <l part="N"> O, him she stores, to show what wealth she had </l>
         <l part="N"> In days long since, before these last so bad.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXVIII">
+      <div type="sonnet" n="LXVIII">
         <head>LXVIII</head>
         <l part="N">Thus is his cheek the map of days outworn,</l>
         <l part="N">When beauty lived and died as flowers do now, </l>
@@ -1207,7 +1207,7 @@
         <l part="N"> And him as for a map doth Nature store,</l>
         <l part="N"> To show false Art what beauty was of yore.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXIX">
+      <div type="sonnet" n="LXIX">
         <head>LXIX</head>
         <l part="N">Those parts of thee that the world's eye doth view </l>
         <l part="N">Want nothing that the thought of hearts can mend; </l>
@@ -1224,7 +1224,7 @@
         <l part="N"> But why thy odor matcheth not thy show,</l>
         <l part="N"> The solve is this, that thou dost common grow. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXX">
+      <div type="sonnet" n="LXX">
         <head>LXX</head>
         <l part="N">That thou art blamed shall not be thy defect,</l>
         <l part="N">For slander's mark was ever yet the fair;</l>
@@ -1241,7 +1241,7 @@
         <l part="N"> If some suspect of ill mask'd not thy show,</l>
         <l part="N"> Then thou alone kingdoms of hearts shouldst owe. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXI">
+      <div type="sonnet" n="LXXI">
         <head>LXXI</head>
         <l part="N">No longer mourn for me when I am dead</l>
         <l part="N">Than you shall hear the surly sullen bell</l>
@@ -1258,7 +1258,7 @@
         <l part="N"> Lest the wise world should look into your moan </l>
         <l part="N"> And mock you with me after I am gone.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXII">
+      <div type="sonnet" n="LXXII">
         <head>LXXII</head>
         <l part="N">O, lest the world should task you to recite</l>
         <l part="N">What merit lived in me, that you should love</l>
@@ -1275,7 +1275,7 @@
         <l part="N"> For I am shamed by that which I bring forth, </l>
         <l part="N"> And so should you, to love things nothing worth. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXIII">
+      <div type="sonnet" n="LXXIII">
         <head>LXXIII</head>
         <l part="N">That time of year thou mayst in me behold</l>
         <l part="N">When yellow leaves, or none, or few, do hang</l>
@@ -1292,7 +1292,7 @@
         <l part="N"> This thou perceivest, which makes thy love more strong, </l>
         <l part="N"> To love that well which thou must leave ere long. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXIV">
+      <div type="sonnet" n="LXXIV">
         <head>LXXIV</head>
         <l part="N">But be contented: when that fell arrest</l>
         <l part="N">Without all bail shall carry me away,</l>
@@ -1309,7 +1309,7 @@
         <l part="N"> The worth of that is that which it contains,</l>
         <l part="N"> And that is this, and this with thee remains. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXV">
+      <div type="sonnet" n="LXXV">
         <head>LXXV</head>
         <l part="N">So are you to my thoughts as food to life,</l>
         <l part="N">Or as sweet-season'd showers are to the ground; </l>
@@ -1326,7 +1326,7 @@
         <l part="N"> Thus do I pine and surfeit day by day,</l>
         <l part="N"> Or gluttoning on all, or all away.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXVI">
+      <div type="sonnet" n="LXXVI">
         <head>LXXVI</head>
         <l part="N">Why is my verse so barren of new pride,</l>
         <l part="N">So far from variation or quick change?</l>
@@ -1343,7 +1343,7 @@
         <l part="N"> For as the sun is daily new and old,</l>
         <l part="N"> So is my love still telling what is told.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXVII">
+      <div type="sonnet" n="LXXVII">
         <head>LXXVII</head>
         <l part="N">Thy glass will show thee how thy beauties wear, </l>
         <l part="N">Thy dial how thy precious minutes waste;</l>
@@ -1360,7 +1360,7 @@
         <l part="N"> These offices, so oft as thou wilt look,</l>
         <l part="N"> Shall profit thee and much enrich thy book.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXVIII">
+      <div type="sonnet" n="LXXVIII">
         <head>LXXVIII</head>
         <l part="N">So oft have I invoked thee for my Muse</l>
         <l part="N">And found such fair assistance in my verse</l>
@@ -1377,7 +1377,7 @@
         <l part="N"> But thou art all my art and dost advance</l>
         <l part="N"> As high as learning my rude ignorance.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXIX">
+      <div type="sonnet" n="LXXIX">
         <head>LXXIX</head>
         <l part="N">Whilst I alone did call upon thy aid,</l>
         <l part="N">My verse alone had all thy gentle grace,</l>
@@ -1394,7 +1394,7 @@
         <l part="N"> Then thank him not for that which he doth say, </l>
         <l part="N"> Since what he owes thee thou thyself dost pay. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXX">
+      <div type="sonnet" n="LXXX">
         <head>LXXX</head>
         <l part="N">O, how I faint when I of you do write,</l>
         <l part="N">Knowing a better spirit doth use your name,</l>
@@ -1411,7 +1411,7 @@
         <l part="N"> Then if he thrive and I be cast away,</l>
         <l part="N"> The worst was this; my love was my decay.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXXI">
+      <div type="sonnet" n="LXXXI">
         <head>LXXXI</head>
         <l part="N">Or I shall live your epitaph to make,</l>
         <l part="N">Or you survive when I in earth am rotten;</l>
@@ -1428,7 +1428,7 @@
         <l part="N"> You still shall live--such virtue hath my pen-- </l>
         <l part="N"> Where breath most breathes, even in the mouths of men. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXXII">
+      <div type="sonnet" n="LXXXII">
         <head>LXXXII</head>
         <l part="N">I grant thou wert not married to my Muse</l>
         <l part="N">And therefore mayst without attaint o'erlook</l>
@@ -1445,7 +1445,7 @@
         <l part="N"> And their gross painting might be better used</l>
         <l part="N"> Where cheeks need blood; in thee it is abused. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXXIII">
+      <div type="sonnet" n="LXXXIII">
         <head>LXXXIII</head>
         <l part="N">I never saw that you did painting need</l>
         <l part="N">And therefore to your fair no painting set;</l>
@@ -1462,7 +1462,7 @@
         <l part="N"> There lives more life in one of your fair eyes </l>
         <l part="N"> Than both your poets can in praise devise.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXXIV">
+      <div type="sonnet" n="LXXXIV">
         <head>LXXXIV</head>
         <l part="N">Who is it that says most? which can say more </l>
         <l part="N">Than this rich praise, that you alone are you?</l>
@@ -1479,7 +1479,7 @@
         <l part="N"> You to your beauteous blessings add a curse,</l>
         <l part="N"> Being fond on praise, which makes your praises worse. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXXV">
+      <div type="sonnet" n="LXXXV">
         <head>LXXXV</head>
         <l part="N">My tongue-tied Muse in manners holds her still, </l>
         <l part="N">While comments of your praise, richly compiled, </l>
@@ -1496,7 +1496,7 @@
         <l part="N"> Then others for the breath of words respect,</l>
         <l part="N"> Me for my dumb thoughts, speaking in effect. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXXVI">
+      <div type="sonnet" n="LXXXVI">
         <head>LXXXVI</head>
         <l part="N">Was it the proud full sail of his great verse,</l>
         <l part="N">Bound for the prize of all too precious you,</l>
@@ -1513,7 +1513,7 @@
         <l part="N"> But when your countenance fill'd up his line,</l>
         <l part="N"> Then lack'd I matter; that enfeebled mine.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXXVII">
+      <div type="sonnet" n="LXXXVII">
         <head>LXXXVII</head>
         <l part="N">Farewell! thou art too dear for my possessing, </l>
         <l part="N">And like enough thou know'st thy estimate:</l>
@@ -1530,7 +1530,7 @@
         <l part="N"> Thus have I had thee, as a dream doth flatter, </l>
         <l part="N"> In sleep a king, but waking no such matter.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXXVIII">
+      <div type="sonnet" n="LXXXVIII">
         <head>LXXXVIII</head>
         <l part="N">When thou shalt be disposed to set me light</l>
         <l part="N">And place my merit in the eye of scorn,</l>
@@ -1547,7 +1547,7 @@
         <l part="N"> Such is my love, to thee I so belong,</l>
         <l part="N"> That for thy right myself will bear all wrong. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="LXXXIX">
+      <div type="sonnet" n="LXXXIX">
         <head>LXXXIX</head>
         <l part="N">Say that thou didst forsake me for some fault,</l>
         <l part="N">And I will comment upon that offence;</l>
@@ -1564,7 +1564,7 @@
         <l part="N"> For thee against myself I'll vow debate,</l>
         <l part="N"> For I must ne'er love him whom thou dost hate. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XC">
+      <div type="sonnet" n="XC">
         <head>XC</head>
         <l part="N">Then hate me when thou wilt; if ever, now;</l>
         <l part="N">Now, while the world is bent my deeds to cross, </l>
@@ -1581,7 +1581,7 @@
         <l part="N"> And other strains of woe, which now seem woe, </l>
         <l part="N"> Compared with loss of thee will not seem so.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XCI">
+      <div type="sonnet" n="XCI">
         <head>XCI</head>
         <l part="N">Some glory in their birth, some in their skill,</l>
         <l part="N">Some in their wealth, some in their bodies' force, </l>
@@ -1598,7 +1598,7 @@
         <l part="N"> Wretched in this alone, that thou mayst take </l>
         <l part="N"> All this away and me most wretched make.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XCII">
+      <div type="sonnet" n="XCII">
         <head>XCII</head>
         <l part="N">But do thy worst to steal thyself away,</l>
         <l part="N">For term of life thou art assured mine,</l>
@@ -1615,7 +1615,7 @@
         <l part="N"> But what's so blessed-fair that fears no blot?</l>
         <l part="N"> Thou mayst be false, and yet I know it not.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XCII">
+      <div type="sonnet" n="XCII">
         <head>XCII</head>
         <l part="N">So shall I live, supposing thou art true,</l>
         <l part="N">Like a deceived husband; so love's face</l>
@@ -1632,7 +1632,7 @@
         <l part="N"> How like Eve's apple doth thy beauty grow,</l>
         <l part="N"> If thy sweet virtue answer not thy show!</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XCIV">
+      <div type="sonnet" n="XCIV">
         <head>XCIV</head>
         <l part="N">They that have power to hurt and will do none, </l>
         <l part="N">That do not do the thing they most do show,</l>
@@ -1649,7 +1649,7 @@
         <l part="N"> For sweetest things turn sourest by their deeds; </l>
         <l part="N"> Lilies that fester smell far worse than weeds.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XCV">
+      <div type="sonnet" n="XCV">
         <head>XCV</head>
         <l part="N">How sweet and lovely dost thou make the shame </l>
         <l part="N">Which, like a canker in the fragrant rose,</l>
@@ -1666,7 +1666,7 @@
         <l part="N"> Take heed, dear heart, of this large privilege; </l>
         <l part="N"> The hardest knife ill-used doth lose his edge. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XCVI">
+      <div type="sonnet" n="XCVI">
         <head>XCVI</head>
         <l part="N">Some say thy fault is youth, some wantonness;</l>
         <l part="N">Some say thy grace is youth and gentle sport;</l>
@@ -1683,7 +1683,7 @@
         <l part="N"> But do not so; I love thee in such sort</l>
         <l part="N"> As, thou being mine, mine is thy good report. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XCVII">
+      <div type="sonnet" n="XCVII">
         <head>XCVII</head>
         <l part="N">How like a winter hath my absence been</l>
         <l part="N">From thee, the pleasure of the fleeting year!</l>
@@ -1700,7 +1700,7 @@
         <l part="N"> Or, if they sing, 'tis with so dull a cheer</l>
         <l part="N"> That leaves look pale, dreading the winter's near. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XCVIII">
+      <div type="sonnet" n="XCVIII">
         <head>XCVIII</head>
         <l part="N">From you have I been absent in the spring,</l>
         <l part="N">When proud-pied April dress'd in all his trim</l>
@@ -1717,7 +1717,7 @@
         <l part="N"> Yet seem'd it winter still, and, you away,</l>
         <l part="N"> As with your shadow I with these did play:</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="XCIX">
+      <div type="sonnet" n="XCIX">
         <head>XCIX</head>
         <l part="N">The forward violet thus did I chide:</l>
         <l part="N">Sweet thief, whence didst thou steal thy sweet that smells, </l>
@@ -1735,7 +1735,7 @@
         <l part="N"> More flowers I noted, yet I none could see</l>
         <l part="N"> But sweet or color it had stol'n from thee.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="C">
+      <div type="sonnet" n="C">
         <head>C</head>
         <l part="N">Where art thou, Muse, that thou forget'st so long </l>
         <l part="N">To speak of that which gives thee all thy might? </l>
@@ -1752,7 +1752,7 @@
         <l part="N"> Give my love fame faster than Time wastes life; </l>
         <l part="N"> So thou prevent'st his scythe and crooked knife. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CI">
+      <div type="sonnet" n="CI">
         <head>CI</head>
         <l part="N">O truant Muse, what shall be thy amends</l>
         <l part="N">For thy neglect of truth in beauty dyed?</l>
@@ -1769,7 +1769,7 @@
         <l part="N"> Then do thy office, Muse; I teach thee how</l>
         <l part="N"> To make him seem long hence as he shows now. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CII">
+      <div type="sonnet" n="CII">
         <head>CII</head>
         <l part="N">My love is strengthen'd, though more weak in seeming; </l>
         <l part="N">I love not less, though less the show appear:</l>
@@ -1786,7 +1786,7 @@
         <l part="N"> Therefore like her I sometime hold my tongue, </l>
         <l part="N"> Because I would not dull you with my song.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CIII">
+      <div type="sonnet" n="CIII">
         <head>CIII</head>
         <l part="N">Alack, what poverty my Muse brings forth,</l>
         <l part="N">That having such a scope to show her pride,</l>
@@ -1803,7 +1803,7 @@
         <l part="N"> And more, much more, than in my verse can sit </l>
         <l part="N"> Your own glass shows you when you look in it. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CIV">
+      <div type="sonnet" n="CIV">
         <head>CIV</head>
         <l part="N">To me, fair friend, you never can be old,</l>
         <l part="N">For as you were when first your eye I eyed,</l>
@@ -1820,7 +1820,7 @@
         <l part="N"> For fear of which, hear this, thou age unbred; </l>
         <l part="N"> Ere you were born was beauty's summer dead. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CV">
+      <div type="sonnet" n="CV">
         <head>CV</head>
         <l part="N">Let not my love be call'd idolatry,</l>
         <l part="N">Nor my beloved as an idol show,</l>
@@ -1837,7 +1837,7 @@
         <l part="N"> 'Fair, kind, and true,' have often lived alone, </l>
         <l part="N"> Which three till now never kept seat in one.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CVI">
+      <div type="sonnet" n="CVI">
         <head>CVI</head>
         <l part="N">When in the chronicle of wasted time</l>
         <l part="N">I see descriptions of the fairest wights,</l>
@@ -1854,7 +1854,7 @@
         <l part="N"> For we, which now behold these present days, </l>
         <l part="N"> Have eyes to wonder, but lack tongues to praise. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CVII">
+      <div type="sonnet" n="CVII">
         <head>CVII</head>
         <l part="N">Not mine own fears, nor the prophetic soul</l>
         <l part="N">Of the wide world dreaming on things to come,</l>
@@ -1871,7 +1871,7 @@
         <l part="N"> And thou in this shalt find thy monument,</l>
         <l part="N"> When tyrants' crests and tombs of brass are spent. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CVIII">
+      <div type="sonnet" n="CVIII">
         <head>CVIII</head>
         <l part="N">What's in the brain that ink may character</l>
         <l part="N">Which hath not figured to thee my true spirit?</l>
@@ -1888,7 +1888,7 @@
         <l part="N"> Finding the first conceit of love there bred</l>
         <l part="N"> Where time and outward form would show it dead. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CIX">
+      <div type="sonnet" n="CIX">
         <head>CIX</head>
         <l part="N">O, never say that I was false of heart,</l>
         <l part="N">Though absence seem'd my flame to qualify.</l>
@@ -1905,7 +1905,7 @@
         <l part="N"> For nothing this wide universe I call,</l>
         <l part="N"> Save thou, my rose; in it thou art my all.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CX">
+      <div type="sonnet" n="CX">
         <head>CX</head>
         <l part="N">Alas, 'tis true I have gone here and there</l>
         <l part="N">And made myself a motley to the view,</l>
@@ -1922,7 +1922,7 @@
         <l part="N"> Then give me welcome, next my heaven the best, </l>
         <l part="N"> Even to thy pure and most most loving breast. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXI">
+      <div type="sonnet" n="CXI">
         <head>CXI</head>
         <l part="N">O, for my sake do you with Fortune chide,</l>
         <l part="N">The guilty goddess of my harmful deeds,</l>
@@ -1939,7 +1939,7 @@
         <l part="N"> Pity me then, dear friend, and I assure ye</l>
         <l part="N"> Even that your pity is enough to cure me.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXII">
+      <div type="sonnet" n="CXII">
         <head>CXII</head>
         <l part="N">Your love and pity doth the impression fill</l>
         <l part="N">Which vulgar scandal stamp'd upon my brow;</l>
@@ -1956,7 +1956,7 @@
         <l part="N"> You are so strongly in my purpose bred</l>
         <l part="N"> That all the world besides methinks are dead. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXIII">
+      <div type="sonnet" n="CXIII">
         <head>CXIII</head>
         <l part="N">Since I left you, mine eye is in my mind;</l>
         <l part="N">And that which governs me to go about</l>
@@ -1973,7 +1973,7 @@
         <l part="N"> Incapable of more, replete with you,</l>
         <l part="N"> My most true mind thus makes mine eye untrue. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXIV">
+      <div type="sonnet" n="CXIV">
         <head>CXIV</head>
         <l part="N">Or whether doth my mind, being crown'd with you, </l>
         <l part="N">Drink up the monarch's plague, this flattery?</l>
@@ -1990,7 +1990,7 @@
         <l part="N"> If it be poison'd, 'tis the lesser sin</l>
         <l part="N"> That mine eye loves it and doth first begin.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXV">
+      <div type="sonnet" n="CXV">
         <head>CXV</head>
         <l part="N">Those lines that I before have writ do lie,</l>
         <l part="N">Even those that said I could not love you dearer: </l>
@@ -2007,7 +2007,7 @@
         <l part="N"> Love is a babe; then might I not say so,</l>
         <l part="N"> To give full growth to that which still doth grow? </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXVI">
+      <div type="sonnet" n="CXVI">
         <head>CXVI</head>
         <l part="N">Let me not to the marriage of true minds</l>
         <l part="N">Admit impediments. Love is not love</l>
@@ -2024,7 +2024,7 @@
         <l part="N"> If this be error and upon me proved,</l>
         <l part="N"> I never writ, nor no man ever loved.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXVII">
+      <div type="sonnet" n="CXVII">
         <head>CXVII</head>
         <l part="N">Accuse me thus: that I have scanted all</l>
         <l part="N">Wherein I should your great deserts repay,</l>
@@ -2041,7 +2041,7 @@
         <l part="N"> Since my appeal says I did strive to prove</l>
         <l part="N"> The constancy and virtue of your love.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXVIII">
+      <div type="sonnet" n="CXVIII">
         <head>CXVIII</head>
         <l part="N">Like as, to make our appetites more keen,</l>
         <l part="N">With eager compounds we our palate urge,</l>
@@ -2058,7 +2058,7 @@
         <l part="N"> But thence I learn, and find the lesson true,</l>
         <l part="N"> Drugs poison him that so fell sick of you.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXIX">
+      <div type="sonnet" n="CXIX">
         <head>CXIX</head>
         <l part="N">What potions have I drunk of Siren tears,</l>
         <l part="N">Distill'd from limbecks foul as hell within,</l>
@@ -2075,7 +2075,7 @@
         <l part="N"> So I return rebuked to my content</l>
         <l part="N"> And gain by ill thrice more than I have spent. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXX">
+      <div type="sonnet" n="CXX">
         <head>CXX</head>
         <l part="N">That you were once unkind befriends me now,</l>
         <l part="N">And for that sorrow which I then did feel</l>
@@ -2092,7 +2092,7 @@
         <l part="N"> But that your trespass now becomes a fee;</l>
         <l part="N"> Mine ransoms yours, and yours must ransom me. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXI">
+      <div type="sonnet" n="CXXI">
         <head>CXXI</head>
         <l part="N">'Tis better to be vile than vile esteem'd,</l>
         <l part="N">When not to be receives reproach of being,</l>
@@ -2109,7 +2109,7 @@
         <l part="N"> Unless this general evil they maintain,</l>
         <l part="N"> All men are bad, and in their badness reign.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXII">
+      <div type="sonnet" n="CXXII">
         <head>CXXII</head>
         <l part="N">Thy gift, thy tables, are within my brain</l>
         <l part="N">Full character'd with lasting memory,</l>
@@ -2126,7 +2126,7 @@
         <l part="N"> To keep an adjunct to remember thee</l>
         <l part="N"> Were to import forgetfulness in me.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXIII">
+      <div type="sonnet" n="CXXIII">
         <head>CXXIII</head>
         <l part="N">No, Time, thou shalt not boast that I do change: </l>
         <l part="N">Thy pyramids built up with newer might</l>
@@ -2143,7 +2143,7 @@
         <l part="N"> This I do vow and this shall ever be;</l>
         <l part="N"> I will be true, despite thy scythe and thee.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXIV">
+      <div type="sonnet" n="CXXIV">
         <head>CXXIV</head>
         <l part="N">If my dear love were but the child of state,</l>
         <l part="N">It might for Fortune's bastard be unfather'd,</l>
@@ -2160,7 +2160,7 @@
         <l part="N"> To this I witness call the fools of time,</l>
         <l part="N"> Which die for goodness, who have lived for crime. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXV">
+      <div type="sonnet" n="CXXV">
         <head>CXXV</head>
         <l part="N">Were 't aught to me I bore the canopy,</l>
         <l part="N">With my extern the outward honoring,</l>
@@ -2177,7 +2177,7 @@
         <l part="N"> Hence, thou suborn'd informer! a true soul</l>
         <l part="N"> When most impeach'd stands least in thy control. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXVI">
+      <div type="sonnet" n="CXXVI">
         <head>CXXVI</head>
         <l part="N">O thou, my lovely boy, who in thy power</l>
         <l part="N">Dost hold Time's fickle glass, his sickle, hour;</l>
@@ -2192,7 +2192,7 @@
         <l part="N">Her audit, though delay'd, answer'd must be,</l>
         <l part="N">And her quietus is to render thee.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXVII">
+      <div type="sonnet" n="CXXVII">
         <head>CXXVII</head>
         <l part="N">In the old age black was not counted fair,</l>
         <l part="N">Or if it were, it bore not beauty's name;</l>
@@ -2209,7 +2209,7 @@
         <l part="N"> Yet so they mourn, becoming of their woe,</l>
         <l part="N"> That every tongue says beauty should look so. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXVIII">
+      <div type="sonnet" n="CXXVIII">
         <head>CXXVIII</head>
         <l part="N">How oft, when thou, my music, music play'st,</l>
         <l part="N">Upon that blessed wood whose motion sounds</l>
@@ -2226,7 +2226,7 @@
         <l part="N"> Since saucy jacks so happy are in this,</l>
         <l part="N"> Give them thy fingers, me thy lips to kiss.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXIX">
+      <div type="sonnet" n="CXXIX">
         <head>CXXIX</head>
         <l part="N">The expense of spirit in a waste of shame</l>
         <l part="N">Is lust in action; and till action, lust</l>
@@ -2243,7 +2243,7 @@
         <l part="N"> All this the world well knows; yet none knows well </l>
         <l part="N"> To shun the heaven that leads men to this hell. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXX">
+      <div type="sonnet" n="CXXX">
         <head>CXXX</head>
         <l part="N">My mistress' eyes are nothing like the sun;</l>
         <l part="N">Coral is far more red than her lips' red;</l>
@@ -2260,7 +2260,7 @@
         <l part="N"> And yet, by heaven, I think my love as rare</l>
         <l part="N"> As any she belied with false compare.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXXI">
+      <div type="sonnet" n="CXXXI">
         <head>CXXXI</head>
         <l part="N">Thou art as tyrannous, so as thou art,</l>
         <l part="N">As those whose beauties proudly make them cruel; </l>
@@ -2277,7 +2277,7 @@
         <l part="N"> In nothing art thou black save in thy deeds,</l>
         <l part="N"> And thence this slander, as I think, proceeds.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXXII">
+      <div type="sonnet" n="CXXXII">
         <head>CXXXII</head>
         <l part="N">Thine eyes I love, and they, as pitying me,</l>
         <l part="N">Knowing thy heart torments me with disdain,</l>
@@ -2294,7 +2294,7 @@
         <l part="N"> Then will I swear beauty herself is black</l>
         <l part="N"> And all they foul that thy complexion lack.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXXIII">
+      <div type="sonnet" n="CXXXIII">
         <head>CXXXIII</head>
         <l part="N">Beshrew that heart that makes my heart to groan </l>
         <l part="N">For that deep wound it gives my friend and me! </l>
@@ -2311,7 +2311,7 @@
         <l part="N"> And yet thou wilt; for I, being pent in thee,</l>
         <l part="N"> Perforce am thine, and all that is in me.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXXIV">
+      <div type="sonnet" n="CXXXIV">
         <head>CXXXIV</head>
         <l part="N">So, now I have confess'd that he is thine,</l>
         <l part="N">And I myself am mortgaged to thy will,</l>
@@ -2328,7 +2328,7 @@
         <l part="N"> Him have I lost; thou hast both him and me: </l>
         <l part="N"> He pays the whole, and yet am I not free.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXXV">
+      <div type="sonnet" n="CXXXV">
         <head>CXXXV</head>
         <l part="N">Whoever hath her wish, thou hast thy 'Will,'</l>
         <l part="N">And 'Will' to boot, and 'Will' in overplus;</l>
@@ -2345,7 +2345,7 @@
         <l part="N"> Let no unkind, no fair beseechers kill;</l>
         <l part="N"> Think all but one, and me in that one 'Will.' </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXXVI">
+      <div type="sonnet" n="CXXXVI">
         <head>CXXXVI</head>
         <l part="N">If thy soul check thee that I come so near,</l>
         <l part="N">Swear to thy blind soul that I was thy 'Will,'</l>
@@ -2362,7 +2362,7 @@
         <l part="N"> Make but my name thy love, and love that still, </l>
         <l part="N"> And then thou lovest me, for my name is 'Will.' </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXXVII">
+      <div type="sonnet" n="CXXXVII">
         <head>CXXXVII</head>
         <l part="N">Thou blind fool, Love, what dost thou to mine eyes, </l>
         <l part="N">That they behold, and see not what they see?</l>
@@ -2379,7 +2379,7 @@
         <l part="N"> In things right true my heart and eyes have err'd, </l>
         <l part="N"> And to this false plague are they now transferr'd. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXXVIII">
+      <div type="sonnet" n="CXXXVIII">
         <head>CXXXVIII</head>
         <l part="N">When my love swears that she is made of truth </l>
         <l part="N">I do believe her, though I know she lies,</l>
@@ -2396,7 +2396,7 @@
         <l part="N"> Therefore I lie with her and she with me,</l>
         <l part="N"> And in our faults by lies we flatter'd be.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXXXIX">
+      <div type="sonnet" n="CXXXIX">
         <head>CXXXIX</head>
         <l part="N">O, call not me to justify the wrong</l>
         <l part="N">That thy unkindness lays upon my heart;</l>
@@ -2413,7 +2413,7 @@
         <l part="N"> Yet do not so; but since I am near slain,</l>
         <l part="N"> Kill me outright with looks and rid my pain. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXL">
+      <div type="sonnet" n="CXL">
         <head>CXL</head>
         <l part="N">Be wise as thou art cruel; do not press</l>
         <l part="N">My tongue-tied patience with too much disdain; </l>
@@ -2430,7 +2430,7 @@
         <l part="N"> That I may not be so, nor thou belied,</l>
         <l part="N"> Bear thine eyes straight, though thy proud heart go wide. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXLI">
+      <div type="sonnet" n="CXLI">
         <head>CXLI</head>
         <l part="N">In faith, I do not love thee with mine eyes,</l>
         <l part="N">For they in thee a thousand errors note;</l>
@@ -2447,7 +2447,7 @@
         <l part="N"> Only my plague thus far I count my gain,</l>
         <l part="N"> That she that makes me sin awards me pain. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXLII">
+      <div type="sonnet" n="CXLII">
         <head>CXLII</head>
         <l part="N">Love is my sin and thy dear virtue hate,</l>
         <l part="N">Hate of my sin, grounded on sinful loving:</l>
@@ -2464,7 +2464,7 @@
         <l part="N"> If thou dost seek to have what thou dost hide, </l>
         <l part="N"> By self-example mayst thou be denied!</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXLIII">
+      <div type="sonnet" n="CXLIII">
         <head>CXLIII</head>
         <l part="N">Lo! as a careful housewife runs to catch</l>
         <l part="N">One of her feather'd creatures broke away,</l>
@@ -2481,7 +2481,7 @@
         <l part="N"> So will I pray that thou mayst have thy 'Will,' </l>
         <l part="N"> If thou turn back, and my loud crying still.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXLIV">
+      <div type="sonnet" n="CXLIV">
         <head>CXLIV</head>
         <l part="N">Two loves I have of comfort and despair,</l>
         <l part="N">Which like two spirits do suggest me still:</l>
@@ -2498,7 +2498,7 @@
         <l part="N"> Yet this shall I ne'er know, but live in doubt, </l>
         <l part="N"> Till my bad angel fire my good one out.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXLV">
+      <div type="sonnet" n="CXLV">
         <head>CXLV</head>
         <l part="N">Those lips that Love's own hand did make</l>
         <l part="N">Breathed forth the sound that said 'I hate'</l>
@@ -2515,7 +2515,7 @@
         <l part="N"> 'I hate' from hate away she threw,</l>
         <l part="N">And saved my life, saying 'not you.'</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXLVI">
+      <div type="sonnet" n="CXLVI">
         <head>CXLVI</head>
         <l part="N">Poor soul, the centre of my sinful earth,</l>
         <l part="N">......these rebel powers that thee array,</l>
@@ -2532,7 +2532,7 @@
         <l part="N"> So shalt thou feed on Death, that feeds on men, </l>
         <l part="N"> And Death once dead, there's no more dying then. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXLVII">
+      <div type="sonnet" n="CXLVII">
         <head>CXLVII</head>
         <l part="N">My love is as a fever, longing still</l>
         <l part="N">For that which longer nurseth the disease,</l>
@@ -2549,7 +2549,7 @@
         <l part="N"> For I have sworn thee fair and thought thee bright, </l>
         <l part="N"> Who art as black as hell, as dark as night.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXLVIII">
+      <div type="sonnet" n="CXLVIII">
         <head>CXLVIII</head>
         <l part="N">O me, what eyes hath Love put in my head,</l>
         <l part="N">Which have no correspondence with true sight! </l>
@@ -2566,7 +2566,7 @@
         <l part="N"> O cunning Love! with tears thou keep'st me blind, </l>
         <l part="N"> Lest eyes well-seeing thy foul faults should find. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CXLIX">
+      <div type="sonnet" n="CXLIX">
         <head>CXLIX</head>
         <l part="N">Canst thou, O cruel! say I love thee not,</l>
         <l part="N">When I against myself with thee partake?</l>
@@ -2583,7 +2583,7 @@
         <l part="N"> But, love, hate on, for now I know thy mind; </l>
         <l part="N"> Those that can see thou lovest, and I am blind. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CL">
+      <div type="sonnet" n="CL">
         <head>CL</head>
         <l part="N">O, from what power hast thou this powerful might </l>
         <l part="N">With insufficiency my heart to sway?</l>
@@ -2600,7 +2600,7 @@
         <l part="N"> If thy unworthiness raised love in me,</l>
         <l part="N"> More worthy I to be beloved of thee.</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CLI">
+      <div type="sonnet" n="CLI">
         <head>CLI</head>
         <l part="N">Love is too young to know what conscience is;</l>
         <l part="N">Yet who knows not conscience is born of love? </l>
@@ -2617,7 +2617,7 @@
         <l part="N"> No want of conscience hold it that I call</l>
         <l part="N"> Her 'love' for whose dear love I rise and fall. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CLII">
+      <div type="sonnet" n="CLII">
         <head>CLII</head>
         <l part="N">In loving thee thou know'st I am forsworn,</l>
         <l part="N">But thou art twice forsworn, to me love swearing,</l>
@@ -2634,7 +2634,7 @@
         <l part="N"> For I have sworn thee fair; more perjured I,</l>
         <l part="N"> To swear against the truth so foul a lie!</l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CLIII">
+      <div type="sonnet" n="CLIII">
         <head>CLIII</head>
         <l part="N">Cupid laid by his brand, and fell asleep:</l>
         <l part="N">A maid of Dian's this advantage found,</l>
@@ -2651,7 +2651,7 @@
         <l part="N"> But found no cure: the bath for my help lies </l>
         <l part="N"> Where Cupid got new fire--my mistress' eyes. </l>
       </div>
-      <div type="textpart" subtype="sonnet" n="CLIV">
+      <div type="sonnet" n="CLIV">
         <head>CLIV</head>
         <l part="N">The little love-god lying once asleep</l>
         <l part="N">Laid by his side his heart-inflaming brand,</l>
