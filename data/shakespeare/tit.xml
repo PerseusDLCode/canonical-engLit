@@ -6,7 +6,7 @@
         <author>William Shakespeare</author>
         <editor>W. G. Clark</editor>
         <editor>W. Aldis Wright</editor>   </titleStmt>
-      <publicationStmt><p part="N">later</p></publicationStmt> <sourceDesc default="false">
+      <publicationStmt><p>later</p></publicationStmt> <sourceDesc default="false">
         <biblStruct default="false" status="draft">
           <monogr>
             <author>William Shakespeare</author>
@@ -146,7 +146,7 @@
         </castList>
       </div>
       <set>
-        <p part="N">Scene: Rome, and the country near it.</p>
+        <p>Scene: Rome, and the country near it.</p>
       </set>
     </front>
 
@@ -178,7 +178,7 @@
           </sp>
           <sp who="tit-4">
             <speaker>Bas.</speaker>
-            <l n="10">Romans, friends, followers, favourers of my right, </l>
+            <l>Romans, friends, followers, favourers of my right, </l>
             <l>If ever Bassianus, Caesar's son, </l>
             <l>Were gracious in the eyes of royal Rome, </l>
             <l>Keep then this passage to the Capitol </l>
@@ -192,7 +192,7 @@
           <sp who="tit-15">
             <speaker>Marc.</speaker>
             <l>Princes, that strive by factions and by friends </l>
-            <l n="20">Ambitiously for rule and empery, </l>
+            <l>Ambitiously for rule and empery, </l>
             <l>Know that the people of Rome, for whom we stand </l>
             <l>A special party, have, by common voice, </l>
             <l>In election for the Roman empery, </l>
@@ -202,7 +202,7 @@
             <l>Lives not this day within the city walls; </l>
             <l>He by the senate is accited home </l>
             <l>From weary wars against the barbarous Goths; </l>
-            <l n="30">That, with his sons, a terror to our foes, </l>
+            <l>That, with his sons, a terror to our foes, </l>
             <l>Hath yoked a nation strong, train'd up in arms. </l>
             <l>Ten years are spent since first he undertook </l>
             <l>This cause of Rome and chastised with arms </l>
@@ -213,7 +213,7 @@
             <l>Returns the good Andronicus to Rome, </l>
             <l>Renowned Titus, flourishing in arms. </l>
             <l>Let us entreat, by honour of his name, </l>
-            <l n="41">Whom worthily you would have now succeed, </l>
+            <l>Whom worthily you would have now succeed, </l>
             <l>And in the Capitol and senate's right, </l>
             <l>Whom you pretend to honour and adore, </l>
             <l>That you withdraw you and abate your strength; </l>
@@ -228,7 +228,7 @@
             <speaker>Bas.</speaker>
             <l>Marcus Andronicus, so I do affy </l>
             <l>In thy uprightness and integrity, </l>
-            <l n="50">And so I love and honour thee and thine, </l>
+            <l>And so I love and honour thee and thine, </l>
             <l>Thy noble brother Titus and his sons, </l>
             <l>And her to whom my thoughts are humbled all, </l>
             <l>Gracious Lavinia, Rome's rich ornament, </l>
@@ -243,7 +243,7 @@
             <l>Friends, that have been thus forward in my right, </l>
             <l>I thank you all and here dismiss you all, </l>
             <l>And to the love and favour of my country </l>
-            <l n="60">Commit myself, my person and the cause. <stage>Exeunt the Followers of
+            <l>Commit myself, my person and the cause. <stage>Exeunt the Followers of
                 Saturninus.</stage>
               </l>
             <l>Rome, be as just and gracious unto me </l>
@@ -264,7 +264,7 @@
             <l>Successful in the battles that he fights, </l>
             <l>With honour and with fortune is return'd </l>
             <l>From where he circumscribed with his sword, </l>
-            <l n="70">And brought to yoke, the enemies of Rome. <stage type="entrance">
+            <l>And brought to yoke, the enemies of Rome. <stage type="entrance">
                 Drums and trumpets sounded. Enter MARTIUS and MUTIUS; after
                 them, two Men bearing a coffin covered with black; then LUCIUS
                 and QUINTUS. After them, TITUS ANDRONICUS; and then TAMORA, with
@@ -283,7 +283,7 @@
             <l>Tears of true joy for his return to Rome. </l>
             <l>Thou great defender of this Capitol, </l>
             <l>Stand gracious to the rites that we intend! </l>
-            <l n="80">Romans, of five and twenty valiant sons, </l>
+            <l>Romans, of five and twenty valiant sons, </l>
             <l>Half of the number that King Priam had, </l>
             <l>Behold the poor remains, alive and dead! </l>
             <l>These that survive let Rome reward with love; </l>
@@ -293,7 +293,7 @@
             <l>Titus, unkind and careless of thine own, </l>
             <l>Why suffer'st thou thy sons, unburied yet, </l>
             <l>To hover on the dreadful shore of Styx? </l>
-            <l n="90">Make way to lay them by their brethren. <stage>The tomb is
+            <l>Make way to lay them by their brethren. <stage>The tomb is
                 opened.</stage>
               </l>
             <l>There greet in silence, as the dead are wont, </l>
@@ -308,7 +308,7 @@
             <l>Give us the proudest prisoner of thy Goths, </l>
             <l>That we may hew his limbs, and on a pile </l>
             <l>Ad manes fratrum sacrifice his flesh, </l>
-            <l n="100">Before this earthy prison of their bones; </l>
+            <l>Before this earthy prison of their bones; </l>
             <l>That so the shadows be not unappeased. </l>
             <l>Nor we disturb'd with prodigies on earth. </l>
           </sp>
@@ -324,7 +324,7 @@
             <l>A mother's tears in passion for her son: </l>
             <l>And if thy sons were ever dear to thee, </l>
             <l>O, think my son to be as dear to me! </l>
-            <l n="110">Sufficeth not that we are brought to Rome, </l>
+            <l>Sufficeth not that we are brought to Rome, </l>
             <l>To beautify thy triumphs and return, </l>
             <l>Captive to thee and to thy Roman yoke, </l>
             <l>But must my sons be slaughter'd in the streets, </l>
@@ -335,7 +335,7 @@
             <l>Wilt thou draw near the nature of the gods? </l>
             <l>Draw near them then in being merciful: </l>
             <l>Sweet mercy is nobility's true badge: </l>
-            <l n="121">Thrice noble Titus, spare my first-born son. </l>
+            <l>Thrice noble Titus, spare my first-born son. </l>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
@@ -350,7 +350,7 @@
             <speaker>Luc.</speaker>
             <l>Away with him! and make a fire straight; </l>
             <l>And with our swords, upon a pile of wood, </l>
-            <l n="130">Let's hew his limbs till they be clean consumed. <stage type="exit">Exeunt Lucius, Quintus, Martius, and Mutius, with Alarbus.</stage>
+            <l>Let's hew his limbs till they be clean consumed. <stage type="exit">Exeunt Lucius, Quintus, Martius, and Mutius, with Alarbus.</stage>
               </l>
           </sp>
           <sp who="tit-24">
@@ -370,7 +370,7 @@
             <l>The self-same gods that arm'd the Queen of Troy </l>
             <l>With opportunity of sharp revenge </l>
             <l>Upon the Thracian tyrant in his tent, </l>
-            <l n="140">May favour Tamora, the Queen of Goths— </l>
+            <l>May favour Tamora, the Queen of Goths— </l>
             <l>When Goths were Goths and Tamora was queen— </l>
             <l>To quit the bloody wrongs upon her foes. <stage type="entrance">Re-enter Lucius, QUINTUS, MARTIUS, and MUTIUS, with their swords bloody. </stage>
               </l>
@@ -390,7 +390,7 @@
             <l>Make this his latest farewell to their souls. 
               <stage>Trumpets sounded, and the coffin laid in the tomb.</stage>
               </l>
-            <l n="151">In peace and honour rest you here, my sons; </l>
+            <l>In peace and honour rest you here, my sons; </l>
             <l>Rome's readiest champions, repose you here in rest, </l>
             <l>Secure from worldly chances and mishaps! </l>
             <l>Here lurks no treason, here no envy swells, </l>
@@ -403,7 +403,7 @@
             <speaker>Lav.</speaker>
             <l>In peace and honour live Lord Titus long; </l>
             <l>My noble lord and father, live in fame! </l>
-            <l n="160">Lo, at this tomb my tributary tears </l>
+            <l>Lo, at this tomb my tributary tears </l>
             <l>I render, for my brethren's obsequies; </l>
             <l>And at thy feet I kneel, with tears of joy, </l>
             <l>Shed on the earth, for thy return to Rome: </l>
@@ -422,7 +422,7 @@
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
-            <l n="170">Long live Lord Titus, my beloved brother, </l>
+            <l>Long live Lord Titus, my beloved brother, </l>
             <l>Gracious triumpher in the eyes of Rome! </l>
           </sp>
           <sp who="tit-25">
@@ -437,7 +437,7 @@
             <l>That in your country's service drew your swords: </l>
             <l>But safer triumph is this funeral pomp, </l>
             <l>That hath aspired to Solon's happiness </l>
-            <l n="179">And triumphs over chance in honour's bed. </l>
+            <l>And triumphs over chance in honour's bed. </l>
             <l>Titus Andronicus, the people of Rome, </l>
             <l>Whose friend in justice thou hast ever been, </l>
             <l>Send thee by me, their tribute and their trust, </l>
@@ -451,7 +451,7 @@
             <speaker>Tit.</speaker>
             <l>A better head her glorious body fits </l>
             <l>Than this that shakes for age and feebleness: </l>
-            <l n="190">What should I don this robe, and trouble you? </l>
+            <l>What should I don this robe, and trouble you? </l>
             <l>Be chosen with proclamations to-day, </l>
             <l>To-morrow yield up rule, resign my life, </l>
             <l>And set abroad new business for you all? </l>
@@ -461,7 +461,7 @@
             <l>Knighted in field, slain manfully in arms, </l>
             <l>In right and service of their noble country: </l>
             <l>Give me a staff of honour for mine age, </l>
-            <l n="200">But not a sceptre to control the world: </l>
+            <l>But not a sceptre to control the world: </l>
             <l>Upright he held it, lords, that held it last. </l>
           </sp>
           <sp who="tit-15">
@@ -487,7 +487,7 @@
           <sp who="tit-13">
             <speaker>Luc.</speaker>
             <l>Proud Saturnine, interrupter of the good </l>
-            <l n="210">That noble-minded Titus means to thee! </l>
+            <l>That noble-minded Titus means to thee! </l>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
@@ -510,7 +510,7 @@
           </sp>
           <sp who="tit-26">
             <speaker>Tribunes.</speaker>
-            <l n="221">To gratify the good Andronicus, </l>
+            <l>To gratify the good Andronicus, </l>
             <l>And gratulate his safe return to Rome, </l>
             <l>The people will accept whom he admits. </l>
           </sp>
@@ -522,7 +522,7 @@
             <l>Reflect on Rome as Titan's rays on earth, </l>
             <l>And ripen justice in this commonweal: </l>
             <l>Then, if you will elect by my advice, </l>
-            <l n="230">Crown him, and say 'Long live our emperor!' </l>
+            <l>Crown him, and say 'Long live our emperor!' </l>
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
@@ -540,7 +540,7 @@
             <l>I give thee thanks in part of thy deserts, </l>
             <l>And will with deeds requite thy gentleness: </l>
             <l>And, for an onset, Titus, to advance </l>
-            <l n="240">Thy name and honourable family, </l>
+            <l>Thy name and honourable family, </l>
             <l>Lavinia will I make my empress, </l>
             <l>Rome's royal mistress, mistress of my heart, </l>
             <l>And in the sacred Pantheon her espouse: </l>
@@ -554,7 +554,7 @@
             <l>King and commander of our commonweal, </l>
             <l>The wide world's emperor, do I consecrate </l>
             <l>My sword, my chariot and my prisoners; </l>
-            <l n="251">Presents well worthy Rome's imperial lord: </l>
+            <l>Presents well worthy Rome's imperial lord: </l>
             <l>Receive them then, the tribute that I owe, </l>
             <l>Mine honour's ensigns humbled at thy feet. </l>
           </sp>
@@ -570,7 +570,7 @@
             <speaker>Tit.</speaker>
             <stage>To Tamora</stage>
             <l>Now, madam, are you prisoner to an emperor; </l>
-            <l n="260">To him that, for your honour and your state, </l>
+            <l>To him that, for your honour and your state, </l>
             <l>Will use you nobly and your followers. </l>
           </sp>
           <sp who="tit-22">
@@ -583,7 +583,7 @@
             <l>Princely shall be thy usage every way. </l>
             <l>Rest on my word, and let not discontent </l>
             <l>Daunt all your hopes: madam, he comforts you </l>
-            <l n="270">Can make you greater than the Queen of Goths. </l>
+            <l>Can make you greater than the Queen of Goths. </l>
             <l>Lavinia, you are not displeased with this? </l>
           </sp>
           <sp who="tit-12">
@@ -611,7 +611,7 @@
           <sp who="tit-4">
             <speaker>Bas.</speaker>
             <l>Ay, noble Titus; and resolved withal </l>
-            <l n="280">To do myself this reason and this right. </l>
+            <l>To do myself this reason and this right. </l>
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
@@ -647,7 +647,7 @@
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <l n="289">Follow, my lord, and I'll soon bring her back. </l>
+            <l>Follow, my lord, and I'll soon bring her back. </l>
           </sp>
           <sp who="tit-18">
             <speaker>Mut.</speaker>
@@ -687,7 +687,7 @@
           </sp>
           <sp who="tit-22">
             <speaker>Sat.</speaker>
-            <l n="300">No, Titus, no; the emperor needs her not, </l>
+            <l>No, Titus, no; the emperor needs her not, </l>
             <l>Nor her, nor thee, nor any of thy stock: </l>
             <l>I'll trust, by leisure, him that mocks me once; </l>
             <l>Thee never, nor thy traitorous haughty sons, </l>
@@ -704,7 +704,7 @@
           <sp who="tit-22">
             <speaker>Sat.</speaker>
             <l>But go thy ways; go, give that changing piece </l>
-            <l n="311">To him that flourish'd for her with his sword: </l>
+            <l>To him that flourish'd for her with his sword: </l>
             <l>A valiant son-in-law thou shalt enjoy; </l>
             <l>One fit to bandy with thy lawless sons, </l>
             <l>To ruffle in the commonwealth of Rome. </l>
@@ -719,7 +719,7 @@
             <l>That like the stately Phoebe 'mongst her nymphs </l>
             <l>Dost overshine the gallant'st dames of Rome, </l>
             <l>If thou be pleased with this my sudden choice, </l>
-            <l n="320">Behold, I choose thee, Tamora, for my bride, </l>
+            <l>Behold, I choose thee, Tamora, for my bride, </l>
             <l>And will create thee empress of Rome, </l>
             <l>Speak, Queen of Goths, dost thou applaud my choice? </l>
             <l>And here I swear by all the Roman gods, </l>
@@ -732,7 +732,7 @@
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
-            <l n="330">And here, in sight of heaven, to Rome I swear, </l>
+            <l>And here, in sight of heaven, to Rome I swear, </l>
             <l>If Saturine advance the Queen of Goths, </l>
             <l>She will a handmaid be to his desires, </l>
             <l>A loving nurse, a mother to his youth. </l>
@@ -748,7 +748,7 @@
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <l n="339">I am not bid to wait upon this bride. </l>
+            <l>I am not bid to wait upon this bride. </l>
             <l>Titus, when wert thou wont to walk alone, </l>
             <l part="I">Dishonour'd thus, and challenged of wrongs? <stage type="entrance">Re-enter MARCUS, Lucius, QUINTUS, and MARTIUS.</stage>
               </l>
@@ -773,7 +773,7 @@
           <sp who="tit-25">
             <speaker>Tit.</speaker>
             <l>Traitors, away! he rests not in this tomb: </l>
-            <l n="351">This monument five hundred years hath stood. </l>
+            <l>This monument five hundred years hath stood. </l>
             <l>Which I have sumptuously re-edified: </l>
             <l>Here none but soldiers and Rome's servitors </l>
             <l>Repose in fame; none basely slain in brawls: </l>
@@ -792,7 +792,7 @@
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <l n="360">'And shall!' what villain was it spake that word? 
+            <l>'And shall!' what villain was it spake that word? 
               </l>
           </sp>
           <sp who="tit-21">
@@ -821,7 +821,7 @@
           </sp>
           <sp who="tit-21">
             <speaker>Quin.</speaker>
-            <l n="370">Not I, till Mutius' bones be buried. <stage>Marcus and the Sons
+            <l>Not I, till Mutius' bones be buried. <stage>Marcus and the Sons
                 of Titus kneel.</stage>
               </l>
           </sp>
@@ -851,7 +851,7 @@
             <l>His noble nephew here in virtue's nest, </l>
             <l>That died in honour and Lavinia's cause. </l>
             <l>Thou art a Roman; be not barbarous: </l>
-            <l n="380">The Greeks upon advice did bury Ajax </l>
+            <l>The Greeks upon advice did bury Ajax </l>
             <l>That slew himself; and wise Laertes' son </l>
             <l>Did graciously plead for his funerals: </l>
             <l>Let not young Mutius, then, that was thy joy, </l>
@@ -876,7 +876,7 @@
             <stage>Kneeling</stage>
             
             <l>No man shed tears for noble Mutius; </l>
-            <l n="391">He lives in fame that died in virtue's cause. </l>
+            <l>He lives in fame that died in virtue's cause. </l>
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
@@ -898,7 +898,7 @@
           <sp who="tit-22">
             <speaker>Sat.</speaker>
             <l>So, Bassianus, you have play'd your prize: </l>
-            <l n="401">God give you joy, sir, of your gallant bride! </l>
+            <l>God give you joy, sir, of your gallant bride! </l>
           </sp>
           <sp who="tit-4">
             <speaker>Bas.</speaker>
@@ -919,7 +919,7 @@
           </sp>
           <sp who="tit-22">
             <speaker>Sat.</speaker>
-            <l n="410">'Tis good, sir: you are very short with us; </l>
+            <l>'Tis good, sir: you are very short with us; </l>
             <l>But, if we live, we'll be as sharp with you. </l>
           </sp>
           <sp who="tit-4">
@@ -932,7 +932,7 @@
             <l>Is in opinion and in honour wrong'd; </l>
             <l>That in the rescue of Lavinia </l>
             <l>With his own hand did slay his youngest son, </l>
-            <l n="420">In zeal to you and highly moved to wrath </l>
+            <l>In zeal to you and highly moved to wrath </l>
             <l>To be controll'd in that he frankly gave: </l>
             <l>Receive him, then, to favour, Saturnine, </l>
             <l>That hath expressed himself in all his deeds </l>
@@ -948,7 +948,7 @@
           <sp who="tit-24">
             <speaker>Tam.</speaker>
             <l>My worthy lord, if ever Tamora </l>
-            <l n="430">Were gracious in those princely eyes of thine, </l>
+            <l>Were gracious in those princely eyes of thine, </l>
             <l>Then hear me speak indifferently for all; </l>
             <l>And at my suit, sweet, pardon what is past. </l>
           </sp>
@@ -974,7 +974,7 @@
             <l>Upon a just survey, take Titus' part, </l>
             <l>And so supplant you for ingratitude, </l>
             <l>Which Rome reputes to be a heinous sin, </l>
-            <l n="450">Yield at entreats; and then let me alone: </l>
+            <l>Yield at entreats; and then let me alone: </l>
             <l>I'll find a day to massacre them all </l>
             <l>And raze their faction and their family, </l>
             <l>The cruel father and his traitorous sons, </l>
@@ -987,7 +987,7 @@
           </sp>
           <sp who="tit-22">
             <speaker>Sat.</speaker>
-            <l n="460">Rise, Titus, rise; my empress hath prevail'd. </l>
+            <l>Rise, Titus, rise; my empress hath prevail'd. </l>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
@@ -1003,7 +1003,7 @@
             <l>And let it be mine honour, good my lord, </l>
             <l>That I have reconciled your friends and you. </l>
             <l>For you, Prince Bassianus, I have pass'd </l>
-            <l n="470">My word and promise to the emperor, </l>
+            <l>My word and promise to the emperor, </l>
             <l>That you will be more mild and tractable. </l>
             <l>And fear not, lords, and you, Lavinia; </l>
             <l>By my advice, all humbled on your knees, </l>
@@ -1021,7 +1021,7 @@
           </sp>
           <sp who="tit-22">
             <speaker>Sat.</speaker>
-            <l n="479">Away, and talk not; trouble us no more. </l>
+            <l>Away, and talk not; trouble us no more. </l>
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
@@ -1039,7 +1039,7 @@
             <l>I found a friend, and sure as death I swore </l>
             <l>I would not part a bachelor from the priest. </l>
             <l>Come, if the emperor's court can feast two brides, </l>
-            <l n="491">You are my guest, Lavinia, and your friends. </l>
+            <l>You are my guest, Lavinia, and your friends. </l>
             <l>This day shall be a love-day, Tamora. </l>
           </sp>
           <sp who="tit-25">
@@ -1076,7 +1076,7 @@
             <l>And, having gilt the ocean with his beams, </l>
             <l>Gallops the zodiac in his glistering coach, </l>
             <l>And overlooks the highest-peering hills; </l>
-            <l n="10">So Tamora: </l>
+            <l>So Tamora: </l>
             <l>Upon her wit doth earthly honour wait, </l>
             <l>And virtue stoops and trembles at her frown. </l>
             <l>Then, Aaron, arm thy heart, and fit thy thoughts, </l>
@@ -1086,7 +1086,7 @@
             <l>And faster bound to Aaron's charming eyes </l>
             <l>Than is Prometheus tied to Caucasus. </l>
             <l>Away with slavish weeds and servile thoughts! </l>
-            <l n="20">I will be bright, and shine in pearl and gold. </l>
+            <l>I will be bright, and shine in pearl and gold. </l>
             <l>To wait upon this new-made empress. </l>
             <l>To wait, said I? to wanton with this queen, </l>
             <l>This goddess, this Semiramis, this nymph, </l>
@@ -1104,7 +1104,7 @@
           </sp>
           <sp who="tit-8">
             <speaker>Chi.</speaker>
-            <l n="30">Demetrius, thou dost over-ween in all; </l>
+            <l>Demetrius, thou dost over-ween in all; </l>
             <l>And so in this, to bear me down with braves. </l>
             <l>'Tis not the difference of a year or two </l>
             <l>Makes me less gracious or thee more fortunate: </l>
@@ -1121,7 +1121,7 @@
           <sp who="tit-10">
             <speaker>Dem.</speaker>
             <l>Why, boy, although our mother, unadvised, </l>
-            <l n="40">Gave you a dancing rapier by your side, </l>
+            <l>Gave you a dancing rapier by your side, </l>
             <l>Are you so desperate grown, to threat your friends ? </l>
             <l>Go to; have your lath glued within your sheath </l>
             <l>Till you know better how to handle it. </l>
@@ -1143,7 +1143,7 @@
             <l>So near the emperor's palace dare you draw, </l>
             <l>And maintain such a quarrel openly? </l>
             <l>Full well I wot the ground of all this grudge: </l>
-            <l n="50">I would not for a million of gold </l>
+            <l>I would not for a million of gold </l>
             <l>The cause were known to them it most concerns; </l>
             <l>Nor would your noble mother for much more </l>
             <l>Be so dishonour'd in the court of Rome. </l>
@@ -1160,7 +1160,7 @@
             <speaker>Chi.</speaker>
             <l>For that I am prepared and full resolved. </l>
             <l>Foul-spoken coward, that thunder'st with thy tongue, </l>
-            <l n="60">And with thy weapon nothing darest perform! </l>
+            <l>And with thy weapon nothing darest perform! </l>
           </sp>
           <sp who="tit-1">
             <speaker>Aar.</speaker>
@@ -1173,7 +1173,7 @@
             <l>Or Bassianus so degenerate, </l>
             <l>That for her love such quarrels may be broach'd </l>
             <l>Without controlment, justice, or revenge? </l>
-            <l n="70">Young lords, beware! and should the empress know </l>
+            <l>Young lords, beware! and should the empress know </l>
             <l>This discord's ground, the music would not please. </l>
           </sp>
           <sp who="tit-8">
@@ -1244,7 +1244,7 @@
             <speaker>Aar.</speaker>
             <l part="F">Would you had hit it too! </l>
             <l>Then should not we be tired with this ado. </l>
-            <l n="100">Why, hark ye, hark ye! and are you such fools </l>
+            <l>Why, hark ye, hark ye! and are you such fools </l>
             <l>To square for this? would it offend you, then, </l>
             <l>That both should speed? </l>
           </sp>
@@ -1264,7 +1264,7 @@
             <l>That what you cannot as you would achieve, </l>
             <l>You must perforce accomplish as you may. </l>
             <l>Take this of me: Lucrece was not more chaste </l>
-            <l n="110">Than this Lavinia, Bassianus' love. </l>
+            <l>Than this Lavinia, Bassianus' love. </l>
             <l>A speedier course than lingering languishment </l>
             <l>Must we pursue, and I have found the path. </l>
             <l>My lords, a solemn hunting is in hand; </l>
@@ -1275,7 +1275,7 @@
             <l>Single you thither then this dainty doe, </l>
             <l>And strike her home by force, if not by words: </l>
             <l>This way, or not at all, stand you in hope. </l>
-            <l n="121">Come, come, our empress, with her sacred wit </l>
+            <l>Come, come, our empress, with her sacred wit </l>
             <l>To villany and vengeance consecrate, </l>
             <l>Will we acquaint with all that we intend; </l>
             <l>And she shall file our engines with advice, </l>
@@ -1284,7 +1284,7 @@
             <l>The emperor's court is like the house of Fame, </l>
             <l>The palace full of tongues, of eyes, of ears: </l>
             <l>The woods are ruthless, dreadful, deaf, and dull; </l>
-            <l n="130">There speak, and strike, brave boys, and take your turns; </l>
+            <l>There speak, and strike, brave boys, and take your turns; </l>
             <l>There serve your lusts, shadow'd from heaven's eye, </l>
             <l>And revel in Lavinia's treasury. </l>
           </sp>
@@ -1319,7 +1319,7 @@
             <l>Sons, let it be your charge, as it is ours, </l>
             <l>To attend the emperor's person carefully: </l>
             <l>I have been troubled in my sleep this night, </l>
-            <l n="11">But dawning day new comfort hath inspired. <stage>A cry of
+            <l>But dawning day new comfort hath inspired. <stage>A cry of
                 hounds, and horns winded in a peal.</stage>
               
               <stage type="entrance">Enter SATURNINUS, TAMORA, BASSIANUS,
@@ -1347,7 +1347,7 @@
             <speaker>Sat.</speaker>
             <l>Come on, then; horse and chariots let us have, </l>
             <l>And to our sport. <stage>To Tamora</stage>Madam, now shall ye see </l>
-            <l part="I" n="20">Our Roman hunting. </l>
+            <l part="I">Our Roman hunting. </l>
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
@@ -1385,7 +1385,7 @@
             <l>A very excellent piece of villany: </l>
             <l>And so repose, sweet gold, for their unrest <stage>Hides the gold.</stage>
               </l>
-            <l n="10">That have their alms out of the empress' chest. <stage type="entrance">Enter TAMORA.</stage>
+            <l>That have their alms out of the empress' chest. <stage type="entrance">Enter TAMORA.</stage>
               </l>
           </sp>
           <sp who="tit-24">
@@ -1398,7 +1398,7 @@
             <l>And make a chequer'd shadow on the ground: </l>
             <l>Under their sweet shade, Aaron, let us sit, </l>
             <l>And, whilst the babbling echo mocks the hounds, </l>
-            <l n="19">Replying shrilly to the well-tuned horns, </l>
+            <l>Replying shrilly to the well-tuned horns, </l>
             <l>As if a double hunt were heard at once, </l>
             <l>Let us sit down and mark their yelping noise; </l>
             <l>And, after conflict such as was supposed </l>
@@ -1409,7 +1409,7 @@
             <l>Our pastimes done, possess a golden slumber; </l>
             <l>Whiles hounds and horns and sweet melodious birds </l>
             <l>Be unto us as is a nurse's song </l>
-            <l n="30">Of lullaby to bring her babe asleep. </l>
+            <l>Of lullaby to bring her babe asleep. </l>
           </sp>
           <sp who="tit-1">
             <speaker>Aar.</speaker>
@@ -1422,7 +1422,7 @@
             <l>To do some fatal execution? </l>
             <l>No, madam, these are no venereal signs: </l>
             <l>Vengeance is in my heart, death in my hand, </l>
-            <l n="40">Blood and revenge are hammering in my head. </l>
+            <l>Blood and revenge are hammering in my head. </l>
             <l>Hark, Tamora, the empress of my soul, </l>
             <l>Which never hopes more heaven than rests in thee, </l>
             <l>This is the day of doom for Bassianus: </l>
@@ -1432,7 +1432,7 @@
             <l>Seest thou this letter? take it up, I pray thee, </l>
             <l>And give the king this fatal-plotted scroll. </l>
             <l>Now question me no more; we are espied; </l>
-            <l n="50">Here comes a parcel of our hopful booty, </l>
+            <l>Here comes a parcel of our hopful booty, </l>
             <l>Which dreads not yet their lives' destruction. 
               </l>
           </sp>
@@ -1458,7 +1458,7 @@
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
-            <l n="61">Saucy controller of our private steps! </l>
+            <l>Saucy controller of our private steps! </l>
             <l>Had I the power that some say Dian had, </l>
             <l>Thy temples should be planted presently </l>
             <l>With horns, as was Actaeon's; and the hounds </l>
@@ -1470,7 +1470,7 @@
             <l>Under your patience, gentle empress, </l>
             <l>'Tis thought you have a goodly gift in horning; </l>
             <l>And to be doubted that your Moor and you </l>
-            <l n="70">Are singled forth to try experiments: </l>
+            <l>Are singled forth to try experiments: </l>
             <l>Jove shield your husband from his hounds to-day! </l>
             <l>'Tis pity they should take him for a stag. </l>
           </sp>
@@ -1487,7 +1487,7 @@
           </sp>
           <sp who="tit-12">
             <speaker>Lav.</speaker>
-            <l n="81">And, being intercepted in your sport, </l>
+            <l>And, being intercepted in your sport, </l>
             <l>Great reason that my noble lord be rated </l>
             <l>For sauciness. I pray you, let us hence, </l>
             <l>And let her joy her raven-colour'd love; </l>
@@ -1511,7 +1511,7 @@
           <sp who="tit-10">
             <speaker>Dem.</speaker>
             <l>How now, dear sovereign, and our gracious mother! </l>
-            <l n="91">Why doth your highness look so pale and wan? </l>
+            <l>Why doth your highness look so pale and wan? </l>
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
@@ -1534,7 +1534,7 @@
             <l>Unto the body of a dismal yew, </l>
             <l>And leave me to this miserable death: </l>
             <l>And then they call'd me foul adulteress, </l>
-            <l n="111">Lascivious Goth, and all the bitterest terms </l>
+            <l>Lascivious Goth, and all the bitterest terms </l>
             <l>That ever ear did hear to such effect: </l>
             <l>And, had you not by wondrous fortune come, </l>
             <l>This vengeance on me had they executed. </l>
@@ -1555,7 +1555,7 @@
           <sp who="tit-12">
             <speaker>Lav.</speaker>
             <l>Ay, come, Semiramis, nay, barbarous Tamora, </l>
-            <l n="120">For no name fits thy nature but thy own! </l>
+            <l>For no name fits thy nature but thy own! </l>
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
@@ -1575,7 +1575,7 @@
             <speaker>Chi.</speaker>
             <l>An if she do, I would I were an eunuch. </l>
             <l>Drag hence her husband to some secret hole, </l>
-            <l n="131">And make his dead trunk pillow to our lust. </l>
+            <l>And make his dead trunk pillow to our lust. </l>
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
@@ -1603,7 +1603,7 @@
           <sp who="tit-10">
             <speaker>Dem.</speaker>
             <l>Listen, fair madam: let it be your glory </l>
-            <l n="141">To see her tears; but be your heart to them </l>
+            <l>To see her tears; but be your heart to them </l>
             <l>As unrelenting flint to drops of rain. </l>
           </sp>
           <sp who="tit-12">
@@ -1623,7 +1623,7 @@
           <sp who="tit-12">
             <speaker>Lav.</speaker>
             <l>'Tis true; the raven doth not hatch a lark: </l>
-            <l n="151">Yet have I heard,—O, could I find it now!— </l>
+            <l>Yet have I heard,—O, could I find it now!— </l>
             <l>The lion moved with pity did endure </l>
             <l>To have his princely paws pared all away: </l>
             <l>Some say that ravens foster forlorn children, </l>
@@ -1638,7 +1638,7 @@
           <sp who="tit-12">
             <speaker>Lav.</speaker>
             <l>O, let me teach thee! for my father's sake, </l>
-            <l n="160">That gave thee life, when well he might have slain thee, </l>
+            <l>That gave thee life, when well he might have slain thee, </l>
             <l>Be not obdurate, open thy deaf ears. </l>
           </sp>
           <sp who="tit-24">
@@ -1654,7 +1654,7 @@
           <sp who="tit-12">
             <speaker>Lav.</speaker>
             <l>O Tamora, be call'd a gentle queen, </l>
-            <l n="170">And with thine own hands kill me in this place! </l>
+            <l>And with thine own hands kill me in this place! </l>
             <l>For 'tis not life that I have begg'd so long; </l>
             <l>Poor I was slain when Bassianus died. </l>
           </sp>
@@ -1673,7 +1673,7 @@
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
-            <l n="180">So should I rob my sweet sons of their fee: </l>
+            <l>So should I rob my sweet sons of their fee: </l>
             <l>No, let them satisfy their lust on thee. </l>
           </sp>
           <sp who="tit-10">
@@ -1698,7 +1698,7 @@
             <speaker>Tam.</speaker>
             <l>Farewell, my sons: see that you make her sure. </l>
             <l>Ne'er let my heart know merry cheer indeed, </l>
-            <l n="190">Till all the Andronici be made away. </l>
+            <l>Till all the Andronici be made away. </l>
             <l>Now will I hence to seek my lovely Moor, </l>
             <l>And let my spleenful sons this trull deflour. <stage type="exit">Exit.</stage>
               <stage type="entrance">Re-enter AARON, with QUINTUS and
@@ -1724,7 +1724,7 @@
           <sp who="tit-21">
             <speaker>Quin.</speaker>
             <l>What, art thou fallen? What subtle hole is this, </l>
-            <l n="200">Whose mouth is cover'd with rude-growing briers, </l>
+            <l>Whose mouth is cover'd with rude-growing briers, </l>
             <l>Upon whose leaves are drops of new-shed blood </l>
             <l>As fresh as morning dew distill'd on flowers? </l>
             <l>A very fatal place it seems to me. </l>
@@ -1740,7 +1740,7 @@
             <stage>Aside</stage>
             <l>Now will I fetch the king to find them here, </l>
             <l>That he thereby may give a likely guess </l>
-            <l n="209">How these were they that made away his brother. <stage type="exit">Exit. </stage>
+            <l>How these were they that made away his brother. <stage type="exit">Exit. </stage>
               </l>
           </sp>
           <sp who="tit-16">
@@ -1764,7 +1764,7 @@
             <speaker>Quin.</speaker>
             <l>Aaron is gone, and my compassionate heart </l>
             <l>Will not permit mine eyes once to behold </l>
-            <l n="220">The thing whereat it trembles by surmise: </l>
+            <l>The thing whereat it trembles by surmise: </l>
             <l>O, tell me how it is; for ne'er till now </l>
             <l>Was I a child to fear I know not what. </l>
           </sp>
@@ -1783,7 +1783,7 @@
             <l>Upon his bloody finger he doth wear </l>
             <l>A precious ring, that lightens all the hole, </l>
             <l>Which, like a taper in some monument, </l>
-            <l n="230">Doth shine upon the dead man's earthy cheeks, </l>
+            <l>Doth shine upon the dead man's earthy cheeks, </l>
             <l>And shows the ragged entrails of the pit: </l>
             <l>So pale did shine the moon on Pyramus </l>
             <l>When he by night lay bathed in maiden blood. </l>
@@ -1796,7 +1796,7 @@
             <speaker>Quin.</speaker>
             <l>Reach me thy hand, that I may help thee out; </l>
             <l>Or, wanting strength to do thee so much good, </l>
-            <l n="240">I may be pluck'd into the swallowing womb </l>
+            <l>I may be pluck'd into the swallowing womb </l>
             <l>Of this deep pit, poor Bassianus' grave. </l>
             <l>I have no strength to pluck thee to the brink. </l>
           </sp>
@@ -1821,7 +1821,7 @@
           </sp>
           <sp who="tit-16">
             <speaker>Mart.</speaker>
-            <l n="251">The unhappy son of old Andronicus; </l>
+            <l>The unhappy son of old Andronicus; </l>
             <l>Brought hither in a most unlucky hour, </l>
             <l>To find thy brother Bassianus dead. </l>
           </sp>
@@ -1841,7 +1841,7 @@
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
-            <l n="260">Where is my lord the king? </l>
+            <l>Where is my lord the king? </l>
           </sp>
           <sp who="tit-22">
             <speaker>Sat.</speaker>
@@ -1871,7 +1871,7 @@
             
             
             <l>'An if we miss to meet him handsomely— </l>
-            <l n="270">Sweet huntsman, Bassianus 'tis we mean— </l>
+            <l>Sweet huntsman, Bassianus 'tis we mean— </l>
             <l>Do thou so much as dig the grave for him: </l>
             <l>Thou know'st our meaning. Look for thy reward </l>
             <l>Among the nettles at the elder-tree </l>
@@ -1881,7 +1881,7 @@
             <l>O Tamora! was ever heard the like? </l>
             <l>This is the pit, and this the elder-tree. </l>
             <l>Look. sirs, if you can find the huntsman out </l>
-            <l n="280">That should have murder'd Bassianus here. </l>
+            <l>That should have murder'd Bassianus here. </l>
           </sp>
           <sp who="tit-1">
             <speaker>Aar.</speaker>
@@ -1904,7 +1904,7 @@
           <sp who="tit-25">
             <speaker>Tit.</speaker>
             <l>High emperor, upon my feeble knee </l>
-            <l n="290">I beg this boon, with tears not lightly shed, </l>
+            <l>I beg this boon, with tears not lightly shed, </l>
             <l>That this fell fault of my accursed sons, </l>
             <l>Accursed, if the fault be proved in them,— </l>
           </sp>
@@ -1926,7 +1926,7 @@
           </sp>
           <sp who="tit-22">
             <speaker>Sat.</speaker>
-            <l n="300">Thou shalt not bail them: see thou follow me. </l>
+            <l>Thou shalt not bail them: see thou follow me. </l>
             <l>Some bring the murder'd body, some the murderers: </l>
             <l>Let them not speak a word; the guilt is plain; </l>
             <l>For, by my soul, were there worse end than death, </l>
@@ -1977,11 +1977,11 @@
           </sp>
           <sp who="tit-8">
             <speaker>Chi.</speaker>
-            <l n="10">An 'twere my case, I should go hang myself. </l>
+            <l>An 'twere my case, I should go hang myself. </l>
           </sp>
           <sp who="tit-10">
             <speaker>Dem.</speaker>
-            <l n="11">If thou hadst hands to help thee knit the cord. <stage type="exit">Exeunt Demetrius and Chiron. </stage>
+            <l>If thou hadst hands to help thee knit the cord. <stage type="exit">Exeunt Demetrius and Chiron. </stage>
               
               <stage type="entrance">Enter MARCUS.</stage>
               </l>
@@ -1996,7 +1996,7 @@
             <l>Speak, gentle niece, what stern ungentle hands </l>
             <l>Have lopp'd and hew'd and made thy body bare </l>
             <l>Of her two branches, those sweet ornaments, </l>
-            <l n="20">Whose circling shadows kings have sought to sleep in, </l>
+            <l>Whose circling shadows kings have sought to sleep in, </l>
             <l>And might not gain so great a happiness </l>
             <l>As have thy love? Why dost not speak to me? </l>
             <l>Alas, a crimson river of warm blood, </l>
@@ -2006,7 +2006,7 @@
             <l>But, sure, some Tereus hath deflowered thee, </l>
             <l>And, lest thou shouldst detect him, cut thy tongue. </l>
             <l>Ah, now thou turn'st away thy face for shame! </l>
-            <l n="30">And, notwithstanding all this loss of blood, </l>
+            <l>And, notwithstanding all this loss of blood, </l>
             <l>As from a conduit with three issuing spouts, </l>
             <l>Yet do thy cheeks look red as Titan's face </l>
             <l>Blushing to be encounter'd with a cloud. </l>
@@ -2017,7 +2017,7 @@
             <l>Doth burn the heart to cinders where it is. </l>
             <l>Fair Philomela, she but lost her tongue, </l>
             <l>And in a tedious sampler sew'd her mind: </l>
-            <l n="41">But, lovely niece, that mean is cut from thee; </l>
+            <l>But, lovely niece, that mean is cut from thee; </l>
             <l>A craftier Tereus, cousin, hast thou met, </l>
             <l>And he hath cut those pretty fingers off, </l>
             <l>That could have better sew'd than Philomel. </l>
@@ -2026,7 +2026,7 @@
             <l>And make the silken strings delight to kiss them, </l>
             <l>He would not then have touch'd them for his life! </l>
             <l>Or, had he heard the heavenly harmony </l>
-            <l n="50">Which that sweet tongue hath made, </l>
+            <l>Which that sweet tongue hath made, </l>
             <l>He would have dropp'd his knife, and fell asleep </l>
             <l>As Cerberus at the Thracian poet's feet. </l>
             <l>Come, let us go, and make thy father blind; </l>
@@ -2061,7 +2061,7 @@
             <l>And for these bitter tears, which now you see </l>
             <l>Filling the aged wrinkles in my cheeks; </l>
             <l>Be pitiful to my condemned sons, </l>
-            <l n="10">Whose souls are not corrupted as 'tis thought. </l>
+            <l>Whose souls are not corrupted as 'tis thought. </l>
             <l>For two and twenty sons I never wept, </l>
             <l>Because they died in honour's lofty bed. <stage>Lieth
                 down;</stage><stage type="exit">the Judges, &amp;c., pass by him, and
@@ -2074,7 +2074,7 @@
             <l>O earth, I will befriend thee more with rain, </l>
             <l>That shall distil from these two ancient urns, </l>
             <l>Than youthful April shall with all his showers: </l>
-            <l n="20">In summer's drought I'll drop upon thee still; </l>
+            <l>In summer's drought I'll drop upon thee still; </l>
             <l>In winter with warm tears I'll melt the snow, </l>
             <l>And keep eternal spring-time on thy face, </l>
             <l>So thou refuse to drink my dear sons' blood. <stage type="entrance"> Enter Lucius, with his sword drawn.</stage>
@@ -2088,7 +2088,7 @@
             <speaker>Luc.</speaker>
             <l>O noble father, you lament in vain: </l>
             <l>The tribunes hear you not; no man is by; </l>
-            <l n="30">And you recount your sorrows to a stone. </l>
+            <l>And you recount your sorrows to a stone. </l>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
@@ -2107,7 +2107,7 @@
             <l>And bootless unto them<gap instant="false"/> . . . . . . . . . </l>
             <l>Therefore I tell my sorrows to the stones; </l>
             <l>Who, though they cannot answer my distress, </l>
-            <l n="40">Yet in some sort they are better than the tribunes, </l>
+            <l>Yet in some sort they are better than the tribunes, </l>
             <l>For that they will not intercept my tale: </l>
             <l>When I do weep, they humbly at my feet </l>
             <l>Receive my tears and seem to weep with me; </l>
@@ -2121,7 +2121,7 @@
           </sp>
           <sp who="tit-13">
             <speaker>Luc.</speaker>
-            <l n="50">To rescue my two brothers from their death: </l>
+            <l>To rescue my two brothers from their death: </l>
             <l>For which attempt the judges have pronounced </l>
             <l>My everlasting doom of banishment. </l>
           </sp>
@@ -2138,7 +2138,7 @@
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
-            <l n="60">Titus, prepare thy aged eyes to weep </l>
+            <l>Titus, prepare thy aged eyes to weep </l>
             <l>Or, if not so, thy noble heart to break: </l>
             <l>I bring consuming sorrow to thine age. </l>
           </sp>
@@ -2165,7 +2165,7 @@
             <l>Hath made thee handless in thy father's sight? </l>
             <l>What fool hath added water to the sea, </l>
             <l>Or brought a faggot to bright-burning Troy? </l>
-            <l n="71">My grief was at the height before thou camest, </l>
+            <l>My grief was at the height before thou camest, </l>
             <l>And now, like Nilus, it disdaineth bounds. </l>
             <l>Give me a sword, I'll chop off my hands too; </l>
             <l>For they have fought for Rome, and all in vain; </l>
@@ -2175,7 +2175,7 @@
             <l>Now all the service I require of them </l>
             <l>Is that the one will help to cut the other. </l>
             <l>'Tis well, Lavinia, that thout hast no hands: </l>
-            <l n="81">For hands, to do Rome service, are but vain. </l>
+            <l>For hands, to do Rome service, are but vain. </l>
           </sp>
           <sp who="tit-13">
             <speaker>Luc.</speaker>
@@ -2196,7 +2196,7 @@
           <sp who="tit-15">
             <speaker>Marc.</speaker>
             <l>O, thus I found her, straying in the park, </l>
-            <l n="90">Seeking to hide herself, as doth the deer </l>
+            <l>Seeking to hide herself, as doth the deer </l>
             <l>That hath received some unrecuring wound. </l>
           </sp>
           <sp who="tit-25">
@@ -2210,7 +2210,7 @@
             <l>Will in his brinish bowels swallow him. </l>
             <l>This way to death my wretched sons are gone; </l>
             <l>Here stands my other son, a banish'd man, </l>
-            <l n="101">And here my brother, weeping at my woes: </l>
+            <l>And here my brother, weeping at my woes: </l>
             <l>But that which gives my soul the greatest spurn, </l>
             <l>Is dear Lavinia, dearer than my soul. </l>
             <l>Had I but seen thy picture in this plight, </l>
@@ -2218,7 +2218,7 @@
             <l>Now I behold thy lively body so? </l>
             <l>Thou hast no hands, to wipe away thy tears, </l>
             <l>Nor tongue, to tell me who hath martyr'd thee: </l>
-            <l n="109">Thy husband he is dead; and for his death </l>
+            <l>Thy husband he is dead; and for his death </l>
             <l>Thy brothers are condemn'd, and dead by this. </l>
             <l>Look, Marcus! ah, son Lucius, look on her! </l>
             <l>When I did name her brothers, then fresh tears </l>
@@ -2235,7 +2235,7 @@
             <l>If they did kill thy husband, then be joyful, </l>
             <l>Because the law hath ta'en revenge on them. </l>
             <l>No, no, they would not do so foul a deed; </l>
-            <l n="120">Witness the sorrow that their sister makes. </l>
+            <l>Witness the sorrow that their sister makes. </l>
             <l>Gentle Lavinia, let me kiss thy lips; </l>
             <l>Or make some sign how I may do thee ease: </l>
             <l>Shall thy good uncle, and thy brother Lucius, </l>
@@ -2246,7 +2246,7 @@
             <l>And in the fountain shall we gaze so long </l>
             <l>Till the fresh taste be taken from that clearness, </l>
             <l>And made a brine-pit with our bitter tears? </l>
-            <l n="131">Or shall we cut away our hands, like thine? </l>
+            <l>Or shall we cut away our hands, like thine? </l>
             <l>Or shall we bite our tongues, and in dumb shows </l>
             <l>Pass the remainder of our hateful days? </l>
             <l>What shall we do? let us, that have our tongues, </l>
@@ -2264,7 +2264,7 @@
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <l n="140">Ah, Marcus, Marcus! brother, well I wot </l>
+            <l>Ah, Marcus, Marcus! brother, well I wot </l>
             <l>Thy napkin cannot drink a tear of mine, </l>
             <l>For thou, poor man, hast drown'd it with thine own. </l>
           </sp>
@@ -2280,7 +2280,7 @@
             <l>His napkin, with his true tears all bewet, </l>
             <l>Can do no service on her sorrowful cheeks. </l>
             <l>O, what a sympathy of woe is this, </l>
-            <l n="150">As far from help as Limbo is from bliss! <stage type="entrance">Enter AARON.</stage>
+            <l>As far from help as Limbo is from bliss! <stage type="entrance">Enter AARON.</stage>
               </l>
           </sp>
           <sp who="tit-1">
@@ -2297,7 +2297,7 @@
             <speaker>Tit.</speaker>
             <l>O gracious emperor! O gentle Aaron! </l>
             <l>Did ever raven sing so like a lark, </l>
-            <l n="160">That gives sweet tidings of the sun's uprise? </l>
+            <l>That gives sweet tidings of the sun's uprise? </l>
             <l>With all my heart, I'll send the emperor </l>
             <l>My hand: </l>
             <l>Good Aaron, wilt thou help to chop it off ? </l>
@@ -2313,7 +2313,7 @@
           <sp who="tit-15">
             <speaker>Marc.</speaker>
             <l>Which of your hands hath not defended Rome, </l>
-            <l n="170">And rear'd aloft the bloody battle-axe, </l>
+            <l>And rear'd aloft the bloody battle-axe, </l>
             <l>Writing destruction on the enemy's castle? </l>
             <l>O, none of both but are of high desert: </l>
             <l>My hand hath been but idle; let it serve </l>
@@ -2336,7 +2336,7 @@
           <sp who="tit-25">
             <speaker>Tit.</speaker>
             <l>Sirs, strive no more: such wither'd herbs as these </l>
-            <l n="180">Are meet for plucking up, and therefore mine. </l>
+            <l>Are meet for plucking up, and therefore mine. </l>
           </sp>
           <sp who="tit-13">
             <speaker>Luc.</speaker>
@@ -2369,7 +2369,7 @@
           <sp who="tit-1">
             <speaker>Aar.</speaker>
             <stage>Aside</stage>
-            <l n="190">If that be call'd deceit, I will be honest, </l>
+            <l>If that be call'd deceit, I will be honest, </l>
             <l>And never, whilst I live, deceive men so: </l>
             <l>But I'll deceive you in another sort, </l>
             <l>And that you'll say, ere half an hour pass. <stage>Cuts off
@@ -2385,7 +2385,7 @@
             <l>From thousand dangers; bid him bury it; </l>
             <l>More hath it merited; that let it have. </l>
             <l>As for my sons, say I account of them </l>
-            <l n="200">As jewels purchased at an easy price; </l>
+            <l>As jewels purchased at an easy price; </l>
             <l>And yet dear too, because I bought mine own. </l>
           </sp>
           <sp who="tit-1">
@@ -2403,7 +2403,7 @@
             <speaker>Tit.</speaker>
             <l>O, here I lift this one hand up to heaven, </l>
             <l>And bow this feeble ruin to the earth: </l>
-            <l n="210">If any power pities wretched tears, </l>
+            <l>If any power pities wretched tears, </l>
             <l>To that I call! <stage>To Lav.</stage> &gt;What, wilt thou kneel with me? </l>
             <l>Do, then, dear heart; for heaven shall hear our prayers; </l>
             <l>Or with our sighs we'll breathe the welkin dim, </l>
@@ -2426,7 +2426,7 @@
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <l n="221">If there were reason for these miseries, </l>
+            <l>If there were reason for these miseries, </l>
             <l>Then into limits could I bind my woes: </l>
             <l>When heaven doth weep, doth not the earth o'erflow ? </l>
             <l>If the winds rage, doth not the sea wax mad, </l>
@@ -2436,7 +2436,7 @@
             <l>She is the weeping welkin, I the earth: </l>
             <l>Then must my sea be moved with her sighs; </l>
             <l>Then must my earth with her continual tears </l>
-            <l n="231">Become a deluge, overflow'd and drown'd </l>
+            <l>Become a deluge, overflow'd and drown'd </l>
             <l>For why my bowels cannot hide her woes, </l>
             <l>But like a drunkard must I vomit them. </l>
             <l>Then give me leave, for losers will have leave </l>
@@ -2449,7 +2449,7 @@
             <l>For that good hand thou sent'st the emperor. </l>
             <l>Here are the heads of thy two noble sons; </l>
             <l>And here's thy hand, in scorn to thee sent back; </l>
-            <l n="240">Thy griefs their sports, thy resolution mock'd; </l>
+            <l>Thy griefs their sports, thy resolution mock'd; </l>
             <l>That woe is me to think upon thy woes </l>
             <l>More than remembrance of my father's death. <stage type="exit">Exit.</stage>
               </l>
@@ -2467,7 +2467,7 @@
             <l>Ah, that this sight should make so deep a wound, </l>
             <l>And yet detested life not shrink thereat! </l>
             <l>That ever death should let life bear his name, </l>
-            <l n="251">Where life hath no more interest but to breathe! <stage>Lavinia kisses Titus.</stage>
+            <l>Where life hath no more interest but to breathe! <stage>Lavinia kisses Titus.</stage>
               </l>
           </sp>
           <sp who="tit-15">
@@ -2486,7 +2486,7 @@
             <l>Thy warlike hand, thy mangled daughter here; </l>
             <l>Thy other banish'd son, with this dear sight </l>
             <l>Struck pale and bloodless; and thy brother, I, </l>
-            <l n="260">Even like a stony image, cold and numb. </l>
+            <l>Even like a stony image, cold and numb. </l>
             <l>Ah, now no more will I control thy griefs: </l>
             <l>Rend off thy silver hair, thy other hand </l>
             <l>Gnawing with thy teeth; and be this dismal sight </l>
@@ -2504,7 +2504,7 @@
           <sp who="tit-25">
             <speaker>Tit.</speaker>
             <l>Why, I have not another tear to shed: </l>
-            <l n="269">Besides, this sorrow is an enemy, </l>
+            <l>Besides, this sorrow is an enemy, </l>
             <l>And would usurp upon my watery eyes, </l>
             <l>And make them blind with tributary tears: </l>
             <l>Then which way shall I find Revenge's cave? </l>
@@ -2516,7 +2516,7 @@
             <l>You heavy people, circle me about, </l>
             <l>That I may turn me to each one of you, </l>
             <l>And swear unto my soul to right your wrongs. </l>
-            <l n="281">The vow is made. Come. brother, take a head; </l>
+            <l>The vow is made. Come. brother, take a head; </l>
             <l>And in this hand the other will I bear. </l>
             <l>Lavinia, thou shalt be employ'd: these arms! </l>
             <l>Bear thou my hand, sweet wench, between thy teeth. </l>
@@ -2524,7 +2524,7 @@
             <l>Thou art an exile, and thou must not stay: </l>
             <l>Hie to the Goths, and raise an army there: </l>
             <l>And, if you love me, as I think you do, </l>
-            <l n="289">Let's kiss and part, for we have much to do. <stage type="exit">Exeunt Titus, Marcus,
+            <l>Let's kiss and part, for we have much to do. <stage type="exit">Exeunt Titus, Marcus,
                 and Lavinia.</stage>
               
               </l>
@@ -2564,7 +2564,7 @@
             <l>And cannot passionate our tenfold grief </l>
             <l>With folded arms. This poor right hand of mine </l>
             <l>Is left to tyrannize upon my breast; </l>
-            <l n="10">Who, when my heart, all mad with misery, </l>
+            <l>Who, when my heart, all mad with misery, </l>
             <l>Beats in this hollow prison of my flesh, </l>
             <l>Then thus I thump it down. </l>
             <l><stage>To Lavinia</stage>Thou map of woe, that thus dost talk in signs! </l>
@@ -2574,7 +2574,7 @@
             <l>Or get some little knife between thy teeth, </l>
             <l>And just against thy heart make thou a hole; </l>
             <l>That all the tears that thy poor eyes let fall </l>
-            <l n="20">May run into that sink, and soaking in </l>
+            <l>May run into that sink, and soaking in </l>
             <l>Drown the lamenting fool in sea-salt tears. </l>
           </sp>
           <sp who="tit-15">
@@ -2590,7 +2590,7 @@
             <l>Ah, wherefore dost thou urge the name of hands; </l>
             <l>To bid Æneas tell the tale twice o'er, </l>
             <l>How Troy was burnt and he made miserable? </l>
-            <l n="30">O, handle not the theme, to talk of hands, </l>
+            <l>O, handle not the theme, to talk of hands, </l>
             <l>Lest we remember still that we have none. </l>
             <l>Fie, fie, how franticly I square my talk, </l>
             <l>As if we should forget we had no hands, </l>
@@ -2600,7 +2600,7 @@
             <l>I can interpret all her martyr'd signs; </l>
             <l>She says she drinks no other drink but tears, </l>
             <l>Brew'd with her sorrow, mesh'd upon her cheeks: </l>
-            <l n="40">Speechless complainer, I will learn thy thought; </l>
+            <l>Speechless complainer, I will learn thy thought; </l>
             <l>In thy dumb action will I be as perfect </l>
             <l>As begging hermits in their holy prayers: </l>
             <l>Thou shalt not sigh, nor hold thy stumps to heaven, </l>
@@ -2616,7 +2616,7 @@
           <sp who="tit-15">
             <speaker>Marc.</speaker>
             <l>Alas, the tender boy, in passion moved, </l>
-            <l n="50">Doth weep to see his grandsire's heaviness. </l>
+            <l>Doth weep to see his grandsire's heaviness. </l>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
@@ -2640,7 +2640,7 @@
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
-            <l n="60">Alas, my lord, I have but kill'd a fly. </l>
+            <l>Alas, my lord, I have but kill'd a fly. </l>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
@@ -2659,7 +2659,7 @@
           <sp who="tit-25">
             <speaker>Tit.</speaker>
             <l>O, O, O, </l>
-            <l n="70">Then pardon me for reprehending thee, </l>
+            <l>Then pardon me for reprehending thee, </l>
             <l>For thou hast done a charitable deed. </l>
             <l>Give me thy knife, I will insult on him; </l>
             <l>Flattering myself, as if it were the Moor </l>
@@ -2672,7 +2672,7 @@
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
-            <l n="80">Alas, poor man! grief has so wrought on him, </l>
+            <l>Alas, poor man! grief has so wrought on him, </l>
             <l>He takes false shadows for true substances. </l>
           </sp>
           <sp who="tit-25">
@@ -2722,7 +2722,7 @@
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <l n="10">Fear her not, Lucius: somewhat doth she mean: </l>
+            <l>Fear her not, Lucius: somewhat doth she mean: </l>
             <l>See, Lucius, see how much she makes of thee: </l>
             <l>Somewhither would she have thee go with her. </l>
             <l>Ah, boy, Cornelia never with more care </l>
@@ -2738,7 +2738,7 @@
             <l>My lord, I know not, I, nor can I guess, </l>
             <l>Unless some fit or frenzy do possess her: </l>
             <l>For I have heard my grandsire say full oft, </l>
-            <l n="20">Extremity of griefs would make men mad; </l>
+            <l>Extremity of griefs would make men mad; </l>
             <l>And I have read that Hecuba of Troy </l>
             <l>Ran mad for sorrow: that made me to fear; </l>
             <l>Although, my lord, I know my noble aunt </l>
@@ -2751,7 +2751,7 @@
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
-            <l n="30">Lucius, I will. <stage>Lavinia turns over with her stumps the books which Lucius has
+            <l>Lucius, I will. <stage>Lavinia turns over with her stumps the books which Lucius has
                 let fall. </stage>
               </l>
           </sp>
@@ -2793,7 +2793,7 @@
             <l>What would she find? Lavinia, shall I read? </l>
             <l>This is the tragic tale of Philorel, </l>
             <l>And treats of Tereus' treason and his rape; </l>
-            <l n="50">And rape, I fear, was root of thine annoy. </l>
+            <l>And rape, I fear, was root of thine annoy. </l>
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
@@ -2812,7 +2812,7 @@
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
-            <l n="60">O, why should nature build so foul a den, </l>
+            <l>O, why should nature build so foul a den, </l>
             <l>Unless the gods delight in tragedies? </l>
           </sp>
           <sp who="tit-25">
@@ -2828,7 +2828,7 @@
             <l>Apollo, Pallas, Jove, or Mercury, </l>
             <l>Inspire me, that I may this treason find! </l>
             <l>My lord, look here: look here, Lavinia: </l>
-            <l n="70">This sandy plot is plain; guide, if thou canst, </l>
+            <l>This sandy plot is plain; guide, if thou canst, </l>
             <l>This after me, when I have writ my name </l>
             <l>Without the help of any hand at all. <stage>He writes his name with his staff, and
                 guides it with feet and mouth. </stage>
@@ -2849,7 +2849,7 @@
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
-            <l n="80">What, what! the lustful sons of Tamora </l>
+            <l>What, what! the lustful sons of Tamora </l>
             <l>Performers of this heinous, bloody deed? </l>
           </sp>
           <sp who="tit-25">
@@ -2865,7 +2865,7 @@
             <l>And arm the minds of infants to exclaims. </l>
             <l>My lord, kneel down with me; Lavinia, kneel; </l>
             <l>And kneel, sweet boy, the Roman Hector's hope; </l>
-            <l n="90">And swear with me, as, with the woful fere </l>
+            <l>And swear with me, as, with the woful fere </l>
             <l>And father of that chaste dishonour'd dame, </l>
             <l>Lord Junius Brutus sware for Lucrece' rape, </l>
             <l>That we will prosecute by good advice </l>
@@ -2879,7 +2879,7 @@
             <l>The dam will wake; and, if she wind you once, </l>
             <l>She's with the lion deeply still in league, </l>
             <l>And lulls him whilst she playeth on her back, </l>
-            <l n="101">And when he sleeps will she do what she list, </l>
+            <l>And when he sleeps will she do what she list, </l>
             <l>You are a young huntsman, Marcus; let it alone; </l>
             <l>And, come, I will go get a leaf of brass, </l>
             <l>And with a gad of steel will write these words, </l>
@@ -2891,7 +2891,7 @@
             <speaker>Young Luc.</speaker>
             <l>I say, my lord, that if I were a man, </l>
             <l>Their mother's bed-chamber should not be safe </l>
-            <l n="110">For these bad bondmen to the yoke of Rome. </l>
+            <l>For these bad bondmen to the yoke of Rome. </l>
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
@@ -2917,7 +2917,7 @@
           <sp who="tit-25">
             <speaker>Tit.</speaker>
             <l>No, boy, not so; I'll teach thee another course. </l>
-            <l n="121">Lavinia, come. Marcus, look to my house: </l>
+            <l>Lavinia, come. Marcus, look to my house: </l>
             <l>Lucius and I'll go brave it at the court: </l>
             <l>Ay, marry, will we, sir; and we'll be waited on. <stage type="exit">Exeunt Titus,
                 Lavinia, and Young Luc.</stage>
@@ -2967,7 +2967,7 @@
             <stage>Aside</stage>
             <l>That you are both deciphered, that's the news, </l>
             <l>For villains mark'd with rape.—May it please you, </l>
-            <l n="11">My grandsire, well advised, hath sent by me </l>
+            <l>My grandsire, well advised, hath sent by me </l>
             <l>The goodliest weapons of his armoury </l>
             <l>To gratify your honourable youth, </l>
             <l>The hope of Rome; for so he bade me say; </l>
@@ -2980,7 +2980,7 @@
           <sp who="tit-10">
             <speaker>Dem.</speaker>
             <l>What's here? A scroll; and written round about? </l>
-            <l n="20">Let's see: <stage>Reads</stage>
+            <l>Let's see: <stage>Reads</stage>
               </l>
             <l>'Integer vitae, scelerisque purus, </l>
             <l>Non eget Mauri jaculis, nec arcu.' </l>
@@ -2997,7 +2997,7 @@
             <l>Here 's no sound jest! the old man hath found their guilt; </l>
             <l>And sends them weapons wrapp'd about with lines, </l>
             <l>That wound, beyond their feeling, to the quick. </l>
-            <l n="30">But were our witty empress well afoot, </l>
+            <l>But were our witty empress well afoot, </l>
             <l>She would applaud Andronicus' conceit: </l>
             <l>But let her rest in her unrest awhile. </l>
             <l>And now, young lord, was't not a happy star </l>
@@ -3013,7 +3013,7 @@
           </sp>
           <sp who="tit-1">
             <speaker>Aar.</speaker>
-            <l n="40">Had he not reason, Lord Demetrius? </l>
+            <l>Had he not reason, Lord Demetrius? </l>
             <l>Did you not use his daughter very friendly? </l>
           </sp>
           <sp who="tit-10">
@@ -3050,7 +3050,7 @@
           </sp>
           <sp who="tit-8">
             <speaker>Chi.</speaker>
-            <l n="51">Belike, for joy the emperor hath a son. </l>
+            <l>Belike, for joy the emperor hath a son. </l>
           </sp>
           <sp who="tit-10">
             <speaker>Dem.</speaker>
@@ -3080,7 +3080,7 @@
           </sp>
           <sp who="tit-19">
             <speaker>Nur.</speaker>
-            <l n="60">O, that which I would hide from heaven's eye, </l>
+            <l>O, that which I would hide from heaven's eye, </l>
             <l>Our empress' shame, and stately Rome's disgrace! </l>
             <l>She is deliver'd, lords; she is deliver'd. </l>
           </sp>
@@ -3109,7 +3109,7 @@
             <l>A joyless, dismal, black, and sorrowful issue: </l>
             <l>Here is the babe, as loathsome as a toad </l>
             <l>Amongst the fairest breeders of our clime: </l>
-            <l n="71">The empress sends it thee, thy stamp, thy seal, </l>
+            <l>The empress sends it thee, thy stamp, thy seal, </l>
             <l>And bids thee christen it with thy dagger's point. </l>
           </sp>
           <sp who="tit-1">
@@ -3137,7 +3137,7 @@
             <speaker>Dem.</speaker>
             <l>And therein, hellish dog, thou hast undone. </l>
             <l>Woe to her chance, and damn'd her loathed choice! </l>
-            <l n="81">Accursed the offspring of so foul a fiend! </l>
+            <l>Accursed the offspring of so foul a fiend! </l>
           </sp>
           <sp who="tit-8">
             <speaker>Chi.</speaker>
@@ -3168,7 +3168,7 @@
               </l>
             <l>Stay, murderous villains! will you kill your brother ? </l>
             <l>Now, by the burning tapers of the sky, </l>
-            <l n="91">That shone so brightly when this boy was got, </l>
+            <l>That shone so brightly when this boy was got, </l>
             <l>He dies upon my scimitar's sharp point </l>
             <l>That touches this my first-born son and heir! </l>
             <l>I tell you, younglings, not Enceladus, </l>
@@ -3177,7 +3177,7 @@
             <l>Shall seize this prey out of his father's hands. </l>
             <l>What, what, ye sanguine, shallow-hearted boys! </l>
             <l>Ye white-limed walls! ye alehouse painted signs! </l>
-            <l n="100">Coal-black is better than another hue, </l>
+            <l>Coal-black is better than another hue, </l>
             <l>In that it scorns to bear another hue; </l>
             <l>For all the water in the ocean </l>
             <l>Can never turn the swan's black legs to white, </l>
@@ -3193,7 +3193,7 @@
             <speaker>Aar.</speaker>
             <l>My mistress is my mistress; this myself, </l>
             <l>The vigour and the picture of my youth: </l>
-            <l n="110">This before all the world do I prefer; </l>
+            <l>This before all the world do I prefer; </l>
             <l>This maugre all the world will I keep safe, </l>
             <l>Or some of you shall smoke for it in Rome. </l>
           </sp>
@@ -3218,7 +3218,7 @@
             <l>Why, there's the privilege your beauty bears: </l>
             <l>Fie, treacherous hue, that will betray with blushing </l>
             <l>The close enacts and counsels of the heart! </l>
-            <l n="120">Here 's a young lad framed of another leer: </l>
+            <l>Here 's a young lad framed of another leer: </l>
             <l>Look, how the black slave smiles upon the father, </l>
             <l>As who should say 'Old lad, I am thine own. </l>
             <l>He is your brother, lords, sensibly fed </l>
@@ -3234,7 +3234,7 @@
           </sp>
           <sp who="tit-10">
             <speaker>Dem.</speaker>
-            <l n="130">Advise thee, Aaron, what is to be done, </l>
+            <l>Advise thee, Aaron, what is to be done, </l>
             <l>And we will all subscribe to thy advice: </l>
             <l>Save thou the child, so we may all be safe. </l>
           </sp>
@@ -3254,7 +3254,7 @@
             <l>Why, so, brave lords! when we join in league, </l>
             <l>I am a lamb: but if you brave the Moor, </l>
             <l>The chafed boar, the mountain lioness, </l>
-            <l n="140">The ocean swells not so as Aaron storms. </l>
+            <l>The ocean swells not so as Aaron storms. </l>
             <l>But say, again, how many saw the child? </l>
           </sp>
           <sp who="tit-19">
@@ -3277,7 +3277,7 @@
           <sp who="tit-1">
             <speaker>Aar.</speaker>
             <l>O Lord, sir, 'tis a deed of policy: </l>
-            <l n="150">Shall she live to betray this guilt of ours, </l>
+            <l>Shall she live to betray this guilt of ours, </l>
             <l>A long-tongued babbling gossip? no, lords, no: </l>
             <l>And now be it known to you my full intent. </l>
             <l>Not far, one Muli lives, my countryman; </l>
@@ -3287,7 +3287,7 @@
             <l>And tell them both the circumstance of all, </l>
             <l>And how by this their child shall be advanced, </l>
             <l>And be received for the emperor's heir, </l>
-            <l n="160">And substituted in the place of mine, </l>
+            <l>And substituted in the place of mine, </l>
             <l>To calm this tempest whirling in the court; </l>
             <l>And let the emperor dandle him for his own. </l>
             <l>Hark ye, lords; ye see I have given her physic, <stage>Pointing to the nurse.</stage>
@@ -3301,7 +3301,7 @@
           </sp>
           <sp who="tit-8">
             <speaker>Chi.</speaker>
-            <l n="170">Aaron, I see thou wilt not trust the air </l>
+            <l>Aaron, I see thou wilt not trust the air </l>
             <l part="I">With secrets. </l>
           </sp>
           <sp who="tit-10">
@@ -3320,7 +3320,7 @@
             <l>For it is you that puts us to our shifts: </l>
             <l>I'll make you feed on berries and on roots, </l>
             <l>And feed on curds and whey, and suck the goat, </l>
-            <l n="180">And cabin in a cave, and bring you up </l>
+            <l>And cabin in a cave, and bring you up </l>
             <l>To be a warrior, and command a camp. <stage type="exit">Exit.</stage></l>
           </sp>
         </div>
@@ -3344,7 +3344,7 @@
             <l>Sirs, take you to your tools. You, cousins, shall </l>
             <l>Go sound the ocean, and cast your nets; </l>
             <l>Happily you may catch her in the sea; </l>
-            <l n="10">Yet there's as little justice as at land: </l>
+            <l>Yet there's as little justice as at land: </l>
             <l>No; Publius and Sempronius, you must do it; </l>
             <l>'Tis you must dig with mattock and with spade, </l>
             <l>And pierce the inmost centre of the earth: </l>
@@ -3354,7 +3354,7 @@
             <l>And that it comes from old Andronicus, </l>
             <l>Shaken with sorrows in ungrateful Rome. </l>
             <l>Ah, Rome! Well, well; I made thee miserable </l>
-            <l n="20">What time I threw the people's suffrages </l>
+            <l>What time I threw the people's suffrages </l>
             <l>On him that thus doth tyrannize o'er me. </l>
             <l>Go, get you gone; and pray be careful all, </l>
             <l>And leave you not a man-of-war unsearch'd: </l>
@@ -3370,7 +3370,7 @@
             <speaker>Pub.</speaker>
             <l>Therefore, my lord, it highly us concerns </l>
             <l>By day and night to attend him carefully, </l>
-            <l n="30">And feed his humour kindly as we may, </l>
+            <l>And feed his humour kindly as we may, </l>
             <l>Till time beget some careful remedy. </l>
           </sp>
           <sp who="tit-15">
@@ -3389,7 +3389,7 @@
             <speaker>Pub.</speaker>
             <l>No, my good lord; but Pluto sends you word, </l>
             <l>If you will have Revenge from hell, you shall: </l>
-            <l n="40">Marry, for Justice, she is so employ'd, </l>
+            <l>Marry, for Justice, she is so employ'd, </l>
             <l>He thinks, with Jove in heaven, or somewhere else, </l>
             <l>So that perforce you must needs stay a time. </l>
           </sp>
@@ -3402,7 +3402,7 @@
             <l>No big-boned men framed of the Cyclops' size; </l>
             <l>But metal, Marcus, steel to the very back, </l>
             <l>Yet wrung with wrongs more than our backs can bear: </l>
-            <l n="50">And sith there's no justice in earth nor hell, </l>
+            <l>And sith there's no justice in earth nor hell, </l>
             <l>We will solicit heaven and move the gods </l>
             <l>To send down Justice for to wreak our wrongs. </l>
             <l>Come, to this gear. You are a good archer, Marcus; <stage>He
@@ -3414,7 +3414,7 @@
             <l>To Saturn, Caius, not to Saturnine; </l>
             <l>You were as good to shoot against the wind. </l>
             <l>To it, boy! Marcus, loose when I bid. </l>
-            <l n="60">Of my word, I have written to effect; </l>
+            <l>Of my word, I have written to effect; </l>
             <l>There's not a god left unsolicited. </l>
           </sp>
           <sp who="tit-15">
@@ -3436,7 +3436,7 @@
             <speaker>Tit.</speaker>
             <l>Ha, ha! </l>
             <l>Publius, Publius, what hast thou done? </l>
-            <l n="70">See, see, thou hast shot off one of Taurus' horns. </l>
+            <l>See, see, thou hast shot off one of Taurus' horns. </l>
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
@@ -3452,50 +3452,50 @@
             <l>Why, there it goes: God give his lordship joy! <stage type="entrance"> Enter a Clown, with a basket, and two pigeons in it. </stage>
               </l>
             <l>News, news from heaven! Marcus, the post is come. </l>
-            <l n="79">Sirrah, what tidings? have you any letters? </l>
+            <l>Sirrah, what tidings? have you any letters? </l>
             <l>Shall I have justice? what says Jupiter? </l>
           </sp>
           <sp who="tit-9">
             <speaker>Clo.</speaker>
-            <p part="N">O, the gibbet-maker! he says that he hath taken them down again, for the man must not be hanged till the next week. </p>
+            <p>O, the gibbet-maker! he says that he hath taken them down again, for the man must not be hanged till the next week. </p>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <p part="N">But what says Jupiter, I ask thee? </p>
+            <p>But what says Jupiter, I ask thee? </p>
           </sp>
           <sp who="tit-9">
             <speaker>Clo.</speaker>
-            <p part="N">Alas, sir, I know not Jupiter; I never drank with
+            <p>Alas, sir, I know not Jupiter; I never drank with
               him in all my life. </p>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <p part="N">Why, villain, art not thou the carrier? </p>
+            <p>Why, villain, art not thou the carrier? </p>
           </sp>
           <sp who="tit-9">
             <speaker>Clo.</speaker>
-            <p part="N">Ay, of my pigeons, sir; nothing else. </p>
+            <p>Ay, of my pigeons, sir; nothing else. </p>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <p part="N">Why, didst thou not come from heaven? </p>
+            <p>Why, didst thou not come from heaven? </p>
           </sp>
           <sp who="tit-9">
             <speaker>Clo.</speaker>
-            <p part="N">From heaven! alas, sir, I never came there: God
+            <p>From heaven! alas, sir, I never came there: God
               forbid I should be so bold to press to heaven in my young days. Why, I am going with my pigeons to the tribunal plebs, to take up a matter of brawl betwixt my uncle and one of the emperial's men. </p>
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
-            <p part="N">Why, sir, that is as fit as can be to serve for your oration; and let him deliver the pigeons to the emperor from you. </p>
+            <p>Why, sir, that is as fit as can be to serve for your oration; and let him deliver the pigeons to the emperor from you. </p>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <p part="N">Tell me, can you deliver an oration to the emperor with a grace? <lb n="100" ed="G"/></p>
+            <p>Tell me, can you deliver an oration to the emperor with a grace? <lb n="100" ed="G"/></p>
           </sp>
           <sp who="tit-9">
             <speaker>Clo.</speaker>
-            <p part="N">Nay, truly sir, I could never say grace in all my life. </p>
+            <p>Nay, truly sir, I could never say grace in all my life. </p>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
@@ -3503,21 +3503,21 @@
             <l>But give your pigeons to the emperor: </l>
             <l>By me thou shalt have justice at his hands. </l>
             <l>Hold, hold; meanwhile here's money for thy charges. </l>
-            <p part="N">Give me pen and ink. Sirrah, can you with a grace
+            <p>Give me pen and ink. Sirrah, can you with a grace
               deliver a supplication? </p>
           </sp>
           <sp who="tit-9">
             <speaker>Clo.</speaker>
-            <p part="N">Ay, sir. </p>
+            <p>Ay, sir. </p>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <p part="N">Then here is a supplication for you. And when you
+            <p>Then here is a supplication for you. And when you
               come to him, at the first approach you must kneel, then kiss his foot, then deliver up your pigeons, and then look for your reward I'll be at hand, sir; see you do it bravely. </p>
           </sp>
           <sp who="tit-9">
             <speaker>Clo.</speaker>
-            <p part="N">I warrant you, sir, let me alone. </p>
+            <p>I warrant you, sir, let me alone. </p>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
@@ -3525,7 +3525,7 @@
             <l>Here, Marcus, fold it in the oration; </l>
             <l>For thou hast made it like an humble suppliant. </l>
             <l>And when thou hast given it the emperor, </l>
-            <l n="120">Knock at my door, and tell me what he says. </l>
+            <l>Knock at my door, and tell me what he says. </l>
           </sp>
           <sp who="tit-9">
             <speaker>Clo.</speaker>
@@ -3555,7 +3555,7 @@
             <l>However these disturbers of our peace </l>
             <l>Buz in the people's ears, there nought hath passed, </l>
             <l>But even with law, against the wilful sons </l>
-            <l n="10">Of old Andronicus. And what an if </l>
+            <l>Of old Andronicus. And what an if </l>
             <l>His sorrows have so overwhelm'd his wits, </l>
             <l>Shall we be thus afflicted in his wreaks, </l>
             <l>His fits, his frenzy, and his bitterness? </l>
@@ -3565,7 +3565,7 @@
             <l>Sweet scrolls to fly about the streets of Rome! </l>
             <l>What's this but libelling against the senate, </l>
             <l>And blazoning our injustice every where? </l>
-            <l n="20">A goodly humour, is it not, my lords? </l>
+            <l>A goodly humour, is it not, my lords? </l>
             <l>As who would say, in Rome no justice were. </l>
             <l>But if I live, his feigned ecstasies </l>
             <l>Shall be no shelter to these outrages: </l>
@@ -3578,7 +3578,7 @@
             <speaker>Tam.</speaker>
             <l>My gracious lord, my lovely Saturnine, </l>
             <l>Lord of my life, commander of my thoughts, </l>
-            <l n="30">Calm thee, and bear the faults of Titus' age, </l>
+            <l>Calm thee, and bear the faults of Titus' age, </l>
             <l>The effects of sorrow for his valiant sons, </l>
             <l>Whose loss hath pierced him deep and scarr'd his heart; </l>
             <l>And rather comfort his distressed plight </l>
@@ -3589,11 +3589,11 @@
             <l>Thy life-blood out: if Aaron now be wise, </l>
             <l>Then is all safe, the anchor's in the port. <stage type="entrance">Enter Clown.</stage>
               </l>
-            <l n="40">How now, good fellow! wouldst thou speak with us? </l>
+            <l>How now, good fellow! wouldst thou speak with us? </l>
           </sp>
           <sp who="tit-9">
             <speaker>Clo.</speaker>
-            <p part="N">Yea, forsooth, an your mistership be emperial. </p>
+            <p>Yea, forsooth, an your mistership be emperial. </p>
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
@@ -3601,7 +3601,7 @@
           </sp>
           <sp who="tit-9">
             <speaker>Clo.</speaker>
-            <p part="N">'Tis he. God and Saint Stephen give you good den: I
+            <p>'Tis he. God and Saint Stephen give you good den: I
               have brought you a letter and a couple of pigeons here. <stage>Saturninus reads the letter.</stage>
               </p>
           </sp>
@@ -3611,15 +3611,15 @@
           </sp>
           <sp who="tit-9">
             <speaker>Clo.</speaker>
-            <p part="N">How much money must I have? </p>
+            <p>How much money must I have? </p>
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
-            <p part="N">Come, sirrah, you must be hanged. </p>
+            <p>Come, sirrah, you must be hanged. </p>
           </sp>
           <sp who="tit-9">
             <speaker>Clo.</speaker>
-            <p part="N">Hangedl by'r lady, then I have brought up a neck to
+            <p>Hangedl by'r lady, then I have brought up a neck to
               a fair end. <stage type="exit">Exit, guarded.</stage>
               <lb n="50" ed="G"/></p>
           </sp>
@@ -3651,7 +3651,7 @@
           </sp>
           <sp who="tit-22">
             <speaker>Sat.</speaker>
-            <l n="70">Is warlike Lucius general of the Goths ? </l>
+            <l>Is warlike Lucius general of the Goths ? </l>
             <l>These tidings nip me, and I hang the head </l>
             <l>As flowers with frost or grass beat down with storms: </l>
             <l>Ay, now begin our sorrows to approach: </l>
@@ -3667,7 +3667,7 @@
           </sp>
           <sp who="tit-22">
             <speaker>Sat.</speaker>
-            <l n="80">Ay, but the citizens favour Lucius, </l>
+            <l>Ay, but the citizens favour Lucius, </l>
             <l>And will revolt from me to succour him. </l>
           </sp>
           <sp who="tit-24">
@@ -3680,7 +3680,7 @@
             <l>He can at pleasure stint their melody; </l>
             <l>Even so mayst thou the giddy men of Rome. </l>
             <l>Then cheer thy spirit: for know, thou emperor, </l>
-            <l n="90">I will enchant the old Andronicus </l>
+            <l>I will enchant the old Andronicus </l>
             <l>With words more sweet, and yet more dangerous, </l>
             <l>Than baits to fish, or honey-stalks to sheep, </l>
             <l>When as the one is wounded with the bait, </l>
@@ -3696,7 +3696,7 @@
             <l>For I can smooth and fill his aged ear </l>
             <l>With golden promises; that, were his heart </l>
             <l>Almost impregnable, his old ears deaf, </l>
-            <l n="100">Yet should both ear and heart obey my tongue. </l>
+            <l>Yet should both ear and heart obey my tongue. </l>
             <l><stage>To Æmilius</stage> Go thou before, be our ambassador: </l>
             <l>Say that the emperor requests a parley </l>
             <l>Of warlike Lucius, and appoint the meeting </l>
@@ -3717,7 +3717,7 @@
             <speaker>Tam.</speaker>
             <l>Now will I to that old Andronicus, </l>
             <l>And temper him with all the art I have, </l>
-            <l n="111">To pluck proud Lucius from the warlike Goths. </l>
+            <l>To pluck proud Lucius from the warlike Goths. </l>
             <l>And now, sweet emperor, be blithe again, </l>
             <l>And bury all thy fear in my devices. </l>
           </sp>
@@ -3753,7 +3753,7 @@
           </sp>
           <sp who="tit-11">
             <speaker>First Goth.</speaker>
-            <l n="10">Brave slip, sprung from the great Andronicus, </l>
+            <l>Brave slip, sprung from the great Andronicus, </l>
             <l>Whose name was once our terror, now our comfort: </l>
             <l>Whose high exploits and honourable deeds </l>
             <l>Ungrateful Rome requites with foul contempt, </l>
@@ -3769,7 +3769,7 @@
           <sp who="tit-13">
             <speaker>Luc.</speaker>
             <l>I humbly thank him, and I thank you all. </l>
-            <l n="20">But who comes here, led by a lusty Goth? <stage type="entrance">Enter a Goth, leading AARON with his Child in his
+            <l>But who comes here, led by a lusty Goth? <stage type="entrance">Enter a Goth, leading AARON with his Child in his
                 arms.</stage>
               </l>
           </sp>
@@ -3785,7 +3785,7 @@
             <l>'Peace, tawny slave, half me and half thy dam! </l>
             <l>Did not thy hue betray whose brat thou art, </l>
             <l>Had nature lent thee but thy mother's look, </l>
-            <l n="31">Villain, thou mightst have been an emperor: </l>
+            <l>Villain, thou mightst have been an emperor: </l>
             <l>But where the bull and cow are both milkwhite, </l>
             <l>They never do beget a coal-black calf. </l>
             <l>Peace, villain, peace! '—even thus he rates the babe,— </l>
@@ -3794,7 +3794,7 @@
             <l>Will hold thee dearly for thy mother's sake.' </l>
             <l>With this, my weapon drawn, I rush'd upon him, </l>
             <l>Surprised him suddenly, and brought him hither, </l>
-            <l n="40">To use as you think needful of the man. </l>
+            <l>To use as you think needful of the man. </l>
           </sp>
           <sp who="tit-13">
             <speaker>Luc.</speaker>
@@ -3832,7 +3832,7 @@
           </sp>
           <sp who="tit-13">
             <speaker>Luc.</speaker>
-            <l n="60">Say on: an if it please me which thou speak'st, </l>
+            <l>Say on: an if it please me which thou speak'st, </l>
             <l>The child shall live, and I will see it nourish'd. </l>
           </sp>
           <sp who="tit-1">
@@ -3848,7 +3848,7 @@
           </sp>
           <sp who="tit-13">
             <speaker>Luc.</speaker>
-            <l n="70">Tell on thy mind; I say thy child shall live. </l>
+            <l>Tell on thy mind; I say thy child shall live. </l>
           </sp>
           <sp who="tit-1">
             <speaker>Aar.</speaker>
@@ -3867,7 +3867,7 @@
             <l>With twenty popish tricks and ceremonies, </l>
             <l>Which I have seen thee careful to observe, </l>
             <l>Therefore I urge thy oath; for that I know </l>
-            <l n="80">An idiot holds his bauble for a god </l>
+            <l>An idiot holds his bauble for a god </l>
             <l>And keeps the oath which by that god he swears, </l>
             <l>To that I'll urge him: therefore thou shalt vow </l>
             <l>By that same god, what god soe'er it be, </l>
@@ -3889,7 +3889,7 @@
           </sp>
           <sp who="tit-1">
             <speaker>Aar.</speaker>
-            <l n="90">Tut, Lucius, that was but a deed of charity </l>
+            <l>Tut, Lucius, that was but a deed of charity </l>
             <l>To that which thou shalt hear of me anon. </l>
             <l>'Twas her two sons that murdered Bassianus; </l>
             <l>They cut thy sister's tongue and ravish'd her </l>
@@ -3911,7 +3911,7 @@
           <sp who="tit-1">
             <speaker>Aar.</speaker>
             <l>Indeed, I was their tutor to instruct them: </l>
-            <l n="100">That codding spirit had they from their mother, </l>
+            <l>That codding spirit had they from their mother, </l>
             <l>As sure a card as ever won the set; </l>
             <l>That bloody mind, I think, they learn'd of me, </l>
             <l>As true a dog as ever fought at head. </l>
@@ -3921,7 +3921,7 @@
             <l>I wrote the letter that thy father found </l>
             <l>And hid the gold within the letter mention'd, </l>
             <l>Confederate with the queen and her two sons: </l>
-            <l n="110">And what not done, that thou hast cause to rue, </l>
+            <l>And what not done, that thou hast cause to rue, </l>
             <l>Wherein I had no stroke of mischief in it? </l>
             <l>I play'd the cheater for thy father's hand. </l>
             <l>And, when I had it, drew myself apart </l>
@@ -3932,7 +3932,7 @@
             <l>That both mine eyes were rainy like to his: </l>
             <l>And when I told the empress of this sport, </l>
             <l>She swooned almost at my pleasing tale, </l>
-            <l n="121">And for my tidings gave me twenty kisses. </l>
+            <l>And for my tidings gave me twenty kisses. </l>
           </sp>
           <sp who="tit-11">
             <speaker>First Goth.</speaker>
@@ -3954,7 +3954,7 @@
             <l>Wherein I did not some notorious ill, </l>
             <l>As kill a man, or else devise his death, </l>
             <l>Ravish a maid, or plot the way to do it, </l>
-            <l n="131">Accuse some innocent and forswear myself, </l>
+            <l>Accuse some innocent and forswear myself, </l>
             <l>Set deadly enmity between two friends, </l>
             <l>Make poor men's cattle break their necks; </l>
             <l>Set fire on barns and hay-stacks in the night, </l>
@@ -3979,7 +3979,7 @@
             <speaker>Aar.</speaker>
             <l>If there be devils, would I were a devil, </l>
             <l>To live and burn in everlasting fire, </l>
-            <l n="150">So I might have your company in hell, </l>
+            <l>So I might have your company in hell, </l>
             <l>But to torment you with my bitter tongue! </l>
           </sp>
           <sp who="tit-13">
@@ -4003,7 +4003,7 @@
             <l>Lord Lucius, and you princes of the Goths, </l>
             <l>The Roman emperor greets you all by me; </l>
             <l>And, for he understands you are in arms, </l>
-            <l n="160">He craves a parley at your father's house. </l>
+            <l>He craves a parley at your father's house. </l>
             <l>Willing you to demand your hostages, </l>
             <l>And they shall be immediately deliver'd. </l>
           </sp>
@@ -4041,7 +4041,7 @@
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <l n="10">Who doth molest my contemplation? </l>
+            <l>Who doth molest my contemplation? </l>
             <l>Is it your trick to make me ope the door, </l>
             <l>That so my sad decrees may fly away, </l>
             <l>And all my study be to no effect? </l>
@@ -4057,7 +4057,7 @@
             <speaker>Tit.</speaker>
             <l>No, not a word; how can I grace my talk, </l>
             <l>Wanting a hand to give it action? </l>
-            <l n="20">Thou hast the odds of me; therefore no more. </l>
+            <l>Thou hast the odds of me; therefore no more. </l>
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
@@ -4076,7 +4076,7 @@
           <sp who="tit-24">
             <speaker>Tam.</speaker>
             <l>Know, thou sad man, I am not Tamora; </l>
-            <l n="30">She is thy enemy, and I thy friend: </l>
+            <l>She is thy enemy, and I thy friend: </l>
             <l>I am Revenge: sent from the infernal kingdom, </l>
             <l>To ease the gnawing vulture of thy mind, </l>
             <l>By working wreakful vengeance on thy foes. </l>
@@ -4087,7 +4087,7 @@
             <l>Where bloody murder or detested rape </l>
             <l>Can couch for fear, but I will find them out; </l>
             <l>And in their ears tell them my dreadful name, </l>
-            <l n="41">Revenge, which makes the foul offender quake. </l>
+            <l>Revenge, which makes the foul offender quake. </l>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
@@ -4106,7 +4106,7 @@
             <l>Stab them, or tear them on thy chariot-wheels; </l>
             <l>And then I'll come and be thy waggoner, </l>
             <l>And whirl along with thee about the globe. </l>
-            <l n="51">Provide thee two proper palfreys, black as jet, </l>
+            <l>Provide thee two proper palfreys, black as jet, </l>
             <l>To hale thy vengeful waggon swift away, </l>
             <l>And find out murderers in their guilty caves: </l>
             <l>And when thy car is loaden with their heads, </l>
@@ -4115,7 +4115,7 @@
             <l>Even from Hyperion's rising in the east </l>
             <l>Until his very downfall in the sea: </l>
             <l>And day by day I'll do this heavy task, </l>
-            <l n="60">So thou destroy Rapine and Murder there. </l>
+            <l>So thou destroy Rapine and Murder there. </l>
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
@@ -4142,7 +4142,7 @@
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
-            <l n="71">This closing with him fits his lunacy: </l>
+            <l>This closing with him fits his lunacy: </l>
             <l>Whate'er I forge to feed his brain-sick fits, </l>
             <l>Do you uphold and maintain in your speeches, </l>
             <l>For now he firmly takes me for Revenge; </l>
@@ -4151,7 +4151,7 @@
             <l>And, whilst I at the banquet hold him sure, </l>
             <l>I'll find some cunning practice out of hand </l>
             <l>To scatter and disperse the giddy Goths, </l>
-            <l n="80">Or, at least, make them his enemies. </l>
+            <l>Or, at least, make them his enemies. </l>
             <l>See, here he comes, and I must ply my theme. <stage type="entrance">Enter TITUS
                 below.</stage>
               </l>
@@ -4166,7 +4166,7 @@
             <l>Could not all hell afford you such a devil? </l>
             <l>For well I wot the empress never wags </l>
             <l>But in her company there is a Moor; </l>
-            <l n="90">And, would you represent our queen aright, </l>
+            <l>And, would you represent our queen aright, </l>
             <l>It were convenient you had such a devil: </l>
             <l>But welcome, as you are. What shall we do? </l>
           </sp>
@@ -4191,7 +4191,7 @@
           <sp who="tit-25">
             <speaker>Tit.</speaker>
             <l>Look round about the wicked streets of Rome; </l>
-            <l n="100">And when thou find'st a man that's like thyself, </l>
+            <l>And when thou find'st a man that's like thyself, </l>
             <l>Good Murder, stab him; he's a murderer. </l>
             <l>Go thou with him; and when it is thy hap </l>
             <l>To find another that is like to thee, </l>
@@ -4201,7 +4201,7 @@
             <l>Well may'st thou know her by thy own proportion, </l>
             <l>For up and down she doth resemble thee: </l>
             <l>I pray thee, do on them some violent death; </l>
-            <l n="110">They have been violent to me and mine. </l>
+            <l>They have been violent to me and mine. </l>
           </sp>
           <sp who="tit-24">
             <speaker>Tam.</speaker>
@@ -4214,7 +4214,7 @@
             <l>I will bring in the empress and her sons, </l>
             <l>The emperor himself and all thy foes; </l>
             <l>And at thy mercy shall they stoop and kneel, </l>
-            <l n="120">And on them shalt thou ease thy angry heart. </l>
+            <l>And on them shalt thou ease thy angry heart. </l>
             <l>What says Andronicus to this device? 
               </l>
           </sp>
@@ -4230,7 +4230,7 @@
             <l>Bid him encamp his soldiers where they are: </l>
             <l>Tell him the emperor and the empress too </l>
             <l>Feast at my house, and he shall feast with them. </l>
-            <l n="130">This do thou for my love; and so let him, </l>
+            <l>This do thou for my love; and so let him, </l>
             <l>As he regards his aged father's life. </l>
           </sp>
           <sp who="tit-15">
@@ -4253,7 +4253,7 @@
             <speaker>Tam.</speaker>
             <l><stage>Aside to her sons</stage>What say you, boys? will you bide with him, </l>
             <l>Whiles I go tell my lord the emperor </l>
-            <l n="140">How I have governed our determined jest? </l>
+            <l>How I have governed our determined jest? </l>
             <l>Yield to his humour, smooth and speak him fair, </l>
             <l>And tarry with him till I turn again. </l>
           </sp>
@@ -4274,7 +4274,7 @@
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <l n="149">I know thou dost; and, sweet Revenge, farewell. <stage type="exit">Exit Tamora. </stage>
+            <l>I know thou dost; and, sweet Revenge, farewell. <stage type="exit">Exit Tamora. </stage>
               </l>
           </sp>
           <sp who="tit-8">
@@ -4306,7 +4306,7 @@
             <l>Fie, Publius, fie! thou art too much deceived; </l>
             <l>The one is Murder, Rape is the other's name; </l>
             <l>And therefore bind them, gentle Publius. </l>
-            <l n="160">Caius and Valentine, lay hands on them. </l>
+            <l>Caius and Valentine, lay hands on them. </l>
             <l>Oft have you heard me wish for such an hour, </l>
             <l>And now I find it; therefore bind them sure, </l>
             <l>And stop their mouths, if they begin to cry. <stage type="exit">Exit.</stage>
@@ -4328,7 +4328,7 @@
             <speaker>Tit.</speaker>
             <l>Come, come, Lavinia; look, thy foes are bound. </l>
             <l>Sirs, stop their mouths, let them not speak to me; </l>
-            <l n="170">But let them hear what fearful words I utter. </l>
+            <l>But let them hear what fearful words I utter. </l>
             <l>O villains, Chiron and Demetrius! </l>
             <l>Here stands the spring whom you have stain'd with mud, </l>
             <l>This goodly summer with your winter mix'd. </l>
@@ -4337,7 +4337,7 @@
             <l>My hand cut off and made a merry jest; </l>
             <l>Both her sweet hands, her tongue, and that more dear </l>
             <l>Than hands or tongue, her spotless chastity, </l>
-            <l n="179">Inhuman traitors, you constrained and forced. </l>
+            <l>Inhuman traitors, you constrained and forced. </l>
             <l>What would you say, if I should let you speak ? </l>
             <l>Villains, for shame you could not beg for grace. </l>
             <l>Hark, wretches! how I mean to martyr you. </l>
@@ -4348,7 +4348,7 @@
             <l>And calls herself Revenge, and thinks me mad: </l>
             <l>Hark, villains! I will grind your bones to dust </l>
             <l>And with your blood and it I'll make a paste, </l>
-            <l n="190">And of the paste a coffin I will rear </l>
+            <l>And of the paste a coffin I will rear </l>
             <l>And make two pasties of your shameful heads. </l>
             <l>And bid that strumpet, your unhallow'd dam </l>
             <l>Like to the earth swallow her own increase. </l>
@@ -4359,7 +4359,7 @@
             <l>And now prepare your throats. Lavinia, come, <stage>He cuts their throats. </stage>
               </l>
             <l>Receive the blood: and when that they are dead, </l>
-            <l n="200">Let me go grind their bones to powder small </l>
+            <l>Let me go grind their bones to powder small </l>
             <l>And with this hateful liquor temper it; </l>
             <l>And in that paste let their vile heads be baked. </l>
             <l>Come, come, be every one officious </l>
@@ -4394,7 +4394,7 @@
             <l>Let him receive no sustenance, fetter him, </l>
             <l>Till he be brought unto the empress' face, </l>
             <l>For testimony of her foul proceedings: </l>
-            <l n="10">And see the ambush of our friends be strong; </l>
+            <l>And see the ambush of our friends be strong; </l>
             <l>I fear the emperor means no good to us. </l>
           </sp>
           <sp who="tit-1">
@@ -4422,7 +4422,7 @@
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
-            <l n="20">Rome's emperor, and nephew, break the parle; </l>
+            <l>Rome's emperor, and nephew, break the parle; </l>
             <l>These quarrels must be quietly debated. </l>
             <l>The feast is ready, which the careful Titus </l>
             <l>Hath ordain'd to an honourable end. </l>
@@ -4442,11 +4442,11 @@
             <l>Welcome, my gracious lord; welcome, dread queen; </l>
             <l>Welcome, ye warlike Goths; welcome Lucius; </l>
             <l>And welcome, all: although the cheer be poor, </l>
-            <l n="30">'Twill fill your stomachs; please you eat of it. </l>
+            <l>'Twill fill your stomachs; please you eat of it. </l>
           </sp>
           <sp who="tit-22">
             <speaker>Sat.</speaker>
-            <l n="31">Why art thou thus attired, Andronicus? </l>
+            <l>Why art thou thus attired, Andronicus? </l>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
@@ -4467,7 +4467,7 @@
           </sp>
           <sp who="tit-22">
             <speaker>Sat.</speaker>
-            <l n="40">It was, Andronicus. </l>
+            <l>It was, Andronicus. </l>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
@@ -4494,7 +4494,7 @@
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
-            <l n="50">Kill'd her, for whom my tears have made me blind. </l>
+            <l>Kill'd her, for whom my tears have made me blind. </l>
             <l>I am as woful as Virginius was, </l>
             <l>And have a thousand times more cause than he </l>
             <l>To do this outrage: and it now is done. </l>
@@ -4519,7 +4519,7 @@
           </sp>
           <sp who="tit-22">
             <speaker>Sat.</speaker>
-            <l n="60">Go fetch them hither to us presently. </l>
+            <l>Go fetch them hither to us presently. </l>
           </sp>
           <sp who="tit-25">
             <speaker>Tit.</speaker>
@@ -4545,7 +4545,7 @@
             <speaker>Marc.</speaker>
             <l>You sad-faced men, people and sons of Rome, </l>
             <l>By uproar sever'd, like a flight of fowl </l>
-            <l n="70">Scatter'd by winds and high tempestuous gusts, </l>
+            <l>Scatter'd by winds and high tempestuous gusts, </l>
             <l>O, let me teach you how to knit again </l>
             <l>This scatter'd corn into one mutual sheaf, </l>
             <l>These broken limbs again into one body; </l>
@@ -4555,7 +4555,7 @@
             <l>Do shameful execution on herself. </l>
             <l>But if my frosty signs and chaps of age, </l>
             <l>Grave witnesses of true experience, </l>
-            <l n="80">Cannot induce you to attend my words, </l>
+            <l>Cannot induce you to attend my words, </l>
             <l><stage>To Lucius</stage> Speak, Rome's dear friend, as erst our ancestor, </l>
             <l>When with his solemn tongue he did discourse </l>
             <l>To love-sick Dido's sad attending ear </l>
@@ -4565,7 +4565,7 @@
             <l>Or who hath brought the fatal engine in </l>
             <l>That gives our Troy, our Rome, the civil wound. </l>
             <l>My heart is not compact of flint nor steel; </l>
-            <l n="90">Nor can I utter all our bitter grief, </l>
+            <l>Nor can I utter all our bitter grief, </l>
             <l>But floods of tears will drown my oratory, </l>
             <l>And break my utterance, even in the time </l>
             <l>When it should move you to attend me most, </l>
@@ -4578,7 +4578,7 @@
             <l>Then, noble auditory, be it known to you, </l>
             <l>That cursed Chiron and Demetrius </l>
             <l>Were they that murdered our emperor's brother; </l>
-            <l n="100">And they it were that ravished our sister: </l>
+            <l>And they it were that ravished our sister: </l>
             <l>For their fell faults our brothers were beheaded; </l>
             <l>Our father's tears despised, and basely cozen'd </l>
             <l>Of that true hand that fought Rome's quarrel out, </l>
@@ -4601,7 +4601,7 @@
           </sp>
           <sp who="tit-15">
             <speaker>Marc.</speaker>
-            <l n="120">Now is my turn to speak. Behold this child: <stage>Pointing to the child in the arms
+            <l>Now is my turn to speak. Behold this child: <stage>Pointing to the child in the arms
                 of an Attendant.</stage>
               </l>
             <l>Of this was Tamora delivered; </l>
@@ -4613,7 +4613,7 @@
             <l>These wrongs, unspeakable, past patience, </l>
             <l>Or more than any living man could bear. </l>
             <l>Now you have heard the truth, what say you, Romans ? </l>
-            <l n="130">Have we done aught amiss,—show us wherein, </l>
+            <l>Have we done aught amiss,—show us wherein, </l>
             <l>And, from the place where you behold us now, </l>
             <l>The poor remainder of Andronici </l>
             <l>Will, hand in hand, all headlong cast us down, </l>
@@ -4626,7 +4626,7 @@
             <speaker>Æmil.</speaker>
             <l>Come, come, thou reverend man of Rome, </l>
             <l>And bring our emperor gently in thy hand, </l>
-            <l n="140">Lucius our emperor; for well I know </l>
+            <l>Lucius our emperor; for well I know </l>
             <l>The common voice do cry it shall be so. </l>
           </sp>
           <sp>
@@ -4651,7 +4651,7 @@
             <speaker>Luc.</speaker>
             <l>Thanks, gentle Romans: may I govern so, </l>
             <l>To heal Rome's harms, and wipe away her woe! </l>
-            <l n="150">But, gentle people, give me aim awhile, </l>
+            <l>But, gentle people, give me aim awhile, </l>
             <l>For nature puts me to a heavy task: </l>
             <l>Stand all aloof: but, uncle, draw you near, </l>
             <l>To shed obsequious tears upon this trunk. </l>
@@ -4665,7 +4665,7 @@
             <l>Tear for tear, and loving kiss for kiss, </l>
             <l>Thy brother Marcus tenders on thy lips: </l>
             <l>O, were the sum of these that I should pay </l>
-            <l n="160">Countless and infinite, yet would I pay them! </l>
+            <l>Countless and infinite, yet would I pay them! </l>
           </sp>
           <sp who="tit-13">
             <speaker>Luc.</speaker>
@@ -4677,7 +4677,7 @@
             <l>Meet and agreeing with thine infancy; </l>
             <l>In that respect, then, like a loving child, </l>
             <l>Shed yet some small drops from thy tender spring, </l>
-            <l n="169">Because kind nature doth require it so: </l>
+            <l>Because kind nature doth require it so: </l>
             <l>Friends should associate friends in grief and woe: </l>
             <l>Bid him farewell; commit him to the grave; </l>
             <l>Do him that kindness, and take leave of him. </l>
@@ -4699,7 +4699,7 @@
           </sp>
           <sp who="tit-13">
             <speaker>Luc.</speaker>
-            <l n="180">Set him breast-deep in earth, and famish him; </l>
+            <l>Set him breast-deep in earth, and famish him; </l>
             <l>There let him stand, and rave, and cry for food: </l>
             <l>If any one relieves or pities him, </l>
             <l>For the offence he dies. This is our doom: </l>
@@ -4712,7 +4712,7 @@
             <l>I should repent the evils I have done: </l>
             <l>Ten thousand worse than ever yet I did </l>
             <l>Would I perform, if I might have my will: </l>
-            <l n="190">If one good deed in all my life I did, </l>
+            <l>If one good deed in all my life I did, </l>
             <l>I do repent it from my very soul. </l>
           </sp>
           <sp who="tit-13">

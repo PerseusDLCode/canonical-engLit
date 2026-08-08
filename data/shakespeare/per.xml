@@ -6,7 +6,7 @@
     <author>William Shakespeare</author>
     <editor>W. G. Clark</editor>
     <editor>W. Aldis Wright</editor>   </titleStmt>
-   <extent>about 71Kb</extent> <publicationStmt><p part="N">later</p></publicationStmt> <sourceDesc default="false">
+   <extent>about 71Kb</extent> <publicationStmt><p>later</p></publicationStmt> <sourceDesc default="false">
     <biblStruct default="false" status="draft">
      <monogr>
       <author>William Shakespeare</author>
@@ -188,7 +188,7 @@
      <stage type="setting">Before the palace of Antioch.</stage>
      <sp who="gow.">
       <speaker>Gow.</speaker>
-      <p part="N"><lb/>To sing a song that old was sung, <lb/>From ashes ancient Gower is come; <lb/>Assuming
+      <p><lb/>To sing a song that old was sung, <lb/>From ashes ancient Gower is come; <lb/>Assuming
        man's infirmities, <lb/>To glad your ear, and please your eyes. <lb/>It hath been sung at
        festivals, <lb/>On ember-eves and holy-ales; <lb/>And lords and ladies in their lives
        <lb/>Have read it for restoratives: <lb/>The purchase is to make men glorious; <lb ed="G" n="10"/>Et bonum quo antiquius, eo melius. <lb/>If you, born in these latter times,
@@ -707,7 +707,7 @@
      <stage type="entrance"> Enter THALIARD.</stage>
      <sp who="thal.">
       <speaker>Thal.</speaker>
-      <p part="N">So, this is Tyre, and this the court. <lb/>Here must I kill King Pericles; and if I do it
+      <p>So, this is Tyre, and this the court. <lb/>Here must I kill King Pericles; and if I do it
        <lb/>not, I am sure to be hanged at home: 'tis dangerous. <lb/>Well, I perceive he was a wise
        fellow, <lb/>and had good discretion, that, being bid to <lb/>ask what he would of the king,
        desired he <lb/>might know none of his secrets: now do I see <lb/>he had some reason for't;
@@ -1065,42 +1065,42 @@
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">What, ho, Pilch!</p>
+      <p>What, ho, Pilch!</p>
      </sp>
      <sp who="sec.-fish.">
       <speaker>Sec. Fish.</speaker>
-      <p part="N">Ha, come and bring away the <lb/>nets! </p>
+      <p>Ha, come and bring away the <lb/>nets! </p>
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">What, Patch-breech, I say!</p>
+      <p>What, Patch-breech, I say!</p>
      </sp>
      <sp who="third-fish.">
       <speaker>Third Fish.</speaker>
-      <p part="N">What say you, master?</p>
+      <p>What say you, master?</p>
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">Look how thou stirrest now! <lb/>come away, or I'll fetch thee with a wanion. </p>
+      <p>Look how thou stirrest now! <lb/>come away, or I'll fetch thee with a wanion. </p>
      </sp>
      <sp who="third-fish.">
       <speaker>Third Fish.</speaker>
-      <p part="N">'Faith, master, I am thinking <lb/>of the poor men that were cast away before <lb n="20"/>us even now. </p>
+      <p>'Faith, master, I am thinking <lb/>of the poor men that were cast away before <lb n="20"/>us even now. </p>
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">Alas, poor souls, it grieved my <lb/>heart to hear what pitiful cries they made to <lb/>us
+      <p>Alas, poor souls, it grieved my <lb/>heart to hear what pitiful cries they made to <lb/>us
        to help them, when, well-a-day, we could <lb/>scarce help ourselves. </p>
      </sp>
      <sp who="third-fish.">
       <speaker>Third Fish.</speaker>
-      <p part="N">Nay, master, said not I as <lb/>much when I saw the porpus how he bounced <lb/>and tumbled?
+      <p>Nay, master, said not I as <lb/>much when I saw the porpus how he bounced <lb/>and tumbled?
        they say they're half fish, half <lb/>flesh: a plague on them, they ne'er come but <lb/>I
        look to be washed. Master, I marvel how <lb n="30"/>the fishes live in the sea. </p>
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">Why, as men do a-land; the <lb/>great ones eat up the little ones: I can compare <lb/>our
+      <p>Why, as men do a-land; the <lb/>great ones eat up the little ones: I can compare <lb/>our
        rich misers to nothing so fitly as to <lb/>a whale; a' plays and tumbles, driving the poor
        <lb/>fry before him, and at last devours them all <lb/>at a mouthful: such whales have I
        heard on <lb/>o' the land, who never leave gaping till they've <lb/>swallowed the whole
@@ -1110,20 +1110,20 @@
       <speaker>Per.</speaker>
       <stage>[Aside]</stage>
       <lb n="39"/>
-      <p part="N">A pretty moral.</p>
+      <p>A pretty moral.</p>
      </sp>
      <sp who="third-fish.">
       <speaker>Third Fish.</speaker>
-      <p part="N">But, master, if I had been the <lb/>sexton, I would have been that day in the <lb/>belfry.
+      <p>But, master, if I had been the <lb/>sexton, I would have been that day in the <lb/>belfry.
       </p>
      </sp>
      <sp who="sec.-fish.">
       <speaker>Sec. Fish.</speaker>
-      <p part="N">Why, man?</p>
+      <p>Why, man?</p>
      </sp>
      <sp who="third-fish.">
       <speaker>Third Fish.</speaker>
-      <p part="N">Because he should have swallowed <lb/>me too; and when I had been in his <lb/>belly, I
+      <p>Because he should have swallowed <lb/>me too; and when I had been in his <lb/>belly, I
        would have kept such a jangling of <lb/>the bells, that he should never have left, till
        <lb/>he cast bells, steeple, church, and parish up <lb/>again. But if the good King Simonides
        were <lb/>of my mind,-- </p>
@@ -1132,11 +1132,11 @@
       <speaker>Per.</speaker>
       <stage>[Aside]</stage>
       <lb/>
-      <p n="49" part="N">Simonides! </p>
+      <p n="49">Simonides! </p>
      </sp>
      <sp who="third-fish.">
       <speaker>Third Fish.</speaker>
-      <p part="N">We would purge the land of <lb/>these drones, that rob the bee of her honey. </p>
+      <p>We would purge the land of <lb/>these drones, that rob the bee of her honey. </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
@@ -1150,16 +1150,16 @@
      </sp>
      <sp who="sec.-fish.">
       <speaker>Sec. Fish.</speaker>
-      <p part="N">Honest! good fellow, what's <lb/>that? If it be a day fits you, search out of <lb/>the
+      <p>Honest! good fellow, what's <lb/>that? If it be a day fits you, search out of <lb/>the
        calendar, and nobody look after it. </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
-      <p part="N">May see the sea hath cast upon your <lb n="60"/> coast. </p>
+      <p>May see the sea hath cast upon your <lb n="60"/> coast. </p>
      </sp>
      <sp who="sec.-fish.">
       <speaker>Sec. Fish.</speaker>
-      <p part="N">What a drunken knave was the <lb/>sea to cast thee in our way! </p>
+      <p>What a drunken knave was the <lb/>sea to cast thee in our way! </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
@@ -1171,21 +1171,21 @@
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">No, friend, cannot you beg? <lb/>Here's them in our country of Greece gets <lb/>more with
+      <p>No, friend, cannot you beg? <lb/>Here's them in our country of Greece gets <lb/>more with
        begging than we can do with working. </p>
      </sp>
      <sp who="sec.-fish.">
       <speaker>Sec. Fish.</speaker>
-      <p part="N">Canst thou catch any fishes, then?</p>
+      <p>Canst thou catch any fishes, then?</p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
       <lb/>
-      <p n="71" part="N">I never practised it. </p>
+      <p n="71">I never practised it. </p>
      </sp>
      <sp who="sec.-fish.">
       <speaker>Sec. Fish.</speaker>
-      <p part="N">Nay, then thou wilt starve, sure; <lb/>for here's nothing to be got now-a-days, <lb/>unless
+      <p>Nay, then thou wilt starve, sure; <lb/>for here's nothing to be got now-a-days, <lb/>unless
        thou canst fish for't. </p>
      </sp>
      <sp who="per.">
@@ -1201,34 +1201,34 @@
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">Die quoth-a? Now gods forbid! <lb/>I have a gown here; come, put it on; <lb/>keep thee
+      <p>Die quoth-a? Now gods forbid! <lb/>I have a gown here; come, put it on; <lb/>keep thee
        warm. Now, afore me, a handsome <lb/>fellow! Come, thou shalt go home, and we'll <lb/>have
        flesh for holidays, fish for fasting-days, <lb/>and moreo'er puddings and flap-jacks, and
        <lb/>thou shalt be welcome. </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
-      <p part="N">I thank you, sir.</p>
+      <p>I thank you, sir.</p>
      </sp>
      <sp who="sec.-fish.">
       <speaker>Sec. Fish.</speaker>
-      <p part="N">Hark you, my friend; you said <lb n="90"/>you could not beg. </p>
+      <p>Hark you, my friend; you said <lb n="90"/>you could not beg. </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
-      <p part="N">I did but crave.</p>
+      <p>I did but crave.</p>
      </sp>
      <sp who="sec.-fish.">
       <speaker>Sec. Fish.</speaker>
-      <p part="N">But crave! Then I'll turn craver <lb/>too, and so I shall 'scape whipping. </p>
+      <p>But crave! Then I'll turn craver <lb/>too, and so I shall 'scape whipping. </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
-      <p part="N">Why, are all your beggars whipped, then? </p>
+      <p>Why, are all your beggars whipped, then? </p>
      </sp>
      <sp who="sec.-fish.">
       <speaker>Sec. Fish.</speaker>
-      <p part="N">O, not all, my friend, not all; <lb/>for if all your beggars were whipped, I would
+      <p>O, not all, my friend, not all; <lb/>for if all your beggars were whipped, I would
        <lb/>wish no better office than to be beadle. But, <lb/>master, I'll go draw up the net.
         <stage type="exit">Exit with Third Fisherman.</stage></p>
      </sp>
@@ -1240,48 +1240,48 @@
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">Hark you, sir, do you know <lb n="101"/>where ye are? </p>
+      <p>Hark you, sir, do you know <lb n="101"/>where ye are? </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
-      <p part="N">Not well.</p>
+      <p>Not well.</p>
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">Why, I'll tell you: this is <lb/>called Pentapolis, and our king the good Simonides.</p>
+      <p>Why, I'll tell you: this is <lb/>called Pentapolis, and our king the good Simonides.</p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
-      <p part="N">The good King Simonides, do you call <lb/>him? </p>
+      <p>The good King Simonides, do you call <lb/>him? </p>
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">Ay, sir; and he deserves so to <lb/>be called for his peaceable reign and good government.
+      <p>Ay, sir; and he deserves so to <lb/>be called for his peaceable reign and good government.
       </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
-      <p part="N">He is a happy king, since he gains <lb/>from his subjects the name of good by his
+      <p>He is a happy king, since he gains <lb/>from his subjects the name of good by his
        <lb/>government. How far is his court distant from <lb n="111"/>this shore? </p>
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">Marry, sir, half a day's jour- <lb/>ney: and I'll tell you, he hath a fair daughter,
+      <p>Marry, sir, half a day's jour- <lb/>ney: and I'll tell you, he hath a fair daughter,
        <lb/>and to-morrow is her birth-day; and there <lb/>are princes and knights come from all
        parts of <lb/>the world to just and tourney for her love. </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
-      <p part="N">Were my fortunes equal to my desires, <lb/>I could wish to make one there. </p>
+      <p>Were my fortunes equal to my desires, <lb/>I could wish to make one there. </p>
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">O, sir, things must be as they <lb/>may; and what a man cannot get, he may <lb n="121"/>lawfully deal for--his wife's soul. <stage type="entrance"> Re-enter Second and Third
+      <p>O, sir, things must be as they <lb/>may; and what a man cannot get, he may <lb n="121"/>lawfully deal for--his wife's soul. <stage type="entrance"> Re-enter Second and Third
         Fishermen, drawing up a net.</stage></p>
      </sp>
      <sp who="sec.-fish.">
       <speaker>Sec. Fish.</speaker>
-      <p part="N">Help, master, help! here's a <lb/>fish hangs in the net, like a poor man's right <lb/>in
+      <p>Help, master, help! here's a <lb/>fish hangs in the net, like a poor man's right <lb/>in
        the law; 'twill hardly come out. Ha! bots <lb/>on't, 'tis come at last, and 'tis turned to a
        <lb/>rusty armor. </p>
      </sp>
@@ -1307,7 +1307,7 @@
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
       <lb/>
-      <p n="141" part="N">What mean you, sir?</p>
+      <p n="141">What mean you, sir?</p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
@@ -1323,7 +1323,7 @@
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">Why, wilt thou tourney for the lady? </p>
+      <p>Why, wilt thou tourney for the lady? </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
@@ -1332,11 +1332,11 @@
      </sp>
      <sp who="first-fish.">
       <speaker>First Fish.</speaker>
-      <p part="N">Why, do'e take it, and the gods <lb/>give thee good on't! </p>
+      <p>Why, do'e take it, and the gods <lb/>give thee good on't! </p>
      </sp>
      <sp who="sec.-fish.">
       <speaker>Sec. Fish.</speaker>
-      <p part="N">Ay, but hark you, my friend; <lb/>'twas we that made up this garment through <lb/>the rough
+      <p>Ay, but hark you, my friend; <lb/>'twas we that made up this garment through <lb/>the rough
        seams of the waters: there are <lb/>certain condolements, certain vails. I hope, sir, <lb/>if
        you thrive, you'll remember from <lb/>whence you had it. </p>
      </sp>
@@ -1355,7 +1355,7 @@
      </sp>
      <sp who="sec.-fish.">
       <speaker>Sec. Fish.</speaker>
-      <p part="N">We'll sure provide: thou shalt <lb/>have my best gown to make thee a pair; and <lb n="170"/>I'll bring thee to the court myself. </p>
+      <p>We'll sure provide: thou shalt <lb/>have my best gown to make thee a pair; and <lb n="170"/>I'll bring thee to the court myself. </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
@@ -2358,34 +2358,34 @@
      </sp>
      <sp who="first-sail.">
       <speaker>First Sail.</speaker>
-      <p part="N">Slack the bolins there! Thou <lb/>wilt not, wilt thou? Blow, and split thyself. </p>
+      <p>Slack the bolins there! Thou <lb/>wilt not, wilt thou? Blow, and split thyself. </p>
      </sp>
      <sp who="sec.-sail.">
       <speaker>Sec. Sail.</speaker>
-      <p part="N">But sea-room, an the brine and <lb/>cloudy billow kiss the moon, I care not. </p>
+      <p>But sea-room, an the brine and <lb/>cloudy billow kiss the moon, I care not. </p>
      </sp>
      <sp who="first-sail.">
       <speaker>First Sail.</speaker>
-      <p part="N">Sir, your queen must over- <lb/>board: the sea works high, the wind is loud, <lb/>and will
+      <p>Sir, your queen must over- <lb/>board: the sea works high, the wind is loud, <lb/>and will
        not lie till the ship be cleared of <lb/>the dead. </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
       <lb/>
-      <p n="50" part="N">That's your superstition. </p>
+      <p n="50">That's your superstition. </p>
      </sp>
      <sp who="first-sail.">
       <speaker>First Sail.</speaker>
-      <p part="N">Pardon us, sir; with us at sea <lb/>it hath been still observed; and we are strong <lb/>in
+      <p>Pardon us, sir; with us at sea <lb/>it hath been still observed; and we are strong <lb/>in
        custom. Therefore briefly yield her; for she <lb/>must overboard straight. </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
-      <p part="N">As you think meet. Most wretched queen!</p>
+      <p>As you think meet. Most wretched queen!</p>
      </sp>
      <sp who="lyc.">
       <speaker>Lyc.</speaker>
-      <p part="N">Here she lies, sir.</p>
+      <p>Here she lies, sir.</p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
@@ -2408,15 +2408,15 @@
      </sp>
      <sp who="sec.-sail.">
       <speaker>Sec. Sail.</speaker>
-      <p part="N">Sir, we have a chest beneath the <lb/>hatches, caulked and bitumed ready. </p>
+      <p>Sir, we have a chest beneath the <lb/>hatches, caulked and bitumed ready. </p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
-      <p part="N">I thank thee. Mariner, say what coast is this? </p>
+      <p>I thank thee. Mariner, say what coast is this? </p>
      </sp>
      <sp who="sec.-sail.">
       <speaker>Sec. Sail.</speaker>
-      <p part="N">We are near Tarsus.</p>
+      <p>We are near Tarsus.</p>
      </sp>
      <sp who="per.">
       <speaker>Per.</speaker>
@@ -2446,11 +2446,11 @@
       shipwrecked.</stage>
      <sp who="cer.">
       <speaker>Cer.</speaker>
-      <p part="N">Philemon, ho! <stage type="entrance"> Enter PHILEMON.</stage></p>
+      <p>Philemon, ho! <stage type="entrance"> Enter PHILEMON.</stage></p>
      </sp>
      <sp who="phil.">
       <speaker>Phil.</speaker>
-      <p part="N">Doth my lord call?</p>
+      <p>Doth my lord call?</p>
      </sp>
      <sp who="cer.">
       <speaker>Cer.</speaker>
@@ -2914,16 +2914,16 @@
      </sp>
      <sp who="leon.">
       <speaker>Leon.</speaker>
-      <p part="N">I will do't; but yet she is a goodly <lb n="9"/> creature. </p>
+      <p>I will do't; but yet she is a goodly <lb n="9"/> creature. </p>
      </sp>
      <sp who="dion.">
       <speaker>Dion.</speaker>
-      <p part="N">The fitter, then, the gods should have <lb/>her. Here she comes weeping for her only
+      <p>The fitter, then, the gods should have <lb/>her. Here she comes weeping for her only
        <lb/>mistress' death. Thou art resolved? </p>
      </sp>
      <sp who="leon.">
       <speaker>Leon.</speaker>
-      <p part="N">I am resolved. <stage type="entrance"> Enter MARINA, with a basket of flowers.</stage></p>
+      <p>I am resolved. <stage type="entrance"> Enter MARINA, with a basket of flowers.</stage></p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
@@ -3138,72 +3138,72 @@
      <stage type="entrance"> Enter PANDAR, Bawd, and BOULT. </stage>
      <sp who="pand.">
       <speaker>Pand.</speaker>
-      <p part="N">Boult!</p>
+      <p>Boult!</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Sir?</p>
+      <p>Sir?</p>
      </sp>
      <sp who="pand.">
       <speaker>Pand.</speaker>
-      <p part="N">Search the market narrowly; Mytilene <lb/>is full of gallants. We lost too much <lb/>money
+      <p>Search the market narrowly; Mytilene <lb/>is full of gallants. We lost too much <lb/>money
        this mart by being too wenchless. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">We were never so much out of <lb/>creatures. We have but poor three, and they <lb/>can do
+      <p>We were never so much out of <lb/>creatures. We have but poor three, and they <lb/>can do
        no more than they can do; and they <lb/>with continual action are even as good as <lb n="9"/>rotten. </p>
      </sp>
      <sp who="pand.">
       <speaker>Pand.</speaker>
-      <p part="N">Therefore let's have fresh ones, <lb/>whate'er we pay for them. If there be not a
+      <p>Therefore let's have fresh ones, <lb/>whate'er we pay for them. If there be not a
        <lb/>conscience to be used in every trade, we shall <lb/>never prosper. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Thou sayest true: 'tis not our bringing <lb/>up of poor bastards,--as, I think, I have
+      <p>Thou sayest true: 'tis not our bringing <lb/>up of poor bastards,--as, I think, I have
        <lb/>brought up some eleven-- </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Ay, to eleven; and brought them <lb/>down again. But shall I search the market? </p>
+      <p>Ay, to eleven; and brought them <lb/>down again. But shall I search the market? </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">What else, man? The stuff we <lb/>have, a strong wind will blow it to pieces, they <lb n="21"/>are so pitifully sodden. </p>
+      <p>What else, man? The stuff we <lb/>have, a strong wind will blow it to pieces, they <lb n="21"/>are so pitifully sodden. </p>
      </sp>
      <sp who="pand.">
       <speaker>Pand.</speaker>
-      <p part="N">Thou sayest true; they're too unwholesome, <lb/>o' conscience. The poor Transylvanian
+      <p>Thou sayest true; they're too unwholesome, <lb/>o' conscience. The poor Transylvanian
        <lb/>is dead, that lay with the little baggage. </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Ay, she quickly pooped him; she <lb/>made him roast-meat for worms. But I'll go <lb/>search
+      <p>Ay, she quickly pooped him; she <lb/>made him roast-meat for worms. But I'll go <lb/>search
        the market. <stage type="exit">[Exit.</stage></p>
      </sp>
      <sp who="pand.">
       <speaker>Pand.</speaker>
-      <p part="N">Three or four thousand chequins <lb/>were as pretty a proportion to live quietly, <lb n="30"/> and so give over. </p>
+      <p>Three or four thousand chequins <lb/>were as pretty a proportion to live quietly, <lb n="30"/> and so give over. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Why to give over, I pray you? is it <lb/>a shame to get when we are old? </p>
+      <p>Why to give over, I pray you? is it <lb/>a shame to get when we are old? </p>
      </sp>
      <sp who="pand.">
       <speaker>Pand.</speaker>
-      <p part="N">O, our credit comes not in like the <lb/>commodity, nor the commodity wages not <lb/>with
+      <p>O, our credit comes not in like the <lb/>commodity, nor the commodity wages not <lb/>with
        the danger: therefore, if in our youths <lb/>we could pick up some pretty estate, 'twere
        <lb/>not amiss to keep our door hatched. Besides, <lb/>the sore terms we stand upon with the
        gods <lb n="39"/>will be strong with us for giving over. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Come, others sorts offend as well as we. </p>
+      <p>Come, others sorts offend as well as we. </p>
      </sp>
      <sp who="pand.">
       <speaker>Pand.</speaker>
-      <p part="N">As well as we! ay, and better too; <lb/>we offend worse. Neither is our profession <lb/>any
+      <p>As well as we! ay, and better too; <lb/>we offend worse. Neither is our profession <lb/>any
        trade; it's no calling. But here comes <lb/>Boult. <stage type="exit">Re-enter BOULT, with
         the Pirates and MARINA.</stage></p>
      </sp>
@@ -3211,51 +3211,51 @@
       <speaker>Boult.</speaker>
       <lb/>
       <stage>[To Marina]</stage>
-      <p part="N"> Come your ways. My <lb/>My masters, you say she's a virgin?</p>
+      <p> Come your ways. My <lb/>My masters, you say she's a virgin?</p>
      </sp>
      <sp who="first-pirate.">
       <speaker>First Pirate.</speaker>
-      <p part="N">O, sir, we doubt it not.</p>
+      <p>O, sir, we doubt it not.</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Master, I have gone through for <lb/>this piece, you see: if you like her, so; if not,
+      <p>Master, I have gone through for <lb/>this piece, you see: if you like her, so; if not,
        <lb/>I have lost my earnest.</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
       <lb/>
-      <p n="50" part="N">Boult, has she any qualities? </p>
+      <p n="50">Boult, has she any qualities? </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">She has a good face, speaks well, <lb/>and has excellent good clothes: there's no
+      <p>She has a good face, speaks well, <lb/>and has excellent good clothes: there's no
        <lb/>further necessity of qualities can make her be <lb/>refused. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">What's her price, Boult?</p>
+      <p>What's her price, Boult?</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">I cannot be baited one doit of a <lb/>thousand pieces. </p>
+      <p>I cannot be baited one doit of a <lb/>thousand pieces. </p>
      </sp>
      <sp who="pand.">
       <speaker>Pand.</speaker>
-      <p part="N">Well, follow me, my masters, you <lb/>shall have your money presently. Wife, take <lb/>her
+      <p>Well, follow me, my masters, you <lb/>shall have your money presently. Wife, take <lb/>her
        in; instruct her what she has to do, that <lb n="60"/>she may not be raw in her
        entertainment. <stage type="exit"> Exeunt Pandar and Pirates.</stage></p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Boult, take you the marks of her, <lb/>the color of her hair, complexion, height, age,
+      <p>Boult, take you the marks of her, <lb/>the color of her hair, complexion, height, age,
        <lb/>with warrant of her virginity; and cry 'He <lb/>that will give most shall have her
        first.' Such <lb/>a maidenhead were no cheap thing, if men <lb/>were as they have been. Get
        this done as I <lb/>command you. </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Performance shall follow. <stage type="exit">[Exit.</stage></p>
+      <p>Performance shall follow. <stage type="exit">[Exit.</stage></p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
@@ -3267,171 +3267,171 @@
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Why lament you, pretty one?</p>
+      <p>Why lament you, pretty one?</p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">That I am pretty.</p>
+      <p>That I am pretty.</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Come, the gods have done their part in you.</p>
+      <p>Come, the gods have done their part in you.</p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">I accuse them not.</p>
+      <p>I accuse them not.</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">You are light into my hands, where you are like to live.</p>
+      <p>You are light into my hands, where you are like to live.</p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">The more my fault <lb n="80"/>To scape his hands where I was like to die. </p>
+      <p>The more my fault <lb n="80"/>To scape his hands where I was like to die. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Ay, and you shall live in pleasure.</p>
+      <p>Ay, and you shall live in pleasure.</p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">No.</p>
+      <p>No.</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Yes, indeed shall you, and taste <lb/>gentlemen of all fashions: you shall fare well;
+      <p>Yes, indeed shall you, and taste <lb/>gentlemen of all fashions: you shall fare well;
        <lb/>you shall have the difference of all complexions. <lb/>What! do you stop your ears? </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">Are you a woman?</p>
+      <p>Are you a woman?</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">What would you have me be, an I <lb n="89"/>be not a woman? </p>
+      <p>What would you have me be, an I <lb n="89"/>be not a woman? </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">An honest woman, or not a woman.</p>
+      <p>An honest woman, or not a woman.</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Marry, whip thee, gosling: I think <lb/>I shall have something to do with you. Come,
+      <p>Marry, whip thee, gosling: I think <lb/>I shall have something to do with you. Come,
        <lb/>you're a young foolish sapling, and must be <lb/>bowed as I would have you. </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">The gods defend me!</p>
+      <p>The gods defend me!</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">If it please the gods to defend you <lb/>by men, then men must comfort you, men <lb/>must
+      <p>If it please the gods to defend you <lb/>by men, then men must comfort you, men <lb/>must
        feed you, men must stir you up. Boult's <lb/>returned. <stage type="entrance"> Re-enter
         BOULT.</stage>
        <lb/></p>
-      <p n="99" part="N">Now, sir, hast thou cried her through the market? </p>
+      <p n="99">Now, sir, hast thou cried her through the market? </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">I have cried her almost to the number <lb/>of her hairs; I have drawn her picture <lb/>with
+      <p>I have cried her almost to the number <lb/>of her hairs; I have drawn her picture <lb/>with
        my voice. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">And I prithee tell me, how dost <lb/>thou find the inclination of the people,
+      <p>And I prithee tell me, how dost <lb/>thou find the inclination of the people,
        <lb/>especially of the younger sort? </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">'Faith, they listened to me as they <lb/>would have hearkened to their father's testament.
+      <p>'Faith, they listened to me as they <lb/>would have hearkened to their father's testament.
        <lb/>There was a Spaniard's mouth so watered, <lb/>that he went to bed to her very
        description. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">We shall have him here to-morrow <lb/>with his best ruff on. </p>
+      <p>We shall have him here to-morrow <lb/>with his best ruff on. </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">To-night, to-night. But, mistress, do <lb/>you know the French knight that cowers i' the
+      <p>To-night, to-night. But, mistress, do <lb/>you know the French knight that cowers i' the
        <lb/>hams? </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Who, Monsieur Veroles?</p>
+      <p>Who, Monsieur Veroles?</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Ay, he: he offered to cut a caper <lb/>at the proclamation; but he made a groan at <lb/>it,
+      <p>Ay, he: he offered to cut a caper <lb/>at the proclamation; but he made a groan at <lb/>it,
        and swore he would see her to-morrow. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Well, well; as for him, he brought <lb/>his disease hither: here he does but repair it.
+      <p>Well, well; as for him, he brought <lb/>his disease hither: here he does but repair it.
        <lb/>I know he will come in our shadow, to scatter <lb/>his crowns in the sun. </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Well, if we had of every nation a <lb/>traveller, we should lodge them with this sign. </p>
+      <p>Well, if we had of every nation a <lb/>traveller, we should lodge them with this sign. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
       <lb/>
       <stage>[To Mar.]</stage>
-      <p part="N">Pray you, come hither <lb/>awhile. You have fortunes coming upon you. <lb/>Mark me: you
+      <p>Pray you, come hither <lb/>awhile. You have fortunes coming upon you. <lb/>Mark me: you
        must seem to do that fearfully <lb/>which you commit willingly, despise <lb/>profit where you
        have most gain. To weep that <lb/>you live as ye do makes pity in your lovers: <lb/>seldom
        but that pity begets you a good opinion, <lb/>and that opinion a mere profit. </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">I understand you not.</p>
+      <p>I understand you not.</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">O, take her home, mistress, take <lb/>her home: these blushes of hers must be <lb/>quenched
+      <p>O, take her home, mistress, take <lb/>her home: these blushes of hers must be <lb/>quenched
        with some present practice. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Thou sayest true, i' faith so they <lb/>must; for your bride goes to that with shame <lb n="139"/>which is her way to go with warrant. </p>
+      <p>Thou sayest true, i' faith so they <lb/>must; for your bride goes to that with shame <lb n="139"/>which is her way to go with warrant. </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">'Faith, some do, and some do not. <lb/>But, mistress, if I have bargained for the
+      <p>'Faith, some do, and some do not. <lb/>But, mistress, if I have bargained for the
        <lb/>joint,-- </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Thou mayst cut a morsel off the <lb/>spit. </p>
+      <p>Thou mayst cut a morsel off the <lb/>spit. </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">I may so.</p>
+      <p>I may so.</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Who should deny it? Come, young <lb/>one, I like the manner of your garments well. </p>
+      <p>Who should deny it? Come, young <lb/>one, I like the manner of your garments well. </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Ay, by my faith, they shall not be <lb/>changed yet. </p>
+      <p>Ay, by my faith, they shall not be <lb/>changed yet. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Boult, spend thou that in the town: <lb/>report what a sojourner we have; you'll lose
+      <p>Boult, spend thou that in the town: <lb/>report what a sojourner we have; you'll lose
        <lb/>nothing by custom. When nature framed this <lb/>piece, she meant thee a good turn;
        therefore <lb/>say what a paragon she is, and thou hast the <lb/>harvest out of thine own
        report. </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">I warrant you, mistress, thunder <lb/>shall not so awake the beds of eels as my giving
+      <p>I warrant you, mistress, thunder <lb/>shall not so awake the beds of eels as my giving
        <lb/>out her beauty stir up the lewdly-inclined. <lb/>I'll bring home some to-night.</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Come your ways; follow me.</p>
+      <p>Come your ways; follow me.</p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
@@ -3441,7 +3441,7 @@
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">What have we to do with Diana? <lb/>Pray you, will you go with us? <stage type="exit">[Exeunt.</stage></p>
+      <p>What have we to do with Diana? <lb/>Pray you, will you go with us? <stage type="exit">[Exeunt.</stage></p>
      </sp>
     </div>
     <div type="scene" n="3">
@@ -3629,24 +3629,24 @@
      <stage type="entrance">Enter, from the brothel, two Gentlemen. </stage>
      <sp who="first-gent.">
       <speaker>First Gent.</speaker>
-      <p part="N">Did you ever hear the like?</p>
+      <p>Did you ever hear the like?</p>
      </sp>
      <sp who="sec.-gent.">
       <speaker>Sec. Gent.</speaker>
-      <p part="N">No, nor never shall do in such <lb/>a place as this, she being once gone. </p>
+      <p>No, nor never shall do in such <lb/>a place as this, she being once gone. </p>
      </sp>
      <sp who="first-gent.">
       <speaker>First Gent.</speaker>
-      <p part="N">But to have divinity preached <lb/>there! did you ever dream of such a thing? </p>
+      <p>But to have divinity preached <lb/>there! did you ever dream of such a thing? </p>
      </sp>
      <sp who="sec.-gent.">
       <speaker>Sec. Gent.</speaker>
-      <p part="N">No, no. Come, I am for no <lb/>more bawdy-houses: shall's go hear the <lb/>vestals sing?
+      <p>No, no. Come, I am for no <lb/>more bawdy-houses: shall's go hear the <lb/>vestals sing?
       </p>
      </sp>
      <sp who="first-gent.">
       <speaker>First Gent.</speaker>
-      <p part="N">I'll do any thing now that is <lb/>virtuous; but I am out of the road of rutting <lb n="10"/>for ever. <stage type="exit">[Exeunt.</stage></p>
+      <p>I'll do any thing now that is <lb/>virtuous; but I am out of the road of rutting <lb n="10"/>for ever. <stage type="exit">[Exeunt.</stage></p>
      </sp>
     </div>
     <div type="scene" n="6">
@@ -3655,11 +3655,11 @@
      <stage type="entrance"> Enter Pandar, Bawd, and BOULT. </stage>
      <sp who="pand.">
       <speaker>Pand.</speaker>
-      <p part="N">Well, I had rather than twice the <lb/>worth of her she had ne'er come here. </p>
+      <p>Well, I had rather than twice the <lb/>worth of her she had ne'er come here. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Fie, fie upon her! she's able to <lb/>freeze the god Priapus, and undo a whole
+      <p>Fie, fie upon her! she's able to <lb/>freeze the god Priapus, and undo a whole
        <lb/>generation. We must either get her ravished, or <lb/>be rid of her. When she should do
        for clients <lb/>her fitment, and do me the kindness of our <lb/>profession, she has me her
        quirks, her <lb/>reasons, her master reasons, her prayers, her <lb/>knees; that she would
@@ -3667,180 +3667,180 @@
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">'Faith, I must ravish her, or she'll <lb/>disfurnish us of all our cavaliers, and make
+      <p>'Faith, I must ravish her, or she'll <lb/>disfurnish us of all our cavaliers, and make
        <lb/>our swearers priests. </p>
      </sp>
      <sp who="pand.">
       <speaker>Pand.</speaker>
-      <p part="N">Now, the pox upon her green-sickness <lb/>for me! </p>
+      <p>Now, the pox upon her green-sickness <lb/>for me! </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">'Faith, there's no way to be rid on't <lb/>but by the way to the pox. Here comes the
+      <p>'Faith, there's no way to be rid on't <lb/>but by the way to the pox. Here comes the
        <lb/>Lord Lysimachus disguised. </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">We should have both lord and <lb/>lown, if the peevish baggage would but give <lb n="21"/>way to customers. <stage type="entrance"> Enter LYSIMACHUS.</stage></p>
+      <p>We should have both lord and <lb/>lown, if the peevish baggage would but give <lb n="21"/>way to customers. <stage type="entrance"> Enter LYSIMACHUS.</stage></p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">How now! How a dozen of virginities?</p>
+      <p>How now! How a dozen of virginities?</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Now, the gods to bless your honor!</p>
+      <p>Now, the gods to bless your honor!</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">I am glad to see your honour in good <lb/>health.</p>
+      <p>I am glad to see your honour in good <lb/>health.</p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">You may so; 'tis the better for you <lb/>that your resorters stand upon sound legs.
+      <p>You may so; 'tis the better for you <lb/>that your resorters stand upon sound legs.
        <lb/>How now! wholesome iniquity have you that <lb/>a man may deal withal, and defy the
        surgeon? </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">We have here one, sir, if she would <lb/>--but there never came her like in Mytilene.</p>
+      <p>We have here one, sir, if she would <lb/>--but there never came her like in Mytilene.</p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">If she'ld do the deed of darkness, <lb/>thou wouldst say. </p>
+      <p>If she'ld do the deed of darkness, <lb/>thou wouldst say. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Your honor knows what 'tis to say <lb/>well enough. </p>
+      <p>Your honor knows what 'tis to say <lb/>well enough. </p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">Well, call forth, call forth.</p>
+      <p>Well, call forth, call forth.</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">For flesh and blood, sir, white and <lb/>red, you shall see a rose; and she were a rose
+      <p>For flesh and blood, sir, white and <lb/>red, you shall see a rose; and she were a rose
        <lb/>indeed, if she had but-- </p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
       <lb/>
-      <p n="40" part="N">What, prithee? </p>
+      <p n="40">What, prithee? </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">O, sir, I can be modest.</p>
+      <p>O, sir, I can be modest.</p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">That dignifies the renown of a bawd, <lb/>no less than it gives a good report to a number
+      <p>That dignifies the renown of a bawd, <lb/>no less than it gives a good report to a number
        <lb/>to be chaste. <stage type="exit">[Exit Boult.</stage></p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Here comes that which grows to the <lb/>stalk; never plucked yet, I can assure you. <stage type="entrance"> Re-enter BOULT with MARINA.</stage></p>
-      <p part="N">Is she not a fair creature?</p>
+      <p>Here comes that which grows to the <lb/>stalk; never plucked yet, I can assure you. <stage type="entrance"> Re-enter BOULT with MARINA.</stage></p>
+      <p>Is she not a fair creature?</p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">'Faith, she would serve after a long <lb/>voyage at sea. Well, there's for you: leave us.
+      <p>'Faith, she would serve after a long <lb/>voyage at sea. Well, there's for you: leave us.
       </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">I beseech your honor, give me <lb n="51"/>leave: a word, and I'll have done presently. </p>
+      <p>I beseech your honor, give me <lb n="51"/>leave: a word, and I'll have done presently. </p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">I beseech you, do.</p>
+      <p>I beseech you, do.</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
       <stage>[To Marina]</stage>
-      <p part="N">First, I would have <lb/>you note, this is an honorable man. </p>
+      <p>First, I would have <lb/>you note, this is an honorable man. </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">I desire to find him so, that I may <lb/>worthily note him. </p>
+      <p>I desire to find him so, that I may <lb/>worthily note him. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Next, he's the governor of this country, <lb/>and a man whom I am bound to. </p>
+      <p>Next, he's the governor of this country, <lb/>and a man whom I am bound to. </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">If he govern the country, you are <lb/>bound to him indeed; but how honorable he <lb n="61"/>is in that, I know not. </p>
+      <p>If he govern the country, you are <lb/>bound to him indeed; but how honorable he <lb n="61"/>is in that, I know not. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Pray you, without any more virginal <lb/>fencing, will you use him kindly? He <lb/>will
+      <p>Pray you, without any more virginal <lb/>fencing, will you use him kindly? He <lb/>will
        line your apron with gold. </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">What he will do graciously, I will <lb/>thankfully receive. </p>
+      <p>What he will do graciously, I will <lb/>thankfully receive. </p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">Ha' you done?</p>
+      <p>Ha' you done?</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">My lord, she's not paced yet: you <lb/>must take some pains to work her to your
+      <p>My lord, she's not paced yet: you <lb/>must take some pains to work her to your
        <lb/>manage. Come, we will leave his honor and <lb/>her together. Go thy ways. <stage type="exit">Exeunt Bawd, Pandar, and Boult.</stage></p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">Now, pretty one, how long have you <lb/>been at this trade? </p>
+      <p>Now, pretty one, how long have you <lb/>been at this trade? </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">What trade, sir?</p>
+      <p>What trade, sir?</p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">Why, I cannot name't but I shall <lb/>offend. </p>
+      <p>Why, I cannot name't but I shall <lb/>offend. </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">I cannot be offended with my trade. <lb/>Please you to name it.</p>
+      <p>I cannot be offended with my trade. <lb/>Please you to name it.</p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">How long have you been of this <lb/>profession? </p>
+      <p>How long have you been of this <lb/>profession? </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">E'er since I can remember?</p>
+      <p>E'er since I can remember?</p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">Did you go to't so young? Were <lb n="81"/>you a gamester at five or at seven? </p>
+      <p>Did you go to't so young? Were <lb n="81"/>you a gamester at five or at seven? </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">Earlier too, sir, if now I be one.</p>
+      <p>Earlier too, sir, if now I be one.</p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">Why, the house you dwell in proclaims <lb/>you to be a creature of sale.</p>
+      <p>Why, the house you dwell in proclaims <lb/>you to be a creature of sale.</p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">Do you know this house to be a <lb/>place of such resort, and will come into't? I <lb/>hear
+      <p>Do you know this house to be a <lb/>place of such resort, and will come into't? I <lb/>hear
        say you are of honorable parts, and are <lb/>the governor of this place. </p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">Why, hath your principal made <lb n="90"/>known unto you who I am? </p>
+      <p>Why, hath your principal made <lb n="90"/>known unto you who I am? </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">Who is my principal?</p>
+      <p>Who is my principal?</p>
      </sp>
      <sp who="lys.">
       <speaker>Lys.</speaker>
-      <p part="N">Why, your herb-woman; she that <lb/>sets seeds and roots of shame and iniquity. O, <lb/>you
+      <p>Why, your herb-woman; she that <lb/>sets seeds and roots of shame and iniquity. O, <lb/>you
        have heard something of my power, and <lb/>so stand aloof for more serious wooing. But I
        <lb/>protest to thee, pretty one, my authority shall <lb/>not see thee, or else look friendly
        upon thee. <lb/>Come, bring me to some private place: come, <lb/>come. </p>
@@ -3909,92 +3909,92 @@
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">How's this? We must take another <lb/>course with you. If your peevish chastity, <lb/>which
+      <p>How's this? We must take another <lb/>course with you. If your peevish chastity, <lb/>which
        is not worth a breakfast in the cheapest <lb/>country under the cope, shall undo a whole
        <lb/>a whole household, let me be gelded like a spaniel. <lb/>Come your ways. </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">Whither would you have me?</p>
+      <p>Whither would you have me?</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">I must have your maidenhead taken <lb/>off, or the common hangman shall execute it.
+      <p>I must have your maidenhead taken <lb/>off, or the common hangman shall execute it.
        <lb/>Come your ways. We'll have no more gentlemen <lb/>driven away. Come your ways, I say.
         <stage type="entrance"> Re-enter Bawd.</stage></p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
       <lb/>
-      <p n="140" part="N">How now! what's the matter? </p>
+      <p n="140">How now! what's the matter? </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Worse and worse, mistress; she has <lb/>here spoken holy words to the Lord Lysimachus.</p>
+      <p>Worse and worse, mistress; she has <lb/>here spoken holy words to the Lord Lysimachus.</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">O abominable!</p>
+      <p>O abominable!</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">She makes our profession as it were <lb/>to stink afore the face of the gods. </p>
+      <p>She makes our profession as it were <lb/>to stink afore the face of the gods. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Marry, hang her up for ever!</p>
+      <p>Marry, hang her up for ever!</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">The nobleman would have dealt <lb/>with her like a nobleman, and she sent him <lb/>away as
+      <p>The nobleman would have dealt <lb/>with her like a nobleman, and she sent him <lb/>away as
        cold as a snowball; saying his <lb/>prayers too. </p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">Boult, take her away; use her at <lb/>thy pleasure: crack the glass of her virginity,
+      <p>Boult, take her away; use her at <lb/>thy pleasure: crack the glass of her virginity,
        <lb/>and make the rest malleable. </p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">An if she were a thornier piece of <lb/>ground than she is, she shall be ploughed. </p>
+      <p>An if she were a thornier piece of <lb/>ground than she is, she shall be ploughed. </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">Hark, hark, you gods!</p>
+      <p>Hark, hark, you gods!</p>
      </sp>
      <sp who="bawd.">
       <speaker>Bawd.</speaker>
-      <p part="N">She conjures: away with her! <lb/>Would she had never come within my doors! <lb/>Marry,
+      <p>She conjures: away with her! <lb/>Would she had never come within my doors! <lb/>Marry,
        hang you! She's born to undo us. <lb/>Will you not go the way of women-kind? <lb/>Marry, come
        up, my dish of chastity with rose- <lb/>mary and bays! <stage type="exit">[Exit.</stage></p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Come, mistress; come your ways <lb/>with me. </p>
+      <p>Come, mistress; come your ways <lb/>with me. </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">Whither wilt thou have me?</p>
+      <p>Whither wilt thou have me?</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">To take from you the jewel you <lb/>hold so dear. </p>
+      <p>To take from you the jewel you <lb/>hold so dear. </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">Prithee, tell me one thing first.</p>
+      <p>Prithee, tell me one thing first.</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Come now, your one thing.</p>
+      <p>Come now, your one thing.</p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">What canst thou wish thine enemy to be?</p>
+      <p>What canst thou wish thine enemy to be?</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Why, I could wish him to be my <lb n="170"/>master, or rather, my mistress. </p>
+      <p>Why, I could wish him to be my <lb n="170"/>master, or rather, my mistress. </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
@@ -4011,7 +4011,7 @@
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">What would you have me do? go <lb/>to the wars, would you? where a man may <lb/>serve seven
+      <p>What would you have me do? go <lb/>to the wars, would you? where a man may <lb/>serve seven
        years for the loss of a leg, and <lb/>have not money enough in the end to buy <lb/>him a
        wooden one? </p>
      </sp>
@@ -4035,7 +4035,7 @@
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">But can you teach all this you speak of?</p>
+      <p>But can you teach all this you speak of?</p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
@@ -4046,15 +4046,15 @@
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">Well, I will see what I can do for <lb/>thee: if I can place thee, I will. </p>
+      <p>Well, I will see what I can do for <lb/>thee: if I can place thee, I will. </p>
      </sp>
      <sp who="mar.">
       <speaker>Mar.</speaker>
-      <p part="N">But amongst honest women.</p>
+      <p>But amongst honest women.</p>
      </sp>
      <sp who="boult.">
       <speaker>Boult.</speaker>
-      <p part="N">'Faith, my acquaintance lies little <lb/>amongst them. But since my master and mistress
+      <p>'Faith, my acquaintance lies little <lb/>amongst them. But since my master and mistress
        <lb/>have bought you, there's no going but by <lb/>their consent: therefore I will make them
        <lb/>acquainted with your purpose, and I doubt not <lb/>but I shall find them tractable
        enough. Come, <lb/>I'll do for thee what I can; come your ways. <stage type="exit">[Exeunt.</stage></p>

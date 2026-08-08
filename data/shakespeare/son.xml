@@ -6,7 +6,7 @@
         <author>William Shakespeare</author>
         <editor>W. G. Clark</editor>
         <editor>W. Aldis Wright</editor>   </titleStmt>
-      <publicationStmt><p part="N">later</p></publicationStmt> <sourceDesc default="false">
+      <publicationStmt><p>later</p></publicationStmt> <sourceDesc default="false">
         <biblStruct default="false" status="draft">
           <monogr>
             <author>William Shakespeare</author>
@@ -39,7 +39,7 @@
     <front>
       <div type="sonnet" n="dedication">
         <head>DEDICATION</head>
-        <p part="N">
+        <p>
           <lb rend="centered"/>TO THE ONLIE BEGETTER OF <lb rend="centered"/>THESE INSUING SONNETS
             <lb rend="centered"/>MR. W. H. ALL HAPPINESSE <lb rend="centered"/>AND THAT ETERNITIE
             <lb rend="centered"/>PROMISED BY <lb rend="centered"/>OUR EVER-LIVING POET <lb rend="centered"/>WISHETH <lb rend="centered"/>THE WELL-WISHING <lb rend="centered"/>ADVENTURER IN <lb rend="centered"/>SETTING <lb rend="centered"/>FORTH <lb rend="right"/>T. T.</p>

@@ -13,4 +13,7 @@
             <xsl:apply-templates />
         </l>
     </xsl:template>
+
+    <!-- @part="N" is the TEI default and carries no information; strip it -->
+    <xsl:template match="tei:p/@part[. = 'N']"/>
 </xsl:stylesheet>

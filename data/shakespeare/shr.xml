@@ -6,7 +6,7 @@
         <author>William Shakespeare</author>
         <editor>W. G. Clark</editor>
         <editor>W. Aldis Wright</editor>   </titleStmt>
-      <publicationStmt><p part="N">later</p></publicationStmt> <sourceDesc default="false">
+      <publicationStmt><p>later</p></publicationStmt> <sourceDesc default="false">
         <biblStruct default="false" status="draft">
           <monogr>
             <author>William Shakespeare</author>
@@ -196,37 +196,37 @@
           
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">I'll pheeze you, in faith. </p>
+            <p>I'll pheeze you, in faith. </p>
           </sp>
           <sp who="host.">
             <speaker>Host.</speaker>
-            <p part="N">A pair of stocks, you rogue! </p>
+            <p>A pair of stocks, you rogue! </p>
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">Ye are a baggage: the Slys are no rogues; look in the
+            <p>Ye are a baggage: the Slys are no rogues; look in the
               chronicles; we came in with Richard Conqueror.
               Therefore paucas pallabris; let the world slide: sessa!
                 </p>
           </sp>
           <sp who="host.">
             <speaker>Host.</speaker>
-            <p part="N">You will not pay for the glasses you have burst? <lb ed="G" n="9"/></p>
+            <p>You will not pay for the glasses you have burst? <lb ed="G" n="9"/></p>
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">No, not a denier. Go by, Jeronimy: go to thy cold
+            <p>No, not a denier. Go by, Jeronimy: go to thy cold
               bed, and warm thee. </p>
           </sp>
           <sp who="host.">
             <speaker>Host.</speaker>
-            <p part="N">I know my remedy; I must go fetch the third-borough.
+            <p>I know my remedy; I must go fetch the third-borough.
                 <stage type="exit">Exit.</stage>
               </p>
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">Third, fourth, or fifth borough, I'll answer him by
+            <p>Third, fourth, or fifth borough, I'll answer him by
               law: I'll not budge an inch, boy: let him come, and
               kindly. <stage>Falls asleep.</stage>
               <stage>Horns winded.</stage><stage type="entrance"> Enter a LORD
@@ -238,7 +238,7 @@
             <l>Huntsman, I charge thee, tender well my hounds: </l>
             <l>Brach Merriman, the poor cur is emboss'd; </l>
             <l>And couple Clowder with the deep-mouth'd brach. </l>
-            <l n="20">Saw'st thou not, boy, how Silver made it good </l>
+            <l>Saw'st thou not, boy, how Silver made it good </l>
             <l>At the hedge-corner, in the coldest fault? </l>
             <l>I would not lose the dog for twenty pound. </l>
           </sp>
@@ -254,11 +254,11 @@
             <l>Thou art a fool: if Echo were as fleet, </l>
             <l>I would esteem him worth a dozen such. </l>
             <l>But sup them well and look unto them all: </l>
-            <l n="30">To-morrow I intend to hunt again. </l>
+            <l>To-morrow I intend to hunt again. </l>
           </sp>
           <sp who="first-hun.">
             <speaker>First Hun.</speaker>
-            <p part="N">I will, my lord. </p>
+            <p>I will, my lord. </p>
           </sp>
           <sp who="lord.">
             <speaker>Lord.</speaker>
@@ -275,7 +275,7 @@
             <l>Grim death, how foul and loathsome is thine image! </l>
             <l>Sirs, I will practise on this drunken man. </l>
             <l>What think you, if he were convey'd to bed, </l>
-            <l n="39">Wrapp'd in sweet clothes, rings out upon his fingers, </l>
+            <l>Wrapp'd in sweet clothes, rings out upon his fingers, </l>
             <l>A most delicious banquet by his bed. </l>
             <l>And brave attendants near him when he wakes, </l>
             <l>Would not the beggar then forget himself? </l>
@@ -295,7 +295,7 @@
             <l>Carry him gently to my fairest chamber </l>
             <l>And hang it round with all my wanton pictures: </l>
             <l>Balm his foul head in warm distilled waters </l>
-            <l n="50">And burn sweet wood to make the lodging sweet: </l>
+            <l>And burn sweet wood to make the lodging sweet: </l>
             <l>Procure me music ready when he wakes, </l>
             <l>To make a dulcet and a heavenly sound; </l>
             <l>And if he chance to speak, be ready straight </l>
@@ -305,7 +305,7 @@
             <l>Full of rose-water and bestrew'd with flowers; </l>
             <l>Another bear the ewer, the third a diaper, </l>
             <l>And say 'Will't please you lordship cool your hands?' </l>
-            <l n="60">Some one be ready with a costly suit </l>
+            <l>Some one be ready with a costly suit </l>
             <l>And ask him what apparel he will wear; </l>
             <l>Another tell him of his hounds and horse, </l>
             <l>And that his lady mourns at his disease: </l>
@@ -318,7 +318,7 @@
           </sp>
           <sp who="first-hun.">
             <speaker>First Hun.</speaker>
-            <l n="70">My lord, I warrant you we will play our part, </l>
+            <l>My lord, I warrant you we will play our part, </l>
             <l>As he shall think by our true diligence </l>
             <l>He is no less than what we say he is. </l>
           </sp>
@@ -349,7 +349,7 @@
           </sp>
           <sp who="players.">
             <speaker>Players.</speaker>
-            <p part="N">We thank your honour. </p>
+            <p>We thank your honour. </p>
           </sp>
           <sp who="lord.">
             <speaker>Lord.</speaker>
@@ -373,7 +373,7 @@
           </sp>
           <sp who="lord.">
             <speaker>Lord.</speaker>
-            <l n="90">'Tis very true: thou didst it excellent. </l>
+            <l>'Tis very true: thou didst it excellent. </l>
             <l>Well, you are come to me in happy time; </l>
             <l>The rather for I have some sport in hand </l>
             <l>Wherein your cunning can assist me much. </l>
@@ -383,7 +383,7 @@
             <l>For yet his honour never heard a play-- </l>
             <l>You break into some merry passion </l>
             <l>And so offend him; for I tell you, sirs, </l>
-            <l n="100">If you should smile he grows impatient. </l>
+            <l>If you should smile he grows impatient. </l>
           </sp>
           <sp who="a-player.">
             <speaker>A Player.</speaker>
@@ -400,7 +400,7 @@
             <l>And see him dress'd in all suits like a lady: </l>
             <l>That done, conduct him to the drunkard's chamber; </l>
             <l>And call him 'madam,' do him obeisance. </l>
-            <l n="110">Tell him from me, as he will win my love, </l>
+            <l>Tell him from me, as he will win my love, </l>
             <l>He bear himself with honorable action, </l>
             <l>Such as he hath observed in noble ladies </l>
             <l>Unto their lords, by them accomplished: </l>
@@ -410,7 +410,7 @@
             <l>Wherein your lady and your humble wife </l>
             <l>May show her duty and make known her love?' </l>
             <l>And then with kind embracements, tempting kisses, </l>
-            <l n="120">And with declining head into his bosom, </l>
+            <l>And with declining head into his bosom, </l>
             <l>Bid him shed tears, as being overjoy'd </l>
             <l>To see her noble lord restored to health, </l>
             <l>Who for this seven years hath esteemed him </l>
@@ -420,7 +420,7 @@
             <l>An onion will do well for such a shift, </l>
             <l>Which in a napkin being close convey'd </l>
             <l>Shall in despite enforce a watery eye. </l>
-            <l n="130">See this dispatch'd with all the haste thou canst: </l>
+            <l>See this dispatch'd with all the haste thou canst: </l>
             <l>Anon I'll give thee more instructions. <stage type="exit">Exit a
                 Servingman.</stage>
               </l>
@@ -462,7 +462,7 @@
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">I am Christophero Sly; call not me 'honor' nor 'lordship:' I ne'er drank sack in my life; and if you give me any conserves, give me conserves of beef: ne'er ask me what raiment I'll wear; for I have no more doublets
+            <p>I am Christophero Sly; call not me 'honor' nor 'lordship:' I ne'er drank sack in my life; and if you give me any conserves, give me conserves of beef: ne'er ask me what raiment I'll wear; for I have no more doublets
                 than backs, no more stockings than legs, nor no more shoes than feet; nay, sometime more feet than shoes, or such shoes as my toes look through the over-leather. </p>
           </sp>
           <sp who="lord.">
@@ -474,7 +474,7 @@
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">What, would you make me mad? Am not I Christopher Sly, old Sly's son of Burton- heath, by birth a pedlar, by education a card- maker, by transmutation a bear-herd, and now, by present profession a tinker? Ask Marian Hacket, the fat ale-wife of Wincot, if she know me not: if she say I am not fourteen pence on the score for sheer ale, score me up for the lyingest knave in Christendom. What! I am not
+            <p>What, would you make me mad? Am not I Christopher Sly, old Sly's son of Burton- heath, by birth a pedlar, by education a card- maker, by transmutation a bear-herd, and now, by present profession a tinker? Ask Marian Hacket, the fat ale-wife of Wincot, if she know me not: if she say I am not fourteen pence on the score for sheer ale, score me up for the lyingest knave in Christendom. What! I am not
               bestraught: here's-- </p>
           </sp>
           <sp who="third-serv.">
@@ -483,7 +483,7 @@
           </sp>
           <sp who="sec.-serv.">
             <speaker>Sec. Serv.</speaker>
-            <l n="30">O, this is it that makes your servants droop! </l>
+            <l>O, this is it that makes your servants droop! </l>
           </sp>
           <sp who="lord.">
             <speaker>Lord.</speaker>
@@ -497,7 +497,7 @@
             <l>Wilt thou have music? hark! Apollo plays, <stage>Music.</stage>
               </l>
             <l>And twenty caged nightingales do sing: </l>
-            <l n="40">Or wilt thou sleep? we'll have thee to a couch </l>
+            <l>Or wilt thou sleep? we'll have thee to a couch </l>
             <l>Softer and sweeter than the lustful bed </l>
             <l>On purpose trimm'd up for Semiramis. </l>
             <l>Say thou wilt walk; we will bestrew the ground: </l>
@@ -510,7 +510,7 @@
           </sp>
           <sp who="first-serv.">
             <speaker>First Serv.</speaker>
-            <l n="50">Say thou wilt course; thy greyhounds are as swift </l>
+            <l>Say thou wilt course; thy greyhounds are as swift </l>
             <l>As breathed stags, ay, fleeter than the roe. </l>
           </sp>
           <sp who="sec.-serv.">
@@ -529,7 +529,7 @@
           </sp>
           <sp who="third-serv.">
             <speaker>Third Serv.</speaker>
-            <l n="60">Or Daphne roaming through a thorny wood, </l>
+            <l>Or Daphne roaming through a thorny wood, </l>
             <l>Scratching her legs that one shall swear she bleeds, </l>
             <l>And at that sight shall sad Apollo weep, </l>
             <l>So workmanly the blood and tears are drawn. </l>
@@ -561,7 +561,7 @@
           <sp who="sec.-serv.">
             <speaker>Sec. Serv.</speaker>
             <l>Will't please your mightiness to wash your hands? </l>
-            <l n="80">O, how we joy to see your wit restored! </l>
+            <l>O, how we joy to see your wit restored! </l>
             <l>O, that once more you knew but what you are! </l>
             <l>These fifteen years you have been in a dream; </l>
             <l>Or when you waked, so waked as if you slept. </l>
@@ -577,13 +577,13 @@
             <l>For though you lay here in this goodly chamber, </l>
             <l>Yet would you say ye were beaten out of door; </l>
             <l>And rail upon the hostess of the house; </l>
-            <l n="90">And say you would present her at the leet, </l>
+            <l>And say you would present her at the leet, </l>
             <l>Because she brought stone jugs and no seal'd quarts: </l>
             <l>Sometimes you would call out for Cicely Hacket. </l>
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">Ay, the woman's maid of the house. </p>
+            <p>Ay, the woman's maid of the house. </p>
           </sp>
           <sp who="third-serv.">
             <speaker>Third Serv.</speaker>
@@ -596,11 +596,11 @@
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <l n="100">Now Lord be thanked for my good amends! </l>
+            <l>Now Lord be thanked for my good amends! </l>
           </sp>
           <sp who="all.">
             <speaker>All.</speaker>
-            <p part="N">Amen. 
+            <p>Amen. 
               </p>
           </sp>
           <sp who="sly.">
@@ -611,7 +611,7 @@
           </sp>
           <sp who="page.">
             <speaker>Page.</speaker>
-            <p part="N">How fares my noble lord? </p>
+            <p>How fares my noble lord? </p>
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
@@ -634,11 +634,11 @@
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <l n="111">I know it well. What must I call her? </l>
+            <l>I know it well. What must I call her? </l>
           </sp>
           <sp who="lord.">
             <speaker>Lord.</speaker>
-            <p part="N">Madam. </p>
+            <p>Madam. </p>
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
@@ -661,7 +661,7 @@
           <sp who="sly.">
             <speaker>Sly.</speaker>
             <l>'Tis much. Servants, leave me and her alone. </l>
-            <l n="120">Madam, undress you and come now to bed. </l>
+            <l>Madam, undress you and come now to bed. </l>
           </sp>
           <sp who="page.">
             <speaker>Page.</speaker>
@@ -675,7 +675,7 @@
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">Ay, it stands so that I may hardly tarry so long. But I would be loath to fall into my dreams again: I will therefore tarry in despite <lb ed="G" n="130"/> of the flesh and the blood. <stage type="entrance">Enter a Messenger.</stage>
+            <p>Ay, it stands so that I may hardly tarry so long. But I would be loath to fall into my dreams again: I will therefore tarry in despite <lb ed="G" n="130"/> of the flesh and the blood. <stage type="entrance">Enter a Messenger.</stage>
               </p>
           </sp>
           <sp who="mess.">
@@ -691,7 +691,7 @@
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">Marry, I will, let them play it. Is not a comonty a
+            <p>Marry, I will, let them play it. Is not a comonty a
               Christmas gambold or a tumbling-- <lb ed="G" n="141"/>trick? </p>
           </sp>
           <sp who="page.">
@@ -700,15 +700,15 @@
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">What, household stuff? </p>
+            <p>What, household stuff? </p>
           </sp>
           <sp who="page.">
             <speaker>Page.</speaker>
-            <p part="N">It is a kind of history. </p>
+            <p>It is a kind of history. </p>
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">Well, we'll see't. Come, madam wife, sit by my side
+            <p>Well, we'll see't. Come, madam wife, sit by my side
                 and let the world slip: we shall ne'er be younger.
                 <stage>Flourish.</stage>
             </p>
@@ -734,7 +734,7 @@
             <l>With his good will and thy good company, </l>
             <l>My trusty servant, well approved in all, </l>
             <l>Here let us breathe and haply institute </l>
-            <l n="10">A course of learning and ingenious studies. </l>
+            <l>A course of learning and ingenious studies. </l>
             <l>Pisa renown'd for grave citizens </l>
             <l>Gave me my being and my father first, </l>
             <l>A merchant of great traffic through the world. </l>
@@ -744,7 +744,7 @@
             <l>To deck his fortune with his virtuous deeds: </l>
             <l>And therefore, Tranio, for the time I study, </l>
             <l>Virtue and that part of philosophy </l>
-            <l n="20">Will I apply that treats of happiness </l>
+            <l>Will I apply that treats of happiness </l>
             <l>By virtue specially to be achieved. </l>
             <l>Tell me thy mind; for I have Pisa left </l>
             <l>And am to Padua come, as he that leaves </l>
@@ -757,7 +757,7 @@
             <l>I am in all affected as yourself; </l>
             <l>Glad that you thus continue your resolve </l>
             <l>To suck the sweets of sweet philosophy. </l>
-            <l n="30">Only, good master, while we do admire </l>
+            <l>Only, good master, while we do admire </l>
             <l>This virtue and this moral discipline, </l>
             <l>Let's be no stoics nor no stocks, I pray; </l>
             <l>Or so devote to Aristotle's checks </l>
@@ -767,7 +767,7 @@
             <l>Music and poesy use to quicken you; </l>
             <l>The mathematics and the metaphysics, </l>
             <l>Fall to them as you find your stomach serves you; </l>
-            <l n="40">No profit grows where is no pleasure ta'en: </l>
+            <l>No profit grows where is no pleasure ta'en: </l>
             <l>In brief, sir, study what you most affect. </l>
           </sp>
           <sp who="luc.">
@@ -789,7 +789,7 @@
             <speaker>Bap.</speaker>
             <l>Gentlemen, importune me no farther, </l>
             <l>For how I firmly am resolved you know: </l>
-            <l n="51">That is, not to bestow my youngest daughter </l>
+            <l>That is, not to bestow my youngest daughter </l>
             <l>Before I have a husband for the elder: </l>
             <l>If either of you both love Katharina, </l>
             <l>Leave shall you have to court her at your pleasure. </l>
@@ -807,7 +807,7 @@
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <l n="60">Mates, maid! how mean you that? no mates for you, </l>
+            <l>Mates, maid! how mean you that? no mates for you, </l>
             <l>Unless you were of gentler, milder mould. </l>
           </sp>
           <sp who="kath.">
@@ -829,7 +829,7 @@
           <sp who="tra.">
             <speaker>Tra.</speaker>
             <l>Hush, master! here's some good pastime toward: </l>
-            <l n="70">That wench is stark mad or wonderful froward. </l>
+            <l>That wench is stark mad or wonderful froward. </l>
           </sp>
           <sp who="luc.">
             <speaker>Luc.</speaker>
@@ -855,7 +855,7 @@
           </sp>
           <sp who="bian.">
             <speaker>Bian.</speaker>
-            <l n="81">Sister, content you in my discontent. </l>
+            <l>Sister, content you in my discontent. </l>
             <l>Sir, to your pleasure humbly I subscribe: </l>
             <l>My books and instruments shall be my company, </l>
             <l>On them to look and practise by myself. </l>
@@ -878,7 +878,7 @@
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <l n="91">Gentlemen, content ye; I am resolved: </l>
+            <l>Gentlemen, content ye; I am resolved: </l>
             <l>Go in, Bianca: <stage type="exit">Exit Bianca.</stage>
               </l>
             <l>And for I know she taketh most delight </l>
@@ -889,20 +889,20 @@
             <l>Prefer them hither; for to cunning men </l>
             <l>I will be very kind, and liberal </l>
             <l>To mine own children in good bringing up: </l>
-            <l n="101">And so farewell. Katharina, you may stay; </l>
+            <l>And so farewell. Katharina, you may stay; </l>
             <l>For I have more to commune with Bianca. <stage type="exit">Exit.</stage>
               </l>
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
-            <p part="N">Why, and I trust I may go too, may I not? What,
+            <p>Why, and I trust I may go too, may I not? What,
               shall I be appointed hours; as though, belike, I knew
               not what to take, and what to leave, ha? <stage type="exit">Exit.</stage>
               </p>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">You may go to the devil's dam: your gifts are so
+            <p>You may go to the devil's dam: your gifts are so
               good, here's none will hold you. Their love is not so
               great, Hortensio, but we may blow our nails together, and fast it fairly out: our cake's dough on both sides. Farewell: yet, for the love I bear my sweet Bianca, if I can by any means light on a fit man to teach
               her that wherein she delights, I will wish him to her
@@ -910,50 +910,50 @@
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <p part="N">So will I, Signior Gremio; but a word, I pray. Though the nature of our quarrel  yet never brooked parle, know now, upon advice, it toucheth us both, that we may yet again have access to our fair mistress and be happy rivals in Bianca's love, to labour and <lb n="121"/>effect one thing specially. </p>
+            <p>So will I, Signior Gremio; but a word, I pray. Though the nature of our quarrel  yet never brooked parle, know now, upon advice, it toucheth us both, that we may yet again have access to our fair mistress and be happy rivals in Bianca's love, to labour and <lb n="121"/>effect one thing specially. </p>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">What's that, I pray? </p>
+            <p>What's that, I pray? </p>
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <p part="N">Marry, sir, to get a husband for her sister. </p>
+            <p>Marry, sir, to get a husband for her sister. </p>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">A husband! a devil. </p>
+            <p>A husband! a devil. </p>
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <p part="N">I say, a husband. </p>
+            <p>I say, a husband. </p>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">I say, a devil. Thinkest thou, Hortensio,  though her father be very rich, any man is so very a fool to be married to hell? </p>
+            <p>I say, a devil. Thinkest thou, Hortensio,  though her father be very rich, any man is so very a fool to be married to hell? </p>
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <p part="N">Tush, Gremio, though it pass your patience and mine
+            <p>Tush, Gremio, though it pass your patience and mine
               to endure her loud alarums, why, man, there be good
               fellows in the world, an a man could light on them,
               would take her  with all her faults, and money enough. </p>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">I cannot tell; but I had as lief take her dowry with
+            <p>I cannot tell; but I had as lief take her dowry with
               this condition, to be whipped at the high cross every morning. </p>
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <p part="N">Faith, as you say, there's small choice in rotten apples. But come; since this bar in law makes us friends, it shall be so far forth friendly maintained till by helping
+            <p>Faith, as you say, there's small choice in rotten apples. But come; since this bar in law makes us friends, it shall be so far forth friendly maintained till by helping
                 Baptista's eldest daughter to a husband we set his
                 youngest free for a husband, and then have to 't
                 afresh. Sweet Bianca! Happy man be his dole! He that runs fastest gets the ring. How say you, Signior Gremio? </p>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">I am agreed; and would have given him the best horse
+            <p>I am agreed; and would have given him the best horse
               in Padua to begin his wooing  that would thoroughly woo her, wed her and bed her and rid the house of
               her. Come <lb ed="G" n="150"/>on. <stage type="exit">Exeunt
                 Gremio and Hortensio.</stage>
@@ -972,7 +972,7 @@
             <l>I found the effect of love in idleness: </l>
             <l>And now in plainness do confess to thee, </l>
             <l>That art to me as secret and as dear </l>
-            <l n="160">As Anna to the queen of Carthage was, </l>
+            <l>As Anna to the queen of Carthage was, </l>
             <l>Tranio, I burn, I pine, I perish, Tranio, </l>
             <l>If I achieve not this young modest girl. </l>
             <l>Counsel me, Tranio, for I know thou canst; </l>
@@ -988,7 +988,7 @@
           <sp who="luc.">
             <speaker>Luc.</speaker>
             <l>Gramercies, lad, go forward; this contents: </l>
-            <l n="170">The rest will comfort, for thy counsel's sound. </l>
+            <l>The rest will comfort, for thy counsel's sound. </l>
           </sp>
           <sp who="tra.">
             <speaker>Tra.</speaker>
@@ -1011,7 +1011,7 @@
           <sp who="luc.">
             <speaker>Luc.</speaker>
             <l>Tranio, I saw her coral lips move </l>
-            <l n="181">And with her breath she did perfume the air: </l>
+            <l>And with her breath she did perfume the air: </l>
             <l>Sacred and sweet was all I saw in her. </l>
           </sp>
           <sp who="tra.">
@@ -1060,7 +1060,7 @@
           </sp>
           <sp who="tra.">
             <speaker>Tra.</speaker>
-            <l n="200">Not possible; for who shall bear your part, </l>
+            <l>Not possible; for who shall bear your part, </l>
             <l>And be in Padua here Vincentio's son, </l>
             <l>Keep house and ply his book, welcome his friends, </l>
             <l>Visit his countrymen and banquet them? </l>
@@ -1073,7 +1073,7 @@
             <l>For man or master; then it follows thus; </l>
             <l>Thou shalt be master, Tranio, in my stead, </l>
             <l>Keep house and port and servants,as I should: </l>
-            <l n="210">I will some other be, some Florentine, </l>
+            <l>I will some other be, some Florentine, </l>
             <l>Some Neapolitan, or meaner man of Pisa. </l>
             <l>'Tis hatched and shall be so: Tranio, at once </l>
             <l>Uncase thee; take my colour'd hat and cloak: </l>
@@ -1087,7 +1087,7 @@
             <l>And I am tied to be obedient; </l>
             <l>Because so well I love Lucentio. </l>
             <l>For so your father charged me at our parting, </l>
-            <l n="220">'Be serviceable to my son,' quoth he, </l>
+            <l>'Be serviceable to my son,' quoth he, </l>
             <l>Although I think 'twas in another sense; </l>
             <l>I am content to be Lucentio. </l>
             <l>Because so well I love Lucentio. </l>
@@ -1103,7 +1103,7 @@
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">Where have I been! Nay, how now! where are you
+            <p>Where have I been! Nay, how now! where are you
               Master, has my fellow Tranio stolen your clothes? Or
               stolen you his? or <lb ed="G" n="230"/>both? pray, what's the news? </p>
           </sp>
@@ -1145,7 +1145,7 @@
           </sp>
           <sp who="luc.">
             <speaker>Luc.</speaker>
-            <p part="N">Tranio, let's go: one thing more rests, that thyself
+            <p>Tranio, let's go: one thing more rests, that thyself
               execute, to make one among these wooers: if thou ask
               me why, sufficeth, my reasons  are both good and
               weighty. <stage type="exit">Exeunt.</stage>
@@ -1158,15 +1158,15 @@
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">Yes, by Saint Anne, do I. A good matter,  surely: comes there any more of it? </p>
+            <p>Yes, by Saint Anne, do I. A good matter,  surely: comes there any more of it? </p>
           </sp>
           <sp who="page.">
             <speaker>Page.</speaker>
-            <p part="N">My lord, 'tis but begun. </p>
+            <p>My lord, 'tis but begun. </p>
           </sp>
           <sp who="sly.">
             <speaker>Sly.</speaker>
-            <p part="N">'Tis a very excellent piece of work, <lb ed="G" n="259"/>madam lady: would 'twere done! <stage>They sit and mark.</stage>
+            <p>'Tis a very excellent piece of work, <lb ed="G" n="259"/>madam lady: would 'twere done! <stage>They sit and mark.</stage>
             </p>
           </sp>
         </div>
@@ -1188,16 +1188,16 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Knock, sir! whom should I knock? is there any man
+            <p>Knock, sir! whom should I knock? is there any man
               has rebused your worship? </p>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
-            <p part="N">Villain, I say, knock me here soundly. </p>
+            <p>Villain, I say, knock me here soundly. </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Knock you here, sir! why, sir, what  am I, sir, that
+            <p>Knock you here, sir! why, sir, what  am I, sir, that
               I should knock you here, sir? </p>
           </sp>
           <sp who="pet.">
@@ -1220,7 +1220,7 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Help, masters, help! my master is mad. </p>
+            <p>Help, masters, help! my master is mad. </p>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -1229,7 +1229,7 @@
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <p part="N">How now! what's the matter? My old friend Grumio!
+            <p>How now! what's the matter? My old friend Grumio!
               and my good friend Petruchio!  How do you all at Verona? </p>
           </sp>
           <sp who="pet.">
@@ -1245,7 +1245,7 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Nay, 'tis no matter, sir, what he 'leges in Latin. If this be not a lawful cause for me to leave his service, look you, sir, he bid me knock him and rap him soundly, sir: well, was it fit for a servant to use his master
+            <p>Nay, 'tis no matter, sir, what he 'leges in Latin. If this be not a lawful cause for me to leave his service, look you, sir, he bid me knock him and rap him soundly, sir: well, was it fit for a servant to use his master
               so, being perhaps, for aught I see, two and thirty, a
               pip out? </p>
             <l>Whom would to God I had well knock'd at first, </l>
@@ -1259,7 +1259,7 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Knock at the gate! O heavens Spake you not these
+            <p>Knock at the gate! O heavens Spake you not these
               words plain, 'Sirrah,  knock me here, rap me here,
               knock me well,  and knock me soundly'? And come you
               now  with, 'knocking at the gate'? </p>
@@ -1274,7 +1274,7 @@
             <l>Why, this's a heavy chance 'twixt him and you, </l>
             <l>Your ancient, trusty, pleasant servant Grumio. </l>
             <l>And tell me now, sweet friend, what happy gale </l>
-            <l n="50">Blows you to Padua here from old Verona? </l>
+            <l>Blows you to Padua here from old Verona? </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -1286,7 +1286,7 @@
             <l>And I have thrust myself into this maze, </l>
             <l>Haply to wive and thrive as best I may: </l>
             <l>Crowns in my purse I have and goods at home, </l>
-            <l n="59">And so am come abroad to see the world. </l>
+            <l>And so am come abroad to see the world. </l>
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
@@ -1303,7 +1303,7 @@
             <l>Few words suffice; and therefore, if thou know </l>
             <l>One rich enough to be Petruchio's wife, </l>
             <l>As wealth is burden of my wooing dance, </l>
-            <l n="70">Be she as foul as was Florentius' love, </l>
+            <l>Be she as foul as was Florentius' love, </l>
             <l>As old as Sibyl and as curst and shrewd </l>
             <l>As Socrates' Xanthippe, or a worse, </l>
             <l>She moves me not, or not removes, at least, </l>
@@ -1314,7 +1314,7 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Nay, look you, sir, he tells you flatly what his mind is: why, give him gold enough and marry him to
+            <p>Nay, look you, sir, he tells you flatly what his mind is: why, give him gold enough and marry him to
               a puppet or an aglet-baby; or an old trot with ne'er a tooth in her head. though she have as many diseases as two and fifty horses: why, nothing comes amiss, so money comes withal. </p>
           </sp>
           <sp who="hor.">
@@ -1326,7 +1326,7 @@
             <l>Brought up as best becomes a gentlewoman: </l>
             <l>Her only fault, and that is faults enough, </l>
             <l>Is that she is intolerable curst </l>
-            <l n="91">And shrewd and froward, so beyond all measure </l>
+            <l>And shrewd and froward, so beyond all measure </l>
             <l>That, were my state far worser than it is, </l>
             <l>I would not wed her for a mine of gold. </l>
           </sp>
@@ -1342,7 +1342,7 @@
             <l>Her father is Baptista Minola, </l>
             <l>An affable and courteous gentleman: </l>
             <l>Her name is Katharina Minola, </l>
-            <l n="101">Renown'd in Padua for her scolding tongue. </l>
+            <l>Renown'd in Padua for her scolding tongue. </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -1355,13 +1355,13 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">I pray you, sir, let him go while the humour lasts. O' my word, an she knew him as well as I do, she would think scolding would do little good upon him: she may perhaps call him half a score of knaves or so: why, that's nothing; an he begin once, he'll rail in his rope-tricks. I'll tell you what, sir, an she stand him but a little, he will throw a figure in her face and so disfigure her with it that she shall have no more eyes to see withal than a cat. You know him not, sir. </p>
+            <p>I pray you, sir, let him go while the humour lasts. O' my word, an she knew him as well as I do, she would think scolding would do little good upon him: she may perhaps call him half a score of knaves or so: why, that's nothing; an he begin once, he'll rail in his rope-tricks. I'll tell you what, sir, an she stand him but a little, he will throw a figure in her face and so disfigure her with it that she shall have no more eyes to see withal than a cat. You know him not, sir. </p>
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
             <l>Tarry, Petruchio, I must go with thee, </l>
             <l>For in Baptista's keep my treasure is: </l>
-            <l n="120">He hath the jewel of my life in hold, </l>
+            <l>He hath the jewel of my life in hold, </l>
             <l>His youngest daughter, beautiful Bianca, </l>
             <l>And her withholds from me and other more, </l>
             <l>Suitors to her and rivals in my love, </l>
@@ -1374,7 +1374,7 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <l n="130">Katharine the curst! </l>
+            <l>Katharine the curst! </l>
             <l>A title for a maid of all titles the worst. </l>
           </sp>
           <sp who="hor.">
@@ -1390,18 +1390,18 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Here's no knavery! See, to beguile  the old folks,
+            <p>Here's no knavery! See, to beguile  the old folks,
               how the young folks lay their <lb ed="G" n="140"/>heads together! <stage type="entrance">Enter GREMIO, and LUCENTIO disguised.</stage>
               Master, master, look about you: who goes there, ha?
                 </p>
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <p part="N">Peace, Grumio! it is the rival of my love. Petruchio, stand by a while. </p>
+            <p>Peace, Grumio! it is the rival of my love. Petruchio, stand by a while. </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">A proper stripling and an amorous! </p>
+            <p>A proper stripling and an amorous! </p>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
@@ -1409,7 +1409,7 @@
             <l>Hark you, sir; I'll have them very fairly bound: </l>
             <l>All books of love, see that at any hand; </l>
             <l>And see you read no other lectures to her: </l>
-            <l n="150">You understand me: over and beside </l>
+            <l>You understand me: over and beside </l>
             <l>Signior Baptista's liberality, </l>
             <l>I'll mend it with a largess. Take your paper too, </l>
             <l>And let me have them very well perfumed: </l>
@@ -1430,7 +1430,7 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <l n="162">O this woodcock, what an ass it is! </l>
+            <l>O this woodcock, what an ass it is! </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -1447,7 +1447,7 @@
             <l>I promised to inquire carefully </l>
             <l>About a schoolmaster for the fair Bianca: </l>
             <l>And by good fortune I have lighted well </l>
-            <l n="170">On this young man, for learning and behaviour </l>
+            <l>On this young man, for learning and behaviour </l>
             <l>Fit for her turn, well read in poetry </l>
             <l>And other books, good ones, I warrant ye. </l>
           </sp>
@@ -1469,7 +1469,7 @@
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <l n="180">Gremio, 'tis now no time to vent our love: </l>
+            <l>Gremio, 'tis now no time to vent our love: </l>
             <l>Listen to me, and if you speak me fair, </l>
             <l>I'll tell you news indifferent good for either. </l>
             <l>Here is a gentleman whom by chance I met, </l>
@@ -1485,7 +1485,7 @@
           <sp who="pet.">
             <speaker>Pet.</speaker>
             <l>I know she is an irksome brawling scold: </l>
-            <l n="190">If that be all, masters, I hear no harm. </l>
+            <l>If that be all, masters, I hear no harm. </l>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
@@ -1515,7 +1515,7 @@
           <sp who="pet.">
             <speaker>Pet.</speaker>
             <l>Why came I hither but to that intent? </l>
-            <l n="201">Think you a little din can daunt mine ears? </l>
+            <l>Think you a little din can daunt mine ears? </l>
             <l>Have I not in my time heard lions roar? </l>
             <l>Have I not heard the sea puff'd up with winds </l>
             <l>Rage like an angry boar chafed with sweat? </l>
@@ -1524,7 +1524,7 @@
             <l>Have I not in a pitched battle heard </l>
             <l>Loud 'larums, neighing steeds, and trumpets' clang? </l>
             <l>And do you tell me of a woman's tongue, </l>
-            <l n="210">That gives not half so great a blow to hear </l>
+            <l>That gives not half so great a blow to hear </l>
             <l>As will a chestnut in a farmer's fire? </l>
             <l part="I">Tush, tush! fear boys with bugs. </l>
           </sp>
@@ -1555,12 +1555,12 @@
           <sp who="tra.">
             <speaker>Tra.</speaker>
             <l>Gentlemen, God save you. If I may be bold, </l>
-            <l n="221">Tell me, I beseech you, which is the readiest way </l>
+            <l>Tell me, I beseech you, which is the readiest way </l>
             <l>To the house of Signior Baptisa Minola? </l>
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">He that has the two fair daughters: is' t he you mean? </p>
+            <p>He that has the two fair daughters: is' t he you mean? </p>
           </sp>
           <sp who="tra.">
             <speaker>Tra.</speaker>
@@ -1624,7 +1624,7 @@
           <sp who="tra.">
             <speaker>Tra.</speaker>
             <l>Softly, my masters! if you be gentlemen, </l>
-            <l n="240">Do me this right; hear me with patience. </l>
+            <l>Do me this right; hear me with patience. </l>
             <l>Baptista is a noble gentleman, </l>
             <l>To whom my father is not all unknown; </l>
             <l>And were his daughter fairer than she is, </l>
@@ -1640,7 +1640,7 @@
           </sp>
           <sp who="luc.">
             <speaker>Luc.</speaker>
-            <l n="250">Sir, give him head: I know he'll prove a jade. </l>
+            <l>Sir, give him head: I know he'll prove a jade. </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -1670,7 +1670,7 @@
             <speaker>Pet.</speaker>
             <l>Sir, understand you this of me in sooth: </l>
             <l>The youngest daughter whom you hearken for </l>
-            <l n="262">Her father keeps from all access of suitors, </l>
+            <l>Her father keeps from all access of suitors, </l>
             <l>And will not promise her to any man </l>
             <l>Until the elder sister first be wed: </l>
             <l>The younger then is free and not before. </l>
@@ -1681,7 +1681,7 @@
             <l>Must stead us all and me amongst the rest, </l>
             <l>And if you break the ice and do this feat, </l>
             <l>Achieve the elder, set the younger free </l>
-            <l n="270">For our access, whose hap shall be to have her </l>
+            <l>For our access, whose hap shall be to have her </l>
             <l>Will not so graceless be to be ingrate. </l>
           </sp>
           <sp who="hor.">
@@ -1697,7 +1697,7 @@
             <l>Please ye we may contrive this afternoon, </l>
             <l>And quaff carouses to our mistress' health, </l>
             <l>And do as adversaries do in law, </l>
-            <l n="280">Strive mightily, but eat and drink as friends. </l>
+            <l>Strive mightily, but eat and drink as friends. </l>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
@@ -1734,7 +1734,7 @@
           <sp who="kath.">
             <speaker>Kath.</speaker>
             <l>Of all thy suitors, here I charge thee, tell </l>
-            <l n="10">Whom thou lovest best: see thou dissemble not. </l>
+            <l>Whom thou lovest best: see thou dissemble not. </l>
           </sp>
           <sp who="bian.">
             <speaker>Bian.</speaker>
@@ -1759,7 +1759,7 @@
           <sp who="bian.">
             <speaker>Bian.</speaker>
             <l>Is it for him you do envy me so? </l>
-            <l n="20">Nay then you jest, and now I well perceive </l>
+            <l>Nay then you jest, and now I well perceive </l>
             <l>You have but jested with me all this while: </l>
             <l>I prithee, sister Kate, untie my hands. </l>
           </sp>
@@ -1780,7 +1780,7 @@
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
-            <l n="30">Her silence flouts me, and I'll be revenged. <stage>Flies after
+            <l>Her silence flouts me, and I'll be revenged. <stage>Flies after
                 Bianca. </stage>
               </l>
           </sp>
@@ -1810,12 +1810,12 @@
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">Good morrow, neighbour Baptista. </p>
+            <p>Good morrow, neighbour Baptista. </p>
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <p part="N">Good morrow, neighbour Gremio.</p>
-            <p n="41" part="N">God save you, gentlemen! </p>
+            <p>Good morrow, neighbour Gremio.</p>
+            <p n="41">God save you, gentlemen! </p>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -1835,7 +1835,7 @@
             <l>You wrong me, Signior Gremio: give me leave. </l>
             <l>I am a gentleman of Verona, sir, </l>
             <l>That, hearing of her beauty and her wit, </l>
-            <l n="50">Her affability and bashful modesty, </l>
+            <l>Her affability and bashful modesty, </l>
             <l>Her wondrous qualities and mild behaviour, </l>
             <l>Am bold to show myself a forward guest </l>
             <l>Within your house, to make mine eye the witness </l>
@@ -1846,7 +1846,7 @@
             <l>Cunning in music and the mathematics, </l>
             <l>To instruct her fully in those sciences, </l>
             <l>Whereof I know she is not ignorant: </l>
-            <l n="60">Accept of him, or else you do me wrong: </l>
+            <l>Accept of him, or else you do me wrong: </l>
             <l>His name is Licio, born in Mantua. </l>
           </sp>
           <sp who="bap.">
@@ -1868,7 +1868,7 @@
           <sp who="pet.">
             <speaker>Pet.</speaker>
             <l>Petruchio is my name; Antonio's son, </l>
-            <l n="70">A man well known throughout all Italy. </l>
+            <l>A man well known throughout all Italy. </l>
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
@@ -1886,7 +1886,7 @@
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">I doubt it not, sir; but you will curse your wooing. Neighbour, this is a gift very grateful, I am sure
+            <p>I doubt it not, sir; but you will curse your wooing. Neighbour, this is a gift very grateful, I am sure
               of it. To express the like kindness, myself, that
               have been more kindly beholding to you than any, freely give unto you this young scholar
                 <stage>presenting Lucentio</stage>that hath been long studying at Rheims; as cunning in Greek, Latin, and other languages, as the other in music
@@ -1895,13 +1895,13 @@
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <p part="N">A thousand thanks, Signior Gremio. Welcome, good
+            <p>A thousand thanks, Signior Gremio. Welcome, good
               Cambio. <stage>To Tranio</stage>But, gentle sir, methinks you walk like a stranger: may I be so bold
               to know the cause of your coming? </p>
           </sp>
           <sp who="tra.">
             <speaker>Tra.</speaker>
-            <l n="90">Pardon me, sir, the boldness is mine own, </l>
+            <l>Pardon me, sir, the boldness is mine own, </l>
             <l>That being a stranger in this city here. </l>
             <l>Do make myself a suitor to your daughter, </l>
             <l>Unto Bianca, fair and virtuous. </l>
@@ -1911,7 +1911,7 @@
             <l>That, upon knowledge of my parentage, </l>
             <l>I may have welcome 'mongst the rest that woo </l>
             <l>And free access and favour as the rest: </l>
-            <l n="100">And, toward the education of your daughters, </l>
+            <l>And, toward the education of your daughters, </l>
             <l>I here bestow a simple instrument, </l>
             <l>And this small packet of Greek and Latin books: </l>
             <l>If you accept them, then their worth is great. </l>
@@ -1948,7 +1948,7 @@
             <l>And every day I cannot come to woo. </l>
             <l>You knew my father well, and in him me, </l>
             <l>Left solely heir to all his lands and goods, </l>
-            <l n="120">Which I have better'd rather than decreased: </l>
+            <l>Which I have better'd rather than decreased: </l>
             <l>Then tell me, if I get your daughter's love, </l>
             <l>What dowry shall I have with her to wife? </l>
           </sp>
@@ -1967,7 +1967,7 @@
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <l n="130">Ay, when the special thing is well obtain'd, </l>
+            <l>Ay, when the special thing is well obtain'd, </l>
             <l>That is, her love; for that is all in all. </l>
           </sp>
           <sp who="pet.">
@@ -1984,7 +1984,7 @@
           <sp who="bap.">
             <speaker>Bap.</speaker>
             <l>Well mayst thou woo, and happy be thy speed </l>
-            <l n="141">But be thou arm'd for some unhappy words. </l>
+            <l>But be thou arm'd for some unhappy words. </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -2015,7 +2015,7 @@
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <l n="150">Why, no; for she hath broke the lute to me. </l>
+            <l>Why, no; for she hath broke the lute to me. </l>
             <l>I did but tell her she mistook her frets, </l>
             <l>And bow'd her hand to teach her fingering; </l>
             <l>When, with a most impatient devilish spirit, </l>
@@ -2025,7 +2025,7 @@
             <l>And there I stood amazed for a while, </l>
             <l>As on a pillory, looking through the lute; </l>
             <l>While she did call me rascal fiddler </l>
-            <l n="160">And twangling Jack; with twenty such vile terms, </l>
+            <l>And twangling Jack; with twenty such vile terms, </l>
             <l>As had she studied to misuse me so. </l>
           </sp>
           <sp who="pet.">
@@ -2045,7 +2045,7 @@
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
-            <l n="169">I pray you do. <stage type="exit">Exeunt all but Petruchio.</stage>
+            <l>I pray you do. <stage type="exit">Exeunt all but Petruchio.</stage>
               </l>
             <l>I will attend her here, </l>
             <l>And woo her with some spirit when she comes. </l>
@@ -2057,7 +2057,7 @@
             <l>Then I'll commend her volubility, </l>
             <l>And say she uttereth piercing eloquence: </l>
             <l>If she do bid me pack, I'll give her thanks, </l>
-            <l n="180">As though she bid me stay by her a week: </l>
+            <l>As though she bid me stay by her a week: </l>
             <l>If she deny to wed, I'll crave the day </l>
             <l>When I shall ask the banns and when be married. </l>
             <l>But here she comes; and now, Petruchio, speak. <stage type="entrance"> Enter KATHARINA.</stage>
@@ -2075,7 +2075,7 @@
             <l>And bonny Kate and sometimes Kate the curst; </l>
             <l>But Kate, the prettiest Kate in Christendom, </l>
             <l>Kate of Kate Hall, my super-dainty Kate, </l>
-            <l n="191">For daintiest are all Kates, and therefore, Kate. </l>
+            <l>For daintiest are all Kates, and therefore, Kate. </l>
             <l>Take this of me, Kate of my consolation; </l>
             <l>Hearing thy mildness praised in every town, </l>
             <l>Thy virtues spoke of, and thy beauty sounded, </l>
@@ -2136,7 +2136,7 @@
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
-            <l n="210">Ay, for a turtle, as he takes a buzzard. </l>
+            <l>Ay, for a turtle, as he takes a buzzard. </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -2174,7 +2174,7 @@
           <sp who="pet.">
             <speaker>Pet.</speaker>
             <l>What, with my tongue in your tail? nay, come again, </l>
-            <l n="220">Good Kate; I am a gentleman. </l>
+            <l>Good Kate; I am a gentleman. </l>
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
@@ -2213,7 +2213,7 @@
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
-            <l n="231">It is my fashion, when I see a crab. </l>
+            <l>It is my fashion, when I see a crab. </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -2245,7 +2245,7 @@
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
-            <l n="240">Yet you are wither'd. </l>
+            <l>Yet you are wither'd. </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -2270,7 +2270,7 @@
             <l>And now I find report a very liar; </l>
             <l>For thou art pleasant, gamesome, passing courteous, </l>
             <l>But slow in speech, yet sweet as spring-time flowers: </l>
-            <l n="250">Thou canst not frown, thou canst not look askance, </l>
+            <l>Thou canst not frown, thou canst not look askance, </l>
             <l>Nor bite the lip, as angry wenches will, </l>
             <l>Nor hast thou pleasure to be cross in talk, </l>
             <l>But thou with mildness entertain'st thy wooers, </l>
@@ -2283,7 +2283,7 @@
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
-            <l n="260">Go, fool, and whom thou keep'st command. </l>
+            <l>Go, fool, and whom thou keep'st command. </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -2314,7 +2314,7 @@
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
-            <l n="270">Marry, so I mean, sweet Katharine, in thy bed: </l>
+            <l>Marry, so I mean, sweet Katharine, in thy bed: </l>
             <l>And therefore, setting all this chat aside, </l>
             <l>Thus in plain terms: your father hath consented </l>
             <l>That you shall be my wife; your dowry 'greed on; </l>
@@ -2324,7 +2324,7 @@
             <l>Thy beauty, that doth make me like thee well, </l>
             <l>Thou must be married to no man but me; </l>
             <l>For I am he am born to tame you, Kate, </l>
-            <l n="280">And bring you from a wild Kate to a Kate </l>
+            <l>And bring you from a wild Kate to a Kate </l>
             <l>Conformable as other household Kates. </l>
             <l>Here comes your father: never make denial; </l>
             <l>I must and will have Katharine to my wife. <stage type="entrance"> Re-enter BAPTISTA,
@@ -2348,7 +2348,7 @@
             <speaker>Kath.</speaker>
             <l>Call you me daughter? now, I promise you, </l>
             <l>You have show'd a tender fatherly regard, </l>
-            <l n="290">To wish me wed to one half lunatic; </l>
+            <l>To wish me wed to one half lunatic; </l>
             <l>A mad-cap ruffian and a swearing Jack, </l>
             <l>That thinks with oaths to face the matter out. </l>
           </sp>
@@ -2361,7 +2361,7 @@
             <l>She is not hot, but temperate as the morn; </l>
             <l>For patience she will prove a second Grissel, </l>
             <l>And Roman Lucrece for her chastity: </l>
-            <l n="300">And to conclude, we have 'greed so well together, </l>
+            <l>And to conclude, we have 'greed so well together, </l>
             <l>That upon Sunday is the wedding-day. </l>
           </sp>
           <sp who="kath.">
@@ -2384,7 +2384,7 @@
             <l>That she shall still be curst in company. </l>
             <l>I tell you, 'tis incredible to believe </l>
             <l>How much she loves me: O, the kindest Kate! </l>
-            <l n="311">She hung about my neck; and kiss on kiss </l>
+            <l>She hung about my neck; and kiss on kiss </l>
             <l>She vied so fast, protesting oath on oath, </l>
             <l>That in a twink she won me to her love. </l>
             <l>O, you are novices! 'tis a world to see, </l>
@@ -2393,7 +2393,7 @@
             <l>Give me thy hand, Kate: I will unto Venice, </l>
             <l>To buy apparel 'gainst the wedding-day. </l>
             <l>Provide the feast, father, and bid the guests; </l>
-            <l n="320">I will be sure my Katharine shall be fine. </l>
+            <l>I will be sure my Katharine shall be fine. </l>
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
@@ -2419,7 +2419,7 @@
           <sp who="bap.">
             <speaker>Bap.</speaker>
             <l>Faith, gentlemen, now I play a merchant's part, </l>
-            <l n="330">And venture madly on a desperate mart. </l>
+            <l>And venture madly on a desperate mart. </l>
           </sp>
           <sp who="tra.">
             <speaker>Tra.</speaker>
@@ -2440,7 +2440,7 @@
           <sp who="tra.">
             <speaker>Tra.</speaker>
             <l>And I am one that love Bianca more </l>
-            <l n="339">Than words can witness, or your thoughts can guess. </l>
+            <l>Than words can witness, or your thoughts can guess. </l>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
@@ -2480,7 +2480,7 @@
             <l>Valance of Venice gold in needlework, </l>
             <l>Pewter and brass and all things that belong </l>
             <l>To house or housekeeping: then, at my farm </l>
-            <l n="360">I have a hundred milch-kine to the pail, </l>
+            <l>I have a hundred milch-kine to the pail, </l>
             <l>Sixscore fat oxen standing in my stalls, </l>
             <l>And all things answerable to this portion. </l>
             <l>Myself am struck in years, I must confess; </l>
@@ -2493,7 +2493,7 @@
             <l>I am my father's heir and only son: </l>
             <l>If I may have your daughter to my wife, </l>
             <l>I'll leave her houses three or four as good. </l>
-            <l n="370">Within rich Pisa walls, as any one </l>
+            <l>Within rich Pisa walls, as any one </l>
             <l>Old Signior Gremio has in Padua; </l>
             <l>Besides two thousand ducats by the year </l>
             <l>Of fruitful land, all which shall be her jointure. </l>
@@ -2509,7 +2509,7 @@
           </sp>
           <sp who="tra.">
             <speaker>Tra.</speaker>
-            <l n="380">Gremio, 'tis known my father hath no less </l>
+            <l>Gremio, 'tis known my father hath no less </l>
             <l>Than three great argosies; besides two galliases, </l>
             <l>And twelve tight galleys: these will I assure her, </l>
             <l>And twice as much, whate'er thou offer'st next. </l>
@@ -2529,7 +2529,7 @@
             <speaker>Bap.</speaker>
             <l>I must confess your offer is the best; </l>
             <l>And, let your father make her the assurance, </l>
-            <l n="391">She is your own; else, you must pardon me, </l>
+            <l>She is your own; else, you must pardon me, </l>
             <l>If you should die before him, where's her dower? </l>
           </sp>
           <sp who="tra.">
@@ -2547,7 +2547,7 @@
             <l>My daughter Katharine is to be married: </l>
             <l>Now, on the Sunday following, shall Bianca </l>
             <l>Be bride to you, if you make this assurance; </l>
-            <l n="399">If not, to Signior Gremio: </l>
+            <l>If not, to Signior Gremio: </l>
             <l>And so, I take my leave, and thank you both. </l>
           </sp>
           <sp who="gre.">
@@ -2567,7 +2567,7 @@
             <l>Yet I have faced it with a card of ten. </l>
             <l>'Tis in my head to do my master good: </l>
             <l>I see no reason but supposed Lucentio </l>
-            <l n="411">Must get a father, call'd 'supposed Vincentio;' </l>
+            <l>Must get a father, call'd 'supposed Vincentio;' </l>
             <l>And that's a wonder: fathers commonly </l>
             <l>Do get their children; but in this case of wooing, </l>
             <l>A child shall get a sire, if I fail not of my cunning. <stage type="exit">Exit.</stage>
@@ -2603,7 +2603,7 @@
           <sp who="luc.">
             <speaker>Luc.</speaker>
             <l>Preposterous ass, that never read so far </l>
-            <l n="11">To know the cause why music was ordain'd! </l>
+            <l>To know the cause why music was ordain'd! </l>
             <l>Was it not to refresh the mind of man </l>
             <l>After his studies or his unusual pain? </l>
             <l>Then give me leave to read philosophy, </l>
@@ -2618,7 +2618,7 @@
             <l>Why, gentlemen, you do me double wrong, </l>
             <l>To strive for that which resteth in my choice: </l>
             <l>I am no breeching scholar in the schools; </l>
-            <l n="20">I'll not be tied to hours nor 'pointed times, </l>
+            <l>I'll not be tied to hours nor 'pointed times, </l>
             <l>But learn my lessons as I please myself. </l>
             <l>And, to cut off all strife, here sit we down: </l>
             <l>Take you your instrument, play you the whiles; </l>
@@ -2639,7 +2639,7 @@
           <sp who="luc.">
             <speaker>Luc.</speaker>
             <l>Here, madam: 'Hic ibat Simois; hic est Sigeia tellus; </l>
-            <l n="30">Hic steterat Priami regia celsa senis.' </l>
+            <l>Hic steterat Priami regia celsa senis.' </l>
           </sp>
           <sp who="bian.">
             <speaker>Bian.</speaker>
@@ -2647,7 +2647,7 @@
           </sp>
           <sp who="luc.">
             <speaker>Luc.</speaker>
-            <p part="N">'Hic ibat,' as I told you before,' Simois,'  I am Lucentio, 'hic est,' son unto Vincentio  of Pisa, 'Sigeia tellus,' disguised thus to get your love; 'Hic steterat,' and
+            <p>'Hic ibat,' as I told you before,' Simois,'  I am Lucentio, 'hic est,' son unto Vincentio  of Pisa, 'Sigeia tellus,' disguised thus to get your love; 'Hic steterat,' and
               that Lucentio that comes a-wooing, 'Priami,' is my
                 man Tranio, 'regia,' bearing my port, 'celsa senis,' that we might beguile the old pantaloon. </p>
           </sp>
@@ -2665,7 +2665,7 @@
           </sp>
           <sp who="bian.">
             <speaker>Bian.</speaker>
-            <p part="N">Now let me see if I can construe it: 'Hic ibat Simois,' I know you not, 'hic est Sigeia tellus,' I trust you not; 'Hic steterat Priami,' take heed he hear us not,
+            <p>Now let me see if I can construe it: 'Hic ibat Simois,' I know you not, 'hic est Sigeia tellus,' I trust you not; 'Hic steterat Priami,' take heed he hear us not,
               'regia,'  presume not, 'celsa senis,' despair not.
                 </p>
           </sp>
@@ -2682,7 +2682,7 @@
             <l>The base is right; 'tis the base knave that jars. <stage>Aside</stage>
               </l>
             <l>How fiery and forward our pedant is! </l>
-            <l n="50">Now, for my life, the knave doth court my love: </l>
+            <l>Now, for my life, the knave doth court my love: </l>
             <l>Pedascule, I'll watch you better yet. </l>
           </sp>
           <sp who="bian.">
@@ -2704,7 +2704,7 @@
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <l n="60">You may go walk, and give me leave a while: </l>
+            <l>You may go walk, and give me leave a while: </l>
             <l>My lessons make no music in three parts. </l>
           </sp>
           <sp who="luc.">
@@ -2721,7 +2721,7 @@
             <l>I must begin with rudiments of art; </l>
             <l>To teach you gamut in a briefer sort, </l>
             <l>More pleasant, pithy and effectual, </l>
-            <l n="70">Than hath been taught by any of my trade: </l>
+            <l>Than hath been taught by any of my trade: </l>
             <l>And there it is in writing, fairly drawn. </l>
           </sp>
           <sp who="bian.">
@@ -2742,7 +2742,7 @@
             <l>'D sol re,' one clef, two notes have I: </l>
             <l>'E la mi,' show pity, or I die." </l>
             <l>Call you this gamut? tut, I like it not: </l>
-            <l n="81">Old fashions please me best; I am not so nice, </l>
+            <l>Old fashions please me best; I am not so nice, </l>
             <l>To change true rules for old inventions. <stage type="entrance"> Enter a Servant.</stage>
               </l>
           </sp>
@@ -2767,7 +2767,7 @@
             <speaker>Hor.</speaker>
             <l>But I have cause to pry into this pedant: </l>
             <l>Methinks he looks as though he were in love: </l>
-            <l n="90">Yet if thy thoughts, Bianca, be so humble </l>
+            <l>Yet if thy thoughts, Bianca, be so humble </l>
             <l>To cast thy wandering eyes on every stale, </l>
             <l>Seize thee that list: if once I find thee ranging, </l>
             <l>Hortensio will be quit with thee by changing. <stage type="exit">Exit.</stage>
@@ -2796,7 +2796,7 @@
           <sp who="kath.">
             <speaker>Kath.</speaker>
             <l>No shame but mine: I must, forsooth, be forced </l>
-            <l n="10">To give my hand opposed against my heart </l>
+            <l>To give my hand opposed against my heart </l>
             <l>Unto a mad-brain rudesby full of spleen; </l>
             <l>Who woo'd in haste and means to wed at leisure. </l>
             <l>I told you, I, he was a frantic fool, </l>
@@ -2831,15 +2831,15 @@
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">Master, master! news, old news, and <lb ed="G" n="31"/>such news as you never heard of! </p>
+            <p>Master, master! news, old news, and <lb ed="G" n="31"/>such news as you never heard of! </p>
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <p part="N">Is it new and old too? how may that be? </p>
+            <p>Is it new and old too? how may that be? </p>
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">Why, is it not news, to hear of Petruchio's  coming? </p>
+            <p>Why, is it not news, to hear of Petruchio's  coming? </p>
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
@@ -2859,7 +2859,7 @@
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <l n="41">When will he be here? </l>
+            <l>When will he be here? </l>
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
@@ -2871,7 +2871,7 @@
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">Why, Petruchio is coming in a new hat and an old
+            <p>Why, Petruchio is coming in a new hat and an old
               jerkin, a pair of old breeches thrice turned, a pair
               of boots that have been candle-cases, one buckled, another laced, an old rusty sword ta'en out of the town-armory, with a broken hilt, and chapeless; with two broken points: his horse hipped with an old mothy saddle and stirrups of no kindred; besides, 
               possessed with the glanders and like to mose in the
@@ -2889,11 +2889,11 @@
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <p part="N">Who comes with him? </p>
+            <p>Who comes with him? </p>
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">O, sir, his lackey, for all the world caparisoned like the horse; with a linen stock on one leg and a kersey boot-hose on the other, gartered with a red and blue list; an old hat and 'the humour of forty fancies'
+            <p>O, sir, his lackey, for all the world caparisoned like the horse; with a linen stock on one leg and a kersey boot-hose on the other, gartered with a red and blue list; an old hat and 'the humour of forty fancies'
               pricked in't for a feather: a monster, a very
               monster in apparel, and not like a Christian footboy
               or a gentleman's lackey. </p>
@@ -2917,7 +2917,7 @@
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <l n="80">Who? that Petruchio came? </l>
+            <l>Who? that Petruchio came? </l>
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
@@ -2937,7 +2937,7 @@
             <l part="Y">I hold you a penny, </l>
             <l part="Y">A horse and a man </l>
             <l part="Y">Is more than one, </l>
-            <l part="Y" n="89">And yet not many. <stage type="entrance">Enter
+            <l part="Y">And yet not many. <stage type="entrance">Enter
                 PETRUCHIO and GRUMIO.</stage>
               </l>
           </sp>
@@ -2989,7 +2989,7 @@
             <speaker>Pet.</speaker>
             <l>Tedious it were to tell, and harsh to hear: </l>
             <l>Sufficeth, I am come to keep my word, </l>
-            <l n="110">Though in some part enforced to digress; </l>
+            <l>Though in some part enforced to digress; </l>
             <l>Which, at more leisure, I will so excuse </l>
             <l>As you shall well be satisfied withal. </l>
             <l>But where is Kate? I stay too long from her: </l>
@@ -3011,7 +3011,7 @@
           <sp who="pet.">
             <speaker>Pet.</speaker>
             <l>Good sooth, even thus; therefore ha' done with words: </l>
-            <l n="120">To me she's married, not unto my clothes: </l>
+            <l>To me she's married, not unto my clothes: </l>
             <l>Could I repair what she will wear in me, </l>
             <l>As I can change these poor accoutrements, </l>
             <l>'Twere well for Kate and better for myself. </l>
@@ -3044,7 +3044,7 @@
             <l>And make assurance here in Padua </l>
             <l>Of greater sums than I have promised. </l>
             <l>So shall you quietly enjoy your hope, </l>
-            <l n="140">And marry sweet Bianca with consent. </l>
+            <l>And marry sweet Bianca with consent. </l>
           </sp>
           <sp who="luc.">
             <speaker>Luc.</speaker>
@@ -3060,7 +3060,7 @@
             <l>And watch our vantage in this business: </l>
             <l>We'll over-reach the greybeard, Gremio, </l>
             <l>The narrow-prying father, Minola, </l>
-            <l n="150">The quaint musician, amorous Licio; </l>
+            <l>The quaint musician, amorous Licio; </l>
             <l>All for my master's sake, Lucentio. <stage type="entrance">
                 Re-enter GREMIO.</stage>
               </l>
@@ -3109,7 +3109,7 @@
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <l n="170">Trembled and shook; for why, he stamp'd and swore, </l>
+            <l>Trembled and shook; for why, he stamp'd and swore, </l>
             <l>As if the vicar meant to cozen him. </l>
             <l>But after many ceremonies done, </l>
             <l>He calls for wine: 'A health!' quoth he, as if </l>
@@ -3119,7 +3119,7 @@
             <l>Having no other reason </l>
             <l>But that his beard grew thin and hungerly </l>
             <l>And seem'd to ask him sops as he was drinking. </l>
-            <l n="180">This done, he took the bride about the neck </l>
+            <l>This done, he took the bride about the neck </l>
             <l>And kiss'd her lips with such a clamorous smack </l>
             <l>That at the parting all the church did echo: </l>
             <l>And I seeing this came thence for very shame; </l>
@@ -3134,7 +3134,7 @@
             <speaker>Pet.</speaker>
             <l>Gentlemen and friends, I thank you for your pains: </l>
             <l>I know you think to dine with me to-day, </l>
-            <l n="189">And have prepared great store of wedding cheer; </l>
+            <l>And have prepared great store of wedding cheer; </l>
             <l>But so it is, my haste doth call me hence, </l>
             <l>And therefore here I mean to take my leave. </l>
           </sp>
@@ -3196,11 +3196,11 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Ay, sir, they be ready: the oats have eaten the horses. </p>
+            <p>Ay, sir, they be ready: the oats have eaten the horses. </p>
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
-            <l n="210">Nay, then, </l>
+            <l>Nay, then, </l>
             <l>Do what thou canst, I will not go to-day; </l>
             <l>No, nor to-morrow, not till I please myself. </l>
             <l>The door is open, sir; there lies your way; </l>
@@ -3215,7 +3215,7 @@
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
-            <l n="219">I will be angry: what hast thou to do? </l>
+            <l>I will be angry: what hast thou to do? </l>
             <l>Father, be quiet: he shall stay my leisure. </l>
           </sp>
           <sp who="gre.">
@@ -3235,7 +3235,7 @@
             <l>Go to the feast, revel and domineer, </l>
             <l>Carouse full measure to her maidenhead, </l>
             <l>Be mad and merry, or go hang yourselves: </l>
-            <l n="230">But for my bonny Kate, she must with me. </l>
+            <l>But for my bonny Kate, she must with me. </l>
             <l>Nay, look not big, nor stamp, nor stare, nor fret; </l>
             <l>I will be master of what is mine own: </l>
             <l>She is my goods, my chattels; she is my house, </l>
@@ -3245,7 +3245,7 @@
             <l>I'll bring mine action on the proudest he </l>
             <l>That stops my way in Padua. Grumio, </l>
             <l>Draw forth thy weapon, we are beset with thieves; </l>
-            <l n="240">Rescue thy mistress, if thou be a man, </l>
+            <l>Rescue thy mistress, if thou be a man, </l>
             <l>Fear not, sweet wench, they shall not touch thee, Kate: </l>
             <l>I'll buckler thee against a million. <stage type="exit">Exeunt Petruchio, Katharina,
                 and Grumio.</stage>
@@ -3279,7 +3279,7 @@
             <speaker>Bap.</speaker>
             <l>Neighbours and friends, though bride and bridegroom wants </l>
             <l>For to supply the places at the table, </l>
-            <l n="251">You know there wants no junkets at the feast. </l>
+            <l>You know there wants no junkets at the feast. </l>
             <l>Lucentio, you shall supply the bridegroom's place; </l>
             <l>And let Bianca take her sister's room. </l>
           </sp>
@@ -3307,7 +3307,7 @@
           
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Fie, fie on all tired jades, on all mad masters, and all foul ways! Was ever man so beaten? was ever man so raved? was ever man so weary? I am sent before to make a fire, and they are coming after to warm them. Now, were not I a little pot and soon hot, my very lips might freeze to my teeth, my tongue to the roof of my mouth, my heart in my belly, ere I should come by a fire to thaw me: but I, with blowing the fire, shall warm myself; for,
+            <p>Fie, fie on all tired jades, on all mad masters, and all foul ways! Was ever man so beaten? was ever man so raved? was ever man so weary? I am sent before to make a fire, and they are coming after to warm them. Now, were not I a little pot and soon hot, my very lips might freeze to my teeth, my tongue to the roof of my mouth, my heart in my belly, ere I should come by a fire to thaw me: but I, with blowing the fire, shall warm myself; for,
               considering the weather, a taller man than I will
               take cold. Holla, ho! Curtis. <stage type="entrance"> Enter
                 CURTIS.</stage>
@@ -3319,95 +3319,95 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">A piece of ice: if thou doubt it, thou mayst slide
+            <p>A piece of ice: if thou doubt it, thou mayst slide
               from my shoulder to my heel with no greater a run
               but my head and my neck. A fire, good Curtis. </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">Is my master and his wife coming,  Grumio? </p>
+            <p>Is my master and his wife coming,  Grumio? </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">O, ay, Curtis, ay: and therefore fire, <lb ed="G" n="21"/>fire; cast on no water. </p>
+            <p>O, ay, Curtis, ay: and therefore fire, <lb ed="G" n="21"/>fire; cast on no water. </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">Is she so hot a shrew as she's reported? </p>
+            <p>Is she so hot a shrew as she's reported? </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">She was, good Curtis, before this frost: but, thou knowest, winter tames man, woman and beast; for it hath tamed my old master and my new mistress and myself, fellow Curtis. </p>
+            <p>She was, good Curtis, before this frost: but, thou knowest, winter tames man, woman and beast; for it hath tamed my old master and my new mistress and myself, fellow Curtis. </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">Away, you three-inch fool! I am no beast. </p>
+            <p>Away, you three-inch fool! I am no beast. </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Am I but three inches? why, thy horn is a foot; and
+            <p>Am I but three inches? why, thy horn is a foot; and
               so long am I at the least. But wilt thou make a fire, or shall I complain on thee to our mistress, whose hand, she being now at hand, thou shalt soon feel, to thy cold comfort, for being slow in thy hot office? </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">I prithee, good Grumio, tell me, how goes the world? </p>
+            <p>I prithee, good Grumio, tell me, how goes the world? </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">A cold world, Curtis, in every office but thine; and therefore fire: do thy duty, and have thy duty; for my master and mistress are almost frozen to death. </p>
+            <p>A cold world, Curtis, in every office but thine; and therefore fire: do thy duty, and have thy duty; for my master and mistress are almost frozen to death. </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">There's fire ready; and therefore, good Grumio, the
+            <p>There's fire ready; and therefore, good Grumio, the
               news. </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Why, 'Jack, boy! ho! boy!' and as much news as will
+            <p>Why, 'Jack, boy! ho! boy!' and as much news as will
               thaw. </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">Come, you are so full of cony-catching! </p>
+            <p>Come, you are so full of cony-catching! </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Why, therefore fire; for I have caught extreme cold. Where's the cook? is supper ready, the house trimmed, rushes strewed, cobwebs swept; the serving-men in their new fusttian, their white stockings, and every officer his wedding-garment on? Be the jacks
+            <p>Why, therefore fire; for I have caught extreme cold. Where's the cook? is supper ready, the house trimmed, rushes strewed, cobwebs swept; the serving-men in their new fusttian, their white stockings, and every officer his wedding-garment on? Be the jacks
               fair within, the jills fair without, the carpets 
               laid, and every thing in order? </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">All ready; and therefore, I pray thee, news. </p>
+            <p>All ready; and therefore, I pray thee, news. </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">First, know, my horse is tired; my master and mistress fallen out.</p>
+            <p>First, know, my horse is tired; my master and mistress fallen out.</p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">How? </p>
+            <p>How? </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <l n="60">Out of their saddles into the dirt; </l>
+            <l>Out of their saddles into the dirt; </l>
             <l>and thereby hangs a tale. </l>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">Let's ha't, good Grumio. </p>
+            <p>Let's ha't, good Grumio. </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Lend thine ear. </p>
+            <p>Lend thine ear. </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">Here. </p>
+            <p>Here. </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">There. <stage>Strikes him.</stage>
+            <p>There. <stage>Strikes him.</stage>
               </p>
           </sp>
           <sp who="curt.">
@@ -3416,23 +3416,23 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">And therefore 'tis called a sensible tale: and this cuff was but to knock at your ear, and beseech listening. Now I begin: Imprimis,  we came down a foul hill, my master riding behind my mistress,-- </p>
+            <p>And therefore 'tis called a sensible tale: and this cuff was but to knock at your ear, and beseech listening. Now I begin: Imprimis,  we came down a foul hill, my master riding behind my mistress,-- </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">Both of one horse? </p>
+            <p>Both of one horse? </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">What's that to thee? </p>
+            <p>What's that to thee? </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">Why, a horse. </p>
+            <p>Why, a horse. </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Tell thou the tale: but hadst thou not crossed me, thou shouldst have heard how her horse fell and she under her horse; thou shouldst have heard in how miry a place, how she was bemoiled, how he left her with the horse upon her, how he beat me because her horse stumbled, how she waded through the dirt to
+            <p>Tell thou the tale: but hadst thou not crossed me, thou shouldst have heard how her horse fell and she under her horse; thou shouldst have heard in how miry a place, how she was bemoiled, how he left her with the horse upon her, how he beat me because her horse stumbled, how she waded through the dirt to
               pluck him off me, how he swore, how she prayed, that
               never prayed before, how I cried, how the horses ran
               away, how her bridle was burst, how I lost my
@@ -3446,47 +3446,47 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Ay; and that thou and the proudest  of you all shall find when he comes home. But what talk I of this? Call forth Nathaniiel, Joseph,  Nicholas, Philip, Walter, Suga sop and the rest: let their heads be sleekly combed, their blue coats brushed and their garters of an indifferent knit: let them curtsy with their left legs and not presume to touch a hair of my master's horse-tail till they kiss their hands. Are they all ready? </p>
+            <p>Ay; and that thou and the proudest  of you all shall find when he comes home. But what talk I of this? Call forth Nathaniiel, Joseph,  Nicholas, Philip, Walter, Suga sop and the rest: let their heads be sleekly combed, their blue coats brushed and their garters of an indifferent knit: let them curtsy with their left legs and not presume to touch a hair of my master's horse-tail till they kiss their hands. Are they all ready? </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">They are. </p>
+            <p>They are. </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Call them forth. </p>
+            <p>Call them forth. </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">Do you hear, ho? you must meet my <lb ed="G" n="101"/>master to
+            <p>Do you hear, ho? you must meet my <lb ed="G" n="101"/>master to
               countenance my mistress. </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Why, she hath a face of her own. </p>
+            <p>Why, she hath a face of her own. </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">Who knows not that? </p>
+            <p>Who knows not that? </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Thou, it seems, that calls for company to countenance her. </p>
+            <p>Thou, it seems, that calls for company to countenance her. </p>
           </sp>
           <sp who="curt.">
             <speaker>Curt.</speaker>
-            <p part="N">I call them forth to credit her. 
+            <p>I call them forth to credit her. 
               </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Why, she comes to borrow nothing of them. <stage type="entrance">Enter four or five
+            <p>Why, she comes to borrow nothing of them. <stage type="entrance">Enter four or five
                 Serving-men.</stage>
               </p>
           </sp>
           <sp who="nath.">
             <speaker>Nath.</speaker>
-            <l n="110">Welcome home, Grumio! </l>
+            <l>Welcome home, Grumio! </l>
           </sp>
           <sp who="phil.">
             <speaker>Phil.</speaker>
@@ -3494,19 +3494,19 @@
           </sp>
           <sp who="jos.">
             <speaker>Jos.</speaker>
-            <p part="N">What, Grumio! </p>
+            <p>What, Grumio! </p>
           </sp>
           <sp who="nich.">
             <speaker>Nich.</speaker>
-            <p part="N">Fellow Grumio! </p>
+            <p>Fellow Grumio! </p>
           </sp>
           <sp who="nath.">
             <speaker>Nath.</speaker>
-            <p part="N">How now, old lad? </p>
+            <p>How now, old lad? </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Welcome, you;--how now, you;-- what, you;--fellow, you;--and thus much for greeting. Now, my spruce companions, is all ready, and all things neat? <lb ed="G" n="119"/></p>
+            <p>Welcome, you;--how now, you;-- what, you;--fellow, you;--and thus much for greeting. Now, my spruce companions, is all ready, and all things neat? <lb ed="G" n="119"/></p>
           </sp>
           <sp who="nath.">
             <speaker>Nath.</speaker>
@@ -3514,7 +3514,7 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">E'en at hand, alighted by this; and therefore be not--Cock's passion, silence! I hear my master. <stage type="entrance">Enter PETRUCHIO and KATHARINA.</stage>
+            <p>E'en at hand, alighted by this; and therefore be not--Cock's passion, silence! I hear my master. <stage type="entrance">Enter PETRUCHIO and KATHARINA.</stage>
               </p>
           </sp>
           <sp who="pet.">
@@ -3525,18 +3525,18 @@
           </sp>
           <sp who="all-serv.">
             <speaker>All Serv.</speaker>
-            <p part="N">Here, here, sir; here, sir. </p>
+            <p>Here, here, sir; here, sir. </p>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
             <l>Here, sir! here, sir! here, sir! here, sir! </l>
             <l>You logger-headed and unpolish'd grooms! </l>
-            <l n="130">What, no attendance? no regard? no duty? </l>
+            <l>What, no attendance? no regard? no duty? </l>
             <l>Where is the foolish knave I sent before? </l>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Here, sir; as foolish as I was before. </p>
+            <p>Here, sir; as foolish as I was before. </p>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -3550,7 +3550,7 @@
             <l>And Gabriel's pumps were all unpink'd i' the heel; </l>
             <l>There was no link to colour Peter's hat, </l>
             <l>And Walter's dagger was not come from sheathing: </l>
-            <l n="140">There were none fine but Adam, Ralph, and Gregory; </l>
+            <l>There were none fine but Adam, Ralph, and Gregory; </l>
             <l>The rest were ragged, old, and beggarly; </l>
             <l>Yet, as they are, here are they come to meet you. </l>
           </sp>
@@ -3585,7 +3585,7 @@
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
-            <l n="160">Patience, I pray you; 'twas a fault unwilling. </l>
+            <l>Patience, I pray you; 'twas a fault unwilling. </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -3615,7 +3615,7 @@
             <l>There, take it to you, trenchers, cups, and all: <stage>Throws the meat, &amp;c.
                 about the stage.</stage>
               </l>
-            <l n="170">You heedless joltheads and unmanner'd slaves! </l>
+            <l>You heedless joltheads and unmanner'd slaves! </l>
             <l>What, do you grumble? I'll be with you straight. </l>
           </sp>
           <sp who="kath.">
@@ -3630,7 +3630,7 @@
             <l>For it engenders choler, planteth anger; </l>
             <l>And better 'twere that both of us did fast, </l>
             <l>Since, of ourselves, ourselves are choleric, </l>
-            <l n="179">Than fed it with such over-roasted flesh. </l>
+            <l>Than fed it with such over-roasted flesh. </l>
             <l>Be patient; tomorrow 't shall be mended, </l>
             <l>And, for this night, we'll fast for company. </l>
             <l>Come, I will bring thee to thy bridal chamber. <stage type="exit">Exeunt.</stage>
@@ -3648,7 +3648,7 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Where is he? 
+            <p>Where is he? 
               </p>
           </sp>
           <sp who="curt.">
@@ -3656,7 +3656,7 @@
             <l>In her chamber, making a sermon of continency to her; </l>
             <l>And rails, and swears, and rates, that she, poor soul, </l>
             <l>Knows not which way to stand, to look, to speak, </l>
-            <l n="200">And sits as one new-risen from a dream. </l>
+            <l>And sits as one new-risen from a dream. </l>
             <l>Away, away! for he is coming hither. <stage>Exeunt.</stage>
               <stage type="entrance"> Re-enter PETRUCHIO.</stage>
               </l>
@@ -3681,7 +3681,7 @@
             <l>Ay, and amid this hurly I intend </l>
             <l>That all is done in reverend care of her; </l>
             <l>And in conclusion she shall watch all night: </l>
-            <l n="220">And if she chance to nod I'll rail and brawl </l>
+            <l>And if she chance to nod I'll rail and brawl </l>
             <l>And with the clamour keep her still awake. </l>
             <l>This is a way to kill a wife with kindness; </l>
             <l>And thus I'll curb her mad and headstrong humour. </l>
@@ -3724,7 +3724,7 @@
           </sp>
           <sp who="bian.">
             <speaker>Bian.</speaker>
-            <l n="10">And may you prove, sir, master of your art! </l>
+            <l>And may you prove, sir, master of your art! </l>
           </sp>
           <sp who="luc.">
             <speaker>Luc.</speaker>
@@ -3746,7 +3746,7 @@
             <l>Mistake no more: I am not Licio, </l>
             <l>Nor a musician, as I seem to be; </l>
             <l>But one that scorn to live in this disguise, </l>
-            <l n="20">For such a one as leaves a gentleman, </l>
+            <l>For such a one as leaves a gentleman, </l>
             <l>And makes a god of such a cullion: </l>
             <l>Know, sir, that I am call'd Hortensio. </l>
           </sp>
@@ -3762,7 +3762,7 @@
             <speaker>Hor.</speaker>
             <l>See, how they kiss and court Signior Lucentio, </l>
             <l>Here is my hand, and here I firmly vow </l>
-            <l n="30">Never to woo her more, but do forswear her, </l>
+            <l>Never to woo her more, but do forswear her, </l>
             <l>As one unworthy all the former favours </l>
             <l>That I have fondly flatter'd her withal. </l>
           </sp>
@@ -3778,7 +3778,7 @@
             <l>For me, that I may surely keep mine oath, </l>
             <l>I will be married to a wealthy widow, </l>
             <l>Ere three days pass, which hath as long loved me </l>
-            <l n="40">As I have loved this proud disdainful haggard. </l>
+            <l>As I have loved this proud disdainful haggard. </l>
             <l>And so farewell, Signior Lucentio. </l>
             <l>Kindness in women, not their beauteous looks, </l>
             <l>Shall win my love: and so I take my leave, </l>
@@ -3806,7 +3806,7 @@
           </sp>
           <sp who="tra.">
             <speaker>Tra.</speaker>
-            <l n="51">I' faith, he'll have a lusty widow now, </l>
+            <l>I' faith, he'll have a lusty widow now, </l>
             <l>That shall be woo'd and wedded in a day. </l>
           </sp>
           <sp who="bian.">
@@ -3838,7 +3838,7 @@
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <l n="60">O master, master, I have watch'd so long </l>
+            <l>O master, master, I have watch'd so long </l>
             <l>That I am dog-weary: but at last I spied </l>
             <l>An ancient angel coming down the hill, </l>
             <l part="I">Will serve the turn. </l>
@@ -3861,7 +3861,7 @@
             <speaker>Tra.</speaker>
             <l>If he be credulous and trust my tale, </l>
             <l>I'll make him glad to seem Vincentio, </l>
-            <l n="70">And give assurance to Baptista Minola, </l>
+            <l>And give assurance to Baptista Minola, </l>
             <l>As if he were the right Vincentio. </l>
             <l>Take in your love, and then let me alone. <stage type="exit">Exeunt Lucentio and
                 Bianca.</stage>
@@ -3894,7 +3894,7 @@
           <sp who="tra.">
             <speaker>Tra.</speaker>
             <l>Of Mantua, sir? marry, God forbid! </l>
-            <l n="80">And come to Padua, careless of your life? </l>
+            <l>And come to Padua, careless of your life? </l>
           </sp>
           <sp who="ped.">
             <speaker>Ped.</speaker>
@@ -3913,7 +3913,7 @@
           <sp who="ped.">
             <speaker>Ped.</speaker>
             <l>Alas! sir, it is worse for me than so; </l>
-            <l n="90">For I have bills for money by exchange </l>
+            <l>For I have bills for money by exchange </l>
             <l>From Florence and must here deliver them. </l>
           </sp>
           <sp who="tra.">
@@ -3934,7 +3934,7 @@
           <sp who="ped.">
             <speaker>Ped.</speaker>
             <l>I know him not, but I have heard of him; </l>
-            <l n="99">A merchant of incomparable wealth. </l>
+            <l>A merchant of incomparable wealth. </l>
           </sp>
           <sp who="tra.">
             <speaker>Tra.</speaker>
@@ -3956,7 +3956,7 @@
             <l>And in my house you shall be friendly lodged: </l>
             <l>Look that you take upon you as you should; </l>
             <l>You understand me, sir: so shall you stay </l>
-            <l n="111">Till you have done your business in the city: </l>
+            <l>Till you have done your business in the city: </l>
             <l>If this be courtesy, sir, accept of it. </l>
           </sp>
           <sp who="ped.">
@@ -3971,7 +3971,7 @@
             <l>My father is here look'd for every day, </l>
             <l>To pass assurance of a dower in marriage </l>
             <l>'Twixt me and one Baptista's daughter here: </l>
-            <l n="120">In all these circumstances I'll instruct you: </l>
+            <l>In all these circumstances I'll instruct you: </l>
             <l>Go with me to clothe you as becomes you. <stage type="exit">Exeunt.</stage>
             </l>
           </sp>
@@ -3998,7 +3998,7 @@
             <l>If not, elsewhere they meet with charity: </l>
             <l>But I, who never knew how to entreat, </l>
             <l>Nor never needed that I should entreat, </l>
-            <l n="10">Am starved for meat, giddy for lack of sleep, </l>
+            <l>Am starved for meat, giddy for lack of sleep, </l>
             <l>With oaths kept waking and with brawling fed: </l>
             <l>And that which spites me more than all these wants, </l>
             <l>He does it under name of perfect love; </l>
@@ -4017,7 +4017,7 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <l n="20">I fear it is too choleric a meat. </l>
+            <l>I fear it is too choleric a meat. </l>
             <l>How say you to a fat tripe finely broil'd? </l>
           </sp>
           <sp who="kath.">
@@ -4048,7 +4048,7 @@
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
-            <l n="30">Then both, or one, or any thing thou wilt. </l>
+            <l>Then both, or one, or any thing thou wilt. </l>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
@@ -4080,7 +4080,7 @@
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
-            <l n="39">Pluck up thy spirits; look cheerfully upon me. </l>
+            <l>Pluck up thy spirits; look cheerfully upon me. </l>
             <l>Here, love; thou see'st how diligent I am </l>
             <l>To dress thy meat myself and bring it thee: </l>
             <l>I am sure, sweet Kate, this kindness merits thanks. </l>
@@ -4104,7 +4104,7 @@
           <sp who="hor.">
             <speaker>Hor.</speaker>
             <l>Signior Petruchio, fie! you are to blame. </l>
-            <l n="50">Come, Mistress Kate, I'll bear you company. </l>
+            <l>Come, Mistress Kate, I'll bear you company. </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -4117,7 +4117,7 @@
             <l>With silken coats and caps and golden rings, </l>
             <l>With ruffs and cuffs and fardingales and things; </l>
             <l>With scarfs and fans and double change of bravery, </l>
-            <l n="59">With amber bracelets, beads and all this knavery; </l>
+            <l>With amber bracelets, beads and all this knavery; </l>
             <l>What, hast thou dined? The tailor stays thy leisure, </l>
             <l>To deck thy body with his ruffling treasure. <stage type="entrance"> Enter Tailor.</stage>
               </l>
@@ -4140,7 +4140,7 @@
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
-            <l n="70">I'll have no bigger: this doth fit the time, </l>
+            <l>I'll have no bigger: this doth fit the time, </l>
             <l>And gentlewomen wear such caps as these. </l>
           </sp>
           <sp who="pet.">
@@ -4181,7 +4181,7 @@
             <l>Thy gown? why, ay: come, tailor, let us see 't. </l>
             <l>O mercy, God! what masquing stuff is here? </l>
             <l>What's this? a sleeve? 'tis like a demicannon: </l>
-            <l n="90">What, up and down, carved like an appletart? </l>
+            <l>What, up and down, carved like an appletart? </l>
             <l>Here's snip and nip and cut and slish and slash, </l>
             <l>Like to a censer in a barber's shop: </l>
             <l>Why, what i' devil's name, tailor, call'st thou this? </l>
@@ -4200,7 +4200,7 @@
             <speaker>Pet.</speaker>
             <l>Marry, and did; but if you be remember'd, </l>
             <l>I did not bid you mar it to the time. </l>
-            <l n="99">Go, hop me over every kennel home, </l>
+            <l>Go, hop me over every kennel home, </l>
             <l>For you shall hop without my custom, sir: </l>
             <l>I'll none of it: hence! make your best of it. </l>
           </sp>
@@ -4238,7 +4238,7 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <l n="120">I gave him no order; I gave him the stuff. </l>
+            <l>I gave him no order; I gave him the stuff. </l>
           </sp>
           <sp who="tai.">
             <speaker>Tai.</speaker>
@@ -4262,7 +4262,7 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Face not me: thou hast braved many men; brave not
+            <p>Face not me: thou hast braved many men; brave not
               me; I will neither be faced nor braved. I say unto
               thee, I bid thy master cut out the gown; but I did not bid him cut it to pieces: ergo, thou liest. <lb ed="G" n="131"/></p>
           </sp>
@@ -4285,7 +4285,7 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Master, if ever I said loose-bodied gown, sew me in
+            <p>Master, if ever I said loose-bodied gown, sew me in
               the skirts of it, and beat me to death with a bottom of brown thread: I said a gown. </p>
           </sp>
           <sp who="pet.">
@@ -4295,7 +4295,7 @@
           <sp who="tai.">
             <speaker>Tai.</speaker>
             <stage>Reads</stage>
-            <l n="141">'With a small compassed cape:' </l>
+            <l>'With a small compassed cape:' </l>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
@@ -4321,16 +4321,16 @@
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">Error i' the bill, sir; error i' the bill. I commanded the sleeves should be cut out and sewed up again; and that I'll prove upon thee, though thy little finger be
+            <p>Error i' the bill, sir; error i' the bill. I commanded the sleeves should be cut out and sewed up again; and that I'll prove upon thee, though thy little finger be
               armed in a thimble. </p>
           </sp>
           <sp who="tai.">
             <speaker>Tai.</speaker>
-            <p part="N">This is true that I say: an I had thee <lb ed="G" n="151"/>in place where, thou shouldst know it. </p>
+            <p>This is true that I say: an I had thee <lb ed="G" n="151"/>in place where, thou shouldst know it. </p>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
-            <p part="N">I am for thee straight: take thou the bill, give me
+            <p>I am for thee straight: take thou the bill, give me
               thy mete-yard, and spare not me. </p>
           </sp>
           <sp who="hor.">
@@ -4347,7 +4347,7 @@
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
-            <l n="160">Go, take it up unto thy master's use. </l>
+            <l>Go, take it up unto thy master's use. </l>
           </sp>
           <sp who="gru.">
             <speaker>Gru.</speaker>
@@ -4373,7 +4373,7 @@
           <sp who="hor.">
             <speaker>Hor.</speaker>
             <l>Tailor, I'll pay thee for thy gown tomorrow: </l>
-            <l n="170">Take no unkindness of his hasty words: </l>
+            <l>Take no unkindness of his hasty words: </l>
             <l>Away! I say; commend me to thy master. <stage type="exit">Exit Tailor.</stage>
               </l>
           </sp>
@@ -4387,7 +4387,7 @@
             <l>So honour peereth in the meanest habit. </l>
             <l>What is the jay more precious than the lark, </l>
             <l>Because his feathers are more beautiful? </l>
-            <l n="180">Or is the adder better than the eel, </l>
+            <l>Or is the adder better than the eel, </l>
             <l>Because his painted skin contents the eye? </l>
             <l>O, no, good Kate; neither art thou the worse </l>
             <l>For this poor furniture and mean array, </l>
@@ -4478,7 +4478,7 @@
             <l>Here comes Baptista: set your countenance, sir. <stage type="entrance"> Enter BAPTISTA and LUCENTIO.</stage>
               
               </l>
-            <l n="20">Signior Baptista, you are happily met. <stage>To the Pedant</stage>
+            <l>Signior Baptista, you are happily met. <stage>To the Pedant</stage>
               </l>
             <l>Sir, this is the gentleman I told you of: </l>
             <l>I pray you, stand good father to me now, </l>
@@ -4492,7 +4492,7 @@
             <l>Made me acquainted with a weighty cause </l>
             <l>Of love between your daughter and himself: </l>
             <l>And, for the good report I hear of you </l>
-            <l n="30">And for the love he beareth to your daughter </l>
+            <l>And for the love he beareth to your daughter </l>
             <l>And she to him, to stay him not too long, </l>
             <l>I am content, in a good father's care, </l>
             <l>To have him match'd; and if you please to like </l>
@@ -4505,7 +4505,7 @@
           <sp who="bap.">
             <speaker>Bap.</speaker>
             <l>Sir, pardon me in what I have to say: </l>
-            <l n="40">Your plainness and your shortness please me well. </l>
+            <l>Your plainness and your shortness please me well. </l>
             <l>Right true it is, your son Lucentio here </l>
             <l>Doth love my daughter and she loveth him, </l>
             <l>Or both dissemble deeply their affections: </l>
@@ -4533,7 +4533,7 @@
             <l>Then at my lodging, an it like you: </l>
             <l>There doth my father lie; and there, this night, </l>
             <l>We'll pass the business privately and well. </l>
-            <l n="59">Send for your daughter by your servant here; </l>
+            <l>Send for your daughter by your servant here; </l>
             <l>My boy shall fetch the scrivener presently. </l>
             <l>The worst is this, that, at so slender warning, </l>
             <l>You are like to have a thin and slender pittance. </l>
@@ -4585,7 +4585,7 @@
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">Faith, nothing; but he has left me here behind, to
+            <p>Faith, nothing; but he has left me here behind, to
               expound the meaning or moral of his signs and tokens. </p>
           </sp>
           <sp who="luc.">
@@ -4594,7 +4594,7 @@
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">Then thus. Baptista is safe, talking with the deceiving father of a deceitful son. </p>
+            <p>Then thus. Baptista is safe, talking with the deceiving father of a deceitful son. </p>
           </sp>
           <sp who="luc.">
             <speaker>Luc.</speaker>
@@ -4602,7 +4602,7 @@
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">His daughter is to be brought by you to the supper.
+            <p>His daughter is to be brought by you to the supper.
                 </p>
           </sp>
           <sp who="luc.">
@@ -4611,7 +4611,7 @@
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">The old priest of Saint Luke's church is at your command at all hours. <lb ed="G" n="90"/></p>
+            <p>The old priest of Saint Luke's church is at your command at all hours. <lb ed="G" n="90"/></p>
           </sp>
           <sp who="luc.">
             <speaker>Luc.</speaker>
@@ -4619,7 +4619,7 @@
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">I cannot tell; expect they are busied about a counterfeit assurance: take you assurance  of her, 'cum privilegio ad imprimendum  solum:' to the church; take the priest, clerk, and some sufficient honest witnesses:
+            <p>I cannot tell; expect they are busied about a counterfeit assurance: take you assurance  of her, 'cum privilegio ad imprimendum  solum:' to the church; take the priest, clerk, and some sufficient honest witnesses:
                 </p>
             <l>If this be not that you look for, I have no more to say, </l>
             <l>But bid Bianca farewell for ever and a day. </l>
@@ -4630,7 +4630,7 @@
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">I cannot tarry: I knew a wench married in an afternoon as she went to the garden  for parsley to stuff a rabbit; and so may you, sir: and so, adieu, sir. My master hath appointed me to go to Saint Luke's, to bid the priest be ready to come against you come with your appendix. <stage type="exit">Exit.</stage>
+            <p>I cannot tarry: I knew a wench married in an afternoon as she went to the garden  for parsley to stuff a rabbit; and so may you, sir: and so, adieu, sir. My master hath appointed me to go to Saint Luke's, to bid the priest be ready to come against you come with your appendix. <stage type="exit">Exit.</stage>
               </p>
           </sp>
           <sp who="luc.">
@@ -4672,7 +4672,7 @@
             <l>Now, by my mother's son, and that's myself, </l>
             <l>It shall be moon, or star, or what I list, </l>
             <l>Or ere I journey to your father's house. </l>
-            <l n="10">Go on, and fetch our horses back again. </l>
+            <l>Go on, and fetch our horses back again. </l>
             <l>Evermore cross'd and cross'd; nothing but cross'd! </l>
           </sp>
           <sp who="hor.">
@@ -4701,7 +4701,7 @@
           <sp who="kath.">
             <speaker>Kath.</speaker>
             <l>Then, God be bless'd, it is the blessed sun: </l>
-            <l n="20">But sun it is not, when you say it is not; </l>
+            <l>But sun it is not, when you say it is not; </l>
             <l>And the moon changes even as your mind. </l>
             <l>What you will have it named, even that it is; </l>
             <l>And so it shall be so for Katharine. </l>
@@ -4719,7 +4719,7 @@
               <stage>To Vincentio</stage>
               </l>
             <l>Good morrow, gentle mistress: where away? </l>
-            <l n="29">Tell me, sweet Kate, and tell me truly too, </l>
+            <l>Tell me, sweet Kate, and tell me truly too, </l>
             <l>Hast thou beheld a fresher gentlewoman? </l>
             <l>Such war of white and red within her cheeks! </l>
             <l>What stars do spangle heaven with such beauty, </l>
@@ -4735,7 +4735,7 @@
             <speaker>Kath.</speaker>
             <l>Young budding virgin, fair and fresh and sweet, </l>
             <l>Whither away, or where is thy abode? </l>
-            <l n="40">Happy the parents of so fair a child; </l>
+            <l>Happy the parents of so fair a child; </l>
             <l>Happier the man, whom favourable stars </l>
             <l>Allot thee for his lovely bed-fellow! </l>
           </sp>
@@ -4751,7 +4751,7 @@
             <l>That have been so bedazzled with the sun </l>
             <l>That everything I look on seemeth green: </l>
             <l>Now I perceive thou art a reverend father; </l>
-            <l n="50">Pardon, I pray thee, for my mad mistaking. </l>
+            <l>Pardon, I pray thee, for my mad mistaking. </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -4777,7 +4777,7 @@
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
-            <l n="60">Happily met; the happier for thy son. </l>
+            <l>Happily met; the happier for thy son. </l>
             <l>And now by law, as well as reverend age, </l>
             <l>I may entitle thee my loving father: </l>
             <l>The sister to my wife, this gentlewoman, </l>
@@ -4787,7 +4787,7 @@
             <l>Beside, so qualified as may beseem </l>
             <l>The spouse of any noble gentleman. </l>
             <l>Let me embrace with old Vincentio, </l>
-            <l n="70">And wander we to see thy honest son, </l>
+            <l>And wander we to see thy honest son, </l>
             <l>Who will of thy arrival be full joyous. </l>
           </sp>
           <sp who="vin.">
@@ -4834,12 +4834,12 @@
           </sp>
           <sp who="luc.">
             <speaker>Luc.</speaker>
-            <p part="N">I fly, Biondello: but they may chance  to need thee
+            <p>I fly, Biondello: but they may chance  to need thee
               at home; therefore leave us. </p>
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">Nay, faith, I'll see the church o'your back; and
+            <p>Nay, faith, I'll see the church o'your back; and
               then come back to my master's as soon as I can. <stage type="exit">Exeunt
                 Lucentio, Bianca, and Biondello.</stage>
               </p>
@@ -4851,7 +4851,7 @@
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
-            <l n="10">Sir, here 's the door, this is Lucentio's house: </l>
+            <l>Sir, here 's the door, this is Lucentio's house: </l>
             <l>My father's bears more toward the marketplace; </l>
             <l>Thither must I, and here I leave you, sir. </l>
           </sp>
@@ -4864,113 +4864,113 @@
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">They're busy within; you were best knock louder. <stage>Pedant looks out of the window.</stage>
+            <p>They're busy within; you were best knock louder. <stage>Pedant looks out of the window.</stage>
               </p>
           </sp>
           <sp who="ped.">
             <speaker>Ped.</speaker>
-            <p part="N">What's he that knocks as he would beat down the
+            <p>What's he that knocks as he would beat down the
               gate? </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">Is Signior Lucentio within, sir? </p>
+            <p>Is Signior Lucentio within, sir? </p>
           </sp>
           <sp who="ped.">
             <speaker>Ped.</speaker>
-            <p part="N">He's within, sir, but not to be spoken withal. </p>
+            <p>He's within, sir, but not to be spoken withal. </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">What if a man bring him a hundred pound or two, to
+            <p>What if a man bring him a hundred pound or two, to
               make merry withal? </p>
           </sp>
           <sp who="ped.">
             <speaker>Ped.</speaker>
-            <p part="N">Keep your hundred pounds to yourself:  he shall
+            <p>Keep your hundred pounds to yourself:  he shall
               need none, so long as I live. </p>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
-            <p part="N">Nay, I told you your son was well beloved  in Padua. Do you hear, sir? To leave frivolous circumstances, I pray you, tell Signior  Lucentio that his father is come from Pisa and is here at the door to speak with
+            <p>Nay, I told you your son was well beloved  in Padua. Do you hear, sir? To leave frivolous circumstances, I pray you, tell Signior  Lucentio that his father is come from Pisa and is here at the door to speak with
                 him. <lb ed="G" n="31"/></p>
           </sp>
           <sp who="ped.">
             <speaker>Ped.</speaker>
-            <p part="N">Thou liest: his father is come from Padua and here
+            <p>Thou liest: his father is come from Padua and here
               looking out at the window. </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">Art thou his father? </p>
+            <p>Art thou his father? </p>
           </sp>
           <sp who="ped.">
             <speaker>Ped.</speaker>
-            <p part="N">Ay, sir; so his mother says, if I may believe her. </p>
+            <p>Ay, sir; so his mother says, if I may believe her. </p>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
             <stage>To Vincentio</stage>
-            <p part="N">Why, how now, gentleman! why, this is flat knavery, to take upon you another man's name. </p>
+            <p>Why, how now, gentleman! why, this is flat knavery, to take upon you another man's name. </p>
           </sp>
           <sp who="ped.">
             <speaker>Ped.</speaker>
-            <p part="N">Lay hands on the villain: I believe a' means to
+            <p>Lay hands on the villain: I believe a' means to
               cozen somebody in this city under <lb ed="G" n="41"/>my countenance. <stage type="entrance"> Re-enter BIONDELLO.</stage>
               </p>
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">I have seen them in the church together:  God send
+            <p>I have seen them in the church together:  God send
               'em good shipping! But who is here? mine old master Vincentio! now we are undone and brought to nothing. </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
             <stage>Seeing Biondello</stage>
-            <p part="N">Come hither, crack-hemp. </p>
+            <p>Come hither, crack-hemp. </p>
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">I hope I may choose, sir. </p>
+            <p>I hope I may choose, sir. </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">Come hither, you rogue. What, have <lb ed="G" n="50"/>you forgot me? </p>
+            <p>Come hither, you rogue. What, have <lb ed="G" n="50"/>you forgot me? </p>
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">Forgot you! no, sir: I could not forget  you, for I
+            <p>Forgot you! no, sir: I could not forget  you, for I
               never saw you before in all my life. </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">What, you notorious villain, didst thou never see
+            <p>What, you notorious villain, didst thou never see
               thy master's father, Vincentio? </p>
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">What, my old worshipful master?  yes, marry, sir:
+            <p>What, my old worshipful master?  yes, marry, sir:
               see where he looks out of the window. </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">Is't so, indeed? <stage>Beats Biondello.</stage>
+            <p>Is't so, indeed? <stage>Beats Biondello.</stage>
               <lb ed="G" n="61"/></p>
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">Help, help, help! here's a madman will murder me.
+            <p>Help, help, help! here's a madman will murder me.
                 <stage type="exit">Exit. </stage>
               </p>
           </sp>
           <sp who="ped.">
             <speaker>Ped.</speaker>
-            <p part="N">Help, son! help, Signior Baptista! <stage type="exit">Exit from above.</stage>
+            <p>Help, son! help, Signior Baptista! <stage type="exit">Exit from above.</stage>
               </p>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
-            <p part="N">Prithee, Kate, let's stand aside and see the end of this controversy. <stage>They retire.</stage>
+            <p>Prithee, Kate, let's stand aside and see the end of this controversy. <stage>They retire.</stage>
               <stage type="entrance">Re-enter Pedant below; TRANIO, BAPTISTA,
                 and Servants.</stage>
               </p>
@@ -4981,7 +4981,7 @@
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">What am I, sir! nay, what are you, sir? O immortal gods! O fine villain! A silken doublet! a velvet hose! a scarlet cloak! and a copatain hat! O, I am undone! I am undone! while I play the good husband at home, my son and my servant spend all at the university. </p>
+            <p>What am I, sir! nay, what are you, sir? O immortal gods! O fine villain! A silken doublet! a velvet hose! a scarlet cloak! and a copatain hat! O, I am undone! I am undone! while I play the good husband at home, my son and my servant spend all at the university. </p>
           </sp>
           <sp who="tra.">
             <speaker>Tra.</speaker>
@@ -4989,91 +4989,91 @@
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <p part="N">What, is the man lunatic? </p>
+            <p>What, is the man lunatic? </p>
           </sp>
           <sp who="tra.">
             <speaker>Tra.</speaker>
-            <p part="N">Sir, you seem a sober ancient gentleman  by your
+            <p>Sir, you seem a sober ancient gentleman  by your
               habit, but your words show you a madman. Why, sir,
               what 'cerns it you if I wear pearl and gold? I thank my good father, <lb ed="G" n="79"/>I am able to maintain it. </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">Thy father! O villain! he is a sailmaker  in Bergamo. </p>
+            <p>Thy father! O villain! he is a sailmaker  in Bergamo. </p>
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <p part="N">You mistake, sir, you mistake, sir. Pray, what do you think is his name? </p>
+            <p>You mistake, sir, you mistake, sir. Pray, what do you think is his name? </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">His name! as if I knew not his name: I have brought
+            <p>His name! as if I knew not his name: I have brought
               him up ever since he was three years old, and his
               name is Tranio. </p>
           </sp>
           <sp who="ped.">
             <speaker>Ped.</speaker>
-            <p part="N">Away, away, mad ass! his name is Lucentio; and he
+            <p>Away, away, mad ass! his name is Lucentio; and he
               is mine only son, and heir to <lb ed="G" n="89"/>the lands of me, Signior Vincentio. </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">Lucentio! O, he hath murdered his master! Lay hold
+            <p>Lucentio! O, he hath murdered his master! Lay hold
               on him, I charge you, in the duke's name. O, my son,
               my son! Tell me thou villain, where is my son Lucentio? </p>
           </sp>
           <sp who="tra.">
             <speaker>Tra.</speaker>
-            <p part="N">Call forth an officer. <stage type="entrance"> Enter one with an Officer.</stage></p>
-            <p part="N">Carry this mad knave to the gaol. Father Baptista, 
+            <p>Call forth an officer. <stage type="entrance"> Enter one with an Officer.</stage></p>
+            <p>Carry this mad knave to the gaol. Father Baptista, 
               I charge you see that he be forthcoming. </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">Carry me to the gaol! </p>
+            <p>Carry me to the gaol! </p>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">Stay, officer: he shall not go to prison. </p>
+            <p>Stay, officer: he shall not go to prison. </p>
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <p part="N">Talk not, Signior Gremio: I say he <lb ed="G" n="100"/>shall go to prison. </p>
+            <p>Talk not, Signior Gremio: I say he <lb ed="G" n="100"/>shall go to prison. </p>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">Take heed, Signior Baptista, lest you be cony-catched in this business: I dare swear this is the right Vincentio. </p>
+            <p>Take heed, Signior Baptista, lest you be cony-catched in this business: I dare swear this is the right Vincentio. </p>
           </sp>
           <sp who="ped.">
             <speaker>Ped.</speaker>
-            <p part="N">Swear, if thou darest. </p>
+            <p>Swear, if thou darest. </p>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">Nay, I dare not swear it. </p>
+            <p>Nay, I dare not swear it. </p>
           </sp>
           <sp who="tra.">
             <speaker>Tra.</speaker>
-            <p part="N">Then thou wert best say that I am not Lucentio. </p>
+            <p>Then thou wert best say that I am not Lucentio. </p>
           </sp>
           <sp who="gre.">
             <speaker>Gre.</speaker>
-            <p part="N">Yes, I know thee to be Signior Lucentio. </p>
+            <p>Yes, I know thee to be Signior Lucentio. </p>
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <p part="N">Away with the dotard! to the gaol <lb ed="G" n="110"/>with him! 
+            <p>Away with the dotard! to the gaol <lb ed="G" n="110"/>with him! 
               </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">Thus strangers may be haled and abused: O monstrous villain! <stage type="entrance">Re-enter BIONDELLO, with LUCENTIO and
+            <p>Thus strangers may be haled and abused: O monstrous villain! <stage type="entrance">Re-enter BIONDELLO, with LUCENTIO and
                 BIANCA.</stage>
               </p>
           </sp>
           <sp who="bion.">
             <speaker>Bion.</speaker>
-            <p part="N">O! we are spoiled and--yonder he is: deny him, forswear him, or else we are all undone. 
+            <p>O! we are spoiled and--yonder he is: deny him, forswear him, or else we are all undone. 
               </p>
           </sp>
           <sp who="luc.">
@@ -5124,7 +5124,7 @@
             <speaker>Luc.</speaker>
             <l>Love wrought these miracles. Bianca's love </l>
             <l>Made me exchange my state with Tranio, </l>
-            <l n="130">While he did bear my countenance in the town; </l>
+            <l>While he did bear my countenance in the town; </l>
             <l>And happily I have arrived at the last </l>
             <l>Unto the wished haven of my bliss. </l>
             <l>What Tranio did, myself enforced him to; </l>
@@ -5132,16 +5132,16 @@
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">I'll slit the villain's nose, that would have sent me to the gaol. </p>
+            <p>I'll slit the villain's nose, that would have sent me to the gaol. </p>
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <p part="N">But do you hear, sir? have you married  my daughter
+            <p>But do you hear, sir? have you married  my daughter
               without asking my good will? </p>
           </sp>
           <sp who="vin.">
             <speaker>Vin.</speaker>
-            <p part="N">Fear not, Baptista; we will content you, go to: but
+            <p>Fear not, Baptista; we will content you, go to: but
               I will in, to be revenged for this villany. <stage type="exit">Exit. </stage>
               <lb ed="G" n="141"/></p>
           </sp>
@@ -5171,7 +5171,7 @@
           </sp>
           <sp who="kath.">
             <speaker>Kath.</speaker>
-            <l n="150">What, in the midst of the street? </l>
+            <l>What, in the midst of the street? </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -5217,7 +5217,7 @@
             <l>And thou, Hortensio, with thy loving widow, </l>
             <l>Feast with the best, and welcome to my house: </l>
             <l>My banquet is to close our stomachs up, </l>
-            <l n="11">After our great good cheer. Pray you, sit down; </l>
+            <l>After our great good cheer. Pray you, sit down; </l>
             <l>For now we sit to chat as well as eat. </l>
           </sp>
           <sp who="pet.">
@@ -5247,7 +5247,7 @@
           <sp who="pet.">
             <speaker>Pet.</speaker>
             <l>You are very sensible, and yet you miss my sense: </l>
-            <l n="20">I mean, Hortensio is afeard of you. </l>
+            <l>I mean, Hortensio is afeard of you. </l>
           </sp>
           <sp who="wid.">
             <speaker>Wid.</speaker>
@@ -5285,7 +5285,7 @@
           <sp who="wid.">
             <speaker>Wid.</speaker>
             <l>Your husband, being troubled with a shrew, </l>
-            <l n="30">Measures my husband's sorrow by his woe: </l>
+            <l>Measures my husband's sorrow by his woe: </l>
             <l>And now you know my meaning. </l>
           </sp>
           <sp who="kath.">
@@ -5332,7 +5332,7 @@
           </sp>
           <sp who="bian.">
             <speaker>Bian.</speaker>
-            <l n="41">Head, and butt! an hasty-witted body </l>
+            <l>Head, and butt! an hasty-witted body </l>
             <l>Would say your head and butt were head and horn. </l>
           </sp>
           <sp who="vin.">
@@ -5357,7 +5357,7 @@
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
-            <l n="50">She hath prevented me. Here, Signior Tranio, </l>
+            <l>She hath prevented me. Here, Signior Tranio, </l>
             <l>This bird you aim'd at, though you hit her not; </l>
             <l>Therefore a health to all that shot and miss'd. </l>
           </sp>
@@ -5385,7 +5385,7 @@
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <l n="60">Confess, confess, hath he not hit you here? </l>
+            <l>Confess, confess, hath he not hit you here? </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -5408,7 +5408,7 @@
           </sp>
           <sp who="hor.">
             <speaker>Hor.</speaker>
-            <l part="I" n="70">Content. What is the wager? </l>
+            <l part="I">Content. What is the wager? </l>
           </sp>
           <sp who="luc.">
             <speaker>Luc.</speaker>
@@ -5490,7 +5490,7 @@
           <sp who="hor.">
             <speaker>Hor.</speaker>
             <l part="F">I am afraid, sir, </l>
-            <l n="90">Do what you can, yours will
+            <l>Do what you can, yours will
               not be entreated. <stage type="entrance"> Re-enter BIONDELLO.</stage>
               </l>
             <l>Now, where's my wife? </l>
@@ -5527,7 +5527,7 @@
           </sp>
           <sp who="bap.">
             <speaker>Bap.</speaker>
-            <l n="100">Now, by my holidame, here comes Katharina! <stage type="entrance"> Re-enter
+            <l>Now, by my holidame, here comes Katharina! <stage type="entrance"> Re-enter
                 KATHARINA.</stage>
               </l>
           </sp>
@@ -5562,7 +5562,7 @@
           <sp who="pet.">
             <speaker>Pet.</speaker>
             <l>Marry, peace it bodes, and love and quiet life: </l>
-            <l n="110">And awful rule and right supremacy; </l>
+            <l>And awful rule and right supremacy; </l>
             <l>And, to be short, what not, that's sweet and happy? </l>
           </sp>
           <sp who="bap.">
@@ -5579,7 +5579,7 @@
             <l>And show more sign of her obedience, </l>
             <l>Her new-built virtue and obedience. 
               </l>
-            <l n="120">See where she comes and brings your froward wives </l>
+            <l>See where she comes and brings your froward wives </l>
             <l>As prisoners to her womanly persuasion. <stage type="entrance"> Re-enter KATHARINA,
                 with BIANCA and Widow</stage>
               </l>
@@ -5603,7 +5603,7 @@
           </sp>
           <sp who="bian.">
             <speaker>Bian.</speaker>
-            <l n="130">The more fool you, for laying on my duty. </l>
+            <l>The more fool you, for laying on my duty. </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>
@@ -5631,7 +5631,7 @@
             <l>Fie, fie! unknit that threatening unkind brow, </l>
             <l>And dart not scornful glances from those eyes, </l>
             <l>To wound thy lord, thy king, thy governor: </l>
-            <l n="140">It blots thy beauty as frosts do bite the meads, </l>
+            <l>It blots thy beauty as frosts do bite the meads, </l>
             <l>Confounds thy fame as whirlwinds shake fair buds, </l>
             <l>And in no sense is meet or amiable. </l>
             <l>A woman moved is like a fountain troubled, </l>
@@ -5642,7 +5642,7 @@
             <l>Thy head, they sovereign; one that cares for thee, </l>
             <l>And for thy maintenance commits his body </l>
             <l>To painful labour both by sea and land, </l>
-            <l n="151">To watch the night in storms, the day in cold, </l>
+            <l>To watch the night in storms, the day in cold, </l>
             <l>Whilst thou liest warm at home, secure and safe; </l>
             <l>And craves no other tribute at thy hands </l>
             <l>But love, fair looks and true obedience; </l>
@@ -5651,7 +5651,7 @@
             <l>Even such a woman oweth to her husband; </l>
             <l>And when she is froward, peevish, sullen, sour, </l>
             <l>And not obedient to his honest will, </l>
-            <l n="160">What is she but a foul contending rebel </l>
+            <l>What is she but a foul contending rebel </l>
             <l>And graceless traitor to her loving lord? </l>
             <l>I am ashamed that women are so simple </l>
             <l>To offer war where they should kneel for peace, </l>
@@ -5661,7 +5661,7 @@
             <l>Unapt to toil and trouble in the world, </l>
             <l>But that our soft conditions and our hearts </l>
             <l>Should well agree with our external parts? </l>
-            <l n="170">Come, come, you froward and unable worms </l>
+            <l>Come, come, you froward and unable worms </l>
             <l>My mind hath been as big as one of yours, </l>
             <l>My heart as great, my reason haply more, </l>
             <l>To bandy word for word and frown for frown; </l>
@@ -5671,7 +5671,7 @@
             <l>Then vail your stomachs, for it is no boot, </l>
             <l>And place your hands below your husband's foot: </l>
             <l>In token of which duty, if he please, </l>
-            <l n="180">My hand is ready; may it do him ease. </l>
+            <l>My hand is ready; may it do him ease. </l>
           </sp>
           <sp who="pet.">
             <speaker>Pet.</speaker>

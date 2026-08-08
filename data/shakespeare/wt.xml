@@ -6,7 +6,7 @@
         <author>William Shakespeare</author>
         <editor>W. G. Clark</editor>
         <editor>W. Aldis Wright</editor>   </titleStmt>
-      <publicationStmt><p part="N">later</p></publicationStmt> <sourceDesc default="false">
+      <publicationStmt><p>later</p></publicationStmt> <sourceDesc default="false">
         <biblStruct default="false" status="draft">
           <monogr>
             <author>William Shakespeare</author>
@@ -199,45 +199,45 @@
           
           <sp who="arch.">
             <speaker>Arch.</speaker>
-            <p part="N">If you shall chance, Camillo, to visit Bohemia, on the
+            <p>If you shall chance, Camillo, to visit Bohemia, on the
               like occasion whereon my services are now on foot, you
               shall see, as I have said, great difference betwixt our
               Bohemia and your Sicilia. </p>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">I think, this coming summer, the King of Sicilia means
+            <p>I think, this coming summer, the King of Sicilia means
               to pay Bohemia the visitation which he justly owes
               him. </p>
           </sp>
           <sp who="arch.">
             <speaker>Arch.</speaker>
-            <p part="N">Wherein our entertainment shall shame us we will be
+            <p>Wherein our entertainment shall shame us we will be
               justified in our loves; for indeed-- <lb n="11" ed="G"/></p>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">Beseech you,-- </p>
+            <p>Beseech you,-- </p>
           </sp>
           <sp who="arch.">
             <speaker>Arch.</speaker>
-            <p part="N">Verily, I speak it in the freedom of my knowledge: we
+            <p>Verily, I speak it in the freedom of my knowledge: we
               cannot with such magnificence --in so rare--I know not
               what to say. We will give you sleepy drinks, that your
                 senses, unintelligent of our insufficience, may, though they cannot praise us, as little accuse us. </p>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">You pay a great deal too dear for what's given freely. <lb n="20" ed="G"/></p>
+            <p>You pay a great deal too dear for what's given freely. <lb n="20" ed="G"/></p>
           </sp>
           <sp who="arch.">
             <speaker>Arch.</speaker>
-            <p part="N">Believe me, I speak as my understanding instructs me
+            <p>Believe me, I speak as my understanding instructs me
               and as mine honesty puts it to utterance. </p>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">Sicilia cannot show himself over-kind to Bohemia. They were trained together in their childhoods; and
+            <p>Sicilia cannot show himself over-kind to Bohemia. They were trained together in their childhoods; and
               there rooted betwixt them then such an affection, which cannot choose but branch now. Since their more mature dignities and royal necessities made separation of their society, their encounters, though not personal,
                 have been royally attorneyed with interchange of gifts, letters, loving embassies; that they have seemed
               to be together, though absent, shook hands, as over a
@@ -245,26 +245,26 @@
           </sp>
           <sp who="arch.">
             <speaker>Arch.</speaker>
-            <p part="N">I think there is not in the world either malice or
+            <p>I think there is not in the world either malice or
               matter to alter it. You have an unspeakable comfort of
               your young prince Mamillius: it is a gentleman of the greatest promise that ever came into my note. <lb n="41" ed="G"/></p>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">I very well agree with you in the hopes of him: it is
+            <p>I very well agree with you in the hopes of him: it is
               a gallant child; one that indeed physics the subject, makes old hearts fresh: they that went on crutches ere he was born desire yet their life to see him a man. </p>
           </sp>
           <sp who="arch.">
             <speaker>Arch.</speaker>
-            <p part="N">Would they else be content to die? </p>
+            <p>Would they else be content to die? </p>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">Yes; if there were no other excuse why they should desire to live. <lb n="49" ed="G"/></p>
+            <p>Yes; if there were no other excuse why they should desire to live. <lb n="49" ed="G"/></p>
           </sp>
           <sp who="arch.">
             <speaker>Arch.</speaker>
-            <p part="N">If the king had no son, they would desire to live on
+            <p>If the king had no son, they would desire to live on
               crutches till he had one. <stage type="exit">[Exeunt.</stage></p>
           </sp>
         </div>
@@ -281,7 +281,7 @@
 
           <sp who="pol.">
             <speaker>Pol.</speaker>
-            <p part="N">Nine changes of the watery star hath been The
+            <p>Nine changes of the watery star hath been The
               shepherd's note since we have left our throne Without
               a burthen: time as long again Would be fill'd up, my
               brother, with our thanks; And yet we should, for
@@ -292,7 +292,7 @@
           <sp who="leon.">
             <speaker>Leon.</speaker>
             <l part="F">Stay your thanks a while; </l>
-            <l part="I" n="10">And pay them when you part. </l>
+            <l part="I">And pay them when you part. </l>
           </sp>
 
           <sp who="pol.">
@@ -346,7 +346,7 @@
             <speaker>Her.</speaker>
             <l>I had thought, sir, to have held my peace until </l>
             <l>You had drawn oaths from him not to stay. You, sir, </l>
-            <l n="31">Charge him too coldly. Tell him, you are sure </l>
+            <l>Charge him too coldly. Tell him, you are sure </l>
             <l>All in Bohemia's well: this satisfaction </l>
             <l>The by-gone day proclaim'd: say this to him, </l>
             <l part="I">He's beat from his best ward. </l>
@@ -362,7 +362,7 @@
             <l>But let him swear so, and he shall not stay, </l>
             <l>We'll thwack him hence with distaffs. </l>
             <l>Yet of your royal presence I'll adventure </l>
-            <l n="40">The borrow of a week. When at Bohemia </l>
+            <l>The borrow of a week. When at Bohemia </l>
             <l>You take my lord, I'll give him my commission </l>
             <l>To let him there a month behind the gest </l>
             <l>Prefix'd for's parting: yet, good deed, Leontes, </l>
@@ -386,7 +386,7 @@
             <l>Verily! </l>
             <l>You put me off with limber vows; but I, </l>
             <l>Though you would seek to unsphere the stars with oaths, </l>
-            <l n="50">Should yet say 'Sir, no going.' Verily, </l>
+            <l>Should yet say 'Sir, no going.' Verily, </l>
             <l>You shall not go: a lady's 'Verily' 's </l>
             <l>As potent as a lord's. Will you go yet? </l>
             <l>Force me to keep you as a prisoner, </l>
@@ -405,7 +405,7 @@
           <sp who="her.">
             <speaker>Her.</speaker>
             <l part="F">Not your gaoler, then, </l>
-            <l n="61">But your kind hostess. Come, I'll question you </l>
+            <l>But your kind hostess. Come, I'll question you </l>
             <l>Of my lord's tricks and yours when you were boys: </l>
             <l part="I">You were pretty lordings then? </l>
           </sp>
@@ -425,7 +425,7 @@
             <speaker>Pol.</speaker>
             <l>We were as twinn'd lambs that did frisk i' the sun, </l>
             <l>And bleat the one at the other: what we changed </l>
-            <l n="70">Was innocence for innocence; we knew not </l>
+            <l>Was innocence for innocence; we knew not </l>
             <l>The doctrine of ill-doing, nor dream'd </l>
             <l>That any did. Had we pursued that life, </l>
             <l>And our weak spirits ne'er been higher rear'd </l>
@@ -444,7 +444,7 @@
             <l>Temptations have since then been born to's; for </l>
             <l>In those unfledged days was my wife a girl; </l>
             <l>Your precious self had then not cross'd the eyes </l>
-            <l part="I" n="80">Of my young play-fellow. </l>
+            <l part="I">Of my young play-fellow. </l>
           </sp>
           <sp who="her.">
             <speaker>Her.</speaker>
@@ -491,7 +491,7 @@
             <l>What was my first? it has an elder sister, </l>
             <l>Or I mistake you: O, would her name were Grace! </l>
             <l>But once before I spoke to the purpose: when? </l>
-            <l part="I" n="101">Nay, let me have't; I long. </l>
+            <l part="I">Nay, let me have't; I long. </l>
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
@@ -526,7 +526,7 @@
           </sp>
           <sp who="mam.">
             <speaker>Mam.</speaker>
-            <l part="Y" n="120">Ay, my good lord. </l>
+            <l part="Y">Ay, my good lord. </l>
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
@@ -546,7 +546,7 @@
           <sp who="leon.">
             <speaker>Leon.</speaker>
             <l>Thou want'st a rough pash and the shoots that I have, </l>
-            <l n="130">To be full like me: yet they say we are </l>
+            <l>To be full like me: yet they say we are </l>
             <l>Almost as like as eggs; women say so, </l>
             <l>That will say any thing: but were they false </l>
             <l>As o'er-dyed blacks, as wind, as waters, false </l>
@@ -556,7 +556,7 @@
             <l>Look on me with your welkin eye: sweet villian! </l>
             <l>Most dear'st! my collop! Can thy dam?-may't be?-- </l>
             <l>Affection! thy intention stabs the centre: </l>
-            <l n="140">Thou dost make possible things not so held, </l>
+            <l>Thou dost make possible things not so held, </l>
             <l>Communicatest with dreams;--how can this be?-- </l>
             <l>With what's unreal thou coactive art, </l>
             <l>And fellow'st nothing: then 'tis very credent </l>
@@ -582,7 +582,7 @@
             <speaker>Her.</speaker>
             <l part="F">You look</l>
             <l>As if you held a brow of much distraction: </l>
-            <l part="I" n="150">Are you moved, my lord? </l>
+            <l part="I">Are you moved, my lord? </l>
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
@@ -595,7 +595,7 @@
             <l>In my green velvet coat, my dagger muzzled, </l>
             <l>Lest it should bite its master, and so prove, </l>
             <l>As ornaments oft do, too dangerous: </l>
-            <l n="160">How like, methought, I then was to this kernel, </l>
+            <l>How like, methought, I then was to this kernel, </l>
             <l>This squash, this gentleman. Mine honest friend, </l>
             <l>Will you take eggs for money? </l>
           </sp>
@@ -616,7 +616,7 @@
             <l>Now my sworn friend and then mine enemy, </l>
             <l>My parasite, my soldier, statesman, all: </l>
             <l>He makes a July's day short as December, </l>
-            <l n="171">And with his varying childness cures in me </l>
+            <l>And with his varying childness cures in me </l>
             <l part="I">Thoughts that would thick my blood. </l>
           </sp>
           <sp who="leon.">
@@ -636,7 +636,7 @@
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
-            <l n="180">To your own bents dispose you: you'll be found, </l>
+            <l>To your own bents dispose you: you'll be found, </l>
             <l>Be you beneath the sky. <stage>[Aside]</stage> I am angling now, </l>
             <l>Though you perceive me not how I give line. </l>
             <l>Go to, go to! </l>
@@ -648,7 +648,7 @@
             <l>Inch-thick, knee-deep, o'er head and ears a fork'd one! </l>
             <l>Go, play, boy, play: thy mother plays, and I </l>
             <l>Play too, but so disgraced a part, whose issue </l>
-            <l n="190">Will hiss me to my grave: contempt and clamor </l>
+            <l>Will hiss me to my grave: contempt and clamor </l>
             <l>Will be my knell. Go, play, boy, play. There have been, </l>
             <l>Or I am much deceived, cuckolds ere now; </l>
             <l>And many a man there is, even at this present, </l>
@@ -658,7 +658,7 @@
             <l>Sir Smile, his neighbor: nay, there's comfort in't </l>
             <l>Whiles other men have gates and those gates open'd, </l>
             <l>As mine, against their will. Should all despair </l>
-            <l n="200">That have revolted wives, the tenth of mankind </l>
+            <l>That have revolted wives, the tenth of mankind </l>
             <l>Would hang themselves. Physic for't there is none; </l>
             <l>It is a bawdy planet, that will strike </l>
             <l>'Where 'tis predominant; and 'tis powerful, think it, </l>
@@ -675,7 +675,7 @@
           <sp who="leon.">
             <speaker>Leon.</speaker>
             <l part="F">Why, that's some comfort. </l>
-            <l n="210">What, Camillo there? </l>
+            <l>What, Camillo there? </l>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
@@ -707,7 +707,7 @@
             <l><stage>[Aside]</stage> They're here with me already, whispering, rounding </l>
             <l>'Sicilia is a so-forth:' 'tis far gone, </l>
             <l>When I shall gust it last. How came 't, Camillo </l>
-            <l n="220">That he did stay? </l>
+            <l>That he did stay? </l>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
@@ -731,7 +731,7 @@
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
-            <l part="Y" n="230">Ha! </l>
+            <l part="Y">Ha! </l>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
@@ -754,7 +754,7 @@
             <l>With all the nearest things to my heart, as well </l>
             <l>My chamber-councils, wherein, priest-like, thou </l>
             <l>Hast cleansed my bosom, I from thee departed </l>
-            <l n="240">Thy penitent reform'd: but we have been </l>
+            <l>Thy penitent reform'd: but we have been </l>
             <l>Deceived in thy integrity, deceived </l>
             <l part="I">In that which seems so. </l>
           </sp>
@@ -785,7 +785,7 @@
             <l>It was my folly; if industriously </l>
             <l>I play'd the fool, it was my negligence, </l>
             <l>Not weighing well the end; if ever fearful </l>
-            <l n="260">To do a thing, where I the issue doubted, </l>
+            <l>To do a thing, where I the issue doubted, </l>
             <l>Whereof the execution did cry out </l>
             <l>Against the non-performance, 'twas a fear </l>
             <l>Which oft infects the wisest: these, my lord, </l>
@@ -799,7 +799,7 @@
             <speaker>Leon.</speaker>
             <l part="F">Ha' not you seen, Camillo,-- </l>
             <l>But that's past doubt, you have, or your eyeglass </l>
-            <l n="270">Is thicker than a cuckold's horn,--or heard,-- </l>
+            <l>Is thicker than a cuckold's horn,--or heard,-- </l>
             <l>For to a vision so apparent rumor </l>
             <l>Cannot be mute,--or thought,--for cogitation </l>
             <l>Resides not in that man that does not think,-- </l>
@@ -812,7 +812,7 @@
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <l n="280">I would not be a stander-by to hear </l>
+            <l>I would not be a stander-by to hear </l>
             <l>My sovereign mistress clouded so, without </l>
             <l>My present vengeance taken: 'shrew my heart, </l>
             <l>You never spoke what did become you less </l>
@@ -827,7 +827,7 @@
             <l>Of laughter with a sigh?--a note infallible </l>
             <l>Of breaking honesty--horsing foot on foot? </l>
             <l>Skulking in corners? wishing clocks more swift? </l>
-            <l n="291">Hours, minutes? noon, midnight? and all eyes </l>
+            <l>Hours, minutes? noon, midnight? and all eyes </l>
             <l>Blind with the pin and web but theirs, theirs only, </l>
             <l>That would unseen be wicked? is this nothing? </l>
             <l>Why, then the world and all that's in't is nothing; </l>
@@ -868,7 +868,7 @@
             <speaker>Leon.</speaker>
             <l>Why, he that wears her like her medal, hanging </l>
             <l>About his neck, Bohemia: who, if I </l>
-            <l n="310">Had servants true about me, that bare eyes </l>
+            <l>Had servants true about me, that bare eyes </l>
             <l>To see alike mine honor as their profits, </l>
             <l>Their own particular thrifts, they would do that </l>
             <l>Which should undo more doing: ay, and thou, </l>
@@ -883,7 +883,7 @@
             <speaker>Cam.</speaker>
             <l part="F">Sir, my lord, </l>
             <l>I could do this, and that with no rash potion, </l>
-            <l n="321">But with a lingering dram that should not work </l>
+            <l>But with a lingering dram that should not work </l>
             <l>Maliciously like poison: but I cannot </l>
             <l>Believe this crack to be in my dread mistress, </l>
             <l>So sovereignly being honorable. </l>
@@ -897,7 +897,7 @@
             <l>The purity and whiteness of my sheets, </l>
             <l>Which to preserve is sleep, which being spotted </l>
             <l>Is goads, thorns, nettles, tails of wasps, </l>
-            <l n="331">Give scandal to the blood o' the prince my son, </l>
+            <l>Give scandal to the blood o' the prince my son, </l>
             <l>Who I do think is mine and love as mine, </l>
             <l>Without ripe moving to't? Would I do this? </l>
             <l part="I">Could man so blench? </l>
@@ -915,7 +915,7 @@
           <sp who="leon.">
             <speaker>Leon.</speaker>
             <l part="F">Thou dost advise me </l>
-            <l n="341">Even so as I mine own course have set down: </l>
+            <l>Even so as I mine own course have set down: </l>
             <l>I'll give no blemish to her honor, none. </l>
           </sp>
           <sp who="cam.">
@@ -952,7 +952,7 @@
             <l>All that are his so too. To do this deed, </l>
             <l>Promotion follows. If I could find example </l>
             <l>Of thousands that had struck anointed kings </l>
-            <l n="360">And flourish'd after, I'd not do't; but since </l>
+            <l>And flourish'd after, I'd not do't; but since </l>
             <l>Nor brass nor stone nor parchment bears not one, </l>
             <l>Let villany itself forswear't. I must </l>
             <l>Forsake the court: to do't, or no, is certain </l>
@@ -982,7 +982,7 @@
             <speaker>Pol.</speaker>
             <l>The king hath on him such a countenance </l>
             <l>As he had lost some province and a region </l>
-            <l n="371">Loved as he loves himself: even now I met him </l>
+            <l>Loved as he loves himself: even now I met him </l>
             <l>With customary compliments; when he, </l>
             <l>Wafting his eyes to the contrary and falling </l>
             <l>A lip of much contempt, speeds from me and </l>
@@ -1016,7 +1016,7 @@
             <l part="F">How! caught of me! </l>
             <l>Make me not sighted like the basilisk: </l>
             <l>I have look'd on thousands, who have sped the better </l>
-            <l n="391">By my regard, but kill'd none so. Camillo,-- </l>
+            <l>By my regard, but kill'd none so. Camillo,-- </l>
             <l>As you are certainly a gentleman, thereto </l>
             <l>Clerk-like experienced, which no less adorns </l>
             <l>Our gentry than our parents' noble names, </l>
@@ -1032,7 +1032,7 @@
           <sp who="pol.">
             <speaker>Pol.</speaker>
             <l>A sickness caught of me, and yet I well! </l>
-            <l n="400">I must be answer'd. Dost thou hear, Camillo, </l>
+            <l>I must be answer'd. Dost thou hear, Camillo, </l>
             <l>I conjure thee, by all the parts of man </l>
             <l>Which honor does acknowledge, whereof the least </l>
             <l>Is not this suit of mine, that thou declare </l>
@@ -1046,7 +1046,7 @@
             <l part="F">Sir, I will tell you; </l>
             <l>Since I am charged in honor and by him </l>
             <l>That I think honorable; therefore mark my counsel, </l>
-            <l n="410">Which must be even as swiftly follow'd as </l>
+            <l>Which must be even as swiftly follow'd as </l>
             <l>I mean to utter it, or both yourself and me </l>
             <l part="I">Cry lost, and so good night! </l>
           </sp>
@@ -1081,7 +1081,7 @@
             <speaker>Pol.</speaker>
             <l part="F">O, then my best blood turn </l>
             <l>To an infected jelly and my name </l>
-            <l n="420">Be yoked with his that did betray the Best! </l>
+            <l>Be yoked with his that did betray the Best! </l>
             <l>Turn then my freshest reputation to </l>
             <l>A savor that may strike the dullest nostril </l>
             <l>Where I arrive, and my approach be shunn'd, </l>
@@ -1095,7 +1095,7 @@
             <l>By all their influences, you may as well </l>
             <l>Forbid the sea for to obey the moon </l>
             <l>As or by oath remove or counsel shake </l>
-            <l n="430">The fabric of his folly, whose foundation </l>
+            <l>The fabric of his folly, whose foundation </l>
             <l>Is piled upon his faith and will continue </l>
             <l part="I">The standing of his body. </l>
           </sp>
@@ -1113,7 +1113,7 @@
             <l>Your followers I will whisper to the business, </l>
             <l>And will by twos and threes at several posterns </l>
             <l>Clear them o' the city. For myself, I'll put </l>
-            <l n="441">My fortunes to your service, which are here </l>
+            <l>My fortunes to your service, which are here </l>
             <l>By this discovery lost. Be not uncertain; </l>
             <l>For, by the honor of my parents, I </l>
             <l>Have utter'd truth: which if you seek to prove, </l>
@@ -1126,7 +1126,7 @@
             <l part="F">I do believe thee: </l>
             <l>I saw his heart in's face. Give me thy hand: </l>
             <l>Be pilot to me and thy places shall </l>
-            <l n="450">Still neighbor mine. My ships are ready and </l>
+            <l>Still neighbor mine. My ships are ready and </l>
             <l>My people did expect my hence departure </l>
             <l>Two days ago. This jealousy </l>
             <l>Is for a precious creature: as she's rare, </l>
@@ -1136,7 +1136,7 @@
             <l>Profess'd to him, why, his revenges must </l>
             <l>In that be made more bitter. Fear o'ershades me: </l>
             <l>Good expedition be my friend, and comfort </l>
-            <l n="460">The gracious queen, part of his theme, but nothing </l>
+            <l>The gracious queen, part of his theme, but nothing </l>
             <l>Of his ill-ta'en suspicion! Come, Camillo; </l>
             <l>I will respect thee as a father if </l>
             <l>Thou bear'st my life off hence: let us avoid. </l>
@@ -1192,7 +1192,7 @@
             <speaker>Mam.</speaker>
             <l part="F">Not for because </l>
             <l>Your brows are blacker; yet black brows, they say, </l>
-            <l n="10">Become some women best, so that there be not </l>
+            <l>Become some women best, so that there be not </l>
             <l>Too much hair there, but in a semicircle, </l>
             <l part="I">Or a half-moon made with a pen. </l>
           </sp>
@@ -1225,7 +1225,7 @@
           <sp who="sec.-lady.">
             <speaker>Sec. Lady.</speaker>
             <l part="F">She is spread of late </l>
-            <l n="21">Into a goodly bulk: good time encounter her! </l>
+            <l>Into a goodly bulk: good time encounter her! </l>
           </sp>
           <sp who="her.">
             <speaker>Her.</speaker>
@@ -1297,7 +1297,7 @@
             <l>Camillo was his help in this, his pander: </l>
             <l>There is a plot against my life, my crown; </l>
             <l>All's true that is mistrusted: that false villain </l>
-            <l n="50">Whom I employ'd was pre-employ'd by him: </l>
+            <l>Whom I employ'd was pre-employ'd by him: </l>
             <l>He has discover'd my design, and I </l>
             <l>Remain a pinch'd thing; yea, a very trick </l>
             <l>For them to play at will. How came the posterns </l>
@@ -1322,7 +1322,7 @@
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
-            <l n="60">Bear the boy hence; he shall not come about her; </l>
+            <l>Bear the boy hence; he shall not come about her; </l>
             <l>Away with him! and let her sport herself </l>
             <l>With that she's big with; for 'tis Polixenes </l>
             <l part="I">Has made thee swell thus. </l>
@@ -1340,7 +1340,7 @@
             <l>To say 'she is a goodly lady,' and </l>
             <l>The justice of your hearts will thereto add </l>
             <l>''Tis pity she's not honest, honorable:' </l>
-            <l n="70">Praise her but for this her without-door form. </l>
+            <l>Praise her but for this her without-door form. </l>
             <l>Which on my faith deserves high speech, and straight </l>
             <l>The shrug, the hum or ha, these petty brands </l>
             <l>That calumny doth use--O, I am out-- </l>
@@ -1355,7 +1355,7 @@
             <speaker>Her.</speaker>
             <l part="F">Should a villain say so, </l>
             <l>The most replenish'd villain in the world, </l>
-            <l n="81">He were as much more villain: you, my lord </l>
+            <l>He were as much more villain: you, my lord </l>
             <l part="I">Do but mistake. </l>
           </sp>
           <sp who="leon.">
@@ -1368,7 +1368,7 @@
             <l>And mannerly distinguishment leave out </l>
             <l>Betwixt the prince and beegar: I have said </l>
             <l>She's an adulteress; I have said with whom: </l>
-            <l n="90">More, she's a traitor and Camillo is </l>
+            <l>More, she's a traitor and Camillo is </l>
             <l>A federary with her, and one that knows </l>
             <l>What she should shame to know herself </l>
             <l>But with her most vile principal, that she's </l>
@@ -1383,7 +1383,7 @@
             <l>When you shall come to clearer knowledge that </l>
             <l>You thus have publish'd me! Gentle my lord, </l>
             <l>You scarce can right me throughly then to say </l>
-            <l part="I" n="100">You did mistake. </l>
+            <l part="I">You did mistake. </l>
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
@@ -1417,7 +1417,7 @@
             <l>Who is't that goes with me? Beseech your highness, </l>
             <l>My women may be with me; for you see </l>
             <l>My plight requires it. Do not weep, good fools; </l>
-            <l n="120">There is no cause: when you shall know your mistress </l>
+            <l>There is no cause: when you shall know your mistress </l>
             <l>Has deserved prison, then abound in tears </l>
             <l>As I come out: this action I now go on </l>
             <l>Is for my better grace. Adieu, my lord: </l>
@@ -1517,7 +1517,7 @@
             <l>Relish a truth like us, inform yourselves </l>
             <l>We need no more of your advice: the matter, </l>
             <l>The loss, the gain, the ordering on't, is all </l>
-            <l part="I" n="170">Properly ours. </l>
+            <l part="I">Properly ours. </l>
           </sp>
           <sp who="ant.">
             <speaker>Ant.</speaker>
@@ -1534,7 +1534,7 @@
             <l>Which was as gross as ever touch'd conjecture, </l>
             <l>That lack'd sight only, nought for approbation </l>
             <l>But only seeing, all other circumstances </l>
-            <l n="180">Made up to the deed, doth push on this proceeding: </l>
+            <l>Made up to the deed, doth push on this proceeding: </l>
             <l>Yet, for a greater confirmation, </l>
             <l>For in an act of this importance 'twere </l>
             <l>Most piteous to be wild, I have dispatch'd in post </l>
@@ -1550,7 +1550,7 @@
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
-            <l n="190">Though I am satisfied and need no more </l>
+            <l>Though I am satisfied and need no more </l>
             <l>Than what I know, yet shall the oracle </l>
             <l>Give rest to the minds of others, such as he </l>
             <l>Whose ignorant credulity will not </l>
@@ -1681,7 +1681,7 @@
             <l>So meet for this great errand. Please your ladyship </l>
             <l>To visit the next room, I'll presently </l>
             <l>Acquaint the queen of your most noble offer; </l>
-            <l n="50">Who but to-day hammer'd of this design, </l>
+            <l>Who but to-day hammer'd of this design, </l>
             <l>But durst not tempt a minister of honor, </l>
             <l part="I">Lest she should be denied. </l>
           </sp>
@@ -1706,7 +1706,7 @@
           <sp who="paul.">
             <speaker>Paul.</speaker>
             <l part="F">You need not fear it, sir: </l>
-            <l n="60">This child was prisoner to the womb and is </l>
+            <l>This child was prisoner to the womb and is </l>
             <l>By law and process of great nature thence </l>
             <l>Freed and enfranchised, not a party to </l>
             <l>The anger of the king nor guilty of, </l>
@@ -1750,7 +1750,7 @@
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
-            <l n="10">How does the boy? </l>
+            <l>How does the boy? </l>
           </sp>
           <sp who="first-serv.">
             <speaker>First Serv.</speaker>
@@ -1767,7 +1767,7 @@
             <l>And downright languish'd. Leave me solely: go, </l>
             <l>See how he fares. <stage type="exit">[Exit Serv.</stage> Fie, fie! no thought of him:
                 </l>
-            <l n="20">The very thought of my revenges that way </l>
+            <l>The very thought of my revenges that way </l>
             <l>Recoil upon me: in himself too mighty, </l>
             <l>And in his parties, his alliance; let him be </l>
             <l>Until a time may serve: for present vengeance, </l>
@@ -1787,7 +1787,7 @@
             <l>Nay, rather, good my lords, be second to me: </l>
             <l>Fear you his tyrannous passion more, alas, </l>
             <l>Than the queen's life? a gracious innocent soul, </l>
-            <l part="I" n="30">More free than he is jealous. </l>
+            <l part="I">More free than he is jealous. </l>
           </sp>
           <sp who="ant.">
             <speaker>Ant.</speaker>
@@ -1840,7 +1840,7 @@
             <l>From all dishonesty he can: in this, </l>
             <l>Unless he take the course that you have done, </l>
             <l>Commit me for committing honor, trust it, </l>
-            <l part="I" n="50">He shall not rule me. </l>
+            <l part="I">He shall not rule me. </l>
           </sp>
           <sp who="ant.">
             <speaker>Ant.</speaker>
@@ -1867,7 +1867,7 @@
             <l part="F">Good queen, my lord, </l>
             <l>Good queen; I say good queen; </l>
             <l>And would by combat make her good, so were I </l>
-            <l part="I" n="61">A man, the worst about you. </l>
+            <l part="I">A man, the worst about you. </l>
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
@@ -1892,7 +1892,7 @@
           <sp who="paul.">
             <speaker>Paul.</speaker>
             <l part="F">Not so: </l>
-            <l n="70">I am as ignorant in that as you </l>
+            <l>I am as ignorant in that as you </l>
             <l>In so entitling me, and no less honest </l>
             <l>Than you are mad; which is enough, I'll warrant, </l>
             <l part="I">As this world goes, to pass for honest. </l>
@@ -1939,7 +1939,7 @@
             <l>For, as the case now stands, it is a curse </l>
             <l>He cannot be compell'd to't--once remove </l>
             <l>The root of his opinion, which is rotten </l>
-            <l part="I" n="90">As ever oak or stone was sound. </l>
+            <l part="I">As ever oak or stone was sound. </l>
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
@@ -1956,7 +1956,7 @@
             <l>And, might we lay the old proverb to your charge, </l>
             <l>So like you, 'tis the worse. Behold, my lords, </l>
             <l>Although the print be little, the whole matter </l>
-            <l n="100">And copy of the father, eye, nose, lip, </l>
+            <l>And copy of the father, eye, nose, lip, </l>
             <l>The trick of's frown, his forehead, nay, the valley, </l>
             <l>The pretty dimples of his chin and cheek,</l>
             <l>His smiles, </l>
@@ -1971,7 +1971,7 @@
             <speaker>Leon.</speaker>
             <l part="F">A gross hag! </l>
             <l>And, lozel, thou art worthy to be hang'd, </l>
-            <l part="I" n="110">That wilt not stay her tongue. </l>
+            <l part="I">That wilt not stay her tongue. </l>
           </sp>
           <sp who="ant.">
             <speaker>Ant.</speaker>
@@ -1999,7 +1999,7 @@
             <l>Not she which burns in't. I'll not call you tyrant; </l>
             <l>But this most cruel usage of your queen, </l>
             <l>Not able to produce more accusation </l>
-            <l n="120">Than your own weak-hinged fancy, something savors </l>
+            <l>Than your own weak-hinged fancy, something savors </l>
             <l>Of tyranny and will ignoble make you, </l>
             <l part="I">Yea, scandalous to the world. </l>
           </sp>
@@ -2016,7 +2016,7 @@
             <l>Look to your babe, my lord; 'tis yours: Jove send her </l>
             <l>A better guiding spirit! What needs these hands? </l>
             <l>You, that are thus so tender o'er his follies, </l>
-            <l n="130">Will never do him good, not one of you. </l>
+            <l>Will never do him good, not one of you. </l>
             <l>So, so: farewell; we are gone. <stage type="exit">[Exit. </stage>
               </l>
           </sp>
@@ -2031,7 +2031,7 @@
             <l>And by good testimony, or I'll seize thy life, </l>
             <l>With what thou else call'st thine. If thou refuse </l>
             <l>And wilt encounter with my wrath, say so; </l>
-            <l n="140">The bastard brains with these my proper hands </l>
+            <l>The bastard brains with these my proper hands </l>
             <l>Shall I dash out. Go, take it to the fire; </l>
             <l part="I">For thou set'st on thy wife. </l>
           </sp>
@@ -2054,7 +2054,7 @@
             <speaker>First Lord.</speaker>
             <l>Beseech your highness, give us better credit: </l>
             <l>We have always truly served you, and beseech you </l>
-            <l n="150">So to esteem of us, and on our knees we beg, </l>
+            <l>So to esteem of us, and on our knees we beg, </l>
             <l>As recompense of our dear services </l>
             <l>Past and to come, that you do change this purpose, </l>
             <l>Which being so horrible, so bloody, must </l>
@@ -2067,7 +2067,7 @@
             <l>And call me father? better burn it now </l>
             <l>Than curse it then. But be it; let it live. </l>
             <l>It shall not neither. You, sir, come you hither; </l>
-            <l n="160">You that have been so tenderly officious </l>
+            <l>You that have been so tenderly officious </l>
             <l>With Lady Margery, your midwife there, </l>
             <l>To save this bastard's life,--for 'tis a bastard, </l>
             <l>So sure as this beard's grey,--what will you adventure </l>
@@ -2101,7 +2101,7 @@
             <l>To some remote and desert place quite out </l>
             <l>Of our dominions, and that there thou leave it, </l>
             <l>Without more mercy, to its own protection </l>
-            <l n="180">And favor of the climate. As by strange fortune </l>
+            <l>And favor of the climate. As by strange fortune </l>
             <l>It came to us, I do in justice charge thee, </l>
             <l>On thy soul's peril and thy body's torture, </l>
             <l>That thou commend it strangely to some place </l>
@@ -2114,7 +2114,7 @@
             <l>Some powerful spirit instruct the kites and ravens </l>
             <l>To be thy nurses! Wolves and bears, they say, </l>
             <l>Casting their savageness aside have done </l>
-            <l n="190">Like offices of pity. Sir, be prosperous </l>
+            <l>Like offices of pity. Sir, be prosperous </l>
             <l>In more than this deed does require! And blessing </l>
             <l>Against this cruelty fight on thy side, </l>
             <l part="I">Poor thing, condemn'd to loss! <stage type="exit">[Exit with the
@@ -2143,7 +2143,7 @@
           <sp who="leon.">
             <speaker>Leon.</speaker>
             <l part="F">Twenty three days </l>
-            <l n="200">They have been absent: 'tis good speed; foretells </l>
+            <l>They have been absent: 'tis good speed; foretells </l>
             <l>The great Apollo suddenly will have </l>
             <l>The truth of this appear. Prepare you, lords; </l>
             <l>Summon a session, that we may arraign </l>
@@ -2186,7 +2186,7 @@
             <l part="F">But of all, the burst </l>
             <l>And the ear-deafening voice o' the oracle, </l>
             <l>Kin to Jove's thunder, so surprised my sense, </l>
-            <l part="I" n="11">That I was nothing. </l>
+            <l part="I">That I was nothing. </l>
           </sp>
           <sp who="dion.">
             <speaker>Dion.</speaker>
@@ -2206,7 +2206,7 @@
             <speaker>Dion.</speaker>
             <l part="F">The violent carriage of it </l>
             <l>Will clear or end the business: when the oracle, </l>
-            <l n="20">Thus by Apollo's great divine seal'd up, </l>
+            <l>Thus by Apollo's great divine seal'd up, </l>
             <l>Shall the contents discover, something rare </l>
             <l>Even then will rush to knowledge. Go: fresh horses! </l>
             <l>And gracious be the issue! <stage type="exit">[Exeunt.</stage></l>
@@ -2235,7 +2235,7 @@
           </sp>
           <sp who="off.">
             <speaker>Off.</speaker>
-            <l n="10">It is his highness' pleasure that the queen </l>
+            <l>It is his highness' pleasure that the queen </l>
             <l part="I">Appear in person here in court. Silence! <stage type="entrance"> Enter
                 HERMIONE guarded; PAULINA and Ladies attending.</stage>
               </l>
@@ -2246,7 +2246,7 @@
           </sp>
           <sp who="off.">
             <speaker>Off.</speaker>
-            <p part="N"><stage>[Reads]</stage> Hermione, queen to the worthy Leontes, king of Sicilia, thou art here accused and arraigned of
+            <p><stage>[Reads]</stage> Hermione, queen to the worthy Leontes, king of Sicilia, thou art here accused and arraigned of
               high treason, in committing adultery with Polixenes,
               king of Bohemia, and conspiring with Camillo to take
                 away the life of our sovereign lord the king, thy royal husband: the pretence whereof being by circumstances partly laid open, thou, Hermione, contrary to the faith and allegiance of a true subject, didst
@@ -2261,7 +2261,7 @@
             <l>But what comes from myself, it shall scarce boot me </l>
             <l>To say 'not guilty:' mine integrity </l>
             <l>Being counted falsehood, shall, as I express it, </l>
-            <l n="30">Be so received. But thus: if powers divine </l>
+            <l>Be so received. But thus: if powers divine </l>
             <l>Behold our human actions, as they do, </l>
             <l>I doubt not then but innocence shall make </l>
             <l>False accusation blush and tyranny </l>
@@ -2271,7 +2271,7 @@
             <l>As I am now unhappy; which is more </l>
             <l>Than history can pattern, though devised </l>
             <l>And play'd to take spectators. For behold me </l>
-            <l n="40">A fellow of the royal bed, which owe </l>
+            <l>A fellow of the royal bed, which owe </l>
             <l>A moiety of the throne, a great king's daughter, </l>
             <l>The mother to a hopeful prince, here standing </l>
             <l>To prate and talk for life and honor 'fore </l>
@@ -2281,7 +2281,7 @@
             <l>And only that I stand for. I appeal </l>
             <l>To your own conscience, sir, before Polixenes </l>
             <l>Came to your court, how I was in your grace, </l>
-            <l n="50">How merited to be so; since he came, </l>
+            <l>How merited to be so; since he came, </l>
             <l>With what encounter so uncurrent I </l>
             <l>Have strain'd to appear thus: if one jot beyond </l>
             <l>The bound of honor, or in act or will </l>
@@ -2303,7 +2303,7 @@
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
-            <l part="I" n="60">You will not own it. </l>
+            <l part="I">You will not own it. </l>
           </sp>
           <sp who="her.">
             <speaker>Her.</speaker>
@@ -2316,7 +2316,7 @@
             <l>A lady like me, with a love even such, </l>
             <l>So and no other, as yourself commanded: </l>
             <l>Which not to have done I think had been in me </l>
-            <l n="70">Both disobedience and ingratitude </l>
+            <l>Both disobedience and ingratitude </l>
             <l>To you and toward your friend, whose love had spoke, </l>
             <l>Even since it could speak, from an infant, freely </l>
             <l>That it was yours. Now, for conspiracy, </l>
@@ -2329,7 +2329,7 @@
           <sp who="leon.">
             <speaker>Leon.</speaker>
             <l>You knew of his departure, as you know </l>
-            <l n="80">What you have underta'en to do in's absence. </l>
+            <l>What you have underta'en to do in's absence. </l>
           </sp>
           <sp who="her.">
             <speaker>Her.</speaker>
@@ -2346,7 +2346,7 @@
             <l>Those of your fact are so--so past all truth: </l>
             <l>Which to deny concerns more than avails; for as </l>
             <l>Thy brat hath been cast out, like to itself, </l>
-            <l n="90">No father owning it,--which is, indeed, </l>
+            <l>No father owning it,--which is, indeed, </l>
             <l>More criminal in thee than it,--so thou </l>
             <l>Shalt feel our justice, in whose easiest passage </l>
             <l part="I">Look for no less than death. </l>
@@ -2360,7 +2360,7 @@
             <l>I do give lost; for I do feel it gone, </l>
             <l>But know not how it went. My second joy </l>
             <l>And first-fruits of my body, from his presence </l>
-            <l n="100">I am barr'd, like one infectious. My third comfort, </l>
+            <l>I am barr'd, like one infectious. My third comfort, </l>
             <l>Starr'd most unluckily, is from my breast, </l>
             <l>The innocent milk in its most innocent mouth, </l>
             <l>Haled out to murder: myself on every post </l>
@@ -2371,7 +2371,7 @@
             <l>I have got strength of limit. Now, my liege, </l>
             <l>Tell me what blessings I have here alive, </l>
             <l>That I should fear to die? Therefore proceed. </l>
-            <l n="111">But yet hear this: mistake me not; no life, </l>
+            <l>But yet hear this: mistake me not; no life, </l>
             <l>I prize it not a straw, but for mine honor, </l>
             <l>Which I would free, if I shall be condemn'd </l>
             <l>Upon surmises, all proofs sleeping else </l>
@@ -2390,7 +2390,7 @@
           </sp>
           <sp who="her.">
             <speaker>Her.</speaker>
-            <l n="121">The Emperor of Russia was my father: </l>
+            <l>The Emperor of Russia was my father: </l>
             <l>O that he were alive, and here beholding </l>
             <l>His daughter's trial! that he did but see </l>
             <l>The flatness of my misery, yet with eyes </l>
@@ -2404,7 +2404,7 @@
             <l>That you, Cleomenes and Dion, have </l>
             <l>Been both at Delphos, and from thence have brought </l>
             <l>This seal'd-up oracle, by the hand deliver'd </l>
-            <l n="130">Of great Apollo's priest and that since then </l>
+            <l>Of great Apollo's priest and that since then </l>
             <l>You have not dared to break the holy seal </l>
             <l>Nor read the secrets in't. </l>
           </sp>
@@ -2418,7 +2418,7 @@
           </sp>
           <sp who="off.">
             <speaker>Off.</speaker>
-            <p part="N"><stage>[Reads]</stage>Hermione is chaste; Polixenes blameless; Camillo
+            <p><stage>[Reads]</stage>Hermione is chaste; Polixenes blameless; Camillo
                 a true subject; Leontes a jealous tyrant; his
               innocent babe truly begotten; and the
               king shall live without an heir, if that which is
@@ -2479,7 +2479,7 @@
           <sp who="paul.">
             <speaker>Paul.</speaker>
             <l>This news is mortal to the queen: look down </l>
-            <l part="I" n="150">And see what death is doing. </l>
+            <l part="I">And see what death is doing. </l>
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
@@ -2495,7 +2495,7 @@
             <l>New woo my queen, recall the good Camillo, </l>
             <l>Whom I proclaim a man of truth, of mercy; </l>
             <l>For, being transported by my jealousies </l>
-            <l n="161">To bloody thoughts and to revenge, I chose </l>
+            <l>To bloody thoughts and to revenge, I chose </l>
             <l>Camillo for the minister to poison </l>
             <l>My friend Polixenes: which had been done, </l>
             <l>But that the good mind of Camillo tardied </l>
@@ -2504,7 +2504,7 @@
             <l>Not doing 't and being done: he, most humane </l>
             <l>And fill'd with honor, to my kingly guest </l>
             <l>Unclasp'd my practice, quit his fortunes here, </l>
-            <l n="170">Which you knew great, and to the hazard </l>
+            <l>Which you knew great, and to the hazard </l>
             <l>Of all incertainties himself commended, </l>
             <l>No richer than his honor: how he glisters </l>
             <l>Thorough my rust! and how his piety </l>
@@ -2527,7 +2527,7 @@
             <l>What studied torments, tyrant, hast for me? </l>
             <l>What wheels? racks? fires? what flaying? boiling? </l>
             <l>In leads or oils? what old or newer torture </l>
-            <l n="180">Must I receive, whose every word deserves </l>
+            <l>Must I receive, whose every word deserves </l>
             <l>To taste of thy most worst? Thy tyranny </l>
             <l>Together working with thy jealousies, </l>
             <l>Fancies too weak for boys, too green and idle </l>
@@ -2537,7 +2537,7 @@
             <l>That thou betray'dst Polixenes, 'twas nothing; </l>
             <l>That did but show thee, of a fool, inconstant </l>
             <l>And damnable ingrateful: nor was't much, </l>
-            <l n="190">Thou wouldst have poison'd good Camillo's honor, </l>
+            <l>Thou wouldst have poison'd good Camillo's honor, </l>
             <l>To have him kill a king; poor trespasses, </l>
             <l>More monstrous standing by: whereof I reckon </l>
             <l>The casting forth to crows thy baby-daughter </l>
@@ -2548,7 +2548,7 @@
             <l>Thoughts high for one so tender, cleft the heart </l>
             <l>That could conceive a gross and foolish sire </l>
             <l>Blemish'd his gracious dam: this is not, no, </l>
-            <l n="201">Laid to thy answer: but the last,--O lords, </l>
+            <l>Laid to thy answer: but the last,--O lords, </l>
             <l>When I have said, cry 'woe!'--the queen, the queen, </l>
             <l>The sweet'st, dear'st creature's dead, and vengeance for't </l>
             <l part="F">Not dropp'd down yet. </l>
@@ -2564,7 +2564,7 @@
             <l>Tincture or lustre in her lip, her eye, </l>
             <l>Heat outwardly or breath within, I'll serve you </l>
             <l>As I would do the gods. But, O thou tyrant! </l>
-            <l n="210">Do not repent these things, for they are heavier </l>
+            <l>Do not repent these things, for they are heavier </l>
             <l>Than all thy woes can stir: therefore betake thee </l>
             <l>To nothing but despair. A thousand knees </l>
             <l>Ten thousand years together, naked, fasting, </l>
@@ -2597,7 +2597,7 @@
             <l>Of what you should forget. Now, good my liege, </l>
             <l>Sir, royal sir, forgive a foolish woman: </l>
             <l>The love I bore your queen--lo, fool again!-- </l>
-            <l n="231">I'll speak of her no more, nor of your children; </l>
+            <l>I'll speak of her no more, nor of your children; </l>
             <l>I'll not remember you of my own lord, </l>
             <l>Who is lost too: take your patience to you, </l>
             <l part="I">And I'll say nothing. </l>
@@ -2611,7 +2611,7 @@
             <l>One grave shall be for both: upon them shall </l>
             <l>The causes of their death appear, unto </l>
             <l>Our shame perpetual. Once a day I'll visit </l>
-            <l n="241">The chapel where they lie, and tears shed there </l>
+            <l>The chapel where they lie, and tears shed there </l>
             <l>Shall be my recreation: so long as nature </l>
             <l>Will bear up with this exercise, so long </l>
             <l>I daily vow to use it. Come and lead me </l>
@@ -2645,7 +2645,7 @@
             <speaker>Ant.</speaker>
             <l>Their sacred wills be done! Go, get aboard; </l>
             <l>Look to thy bark: I'll not be long before </l>
-            <l n="10">I call upon thee. </l>
+            <l>I call upon thee. </l>
           </sp>
           <sp who="mar.">
             <speaker>Mar.</speaker>
@@ -2672,7 +2672,7 @@
             <l>May walk again: if such thing be, thy mother </l>
             <l>Appear'd to me last night, for ne'er was dream </l>
             <l>So like a waking. To me comes a creature, </l>
-            <l n="21">Sometimes her head on one side, some another; </l>
+            <l>Sometimes her head on one side, some another; </l>
             <l>I never saw a vessel of like sorrow, </l>
             <l>So fill'd and so becoming: in pure white robes, </l>
             <l>Like very sanctity, she did approach </l>
@@ -2681,7 +2681,7 @@
             <l>Became two spouts: the fury spent, anon </l>
             <l>Did this break from her: 'Good Antigonus, </l>
             <l>Since fate, against thy better disposition, </l>
-            <l n="30">Hath made thy person for the thrower-out </l>
+            <l>Hath made thy person for the thrower-out </l>
             <l>Of my poor babe, according to thine oath, </l>
             <l>Places remote enough are in Bohemia, </l>
             <l>There weep and leave it crying; and, for the babe </l>
@@ -2691,7 +2691,7 @@
             <l>Thy wife Paulina more.' And so, with shrieks, </l>
             <l>She melted into air. Affrighted much, </l>
             <l>I did in time collect myself and thought </l>
-            <l n="40">This was so and no slumber. Dreams are toys: </l>
+            <l>This was so and no slumber. Dreams are toys: </l>
             <l>Yet for this once, yea, superstitiously, </l>
             <l>I will be squared by this. I do believe </l>
             <l>Hermione hath suffer'd death, and that </l>
@@ -2716,7 +2716,7 @@
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">I would there were no age between sixteen and three-and-twenty, or that youth would sleep out the rest; for there is nothing in the between but getting wenches with child, wronging the ancientry, stealing, fighting-- Hark you now! Would any but these boiled
+            <p>I would there were no age between sixteen and three-and-twenty, or that youth would sleep out the rest; for there is nothing in the between but getting wenches with child, wronging the ancientry, stealing, fighting-- Hark you now! Would any but these boiled
                 brains of nineteen and two-and-twenty
               hunt this weather? They have scared away two of my best sheep, which I fear the wolf will sooner find than the master: if any where I have
               them, 'tis by the seaside, browsing of ivy. Good
@@ -2731,25 +2731,25 @@
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Hilloa, loa! </p>
+            <p>Hilloa, loa! </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">What, art so near? If thou'lt see a thing to talk
+            <p>What, art so near? If thou'lt see a thing to talk
               on when thou art dead and rotten, come hither. What
               ailest thou, man? </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">I have seen two such sights, by sea and by land! but I am not to say it is a sea, for it is now the sky: betwixt the firmament and it you cannot thrust a bodkin's point. </p>
+            <p>I have seen two such sights, by sea and by land! but I am not to say it is a sea, for it is now the sky: betwixt the firmament and it you cannot thrust a bodkin's point. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Why, boy, how is it? </p>
+            <p>Why, boy, how is it? </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">I would you did but see how it chafes, how it rages, how it takes up the shore! but that's not to the point. O, the most piteous cry of the poor souls! sometimes to see 'em, and not to see 'em; now the ship boring
+            <p>I would you did but see how it chafes, how it rages, how it takes up the shore! but that's not to the point. O, the most piteous cry of the poor souls! sometimes to see 'em, and not to see 'em; now the ship boring
                 the moon with her main-mast, and anon swallowed
                 with yest and froth, as you'ld thrust a cork into
               a hogshead. And then for the land-service, to see how the bear tore out his shoulder-bone; how he cried to me for help and said his name was Antigonus, a nobleman. But to make an end of the ship, to see how the sea flap-dragoned it; but, first, how the poor souls roared, and the sea mocked them; and how the poor gentleman roared
@@ -2757,55 +2757,55 @@
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Name of mercy, when was this, boy? </p>
+            <p>Name of mercy, when was this, boy? </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Now, now: I have not winked since I saw these sights: the men are not yet cold under water, nor the bear half dined on the gentleman: he's at it now. <lb n="110" ed="G"/></p>
+            <p>Now, now: I have not winked since I saw these sights: the men are not yet cold under water, nor the bear half dined on the gentleman: he's at it now. <lb n="110" ed="G"/></p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Would I had been by, to have helped the old man!
+            <p>Would I had been by, to have helped the old man!
                 </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">I would you had been by the ship side, to have helped her: there your charity would have lacked footing. </p>
+            <p>I would you had been by the ship side, to have helped her: there your charity would have lacked footing. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Heavy matters! heavy matters! but look thee here,
+            <p>Heavy matters! heavy matters! but look thee here,
               boy. Now bless thyself: thou mettest with things dying, I with things new-born. Here's a sight for thee: look thee, a bearing-cloth for a squire's child! look thee here; take up, take up, boy; open't. So, let's
                 see: it was told me I should be rich by the fairies. This is some changeling: open't. What's within, boy? </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">You're a made old man: if the sins of your youth
+            <p>You're a made old man: if the sins of your youth
               are forgiven you, you're well to live. Gold! all gold! </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">This is fairy gold, boy, and 'twill prove so: up with't, keep it close: home, home, the next way, We are lucky, boy; and to be so still requires nothing but secrecy. Let my sheep go: come, good boy, the next way home. </p>
+            <p>This is fairy gold, boy, and 'twill prove so: up with't, keep it close: home, home, the next way, We are lucky, boy; and to be so still requires nothing but secrecy. Let my sheep go: come, good boy, the next way home. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Go you the next way with your findings. I'll go see
+            <p>Go you the next way with your findings. I'll go see
               if the bear be gone from the gentleman and how much
               he hath eaten: they are never curst but when they are hungry: if there be any of him left, I'll bury it. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">That's a good deed. If thou mayest discern by that
+            <p>That's a good deed. If thou mayest discern by that
               which is left of him what he is, fetch me to the sight of him. <lb n="140" ed="G"/></p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Marry, will I; and you shall help to put him i' the
+            <p>Marry, will I; and you shall help to put him i' the
               ground. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">'Tis a lucky day, boy, and we'll do good deeds on
+            <p>'Tis a lucky day, boy, and we'll do good deeds on
               't. <stage type="exit">[Exeunt.</stage></p>
           </sp>
         </div>
@@ -2830,7 +2830,7 @@
             <l>O'er sixteen years and leave the growth untried </l>
             <l>Of that wide gap, since it is in my power </l>
             <l>To o'erthrow law and in one self-born hour </l>
-            <l n="10">To plant and o'erwhelm custom. Let me pass </l>
+            <l>To plant and o'erwhelm custom. Let me pass </l>
             <l>The same I am, ere ancient'st order was </l>
             <l>Or what is now received: I witness to </l>
             <l>The times that brought them in; so shall I do </l>
@@ -2840,7 +2840,7 @@
             <l>I turn my glass and give my scene such growing </l>
             <l>As you had slept between: Leontes leaving, </l>
             <l>The effects of his fond jealousies so grieving </l>
-            <l n="20">That he shuts up himself, imagine me, </l>
+            <l>That he shuts up himself, imagine me, </l>
             <l>Gentle spectators, that I now may be </l>
             <l>In fair Bohemia; and remember well, </l>
             <l>I mentioned a son o' the king's, which Florizel </l>
@@ -2850,7 +2850,7 @@
             <l>I list not prophesy; but let Time's news </l>
             <l>Be known when 'tis brought forth. A shepherd's daughter, </l>
             <l>And what to her adheres, which follows after, </l>
-            <l n="30">Is the argument of Time. Of this allow, </l>
+            <l>Is the argument of Time. Of this allow, </l>
             <l>If ever you have spent time worse ere now; </l>
             <l>If never, yet that Time himself doth say </l>
             <l>He wishes earnestly you never may. <stage type="exit">[Exit.</stage></l>
@@ -2867,16 +2867,16 @@
           
           <sp who="pol.">
             <speaker>Pol.</speaker>
-            <p part="N">I pray thee, good Camillo, be no more importunate: 'tis a sickness denying thee any thing; a death to grant this. </p>
+            <p>I pray thee, good Camillo, be no more importunate: 'tis a sickness denying thee any thing; a death to grant this. </p>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">It is fifteen years since I saw my country: though
+            <p>It is fifteen years since I saw my country: though
               I have for the most part been aired abroad, I desire to lay my bones there. Besides, the penitent king, my master, hath sent for me; to whose feeling sorrows I might be some allay, or I o'erween to think so, <lb n="10" ed="G"/>which is another spur to my departure. </p>
           </sp>
           <sp who="pol.">
             <speaker>Pol.</speaker>
-            <p part="N">As thou lovest me, Camillo, wipe not out the rest of thy services by leaving me now: the need I have of thee thine own goodness hath made; better not to have had thee than thus to want thee: thou, having made me businesses which none without thee can sufficiently
+            <p>As thou lovest me, Camillo, wipe not out the rest of thy services by leaving me now: the need I have of thee thine own goodness hath made; better not to have had thee than thus to want thee: thou, having made me businesses which none without thee can sufficiently
                 manage, must either stay to execute
               them thyself or take away with thee the
               very services thou hast done; which if I have not
@@ -2889,12 +2889,12 @@
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">Sir, it is three days since I saw the prince. What his happier affairs may be, are to me unknown: but I have missingly noted, he is of late much retired from court and is less frequent to his princely exercises
+            <p>Sir, it is three days since I saw the prince. What his happier affairs may be, are to me unknown: but I have missingly noted, he is of late much retired from court and is less frequent to his princely exercises
               than formerly he hath appeared. </p>
           </sp>
           <sp who="pol.">
             <speaker>Pol.</speaker>
-            <p part="N">I have considered so much, Camillo, and with some
+            <p>I have considered so much, Camillo, and with some
               care; so far that I have eyes under my service which
               look upon his removedness; from whom I have this
               intelligence, that he is seldom from the house of a most homely shepherd; a man, they say, that from very nothing, and beyond the imagination of
@@ -2902,23 +2902,23 @@
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">I have heard, sir, of such a man, who hath a daughter of most rare note: the report of her is extended more than can be <lb n="50" ed="G"/>thought to begin from such a cottage.
+            <p>I have heard, sir, of such a man, who hath a daughter of most rare note: the report of her is extended more than can be <lb n="50" ed="G"/>thought to begin from such a cottage.
                 </p>
           </sp>
           <sp who="pol.">
             <speaker>Pol.</speaker>
-            <p part="N">That 's likewise part of my intelligence; but, I fear, the angle that plucks our son thither. Thou shalt accompany us to the place; where we will, not appearing what we are, have some question with the shepherd; from whose simplicity I think it not
+            <p>That 's likewise part of my intelligence; but, I fear, the angle that plucks our son thither. Thou shalt accompany us to the place; where we will, not appearing what we are, have some question with the shepherd; from whose simplicity I think it not
               uneasy to get the cause of my son's resort thither.
                 Prithee, be my present partner in this business,
                 and lay aside the thoughts of Sicilia. </p>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">I willingly obey your command. </p>
+            <p>I willingly obey your command. </p>
           </sp>
           <sp who="pol.">
             <speaker>Pol.</speaker>
-            <p part="N">My best Camillo! We must disguise ourselves. <stage type="exit">[Exeunt.</stage></p>
+            <p>My best Camillo! We must disguise ourselves. <stage type="exit">[Exeunt.</stage></p>
           </sp>
         </div>
         <div type="scene" n="3">
@@ -2948,7 +2948,7 @@
               
               
             </l>
-            <l n="10">The lark, that tirra-lyra chants, </l>
+            <l>The lark, that tirra-lyra chants, </l>
             <l>With heigh! with heigh! the thrush and the jay, </l>
             <l>Are summer songs for me and my aunts, </l>
             <l>While we lie tumbling in the hay.</l>
@@ -2956,7 +2956,7 @@
               
               
             </l>
-            <p part="N">I have served Prince Florizel and in my time wore three-pile; but now I am out of service: 
+            <p>I have served Prince Florizel and in my time wore three-pile; but now I am out of service: 
               </p>
             <l>But shall I go mourn for that, my dear? </l>
             <l>The pale moon shines by night: </l>
@@ -2966,7 +2966,7 @@
               
               
             </l>
-            <l n="20">If tinkers may have leave to live, </l>
+            <l>If tinkers may have leave to live, </l>
             <l>And bear the sow-skin budget, </l>
             <l>Then my account I well may give, </l>
             <l>And in the stocks avouch it.</l>
@@ -2974,7 +2974,7 @@
               
               
             </l>
-            <p part="N">My traffic is sheets; when the kite builds, look to lesser linen. My father named me Autolycus; who being, as I am, littered under Mercury, was likewise a snapper-up of unconsidered trifles. With die and drab I purchased this caparison, and my revenue is the
+            <p>My traffic is sheets; when the kite builds, look to lesser linen. My father named me Autolycus; who being, as I am, littered under Mercury, was likewise a snapper-up of unconsidered trifles. With die and drab I purchased this caparison, and my revenue is the
               silly cheat. Gallows and knock are too
               powerful on the highway: beating and hanging are
               terrors to me: for the life to come, I sleep out the thought of it. A prize! a prize! <stage type="entrance"> Enter Clown.</stage>
@@ -2982,16 +2982,16 @@
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Let me see: every 'leven wether tods; every tod
+            <p>Let me see: every 'leven wether tods; every tod
               yields pound and odd shilling; fifteen hundred shorn, what comes the wool to? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N"><stage>[Aside]</stage> If the springe hold, the cock's mine. </p>
+            <p><stage>[Aside]</stage> If the springe hold, the cock's mine. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">I cannot do't without counters. Let me see; what am
+            <p>I cannot do't without counters. Let me see; what am
               I to buy for our sheep-shearing feast? Three pound
               of sugar, five pound of currants, rice,--what will
               this sister of mine do with rice? But my father hath made her mistress of the feast, and she lays it on. She hath made me four and twenty nosegays for the shearers, three-man-song-men all, and very good ones; but they are most of them means and bases; but one puritan amongst them, and
@@ -3003,94 +3003,94 @@
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">O that ever I was born! <stage>Grovelling on the ground.</stage>
+            <p>O that ever I was born! <stage>Grovelling on the ground.</stage>
               </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">I' the name of me-- </p>
+            <p>I' the name of me-- </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">O, help me, help me! pluck but off these rags; and
+            <p>O, help me, help me! pluck but off these rags; and
               then, death, death! </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Alack, poor soul! thou hast need of more rags to
+            <p>Alack, poor soul! thou hast need of more rags to
               lay on thee, rather than have these off. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">O sir, the loathsomeness of them offends me more
+            <p>O sir, the loathsomeness of them offends me more
               than the stripes I have received, which are mighty ones and millions. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Alas, poor man! a million of beating <lb n="63" ed="G"/>may come to a great matter. </p>
+            <p>Alas, poor man! a million of beating <lb n="63" ed="G"/>may come to a great matter. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">I am robbed, sir, and beaten; my money and apparel ta'en from me, and these detestable things put upon me. </p>
+            <p>I am robbed, sir, and beaten; my money and apparel ta'en from me, and these detestable things put upon me. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">What, by a horseman, or a footman? </p>
+            <p>What, by a horseman, or a footman? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">A footman, sweet sir, a footman. </p>
+            <p>A footman, sweet sir, a footman. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Indeed, he should be a footman by the garments he
+            <p>Indeed, he should be a footman by the garments he
               has left with thee: if this be a horseman's coat, it hath seen very hot service. Lend me thy hand, I'll help thee: come, lend me thy hand. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">O, good sir, tenderly, O! </p>
+            <p>O, good sir, tenderly, O! </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Alas, poor soul! </p>
+            <p>Alas, poor soul! </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">O, good sir, softly, good sir! I fear, sir, my shoulder-blade is out. </p>
+            <p>O, good sir, softly, good sir! I fear, sir, my shoulder-blade is out. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">How now! canst stand? </p>
+            <p>How now! canst stand? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N"><stage>[Picking his pocket]</stage> Softly, dear sir; good sir, softly.
+            <p><stage>[Picking his pocket]</stage> Softly, dear sir; good sir, softly.
               You ha' done me a charitable office. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Dost lack any money? I have a little <lb n="83" ed="G"/>money for thee. </p>
+            <p>Dost lack any money? I have a little <lb n="83" ed="G"/>money for thee. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">No, good sweet sir; no I beseech you, sir: I have a
+            <p>No, good sweet sir; no I beseech you, sir: I have a
               kinsman not past three quarters of a mile hence, unto whom I was going; I shall there have money, or any thing I want: offer me no money, I pray you; that kills my heart. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">What manner of fellow was he that robbed you? </p>
+            <p>What manner of fellow was he that robbed you? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">A fellow, sir, that I have known to <lb n="92" ed="G"/>go about with troll-my-dames; I knew him once a servant of the prince: I cannot tell, good sir, for which of his virtues it was, but he was certainly whipped out of the court. </p>
+            <p>A fellow, sir, that I have known to <lb n="92" ed="G"/>go about with troll-my-dames; I knew him once a servant of the prince: I cannot tell, good sir, for which of his virtues it was, but he was certainly whipped out of the court. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">His vices, you would say; there's no virtue whipped out of the court: they cherish it to make it stay there; and yet it will no more but abide. </p>
+            <p>His vices, you would say; there's no virtue whipped out of the court: they cherish it to make it stay there; and yet it will no more but abide. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Vices, I would say, sir. I know this <lb n="101" ed="G"/> man well: he hath been since an ape-bearer; then a process-server, a bailiff; then he compassed a motion of the Prodigal
+            <p>Vices, I would say, sir. I know this <lb n="101" ed="G"/> man well: he hath been since an ape-bearer; then a process-server, a bailiff; then he compassed a motion of the Prodigal
                 Son, and married a tinker's wife within a mile
               where my land and living lies; and, having flown
               over many knavish professions, he settled only in
@@ -3098,44 +3098,44 @@
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Out upon him! prig, for my life, prig: he haunts wakes, fairs and bear-baitings. </p>
+            <p>Out upon him! prig, for my life, prig: he haunts wakes, fairs and bear-baitings. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Very true, sir; he, sir, he; that's the rogue that put me into this apparel. </p>
+            <p>Very true, sir; he, sir, he; that's the rogue that put me into this apparel. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Not a more cowardly rogue in all Bohemia: <lb n="113" ed="G"/>if you had but looked big and spit at him, he'ld have run. </p>
+            <p>Not a more cowardly rogue in all Bohemia: <lb n="113" ed="G"/>if you had but looked big and spit at him, he'ld have run. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">I must confess to you, sir, I am no fighter: I am false of heart that way; and that he knew, I warrant him. </p>
+            <p>I must confess to you, sir, I am no fighter: I am false of heart that way; and that he knew, I warrant him. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">How do you now? </p>
+            <p>How do you now? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Sweet sir, much better than I was; I can stand and
+            <p>Sweet sir, much better than I was; I can stand and
               walk: I will even take my leave of you, and pace softly towards my kinsman's. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Shall I bring thee on the way? </p>
+            <p>Shall I bring thee on the way? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">No, good-faced sir; no, sweet sir. </p>
+            <p>No, good-faced sir; no, sweet sir. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Then fare thee well: I must go buy spices for our sheep-shearing. </p>
+            <p>Then fare thee well: I must go buy spices for our sheep-shearing. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Prosper you, sweet sir! <stage>[Exit Clown.]</stage>
+            <p>Prosper you, sweet sir! <stage>[Exit Clown.]</stage>
               Your purse is not hot enough to purchase your spice. I'll be with you at your sheep-shearing too: if I make not this cheat bring out another and the shearers prove sheep, let me be unrolled and my name put in the book of virtue! 
               <stage>[Sings]</stage>
               <lb n="132" ed="G"/></p>
@@ -3169,7 +3169,7 @@
             <l>To chide at your extremes it not becomes me: </l>
             <l>O, pardon, that I name them! Your high self, </l>
             <l>The gracious mark o' the land, you have obscured </l>
-            <l n="10">With a swain's wearing, and me, poor lowly maid, </l>
+            <l>With a swain's wearing, and me, poor lowly maid, </l>
             <l>Most goddess-like prank'd up: but that our feasts </l>
             <l>In every mess have folly and the feeders </l>
             <l>Digest it with a custom, I should blush </l>
@@ -3201,7 +3201,7 @@
             <l>Humbling their deities to love, have taken </l>
             <l>The shapes of beasts upon them: Jupiter </l>
             <l>Became a bull, and bellow'd; the green Neptune </l>
-            <l n="30">A ram, and bleated; and the fire-robed god, </l>
+            <l>A ram, and bleated; and the fire-robed god, </l>
             <l>Golden Apollo, a poor humble swain, </l>
             <l>As I seem now. Their transformations </l>
             <l>Were never for a piece of beauty rarer, </l>
@@ -3216,7 +3216,7 @@
             <l>Opposed, as it must be, by the power of the king: </l>
             <l>One of these two must be necessities, </l>
             <l>Which then will speak, that you must change this purpose, </l>
-            <l n="40">Or I my life. </l>
+            <l>Or I my life. </l>
           </sp>
           <sp who="flo.">
             <speaker>Flo.</speaker>
@@ -3229,7 +3229,7 @@
             <l>Though destiny say no. Be merry, gentle; </l>
             <l>Strangle such thoughts as these with any thing </l>
             <l>That you behold the while. Your guests are coming: </l>
-            <l n="50">Lift up your countenance, as it were the day </l>
+            <l>Lift up your countenance, as it were the day </l>
             <l>Of celebration of that nuptial which </l>
             <l part="I">We two have sworn shall come. </l>
           </sp>
@@ -3252,7 +3252,7 @@
             <l>This day she was both pantler, butler, cook, </l>
             <l>Both dame and servant; welcomed all, served all; </l>
             <l>Would sing her song and dance her turn; now here, </l>
-            <l n="60">At upper end o' the table, now i' the middle; </l>
+            <l>At upper end o' the table, now i' the middle; </l>
             <l>On his shoulder, and his; her face o' fire </l>
             <l>With labor and the thing she took to quench it, </l>
             <l>She would to each one sip. You are retired, </l>
@@ -3263,7 +3263,7 @@
             <l>Come, quench your blushes and present yourself </l>
             <l>That which you are, mistress o' the feast: come on, </l>
             <l>And bid us welcome to your sheep-shearing, </l>
-            <l n="70">As your good flock shall prosper. </l>
+            <l>As your good flock shall prosper. </l>
           </sp>
           <sp who="per.">
             <speaker>Per.</speaker>
@@ -3309,7 +3309,7 @@
             <speaker>Pol.</speaker>
             <l part="F">Say there be; </l>
             <l>Yet nature is made better by no mean </l>
-            <l n="91">But nature makes that mean; so, over that art </l>
+            <l>But nature makes that mean; so, over that art </l>
             <l>Which you say adds to nature, is an art </l>
             <l>That nature makes. You see, sweet maid, we marry </l>
             <l>A gentler scion to the wildest stock, </l>
@@ -3343,7 +3343,7 @@
           <sp who="cam.">
             <speaker>Cam.</speaker>
             <l>I should leave grazing, were I of your flock, </l>
-            <l part="I" n="110">And only live by gazing. </l>
+            <l part="I">And only live by gazing. </l>
           </sp>
           <sp who="per.">
             <speaker>Per.</speaker>
@@ -3357,7 +3357,7 @@
             <l>For the flowers now, that frighted thou let'st fall </l>
             <l>From Dis's waggon! daffodils, </l>
             <l>That come before the swallow dares, and take </l>
-            <l n="121">The winds of March with beauty; violets dim, </l>
+            <l>The winds of March with beauty; violets dim, </l>
             <l>But sweeter than the lids of Juno's eyes </l>
             <l>Or Cytherea's breath; pale primroses, </l>
             <l>That die unmarried, ere they can behold </l>
@@ -3387,7 +3387,7 @@
             <l>Still betters what is done. When you speak, sweet, </l>
             <l>I'ld have you do it ever: when you sing </l>
             <l>I'ld have you buy and sell so, so give alms, </l>
-            <l n="140">Pray so; and, for the ordering your affairs, </l>
+            <l>Pray so; and, for the ordering your affairs, </l>
             <l>To sing them too: when you do dance, I wish you </l>
             <l>A wave o' the sea, that you might ever do </l>
             <l>Nothing but that; move still, still so, </l>
@@ -3401,7 +3401,7 @@
             <l part="F">O Doricles, </l>
             <l>Your praises are too large: but that your youth, </l>
             <l>And the true blood which peepeth fairly through't, </l>
-            <l n="150">Do plainly give you an unstain'd shepherd, </l>
+            <l>Do plainly give you an unstain'd shepherd, </l>
             <l>With wisdom I might fear, my Doricles, </l>
             <l part="I">You woo'd me the false way. </l>
           </sp>
@@ -3458,7 +3458,7 @@
           <sp who="shep.">
             <speaker>Shep.</speaker>
             <l>They call him Doricles; and boasts himself </l>
-            <l n="170">To have a worthy feeding: but I have it </l>
+            <l>To have a worthy feeding: but I have it </l>
             <l>Upon his own report and I believe it; </l>
             <l>He looks like sooth. He says he loves my daughter: </l>
             <l>I think so too; for never gazed the moon </l>
@@ -3475,22 +3475,22 @@
             <speaker>Shep.</speaker>
             <l>So she does any thing; though I report it, </l>
             <l>That should be silent: if young Doricles </l>
-            <l n="180">Do light upon her, she shall bring him that </l>
+            <l>Do light upon her, she shall bring him that </l>
             <l>Which he not dreams of. <stage type="entrance"> Enter Servant.</stage>
               </l>
           </sp>
           <sp who="serv.">
             <speaker>Serv.</speaker>
-            <p part="N">O master, if you did but hear the pedlar at the door, you would never dance again after a tabor and pipe; no, the bagpipe could not move you: he sings several tunes faster than you'll tell money; he utters them as he had eaten ballads and all men's ears grew to his tunes. </p>
+            <p>O master, if you did but hear the pedlar at the door, you would never dance again after a tabor and pipe; no, the bagpipe could not move you: he sings several tunes faster than you'll tell money; he utters them as he had eaten ballads and all men's ears grew to his tunes. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">He could never come better; he shall come in. I
+            <p>He could never come better; he shall come in. I
               love a ballad but even too well, if it be doleful matter merrily set down, or a very pleasant thing indeed and sung lamentably. </p>
           </sp>
           <sp who="serv.">
             <speaker>Serv.</speaker>
-            <p part="N">He hath songs for man or woman, of all sizes; no
+            <p>He hath songs for man or woman, of all sizes; no
               milliner can so fit his customers with gloves: he has the prettiest love-songs for maids; so without bawdry, which is strange; with such delicate burthens of dildos and fadings, 'jump her and thump her;' and where some stretch-mouthed rascal would, as it were mean mischief and break a foul
               gap into the matter, he makes the maid to answer
               'Whoop, do me no harm, good man;' puts
@@ -3498,34 +3498,34 @@
           </sp>
           <sp who="pol.">
             <speaker>Pol.</speaker>
-            <p part="N">This is a brave fellow. </p>
+            <p>This is a brave fellow. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Believe me, thou talkest of an admirable conceited fellow. Has he any unbraided wares? </p>
+            <p>Believe me, thou talkest of an admirable conceited fellow. Has he any unbraided wares? </p>
           </sp>
           <sp who="serv.">
             <speaker>Serv.</speaker>
-            <p part="N">He hath ribbons of all the colors i' the rainbow; points more than all the lawyers in Bohemia can learnedly handle, though they come to him by the gross: inkles, caddisses, cambrics, lawns: why, he sings 'em over as they were gods or goddesses; you would think a smock were a she-angel, he so chants to the sleeve-hand and the work about the square on't. </p>
+            <p>He hath ribbons of all the colors i' the rainbow; points more than all the lawyers in Bohemia can learnedly handle, though they come to him by the gross: inkles, caddisses, cambrics, lawns: why, he sings 'em over as they were gods or goddesses; you would think a smock were a she-angel, he so chants to the sleeve-hand and the work about the square on't. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Prithee bring him in; and let him approach singing. </p>
+            <p>Prithee bring him in; and let him approach singing. </p>
           </sp>
           <sp who="per.">
             <speaker>Per.</speaker>
-            <p part="N">Forewarn him that he use no scurrilous words in's
+            <p>Forewarn him that he use no scurrilous words in's
               tunes. <stage type="exit">[Exit Servant.</stage>
               </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">You have of these pedlars, that have more in them
+            <p>You have of these pedlars, that have more in them
               than you'ld think, sister. </p>
           </sp>
           <sp who="per.">
             <speaker>Per.</speaker>
-            <p part="N">Ay, good brother, or go about to think. <stage type="entrance">
+            <p>Ay, good brother, or go about to think. <stage type="entrance">
                 Enter AUTOLYCUS, singing.</stage>
               <lb n="220" ed="G"/></p>
             <l>Lawn as white as driven snow; </l>
@@ -3538,94 +3538,94 @@
             <l>For my lads to give their dears: </l>
             <l>Pins and poking-sticks of steel, </l>
             <l>What maids lack from head to heel: </l>
-            <l n="231">Come buy of me, come; come buy, come buy; </l>
+            <l>Come buy of me, come; come buy, come buy; </l>
             <l>Buy, lads, or else your lasses cry:</l>
             <l>Come buy. </l>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">If I were not in love with Mopsa, thou shouldst take no money of me; but being enthralled as I am, it will also be the bondage of certain ribbons and gloves. </p>
+            <p>If I were not in love with Mopsa, thou shouldst take no money of me; but being enthralled as I am, it will also be the bondage of certain ribbons and gloves. </p>
           </sp>
           <sp who="mop.">
             <speaker>Mop.</speaker>
-            <p part="N">I was promised them against the feast; but they come not too late now. </p>
+            <p>I was promised them against the feast; but they come not too late now. </p>
           </sp>
           <sp who="dor.">
             <speaker>Dor.</speaker>
-            <p part="N">He hath promised you more than that, <lb n="240" ed="G"/>or there be liars. </p>
+            <p>He hath promised you more than that, <lb n="240" ed="G"/>or there be liars. </p>
           </sp>
           <sp who="mop.">
             <speaker>Mop.</speaker>
-            <p part="N">He hath paid you all he promised you: may be, he
+            <p>He hath paid you all he promised you: may be, he
               has paid you more, which will shame you to give him again. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Is there no manners left among maids? will they wear their plackets where they should bear their faces? Is there not milking-time, when you are going to bed, or kiln-hole, to whistle off these secrets, but you
+            <p>Is there no manners left among maids? will they wear their plackets where they should bear their faces? Is there not milking-time, when you are going to bed, or kiln-hole, to whistle off these secrets, but you
                 must be tittle-tattling before all our guests? 'tis well they are whispering: clamor your <lb n="251" ed="G"/>tongues, and not a word more. </p>
           </sp>
           <sp who="mop.">
             <speaker>Mop.</speaker>
-            <p part="N">I have done. Come, you promised me a tawdry-lace and a pair of sweet gloves. </p>
+            <p>I have done. Come, you promised me a tawdry-lace and a pair of sweet gloves. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Have I not told thee how I was cozened by the way
+            <p>Have I not told thee how I was cozened by the way
               and lost all my money? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">And indeed, sir, there are cozeners abroad; therefore it behoves men to be wary. </p>
+            <p>And indeed, sir, there are cozeners abroad; therefore it behoves men to be wary. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Fear not thou, man, thou shalt lose nothing here. <lb n="260" ed="G"/></p>
+            <p>Fear not thou, man, thou shalt lose nothing here. <lb n="260" ed="G"/></p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">I hope so, sir; for I have about me many parcels of
+            <p>I hope so, sir; for I have about me many parcels of
               charge. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">What hast here? ballads? </p>
+            <p>What hast here? ballads? </p>
           </sp>
           <sp who="mop.">
             <speaker>Mop.</speaker>
-            <p part="N">Pray now, buy some: I love a ballad in print o' life, for then we are sure they are true. </p>
+            <p>Pray now, buy some: I love a ballad in print o' life, for then we are sure they are true. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Here's one to a very doleful tune, how a usurer's wife was brought to bed of twenty money-bags at a
+            <p>Here's one to a very doleful tune, how a usurer's wife was brought to bed of twenty money-bags at a
               burthen and how she longed to eat adders' heads and toads carbonadoed. </p>
           </sp>
           <sp who="mop.">
             <speaker>Mop.</speaker>
-            <p part="N">Is it true, think you? <lb n="270" ed="G"/></p>
+            <p>Is it true, think you? <lb n="270" ed="G"/></p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Very true, and but a month old. </p>
+            <p>Very true, and but a month old. </p>
           </sp>
           <sp who="dor.">
             <speaker>Dor.</speaker>
-            <p part="N">Bless me from marrying a usurer! </p>
+            <p>Bless me from marrying a usurer! </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Here's the midwife's name to't, one Mistress Tale-porter, and five or six honest wives that were present. Why should I carry lies abroad? </p>
+            <p>Here's the midwife's name to't, one Mistress Tale-porter, and five or six honest wives that were present. Why should I carry lies abroad? </p>
           </sp>
           <sp who="mop.">
             <speaker>Mop.</speaker>
-            <p part="N">Pray you now, buy it. </p>
+            <p>Pray you now, buy it. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Come on, lay it by: and let's first see moe ballads; we'll buy the other things anon. </p>
+            <p>Come on, lay it by: and let's first see moe ballads; we'll buy the other things anon. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Here's another ballad of a fish, that appeared upon
+            <p>Here's another ballad of a fish, that appeared upon
               the coast on Wednesday the fourscore of April, forty thousand fathom above water, and sung his ballad against the hard hearts of maids: it was thought she was a
               woman and was turned into a cold fish for she would
               not exchange flesh with one that loved her; the
@@ -3633,40 +3633,40 @@
           </sp>
           <sp who="dor.">
             <speaker>Dor.</speaker>
-            <p part="N">Is it true too, think you? </p>
+            <p>Is it true too, think you? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Five justices' hand at it, and witnesses more than
+            <p>Five justices' hand at it, and witnesses more than
               my pack will hold. <lb n="290" ed="G"/></p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Lay it by too: another. </p>
+            <p>Lay it by too: another. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">This is a merry ballad, but a very pretty one. </p>
+            <p>This is a merry ballad, but a very pretty one. </p>
           </sp>
           <sp who="mop.">
             <speaker>Mop.</speaker>
-            <p part="N">Let's have some merry ones. </p>
+            <p>Let's have some merry ones. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Why, this is a passing merry one and goes to the tune of 'Two maids wooing a man:' there's scarce a maid westward but she sings it; 'tis in request, I can tell you. </p>
+            <p>Why, this is a passing merry one and goes to the tune of 'Two maids wooing a man:' there's scarce a maid westward but she sings it; 'tis in request, I can tell you. </p>
           </sp>
           <sp who="mop.">
             <speaker>Mop.</speaker>
-            <p part="N">We can both sing it: if thou'lt bear a part, thou shalt hear; 'tis in three parts. </p>
+            <p>We can both sing it: if thou'lt bear a part, thou shalt hear; 'tis in three parts. </p>
           </sp>
           <sp who="dor.">
             <speaker>Dor.</speaker>
-            <p part="N">We had the tune on't a month ago. </p>
+            <p>We had the tune on't a month ago. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">I can bear my part; you must know 'tis my occupation; have at it with you. <stage>SONG.</stage>
+            <p>I can bear my part; you must know 'tis my occupation; have at it with you. <stage>SONG.</stage>
               </p>
           </sp>
           <sp who="aut.">
@@ -3697,7 +3697,7 @@
           </sp>
           <sp who="mop.">
             <speaker>M.</speaker>
-            <l n="310">Or thou goest to the grange or mill. </l>
+            <l>Or thou goest to the grange or mill. </l>
           </sp>
           <sp who="dor.">
             <speaker>D.</speaker>
@@ -3727,14 +3727,14 @@
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">We'll have this song out anon by ourselves: my father and the gentlemen are in sad talk, and we'll not trouble them. Come, bring away thy pack after me. Wenches,
+            <p>We'll have this song out anon by ourselves: my father and the gentlemen are in sad talk, and we'll not trouble them. Come, bring away thy pack after me. Wenches,
               I'll buy for you both. Pedlar, let's
               have the first choice. Follow me, girls. <stage type="exit">[Exit with Dorcas and Mopsa.</stage>
             </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">And you shall pay well for 'em. <stage>[Follows singing.</stage>
+            <p>And you shall pay well for 'em. <stage>[Follows singing.</stage>
               </p>
             <l>Will you buy any tape,</l>
             <l>Or lace for your cape, </l>
@@ -3743,14 +3743,14 @@
             <l>Any toys for your head, </l>
             <l>Of the new'st and finest, finest wear-a? </l>
             <l>Come to the pedlar;</l>
-            <l n="330">Money's a medler. </l>
+            <l>Money's a medler. </l>
             <l>That doth utter all men's ware-a. <stage>[Exit.</stage>
               <stage type="entrance"> Re-enter Servant.</stage>
               </l>
           </sp>
           <sp who="serv.">
             <speaker>Serv.</speaker>
-            <p part="N">Master, there is three carters, three shepherds, three neat-herds, three swine-herds, that have made themselves all men of hair, they call themselves Saltiers, and they have a dance which the wenches say is a gallimaufry
+            <p>Master, there is three carters, three shepherds, three neat-herds, three swine-herds, that have made themselves all men of hair, they call themselves Saltiers, and they have a dance which the wenches say is a gallimaufry
                 of gambols, because they are not in't;
               but they themselves are o' the mind, if
               it be not too rough for some that know little but
@@ -3758,26 +3758,26 @@
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Away! we'll none on't: here has been too much
+            <p>Away! we'll none on't: here has been too much
               homely foolery already. I know, sir, we weary you.
                 </p>
           </sp>
           <sp who="pol.">
             <speaker>Pol.</speaker>
-            <p part="N">You weary those that refresh us: pray, let's see these four threes of herdsmen. </p>
+            <p>You weary those that refresh us: pray, let's see these four threes of herdsmen. </p>
           </sp>
           <sp who="serv.">
             <speaker>Serv.</speaker>
-            <p part="N">One three of them, by their own report, sir, hath
+            <p>One three of them, by their own report, sir, hath
               danced before the king; and not the worst of the three but jumps twelve foot and a half by the squier. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Leave your prating: since these good men are pleased, let them come in; but quickly <lb n="351" ed="G"/>now. </p>
+            <p>Leave your prating: since these good men are pleased, let them come in; but quickly <lb n="351" ed="G"/>now. </p>
           </sp>
           <sp who="serv.">
             <speaker>Serv.</speaker>
-            <p part="N">Why, they stay at door, sir. <stage type="exit">[Exit.</stage>
+            <p>Why, they stay at door, sir. <stage type="exit">[Exit.</stage>
               <stage> Here a dance of twelve Satyrs. </stage>
               </p>
           </sp>
@@ -3790,7 +3790,7 @@
             <l>Your heart is full of something that does take </l>
             <l>Your mind from feasting. Sooth, when I was young </l>
             <l>And handed love as you do, I was wont </l>
-            <l n="361">To load my she with knacks: I would have ransack'd </l>
+            <l>To load my she with knacks: I would have ransack'd </l>
             <l>The pedlar's silken treasury and have pour'd it </l>
             <l>To her acceptance; you have let him go </l>
             <l>And nothing marted with him. If your lass </l>
@@ -3818,7 +3818,7 @@
             <l>How prettily the young swain seems to wash </l>
             <l>The hand was fair before! I have put you out: </l>
             <l>But to your protestation; let me hear </l>
-            <l part="I" n="380">What you profess. </l>
+            <l part="I">What you profess. </l>
           </sp>
           <sp who="flo.">
             <speaker>Flo.</speaker>
@@ -3846,7 +3846,7 @@
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <l part="I" n="390">This shows a sound affection. </l>
+            <l part="I">This shows a sound affection. </l>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
@@ -3903,7 +3903,7 @@
             <l>Is at the nuptial of his son a guest </l>
             <l>That best becomes the table. Pray you once more, </l>
             <l>Is not your father grown incapable </l>
-            <l n="410">Of reasonable affairs? is he not stupid </l>
+            <l>Of reasonable affairs? is he not stupid </l>
             <l>With age and altering rheums? can he speak? hear? </l>
             <l>Know man from man? dispute his own estate? </l>
             <l>Lies he not bed-rid? and again does nothing </l>
@@ -3923,7 +3923,7 @@
             <l>Should choose himself a wife, but as good reason </l>
             <l>The father, all whose joy is nothing else </l>
             <l>But fair posterity, should hold some counsel </l>
-            <l part="I" n="420">In such a business. </l>
+            <l part="I">In such a business. </l>
           </sp>
           <sp who="flo.">
             <speaker>Flo.</speaker>
@@ -3964,7 +3964,7 @@
               </l>
             <l>Whom son I dare not call; thou art too base </l>
             <l>To be acknowledged: thou a sceptre's heir, </l>
-            <l n="432">That thus affect'st a sheep-hook! Thou old traitor, </l>
+            <l>That thus affect'st a sheep-hook! Thou old traitor, </l>
             <l>I am sorry that by hanging thee I can </l>
             <l>But shorten thy life one week. And thou, fresh piece </l>
             <l>Of excellent witchcraft, who of force must know </l>
@@ -3980,7 +3980,7 @@
             <l>More homely than thy state. For thee, fond boy, </l>
             <l>If I may ever know thou dost but sigh </l>
             <l>That thou no more shalt see this knack, as never </l>
-            <l n="441">I mean thou shalt, we'll bar thee from succession; </l>
+            <l>I mean thou shalt, we'll bar thee from succession; </l>
             <l>Not hold thee of our blood, no, not our kin, </l>
             <l>Far than Deucalion off: mark thou my words: </l>
             <l>Follow us to the court. Thou churl, for this time, </l>
@@ -3990,7 +3990,7 @@
             <l>That makes himself, but for our honor therein, </l>
             <l>Unworthy thee,--if ever henceforth thou </l>
             <l>These rural latches to his entrance open, </l>
-            <l n="451">Or hoop his body more with thy embraces, </l>
+            <l>Or hoop his body more with thy embraces, </l>
             <l>I will devise a death as cruel for thee </l>
             <l part="I">As thou art tender to't. <stage type="exit">[Exit.</stage>
               </l>
@@ -4022,7 +4022,7 @@
             <l>To die upon the bed my father died, </l>
             <l>To lie close by his honest bones: but now </l>
             <l>Some hangman must put on my shroud and lay me </l>
-            <l n="470">Where no priest shovels in dust. O cursed wretch, </l>
+            <l>Where no priest shovels in dust. O cursed wretch, </l>
             <l>That knew'st this was the prince, and wouldst adventure </l>
             <l>To mingle faith with him! Undone! undone! </l>
             <l>If I might die within this hour, I have lived </l>
@@ -4042,7 +4042,7 @@
             <l part="F">Gracious my lord, </l>
             <l>You know your father's temper: at this time </l>
             <l>He will allow no speech, which I do guess </l>
-            <l n="481">You do not purpose to him; and as hardly </l>
+            <l>You do not purpose to him; and as hardly </l>
             <l>Will he endure your sight as yet, I fear: </l>
             <l>Then, till the fury of his highness settle, </l>
             <l part="I">Come not before him. </l>
@@ -4067,7 +4067,7 @@
             <l part="F">It cannot fail but by </l>
             <l>The violation of my faith; and then </l>
             <l>Let nature crush the sides o' the earth together </l>
-            <l n="491">And mar the seeds within! Lift up thy looks: </l>
+            <l>And mar the seeds within! Lift up thy looks: </l>
             <l>From my succession wipe me, father; I </l>
             <l part="I">Am heir to my affection. </l>
           </sp>
@@ -4090,7 +4090,7 @@
             <speaker>Flo.</speaker>
             <l>So call it: but it does fulfil my vow; </l>
             <l>I needs must think it honesty. Camillo, </l>
-            <l n="500">Not for Bohemia, nor the pomp that may </l>
+            <l>Not for Bohemia, nor the pomp that may </l>
             <l>Be thereat glean'd, for all the sun sees or </l>
             <l>The close earth wombs or the profound sea hides </l>
             <l>In unknown fathoms, will I break my oath </l>
@@ -4101,7 +4101,7 @@
             <l>Upon his passion: let myself and fortune </l>
             <l>Tug for the time to come. This you may know </l>
             <l>And so deliver, I am put to sea </l>
-            <l n="511">With her whom here I cannot hold on shore; </l>
+            <l>With her whom here I cannot hold on shore; </l>
             <l>And most opportune to our need I have </l>
             <l>A vessel rides fast by, but not prepared </l>
             <l>For this design. What course I mean to hold </l>
@@ -4125,7 +4125,7 @@
             <l part="F">He's irremoveable, </l>
             <l>Resolved for flight. Now were I happy, if </l>
             <l>His going I could frame to serve my turn, </l>
-            <l n="522">Save him from danger, do him love and honor, </l>
+            <l>Save him from danger, do him love and honor, </l>
             <l>Purchase the sight again of dear Sicilia </l>
             <l>And that unhappy king, my master, whom </l>
             <l part="I">I so much thirst to see. </l>
@@ -4184,7 +4184,7 @@
             <l>But as the unthought-on accident is guilty </l>
             <l>To what we wildly do, so we profess </l>
             <l>Ourselves to be the slaves of chance and flies </l>
-            <l part="I" n="552">Of every wind that blows. </l>
+            <l part="I">Of every wind that blows. </l>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
@@ -4196,7 +4196,7 @@
             <l>She shall be habited as it becomes </l>
             <l>The partner of your bed. Methinks I see </l>
             <l>Leontes opening his free arms and weeping </l>
-            <l n="561">His welcomes forth; asks thee the son forgiveness, </l>
+            <l>His welcomes forth; asks thee the son forgiveness, </l>
             <l>As 'twere i' the father's person; kisses the hands </l>
             <l>Of your fresh princess; o'er and o'er divides him </l>
             <l>'Twixt his unkindness and his kindness; the one </l>
@@ -4214,7 +4214,7 @@
             <l part="F">Sent by the king your father </l>
             <l>To greet him and to give him comforts. Sir, </l>
             <l>The manner of your bearing towards him, with </l>
-            <l n="571">What you as from your father shall deliver, </l>
+            <l>What you as from your father shall deliver, </l>
             <l>Things known betwixt us three, I'll write you down: </l>
             <l>The which shall point you forth at every sitting </l>
             <l>What you must say; that he shall not perceive </l>
@@ -4232,7 +4232,7 @@
             <l>Than a wild dedication of yourselves </l>
             <l>To unpath'd waters, undream'd shores, most certain </l>
             <l>To miseries enough; no hope to help you, </l>
-            <l n="581">But as you shake off one to take another; </l>
+            <l>But as you shake off one to take another; </l>
             <l>Nothing so certain as your anchors, who </l>
             <l>Do their best office, if they can but stay you </l>
             <l>Where you'll be loath to be: besides you know </l>
@@ -4291,7 +4291,7 @@
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Ha, ha! what a fool Honesty is! and Trust, his sworn brother, a very simple gentleman! I have sold all my trumpery; not a counterfeit stone, not a ribbon, glass, pomander, brooch, table-book, ballad, knife, tape, glove, shoe-tie, bracelet, horn-ring, to keep
+            <p>Ha, ha! what a fool Honesty is! and Trust, his sworn brother, a very simple gentleman! I have sold all my trumpery; not a counterfeit stone, not a ribbon, glass, pomander, brooch, table-book, ballad, knife, tape, glove, shoe-tie, bracelet, horn-ring, to keep
                 my pack from fasting: they throng who should buy first, as if my trinkets had been hallowed and brought a benediction to the buyer: by which means I saw whose purse was best in picture;
               and what I saw, to my good use I remembered. My
               clown, who wants but something to be a
@@ -4334,48 +4334,48 @@
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">If they have overheard me now, why, hanging. <lb n="641" ed="G"/></p>
+            <p>If they have overheard me now, why, hanging. <lb n="641" ed="G"/></p>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">How now, good fellow! why shakest thou so? Fear
+            <p>How now, good fellow! why shakest thou so? Fear
               not, man; here's no harm intended to thee. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">I am a poor fellow, sir. </p>
+            <p>I am a poor fellow, sir. </p>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">Why, be so still; here's nobody will steal that from thee: yet for the outside of thy poverty we must make an exchange; therefore discase thee instantly,--thou must think there's a necessity in't,--and change
+            <p>Why, be so still; here's nobody will steal that from thee: yet for the outside of thy poverty we must make an exchange; therefore discase thee instantly,--thou must think there's a necessity in't,--and change
               garments with this gentleman: though the
               pennyworth on his side be the worst, yet hold thee,
               there's some boot. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">I am a poor fellow, sir. <stage>[Aside]</stage> I know ye well enough. </p>
+            <p>I am a poor fellow, sir. <stage>[Aside]</stage> I know ye well enough. </p>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">Nay, prithee, dispatch: the gentleman is half flayed already. </p>
+            <p>Nay, prithee, dispatch: the gentleman is half flayed already. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Are you in earnest, sir? <stage>[Aside]</stage> I smell the trick on't.
+            <p>Are you in earnest, sir? <stage>[Aside]</stage> I smell the trick on't.
                 </p>
           </sp>
           <sp who="flo.">
             <speaker>Flo.</speaker>
-            <p part="N">Dispatch, I prithee. </p>
+            <p>Dispatch, I prithee. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Indeed, I have had earnest; but I <lb n="660" ed="G"/>cannot with conscience take it. </p>
+            <p>Indeed, I have had earnest; but I <lb n="660" ed="G"/>cannot with conscience take it. </p>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <p part="N">Unbuckle, unbuckle. <stage>[Florizel and Autolycus exchange
+            <p>Unbuckle, unbuckle. <stage>[Florizel and Autolycus exchange
                 garments.</stage>
               </p>
             <l>Fortunate mistress,--let my prophecy </l>
@@ -4390,7 +4390,7 @@
           <sp who="per.">
             <speaker>Per.</speaker>
             <l part="F">I see the play so lies </l>
-            <l part="I" n="670">That I must bear a part. </l>
+            <l part="I">That I must bear a part. </l>
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
@@ -4439,7 +4439,7 @@
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">I understand the business, I hear it: to have an open ear, a quick eye, and a nimble hand, is necessary for a cut-purse; a good nose is requisite also, to smell out work for the other senses. I see this is the time that
+            <p>I understand the business, I hear it: to have an open ear, a quick eye, and a nimble hand, is necessary for a cut-purse; a good nose is requisite also, to smell out work for the other senses. I see this is the time that
                 the unjust man doth thrive. What an exchange had this been without boot! What a boot is
               here with this exchange! Sure the gods do this year
               connive at us, and we may do any thing
@@ -4451,55 +4451,55 @@
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">See, see; what a man you are now! There is no other
+            <p>See, see; what a man you are now! There is no other
               way but to tell the king she's a changeling and none
               of your flesh and blood. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Nay, but hear me. </p>
+            <p>Nay, but hear me. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Nay, but hear me. </p>
+            <p>Nay, but hear me. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Go to, then. </p>
+            <p>Go to, then. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">She being none of your flesh and <lb n="711" ed="G"/>blood, your flesh and blood has not offended the king; and so your flesh and blood is not to be punished by him. Show those things you found about her, those secret things, all
+            <p>She being none of your flesh and <lb n="711" ed="G"/>blood, your flesh and blood has not offended the king; and so your flesh and blood is not to be punished by him. Show those things you found about her, those secret things, all
               but what she has with her: this being
               done, let the law go whistle: I warrant you. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">I will tell the king all, every word, yea, and his son's pranks too; who, I may say, is no honest man, neither to his father nor to me, to go about to make me the king's <lb n="721" ed="G"/>brother-in-law. </p>
+            <p>I will tell the king all, every word, yea, and his son's pranks too; who, I may say, is no honest man, neither to his father nor to me, to go about to make me the king's <lb n="721" ed="G"/>brother-in-law. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Indeed, brother-in-law was the farthest off you could have been to him and then your blood had been the dearer by I know how much an ounce. </p>
+            <p>Indeed, brother-in-law was the farthest off you could have been to him and then your blood had been the dearer by I know how much an ounce. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N"><stage>[Aside]</stage> Very wisely, puppies! </p>
+            <p><stage>[Aside]</stage> Very wisely, puppies! </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Well, let us to the king: there is that in this fardel will make him scratch his beard. </p>
+            <p>Well, let us to the king: there is that in this fardel will make him scratch his beard. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N"><stage>[Aside]</stage> I know not what impediment this complaint may be to the flight of my master. <lb n="731" ed="G"/></p>
+            <p><stage>[Aside]</stage> I know not what impediment this complaint may be to the flight of my master. <lb n="731" ed="G"/></p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Pray heartily he be at palace. </p>
+            <p>Pray heartily he be at palace. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">
+            <p>
               <stage>[Aside]</stage> Though I am not naturally honest, I am so sometimes
                 by chance: let me pocket up my pedlar's excrement.
                 <stage>[Takes off his false beard.]</stage>
@@ -4507,59 +4507,59 @@
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">To the palace, an it like your worship. </p>
+            <p>To the palace, an it like your worship. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Your affairs there, what, with whom, the condition
+            <p>Your affairs there, what, with whom, the condition
               of that fardel, the place of your dwelling, your
               names, your ages, of what having, breeding, and any
               thing that is fitting to be known, discover. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">We are but plain fellows, sir. </p>
+            <p>We are but plain fellows, sir. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">A lie; you are rough and hairy. Let me have no
+            <p>A lie; you are rough and hairy. Let me have no
               lying: it becomes none but tradesmen, and they often give us soldiers the lie: but we pay them for it with stamped coin, not stabbing steel; therefore they do not give us the lie. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Your worship had like to have given us one, if you
+            <p>Your worship had like to have given us one, if you
               had not taken yourself with the manner. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Are you a courtier, an't like you, sir? </p>
+            <p>Are you a courtier, an't like you, sir? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Whether it like me or no, I am a courtier. Seest thou not the air of the court in these enfoldings? hath not my gait in it the measure of the court? receives not thy nose court-odor from me? reflect I not on thy baseness court-contempt? Thinkest thou,
+            <p>Whether it like me or no, I am a courtier. Seest thou not the air of the court in these enfoldings? hath not my gait in it the measure of the court? receives not thy nose court-odor from me? reflect I not on thy baseness court-contempt? Thinkest thou,
               for that I insinuate, or toaze from thee thy business, I am therefore no courtier? I am courtier cap-a-pe; and one that will either push
               on or pluck back thy business there: whereupon I command thee to open thy affair. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">My business, sir, is to the king. </p>
+            <p>My business, sir, is to the king. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">What advocate hast thou to him? </p>
+            <p>What advocate hast thou to him? </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">I know not, an't like you. </p>
+            <p>I know not, an't like you. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Advocate's the court-word for a pheasant: say you
+            <p>Advocate's the court-word for a pheasant: say you
               have none. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">None, sir; I have no pheasant, cock <lb n="771" ed="G"/>nor hen. </p>
+            <p>None, sir; I have no pheasant, cock <lb n="771" ed="G"/>nor hen. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
@@ -4569,15 +4569,15 @@
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">This cannot be but a great courtier. </p>
+            <p>This cannot be but a great courtier. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">His garments are rich, but he wears them not handsomely. </p>
+            <p>His garments are rich, but he wears them not handsomely. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">He seems to be the more noble in being fantastical: a great man, I'll warrant; I <lb n="780" ed="G"/>know by the picking on's teeth. </p>
+            <p>He seems to be the more noble in being fantastical: a great man, I'll warrant; I <lb n="780" ed="G"/>know by the picking on's teeth. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
@@ -4586,49 +4586,49 @@
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Sir, there lies such secrets in this fardel and box, which none must know but the king; and which he shall know within this hour, if I may come to the speech of him. </p>
+            <p>Sir, there lies such secrets in this fardel and box, which none must know but the king; and which he shall know within this hour, if I may come to the speech of him. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Age, thou hast lost thy labor. </p>
+            <p>Age, thou hast lost thy labor. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Why, sir? </p>
+            <p>Why, sir? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">The king is not at the palace; he is gone aboard a
+            <p>The king is not at the palace; he is gone aboard a
               new ship to purge melancholy and air himself: for, if thou beest capable of things serious, thou must know the king is full of grief. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">So 'tis said, sir; about his son, that should have
+            <p>So 'tis said, sir; about his son, that should have
               married a shepherd's daughter. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">If that shepherd be not in hand-fast, let him fly:
+            <p>If that shepherd be not in hand-fast, let him fly:
               the curses he shall have, the tortures he shall feel, will break the back of man, the heart of monster. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Think you so, sir? </p>
+            <p>Think you so, sir? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Not he alone shall suffer what wit <lb n="801" ed="G"/>can make heavy and vengeance bitter; but those that are germane to him, though removed fifty times, shall all come under the hangman: which though it be great pity, yet it is necessary. An old sheep-whistling rogue, a ram-tender, to offer to have his daughter come into grace! Some say he shall be stoned; but
+            <p>Not he alone shall suffer what wit <lb n="801" ed="G"/>can make heavy and vengeance bitter; but those that are germane to him, though removed fifty times, shall all come under the hangman: which though it be great pity, yet it is necessary. An old sheep-whistling rogue, a ram-tender, to offer to have his daughter come into grace! Some say he shall be stoned; but
               that death is too soft for him, say I: draw our
               throne into a sheep-cote! all deaths are too few,
               the sharpest too easy. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Has the old man e'er a son, sir, do <lb n="811" ed="G"/>you hear, an't like you, sir? </p>
+            <p>Has the old man e'er a son, sir, do <lb n="811" ed="G"/>you hear, an't like you, sir? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">He has a son, who shall be flayed alive; then 'nointed over with honey, set on the head of a wasp's nest; then stand till he be three quarters and a dram dead; then recovered again with aqua-vitae or some other hot infusion; then, raw as he is, and in the hottest day prognostication proclaims, shall he be set against a brick-wall, the sun looking with a southward eye upon him, where he is
+            <p>He has a son, who shall be flayed alive; then 'nointed over with honey, set on the head of a wasp's nest; then stand till he be three quarters and a dram dead; then recovered again with aqua-vitae or some other hot infusion; then, raw as he is, and in the hottest day prognostication proclaims, shall he be set against a brick-wall, the sun looking with a southward eye upon him, where he is
               to behold him with flies blown to death. But what talk we of these traitorly rascals, whose miseries are to be smiled at, their offences being so capital? Tell me, for you seem to be honest plain men, what you have to the king: being something gently
               considered, I'll bring you where he is aboard,
               tender your persons to his presence, whisper him in
@@ -4638,59 +4638,59 @@
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">He seems to be of great authority: close with him,
+            <p>He seems to be of great authority: close with him,
               give him gold; and though authority be a stubborn bear, yet he is oft led by the nose with gold: show the inside of your purse to the outside of his hand, and no more ado. Remember 'stoned,' and 'flayed alive.' </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">An't please you, sir, to undertake the business for
+            <p>An't please you, sir, to undertake the business for
               us, here is that gold I have: I'll make it as much more and leave this young man in pawn till I bring it you. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">After I have done what I promised? </p>
+            <p>After I have done what I promised? </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Ay, sir. </p>
+            <p>Ay, sir. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Well, give me the moiety. Are you a party in this business? </p>
+            <p>Well, give me the moiety. Are you a party in this business? </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">In some sort, sir: but though my case be a pitiful one, I hope I shall not be flayed out of it. </p>
+            <p>In some sort, sir: but though my case be a pitiful one, I hope I shall not be flayed out of it. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">O, that's the case of the shepherd's son: hang him,
+            <p>O, that's the case of the shepherd's son: hang him,
               he'll be made an example. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Comfort, good comfort! We must to the king and show
+            <p>Comfort, good comfort! We must to the king and show
               our strange sights: he must know 'tis none of your
               daughter nor my sister; we are gone else. Sir, I will give you as much as this old man does when the business is performed, and remain, as he says, your pawn till it be brought you. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">I will trust you. Walk before toward the sea-side; go on the right hand: I will but look upon the hedge and follow you. </p>
+            <p>I will trust you. Walk before toward the sea-side; go on the right hand: I will but look upon the hedge and follow you. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">We are blest in this man, as I may say, even blest.
+            <p>We are blest in this man, as I may say, even blest.
                 </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Let's before as he bids us: he was provided to do
+            <p>Let's before as he bids us: he was provided to do
               us good. <stage type="exit">[Exeunt Shepherd and Clown.</stage>
               </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">If I had a mind to be honest, I see Fortune would not suffer me: she drops booties in my mouth. I am courted now with a double occasion, gold and a means to do the prince my master good; which who knows how that may turn back to my advancement? I will bring these two moles, these blind ones, aboard him: if he think it fit to shore them again and that the complaint they have to the king concerns him nothing, let him call me rogue for being so far officious; for I am proof against that title and what shame else belongs to't. To him will I present them: there may be matter
+            <p>If I had a mind to be honest, I see Fortune would not suffer me: she drops booties in my mouth. I am courted now with a double occasion, gold and a means to do the prince my master good; which who knows how that may turn back to my advancement? I will bring these two moles, these blind ones, aboard him: if he think it fit to shore them again and that the complaint they have to the king concerns him nothing, let him call me rogue for being so far officious; for I am proof against that title and what shame else belongs to't. To him will I present them: there may be matter
               in it. <stage type="exit">[Exit.</stage></p>
           </sp>
         </div>
@@ -4740,7 +4740,7 @@
             <l>She I kill'd! I did so: but thou strikest me </l>
             <l>Sorely, to say I did; it is as bitter </l>
             <l>Upon thy tongue as in my thought: now, good now, </l>
-            <l part="I" n="20">Say so but seldom. </l>
+            <l part="I">Say so but seldom. </l>
           </sp>
           <sp who="cleo.">
             <speaker>Cleo.</speaker>
@@ -4761,7 +4761,7 @@
             <l>Of his most sovereign name; consider little </l>
             <l>What dangers, by his highness' fail of issue, </l>
             <l>May drop upon his kingdom and devour </l>
-            <l n="30">Incertain lookers on. What were more holy </l>
+            <l>Incertain lookers on. What were more holy </l>
             <l>Than to rejoice the former queen is well? </l>
             <l>What holier than, for royalty's repair, </l>
             <l>For present comfort and for future good, </l>
@@ -4776,7 +4776,7 @@
             <l>For has not the divine Apollo said, </l>
             <l>Is't not the tenor of his oracle, </l>
             <l>That King Leontes shall not have an heir </l>
-            <l n="41">Till his lost child be found? which that it shall, </l>
+            <l>Till his lost child be found? which that it shall, </l>
             <l>Is all as monstrous to our human reason </l>
             <l>As my Antigonus to break his grave </l>
             <l>And come again to me; who, on my life, </l>
@@ -4808,7 +4808,7 @@
             <l>And better used, would make her sainted spirit </l>
             <l>Again possess her corpse, and on this stage, </l>
             <l>Where we're offenders now, appear soul-vex'd, </l>
-            <l part="I" n="60">And begin, 'Why to me?' </l>
+            <l part="I">And begin, 'Why to me?' </l>
           </sp>
           <sp who="paul.">
             <speaker>Paul.</speaker>
@@ -4868,7 +4868,7 @@
             <l>Yet, if my lord will marry,--if you will, sir, </l>
             <l>No remedy, but you will,--give me the office </l>
             <l>To choose you a queen: she shall not be so young </l>
-            <l n="80">As was your former; but she shall be such </l>
+            <l>As was your former; but she shall be such </l>
             <l>As, walk'd your first queen's ghost, it should take joy </l>
             <l part="I">To see her in your arms. </l>
           </sp>
@@ -4895,7 +4895,7 @@
           <sp who="leon.">
             <speaker>Leon.</speaker>
             <l part="F">What with him? he comes not </l>
-            <l n="90">Like to his father's greatness: his approach, </l>
+            <l>Like to his father's greatness: his approach, </l>
             <l>So out of circumstance and sudden, tells us </l>
             <l>'Tis not a visitation framed, but forced </l>
             <l part="I">By need and accident. What train? </l>
@@ -4964,7 +4964,7 @@
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
-            <l n="120">Prithee, no more; cease; thou know'st </l>
+            <l>Prithee, no more; cease; thou know'st </l>
             <l>He dies to me again when talk'd of: sure, </l>
             <l>When I shall see this gentleman, thy speeches </l>
             <l>Will bring me to consider that which may </l>
@@ -4991,7 +4991,7 @@
             <speaker>Flo.</speaker>
             <l part="F">By his command </l>
             <l>Have I here touch'd Sicilia and from him </l>
-            <l n="141">Give you all greetings that a king, at friend, </l>
+            <l>Give you all greetings that a king, at friend, </l>
             <l>Can send his brother: and, but infirmity </l>
             <l>Which waits upon worn times hath something seized </l>
             <l>His wish'd ability, he had himself </l>
@@ -5004,7 +5004,7 @@
             <speaker>Leon.</speaker>
             <l part="F">O my brother, </l>
             <l>Good gentleman! the wrongs I have done thee stir </l>
-            <l n="150">Afresh within me, and these thy offices, </l>
+            <l>Afresh within me, and these thy offices, </l>
             <l>So rarely kind, are as interpreters </l>
             <l>Of my behind-hand slackness. Welcome hither, </l>
             <l>As is the spring to the earth. And hath he too </l>
@@ -5025,7 +5025,7 @@
           </sp>
           <sp who="flo.">
             <speaker>Flo.</speaker>
-            <l n="160">Most royal sir, from thence; from him, whose daughter </l>
+            <l>Most royal sir, from thence; from him, whose daughter </l>
             <l>His tears proclaim'd his, parting with her: thence, </l>
             <l>A prosperous south-wind friendly, we have cross'd, </l>
             <l>To execute the charge my father gave me </l>
@@ -5055,7 +5055,7 @@
           <sp who="lord.">
             <speaker>Lord.</speaker>
             <l part="F">Most noble sir, </l>
-            <l n="180">That which I shall report will bear no credit, </l>
+            <l>That which I shall report will bear no credit, </l>
             <l>Were not the proof so nigh. Please you, great sir, </l>
             <l>Bohemia greets you from himself by me; </l>
             <l>Desires you to attach his son, who has-- </l>
@@ -5072,7 +5072,7 @@
             <l>Here in your city; I now came from him: </l>
             <l>I speak amazedly; and it becomes </l>
             <l>My marvel and my message. To your court </l>
-            <l n="190">Whiles he was hastening, in the chase, it seems, </l>
+            <l>Whiles he was hastening, in the chase, it seems, </l>
             <l>Of this fair couple, meets he on the way </l>
             <l>The father of this seeming lady and </l>
             <l>Her brother, having both their country quitted </l>
@@ -5126,7 +5126,7 @@
           <sp who="flo.">
             <speaker>Flo.</speaker>
             <l part="F">She is, </l>
-            <l n="210">When once she is my wife. </l>
+            <l>When once she is my wife. </l>
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
@@ -5165,7 +5165,7 @@
             <l part="F">I thought of her, </l>
             <l>Even in these looks I made. <stage>[To Florizel.]</stage> But your petition </l>
             <l>Is yet unanswer'd. I will to your father: </l>
-            <l n="231">Your honor not o'erthrown by your desires, </l>
+            <l>Your honor not o'erthrown by your desires, </l>
             <l>I am friend to them and you: upon which errand </l>
             <l>I now go toward him; therefore follow me </l>
             <l>And mark what way I make: come, good my lord. <stage type="exit">[Exeunt. </stage>
@@ -5183,39 +5183,39 @@
           
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Beseech you, sir, were you present at this relation? </p>
+            <p>Beseech you, sir, were you present at this relation? </p>
           </sp>
           <sp who="first-gent.">
             <speaker>First Gent.</speaker>
-            <p part="N">I was by at the opening of the fardel, heard the
+            <p>I was by at the opening of the fardel, heard the
               old shepherd deliver the manner how he found it: whereupon, after a little amazedness, we were all commanded out of the chamber; only this methought I heard the shepherd say, he found the child. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">I would most gladly know the issue <lb n="10" ed="G"/>of it. </p>
+            <p>I would most gladly know the issue <lb n="10" ed="G"/>of it. </p>
           </sp>
           <sp who="first-gent.">
             <speaker>First Gent.</speaker>
-            <p part="N">I make a broken delivery of the business; but the
+            <p>I make a broken delivery of the business; but the
               changes I perceived in the king and Camillo were very notes of admiration: they seemed almost, with staring on one another, to tear the cases of their eyes; there was speech in their dumbness, language in their very gesture; they looked as they had heard of a world ransomed, or one destroyed: a notable passion of wonder appeared in them; but the wisest beholder, that knew no more but seeing, could not say if the importance were joy or sorrow; but in the extremity of the one, it
               must needs be. <stage type="entrance"> Enter another
                 Gentleman.</stage>
               </p>
-            <p part="N">Here comes a gentleman that haply knows more. The news, Rogero? </p>
+            <p>Here comes a gentleman that haply knows more. The news, Rogero? </p>
           </sp>
           <sp who="sec.-gent.">
             <speaker>Sec. Gent.</speaker>
-            <p part="N">Nothing but bonfires: the oracle is fulfilled; the
+            <p>Nothing but bonfires: the oracle is fulfilled; the
               king's daughter is found: such a deal of wonder is broken out within this hour that ballad-makers cannot be able to express it. <stage type="entrance"> Enter a third
                 Gentleman.</stage>
               </p>
-            <p part="N">Here comes the Lady Paulina's steward: he can deliver you more. How goes it now, sir? this news which is called true is so like an old tale, that the verity of it is
+            <p>Here comes the Lady Paulina's steward: he can deliver you more. How goes it now, sir? this news which is called true is so like an old tale, that the verity of it is
                 in strong suspicion: has the king found his heir?
                 </p>
           </sp>
           <sp who="third-gent.">
             <speaker>Third Gent.</speaker>
-            <p part="N">Most true, if ever truth were pregnant by circumstance: that which you hear you'll swear you
+            <p>Most true, if ever truth were pregnant by circumstance: that which you hear you'll swear you
               see, there is such unity in the proofs. The matter of Queen Hermione's, her jewel about the neck of it, the letters of Antigonus found with it which they know to be his character, the majesty of the creature in resemblance of the mother, the affection of nobleness which nature shows above her
               breeding, and many other evidences proclaim her with
               all certainty to be the king's daughter. Did you see
@@ -5223,11 +5223,11 @@
           </sp>
           <sp who="sec.-gent.">
             <speaker>Sec. Gent.</speaker>
-            <p part="N">No. </p>
+            <p>No. </p>
           </sp>
           <sp who="third-gent.">
             <speaker>Third Gent.</speaker>
-            <p part="N">Then have you lost a sight, which was to be seen,
+            <p>Then have you lost a sight, which was to be seen,
               cannot be spoken of. There might you have beheld one
               joy crown another, so and in such manner that it
               seemed sorrow wept to take leave of them, for their joy waded in tears. There was casting up of eyes, holding up of hands, with countenance of
@@ -5240,35 +5240,35 @@
           </sp>
           <sp who="sec.-gent.">
             <speaker>Sec. Gent.</speaker>
-            <p part="N">What, pray you, became of Antigonus, that carried
+            <p>What, pray you, became of Antigonus, that carried
               hence the child? </p>
           </sp>
           <sp who="third-gent.">
             <speaker>Third Gent.</speaker>
-            <p part="N">Like an old tale still, which will have matter to
+            <p>Like an old tale still, which will have matter to
               rehearse, though credit be asleep and not an ear open. He was torn to pieces with a bear: this avouches the shepherd's son; who has not only his innocence, which seems much, to justify him, but a
               handkerchief and rings of his that
               Paulina knows. </p>
           </sp>
           <sp who="first-gent.">
             <speaker>First Gent.</speaker>
-            <p part="N">What became of his bark and his followers? </p>
+            <p>What became of his bark and his followers? </p>
           </sp>
           <sp who="third-gent.">
             <speaker>Third Gent.</speaker>
-            <p part="N">Wrecked the same instant of their master's death
+            <p>Wrecked the same instant of their master's death
               and in the view of the shepherd: so that all the instruments which aided to expose the child were even then lost when it was found. But O, the noble combat that 'twixt joy and sorrow was fought in
               Paulina! She had one eye declined for the loss of
                 her husband, another elevated that the oracle was fulfilled: she lifted the princess from the earth, and so locks her in embracing, as if she would pin her to her heart that she might no more be in danger of losing. </p>
           </sp>
           <sp who="first-gent.">
             <speaker>First Gent.</speaker>
-            <p part="N">The dignity of this act was worth the audience of
+            <p>The dignity of this act was worth the audience of
               kings and princes; for by such was it acted. </p>
           </sp>
           <sp who="third-gent.">
             <speaker>Third Gent.</speaker>
-            <p part="N">One of the prettiest touches of all and that which
+            <p>One of the prettiest touches of all and that which
               angled for mine eyes, caught the water though not
               the fish, was when, at the relation of the queen's death, with the manner how she came to't bravely confessed and lamented by the king, how attentiveness wounded his daughter; till, from one sign
               of dolour to another, she did, with an 'Alas,' I would fain say, bleed tears, for I am sure my heart wept blood. Who was most marble there changed color; some swooned, all sorrowed: if all
@@ -5276,23 +5276,23 @@
           </sp>
           <sp who="first-gent.">
             <speaker>First Gent.</speaker>
-            <p part="N">Are they returned to the court? </p>
+            <p>Are they returned to the court? </p>
           </sp>
           <sp who="third-gent.">
             <speaker>Third Gent.</speaker>
-            <p part="N">No: the princess hearing of her mother's statue,
+            <p>No: the princess hearing of her mother's statue,
               which is in the keeping of Paulina,--a piece many years in doing and now newly performed by that rare Italian master, Julio Romano, who, had he himself eternity and could put breath into his work, would beguile Nature of her custom, so perfectly he is her ape: he so near to Hermione hath done Hermione that they say one would speak to her and stand in hope of answer: thither with all
               greediness of affection are they gone, and there
               they intend to sup. </p>
           </sp>
           <sp who="sec.-gent.">
             <speaker>Sec. Gent.</speaker>
-            <p part="N">I thought she had some great matter there in hand;
+            <p>I thought she had some great matter there in hand;
               for she hath privately twice or thrice a day, ever since the death of Hermione, visited that removed house. Shall we thither and with our company piece the rejoicing? </p>
           </sp>
           <sp who="first-gent.">
             <speaker>First Gent.</speaker>
-            <p part="N">Who would be thence that has the benefit of access?
+            <p>Who would be thence that has the benefit of access?
               every wink of an eye some new grace will be born:
               our absence makes us unthrifty to our knowledge.
               Let's along. <stage type="exit">[Exeunt Gentlemen.</stage>
@@ -5300,7 +5300,7 @@
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Now, had I not the dash of my former life in me,
+            <p>Now, had I not the dash of my former life in me,
               would preferment drop on my head. I brought the old
               man and his son aboard the prince; told him I heard
               them talk of a fardel and I know not what: but he at
@@ -5312,16 +5312,16 @@
               other discredits. <stage type="entrance"> Enter Shepherd and
                 Clown.</stage>
               </p>
-            <p part="N">Here come those I have done good to against my will, and already appearing in the blossoms of their fortune. </p>
+            <p>Here come those I have done good to against my will, and already appearing in the blossoms of their fortune. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Come, boy; I am past moe children, but thy sons and
+            <p>Come, boy; I am past moe children, but thy sons and
               daughters will be all gentlemen born. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">You are well met, sir. You denied to fight with me
+            <p>You are well met, sir. You denied to fight with me
               this other day, because I was no gentleman born. See
               you these clothes? say you see them not and think me
               still no gentleman born: you were best say these
@@ -5330,19 +5330,19 @@
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">I know you are now, sir, a gentleman born. </p>
+            <p>I know you are now, sir, a gentleman born. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Ay, and have been so any time these four hours. <lb n="149" ed="G"/></p>
+            <p>Ay, and have been so any time these four hours. <lb n="149" ed="G"/></p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">And so have I, boy. </p>
+            <p>And so have I, boy. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">So you have: but I was a gentleman born before my
+            <p>So you have: but I was a gentleman born before my
               father; for the king's son took me by the hand, and
               called me brother; and then the two kings called my
               father brother; and then the prince my brother and
@@ -5350,50 +5350,50 @@
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">We may live, son, to shed many more. </p>
+            <p>We may live, son, to shed many more. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Ay; or else 'twere hard luck, being in so preposterous estate as we are. </p>
+            <p>Ay; or else 'twere hard luck, being in so preposterous estate as we are. </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">I humbly beseech you sir, to pardon me all the faults I have committed to your worship and to give me your good report to the prince my master. </p>
+            <p>I humbly beseech you sir, to pardon me all the faults I have committed to your worship and to give me your good report to the prince my master. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">Prithee, son, do; for we must be gentle, now we are
+            <p>Prithee, son, do; for we must be gentle, now we are
               gentlemen. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Thou wilt amend thy life? </p>
+            <p>Thou wilt amend thy life? </p>
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">Ay, an it like your good worship. </p>
+            <p>Ay, an it like your good worship. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Give me thy hand: I will swear to the prince thou
+            <p>Give me thy hand: I will swear to the prince thou
               art as honest a true fellow as any is in Bohemia. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">You may say it, but not swear it. </p>
+            <p>You may say it, but not swear it. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Not swear it, now I am a gentleman? Let boors and
+            <p>Not swear it, now I am a gentleman? Let boors and
               franklins say it, I'll swear it. </p>
           </sp>
           <sp who="shep.">
             <speaker>Shep.</speaker>
-            <p part="N">How if it be false, son? </p>
+            <p>How if it be false, son? </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">If it ne'er so false, a true gentleman may swear it
+            <p>If it ne'er so false, a true gentleman may swear it
               in the behalf of his friend; and I'll swear to the
               prince thou art a tall fellow of thy hands and that thou wilt not be drunk; but I know thou art no tall fellow of thy hands and that thou wilt be drunk: but I'll
                 swear it, and I would thou wouldst be a tall
@@ -5401,11 +5401,11 @@
           </sp>
           <sp who="aut.">
             <speaker>Aut.</speaker>
-            <p part="N">I will prove so, sir, to my power. </p>
+            <p>I will prove so, sir, to my power. </p>
           </sp>
           <sp who="clo.">
             <speaker>Clo.</speaker>
-            <p part="N">Ay, by any means prove a tall fellow: if I do not wonder how thou darest venture to be drunk, not being a tall fellow, trust me not. Hark! the kings and the princes,
+            <p>Ay, by any means prove a tall fellow: if I do not wonder how thou darest venture to be drunk, not being a tall fellow, trust me not. Hark! the kings and the princes,
                 our kindred, are going to see the queen's picture.
                 Come, follow us: we'll be thy good masters. <stage type="exit">[Exeunt.</stage></p>
           </sp>
@@ -5451,7 +5451,7 @@
             <l>Excels whatever yet you look'd upon </l>
             <l>Or hand of man hath done; therefore I keep it </l>
             <l>Lonely, apart. But here it is: prepare </l>
-            <l n="20">To see the life as lively mock'd as ever </l>
+            <l>To see the life as lively mock'd as ever </l>
             <l>Still sleep mock'd death: behold, and say 'tis well. <stage>[Paulina draws a curtain,
                 and discovers Hermione standing like a statue.</stage>
               </l>
@@ -5488,7 +5488,7 @@
             <l>As now it coldly stands, when first I woo'd her! </l>
             <l>I am ashamed: does not the stone rebuke me </l>
             <l>For being more stone than it? O royal piece, </l>
-            <l n="40">There's magic in thy majesty, which has </l>
+            <l>There's magic in thy majesty, which has </l>
             <l>My evils conjured to remembrance and </l>
             <l>From thy admiring daughter took the spirits, </l>
             <l part="I">Standing like stone with thee. </l>
@@ -5509,7 +5509,7 @@
           </sp>
           <sp who="cam.">
             <speaker>Cam.</speaker>
-            <l n="50">My lord, your sorrow was too sore laid on, </l>
+            <l>My lord, your sorrow was too sore laid on, </l>
             <l>Which sixteen winters cannot blow away, </l>
             <l>So many summers dry: scarce any joy </l>
             <l>Did ever so long live; no sorrow </l>
@@ -5560,7 +5560,7 @@
             <speaker>Paul.</speaker>
             <l part="F">I'll draw the curtain: </l>
             <l>My lord's almost so far transported that </l>
-            <l part="I" n="70">He'll think anon it lives. </l>
+            <l part="I">He'll think anon it lives. </l>
           </sp>
           <sp who="leon.">
             <speaker>Leon.</speaker>
@@ -5581,7 +5581,7 @@
             <l>As any cordial comfort. Still, methinks, </l>
             <l>There is an air comes from her: what fine chisel </l>
             <l>Could ever yet cut breath? Let no man mock me, </l>
-            <l part="I" n="80">For I will kiss her. </l>
+            <l part="I">For I will kiss her. </l>
           </sp>
           <sp who="paul.">
             <speaker>Paul.</speaker>
@@ -5605,7 +5605,7 @@
             <l>Quit presently the chapel, or resolve you </l>
             <l>For more amazement. If you can behold it, </l>
             <l>I'll make the statue move indeed, descend </l>
-            <l n="90">And take you by the hand: but then you'll think-- </l>
+            <l>And take you by the hand: but then you'll think-- </l>
             <l>Which I protest against--I am assisted </l>
             <l part="I">By wicked powers. </l>
           </sp>
@@ -5630,7 +5630,7 @@
           </sp>
           <sp who="paul.">
             <speaker>Paul.</speaker>
-            <l n="99">Music, awake her; strike! <stage>[Music.</stage>
+            <l>Music, awake her; strike! <stage>[Music.</stage>
               </l>
             <l>'Tis time; descend; be stone no more; approach; </l>
             <l>Strike all that look upon with marvel. Come, </l>
@@ -5675,7 +5675,7 @@
             <l>Were it but told you, should be hooted at </l>
             <l>Like an old tale: but it appears she lives, </l>
             <l>Though yet she speak not. Mark a little while. </l>
-            <l n="120">Please you to interpose, fair madam: kneel </l>
+            <l>Please you to interpose, fair madam: kneel </l>
             <l>And pray your mother's blessing. Turn, good lady; </l>
             <l part="I">Our Perdita is found. </l>
           </sp>
@@ -5693,7 +5693,7 @@
           <sp who="paul.">
             <speaker>Paul.</speaker>
             <l part="F">There's time enough for that; </l>
-            <l n="130">Lest they desire upon this push to trouble </l>
+            <l>Lest they desire upon this push to trouble </l>
             <l>Your joys with like relation. Go together, </l>
             <l>You precious winners all; your exultation </l>
             <l>Partake to every one. I, an old turtle, </l>
@@ -5707,7 +5707,7 @@
             <l>Thou shouldst a husband take by my consent, </l>
             <l>As I by thine a wife: this is a match, </l>
             <l>And made between's by vows. Thou hast found mine; </l>
-            <l n="140">But how, is to be question'd; for I saw her, </l>
+            <l>But how, is to be question'd; for I saw her, </l>
             <l>As I thought, dead, and have in vain said many </l>
             <l>A prayer upon her grave. I'll not seek far-- </l>
             <l>For him, I partly know his mind to find thee </l>
@@ -5716,7 +5716,7 @@
             <l>Is richly noted and here justified </l>
             <l>By us a pair of kings. Let's from this place. </l>
             <l>What! look upon my brother: both your pardons </l>
-            <l n="149">That e'er I put between your holy looks </l>
+            <l>That e'er I put between your holy looks </l>
             <l>My ill suspicion. This is your son-in-law, </l>
             <l>And son unto the king, who, heavens directing, </l>
             <l>Is troth-plight to your daughter. Good Paulina, </l>

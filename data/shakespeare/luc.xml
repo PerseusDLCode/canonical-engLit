@@ -6,7 +6,7 @@
         <author>William Shakespeare</author>
         <editor>W. G. Clark</editor>
         <editor>W. Aldis Wright</editor>   </titleStmt>
-      <publicationStmt><p part="N">later</p></publicationStmt> <sourceDesc default="false">
+      <publicationStmt><p>later</p></publicationStmt> <sourceDesc default="false">
         <biblStruct default="false" status="draft">
           <monogr>
             <author>William Shakespeare</author>
@@ -42,7 +42,7 @@
         <opener>To the Right Honourable Henry Wriothesly, Earl of Southampton, and Baron of
           Tichfield.</opener>
 
-        <p part="N">THE love I dedicate to your lordship is without end; whereof this pamphlet, without
+        <p>THE love I dedicate to your lordship is without end; whereof this pamphlet, without
           beginning, is but a superfluous moiety. The warrant I have of your honourable disposition,
           not the worth of my untutored lines, makes it assured of acceptance. What I have done is
           yours; what I have to do is yours; being part in all I have, devoted yours. Were my worth
@@ -57,7 +57,7 @@
       <div type="textpart" subtype="section" n="Argument">
         <head>THE ARGUMENT</head>
 
-        <p part="N">LUCIUS TARQUINIUS, for his excessive pride surnamed Superbus, after he had caused his own
+        <p>LUCIUS TARQUINIUS, for his excessive pride surnamed Superbus, after he had caused his own
           father-in-law Servius Tullius to be cruelly murdered, and, contrary to the Roman laws and
           customs, not requiring or staying for the people's suffrages, had possessed himself of the
           kingdom, went, accompanied with his sons and other noblemen of Rome, to besiege Ardea.

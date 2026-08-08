@@ -6,7 +6,7 @@
         <author>William Shakespeare</author>
         <editor>W. G. Clark</editor>
         <editor>W. Aldis Wright</editor>   </titleStmt>
-      <publicationStmt><p part="N">later</p></publicationStmt> <sourceDesc default="false">
+      <publicationStmt><p>later</p></publicationStmt> <sourceDesc default="false">
         <biblStruct default="false" status="draft">
           <monogr>
             <author>William Shakespeare</author>
@@ -193,44 +193,44 @@
           
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">Before we proceed any further, hear me speak. </p>
+            <p>Before we proceed any further, hear me speak. </p>
           </sp>
           <sp>
             <speaker>All.</speaker>
-            <p part="N">Speak, speak. </p>
+            <p>Speak, speak. </p>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">You are all resolved rather to die than to famish? </p>
+            <p>You are all resolved rather to die than to famish? </p>
           </sp>
           <sp>
             <speaker>All.</speaker>
-            <p part="N">Resolved, resolved. </p>
+            <p>Resolved, resolved. </p>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">First, you know Caius Marcius is chief enemy to the
+            <p>First, you know Caius Marcius is chief enemy to the
               people. </p>
           </sp>
           <sp>
             <speaker>All.</speaker>
-            <p part="N">We know't, we know't. <lb n="10" ed="G"/></p>
+            <p>We know't, we know't. <lb n="10" ed="G"/></p>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">Let us kill him, and we'll have corn at our own price. Is't a verdict? </p>
+            <p>Let us kill him, and we'll have corn at our own price. Is't a verdict? </p>
           </sp>
           <sp>
             <speaker>All.</speaker>
-            <p part="N">No more talking on't; let it be done:  away, away! </p>
+            <p>No more talking on't; let it be done:  away, away! </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">One word, good citizens. </p>
+            <p>One word, good citizens. </p>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">We are accounted poor citizens, the patricians good.
+            <p>We are accounted poor citizens, the patricians good.
               What authority surfeits on would relieve us: if they
               would yield us but the superfluity, while it were
               wholesome, we might guess they relieved us humanely; but they think we are too dear: the leanness that
@@ -242,60 +242,60 @@
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">Would you proceed especially against Caius Marcius?
+            <p>Would you proceed especially against Caius Marcius?
                 </p>
           </sp>
           <sp>
             <speaker>All.</speaker>
-            <p part="N">Against him first: he's a very dog to the commonalty.
+            <p>Against him first: he's a very dog to the commonalty.
                 </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">Consider you what services he has done for his country? </p>
+            <p>Consider you what services he has done for his country? </p>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">Very well; and could be content to give him good
+            <p>Very well; and could be content to give him good
               report for 't, but that he pays himself with being proud. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">Nay, but speak not maliciously. </p>
+            <p>Nay, but speak not maliciously. </p>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">I say unto you, what he hath done famously, he did it
+            <p>I say unto you, what he hath done famously, he did it
               to that end: though soft-conscienced men can be content to say it was for his country, he did it to please his mother, and to be partly proud; which he is, even to the altitude of his virtue. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">What he cannot help in his nature, you account a vice
+            <p>What he cannot help in his nature, you account a vice
               in him. You must in no way say he is covetous. </p>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">If I must not, I need not be barren of accusations; he hath faults, with surplus, to tire in repetition. <stage>[Shouts within.]</stage>
+            <p>If I must not, I need not be barren of accusations; he hath faults, with surplus, to tire in repetition. <stage>[Shouts within.]</stage>
               What shouts are these? The other side o' the city is risen: why stay we prating here? to the Capitol! <lb n="50" ed="G"/></p>
           </sp>
           <sp>
             <speaker>All.</speaker>
-            <p part="N">Come, come. </p>
+            <p>Come, come. </p>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">Soft! who comes here? <stage type="entrance"> Enter MENENIUS
+            <p>Soft! who comes here? <stage type="entrance"> Enter MENENIUS
                 AGRIPPA.</stage>
               </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec Cit.</speaker>
-            <p part="N">Worthy Menenius Agrippa; one that hath always loved
+            <p>Worthy Menenius Agrippa; one that hath always loved
               the people. </p>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">He's one honest enough: would all the rest were so! </p>
+            <p>He's one honest enough: would all the rest were so! </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
@@ -304,7 +304,7 @@
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">Our business is not unknown to the senate; they have
+            <p>Our business is not unknown to the senate; they have
               had inkling this fortnight what we intend to do, which now we'll show 'em in deeds. They say poor suitors have strong breaths: they shall know we have strong arms too.
                 </p>
           </sp>
@@ -315,13 +315,13 @@
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">We cannot, sir, we are undone already. </p>
+            <p>We cannot, sir, we are undone already. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
             <l>I tell you, friends, most charitable care </l>
             <l>Have the patricians of you. For your wants, </l>
-            <l n="70">Your suffering in this dearth, you may as well </l>
+            <l>Your suffering in this dearth, you may as well </l>
             <l>Strike at the heaven with your staves as lift them </l>
             <l>Against the Roman state, whose course will on </l>
             <l>The way it takes, crackling ten thousand curbs </l>
@@ -331,12 +331,12 @@
             <l>Your knees to them, not arms, must help. Alack, </l>
             <l>You are transported by calamity </l>
             <l>Thither where more attends you, and you slander </l>
-            <l n="80">The helms o' the state, who care for you like fathers, </l>
+            <l>The helms o' the state, who care for you like fathers, </l>
             <l>When you curse them as enemies. </l>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">Care for us! True, indeed! They ne'er cared for us yet: suffer us to famish, and their store-houses crammed with grain; make edicts for usury, to support usurers; repeal daily any wholesome act established against the rich, and provide more piercing statutes
+            <p>Care for us! True, indeed! They ne'er cared for us yet: suffer us to famish, and their store-houses crammed with grain; make edicts for usury, to support usurers; repeal daily any wholesome act established against the rich, and provide more piercing statutes
               daily, to chain up and restrain the poor. If the wars
               eat us not up, they will; and there's all the love
               they bear us. <lb n="90" ed="G"/></p>
@@ -352,11 +352,11 @@
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">Well, I'll hear it, sir: yet you must not think to fob off our disgrace with a tale: but, an't please you, deliver. </p>
+            <p>Well, I'll hear it, sir: yet you must not think to fob off our disgrace with a tale: but, an't please you, deliver. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <l n="100">There was a time when all the body's members </l>
+            <l>There was a time when all the body's members </l>
             <l>Rebell'd against the belly, thus accused it: </l>
             <l>That only like a gulf it did remain </l>
             <l>I' the midst o' the body, idle and unactive, </l>
@@ -369,7 +369,7 @@
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <l n="111">Well, sir, what answer made the belly ? </l>
+            <l>Well, sir, what answer made the belly ? </l>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
@@ -385,7 +385,7 @@
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
             <l part="F">Your belly's answer? What? </l>
-            <l n="120">The kingly-crowned head, the vigilant eye, </l>
+            <l>The kingly-crowned head, the vigilant eye, </l>
             <l>The counsellor heart, the arm our soldier, </l>
             <l>Our steed the leg, the tongue our trumpeter, </l>
             <l>With other muniments and petty helps </l>
@@ -430,7 +430,7 @@
             <l>Which you do live upon; and fit it is, </l>
             <l>Because I am the store-house and the shop </l>
             <l>Of the whole body: but, if you do remember, </l>
-            <l n="140">I send it through the rivers of your blood, </l>
+            <l>I send it through the rivers of your blood, </l>
             <l>Even to the court, the heart, to the seat o' the brain; </l>
             <l>And, through the cranks and offices of man, </l>
             <l>The strongest nerves and small inferior veins </l>
@@ -447,7 +447,7 @@
             <l part="F">'Though all at once cannot </l>
             <l>See what I do deliver out to each, </l>
             <l>Yet I can make my audit up, that all </l>
-            <l n="150">From me do back receive the flour of all, </l>
+            <l>From me do back receive the flour of all, </l>
             <l>And leave me but the bran.' What say you to 't? </l>
           </sp>
           <sp who="cor-7">
@@ -463,7 +463,7 @@
             <l>No public benefit which you receive </l>
             <l>But it proceeds or comes from them to you </l>
             <l>And no way from yourselves. What do you think, </l>
-            <l n="160">You, the great toe of this assembly? </l>
+            <l>You, the great toe of this assembly? </l>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
@@ -489,7 +489,7 @@
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <l n="171">We have ever your good word. </l>
+            <l>We have ever your good word. </l>
           </sp>
           <sp who="cor-6">
             <speaker>Mar.</speaker>
@@ -501,7 +501,7 @@
             <l>Where foxes, geese: you are no surer, no, </l>
             <l>Than is the coal of fire upon the ice, </l>
             <l>Or hailstone in the sun. Your virtue is </l>
-            <l n="180">To make him worthy whose offence subdues him </l>
+            <l>To make him worthy whose offence subdues him </l>
             <l>And curse that justice did it. Who deserves greatness </l>
             <l>Deserves your hate; and your affections are </l>
             <l>A sick man's appetite, who desires most that </l>
@@ -511,7 +511,7 @@
             <l>With every minute you do change a mind, </l>
             <l>And call him noble that was now your hate, </l>
             <l>Him vile that was your garland. What's the matter, </l>
-            <l n="190">That in these several places of the city </l>
+            <l>That in these several places of the city </l>
             <l>You cry against the noble senate, who, </l>
             <l>Under the gods, keep you in awe, which else </l>
             <l>Would feed on one another? What's their seeking ? </l>
@@ -528,7 +528,7 @@
             <l>What's done i' the Capitol; who's like to rise, </l>
             <l>Who thrives and who declines; side factions and give out </l>
             <l>Conjectural marriages; making parties strong </l>
-            <l n="200">And feebling such as stand not in their liking </l>
+            <l>And feebling such as stand not in their liking </l>
             <l>Below their cobbled shoes. They say there's grain enough! </l>
             <l>Would the nobility lay aside their ruth, </l>
             <l>And let me use my sword, I'ld make a quarry </l>
@@ -545,7 +545,7 @@
           <sp who="cor-6">
             <speaker>Mar.</speaker>
             <l part="F">They are dissolved: hang 'em! </l>
-            <l n="210">They said they were an-hungry; sigh'd forth proverbs, </l>
+            <l>They said they were an-hungry; sigh'd forth proverbs, </l>
             <l>That hunger broke stone walls, that dogs must eat, </l>
             <l>That meat was made for mouths, that the gods sent not </l>
             <l>Corn for the rich men only: with these shreds </l>
@@ -595,7 +595,7 @@
           <sp who="cor-6">
             <speaker>Mar.</speaker>
             <l>I am glad on't: then we shall ha' means to vent </l>
-            <l n="231">Our musty superfluity. See, our best elders. <stage type="entrance">Enter COMINIUS, TITUS LARTIUS, and other
+            <l>Our musty superfluity. See, our best elders. <stage type="entrance">Enter COMINIUS, TITUS LARTIUS, and other
                 Senators; JUNIUS BRUTUS and SICINIUS VELUTUS.</stage>
               </l>
           </sp>
@@ -657,7 +657,7 @@
           <sp who="cor-33">
             <speaker>Tit.</speaker>
             <stage>To Com.</stage>
-            <l n="250">Lead you on. <stage>To Mar.</stage>
+            <l>Lead you on. <stage>To Mar.</stage>
               </l>
             <l>Follow Cominius; we must follow you; </l>
             <l part="I">Right worthy you priority. </l>
@@ -724,7 +724,7 @@
           <sp who="cor-13">
             <speaker>Bru.</speaker>
             <l part="F">Fame, at the which he aims, </l>
-            <l n="269">In whom already he's well graced, can not </l>
+            <l>In whom already he's well graced, can not </l>
             <l>Better be held nor more attain'd than by </l>
             <l>A place below the first: for what miscarries </l>
             <l>Shall be the general's fault, though he perform </l>
@@ -815,7 +815,7 @@
             <l>Let us alone to guard Corioli: </l>
             <l>If they set down before 's, for the remove </l>
             <l>Bring up your army; but, I think, you'll find </l>
-            <l part="I" n="30">They've not prepared for us. </l>
+            <l part="I">They've not prepared for us. </l>
           </sp>
           <sp who="cor-4">
             <speaker>Auf.</speaker>
@@ -866,7 +866,7 @@
           
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">I pray you, daughter, sing; or express yourself in a
+            <p>I pray you, daughter, sing; or express yourself in a
               more comfortable sort: if my son were my husband, I
               should freelier rejoice in that absence wherein he
               won honor than in the embracements of his bed where
@@ -881,18 +881,18 @@
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">But had he died in the business, madam; how then?
+            <p>But had he died in the business, madam; how then?
                 </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">Then his good report should have been my son; I
+            <p>Then his good report should have been my son; I
               therein would have found issue. Hear me profess sincerely: had I a dozen sons, each in my love alike and none less dear than thine and my good Marcius, I had rather had eleven die nobly for their country than one voluptuously surfeit out of action. <stage type="entrance">Enter a Gentlewoman.</stage>
               </p>
           </sp>
           <sp who="cor-11">
             <speaker>Gent.</speaker>
-            <l n="30">Madam, the Lady Valeria is come to visit you. </l>
+            <l>Madam, the Lady Valeria is come to visit you. </l>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
@@ -908,7 +908,7 @@
             <l>'Come on, you cowards! you were got in fear, </l>
             <l>Though you were born in Rome:' his bloody brow </l>
             <l>With his mail'd hand then wiping, forth he goes, </l>
-            <l n="40">Like to a harvest-man that's task'd to mow </l>
+            <l>Like to a harvest-man that's task'd to mow </l>
             <l>Or all or lose his hire. </l>
           </sp>
           <sp who="cor-37">
@@ -931,39 +931,39 @@
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <l n="50">He'll beat Aufidius' head below his knee </l>
+            <l>He'll beat Aufidius' head below his knee </l>
             <l>And tread upon his neck. <stage type="entrance">Enter VALERIA,
                 with an Usher and Gentlewoman.</stage>
               </l>
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <p part="N">My ladies both, good day to you. </p>
+            <p>My ladies both, good day to you. </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">Sweet madam. </p>
+            <p>Sweet madam. </p>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">I am glad to see your ladyship. </p>
+            <p>I am glad to see your ladyship. </p>
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <p part="N">How do you both? you are manifest house-keepers. What are you sewing here? A fine spot, in good faith. How does your little son ? </p>
+            <p>How do you both? you are manifest house-keepers. What are you sewing here? A fine spot, in good faith. How does your little son ? </p>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">I thank your ladyship; well, good madam. </p>
+            <p>I thank your ladyship; well, good madam. </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">He had rather see the swords, and hear a drum, than
+            <p>He had rather see the swords, and hear a drum, than
               look upon his schoolmaster. </p>
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <p part="N">O' my word, the father's son: I'll swear, 'tis a very pretty boy. O' my troth, I looked upon him o' Wednesday half an hour together: has such a confirmed countence. I saw him run after a gilded butterfly; and when he caught it, he let it go again; and after it
+            <p>O' my word, the father's son: I'll swear, 'tis a very pretty boy. O' my troth, I looked upon him o' Wednesday half an hour together: has such a confirmed countence. I saw him run after a gilded butterfly; and when he caught it, he let it go again; and after it
               again; and over and over he comes, and up again;
               catched it again; or whether his fall enraged him, or
               how 'twas, he did so set his teeth and tear it; O, I
@@ -983,7 +983,7 @@
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <p part="N">Come, lay aside your stitchery; I must have you play
+            <p>Come, lay aside your stitchery; I must have you play
               the idle huswife with me this afternoon. </p>
           </sp>
           <sp who="cor-37">
@@ -992,7 +992,7 @@
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <l n="80">Not out of doors! </l>
+            <l>Not out of doors! </l>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
@@ -1000,82 +1000,82 @@
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">Indeed, no, by your patience: I'll not over the threshold till my lord return from the wars. </p>
+            <p>Indeed, no, by your patience: I'll not over the threshold till my lord return from the wars. </p>
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <p part="N">Fie, you confine yourself most unreasonably: come,
+            <p>Fie, you confine yourself most unreasonably: come,
               you must go visit the good lady that lies in. </p>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">I will wish her speedy strength, and visit her with
+            <p>I will wish her speedy strength, and visit her with
               my prayers; but I cannot go thither. </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">Why, I pray you? </p>
+            <p>Why, I pray you? </p>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">'Tis not to save labour, nor that I want love. <lb n="92" ed="G"/></p>
+            <p>'Tis not to save labour, nor that I want love. <lb n="92" ed="G"/></p>
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <p part="N">You would be another Penelope: yet, they say, all the yarn she spun in Ulysses' absence did but fill Ithaca full of moths. Come; I would your cambric were sensible as your finger, that you might leave pricking it for
+            <p>You would be another Penelope: yet, they say, all the yarn she spun in Ulysses' absence did but fill Ithaca full of moths. Come; I would your cambric were sensible as your finger, that you might leave pricking it for
                 pity. Come, you shall go with us. </p>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">No, good madam, pardon me; indeed, I will not forth.
+            <p>No, good madam, pardon me; indeed, I will not forth.
                 </p>
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <p part="N">In truth, la, go with me; and I'll tell you excellent news of your husband. <lb n="102" ed="G"/></p>
+            <p>In truth, la, go with me; and I'll tell you excellent news of your husband. <lb n="102" ed="G"/></p>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">O, good madam, there can be none yet. </p>
+            <p>O, good madam, there can be none yet. </p>
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <p part="N">Verily, I do not jest with you; there came news from
+            <p>Verily, I do not jest with you; there came news from
               him last night. </p>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">Indeed, madam? </p>
+            <p>Indeed, madam? </p>
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <p part="N">In earnest, it's true; I heard a senator speak it. Thus it is: the Volsces have an army forth; against whom Cominius the general is gone, with one part of our Roman power: your lord and Titus Lartius are set down before their city Corioli; they nothing doubt
+            <p>In earnest, it's true; I heard a senator speak it. Thus it is: the Volsces have an army forth; against whom Cominius the general is gone, with one part of our Roman power: your lord and Titus Lartius are set down before their city Corioli; they nothing doubt
               prevailing and to make it brief wars. This is true,
                 on mine honor; and so, I pray, go with us. </p>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">Give me excuse, good madam; I will obey you in every
+            <p>Give me excuse, good madam; I will obey you in every
               thing hereafter. </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">Let her alone, lady: as she is now, she will but
+            <p>Let her alone, lady: as she is now, she will but
               disease our better mirth. </p>
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <p part="N">In troth, I think she would. Fare you well, then.
+            <p>In troth, I think she would. Fare you well, then.
               Come, good sweet lady. Prithee, Virgilia, turn thy
               solemness out o' door, and go along with us. </p>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">No, at a word, madam; indeed, I must not. I wish you much mirth. </p>
+            <p>No, at a word, madam; indeed, I must not. I wish you much mirth. </p>
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <p part="N">Well, then, farewell. <stage>[Exeunt.</stage>
+            <p>Well, then, farewell. <stage>[Exeunt.</stage>
             </p>
           </sp>
         </div>
@@ -1136,7 +1136,7 @@
           <sp who="cor-6">
             <speaker>Mar.</speaker>
             <l>Then shall we hear their 'larum, and they ours. </l>
-            <l n="11">Now, Mars, I prithee, make us quick in work, </l>
+            <l>Now, Mars, I prithee, make us quick in work, </l>
             <l>That we with smoking swords may march from hence, </l>
             <l>To help our fielded friends! Come, blow thy blast. <stage type="entrance">They sound a parley. Enter two Senators with others on the walls.</stage>
               </l>
@@ -1154,7 +1154,7 @@
             <l>They'll open of themselves. <stage>Alarum afar off.</stage>
               </l>
             <l>Hark you, far off! </l>
-            <l n="21">There is Aufidius; list, what work he makes </l>
+            <l>There is Aufidius; list, what work he makes </l>
             <l part="I">Amongst your cloven army. </l>
           </sp>
           <sp who="cor-6">
@@ -1174,7 +1174,7 @@
             <l>They do disdain us much beyond our thoughts, </l>
             <l>Which makes me sweat with wrath. Come on, my fellows: </l>
             <l>He that retires, I'll take him for a Volsce, </l>
-            <l n="30">And he shall feel mine edge. <stage>Alarum. The Romans are beat
+            <l>And he shall feel mine edge. <stage>Alarum. The Romans are beat
                 back to their trenches.</stage>
               <stage type="entrance"> Re-enter MARCIUS, cursing.</stage>
               </l>
@@ -1190,7 +1190,7 @@
             <l>From slaves that apes would beat! Pluto and hell! </l>
             <l>All hurt behind; backs red, and faces pale </l>
             <l>With fright and agued fear! Mend and charge home, </l>
-            <l n="40">Or, by the fires of heaven, I'll leave the foe </l>
+            <l>Or, by the fires of heaven, I'll leave the foe </l>
             <l>And make my wars on you: look to't: come on: </l>
             <l>If you'll stand fast, we'll beat them to their wives, </l>
             <l>As they us to our trenches followed. <stage>Another alarum. The
@@ -1249,7 +1249,7 @@
             <l>Were not so rich a jewel. Thou wast a soldier </l>
             <l>Even to Cato's wish, not fierce and terrible </l>
             <l>Only in strokes; but, with thy grim looks and </l>
-            <l n="60">The thunder-like percussion of thy sounds, </l>
+            <l>The thunder-like percussion of thy sounds, </l>
             <l>Thou madest thine enemies shake, as if the world </l>
             <l>Were feverous and did tremble. <stage type="entrance">Re-enter
                 MARCIUS, bleeding, assaulted by the enemy.</stage>
@@ -1277,15 +1277,15 @@
           
           <sp who="cor-27">
             <speaker>First Rom.</speaker>
-            <p part="N">This will I carry to Rome. </p>
+            <p>This will I carry to Rome. </p>
           </sp>
           <sp who="cor-26">
             <speaker>Sec. Rom.</speaker>
-            <p part="N">And I this. </p>
+            <p>And I this. </p>
           </sp>
           <sp who="cor-27">
             <speaker>Third Rom.</speaker>
-            <p part="N">A murrain on't! I took this for silver. <stage>Alarum continues
+            <p>A murrain on't! I took this for silver. <stage>Alarum continues
                 still afar off.</stage>
               <stage type="entrance">Enter MARCIUS and TITUS LARTIUS with a
                 trumpet.</stage>
@@ -1297,7 +1297,7 @@
             <l>At a crack'd drachma! Cushions, leaden spoons, </l>
             <l>Irons of a doit, doublets that hangmen would </l>
             <l>Bury with those that wore them, these base slaves, </l>
-            <l n="10">Ere yet the fight be done, pack up: down with them! </l>
+            <l>Ere yet the fight be done, pack up: down with them! </l>
             <l>And hark, what noise the general makes! To him! </l>
             <l>There is the man of my soul's hate, Aufidius, </l>
             <l>Piercing our Romans: then, valiant Titus, take </l>
@@ -1315,7 +1315,7 @@
             <speaker>Mar.</speaker>
             <l part="F">Sir, praise me not; </l>
             <l>My work hath yet not warm'd me: fare you well: </l>
-            <l n="20">The blood I drop is rather physical </l>
+            <l>The blood I drop is rather physical </l>
             <l>Than dangerous to me: to Aufidius thus </l>
             <l part="I">I will appear, and fight. </l>
           </sp>
@@ -1391,7 +1391,7 @@
           <sp who="cor-21">
             <speaker>Mess.</speaker>
             <l part="F">Spies of the Volsces </l>
-            <l n="20">Held me in chase, that I was forced to wheel </l>
+            <l>Held me in chase, that I was forced to wheel </l>
             <l>Three or four miles about, else had I, sir, </l>
             <l part="I">Half an hour since brought my report. 
               </l>
@@ -1472,7 +1472,7 @@
           <sp who="cor-8">
             <speaker>Com.</speaker>
             <l part="F">Marcius, </l>
-            <l n="50">We have at disadvantage fought and did </l>
+            <l>We have at disadvantage fought and did </l>
             <l>Retire to win our purpose. </l>
           </sp>
           <sp who="cor-6">
@@ -1493,7 +1493,7 @@
             <l>By all the battles wherein we have fought, </l>
             <l>By the blood we have shed together, by the vows </l>
             <l>We have made to endure friends, that you directly </l>
-            <l n="60">Set me against Aufidius and his Antiates; </l>
+            <l>Set me against Aufidius and his Antiates; </l>
             <l>And that you not delay the present, but, </l>
             <l>Filling the air with swords advanced and darts, </l>
             <l part="I">We prove this very hour. </l>
@@ -1511,7 +1511,7 @@
             <l part="F">Those are they </l>
             <l>That most are willing: If any such be here— </l>
             <l>As it were sin to doubt—that love this painting </l>
-            <l n="70">Wherein you see me smear'd; if any fear </l>
+            <l>Wherein you see me smear'd; if any fear </l>
             <l>Lesser his person than an ill report; </l>
             <l>If any think brave death outweighs bad life </l>
             <l>And that his country's dearer than himself; </l>
@@ -1602,7 +1602,7 @@
             <l>Alone I fought in your Corioli walls, </l>
             <l>And made what work I pleased: 'tis not my blood </l>
             <l>Wherein thou seest me mask'd; for thy revenge </l>
-            <l part="I" n="11">Wrench up thy power to the highest. </l>
+            <l part="I">Wrench up thy power to the highest. </l>
           </sp>
           <sp who="cor-4">
             <speaker>Auf.</speaker>
@@ -1636,7 +1636,7 @@
             <l>And, glady quaked, hear more; where the dull tribunes, </l>
             <l>That, with the fusty plebeians, hate thine honours, </l>
             <l>Shall say against their hearts 'We thank the gods </l>
-            <l n="10">Our Rome hath such a soldier.' </l>
+            <l>Our Rome hath such a soldier.' </l>
             <l>Yet camest thou to a morsel of this feast, </l>
             <l part="I">Having fully dined before. <stage type="entrance">Enter
                 TITUS LARTIUS, with his power, from the pursuit.</stage>
@@ -1691,7 +1691,7 @@
             <l part="F">I thank you, general; </l>
             <l>But cannot make my heart consent to take </l>
             <l>A bribe to pay my sword: I do refuse it; </l>
-            <l n="40">And stand upon my common part with those </l>
+            <l>And stand upon my common part with those </l>
             <l part="I">That have beheld the doing. <stage>A long flourish.
                 They all cry 'Marcius! Marcius!' cast up their caps and lances:
                 Cominius and Lartius stand bare.</stage>
@@ -1707,7 +1707,7 @@
             <l>Let him be made a coverture for the wars! </l>
             <l>No more, I say! For that I have not wash'd </l>
             <l>My nose that bled, or foil'd some debile wretch,— </l>
-            <l n="50">Which, without note, here's many else have done,— </l>
+            <l>Which, without note, here's many else have done,— </l>
             <l>You shout me forth </l>
             <l>In acclamations hyperbolical; </l>
             <l>As if I loved my little should be dieted </l>
@@ -1721,7 +1721,7 @@
             <l>If 'gainst yourself you be incensed, we'll put you, </l>
             <l>Like one that means his proper harm, in manacles, </l>
             <l>Then reason safely with you. Therefore, be it known, </l>
-            <l n="60">As to us, to all the world, that Caius Marcius </l>
+            <l>As to us, to all the world, that Caius Marcius </l>
             <l>Wears this war's garland: in token of the which, </l>
             <l>My noble steed, known to the camp, I give him, </l>
             <l>With all his trim belonging; and from this time, </l>
@@ -1763,7 +1763,7 @@
           <sp who="cor-6">
             <speaker>Cor.</speaker>
             <l>The gods begin to mock me. I, that now </l>
-            <l n="81">Refused most princely gifts, am bound to beg </l>
+            <l>Refused most princely gifts, am bound to beg </l>
             <l part="I">Of my lord general. </l>
           </sp>
           <sp who="cor-8">
@@ -1827,7 +1827,7 @@
             <l>What good condition can a treaty find </l>
             <l>I' the part that is at mercy? Five times, Marcius, </l>
             <l>I have fought with thee; so often hast thou beat me, </l>
-            <l n="10">And wouldst do so, I think, should we encounter </l>
+            <l>And wouldst do so, I think, should we encounter </l>
             <l>As often as we eat. By the elements, </l>
             <l>If e'er again I meet him beard to beard, </l>
             <l>He's mine, or I am his: mine emulation </l>
@@ -1844,7 +1844,7 @@
             <speaker>Auf.</speaker>
             <l>Bolder, though not so subtle. My valour's poison'd </l>
             <l>With only suffering stain by him; for him </l>
-            <l n="20">Shall fly out of itself: nor sleep nor sanctuary, </l>
+            <l>Shall fly out of itself: nor sleep nor sanctuary, </l>
             <l>Being naked, sick, nor fane nor Capitol, </l>
             <l>The prayers of priests nor time of sacrifice, </l>
             <l>Embarquements all of fury, shall lift up </l>
@@ -1888,16 +1888,16 @@
           
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">The augurer tells me we shall have news to-night.
+            <p>The augurer tells me we shall have news to-night.
                 </p>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
-            <p part="N">Good or bad? </p>
+            <p>Good or bad? </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Not according to the prayer of the people, for they
+            <p>Not according to the prayer of the people, for they
               love not Marcius. </p>
           </sp>
           <sp who="cor-31">
@@ -1906,98 +1906,98 @@
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Pray you, who does the wolf love? </p>
+            <p>Pray you, who does the wolf love? </p>
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
-            <p part="N">The lamb. </p>
+            <p>The lamb. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Ay, to devour him; as the hungry plebeians would the
+            <p>Ay, to devour him; as the hungry plebeians would the
               noble Marcius. <lb n="12" ed="G"/></p>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
-            <p part="N">He's a lamb indeed, that baes like a bear. </p>
+            <p>He's a lamb indeed, that baes like a bear. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">He's a bear indeed, that lives like a lamb. You two
+            <p>He's a bear indeed, that lives like a lamb. You two
               are old men: tell me one thing that I shall ask you.
                 </p>
           </sp>
           <sp who="cor-31 cor-13">
             <speaker>Both.</speaker>
-            <p part="N">Well, sir. </p>
+            <p>Well, sir. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">In what enormity is Marcius poor in, that you two
+            <p>In what enormity is Marcius poor in, that you two
               have not in abundance? </p>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
-            <p part="N">He's poor in no one fault, but stored with all <lb n="22" ed="G"/></p>
+            <p>He's poor in no one fault, but stored with all <lb n="22" ed="G"/></p>
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
-            <p part="N">Especially in pride. </p>
+            <p>Especially in pride. </p>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
-            <p part="N">And topping all others in boasting. </p>
+            <p>And topping all others in boasting. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">This is strange now: do you two know how you are
+            <p>This is strange now: do you two know how you are
               censured here in the city, I mean of us o' the right-hand file? do you? </p>
           </sp>
           <sp who="cor-31 cor-13">
             <speaker>Both.</speaker>
-            <p part="N">Why, how are we censured? </p>
+            <p>Why, how are we censured? </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Because you talk of pride now,—will you not be
+            <p>Because you talk of pride now,—will you not be
               angry? <lb n="30" ed="G"/></p>
           </sp>
           <sp who="cor-31 cor-13">
             <speaker>Both.</speaker>
-            <p part="N">Well, well, sir, well. </p>
+            <p>Well, well, sir, well. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Why, 'tis no great matter; for a very little thief of occasion will rob you of a great deal of patience: give your dispositions the reins, and be angry at your pleasures; at the least, if you take it as a pleasure
+            <p>Why, 'tis no great matter; for a very little thief of occasion will rob you of a great deal of patience: give your dispositions the reins, and be angry at your pleasures; at the least, if you take it as a pleasure
               to you in being so. You blame Marcius for being
               proud? </p>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
-            <p part="N">We do it not alone, sir. </p>
+            <p>We do it not alone, sir. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">I know you can do very little alone; for your helps
+            <p>I know you can do very little alone; for your helps
               are many, or else your actions would grow wondrous single: your abilities are too infant-like for doing much alone. You talk of pride: O that you could turn your eyes toward the napes of your necks, and make but an interior survey of your good selves! O that you
                 could! </p>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
-            <p part="N">What then, sir? </p>
+            <p>What then, sir? </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Why, then you should discover a brace of unmeriting, proud, violent, testy magistrates, alias fools, as
+            <p>Why, then you should discover a brace of unmeriting, proud, violent, testy magistrates, alias fools, as
               any in Rome. </p>
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
-            <p part="N">Menenius, you are known well enough too. <lb n="51" ed="G"/></p>
+            <p>Menenius, you are known well enough too. <lb n="51" ed="G"/></p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">I am known to be a humorous patrician, and one that
+            <p>I am known to be a humorous patrician, and one that
               loves a cup of hot wine with not a drop of allaying Tiber in't; said to be something imperfect in favouring the first complaint; hasty and tinder-like upon too trivial motion; one that converses more with the
               buttock of the night than with the forehead of the
               morning: what I think I utter, and spend my malice in
@@ -2011,11 +2011,11 @@
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
-            <p part="N">Come, sir, come, we know you well enough. </p>
+            <p>Come, sir, come, we know you well enough. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">You know neither me, yourselves, nor any thing. You
+            <p>You know neither me, yourselves, nor any thing. You
               are ambitious for poor knaves' caps and legs: you
               wear out a good wholesome forenoon in hearing a cause
               between an orange-wife and a fosset-seller; and then rejourn the controversy of three pence to a second day of audience. When you are hearing a matter between party and party, if you chance to be pinched with the colic, you make faces like mummers; set up the bloody flag against all patience; and, in roaring for a chamber-pot, dismiss the controversy bleeding, the more entangled by your hearing: all the peace you make in their cause is, calling both
@@ -2024,11 +2024,11 @@
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
-            <p part="N">Come, come, you are well understood to be a perfecter giber for the table than a necessary bencher in the Capitol. </p>
+            <p>Come, come, you are well understood to be a perfecter giber for the table than a necessary bencher in the Capitol. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Our very priests must become mockers, if they shall
+            <p>Our very priests must become mockers, if they shall
               encounter such ridiculous subjects as you are. When you speak best unto the purpose, it is not worth the wagging of your beards; and your beards deserve not so honorable a grave as to stuff a botcher's cushion, or
               to be entombed in an ass's pack-saddle. Yet you must
               be saying, Marcius is proud; who, in a cheap
@@ -2041,123 +2041,123 @@
               <stage type="entrance">Enter VOLUMNIA, VIRGILIA, and
                 VALERIA.</stage>
               </p>
-            <p part="N">How now, my as fair as noble ladies, —and the moon, were she earthly, no nobler,— whither <lb n="109" ed="G"/>do you
+            <p>How now, my as fair as noble ladies, —and the moon, were she earthly, no nobler,— whither <lb n="109" ed="G"/>do you
               follow your eyes so fast? <lb n="110" ed="G"/></p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">Honourable Menenius, my boy Marcius approaches; for
+            <p>Honourable Menenius, my boy Marcius approaches; for
               the love of Juno, let's go. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Ha! Marcius coming home! </p>
+            <p>Ha! Marcius coming home! </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">Ay, worthy Menenius; and with most prosperous approbation. </p>
+            <p>Ay, worthy Menenius; and with most prosperous approbation. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Take my cap, Jupiter, and I thank thee. Hoo!
+            <p>Take my cap, Jupiter, and I thank thee. Hoo!
               Marcius coming home! </p>
           </sp>
           <sp who="cor-39 cor-37">
             <speaker>Vol. Vir.</speaker>
-            <p part="N">Nay, 'tis true. </p>
+            <p>Nay, 'tis true. </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">Look, here's a letter from him: the state hath another, his wife another; and, I think, there's one at home for you. <lb n="121" ed="G"/></p>
+            <p>Look, here's a letter from him: the state hath another, his wife another; and, I think, there's one at home for you. <lb n="121" ed="G"/></p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">I will make my very house reel to-night: a letter
+            <p>I will make my very house reel to-night: a letter
               for me! </p>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">Yes, certain, there's a letter for you; I saw 't. </p>
+            <p>Yes, certain, there's a letter for you; I saw 't. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <l n="131 132">A letter for me! it gives me an estate of seven years' health; in which time I will make a lip at the physician: the most sovereign prescription in Galen is but empiricutic, and, to this preservative, of no better report than a horse-drench. Is he not wounded? he was wont to come home wounded. </l>
+            <l>A letter for me! it gives me an estate of seven years' health; in which time I will make a lip at the physician: the most sovereign prescription in Galen is but empiricutic, and, to this preservative, of no better report than a horse-drench. Is he not wounded? he was wont to come home wounded. </l>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">O, no, no, no. </p>
+            <p>O, no, no, no. </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">O, he is wounded; I thank the gods for 't. </p>
+            <p>O, he is wounded; I thank the gods for 't. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">So do I too, if it be not too much: brings a' victory in his pocket? the wounds become him. </p>
+            <p>So do I too, if it be not too much: brings a' victory in his pocket? the wounds become him. </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">On's brows: Menenius, he comes the third time home
+            <p>On's brows: Menenius, he comes the third time home
               with the oaken garland. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Has he disciplined Aufidius soundly? </p>
+            <p>Has he disciplined Aufidius soundly? </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">Titus Lartius writes, they fought together, but Aufidius got off. <lb n="142" ed="G"/></p>
+            <p>Titus Lartius writes, they fought together, but Aufidius got off. <lb n="142" ed="G"/></p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">And 'twas time for him too, I'll warrant him that:
+            <p>And 'twas time for him too, I'll warrant him that:
               an he had stayed by him, I would not have been so fidiused for all the chests in Corioli, and the gold that's in them. Is the senate possessed of this? </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <l n="152">Good ladies, let's go. Yes, yes, yes; the senate
+            <l>Good ladies, let's go. Yes, yes, yes; the senate
               has letters from the general, wherein he gives my
               son the whole name of the war: he hath in this action outdone his former deeds doubly. </l>
           </sp>
           <sp who="cor-35">
             <speaker>Val.</speaker>
-            <p part="N">In troth, there's wondrous things spoke of him. </p>
+            <p>In troth, there's wondrous things spoke of him. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Wondrous! ay, I warrant you, and not without his
+            <p>Wondrous! ay, I warrant you, and not without his
               true purchasing. </p>
           </sp>
           <sp who="cor-37">
             <speaker>Vir.</speaker>
-            <p part="N">The gods grant them true! </p>
+            <p>The gods grant them true! </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">True! pow, wow. </p>
+            <p>True! pow, wow. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">True! I'll be sworn they are true. Where is he
+            <p>True! I'll be sworn they are true. Where is he
               wounded? <stage>To the Tribunes</stage>
               God save your good worships! Marcius is coming home: he has more cause to be proud. Where
               is he wounded? </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">I' the shoulder and i' the left arm: there will be large cicatrices to show the people, when he shall stand for his place. He received in the repulse of Tarquin seven hurts i' the body. </p>
+            <p>I' the shoulder and i' the left arm: there will be large cicatrices to show the people, when he shall stand for his place. He received in the repulse of Tarquin seven hurts i' the body. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">One i' the neck, and two i' the thigh —there's nine that I know. </p>
+            <p>One i' the neck, and two i' the thigh —there's nine that I know. </p>
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <p part="N">He had, before this last expedition, twenty-five wounds upon him. <lb n="171" ed="G"/></p>
+            <p>He had, before this last expedition, twenty-five wounds upon him. <lb n="171" ed="G"/></p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Now it's twenty-seven: every gash was an enemy's
+            <p>Now it's twenty-seven: every gash was an enemy's
               grave. <stage>A shout and flourish.</stage>
               Hark! the trumpets. 
             </p>
@@ -2166,7 +2166,7 @@
             <speaker>Vol.</speaker>
             
             
-            <p part="N">These are the ushers of Marcius: before him he
+            <p>These are the ushers of Marcius: before him he
               carries noise, and behind him he leaves tears: </p>
             <l>Death, that dark spirit, in's nervy arm doth lie: </l>
             <l>Which, being advanced, declines, and then men die. <stage>A
@@ -2178,7 +2178,7 @@
           </sp>
           <sp who="cor-12">
             <speaker>Her.</speaker>
-            <l n="180">Know, Rome, that all alone Marcius did fight </l>
+            <l>Know, Rome, that all alone Marcius did fight </l>
             <l>Within Corioli gates: where he hath won, </l>
             <l>With fame, a name to Caius Marcius; these </l>
             <l>In honour follows Coriolanus. </l>
@@ -2236,7 +2236,7 @@
           <sp who="cor-35">
             <speaker>Val.</speaker>
             <l>I know not where to turn: O, welcome home: </l>
-            <l n="200">And welcome, general, and ye 're welcome all. </l>
+            <l>And welcome, general, and ye 're welcome all. </l>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
@@ -2303,7 +2303,7 @@
             <l>Are smother'd up, leads fill'd, and ridges horsed </l>
             <l>With variable complexions, all agreeing </l>
             <l>In earnestness to see him: seld-shown flamens </l>
-            <l n="231">Do press among the popular throngs and puff </l>
+            <l>Do press among the popular throngs and puff </l>
             <l>To win a vulgar station: our veil'd dames </l>
             <l>Commit the war of white and damask in </l>
             <l>Their nicely-gawded cheeks to the wanton spoil </l>
@@ -2345,7 +2345,7 @@
             <speaker>Bru.</speaker>
             <l part="F">I heard him swear, </l>
             <l>Were he to stand for consul, never would he </l>
-            <l n="250">Appear i' the market-place nor on him put </l>
+            <l>Appear i' the market-place nor on him put </l>
             <l>The napless vesture of humility; </l>
             <l>Nor, showing, as the manner is, his wounds </l>
             <l part="I">To the people, beg their stinking breaths. </l>
@@ -2409,7 +2409,7 @@
             <speaker>Mess.</speaker>
             <l>You are sent for to the Capitol. 'Tis thought </l>
             <l>That Marcius shall be consul: </l>
-            <l n="279">I have seen the dumb men throng to see him and </l>
+            <l>I have seen the dumb men throng to see him and </l>
             <l>The blind to hear him speak: matrons flung gloves, </l>
             <l>Ladies and maids their scarfs and handkerchers, </l>
             <l>Upon him as he pass'd: the nobles bended, </l>
@@ -2440,33 +2440,33 @@
           
           <sp who="cor-24">
             <speaker>First Off.</speaker>
-            <p part="N">Come, come, they are almost here. How many stand
+            <p>Come, come, they are almost here. How many stand
               for consulships? </p>
           </sp>
           <sp who="cor-24">
             <speaker>Sec. Off.</speaker>
-            <p part="N">Three, they say: but 'tis thought of every one Coriolanus will carry it. </p>
+            <p>Three, they say: but 'tis thought of every one Coriolanus will carry it. </p>
           </sp>
           <sp who="cor-24">
             <speaker>First Off.</speaker>
-            <p part="N">That's a brave fellow; but he's vengeance proud,
+            <p>That's a brave fellow; but he's vengeance proud,
               and loves not the common people. </p>
           </sp>
           <sp who="cor-24">
             <speaker>Sec. Off.</speaker>
-            <p part="N">Faith, there have been many great men that have
+            <p>Faith, there have been many great men that have
               flattered the people, who ne'er loved them; and there be many that they have loved, they know not wherefore; so that, if they love they know not why, they hate upon no better a ground: therefore, for Coriolanus neither to care whether they love or hate him manifests the true knowledge he has in their disposition; and out of his noble carelessness lets them plainly see't. </p>
           </sp>
           <sp who="cor-24">
             <speaker>First Off.</speaker>
-            <p part="N">If he did not care whether he had their love or no,
+            <p>If he did not care whether he had their love or no,
               he waved indifferently 'twixt doing them neither good nor harm: but he seeks their hate with greater devotion than they can render it him; and leaves nothing undone that may fully discover him their opposite. Now, to seem to affect the malice and displeasure
               of the people is as bad as that which he dislikes,
               to flatter them for their love. </p>
           </sp>
           <sp who="cor-24">
             <speaker>Sec. Off.</speaker>
-            <p part="N">He hath deserved worthily of his country: and his
+            <p>He hath deserved worthily of his country: and his
               ascent is not by such easy degrees as those who, having been supple and courteous to the people, bonneted, without any further deed to have them at all into their estimation and report: but he hath so planted his honors in their eyes, and his actions in their
               hearts, that for their tongues to be silent, and not
               confess so much, were a kind of ingrateful injury;
@@ -2476,7 +2476,7 @@
           </sp>
           <sp who="cor-24">
             <speaker>First Off.</speaker>
-            <p part="N">No more of him; he's a worthy man: make way, they
+            <p>No more of him; he's a worthy man: make way, they
               are coming. <stage type="entrance">A sennet. Enter, with Lictors
                 before them, COMINIUS the consul,
                 MENENIUS, CORIOLANUS, Senators, SICINIUS and BRUTUS. The Senators take their places; the Tribunes take their places by themselves.
@@ -2493,7 +2493,7 @@
             <l>Most reverend and grave elders, to desire </l>
             <l>The present consul, and last general </l>
             <l>In our well-found successes, to report </l>
-            <l n="50">A little of that worthy work perform'd </l>
+            <l>A little of that worthy work perform'd </l>
             <l>By Caius Marcius Coriolanus, whom </l>
             <l>We met here both to thank and to remember </l>
             <l part="I">With honours like himself. </l>
@@ -2513,7 +2513,7 @@
           <sp who="cor-31">
             <speaker>Sic.</speaker>
             <l part="F">We are convented </l>
-            <l n="60">Upon a pleasing treaty, and have hearts </l>
+            <l>Upon a pleasing treaty, and have hearts </l>
             <l>Inclinable to honour and advance </l>
             <l part="I">The theme to our assembly. </l>
           </sp>
@@ -2540,7 +2540,7 @@
             <speaker>Men.</speaker>
             <l part="F">He loves your people; </l>
             <l>But tie him not to be their bedfellow. </l>
-            <l n="70">Worthy Cominius, speak. <stage>Coriolanus offers to go
+            <l>Worthy Cominius, speak. <stage>Coriolanus offers to go
                 away.</stage>
               </l>
             <l>Nay, keep your place. </l>
@@ -2574,7 +2574,7 @@
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <l n="80">I had rather have one scratch my head i' the sun </l>
+            <l>I had rather have one scratch my head i' the sun </l>
             <l>When the alarum were struck than idly sit </l>
             <l part="I">To hear my nothings monster'd. <stage>Exit.</stage>
               </l>
@@ -2592,7 +2592,7 @@
             <l>I shall lack voice: the deeds of Coriolanus </l>
             <l>Should not be utter'd feebly. It is held </l>
             <l>That valour is the chiefest virtue, and </l>
-            <l n="90">Most dignifies the haver: if it be, </l>
+            <l>Most dignifies the haver: if it be, </l>
             <l>The man I speak of cannot in the world </l>
             <l>Be singly counterpoised. At sixteen years, </l>
             <l>When Tarquin made a head for Rome, he fought </l>
@@ -2603,7 +2603,7 @@
             <l>An o'er-press'd Roman and i' the consul's view </l>
             <l>Slew three opposers: Tarquin's self he met, </l>
             <l>And struck him on his knee: in that day's feats, </l>
-            <l n="101">When he might act the woman in the scene, </l>
+            <l>When he might act the woman in the scene, </l>
             <l>He proved best man i' the field, and for his meed </l>
             <l>Was brow-bound with the oak. His pupil age </l>
             <l>Man-enter'd thus, he waxed like a sea, </l>
@@ -2612,7 +2612,7 @@
             <l>Before and in Corioli, let me say, </l>
             <l>I cannot speak him home: he stopp'd the fliers; </l>
             <l>And by his rare example made the coward </l>
-            <l n="110">Turn terror into sport: as weeds before </l>
+            <l>Turn terror into sport: as weeds before </l>
             <l>A vessel under sail, so men obey'd </l>
             <l>And fell below his stem: his sword, death's stamp, </l>
             <l>Where it did mark, it took; from face to foot </l>
@@ -2622,7 +2622,7 @@
             <l>With shunless destiny; aidless came off, </l>
             <l>And with sudden re-inforcement struck </l>
             <l>Corioli like a planet: now all's his: </l>
-            <l n="120">When, by and by, the din of war gan pierce </l>
+            <l>When, by and by, the din of war gan pierce </l>
             <l>His ready sense; then straight his doubled spirit </l>
             <l>Re-quicken'd what in flesh was fatigate, </l>
             <l>And to the battle came he; where he did </l>
@@ -2643,7 +2643,7 @@
           <sp who="cor-8">
             <speaker>Com.</speaker>
             <l part="F">Our spoils he kick'd at, </l>
-            <l n="130">And look'd upon things precious as they were </l>
+            <l>And look'd upon things precious as they were </l>
             <l>The common muck of the world: he covets less </l>
             <l>Than misery itself would give; rewards </l>
             <l>His deeds with doing them, and is content </l>
@@ -2704,7 +2704,7 @@
             <speaker>Cor.</speaker>
             <l part="F">It is a part </l>
             <l>That I shall blush in acting, and might well </l>
-            <l part="I" n="150">Be taken from the people. </l>
+            <l part="I">Be taken from the people. </l>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
@@ -2732,7 +2732,7 @@
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
-            <l n="160">You see how he intends to use the people. </l>
+            <l>You see how he intends to use the people. </l>
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
@@ -2758,16 +2758,16 @@
           
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">Once, if he do require our voices, we ought not to
+            <p>Once, if he do require our voices, we ought not to
               deny him. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">We may, sir, if we will. </p>
+            <p>We may, sir, if we will. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Third Cit.</speaker>
-            <p part="N">We have power in ourselves to do it, but it is a
+            <p>We have power in ourselves to do it, but it is a
               power that we have no power to do; for if he show us his wounds and tell us his deeds, we are to put our tongues into those wounds and speak for them; so, if he tell us his noble deeds, we must also tell him our
               noble acceptance of them. Ingratitude is monstrous,
               and for the multitude to be ingrateful, were to make
@@ -2777,47 +2777,47 @@
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">And to make us no better thought of, a little help
+            <p>And to make us no better thought of, a little help
               will serve; for once we stood up about the corn, he
               himself stuck not to call us the many-headed multitude. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Third Cit.</speaker>
-            <p part="N">We have been called so of many; not that our heads
+            <p>We have been called so of many; not that our heads
               are some brown, some black, some auburn, some bald,
               but that our wits are so diversely coloured: and truly I think if all our wits were to issue out of one skull, they would fly east, west, north, south, and their consent of one direct way should be at
               once to all the points o' the compass. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">Think you so? Which way do you judge my wit would
+            <p>Think you so? Which way do you judge my wit would
               fly? </p>
           </sp>
           <sp who="cor-7">
             <speaker>Third Cit.</speaker>
-            <p part="N">Nay, your wit will not so soon out as another man's
+            <p>Nay, your wit will not so soon out as another man's
               will; 'tis strongly wedged up in a block-head, but if it were at liberty, 'twould, sure, southward. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">Why that way? </p>
+            <p>Why that way? </p>
           </sp>
           <sp who="cor-7">
             <speaker>Third Cit.</speaker>
-            <p part="N">To lose itself in a fog, where being three parts
+            <p>To lose itself in a fog, where being three parts
               melted away with rotten dews, the fourth would return for conscience sake, to help to get thee a wife. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">You are never without your tricks: you may, you
+            <p>You are never without your tricks: you may, you
               may. <lb n="40" ed="G"/></p>
           </sp>
           <sp who="cor-7">
             <speaker>Third Cit.</speaker>
-            <p part="N">Are you all resolved to give your voices? But that's no matter, the greater part carries it. I say, if he would incline to the people, there was never a worthier man. <stage type="entrance">Enter CORIOLANUS
+            <p>Are you all resolved to give your voices? But that's no matter, the greater part carries it. I say, if he would incline to the people, there was never a worthier man. <stage type="entrance">Enter CORIOLANUS
                 in a gown of humility, with MENENIUS.</stage>
               </p>
-            <p part="N">Here he comes, and in the gown of humility: mark his behavior. We are not to stay all together, but to come by him where he stands, by ones, by twos, and by threes. He's to make his requests by particulars; wherein
+            <p>Here he comes, and in the gown of humility: mark his behavior. We are not to stay all together, but to come by him where he stands, by ones, by twos, and by threes. He's to make his requests by particulars; wherein
               every one of us has a single honour, in giving him
               our own voices with our own tongues: therefore follow me, and I'll direct you how you shall go by him.</p>
           </sp>
@@ -2825,7 +2825,7 @@
             <speaker>All.</speaker>
             
             
-            <p part="N">Content, content. <stage>Exeunt citizens.</stage>
+            <p>Content, content. <stage>Exeunt citizens.</stage>
               </p>
           </sp>
           <sp who="cor-20">
@@ -2873,84 +2873,84 @@
           </sp>
           <sp who="cor-7">
             <speaker>Third Cit.</speaker>
-            <p part="N">We do, sir; tell us what hath brought you to't. <lb n="71" ed="G"/></p>
+            <p>We do, sir; tell us what hath brought you to't. <lb n="71" ed="G"/></p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Mine own desert. </p>
+            <p>Mine own desert. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">Your own desert! </p>
+            <p>Your own desert! </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Ay, but not mine own desire. </p>
+            <p>Ay, but not mine own desire. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Third Cit.</speaker>
-            <p part="N">How not your own desire? </p>
+            <p>How not your own desire? </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">No, sir, 'twas never my desire yet to trouble the poor with begging. </p>
+            <p>No, sir, 'twas never my desire yet to trouble the poor with begging. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Third Cit.</speaker>
-            <p part="N">You must think, if we give you any thing, we hope
+            <p>You must think, if we give you any thing, we hope
               to gain by you. </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Well then, I pray, your price o' the consulship? <lb n="81" ed="G"/></p>
+            <p>Well then, I pray, your price o' the consulship? <lb n="81" ed="G"/></p>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">The price is to ask it kindly. </p>
+            <p>The price is to ask it kindly. </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Kindly! Sir, I pray, let me ha't: I have wounds to show you, which shall be yours in private. Your good voice, sir; what say you? </p>
+            <p>Kindly! Sir, I pray, let me ha't: I have wounds to show you, which shall be yours in private. Your good voice, sir; what say you? </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">You shall ha't, worthy sir. </p>
+            <p>You shall ha't, worthy sir. </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">A match, sir. There's in all two worthy voices begged. I have your alms: adieu. </p>
+            <p>A match, sir. There's in all two worthy voices begged. I have your alms: adieu. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Third Cit.</speaker>
-            <p part="N">But this is something odd. </p>
+            <p>But this is something odd. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">And 'twere to give again,—but 'tis no matter. <stage>Exeunt the three Citizens. </stage>
+            <p>And 'twere to give again,—but 'tis no matter. <stage>Exeunt the three Citizens. </stage>
               <stage type="entrance">Re-enter two other Citizens.</stage>
               </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Pray you now, if it may stand with the tune of your
+            <p>Pray you now, if it may stand with the tune of your
               voices that I may be consul, I have here the customary gown. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Fourth Cit.</speaker>
-            <p part="N">You have deserved nobly of your country, and you
+            <p>You have deserved nobly of your country, and you
               have not deserved nobly. </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Your enigma? </p>
+            <p>Your enigma? </p>
           </sp>
           <sp who="cor-7">
             <speaker>Fourth Cit.</speaker>
-            <p part="N">You have been a scourge to her enemies, you have been a rod to her friends; you have not indeed loved the common people. </p>
+            <p>You have been a scourge to her enemies, you have been a rod to her friends; you have not indeed loved the common people. </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">You should account me the more virtuous that I have
+            <p>You should account me the more virtuous that I have
               not been common in my love. I will, sir, flatter my
               sworn brother, the people, to learn a dearer estimation of them; 'tis a condition they account gentle: and since the wisdom of their choice is rather to have my hat than my heart, I will practice the insinuating
                 nod and be off to them most counterfeitly; that is, sir, I will counterfeit the bewitchment of some popular man and give it bountiful
@@ -2959,27 +2959,27 @@
           </sp>
           <sp who="cor-7">
             <speaker>Fifth Cit.</speaker>
-            <p part="N">We hope to find you our friend; and therefore give
+            <p>We hope to find you our friend; and therefore give
               you our voices heartily. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Fourth Cit.</speaker>
-            <p part="N">You have received many wounds for your country. </p>
+            <p>You have received many wounds for your country. </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">I will not seal your knowledge with showing them. I
+            <p>I will not seal your knowledge with showing them. I
               will make much of your voices, and so trouble you no
               further. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Both Cit.</speaker>
-            <p part="N">The gods give you joy, sir, heartily! <stage>Exeunt.</stage>
+            <p>The gods give you joy, sir, heartily! <stage>Exeunt.</stage>
               </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <l n="120">Most sweet voices! </l>
+            <l>Most sweet voices! </l>
             <l>Better it is to die, better to starve, </l>
             <l>Than crave the hire which first we do deserve. </l>
             <l>Why in this woolvish toge should I stand here, </l>
@@ -2990,7 +2990,7 @@
             <l>And mountainous error be too highly heapt </l>
             <l>For truth to o'er-peer. Rather than fool it so, </l>
             <l>Let the high office and the honour go </l>
-            <l n="131">To one that would do this. I am half through; </l>
+            <l>To one that would do this. I am half through; </l>
             <l>The one part suffer'd, the other will I do. <stage type="entrance"> Re-enter three Citizens more.</stage>
               </l>
             <l>Here come more voices. </l>
@@ -3003,21 +3003,21 @@
           </sp>
           <sp who="cor-7">
             <speaker>Sixth Cit.</speaker>
-            <p part="N">He has done nobly, and cannot <lb n="140" ed="G"/>go without any honest man's voice. <lb n="141" ed="G"/></p>
+            <p>He has done nobly, and cannot <lb n="140" ed="G"/>go without any honest man's voice. <lb n="141" ed="G"/></p>
           </sp>
           <sp who="cor-7">
             <speaker>Seventh Cit.</speaker>
-            <p part="N">Therefore let him be consul: the gods give him joy,
+            <p>Therefore let him be consul: the gods give him joy,
               and make him good friend to the people! </p>
           </sp>
           <sp who="cor-7">
             <speaker>All Cit.</speaker>
-            <p part="N">Amen, amen. God save thee, noble consul! <stage>Exeunt. </stage>
+            <p>Amen, amen. God save thee, noble consul! <stage>Exeunt. </stage>
               </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Worthy voices! <stage type="entrance">Re-enter MENENIUS, with
+            <p>Worthy voices! <stage type="entrance">Re-enter MENENIUS, with
                 BRUTUS and SICINIUS.</stage>
               </p>
           </sp>
@@ -3071,7 +3071,7 @@
             <speaker>Sic.</speaker>
             <l part="F">Fare you well. <stage type="exit">Exeunt Coriolanus and Menenius.</stage>
               </l>
-            <l n="160">He has it now, and by his looks methinks </l>
+            <l>He has it now, and by his looks methinks </l>
             <l>'Tis warm at's heart. </l>
           </sp>
           <sp who="cor-13">
@@ -3105,7 +3105,7 @@
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <l n="170">No, 'tis his kind of speech: he did not mock us. </l>
+            <l>No, 'tis his kind of speech: he did not mock us. </l>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
@@ -3128,7 +3128,7 @@
             <l>'I would be consul,' says he: 'aged custom, </l>
             <l>But by your voices, will not so permit me; </l>
             <l>Your voices therefore.' When we granted that, </l>
-            <l n="180">Here was 'I thank you for your voices: thank you: </l>
+            <l>Here was 'I thank you for your voices: thank you: </l>
             <l>Your most sweet voices: now you have left your voices, </l>
             <l>I have no further with you.' Was not this mockery ? </l>
           </sp>
@@ -3174,7 +3174,7 @@
             <l part="F">Did you perceive </l>
             <l>He did solicit you in free contempt </l>
             <l>When he did need your loves, and do you think </l>
-            <l n="211">That his contempt shall not be bruising to you, </l>
+            <l>That his contempt shall not be bruising to you, </l>
             <l>When he hath power to crush? Why, had your bodies </l>
             <l>No heart among you? or had you tongues to cry </l>
             <l part="I">Against the rectorship of judgement? </l>
@@ -3193,7 +3193,7 @@
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
             <l>And will deny him: </l>
-            <l n="220">I'll have five hundred voices of that sound. </l>
+            <l>I'll have five hundred voices of that sound. </l>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
@@ -3214,7 +3214,7 @@
             <l>Your ignorant election; enforce his pride, </l>
             <l>And his old hate unto you; besides, forget not </l>
             <l>With what contempt he wore the humble weed, </l>
-            <l n="231">How in his suit he scorn'd you; but your loves, </l>
+            <l>How in his suit he scorn'd you; but your loves, </l>
             <l>Thinking upon his services, took from you </l>
             <l>The apprehension of his present portance, </l>
             <l>Which most gibingly, ungravely, he did fashion </l>
@@ -3232,7 +3232,7 @@
             <l part="F">Say, you chose him </l>
             <l>More after our commandment than as guided </l>
             <l>By your own true affections, and that your minds, </l>
-            <l n="241">Pre-occupied with what you rather must do </l>
+            <l>Pre-occupied with what you rather must do </l>
             <l>Than what you should, made you against the grain </l>
             <l>To voice him consul: lay the fault on us. </l>
           </sp>
@@ -3244,7 +3244,7 @@
             <l>The noble house o' the Marcians, from whence came </l>
             <l>That Ancus Marcius, Numa's daughter's son, </l>
             <l>Who, after great Hostilius, here was king; </l>
-            <l n="250">Of the same house Publius and Quintus were, </l>
+            <l>Of the same house Publius and Quintus were, </l>
             <l>That our best water brought by conduits hither; </l>
             <l>And [Censorinus,] nobly named so, </l>
             <l>Twice being [by the people chosen] censor, </l>
@@ -3334,7 +3334,7 @@
           </sp>
           <sp who="cor-15">
             <speaker>Lart.</speaker>
-            <l n="10">On safe-guard he came to me; and did curse </l>
+            <l>On safe-guard he came to me; and did curse </l>
             <l>Against the Volsces, for they had so vilely </l>
             <l>Yielded the town: he is retired to Antium. </l>
           </sp>
@@ -3402,7 +3402,7 @@
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
-            <l n="30">Cominius, no. </l>
+            <l>Cominius, no. </l>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
@@ -3436,7 +3436,7 @@
           <sp who="cor-6">
             <speaker>Cor.</speaker>
             <l>It is a purposed thing, and grows by plot, </l>
-            <l n="40">To curb the will of the nobility: </l>
+            <l>To curb the will of the nobility: </l>
             <l>Suffer 't, and live with such as cannot rule </l>
             <l part="I">Nor ever will be ruled. </l>
           </sp>
@@ -3471,7 +3471,7 @@
           <sp who="cor-13">
             <speaker>Bru.</speaker>
             <l part="F">Not unlike, </l>
-            <l n="50">Each way, to better yours. </l>
+            <l>Each way, to better yours. </l>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
@@ -3495,7 +3495,7 @@
           <sp who="cor-8">
             <speaker>Com.</speaker>
             <l>The people are abused; set on. This paltering </l>
-            <l n="60">Becomes not Rome, nor has Coriolanus </l>
+            <l>Becomes not Rome, nor has Coriolanus </l>
             <l>Deserved this so dishonour'd rub, laid falsely </l>
             <l part="I">I' the plain way of his merit. </l>
           </sp>
@@ -3519,7 +3519,7 @@
             <l>For the mutable, rank-scented many, let them </l>
             <l>Regard me as I do not flatter, and </l>
             <l>Therein behold themselves: I say again, </l>
-            <l n="70">In soothing them, we nourish 'gainst our senate </l>
+            <l>In soothing them, we nourish 'gainst our senate </l>
             <l>The cockle of rebellion, insolence, sedition, </l>
             <l>Which we ourselves have plough'd for, sow'd, and scatter'd, </l>
             <l>By mingling them with us, the honour'd number, </l>
@@ -3541,7 +3541,7 @@
             <l>Not fearing outward force, so shall my lungs </l>
             <l>Coin words till their decay against those measles, </l>
             <l>Which we disdain should tetter us, yet sought </l>
-            <l part="I" n="80">The very way to catch them. </l>
+            <l part="I">The very way to catch them. </l>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
@@ -3573,7 +3573,7 @@
           <sp who="cor-6">
             <speaker>Cor.</speaker>
             <l part="F">Shall remain! </l>
-            <l n="90">Hear you this Triton of the minnows? mark you </l>
+            <l>Hear you this Triton of the minnows? mark you </l>
             <l part="I">His absolute 'shall'? </l>
           </sp>
           <sp who="cor-8">
@@ -3591,7 +3591,7 @@
             <l>To say he'll turn your current in a ditch, </l>
             <l>And make your channel his? If he have power, </l>
             <l>Then vail your ignorance; if none, awake </l>
-            <l n="100">Your dangerous lenity. If you are learn'd, </l>
+            <l>Your dangerous lenity. If you are learn'd, </l>
             <l>Be not as common fools; if you are not, </l>
             <l>Let them have cushions by you. You are plebeians, </l>
             <l>If they be senators: and they are no less, </l>
@@ -3601,7 +3601,7 @@
             <l>His popular 'shall,' against a graver bench </l>
             <l>Than ever frown'd in Greece. By Jove himself! </l>
             <l>It makes the consuls base: and my soul aches </l>
-            <l n="110">To know, when two authorities are up, </l>
+            <l>To know, when two authorities are up, </l>
             <l>Neither supreme, how soon confusion </l>
             <l>May enter 'twixt the gap of both and take </l>
             <l part="I">The one by the other. </l>
@@ -3644,7 +3644,7 @@
             <l>Most valour, spoke not for them: the accusation </l>
             <l>Which they have often made against the senate, </l>
             <l>All cause unborn, could never be the motive </l>
-            <l n="131">Of our so frank donation. Well, what then? </l>
+            <l>Of our so frank donation. Well, what then? </l>
             <l>How shall this bisson multitude digest </l>
             <l>The senate's courtesy? Let deeds express </l>
             <l>What's like to be their words: 'We did request it; </l>
@@ -3661,7 +3661,7 @@
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
-            <l part="I" n="140">Enough, with over-measure. </l>
+            <l part="I">Enough, with over-measure. </l>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
@@ -3674,7 +3674,7 @@
             <l>Of general ignorance,—it must omit </l>
             <l>Real necessities, and give way the while </l>
             <l>To unstable slightness: purpose so barr'd, it follows, </l>
-            <l n="150">Nothing is done to purpose. Therefore, beseech you,— </l>
+            <l>Nothing is done to purpose. Therefore, beseech you,— </l>
             <l>You that will be less fearful than discreet, </l>
             <l>That love the fundamental part of state </l>
             <l>More than you doubt the change on't, that prefer </l>
@@ -3686,7 +3686,7 @@
             <l>Mangles true judgement and bereaves the state </l>
             <l>Of that integrity which should become't, </l>
             <l>Not having the power to do the good it would, </l>
-            <l part="I" n="161">For the ill which doth control't. </l>
+            <l part="I">For the ill which doth control't. </l>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
@@ -3704,7 +3704,7 @@
             <l>On whom depending, their obedience fails </l>
             <l>To the greater bench: in a rebellion, </l>
             <l>When what's not meet, but what must be was law, </l>
-            <l n="170">Then were they chosen: in a better hour, </l>
+            <l>Then were they chosen: in a better hour, </l>
             <l>Let what is meet be said it must be meet, </l>
             <l>And throw their power i' the dust. </l>
           </sp>
@@ -3746,7 +3746,7 @@
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <l n="180">Hence, rotten thing! or I shall shake thy bones </l>
+            <l>Hence, rotten thing! or I shall shake thy bones </l>
             <l part="I">Out of thy garments. </l>
           </sp>
           <sp who="cor-31">
@@ -3784,7 +3784,7 @@
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <l n="190">What is about to be? I am out of breath; </l>
+            <l>What is about to be? I am out of breath; </l>
             <l>Confusion's near; I cannot speak. You, tribunes </l>
             <l>To the people! Coriolanus, patience! </l>
             <l part="I">Speak, good Sicinius. </l>
@@ -3881,7 +3881,7 @@
             <stage>To Brutus</stage>
             <l>Be that you seem, truly your country's friend, </l>
             <l>And temperately proceed to what you would </l>
-            <l part="I" n="220">Thus violently redress. </l>
+            <l part="I">Thus violently redress. </l>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
@@ -3954,7 +3954,7 @@
             <speaker>Cor.</speaker>
             <l>I would they were barbarians—as they are, </l>
             <l>Though in Rome litter'd—not Romans—as they are not, </l>
-            <l part="I" n="240">Though calved i' the porch o' the Capitol— </l>
+            <l part="I">Though calved i' the porch o' the Capitol— </l>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
@@ -3979,7 +3979,7 @@
             <l>Against a falling fabric. Will you hence, </l>
             <l>Before the tag return? whose rage doth rend </l>
             <l>Like interrupted waters and o'erbear </l>
-            <l part="I" n="250">What they are used to bear. </l>
+            <l part="I">What they are used to bear. </l>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
@@ -4002,7 +4002,7 @@
             <l>His nature is too noble for the world: </l>
             <l>He would not flatter Neptune for his trident, </l>
             <l>Or Jove for's power to thunder. His heart's his mouth: </l>
-            <l n="259">What his breast forges, that his tongue must vent; </l>
+            <l>What his breast forges, that his tongue must vent; </l>
             <l>And, being angry, does forget that ever </l>
             <l>He heard the name of death.<stage>A noise within.</stage>
               </l>
@@ -4034,7 +4034,7 @@
             <l>With rigorous hands: he hath resisted law, </l>
             <l>And therefore law shall scorn him further trial </l>
             <l>Than the severity of the public power </l>
-            <l part="I" n="270">Which he so sets at nought. </l>
+            <l part="I">Which he so sets at nought. </l>
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
@@ -4076,7 +4076,7 @@
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <l part="I" n="280">The consul Coriolanus. </l>
+            <l part="I">The consul Coriolanus. </l>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
@@ -4100,7 +4100,7 @@
             <l>This viperous traitor: to eject him hence </l>
             <l>Were but one danger, and to keep him here </l>
             <l>Our certain death: therefore it is decreed </l>
-            <l n="290">He dies to-night. </l>
+            <l>He dies to-night. </l>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
@@ -4120,7 +4120,7 @@
             <l>Mortal, to cut it off; to cure it, easy. </l>
             <l>What has he done to Rome that's worthy death? </l>
             <l>Killing our enemies, the blood he hath lost— </l>
-            <l n="301">Which, I dare vouch, is more than that he hath, </l>
+            <l>Which, I dare vouch, is more than that he hath, </l>
             <l>By many an ounce—he dropp'd it for his country; </l>
             <l>And what is left, to lose it by his country, </l>
             <l>Were to us all, that do't and suffer it, </l>
@@ -4144,7 +4144,7 @@
           <sp who="cor-13">
             <speaker>Bru.</speaker>
             <l part="F">We'll hear no more. </l>
-            <l n="310">Pursue him to his house, and pluck him thence; </l>
+            <l>Pursue him to his house, and pluck him thence; </l>
             <l>Lest his infection, being of catching nature, </l>
             <l part="I">Spread further. </l>
           </sp>
@@ -4165,7 +4165,7 @@
             <speaker>Sic.</speaker>
             <l>What do ye talk? </l>
             <l>Have we not had a taste of his obedience? </l>
-            <l n="320">Our ædiles smote? ourselves resisted? Come. </l>
+            <l>Our ædiles smote? ourselves resisted? Come. </l>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
@@ -4239,7 +4239,7 @@
           <sp who="cor-6">
             <speaker>Cor.</speaker>
             <l>I muse my mother </l>
-            <l n="9">Does not approve me further, who was wont </l>
+            <l>Does not approve me further, who was wont </l>
             <l>To call them woollen vassals, things created </l>
             <l>To buy and sell with groats, to show bare heads </l>
             <l>In congregations, to yawn, be still and wonder, </l>
@@ -4263,7 +4263,7 @@
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <l n="20">You might have been enough the man you are, </l>
+            <l>You might have been enough the man you are, </l>
             <l>With striving less to be so: lesser had been </l>
             <l>The thwartings of your dispositions, if </l>
             <l>You had not show'd them how ye were disposed </l>
@@ -4293,7 +4293,7 @@
           <sp who="cor-39">
             <speaker>Vol.</speaker>
             <l part="F">Pray, be counsell'd: </l>
-            <l n="30">I have a heart as little apt as yours, </l>
+            <l>I have a heart as little apt as yours, </l>
             <l>But yet a brain that leads my use of anger </l>
             <l part="I">To better vantage. </l>
           </sp>
@@ -4349,7 +4349,7 @@
             <l>If it be honour in your wars to seem </l>
             <l>The same you are not, which, for your best ends, </l>
             <l>You adopt your policy, how is it less or worse, </l>
-            <l n="50">That it shall hold companionship in peace </l>
+            <l>That it shall hold companionship in peace </l>
             <l>With honour, as in war, since that to both </l>
             <l part="I">It stands in like request? </l>
           </sp>
@@ -4367,7 +4367,7 @@
             <l>Of no allowance to your bosom's truth. </l>
             <l>Now, this no more dishonours you at all </l>
             <l>Than to take in a town with gentle words, </l>
-            <l n="61">Which else would put you to your fortune and </l>
+            <l>Which else would put you to your fortune and </l>
             <l>The hazard of much blood. </l>
             <l>I would dissemble with my nature where </l>
             <l>My fortunes and my friends at stake required </l>
@@ -4381,7 +4381,7 @@
           <sp who="cor-20">
             <speaker>Men.</speaker>
             <l part="F">Noble lady! </l>
-            <l n="71">Come, go with us; speak fair: you may salve so, </l>
+            <l>Come, go with us; speak fair: you may salve so, </l>
             <l>Not what is dangerous present, but the loss </l>
             <l part="I">Of what is past. </l>
           </sp>
@@ -4394,7 +4394,7 @@
             <l>Action is eloquence, and the eyes of the ignorant </l>
             <l>More learned than the ears—waving thy head, </l>
             <l>Which often, thus, correcting thy stout heart, </l>
-            <l n="80">Now humble as the ripest mulberry </l>
+            <l>Now humble as the ripest mulberry </l>
             <l>That will not hold the handling: or say to them, </l>
             <l>Thou art their soldier, and being bred in broils </l>
             <l>Hast not the soft way which, thou dost confess, </l>
@@ -4486,7 +4486,7 @@
             <l>Thy dangerous stoutness, for I mock at death </l>
             <l>With as big heart as thou. Do as thou list. </l>
             <l>Thy valiantness was mine, thou suck'dst it from me, </l>
-            <l part="I" n="130">But owe thy pride thyself. </l>
+            <l part="I">But owe thy pride thyself. </l>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
@@ -4507,7 +4507,7 @@
           <sp who="cor-8">
             <speaker>Com.</speaker>
             <l>Away! the tribunes do attend you: arm yourself </l>
-            <l n="140">To answer mildly; for they are prepared </l>
+            <l>To answer mildly; for they are prepared </l>
             <l>With accusations, as I hear, more strong </l>
             <l>Than are upon you yet. </l>
           </sp>
@@ -4562,7 +4562,7 @@
           <sp who="cor-31">
             <speaker>Sic.</speaker>
             <l part="F">Have you a catalogue </l>
-            <l n="10">Of all the voices that we have procured </l>
+            <l>Of all the voices that we have procured </l>
             <l part="I">Set down by the poll? </l>
           </sp>
           <sp who="cor-2">
@@ -4616,7 +4616,7 @@
             <l>Of contradiction: being once chafed, he cannot </l>
             <l>Be rein'd again to temperance; then he speaks </l>
             <l>What's in his heart; and that is there which looks </l>
-            <l part="I" n="30">With us to break his neck. 
+            <l part="I">With us to break his neck. 
               </l>
           </sp>
           <sp who="cor-31">
@@ -4650,7 +4650,7 @@
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
-            <l n="40">Draw near, ye people. </l>
+            <l>Draw near, ye people. </l>
           </sp>
           <sp who="cor-2">
             <speaker>Æd.</speaker>
@@ -4684,7 +4684,7 @@
           <sp who="cor-20">
             <speaker>Men.</speaker>
             <l>Lo, citizens, he says he is content: </l>
-            <l n="50">The warlike service he has done, consider; think </l>
+            <l>The warlike service he has done, consider; think </l>
             <l>Upon the wounds his body bears, which show </l>
             <l part="I">Like graves i' the holy churchyard. </l>
           </sp>
@@ -4709,7 +4709,7 @@
           <sp who="cor-6">
             <speaker>Cor.</speaker>
             <l>What is the matter </l>
-            <l n="60">That being pass'd for consul with full voice, </l>
+            <l>That being pass'd for consul with full voice, </l>
             <l>I am so dishonour'd that the very hour </l>
             <l part="I">You take it off again? </l>
           </sp>
@@ -4740,7 +4740,7 @@
             <speaker>Cor.</speaker>
             <l>The fires i' the lowest hell fold-in the people! </l>
             <l>Call me their traitor! Thou injurious tribune! </l>
-            <l n="71">Within thine eyes sat twenty thousand deaths, </l>
+            <l>Within thine eyes sat twenty thousand deaths, </l>
             <l>In thy hands clutch'd as many millions, in </l>
             <l>Thy lying tongue both numbers, I would say </l>
             <l>'Thou liest' unto thee with a voice as free </l>
@@ -4760,7 +4760,7 @@
             <l>We need not put new matter to his charge: </l>
             <l>What you have seen him do and heard him speak, </l>
             <l>Beating your officers, cursing yourselves, </l>
-            <l n="80">Opposing laws with strokes and here defying </l>
+            <l>Opposing laws with strokes and here defying </l>
             <l>Those whose great power must try him; even this, </l>
             <l>So criminal and in such capital kind, </l>
             <l part="I">Deserves the extremest death. </l>
@@ -4794,7 +4794,7 @@
             <speaker>Cor.</speaker>
             <l part="F">I'll know no further: </l>
             <l>Let them pronounce the steep Tarpeian death, </l>
-            <l n="90">Vagabond exile, flaying, pent to linger </l>
+            <l>Vagabond exile, flaying, pent to linger </l>
             <l>But with a grain a day, I would not buy </l>
             <l>Their mercy at the price of one fair word; </l>
             <l>Nor check my courage for what they can give, </l>
@@ -4808,7 +4808,7 @@
             <l>To pluck away their power, as now at last </l>
             <l>Given hostile strokes, and that not in the presence </l>
             <l>Of dreaded justice, but on the ministers </l>
-            <l n="100">That do distribute it; in the name o' the people </l>
+            <l>That do distribute it; in the name o' the people </l>
             <l>And in the power of us the tribunes, we, </l>
             <l>Even from this instant, banish him our city, </l>
             <l>In peril of precipitation </l>
@@ -4852,7 +4852,7 @@
           </sp>
           <sp who="cor-7">
             <speaker>Citizens.</speaker>
-            <l n="120">It shall be so, it shall be so. </l>
+            <l>It shall be so, it shall be so. </l>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
@@ -4865,7 +4865,7 @@
             <l>Your enemies, with nodding of their plumes, </l>
             <l>Fan you into despair! Have the power still </l>
             <l>To banish your defenders; till at length </l>
-            <l n="130">Your ignorance, which finds not till it feels, </l>
+            <l>Your ignorance, which finds not till it feels, </l>
             <l>Making not reservation of yourselves, </l>
             <l>Still your own foes, deliver you as most </l>
             <l>Abated captives to some nation </l>
@@ -4889,7 +4889,7 @@
           <sp who="cor-31">
             <speaker>Sic.</speaker>
             <l>Go, see him out at gates, and follow him, </l>
-            <l n="140">As he hath follow'd you, with all despite; </l>
+            <l>As he hath follow'd you, with all despite; </l>
             <l>Give him deserved vexation. Let a guard </l>
             <l>Attend us through the city. </l>
           </sp>
@@ -4923,7 +4923,7 @@
             <l>That when the sea was calm all boats alike </l>
             <l>Show'd mastership in floating; fortune's blows, </l>
             <l>When most struck home, being gentle wounded, craves </l>
-            <l n="10">A noble cunning: you were used to load me </l>
+            <l>A noble cunning: you were used to load me </l>
             <l>With precepts that would make invincible </l>
             <l>The heart that conn'd them. </l>
           </sp>
@@ -4947,7 +4947,7 @@
             <l>Resume that spirit, when you were wont to say, </l>
             <l>If you had been the wife of Hercules, </l>
             <l>Six of his labours you 'ld have done, and saved </l>
-            <l n="20">Your husband so much sweat. Cominius, </l>
+            <l>Your husband so much sweat. Cominius, </l>
             <l>Droop not; adieu. Farewell, my wife, my mother: </l>
             <l>I'll do well yet. Thou old and true Menenius, </l>
             <l>Thy tears are salter than a younger man's, </l>
@@ -4957,7 +4957,7 @@
             <l>'Tis fond to wail inevitable strokes, </l>
             <l>As 'tis to laugh at 'em. My mother, you wot well </l>
             <l>My hazards still have been your solace: and </l>
-            <l n="30">Believe 't not lightly—though I go alone, </l>
+            <l>Believe 't not lightly—though I go alone, </l>
             <l>Like to a lonely dragon, that his fen </l>
             <l>Makes fear'd and talk'd of more than seen—your son </l>
             <l>Will or exceed the common or be caught </l>
@@ -4978,7 +4978,7 @@
           <sp who="cor-8">
             <speaker>Com.</speaker>
             <l>I'll follow thee a month, devise with thee </l>
-            <l n="40">Where thou shalt rest, that thou mayst hear of us </l>
+            <l>Where thou shalt rest, that thou mayst hear of us </l>
             <l>And we of thee: so if the time thrust forth </l>
             <l>A cause for thy repeal, we shall not send </l>
             <l>O'er the vast world to seek a single man, </l>
@@ -5057,7 +5057,7 @@
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
-            <l n="10">They say she's mad. </l>
+            <l>They say she's mad. </l>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
@@ -5130,7 +5130,7 @@
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
-            <l n="31">I would he had continued to his country </l>
+            <l>I would he had continued to his country </l>
             <l>As he began, and not unknit himself </l>
             <l part="I">The noble knot he made. </l>
           </sp>
@@ -5152,7 +5152,7 @@
           <sp who="cor-39">
             <speaker>Vol.</speaker>
             <l>Now, pray, sir, get you gone: </l>
-            <l n="39">You have done a brave deed. Ere you go, hear this:— </l>
+            <l>You have done a brave deed. Ere you go, hear this:— </l>
             <l>As far as doth the Capitol exceed </l>
             <l>The meanest house in Rome, so far my son— </l>
             <l>This lady's husband here, this, do you see?— </l>
@@ -5183,7 +5183,7 @@
           </sp>
           <sp who="cor-39">
             <speaker>Vol.</speaker>
-            <l n="51">Anger's my meat; I sup upon myself. </l>
+            <l>Anger's my meat; I sup upon myself. </l>
             <l>And so shall starve with feeding. Come, let's go: </l>
             <l>Leave this faint puling and lament as I do, </l>
             <l>In anger, Juno-like. Come, come, come. </l>
@@ -5204,90 +5204,90 @@
           
           <sp who="cor-22">
             <speaker>Rom.</speaker>
-            <p part="N">I know you well, sir, and you know me: your name, I
+            <p>I know you well, sir, and you know me: your name, I
               think, is Adrian. </p>
           </sp>
           <sp who="cor-1">
             <speaker>Vols.</speaker>
-            <p part="N">It is so, sir: truly, I have forgot you. </p>
+            <p>It is so, sir: truly, I have forgot you. </p>
           </sp>
           <sp who="cor-22">
             <speaker>Rom.</speaker>
-            <p part="N">I am a Roman; and my services are, as you are, against 'em: know you me yet? </p>
+            <p>I am a Roman; and my services are, as you are, against 'em: know you me yet? </p>
           </sp>
           <sp who="cor-1">
             <speaker>Vols.</speaker>
-            <p part="N">Nicanor? no. </p>
+            <p>Nicanor? no. </p>
           </sp>
           <sp who="cor-22">
             <speaker>Rom.</speaker>
-            <p part="N">The same, sir. </p>
+            <p>The same, sir. </p>
           </sp>
           <sp who="cor-1">
             <speaker>Vols.</speaker>
-            <p part="N">You had more beard when I last saw you; but your
+            <p>You had more beard when I last saw you; but your
               favour is well approved by your tongue. What's the
               news in Rome? I have a note from the Volscian state,
               to find you out there: you have well saved me a day's journey. </p>
           </sp>
           <sp who="cor-22">
             <speaker>Rom.</speaker>
-            <p part="N">There hath been in Rome strange insurrections; the
+            <p>There hath been in Rome strange insurrections; the
               people against the senators, patricians, and nobles.
                 </p>
           </sp>
           <sp who="cor-1">
             <speaker>Vols.</speaker>
-            <p part="N">Hath been! is it ended, then? Our state thinks not so: they are in a most war-like preparation, and hope to come upon them in the heat of their division. <lb n="20" ed="G"/></p>
+            <p>Hath been! is it ended, then? Our state thinks not so: they are in a most war-like preparation, and hope to come upon them in the heat of their division. <lb n="20" ed="G"/></p>
           </sp>
           <sp who="cor-22">
             <speaker>Rom.</speaker>
-            <p part="N">The main blaze of it is past, but a small thing would make it flame again: for the nobles receive so to heart the banishment of that worthy Coriolanus, that they are in a ripe aptness to take all power from the
+            <p>The main blaze of it is past, but a small thing would make it flame again: for the nobles receive so to heart the banishment of that worthy Coriolanus, that they are in a ripe aptness to take all power from the
               people and to pluck from them their tribunes for ever. This lies glowing, I can tell you, and is almost mature for the violent breaking out. </p>
           </sp>
           <sp who="cor-1">
             <speaker>Vols.</speaker>
-            <p part="N">Coriolanus banished! </p>
+            <p>Coriolanus banished! </p>
           </sp>
           <sp who="cor-22">
             <speaker>Rom.</speaker>
-            <p part="N">Banished, sir. </p>
+            <p>Banished, sir. </p>
           </sp>
           <sp who="cor-1">
             <speaker>Vols.</speaker>
-            <p part="N">You will be welcome with this intelligence, Nicanor. </p>
+            <p>You will be welcome with this intelligence, Nicanor. </p>
           </sp>
           <sp who="cor-22">
             <speaker>Rom.</speaker>
-            <p part="N">The day serves well for them now. I have heard it
+            <p>The day serves well for them now. I have heard it
               said, the fittest time to corrupt a man's wife is when she's fallen out with her husband. Your noble Tullus Aufidius will appear well in these wars, his great opposer, Coriolanus, being now in no request of his
                 country. </p>
           </sp>
           <sp who="cor-1">
             <speaker>Vols.</speaker>
-            <p part="N">He cannot choose. I am most fortunate, thus accidentally to encounter you: you have ended my business, and I will merrily accompany you home. </p>
+            <p>He cannot choose. I am most fortunate, thus accidentally to encounter you: you have ended my business, and I will merrily accompany you home. </p>
           </sp>
           <sp who="cor-22">
             <speaker>Rom.</speaker>
-            <p part="N">I shall, between this and supper, tell you most strange things from Rome; all tending to the good of their adversaries. Have you an army ready, say you? </p>
+            <p>I shall, between this and supper, tell you most strange things from Rome; all tending to the good of their adversaries. Have you an army ready, say you? </p>
           </sp>
           <sp who="cor-1">
             <speaker>Vols.</speaker>
-            <p part="N">A most royal one; the centurions and their charges,
+            <p>A most royal one; the centurions and their charges,
               distinctly billeted, already in the entertainment, and to be on foot at an hour's warning. <lb n="51" ed="G"/></p>
           </sp>
           <sp who="cor-22">
             <speaker>Rom.</speaker>
-            <p part="N">I am joyful to hear of their readiness, and am the
+            <p>I am joyful to hear of their readiness, and am the
               man, I think, that shall set them in present action. So, sir, heartily well met, and most glad of your company. </p>
           </sp>
           <sp who="cor-1">
             <speaker>Vols.</speaker>
-            <p part="N">You take my part from me, sir; I have the most cause to be glad of yours. </p>
+            <p>You take my part from me, sir; I have the most cause to be glad of yours. </p>
           </sp>
           <sp who="cor-22">
             <speaker>Rom.</speaker>
-            <p part="N">Well, let us go together. <stage>Exeunt.</stage>
+            <p>Well, let us go together. <stage>Exeunt.</stage>
             </p>
           </sp>
         </div>
@@ -5324,7 +5324,7 @@
           <sp who="cor-7a">
             <speaker>Cit.</speaker>
             <l>He is, and feasts the nobles of the state </l>
-            <l n="10">At his house this night. </l>
+            <l>At his house this night. </l>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
@@ -5345,7 +5345,7 @@
             <l>Unseparable, shall within this hour, </l>
             <l>On a dissension of a doit, break out </l>
             <l>To bitterest enmity: so, fellest foes, </l>
-            <l n="20">Whose passions and whose plots have broke their sleep </l>
+            <l>Whose passions and whose plots have broke their sleep </l>
             <l>To take the one the other, by some chance, </l>
             <l>Some trick not worth an egg, shall grow dear friends </l>
             <l>And interjoin their issues. So with me: </l>
@@ -5367,14 +5367,14 @@
           
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">Wine, wine, wine! What service is here! I think our
+            <p>Wine, wine, wine! What service is here! I think our
               fellows are asleep. <stage>Exit.</stage>
               <stage type="entrance">Enter a second Servingman.</stage>
               </p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serve.</speaker>
-            <p part="N">Where's Cotus? my master calls for him. Cotus! <stage>Exit.</stage>
+            <p>Where's Cotus? my master calls for him. Cotus! <stage>Exit.</stage>
               <stage type="entrance">Enter CORIOLANUS.</stage>
               </p>
           </sp>
@@ -5387,132 +5387,132 @@
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">What would you have, friend? whence are you? Here's
+            <p>What would you have, friend? whence are you? Here's
               no place for you: pray, go to the door. <stage>Exit.</stage>
               </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <l n="11">I have deserved no better entertainment, </l>
+            <l>I have deserved no better entertainment, </l>
             <l>In being Coriolanus. <stage type="entrance">Re-enter second
                 Servingman.</stage>
               </l>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">Whence are you, sir? Has the porter his eyes in his
+            <p>Whence are you, sir? Has the porter his eyes in his
               head, that he gives entrance to such companions? Pray, get you out. </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Away! </p>
+            <p>Away! </p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">Away! get you away. </p>
+            <p>Away! get you away. </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Now thou'rt troublesome. </p>
+            <p>Now thou'rt troublesome. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">Are you so brave? I'll have you talked with anon. <stage type="entrance">Enter a third Servingman. The first meets him.</stage>
+            <p>Are you so brave? I'll have you talked with anon. <stage type="entrance">Enter a third Servingman. The first meets him.</stage>
               <lb n="20" ed="G"/></p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">What fellow's that? </p>
+            <p>What fellow's that? </p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">A strange one as ever I looked on: I cannot get him out o' the house: prithee, call my master to him.
+            <p>A strange one as ever I looked on: I cannot get him out o' the house: prithee, call my master to him.
                 <stage>Retires.</stage>
               </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">What have you to do here, fellow? Pray you, avoid the house. </p>
+            <p>What have you to do here, fellow? Pray you, avoid the house. </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Let me but stand; I will not hurt your hearth. </p>
+            <p>Let me but stand; I will not hurt your hearth. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">What are you? </p>
+            <p>What are you? </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">A gentleman. <lb n="30" ed="G"/></p>
+            <p>A gentleman. <lb n="30" ed="G"/></p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">A marvellous poor one. </p>
+            <p>A marvellous poor one. </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">True, so I am. </p>
+            <p>True, so I am. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">Pray you, poor gentleman, take up some other station; here's no place for you; pray you, avoid: come. </p>
+            <p>Pray you, poor gentleman, take up some other station; here's no place for you; pray you, avoid: come. </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Follow your function, go, and batten on cold bits.
+            <p>Follow your function, go, and batten on cold bits.
                 <stage>Pushes him awAy.</stage>
               </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">What, you will not? Prithee, tell my master what a
+            <p>What, you will not? Prithee, tell my master what a
               strange guest he has here. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">And I shall. <stage>Exit.</stage>
+            <p>And I shall. <stage>Exit.</stage>
               <lb n="40" ed="G"/></p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">Where dwellest thou? </p>
+            <p>Where dwellest thou? </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Under the canopy. </p>
+            <p>Under the canopy. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">Under the canopy? </p>
+            <p>Under the canopy? </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N"> Ay. </p>
+            <p> Ay. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">Where's that? </p>
+            <p>Where's that? </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">I' the city of kites and crows. </p>
+            <p>I' the city of kites and crows. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">I' the city of kites and crows! What an ass it is! Then thou dwellest with daws too? </p>
+            <p>I' the city of kites and crows! What an ass it is! Then thou dwellest with daws too? </p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">No, I serve not thy master. </p>
+            <p>No, I serve not thy master. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">How, sir! do you meddle with my master? <lb n="52" ed="G"/></p>
+            <p>How, sir! do you meddle with my master? <lb n="52" ed="G"/></p>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <p part="N">Ay; 'tis an honester service than to meddle with thy mistress. Thou pratest, and pratest; serve with thy trencher,hence! <stage>Beats him away.</stage><stage type="exit">Exit third
+            <p>Ay; 'tis an honester service than to meddle with thy mistress. Thou pratest, and pratest; serve with thy trencher,hence! <stage>Beats him away.</stage><stage type="exit">Exit third
                 Servingman.</stage>
               <stage type="entrance">Enter AUFIDIUS with the second
                 Servingman.</stage>
@@ -5524,7 +5524,7 @@
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">Here, sir: I'ld have beaten him like a dog, but for disturbing the lords within. <stage>Retires.</stage>
+            <p>Here, sir: I'ld have beaten him like a dog, but for disturbing the lords within. <stage>Retires.</stage>
               </p>
           </sp>
           <sp who="cor-4">
@@ -5558,7 +5558,7 @@
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
-            <l n="70">Prepare thy brow to frown: know'st thou me yet? </l>
+            <l>Prepare thy brow to frown: know'st thou me yet? </l>
           </sp>
           <sp who="cor-4">
             <speaker>Auf.</speaker>
@@ -5574,7 +5574,7 @@
             <l>Shed for my thankless country are requited </l>
             <l>But with that surname; a good memory, </l>
             <l>And witness of the malice and displeasure </l>
-            <l n="80">Which thou shouldst bear me: only that name remains; </l>
+            <l>Which thou shouldst bear me: only that name remains; </l>
             <l>The cruelty and envy of the people, </l>
             <l>Permitted by our dastard nobles, who </l>
             <l>Have all forsook me, hath devour'd the rest; </l>
@@ -5594,7 +5594,7 @@
             <l>As benefits to thee, for I will fight </l>
             <l>Against my canker'd country with the spleen </l>
             <l>Of all the under fiends. But if so be </l>
-            <l n="100">Thou durst not this and that to prove more fortunes </l>
+            <l>Thou durst not this and that to prove more fortunes </l>
             <l>Thou 'rt tired, then, in a word, I also am </l>
             <l>Longer to live most weary, and present </l>
             <l>My throat to thee and to thy ancient malice; </l>
@@ -5607,7 +5607,7 @@
           <sp who="cor-4">
             <speaker>Auf.</speaker>
             <l part="F">O Marcius, Marcius! </l>
-            <l n="109">Each word thou hast spoke hath weeded from my heart </l>
+            <l>Each word thou hast spoke hath weeded from my heart </l>
             <l>A root of ancient envy. If Jupiter </l>
             <l>Should from yond cloud speak divine things, </l>
             <l>And say ‘’Tis true,’ I'ld not believe them more </l>
@@ -5618,7 +5618,7 @@
             <l>The anvil of my sword, and do contest </l>
             <l>As hotly and as nobly with thy love </l>
             <l>As ever in ambitious strength I did </l>
-            <l n="120">Contend against thy valour. Know thou first, </l>
+            <l>Contend against thy valour. Know thou first, </l>
             <l>I loved the maid I married; never man </l>
             <l>Sigh'd truer breath; but that I see thee here, </l>
             <l>Thou noble thing! more dances my rapt heart </l>
@@ -5628,7 +5628,7 @@
             <l>Once more to hew thy target from thy brawn, </l>
             <l>Or lose mine arm for't: thou hast beat me out </l>
             <l>Twelve several times, and I have nightly since </l>
-            <l n="130">Dreamt of encounters 'twixt thyself and me: </l>
+            <l>Dreamt of encounters 'twixt thyself and me: </l>
             <l>We have been down together in my sleep, </l>
             <l>Unbuckling helms, fisting each other's throat, </l>
             <l>And waked half dead with nothing. Worthy Marcius, </l>
@@ -5638,7 +5638,7 @@
             <l>Into the bowels of ungrateful Rome, </l>
             <l>Like a bold flood o'er-bear. O, come, go in, </l>
             <l>And take our friendly senators by the hands; </l>
-            <l n="140">Who now are here, taking their leaves of me, </l>
+            <l>Who now are here, taking their leaves of me, </l>
             <l>Who am prepared against your territories, </l>
             <l part="I">Though not for Rome itself. </l>
           </sp>
@@ -5665,107 +5665,107 @@
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">Here's a strange alteration! </p>
+            <p>Here's a strange alteration! </p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">By my hand, I had thought to have strucken him with a cudgel: and yet my mind gave me his clothes made a false report of him. </p>
+            <p>By my hand, I had thought to have strucken him with a cudgel: and yet my mind gave me his clothes made a false report of him. </p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">What an arm he has! he turned me about with his finger and his thumb, as one would set up a top. </p>
+            <p>What an arm he has! he turned me about with his finger and his thumb, as one would set up a top. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">Nay, I knew by his face that there was something in
+            <p>Nay, I knew by his face that there was something in
               him: he had, sir, a kind of face, methought,— I cannot tell how to term it. </p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">He had so; looking as it were —would I were hanged, but I thought there was more in him than I could think. </p>
+            <p>He had so; looking as it were —would I were hanged, but I thought there was more in him than I could think. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">So did I, I'll be sworn: he is simply the rarest man i' the world. </p>
+            <p>So did I, I'll be sworn: he is simply the rarest man i' the world. </p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">I think he is: but a greater soldier than he you
+            <p>I think he is: but a greater soldier than he you
               wot one. <lb n="172" ed="G"/></p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">Serv. Who, my master? </p>
+            <p>Serv. Who, my master? </p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">Nay, it's no matter for that. </p>
+            <p>Nay, it's no matter for that. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">Worth six on him. </p>
+            <p>Worth six on him. </p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">Nay, not so neither: but I take him to be the greater soldier. </p>
+            <p>Nay, not so neither: but I take him to be the greater soldier. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">Serv. Faith, look you, one cannot tell how to say that: for the defence of a town, our general is excellent. <lb n="180" ed="G"/></p>
+            <p>Serv. Faith, look you, one cannot tell how to say that: for the defence of a town, our general is excellent. <lb n="180" ed="G"/></p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">Ay,and for an assault too. <stage type="entrance">Re-enter
+            <p>Ay,and for an assault too. <stage type="entrance">Re-enter
                 third Servingman.</stage>
               </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">O slaves, I can tell you news. — news, you rascals! </p>
+            <p>O slaves, I can tell you news. — news, you rascals! </p>
           </sp>
           <sp who="cor-30">
             <speaker>First and Sec. Serv.</speaker>
-            <p part="N"> What, what, what? let's partake. </p>
+            <p> What, what, what? let's partake. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">I would not be a Roman, of all nations; I had as lieve be a condemned man. </p>
+            <p>I would not be a Roman, of all nations; I had as lieve be a condemned man. </p>
           </sp>
           <sp who="cor-30">
             <speaker>First and Sec. Serv.</speaker>
-            <p part="N">Wherefore? wherefore? </p>
+            <p>Wherefore? wherefore? </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">Why, here's he that was wont to thwack our general, Caius Marcius. </p>
+            <p>Why, here's he that was wont to thwack our general, Caius Marcius. </p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">Why do you say 'thwack our general'? <lb n="192" ed="G"/></p>
+            <p>Why do you say 'thwack our general'? <lb n="192" ed="G"/></p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">I do not say 'thwack our general;' but he was always good enough for him. </p>
+            <p>I do not say 'thwack our general;' but he was always good enough for him. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">Come, we are fellows and friends: he was ever too hard for him; I have heard him say so himself. </p>
+            <p>Come, we are fellows and friends: he was ever too hard for him; I have heard him say so himself. </p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">He was too hard for him directly, to say the troth on 't: before Corioli he scotched him and notched him like a carbonado. </p>
+            <p>He was too hard for him directly, to say the troth on 't: before Corioli he scotched him and notched him like a carbonado. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">An he had been cannibally given, he might have broiled and eaten him too. <lb n="202" ed="G"/></p>
+            <p>An he had been cannibally given, he might have broiled and eaten him too. <lb n="202" ed="G"/></p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">But, more of thy news? </p>
+            <p>But, more of thy news? </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">Why, he is so made on here within, as if he were son and heir to Mars; set at upper end o' the table; no question asked him by any of the senators, but they stand bald before him: our general himself makes a
+            <p>Why, he is so made on here within, as if he were son and heir to Mars; set at upper end o' the table; no question asked him by any of the senators, but they stand bald before him: our general himself makes a
               mistress of him; sanctifies himself with's hand and
               turns up the whites o' the eye to his discourse. But
               the bottom of the news is, our general is cut i' the
@@ -5777,56 +5777,56 @@
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">And he's as like to do 't as any man I can imagine. </p>
+            <p>And he's as like to do 't as any man I can imagine. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">Do't! he will do't; for, look you, sir, he has as many friends as enemies; which friends, sir, as it were, durst not, look you, sir, show themselves, as we term it,
+            <p>Do't! he will do't; for, look you, sir, he has as many friends as enemies; which friends, sir, as it were, durst not, look you, sir, show themselves, as we term it,
               his friends whilst he's in directitude. </p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">Directitude! what's that? </p>
+            <p>Directitude! what's that? </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">But when they shall see, sir, his crest up again, and the man in blood, they will out of their burrows, like conies after rain, and revel all with him. </p>
+            <p>But when they shall see, sir, his crest up again, and the man in blood, they will out of their burrows, like conies after rain, and revel all with him. </p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">But when goes this forward? </p>
+            <p>But when goes this forward? </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">To-morrow; to-day; presently; you shall have the drum struck up this afternoon: 'tis, as it were, a parcel of their feast, and to be executed ere they wipe their lips. </p>
+            <p>To-morrow; to-day; presently; you shall have the drum struck up this afternoon: 'tis, as it were, a parcel of their feast, and to be executed ere they wipe their lips. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">Why, then we shall have a stirring world again. This peace is nothing, but to rust iron, increase tailors, and breed ballad-makers. </p>
+            <p>Why, then we shall have a stirring world again. This peace is nothing, but to rust iron, increase tailors, and breed ballad-makers. </p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">Let me have war, say I; it exceeds peace as far as
+            <p>Let me have war, say I; it exceeds peace as far as
               day does night; it's spritely, waking, audible, and full of vent. Peace is a very apoplexy, lethargy; mulled, deaf, sleepy, insensible; a getter of more bastard children than war's a destroyer of men.
                 <lb n="242" ed="G"/></p>
           </sp>
           <sp who="cor-30">
             <speaker>Sec. Serv.</speaker>
-            <p part="N">'Tis so: and as war, in some sort, may be said to be a ravisher, so it cannot be denied but peace is a great maker of cuckolds. </p>
+            <p>'Tis so: and as war, in some sort, may be said to be a ravisher, so it cannot be denied but peace is a great maker of cuckolds. </p>
           </sp>
           <sp who="cor-30">
             <speaker>First Serv.</speaker>
-            <p part="N">Ay, and it makes men hate one another. </p>
+            <p>Ay, and it makes men hate one another. </p>
           </sp>
           <sp who="cor-30">
             <speaker>Third Serv.</speaker>
-            <p part="N">Reason; because they then less need one another. The wars for my money. I hope to see Romans as cheap as Volscians. They are rising, they are rising.</p>
+            <p>Reason; because they then less need one another. The wars for my money. I hope to see Romans as cheap as Volscians. They are rising, they are rising.</p>
           </sp>
           <sp>
             <speaker>All.</speaker>
             
             
-            <p part="N">In, in, in, in! <stage>Exeunt.</stage>
+            <p>In, in, in, in! <stage>Exeunt.</stage>
             </p>
           </sp>
         </div>
@@ -5848,7 +5848,7 @@
             <l>Though they themselves did suffer by 't, behold </l>
             <l>Dissentious numbers pestering streets than see </l>
             <l>Our tradesmen singing in their shops and going </l>
-            <l n="10">About their functions friendly. 
+            <l>About their functions friendly. 
               </l>
           </sp>
           <sp who="cor-13">
@@ -5892,7 +5892,7 @@
           </sp>
           <sp who="cor-7">
             <speaker>Citizens.</speaker>
-            <l part="I" n="20">The gods preserve you both! </l>
+            <l part="I">The gods preserve you both! </l>
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
@@ -5962,7 +5962,7 @@
             <speaker>Æd.</speaker>
             <l part="F">Worthy tribunes, </l>
             <l>There is a slave, whom we have put in prison, </l>
-            <l n="40">Reports, the Volsces with two several powers </l>
+            <l>Reports, the Volsces with two several powers </l>
             <l>Are enter'd in the Roman territories, </l>
             <l>And with the deepest malice of the war </l>
             <l part="I">Destroy what lies before 'em. </l>
@@ -5988,7 +5988,7 @@
           <sp who="cor-20">
             <speaker>Men.</speaker>
             <l part="F">Cannot be! </l>
-            <l n="50">We have record that very well it can, </l>
+            <l>We have record that very well it can, </l>
             <l>And three examples of the like have been </l>
             <l>Within my age. But reason with the fellow, </l>
             <l>Before you punish him, where he heard this, </l>
@@ -6044,7 +6044,7 @@
           <sp who="cor-13">
             <speaker>Bru.</speaker>
             <l>Raised only, that the weaker sort may wish </l>
-            <l part="I" n="70">Good Marcius home again. </l>
+            <l part="I">Good Marcius home again. </l>
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
@@ -6071,7 +6071,7 @@
           </sp>
           <sp who="cor-8">
             <speaker>Com.</speaker>
-            <l part="I" n="80">O, you have made good work? </l>
+            <l part="I">O, you have made good work? </l>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
@@ -6147,7 +6147,7 @@
           <sp who="cor-8">
             <speaker>Com.</speaker>
             <l part="F">Who shall ask it? </l>
-            <l n="110">The tribunes cannot do't for shame; the people </l>
+            <l>The tribunes cannot do't for shame; the people </l>
             <l>Deserve such pity of him as the wolf </l>
             <l>Does of the shepherds: for his best friends, if they </l>
             <l>Should say 'Be good to Rome,' they charged him even </l>
@@ -6191,7 +6191,7 @@
           <sp who="cor-20">
             <speaker>Men.</speaker>
             <l part="F">Here come the clusters. </l>
-            <l n="130">And is Aufidius with him? You are they </l>
+            <l>And is Aufidius with him? You are they </l>
             <l>That made the air unwholesome, when you cast </l>
             <l>Your stinking greasy caps in hooting at </l>
             <l>Coriolanus' exile. Now he's coming; </l>
@@ -6209,15 +6209,15 @@
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
             <l part="F">For mine own part, </l>
-            <l n="141">When I said, banish him, I said, 'twas pity. </l>
+            <l>When I said, banish him, I said, 'twas pity. </l>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">And so did I. </p>
+            <p>And so did I. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Third Cit.</speaker>
-            <p part="N">And so did I; and, to say the truth, so did very many of us: that we did, we did for the best; and though we willingly consented to his banishment, yet it was
+            <p>And so did I; and, to say the truth, so did very many of us: that we did, we did for the best; and though we willingly consented to his banishment, yet it was
               against our will. </p>
           </sp>
           <sp who="cor-8">
@@ -6231,7 +6231,7 @@
           </sp>
           <sp who="cor-8">
             <speaker>Com.</speaker>
-            <l n="150">O, ay, what else? <stage>Exeunt Cominius and Menenius.</stage>
+            <l>O, ay, what else? <stage>Exeunt Cominius and Menenius.</stage>
               </l>
           </sp>
           <sp who="cor-31">
@@ -6243,12 +6243,12 @@
           </sp>
           <sp who="cor-7">
             <speaker>First Cit.</speaker>
-            <p part="N">The gods be good to us! Come, masters, let's home.
+            <p>The gods be good to us! Come, masters, let's home.
               I ever said we were i' the wrong when we banished him. </p>
           </sp>
           <sp who="cor-7">
             <speaker>Sec. Cit.</speaker>
-            <p part="N">So did we all. But, come, let's home. <stage>Exeunt Citizens.</stage>
+            <p>So did we all. But, come, let's home. <stage>Exeunt Citizens.</stage>
               </p>
           </sp>
           <sp who="cor-13">
@@ -6257,7 +6257,7 @@
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
-            <l n="160">Nor I. </l>
+            <l>Nor I. </l>
           </sp>
           <sp who="cor-13">
             <speaker>Bru.</speaker>
@@ -6313,7 +6313,7 @@
             <speaker>Auf.</speaker>
             <l>I understand thee well; and be thou sure, </l>
             <l>When he shall come to his account, he knows not </l>
-            <l n="20">What I can urge against him. Although it seems, </l>
+            <l>What I can urge against him. Although it seems, </l>
             <l>And so he thinks, and is no less apparent </l>
             <l>To the vulgar eye, that he bears all things fairly, </l>
             <l>And shows good husbandry for the Volscian state, </l>
@@ -6329,7 +6329,7 @@
           <sp who="cor-4">
             <speaker>Auf.</speaker>
             <l>All places yield to him ere he sits down; </l>
-            <l n="30">And the nobility of Rome are his: </l>
+            <l>And the nobility of Rome are his: </l>
             <l>The senators and patricians love him too: </l>
             <l>The tribunes are no soldiers; and their people </l>
             <l>Will be as rash in the repeal, as hasty </l>
@@ -6339,7 +6339,7 @@
             <l>A noble servant to them; but he could not </l>
             <l>Carry his honours even: whether 'twas pride, </l>
             <l>Which out of daily fortune ever taints </l>
-            <l n="40">The happy man; whether defect of judgement, </l>
+            <l>The happy man; whether defect of judgement, </l>
             <l>To fail in the disposing of those chances </l>
             <l>Which he was lord of; or whether nature, </l>
             <l>Not to be other than one thing, not moving </l>
@@ -6349,7 +6349,7 @@
             <l>As he hath spices of them all, not all, </l>
             <l>For I dare so far free him—made him fear'd, </l>
             <l>So hated, and so banish'd: but he has a merit, </l>
-            <l n="50">To choke it in the utterance. So our virtues </l>
+            <l>To choke it in the utterance. So our virtues </l>
             <l>Lie in the interpretation of the time: </l>
             <l>And power, unto itself most commendable, </l>
             <l>Hath not a tomb so evident as a chair </l>
@@ -6412,7 +6412,7 @@
           <sp who="cor-8">
             <speaker>Com.</speaker>
             <l>I minded him how royal 'twas to pardon </l>
-            <l n="20">When it was less expected: he replied, </l>
+            <l>When it was less expected: he replied, </l>
             <l>It was a bare petition of a state </l>
             <l part="I">To one whom they had punish'd. </l>
           </sp>
@@ -6482,7 +6482,7 @@
             <speaker>Men.</speaker>
             <l part="F">I'll undertake 't: </l>
             <l>I think he'll hear me. Yet, to bite his lip </l>
-            <l n="50">And hum at good Cominius, much unhearts me. </l>
+            <l>And hum at good Cominius, much unhearts me. </l>
             <l>He was not taken well; he had not dined: </l>
             <l>The veins unfill'd, our blood is cold, and then </l>
             <l>We pout upon the morning, are unapt </l>
@@ -6521,7 +6521,7 @@
             <l>'Twas very faintly he said 'Rise;' dismiss'd me </l>
             <l>Thus, with his speechless hand; what he would do, </l>
             <l>He sent in writing after me; what he would not, </l>
-            <l n="70">Bound with an oath to yield to his conditions: </l>
+            <l>Bound with an oath to yield to his conditions: </l>
             <l>So that all hope is vain, </l>
             <l>Unless his noble mother, and his wife; </l>
             <l>Who, as I hear, mean to solicit him </l>
@@ -6592,7 +6592,7 @@
             <l>His fame unparallel'd, haply amplified; </l>
             <l>For I have ever verified my friends, </l>
             <l>Of whom he's chief, with all the size that verity </l>
-            <l n="20">Would without lapsing suffer: nay, sometimes, </l>
+            <l>Would without lapsing suffer: nay, sometimes, </l>
             <l>Like to a bowl upon a subtle ground, </l>
             <l>I have tumbled past the throw; and in his praise </l>
             <l>Have almost stamp'd the leasing: therefore, fellow, </l>
@@ -6600,16 +6600,16 @@
           </sp>
           <sp who="cor-40">
             <speaker>First Sen.</speaker>
-            <p part="N">Faith, sir, if you had told as many lies in his behalf as you have uttered words in your own, you should not pass here; no, though it were as virtuous to lie as to
+            <p>Faith, sir, if you had told as many lies in his behalf as you have uttered words in your own, you should not pass here; no, though it were as virtuous to lie as to
                 live chastely. Therefore, go back. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Prithee, fellow, remember my name is Menenius, always factionary on the party of your general. <lb n="32" ed="G"/></p>
+            <p>Prithee, fellow, remember my name is Menenius, always factionary on the party of your general. <lb n="32" ed="G"/></p>
           </sp>
           <sp who="cor-40">
             <speaker>Sec. Sen.</speaker>
-            <p part="N">Howsoever you have been his liar, as you say you have, I am one that, telling true under him, must say, you cannot pass. Therefore, go back. </p>
+            <p>Howsoever you have been his liar, as you say you have, I am one that, telling true under him, must say, you cannot pass. Therefore, go back. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
@@ -6618,7 +6618,7 @@
           </sp>
           <sp who="cor-40">
             <speaker>First Sen.</speaker>
-            <p part="N">You are a Roman, are you? <lb n="39" ed="G"/></p>
+            <p>You are a Roman, are you? <lb n="39" ed="G"/></p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
@@ -6626,31 +6626,31 @@
           </sp>
           <sp who="cor-40">
             <speaker>First Sen.</speaker>
-            <p part="N">Then you should hate Rome, as he does. Can you, when you have pushed out your gates the very defender of them, and, in a violent popular ignorance, given your enemy your shield, think to front his revenges with the easy groans of old women, the virginal palms of your daughters, or with the palsied intercession of such a decayed dotant as
+            <p>Then you should hate Rome, as he does. Can you, when you have pushed out your gates the very defender of them, and, in a violent popular ignorance, given your enemy your shield, think to front his revenges with the easy groans of old women, the virginal palms of your daughters, or with the palsied intercession of such a decayed dotant as
               you seem to be? Can you think to blow out the
               intended fire your city is ready to flame in, with such weak breath as this? No, you are deceived; therefore, back to Rome, and prepare for your execution: you are condemned, our general has sworn you out of reprieve
                 and pardon. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Sirrah, if thy captain knew I were here, he would
+            <p>Sirrah, if thy captain knew I were here, he would
               use me with estimation. </p>
           </sp>
           <sp who="cor-40">
             <speaker>First Sen.</speaker>
-            <p part="N">Come, my captain knows you not. </p>
+            <p>Come, my captain knows you not. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">I mean, thy general. </p>
+            <p>I mean, thy general. </p>
           </sp>
           <sp who="cor-40">
             <speaker>First Sen.</speaker>
-            <p part="N">My general cares not for you. Back, I say, go; lest I let forth your half-pint of blood; back,—that's the utmost of your having: back. </p>
+            <p>My general cares not for you. Back, I say, go; lest I let forth your half-pint of blood; back,—that's the utmost of your having: back. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Nay, but, fellow, fellow— <stage type="entrance">Enter
+            <p>Nay, but, fellow, fellow— <stage type="entrance">Enter
                 CORIOLANUS and AUFIDIUS.</stage>
               </p>
           </sp>
@@ -6660,7 +6660,7 @@
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">Now, you companion, I'll say an errand for you: you
+            <p>Now, you companion, I'll say an errand for you: you
               shall know now that I am in estimation; you shall perceive that a Jack guardant cannot office me from my son Coriolanus: guess, but by my entertainment with him, if thou standest not i' the state of hanging, or of some death more long in spectatorship, and
               crueller in suffering; behold now presently, and
               swoon for what's to come upon thee. <stage>[To
@@ -6685,7 +6685,7 @@
           <sp who="cor-6">
             <speaker>Cor.</speaker>
             <l>Wife, mother, child, I know not. My affairs </l>
-            <l n="90">Are servanted to others: though I owe </l>
+            <l>Are servanted to others: though I owe </l>
             <l>My revenge properly, my remission lies </l>
             <l>In Volscian breasts. That we have been familiar, </l>
             <l>Ingrate forgetfulness shall poison, rather </l>
@@ -6696,7 +6696,7 @@
               </l>
             <l>And would have sent it. Another word, Menenius, </l>
             <l>I will not hear thee speak. This man, Aufidius, </l>
-            <l n="100">Was my beloved in Rome: yet thou behold'st! </l>
+            <l>Was my beloved in Rome: yet thou behold'st! </l>
           </sp>
           <sp who="cor-4">
             <speaker>Auf.</speaker>
@@ -6710,20 +6710,20 @@
           </sp>
           <sp who="cor-40">
             <speaker>Sec. Sen.</speaker>
-            <p part="N">'Tis a spell, you see, of much power: you know the
+            <p>'Tis a spell, you see, of much power: you know the
               way home again. </p>
           </sp>
           <sp who="cor-40">
             <speaker>First Sen.</speaker>
-            <p part="N">Do you hear how we are shent for keeping your greatness back? </p>
+            <p>Do you hear how we are shent for keeping your greatness back? </p>
           </sp>
           <sp who="cor-40">
             <speaker>Sec. Sen.</speaker>
-            <p part="N">What cause, do you think, I have to swoon? </p>
+            <p>What cause, do you think, I have to swoon? </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">I neither care for the world nor your general: for
+            <p>I neither care for the world nor your general: for
               such things as you, I can scarce think there's any, ye're so slight. He that hath a will to die by himself fears it not from another: let your general do his worst. For
                 you, be that you are, long; and your misery
               increase with your age! I say to you, as I was said to, Away! <stage>Exit.</stage>
@@ -6731,11 +6731,11 @@
           </sp>
           <sp who="cor-40">
             <speaker>First Sen.</speaker>
-            <p part="N">A noble fellow, I warrant him. </p>
+            <p>A noble fellow, I warrant him. </p>
           </sp>
           <sp who="cor-40">
             <speaker>Sec. Sen.</speaker>
-            <p part="N">The worthy fellow is our gen eral: he's a rock, the
+            <p>The worthy fellow is our gen eral: he's a rock, the
               oak not to be wind-shaken. <stage>Exeunt.</stage>
             </p>
           </sp>
@@ -6766,7 +6766,7 @@
           <sp who="cor-6">
             <speaker>Cor.</speaker>
             <l part="F">This last old man, </l>
-            <l n="10">Whom with a crack'd heart I have sent to Rome, </l>
+            <l>Whom with a crack'd heart I have sent to Rome, </l>
             <l>Loved me above the measure of a father; </l>
             <l>Nay, godded me, indeed. Their latest refuge </l>
             <l>Was to send him; for whose old love I have, </l>
@@ -6776,7 +6776,7 @@
             <l>That thought he could do more, a very little </l>
             <l>I have yielded to: fresh embassies and suits, </l>
             <l>Nor from the state nor private friends, hereafter </l>
-            <l n="20">Will I lend ear to. Ha! what shout is this? <stage>Shout within.</stage>
+            <l>Will I lend ear to. Ha! what shout is this? <stage>Shout within.</stage>
               </l>
             <l>Shall I be tempted to infringe my vow </l>
             <l>In the same time 'tis made? I will not. <stage type="entrance">Enter, in mourning habits, VIRGILIA, VOLUMNIA, leading young MARCIUS, VALERIA, and Attendants.</stage>
@@ -6788,7 +6788,7 @@
             <l>Let it be virtuous to be obstinate. </l>
             <l>What is that curt'sy worth? or those doves' eyes, </l>
             <l>Which can make gods forsworn? I melt, and am not </l>
-            <l n="30">Of stronger earth than others. My mother bows; </l>
+            <l>Of stronger earth than others. My mother bows; </l>
             <l>As if Olympus to a molehill should </l>
             <l>In supplication nod: and my young boy </l>
             <l>Hath an aspect of intercession, which </l>
@@ -6809,7 +6809,7 @@
           <sp who="cor-37">
             <speaker>Vir.</speaker>
             <l>The sorrow that delivers us thus changed </l>
-            <l part="I" n="40">Makes you think so. </l>
+            <l part="I">Makes you think so. </l>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
@@ -6823,7 +6823,7 @@
             <l>I carried from thee, dear; and my true lip </l>
             <l>Hath virgin'd it e'er since. You gods! I prate, </l>
             <l>And the most noble mother of the world </l>
-            <l n="51">Leave unsaluted: sink, my knee, i' the earth; <stage>Kneels.</stage>
+            <l>Leave unsaluted: sink, my knee, i' the earth; <stage>Kneels.</stage>
               </l>
             <l>Of thy deep duty more impression show </l>
             <l part="I">Than that of common sons. </l>
@@ -6863,7 +6863,7 @@
             <speaker>Vol.</speaker>
             <l>This is a poor epitome of yours, </l>
             <l>Which by the interpretation of full time </l>
-            <l part="I" n="70">May show like all yourself. </l>
+            <l part="I">May show like all yourself. </l>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
@@ -6891,7 +6891,7 @@
             <speaker>Cor.</speaker>
             <l part="F">I beseech you, peace: </l>
             <l>Or, if you'ld ask, remember this before: </l>
-            <l n="81">The thing I have forsworn to grant may never </l>
+            <l>The thing I have forsworn to grant may never </l>
             <l>Be held by your denials. Do not bid me </l>
             <l>Dismiss my soldiers, or capitulate </l>
             <l>Again with Rome's mechanics: tell me not </l>
@@ -6904,7 +6904,7 @@
             <l part="F">O, no more, no more! </l>
             <l>You have said you will not grant us any thing; </l>
             <l>For we have nothing else to ask, but that </l>
-            <l n="90">Which you deny already: yet we will ask; </l>
+            <l>Which you deny already: yet we will ask; </l>
             <l>That, if you fail in our request, the blame </l>
             <l>May hang upon your hardness: therefore, hear us. </l>
           </sp>
@@ -6920,7 +6920,7 @@
             <l>We have led since thy exile. Think with thyself </l>
             <l>How more unfortunate than all living women </l>
             <l>Are we come hither: since that thy sight, which should </l>
-            <l n="100">Make our eyes flow with joy, hearts dance with comforts, </l>
+            <l>Make our eyes flow with joy, hearts dance with comforts, </l>
             <l>Constrains them weep and shake with fear and sorrow; </l>
             <l>Making the mother, wife and child to see </l>
             <l>The son, the husband and the father tearing </l>
@@ -6940,7 +6940,7 @@
             <l>Triumphantly tread on thy country's ruin, </l>
             <l>And bear the palm for having bravely shed </l>
             <l>Thy wife and children's blood. For myself, son, </l>
-            <l n="120">I purpose not to wait on fortune till </l>
+            <l>I purpose not to wait on fortune till </l>
             <l>These wars determine: if I cannot persuade thee </l>
             <l>Rather to show a noble grace to both parts </l>
             <l>Than seek the end of one, thou shalt no sooner </l>
@@ -6976,7 +6976,7 @@
             <l>Is, that you reconcile them: while the Volsces </l>
             <l>May say 'This mercy we have show'd;' the Romans, </l>
             <l>'This we received;' and each in either side </l>
-            <l n="140">Give the all-hail to thee, and cry 'Be blest </l>
+            <l>Give the all-hail to thee, and cry 'Be blest </l>
             <l>For making up this peace!' Thou know'st, great son, </l>
             <l>The end of war's uncertain, but this certain, </l>
             <l>That, if thou conquer Rome, the benefit </l>
@@ -6986,7 +6986,7 @@
             <l>But with his last attempt he wiped it out; </l>
             <l>Destroy'd his country, and his name remains </l>
             <l>To the ensuing age abhorr'd.' Speak to me, son: </l>
-            <l n="150">Thou hast affected the fine strains of honour, </l>
+            <l>Thou hast affected the fine strains of honour, </l>
             <l>To imitate the graces of the gods; </l>
             <l>To tear with thunder the wide cheeks o' the air, </l>
             <l>And yet to charge thy sulphur with a bolt </l>
@@ -6996,7 +6996,7 @@
             <l>He cares not for your weeping. Speak thou, boy: </l>
             <l>Perhaps thy childishness will move him more </l>
             <l>Than can our reasons. There's no man in the world </l>
-            <l n="160">More bound to's mother; yet here he lets me prate </l>
+            <l>More bound to's mother; yet here he lets me prate </l>
             <l>Like one i' the stocks. Thou hast never in thy life </l>
             <l>Show'd thy dear mother any courtesy, </l>
             <l>When she, poor hen, fond of no second brood, </l>
@@ -7017,7 +7017,7 @@
             <l>Than thou hast to deny't. Come, let us go: </l>
             <l>This fellow had a Volscian to his mother; </l>
             <l>His wife is in Corioli and his child </l>
-            <l n="181">Like him by chance. Yet give us our dispatch: </l>
+            <l>Like him by chance. Yet give us our dispatch: </l>
             <l>I am hush'd until our city be afire, </l>
             <l part="I">And then I'll speak a little. <stage>He holds her by
                 the hand, silent.</stage>
@@ -7049,7 +7049,7 @@
             <l>Mine eyes to sweat compassion. But, good sir, </l>
             <l>What peace you'll make, advise me: for my part, </l>
             <l>I'll not to Rome, I'll back with you; and pray you, </l>
-            <l n="200">Stand to me in this cause. O mother! wife! </l>
+            <l>Stand to me in this cause. O mother! wife! </l>
           </sp>
           <sp who="cor-4">
             <speaker>Auf.</speaker>
@@ -7068,7 +7068,7 @@
             <l>On like conditions, will have counter-seal'd. </l>
             <l>Come, enter with us. Ladies, you deserve </l>
             <l>To have a temple built you: all the swords </l>
-            <l n="209">In Italy, and her confederate arms, </l>
+            <l>In Italy, and her confederate arms, </l>
             <l>Could not have made this peace. <stage>Exeunt. </stage>
             </l>
           </sp>
@@ -7083,32 +7083,32 @@
           
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">See you yond coign o' the Capitol, yond corner-stone ? </p>
+            <p>See you yond coign o' the Capitol, yond corner-stone ? </p>
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
-            <p part="N">Why, what of that? </p>
+            <p>Why, what of that? </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">If it be possible for you to displace it with your little finger, there is some hope the ladies of Rome, especially his mother, may prevail with him. But I say there is no hope in't; our throats are sentenced and stay
+            <p>If it be possible for you to displace it with your little finger, there is some hope the ladies of Rome, especially his mother, may prevail with him. But I say there is no hope in't; our throats are sentenced and stay
               upon execution. </p>
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
-            <p part="N">Is 't possible that so short a time can alter the condition of a man? <lb n="11" ed="G"/></p>
+            <p>Is 't possible that so short a time can alter the condition of a man? <lb n="11" ed="G"/></p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">There is differency between a grub and a butterfly; yet your butterfly was a grub. This Marcius is grown from man to dragon: he has wings; he is more than a creeping thing. </p>
+            <p>There is differency between a grub and a butterfly; yet your butterfly was a grub. This Marcius is grown from man to dragon: he has wings; he is more than a creeping thing. </p>
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
-            <p part="N">He loved his mother dearly. </p>
+            <p>He loved his mother dearly. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">So did he me: and he no more remembers his mother
+            <p>So did he me: and he no more remembers his mother
               now than an eight-year-old horse. The tartness of
               his face sours ripe grapes: when he walks, he moves like an engine, and the ground shrinks before his treading: he is able to pierce a corslet with his eye;
               talks like a knell, and his hum is a battery. He
@@ -7119,21 +7119,21 @@
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
-            <p part="N">Yes, mercy, if you report him truly. </p>
+            <p>Yes, mercy, if you report him truly. </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">I paint him in the character. Mark what mercy his
+            <p>I paint him in the character. Mark what mercy his
               mother shall bring from him: there is no more mercy
               in him than there is milk in a male tiger; that shall our poor city find: and all this is long of you. </p>
           </sp>
           <sp who="cor-31">
             <speaker>Sic.</speaker>
-            <p part="N">The gods be good unto us! </p>
+            <p>The gods be good unto us! </p>
           </sp>
           <sp who="cor-20">
             <speaker>Men.</speaker>
-            <p part="N">No, in such a case the gods will not be good unto
+            <p>No, in such a case the gods will not be good unto
               us. When we banished him, we respected not them; and, he returning to break our necks, they respect not us. <stage type="entrance">Enter a Messenger.</stage>
               </p>
           </sp>
@@ -7164,7 +7164,7 @@
           </sp>
           <sp who="cor-21">
             <speaker>Sec. Mess.</speaker>
-            <l n="49">As certain as I know the sun is fire: </l>
+            <l>As certain as I know the sun is fire: </l>
             <l>Where have you lurk'd, that you make doubt of it? </l>
             <l>Ne'er through an arch so hurried the blown tide, </l>
             <l>As the recomforted through the gates. Why, hark you! <stage>Trumpets; hautboys; drums beat; all together.</stage>
@@ -7265,7 +7265,7 @@
           </sp>
           <sp who="cor-9">
             <speaker>First Con.</speaker>
-            <l part="I" n="10">How is it with our general? </l>
+            <l part="I">How is it with our general? </l>
           </sp>
           <sp who="cor-4">
             <speaker>Auf.</speaker>
@@ -7320,7 +7320,7 @@
             <l>In mine own person; holp to reap the fame </l>
             <l>Which he did end all his; and took some pride </l>
             <l>To do myself this wrong: till, at the last, </l>
-            <l n="40">I seem'd his follower, not partner, and </l>
+            <l>I seem'd his follower, not partner, and </l>
             <l>He waged me with his countenance, as if </l>
             <l part="I">I had been mercenary. </l>
           </sp>
@@ -7338,7 +7338,7 @@
             <l>At a few drops of women's rheum, which are </l>
             <l>As cheap as lies, he sold the blood and labour </l>
             <l>Of our great action: therefore shall he die, </l>
-            <l n="50">And I'll renew me in his fall. But, hark! <stage>Drums and
+            <l>And I'll renew me in his fall. But, hark! <stage>Drums and
                 trumpets sound, with great shouts of the People.</stage>
               </l>
           </sp>
@@ -7411,7 +7411,7 @@
             <l>With bloody passage led your wars even to </l>
             <l>The gates of Rome. Our spoils we have brought home </l>
             <l>Do more than counterpoise a full third part </l>
-            <l n="80">The charges of the action. We have made peace </l>
+            <l>The charges of the action. We have made peace </l>
             <l>With no less honour to the Antiates </l>
             <l>Than shame to the Romans: and we here deliver, </l>
             <l>Subscribed by the consuls and patricians, </l>
@@ -7439,7 +7439,7 @@
           <sp who="cor-4">
             <speaker>Auf.</speaker>
             <l>Ay, Marcius, Caius Marcius: dost thou think </l>
-            <l n="90">I'll grace thee with that robbery, thy stol'n name </l>
+            <l>I'll grace thee with that robbery, thy stol'n name </l>
             <l>Coriolanus in Corioli? </l>
             <l>You lords and heads o' the state, perfidiously </l>
             <l>He has betray'd your business, and given up, </l>
@@ -7450,7 +7450,7 @@
             <l>Counsel o' the war, but at his nurse's tears </l>
             <l>He whined and roar'd away your victory, </l>
             <l>That pages blush'd at him and men of heart </l>
-            <l part="I" n="100">Look'd wondering each at other. </l>
+            <l part="I">Look'd wondering each at other. </l>
           </sp>
           <sp who="cor-6">
             <speaker>Cor.</speaker>
@@ -7476,7 +7476,7 @@
             <l>I was forced to scold. Your judgements, my grave lords, </l>
             <l>Must give this cur the lie: and his own notion— </l>
             <l>Who wears my stripes impress'd upon him; that </l>
-            <l n="110">Must bear my beating to his grave—shall join </l>
+            <l>Must bear my beating to his grave—shall join </l>
             <l>To thrust the lie unto him. </l>
           </sp>
           <sp who="cor-17">
@@ -7497,7 +7497,7 @@
             <l part="F">Why, noble lords, </l>
             <l>Will you be put in mind of his blind fortune, </l>
             <l>Which was your shame, by this unholy braggart, </l>
-            <l part="I" n="120">'Fore your own eyes and ears? </l>
+            <l part="I">'Fore your own eyes and ears? </l>
           </sp>
           <sp who="cor-9">
             <speaker>All Consp.</speaker>
@@ -7508,7 +7508,7 @@
             <!-- The following should probably be coded as simultaneous speech at some point -->
             
             
-            <p part="N">'Tear him to pieces.' 'Do it presently.' 'He killed
+            <p>'Tear him to pieces.' 'Do it presently.' 'He killed
               my son.' 'My daughter.' 'He killed my cousin Marcus.
               'He killed my father.' </p>
           </sp>
@@ -7563,7 +7563,7 @@
             <l>My lords, when you shall know—as in this rage, </l>
             <l>Provoked by him, you cannot—the great danger </l>
             <l>Which this man's life did owe you, you'll rejoice </l>
-            <l n="141">That he is thus cut off. Please it your honours </l>
+            <l>That he is thus cut off. Please it your honours </l>
             <l>To call me to your senate, I'll deliver </l>
             <l>Myself your loyal servant, or endure </l>
             <l>Your heaviest censure. </l>
