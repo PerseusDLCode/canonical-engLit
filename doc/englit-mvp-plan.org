@@ -4,13 +4,9 @@
 #+OPTIONS: toc:t num:nil
 
 * Overview
-
-The goal of this project is to make the Globe Shakespeare editions and
-four key reference works — Abbott's /Shakespearean Grammar/, Schmidt's
-/Shakespeare-Lexicon/, Onions's /Shakespeare Glossary/, and Dyce's
-/Glossary/ — readable in the Minimum Viable Perseus (MVP) reading
-environment, and to lay the groundwork for their eventual use as
-linkable commentary alongside primary texts.
+The overall goal of this project is to bring the Early Modern English
+collection into MVP, beginning with Shakespeare and related reference
+works. 
 
 This work is a practical precondition for the Hypervariorum project:
 Abbott, Schmidt, Onions, and Dyce are among the most frequently cited
@@ -21,7 +17,7 @@ infrastructure developed for the Hypervariorum project is directly
 applicable here.
 
 The source repository is =canonical-engLit= (PerseusDLCode fork), =mvp=
-branch. The target is the =MinimumViablePerseus= development server.
+branch. 
 
 * Scope
 
@@ -36,26 +32,18 @@ branch. The target is the =MinimumViablePerseus= development server.
 - =refsDecl= → =citeStructure= migration for all in-scope texts
 - Foundation work for commentary linking (=<bibl @n>= citation resolution)
 
-** Deferred
-
-- Other =canonical-engLit= texts (Bacon, Hakluyt, Holinshed, Lanyer,
-  Marlowe, Sidney, Wilson, etc.): the same pipeline will apply, but
-  they are out of scope for this sprint
-- Morphological analysis and tokenization
-- Full-text search indexing (Anserini)
-- Deployment to production
-
 * Background: State of the Corpus
 
 The =canonical-engLit/data/= directory contains TEI P5 files migrated
 from earlier encodings last fall. The migration predates the current
-Perseus schema framework and the adoption of =citeStructure=.
-Consequently:
+Perseus schema framework and the adoption of =citeStructure=. Some work
+has already been done: all the plays now use the right Perseus
+schemas; the EpiDoc structuring has been replaced with Act and Scene
+divisions; line-numbering has been returned to the <l> elements and
+the <lb/> milestones have been removed.
 
-- The Shakespeare files already carry a schema processing instruction
-  pointing to =perseus_drama.rng=, but the path references the old
-  =canonical-engLit/schemas/= directory rather than the current
-  =perseus-schemas= repository.
+However:
+
 - All files use =refsDecl= with =cRefPattern= elements rather than the
   =citeStructure= declarations required by MVP's =ReferenceParser=.
 - CTS metadata (=__cts__.xml= files) is present for Shakespeare, Abbott,
@@ -76,7 +64,7 @@ These are design and coordination decisions, not implementation tasks.
 They require conversations with the named stakeholders before any code
 is written.
 
-*** 0a. Establish canonical CTS URNs [Cliff, Alison Babeu]
+*** Establish canonical CTS URNs
 
 The Shakespeare URN inconsistency (=shakespeare= vs. =shak= as the
 textgroup identifier) must be resolved before any file is processed.
@@ -84,10 +72,7 @@ The same applies to the reference works: canonical textgroup and work
 identifiers need to be agreed upon and applied consistently across all
 =__cts__.xml= files and TEI document bodies.
 
-/Decision needed:/ What is the canonical textgroup identifier for
-Shakespeare? What are the canonical identifiers for Abbott, Schmidt,
-Onions, and Dyce? Are these identifiers already specified by Perseus
-cataloging conventions (Alison), or are they being established here?
+*Decision:* the textgroup and work identifiers defined last fall will suffice.
 
 *** 0b. Establish schema path convention [Cliff, Charles Pletcher]
 
@@ -110,6 +95,11 @@ validate against Perseus schemas; the decision establishes a precedent.
 
 /Decision needed:/ Which approach? Who owns the schema-update workflow?
 
+*Decision:* Use URLs, as we do in canonical-greekLit. e.g.,
+#+begin_example
+https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_verse.rng
+#+end_example
+
 *** 0c. Corpus discovery in MVP [Cliff, Charles Pletcher]
 
 MVP's =config.py= does not include an =engLit= entry in =_CORPUS_LABELS=,
@@ -120,6 +110,9 @@ that =_discover_corpora= handles the =data/= subdirectory structure.
 
 /Decision needed:/ What changes to =MinimumViablePerseus= are needed,
 and who makes them?
+
+*Decision:* Charles will make these changes when the canonical=englit
+texts are ready to be ingested.
 
 ** Phase 1: Corpus Repair (=canonical-engLit/mvp= branch)
 
