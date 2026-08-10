@@ -37,20 +37,38 @@ branch.
 The =canonical-engLit/data/= directory contains TEI P5 files migrated
 from earlier encodings last fall. The migration predates the current
 Perseus schema framework and the adoption of =citeStructure=. Some work
-has already been done: all the plays now use the right Perseus
-schemas; the EpiDoc structuring has been replaced with Act and Scene
-divisions; line-numbering has been returned to the <l> elements and
-the <lb/> milestones have been removed.
+has already been done: the EpiDoc structuring has been replaced with
+Act and Scene divisions; line-numbering has been returned to the <l>
+elements and the <lb/> milestones have been removed; all 43 Shakespeare
+plays have been migrated from =refsDecl=/=cRefPattern= to
+=citeStructure= (commit =5bc3165=); and, in the same commit, the
+Shakespeare URN inconsistency below was incidentally resolved.
 
 However:
 
-- All files use =refsDecl= with =cRefPattern= elements rather than the
-  =citeStructure= declarations required by MVP's =ReferenceParser=.
+- Schema PIs (=<?xml-model?>=) still use old local relative paths under
+  two inconsistent conventions (Shakespeare: =../../../perseus-schemas/…=
+  with single-quoted attributes and a =type= attribute; Abbott/Schmidt:
+  =../../../schemas/…= with double-quoted attributes) rather than the
+  raw-GitHub-URL convention decided in Phase 0b. Abbott's PI additionally
+  points at the wrong schema file entirely (=perseus_lexica.rng=, a
+  lexicon schema — Abbott is a grammar and should reference
+  =perseus_prose.rng=); Schmidt's PI has the same filename typo
+  (=perseus_lexica.rng= instead of =perseus_lexical.rng=), though the
+  schema type is correct for a lexicon.
+- Reference works (Abbott, Schmidt, Onions, Dyce) still use =refsDecl=
+  with =cRefPattern= elements rather than =citeStructure=; only
+  Shakespeare has been migrated so far.
 - CTS metadata (=__cts__.xml= files) is present for Shakespeare, Abbott,
   and Schmidt but absent for Onions and Dyce.
-- There is a URN inconsistency in the Shakespeare files: the textgroup
-  =__cts__.xml= declares =urn:cts:engLit:shakespeare= but the body of
-  each play uses =urn:cts:engLit:shak.perseus-eng1=.
+- The URN inconsistency between the Shakespeare textgroup
+  (=urn:cts:engLit:shakespeare=) and the play bodies (formerly
+  =urn:cts:engLit:shak.perseus-eng1=) has been resolved: all 43 play
+  bodies now use =urn:cts:engLit:shakespeare.{workid}.perseus-eng1=,
+  matching the textgroup. =shak= survives only as the informal
+  citation abbreviation inside reference-work =<bibl n="shak. lll
+  5.1.50">= elements — an unrelated concern for Phase 3a's
+  abbreviation-to-URN mapping, not a URN mismatch.
 - The reference works encode Shakespeare citations as structured
   =<bibl @n>= elements (e.g. =<bibl n="shak. lll 5.1.50">=), providing
   a machine-readable foundation for commentary linking that requires
@@ -150,12 +168,11 @@ structures across all in-scope files:
 Every in-scope file needs a =citeStructure= element before MVP's
 =ReferenceParser= can chunk it.
 
-*Shakespeare (44 plays).* All plays appear to use a uniform three-level
-=refsDecl=: act / act.scene / act.scene.line, with Globe line numbers
-as =<lb ed="G" n="…"/>= milestones. The migration is uniform and can
-be handled by a single XSLT stylesheet. The resulting =citeStructure=
-will have three levels: act (=<div subtype="act">=), scene
-(=<div subtype="scene">=), and line (=<lb ed="G">= milestone).
+*Shakespeare (44 plays) — done.* All 43 play files have been migrated
+to a uniform three-level =citeStructure=: act / act.scene / act.scene.line
+(commit =5bc3165=). Remaining scope here is limited to the 6
+non-dramatic poems, which are out of scope for this sprint per
+CLAUDE.md.
 
 *Reference works.* The appropriate =citeStructure= depends on the
 actual document structure established in Phase 1b. Abbott's sections
@@ -169,15 +186,24 @@ Depends on: Phase 0a (URN naming), Phase 0b (schema path), Phase 1b
 
 *** 1d. Schema PI updates
 
-Update =<?xml-model?>= processing instructions in all files to point to
-the correct schema path, once Phase 0b is resolved. The applicable
-schema by document type:
+Update =<?xml-model?>= processing instructions to the raw-GitHub-URL
+convention decided in Phase 0b:
+
+#+begin_example
+<?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_drama.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+#+end_example
+
+The applicable schema by document type:
 
 | Document type | Schema |
 |---------------+--------|
 | Shakespeare plays | =perseus_drama.rng= |
 | Abbott (grammar sections) | =perseus_prose.rng= |
 | Schmidt, Onions, Dyce (lexica) | =perseus_lexical.rng= |
+
+This also corrects two existing errors: Abbott's PI currently points
+at =perseus_lexica.rng= (wrong schema type) and Schmidt's at the same
+misspelled filename (should be =perseus_lexical.rng=).
 
 /Assignee:/ Claude Code.
 

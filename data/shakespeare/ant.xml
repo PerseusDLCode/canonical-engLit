@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href='../../../perseus-schemas/perseus_drama.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_drama.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
       <teiHeader xml:lang="eng">
             <fileDesc>
                   <titleStmt>
