@@ -1,0 +1,735 @@
+#+TITLE: Globe Line-Number Interpolation: Editorial Review Report
+#+DATE: 2026-08-11
+#+AUTHOR: Clifford Wulfman
+#+OPTIONS: toc:t num:nil
+
+* Overview
+
+This report documents every place the automated Globe line-numbering
+pass could not simply and unambiguously derive a correct =@n= value,
+and needs a classicist's eye before it's treated as authoritative.
+
+=corpus-tools='s =number-verse-lines= command (branch
+=number-verse-lines=, commit =4430e36=, merged to =main= at =07f0587=)
+was run over all 37 in-scope Shakespeare plays in
+=canonical-engLit/data/shakespeare/=, per the algorithm in
+=src/mvp/number_verse_lines_spec.md=. It interpolates the Globe
+scene-relative line number onto every =<l>= that lacks one, using the
+=@n= anchors already present (transferred earlier from =<lb ed="G">= by
+=strip-lb-tags.xsl=) as ground truth to interpolate between. The result
+is committed at =bff1e44=: 66,290 of 66,292 =<l>= elements now carry
+=@n=.
+
+Interpolation is exact when the printed Globe apparatus is intact: two
+anchors 10 lines apart with 9 unnumbered lines between them get 1--9
+added cleanly. This report is about the cases where that isn't true —
+where the count of lines between two anchors doesn't match the numeric
+gap between them, where the anchors themselves contradict each other,
+or where there was nothing to interpolate from at all. In every case
+below the script did *something* reasonable and deterministic (never
+silently dropping data, never touching an anchor), but "reasonable and
+deterministic" is not the same as "correct," and these are the places
+where only checking against a printed Globe edition will resolve it.
+
+** Summary
+
+| Category                                             | Count |
+|-------------------------------------------------------+-------|
+| P1 --- likely source transcription errors             |     7 |
+| P2 --- moderate numbering collisions                  |    78 |
+| P3 --- boundary-tie collisions (lowest priority)       |   382 |
+| Plays with *no* Globe-anchor grounding at all          |     9 |
+| Unnumbered lines (prose/verse transition gap)          |     2 |
+| Malformed anchor data left untouched                   |     1 |
+
+"Collision" means: the number of unnumbered =<l>= elements between two
+anchors is greater than or equal to the numeric gap between those
+anchors, so there isn't room to give each one a distinct integer
+without touching an anchor's own value. The script's fallback is to
+number them as evenly as it can and let the last one or two tie an
+anchor rather than skip past it — see "How the script handles a
+collision" below.
+
+* Priority 1: likely source transcription errors (7 cases)
+
+These are not ordinary "too many lines for the gap" collisions — in
+each of these, the *second* anchor's value is lower than (or, in one
+case, identical to) the first, meaning the Globe line numbers in the
+source actually go backwards (or repeat) within a single scene. That
+can't be explained by verse density; it's much more likely a
+transcription error in the historical Globe-line-number data (a
+mistyped digit, a misplaced =<lb>=, or similar), inherited from
+whatever process originally captured the Globe apparatus for this
+corpus. Two of the seven are especially telling:
+
+- *Hamlet* 5.2: anchor 370 is "Which have solicited. The rest is
+  silence." — Hamlet's dying line, one of the most famous exits in the
+  play — followed immediately by anchor 330 on "And our affairs from
+  England come too late:". The second number is very likely a
+  transposed digit for something in the 430s, not 330.
+- *Richard II* 2.1: anchor 301 is followed by anchor 41 on "This royal
+  throne of kings, this scepter'd isle," — John of Gaunt's "this
+  England" speech, one of the best-known passages in the play, which
+  in most editions *is* numbered around line 40. That strongly
+  suggests 41 is the correct number and 301 is the error, not the
+  reverse.
+
+*Romeo and Juliet* 3.3 has a different flavor of the same problem: two
+different lines both carry anchor value 50 (a straightforward
+duplicate, not a reversal), leaving zero room for the 9 unnumbered
+lines between them.
+
+*Recommendation:* check each of these seven against a printed Globe
+edition (or another digitized Globe apparatus) and correct the
+offending =@n= value directly on the =<l>= in question. Because
+=strip-lb-tags.xsl= already removed the original =<lb ed="G">=
+milestones once they were transferred to =@n=, there's no surviving
+=<lb>= to cross-check against in this corpus — the fix has to go
+straight onto the =<l>='s =@n=.
+
+| Play | Act | Scene | Anchor A | Anchor B | Lines between |
+|------+-----+-------+----------+----------+----------------|
+| h5   |   1 |     2 |      161 |       69 |              7 |
+| ham  |   5 |     2 |      370 |      330 |              9 |
+| lll  |   5 |     2 |      240 |      151 |              9 |
+| lll  |   5 |     2 |      360 |      181 |             20 |
+| mm   |   2 |     2 |      160 |       10 |              1 |
+| r2   |   2 |     1 |      301 |       41 |             10 |
+| rom  |   3 |     3 |       50 |       50 |              9 |
+
+(=Lines between= is the count of unnumbered =<l>= elements the script
+found between the two anchors; the values it assigned them are not
+authoritative pending the fix above.)
+
+* Priority 2: moderate numbering collisions (78 cases)
+
+These are ordinary collisions — more unnumbered lines between two
+(correctly ordered, non-duplicate) anchors than the numeric gap allows
+for — but by more than the unavoidable single-line boundary case (P3,
+below). An overshoot of 1 means one interpolated line has to share a
+number with its neighbor (or the anchor); an overshoot of 7 (the worst
+in this batch, =A Midsummer Night's Dream= 4.1) means several do.
+
+Coriolanus, Cymbeline, and Henry VIII account for over half of this
+tier between them (8, 12, and 10 cases respectively) — worth a look as
+a group, since a systematic pattern in one play (e.g. a run of scenes
+where the Globe apparatus was sparser than usual) is more likely to be
+a real edition-numbering-density issue than 78 independent
+transcription slips.
+
+Sorted by severity (overshoot = lines between the anchors minus the
+numeric gap):
+
+| Play | Act | Scene | Anchor A | Anchor B | Lines between | Gap | Overshoot |
+|------+-----+-------+----------+----------+----------------+-----+-----------|
+| mnd  |   4 |     1 |      110 |      120 |             17 |  10 |         7 |
+| h8   |   2 |     2 |       70 |       89 |             24 |  19 |         5 |
+| tgv  |   3 |     1 |      166 |      180 |             19 |  14 |         5 |
+| err  |   3 |     1 |       40 |       70 |             34 |  30 |         4 |
+| tmp  |   2 |     1 |      230 |      251 |             25 |  21 |         4 |
+| ham  |   5 |     2 |      290 |      310 |             23 |  20 |         3 |
+| tim  |   4 |     3 |      370 |      389 |             22 |  19 |         3 |
+| h8   |   3 |     2 |       60 |       80 |             22 |  20 |         2 |
+| h8   |   5 |     1 |       80 |       90 |             12 |  10 |         2 |
+| ham  |   1 |     5 |      111 |      120 |             11 |   9 |         2 |
+| jc   |   4 |     3 |      120 |      130 |             12 |  10 |         2 |
+| jc   |   4 |     3 |      220 |      240 |             22 |  20 |         2 |
+| jn   |   3 |     3 |       50 |       70 |             22 |  20 |         2 |
+| jn   |   4 |     1 |       31 |       40 |             11 |   9 |         2 |
+| mnd  |   3 |     1 |      160 |      169 |             11 |   9 |         2 |
+| tmp  |   1 |     2 |      490 |      500 |             12 |  10 |         2 |
+| cor  |   1 |     4 |       11 |       21 |             11 |  10 |         1 |
+| cor  |   2 |     1 |      180 |      200 |             21 |  20 |         1 |
+| cor  |   2 |     1 |      200 |      231 |             32 |  31 |         1 |
+| cor  |   3 |     1 |       10 |       30 |             21 |  20 |         1 |
+| cor  |   4 |     2 |       10 |       31 |             22 |  21 |         1 |
+| cor  |   4 |     6 |       10 |       20 |             11 |  10 |         1 |
+| cor  |   5 |     1 |       50 |       70 |             21 |  20 |         1 |
+| cor  |   5 |     6 |       50 |       80 |             31 |  30 |         1 |
+| cym  |   1 |     1 |      100 |      120 |             21 |  20 |         1 |
+| cym  |   1 |     1 |      140 |      150 |             11 |  10 |         1 |
+| cym  |   1 |     5 |       20 |       40 |             21 |  20 |         1 |
+| cym  |   2 |     4 |       70 |       80 |             11 |  10 |         1 |
+| cym  |   2 |     4 |      140 |      149 |             10 |   9 |         1 |
+| cym  |   3 |     6 |       60 |       80 |             21 |  20 |         1 |
+| cym  |   4 |     2 |       51 |       70 |             20 |  19 |         1 |
+| cym  |   4 |     2 |      350 |      390 |             41 |  40 |         1 |
+| cym  |   4 |     3 |       20 |       30 |             11 |  10 |         1 |
+| cym  |   5 |     5 |      110 |      120 |             11 |  10 |         1 |
+| cym  |   5 |     5 |      130 |      140 |             11 |  10 |         1 |
+| cym  |   5 |     5 |      409 |      420 |             12 |  11 |         1 |
+| h8   |   1 |     2 |      180 |      190 |             11 |  10 |         1 |
+| h8   |   2 |     3 |       61 |       80 |             20 |  19 |         1 |
+| h8   |   3 |     2 |       21 |       41 |             21 |  20 |         1 |
+| h8   |   4 |     1 |       40 |       50 |             11 |  10 |         1 |
+| h8   |   4 |     1 |       50 |       60 |             11 |  10 |         1 |
+| h8   |   5 |     1 |      100 |      111 |             12 |  11 |         1 |
+| h8   |   5 |     1 |      150 |      159 |             10 |   9 |         1 |
+| ham  |   1 |     5 |      140 |      150 |             11 |  10 |         1 |
+| ham  |   3 |     4 |       20 |       30 |             11 |  10 |         1 |
+| ham  |   4 |     7 |       50 |       60 |             11 |  10 |         1 |
+| jc   |   5 |     1 |       60 |       80 |             21 |  20 |         1 |
+| mac  |   1 |     2 |       40 |       60 |             21 |  20 |         1 |
+| mac  |   1 |     3 |       80 |      100 |             21 |  20 |         1 |
+| mac  |   1 |     3 |      100 |      120 |             21 |  20 |         1 |
+| mac  |   2 |     2 |       30 |       50 |             21 |  20 |         1 |
+| mac  |   2 |     3 |       60 |       90 |             31 |  30 |         1 |
+| mac  |   2 |     3 |      129 |      131 |              3 |   2 |         1 |
+| mac  |   3 |     1 |      120 |      140 |             21 |  20 |         1 |
+| mac  |   4 |     1 |       60 |      111 |             52 |  51 |         1 |
+| mac  |   4 |     3 |      210 |      220 |             11 |  10 |         1 |
+| mm   |   2 |     2 |       59 |       90 |             32 |  31 |         1 |
+| mnd  |   4 |     1 |       70 |       80 |             11 |  10 |         1 |
+| oth  |   3 |     3 |      101 |      109 |              9 |   8 |         1 |
+| oth  |   5 |     1 |       91 |      100 |             10 |   9 |         1 |
+| oth  |   5 |     2 |       30 |       40 |             11 |  10 |         1 |
+| oth  |   5 |     2 |      241 |      250 |             10 |   9 |         1 |
+| r3   |   1 |     3 |      230 |      240 |             11 |  10 |         1 |
+| r3   |   4 |     4 |      440 |      450 |             11 |  10 |         1 |
+| rom  |   5 |     3 |      121 |      130 |             10 |   9 |         1 |
+| shr  |   4 |     1 |      160 |      170 |             11 |  10 |         1 |
+| tgv  |   5 |     2 |       30 |       40 |             11 |  10 |         1 |
+| tim  |   2 |     2 |       30 |       40 |             11 |  10 |         1 |
+| tim  |   4 |     3 |      230 |      260 |             31 |  30 |         1 |
+| tim  |   5 |     1 |      161 |      180 |             20 |  19 |         1 |
+| tmp  |   1 |     2 |      301 |      310 |             10 |   9 |         1 |
+| tmp  |   3 |     3 |       30 |       40 |             11 |  10 |         1 |
+| tmp  |   4 |     1 |      160 |      170 |             11 |  10 |         1 |
+| tmp  |   5 |     1 |      220 |      229 |             10 |   9 |         1 |
+| wt   |   1 |     2 |      101 |      120 |             20 |  19 |         1 |
+| wt   |   1 |     2 |      220 |      230 |             11 |  10 |         1 |
+| wt   |   2 |     1 |      120 |      170 |             51 |  50 |         1 |
+| wt   |   4 |     4 |      410 |      420 |             11 |  10 |         1 |
+
+* Priority 3: boundary-tie collisions (382 cases, lowest priority)
+
+This is the largest category by far, and the least concerning: it's
+the case where the number of unnumbered lines between two anchors
+exactly equals the numeric gap (e.g. 9 lines between anchors 10 lines
+apart). There are only =gap - 1= integers strictly between two anchors,
+so this is *always* one line short — mechanically unavoidable, not a
+sign of anything wrong with the source. The practical effect is that
+exactly one interpolated line ties the following anchor's value rather
+than getting a distinct number.
+
+Given the volume, the full list is in the appendix rather than inline
+here. Per-play counts (combined with Priority 2 for context):
+
+| Play                       | Boundary ties (P3) | Moderate collisions (P2) | Total |
+|-----------------------------+---------------------+---------------------------+-------|
+| King Henry VIII (h8)       |                  41 |                        10 |    51 |
+| Cymbeline (cym)            |                  37 |                        12 |    49 |
+| Othello (oth)               |                  36 |                         4 |    40 |
+| Coriolanus (cor)            |                  27 |                         8 |    35 |
+| Hamlet (ham)                 |                  27 |                         5 |    32 |
+| The Winter's Tale (wt)      |                  28 |                         4 |    32 |
+| Macbeth (mac)                |                  22 |                         9 |    31 |
+| The Tempest (tmp)            |                  20 |                         6 |    26 |
+| Julius Cæsar (jc)            |                  18 |                         3 |    21 |
+| Richard III (r3)             |                  17 |                         2 |    19 |
+| Timon of Athens (tim)        |                  14 |                         4 |    18 |
+| Romeo and Juliet (rom)       |                  16 |                         1 |    17 |
+| King Lear (lr)               |                  15 |                         0 |    15 |
+| Measure for Measure (mm)     |                  14 |                         1 |    15 |
+| King John (jn)                |                  10 |                         2 |    12 |
+| Love's Labor's Lost (lll)     |                  10 |                         0 |    10 |
+| The Taming of the Shrew (shr) |                   6 |                         1 |     7 |
+| A Midsummer Night's Dream (mnd) |                4 |                         3 |     7 |
+| Two Gentlemen of Verona (tgv) |                   4 |                         2 |     6 |
+| The Comedy of Errors (err)    |                   3 |                         1 |     4 |
+| Titus Andronicus (tit)        |                   3 |                         0 |     3 |
+| Much Ado About Nothing (ado)  |                   3 |                         0 |     3 |
+| The Merchant of Venice (mv)   |                   3 |                         0 |     3 |
+| King Henry V (h5)             |                   2 |                         0 |     2 |
+| Twelfth Night (tn)            |                   1 |                         0 |     1 |
+| The Merry Wives of Windsor (wiv) |                1 |                         0 |     1 |
+
+(Richard II, with its single Priority-1 case, has no Priority 2/3 entries
+and doesn't appear in this table.)
+
+* Plays with no Globe-anchor grounding at all (9 plays)
+
+For these plays, *no scene has a single =@n= anchor* — every line
+number the script produced is a bare sequential count starting at 1
+within its scene, with no relationship to the historical Globe
+printing whatsoever. This is different from every category above: it's
+not a case of the algorithm compressing or guessing around sparse
+data, it's a case of having *no* data to work from at all.
+
+| Play                     | Code | Status                                          |
+|---------------------------+------+--------------------------------------------------|
+| King Henry IV, Part I     | 1h4  | No Globe anchors transferred anywhere in file    |
+| King Henry VI, Part I     | 1h6  | No Globe anchors transferred anywhere in file    |
+| King Henry IV, Part II    | 2h4  | No Globe anchors transferred anywhere in file    |
+| King Henry VI, Part II    | 2h6  | No Globe anchors transferred anywhere in file    |
+| King Henry VI, Part III   | 3h6  | No Globe anchors transferred anywhere in file    |
+| Antony and Cleopatra      | ant  | No Globe anchors transferred anywhere in file    |
+| All's Well That Ends Well | aww  | No Globe anchors transferred anywhere in file    |
+| Pericles, Prince of Tyre  | per  | Known under-encoded (CLAUDE.md); ~4 Globe marks in source, none land on a verse =<l>= |
+| Troilus and Cressida      | tro  | Known under-encoded (CLAUDE.md); no =<lb>= markup at all in source |
+
+=per.xml= and =tro.xml= were already flagged in this project's
+=CLAUDE.md= as under-encoded and out of scope for the current MVP
+sprint, so their appearance here isn't new. The other seven *are* new:
+nothing previously documented that these five histories and two
+comedies carry zero Globe apparatus in this corpus. Two possibilities
+worth distinguishing before deciding what to do about it:
+
+1. The original Renaissance-derived source genuinely never captured
+   periodic Globe line numbers for these seven plays (i.e. they're as
+   under-encoded as =tro=/=per=, just not previously flagged as such).
+2. The Globe numbers exist in some other source (a different Perseus
+   corpus generation, or the print edition itself) and could be
+   re-derived, but weren't captured in whatever process produced this
+   corpus's =Renaissance/= source.
+
+*Recommendation:* until one of these is confirmed, treat every =@n=
+value in these nine files as a placeholder position count, not a Globe
+citation — they're internally consistent (strictly increasing per
+scene) but carry no external authority.
+
+* Unnumbered lines: prose-to-verse transition gap (2 lines)
+
+Two lines were left without =@n= entirely, rather than guessed at,
+because there was no preceding new-line element in scope for them to
+inherit a number from:
+
+- *Cymbeline* 1.1: "None but the king?" (=Sec. Gent.=, =@part="F"=) is
+  the first =<l>= in the scene; everything before it is prose. The
+  matching =@part="I"= fragment that should open this shared verse
+  line either isn't tagged, or is embedded in the preceding prose
+  =<p>=.
+- *The Winter's Tale* 1.2: "Stay your thanks a while;" (=Leon.=,
+  =@part="F"=), same pattern — immediately followed by =<l n="10"
+  part="I">And pay them when you part.</l>=, so the anchor for this
+  shared line exists just two elements later; it's specifically the
+  "F" half at the very start of the scene that has nothing to attach
+  to.
+
+Both are genuine prose→verse transition markup gaps in the source, not
+introduced by this pass. *Recommendation:* for the Winter's Tale case
+in particular, since =n="10"= appears immediately after on the =I=
+fragment, it may be reasonable to simply assign the orphaned =F=
+fragment the same =n="10"= by hand — but that's an editorial judgment
+call, not something the script should guess at automatically.
+
+* Malformed anchor data left untouched (1 case)
+
+*Coriolanus* 2.1 has one =<l n="131 132">= — a long prose passage
+(Menenius's "A letter for me!" speech) mistagged as =<l>= rather than
+=<p>=, carrying two space-separated Globe numbers instead of one. The
+script leaves any existing =@n= untouched by design (never overwrites
+ground truth), so this value is exactly as it was before the pass; it
+was excluded from the interpolation math (it can't be parsed as an
+integer) and flagged rather than causing a crash.
+
+*Recommendation:* this needs two fixes, not one — the encoding
+(=<l>= → =<p>=, matching the rest of the passage's prose siblings) and
+the =@n= value itself (pick one of 131/132, or verify against a Globe
+edition whether the passage really spans both).
+
+* How the script handles a collision
+
+For readers checking this report against the corpus: when the number
+of unnumbered lines between two anchors is greater than or equal to
+the numeric gap between them, the script still assigns strictly
+increasing integers to as many
+of them as it can — evenly spaced, rounded to the nearest integer —
+and only lets a value tie (never exceed by more than necessary) the
+next anchor if there's truly no room left. It never modifies an
+anchor's own =@n=, and it never leaves a normal (non-orphaned)
+unnumbered line without *some* value. That's what makes the P2/P3
+distinction above meaningful: P3 is the single-tie case that's
+mechanically guaranteed by the math whenever =lines between == gap=;
+P2 is everything worse than that, which is more likely to reflect a
+real problem in the source's Globe apparatus (missing anchors, a
+misplaced =<lb>=, or genuinely denser verse than the printed
+line-number markers suggest) rather than an artifact of the boundary
+condition.
+
+* Appendix: full Priority 3 list (382 rows)
+
+| Play | Act | Scene | Anchor A | Anchor B | Lines between |
+|------+-----+-------+----------+----------+----------------|
+| ado | 4 | 1 | 40 | 50 | 10 |
+| ado | 5 | 1 | 90 | 100 | 10 |
+| ado | 5 | 1 | 270 | 290 | 20 |
+| cor | 1 | 1 | 160 | 171 | 11 |
+| cor | 1 | 1 | 231 | 250 | 19 |
+| cor | 1 | 6 | 20 | 50 | 30 |
+| cor | 2 | 1 | 231 | 250 | 19 |
+| cor | 2 | 2 | 50 | 60 | 10 |
+| cor | 2 | 2 | 60 | 70 | 10 |
+| cor | 2 | 2 | 130 | 150 | 20 |
+| cor | 3 | 1 | 70 | 80 | 10 |
+| cor | 3 | 1 | 90 | 100 | 10 |
+| cor | 3 | 1 | 131 | 140 | 9 |
+| cor | 3 | 1 | 150 | 161 | 11 |
+| cor | 3 | 1 | 190 | 220 | 30 |
+| cor | 3 | 1 | 220 | 240 | 20 |
+| cor | 3 | 1 | 259 | 270 | 11 |
+| cor | 3 | 2 | 30 | 50 | 20 |
+| cor | 3 | 2 | 80 | 130 | 50 |
+| cor | 3 | 3 | 10 | 30 | 20 |
+| cor | 3 | 3 | 60 | 71 | 11 |
+| cor | 3 | 3 | 100 | 120 | 20 |
+| cor | 4 | 6 | 40 | 50 | 10 |
+| cor | 4 | 6 | 50 | 70 | 20 |
+| cor | 5 | 3 | 30 | 40 | 10 |
+| cor | 5 | 3 | 51 | 70 | 19 |
+| cor | 5 | 3 | 120 | 140 | 20 |
+| cor | 5 | 6 | 80 | 90 | 10 |
+| cor | 5 | 6 | 90 | 100 | 10 |
+| cor | 5 | 6 | 110 | 120 | 10 |
+| cym | 1 | 1 | 60 | 70 | 10 |
+| cym | 1 | 1 | 70 | 80 | 10 |
+| cym | 1 | 1 | 120 | 130 | 10 |
+| cym | 1 | 1 | 150 | 160 | 10 |
+| cym | 1 | 3 | 30 | 40 | 10 |
+| cym | 1 | 6 | 40 | 50 | 10 |
+| cym | 1 | 6 | 81 | 90 | 9 |
+| cym | 1 | 6 | 90 | 99 | 9 |
+| cym | 2 | 3 | 80 | 90 | 10 |
+| cym | 2 | 3 | 150 | 160 | 10 |
+| cym | 2 | 4 | 10 | 39 | 29 |
+| cym | 2 | 4 | 59 | 70 | 11 |
+| cym | 2 | 4 | 90 | 100 | 10 |
+| cym | 2 | 4 | 110 | 130 | 20 |
+| cym | 3 | 1 | 50 | 60 | 10 |
+| cym | 3 | 2 | 10 | 20 | 10 |
+| cym | 3 | 4 | 89 | 101 | 12 |
+| cym | 3 | 4 | 161 | 170 | 9 |
+| cym | 3 | 5 | 50 | 60 | 10 |
+| cym | 3 | 5 | 60 | 70 | 10 |
+| cym | 4 | 2 | 10 | 30 | 20 |
+| cym | 4 | 2 | 40 | 51 | 11 |
+| cym | 4 | 2 | 121 | 130 | 9 |
+| cym | 4 | 2 | 160 | 169 | 9 |
+| cym | 4 | 2 | 172 | 201 | 29 |
+| cym | 4 | 2 | 211 | 221 | 10 |
+| cym | 4 | 4 | 10 | 21 | 11 |
+| cym | 5 | 3 | 61 | 70 | 9 |
+| cym | 5 | 4 | 60 | 70 | 10 |
+| cym | 5 | 5 | 60 | 70 | 10 |
+| cym | 5 | 5 | 90 | 100 | 10 |
+| cym | 5 | 5 | 120 | 130 | 10 |
+| cym | 5 | 5 | 201 | 220 | 19 |
+| cym | 5 | 5 | 240 | 250 | 10 |
+| cym | 5 | 5 | 250 | 260 | 10 |
+| cym | 5 | 5 | 260 | 270 | 10 |
+| cym | 5 | 5 | 280 | 290 | 10 |
+| err | 3 | 1 | 109 | 120 | 11 |
+| err | 4 | 2 | 40 | 50 | 10 |
+| err | 5 | 1 | 230 | 241 | 11 |
+| h5 | 1 | 1 | 10 | 20 | 10 |
+| h5 | 5 | 2 | 90 | 100 | 10 |
+| h8 | 1 | 1 | 70 | 80 | 10 |
+| h8 | 1 | 1 | 210 | 219 | 9 |
+| h8 | 1 | 2 | 20 | 40 | 20 |
+| h8 | 1 | 2 | 100 | 110 | 10 |
+| h8 | 1 | 2 | 160 | 171 | 11 |
+| h8 | 1 | 3 | 41 | 50 | 9 |
+| h8 | 1 | 4 | 20 | 30 | 10 |
+| h8 | 1 | 4 | 70 | 80 | 10 |
+| h8 | 1 | 4 | 80 | 90 | 10 |
+| h8 | 2 | 1 | 30 | 40 | 10 |
+| h8 | 2 | 1 | 90 | 100 | 10 |
+| h8 | 2 | 1 | 130 | 160 | 30 |
+| h8 | 2 | 2 | 41 | 50 | 9 |
+| h8 | 2 | 2 | 110 | 120 | 10 |
+| h8 | 2 | 3 | 90 | 100 | 10 |
+| h8 | 2 | 4 | 61 | 80 | 19 |
+| h8 | 2 | 4 | 130 | 141 | 11 |
+| h8 | 2 | 4 | 151 | 161 | 10 |
+| h8 | 2 | 4 | 220 | 230 | 10 |
+| h8 | 3 | 1 | 20 | 50 | 30 |
+| h8 | 3 | 2 | 41 | 51 | 10 |
+| h8 | 3 | 2 | 51 | 60 | 9 |
+| h8 | 3 | 2 | 121 | 130 | 9 |
+| h8 | 3 | 2 | 140 | 160 | 20 |
+| h8 | 3 | 2 | 170 | 190 | 20 |
+| h8 | 3 | 2 | 240 | 251 | 11 |
+| h8 | 3 | 2 | 291 | 300 | 9 |
+| h8 | 3 | 2 | 310 | 320 | 10 |
+| h8 | 3 | 2 | 370 | 380 | 10 |
+| h8 | 3 | 2 | 390 | 400 | 10 |
+| h8 | 3 | 2 | 411 | 421 | 10 |
+| h8 | 3 | 2 | 439 | 450 | 11 |
+| h8 | 4 | 1 | 80 | 100 | 20 |
+| h8 | 4 | 2 | 90 | 100 | 10 |
+| h8 | 4 | 2 | 120 | 130 | 10 |
+| h8 | 5 | 1 | 10 | 20 | 10 |
+| h8 | 5 | 1 | 71 | 80 | 9 |
+| h8 | 5 | 1 | 131 | 150 | 19 |
+| h8 | 5 | 1 | 159 | 171 | 12 |
+| h8 | 5 | 2 | 10 | 20 | 10 |
+| h8 | 5 | 3 | 71 | 89 | 18 |
+| ham | 1 | 1 | 10 | 30 | 20 |
+| ham | 1 | 1 | 40 | 50 | 10 |
+| ham | 1 | 1 | 130 | 150 | 20 |
+| ham | 1 | 2 | 40 | 50 | 10 |
+| ham | 1 | 2 | 151 | 160 | 9 |
+| ham | 1 | 2 | 210 | 220 | 10 |
+| ham | 1 | 2 | 231 | 240 | 9 |
+| ham | 1 | 3 | 40 | 51 | 11 |
+| ham | 1 | 4 | 50 | 60 | 10 |
+| ham | 1 | 4 | 70 | 80 | 10 |
+| ham | 1 | 5 | 30 | 40 | 10 |
+| ham | 2 | 1 | 60 | 80 | 20 |
+| ham | 2 | 1 | 90 | 110 | 20 |
+| ham | 2 | 2 | 70 | 80 | 10 |
+| ham | 3 | 1 | 40 | 61 | 21 |
+| ham | 3 | 1 | 80 | 90 | 10 |
+| ham | 3 | 3 | 20 | 30 | 10 |
+| ham | 3 | 4 | 170 | 180 | 10 |
+| ham | 3 | 4 | 190 | 200 | 10 |
+| ham | 4 | 4 | 10 | 30 | 20 |
+| ham | 4 | 5 | 120 | 130 | 10 |
+| ham | 4 | 7 | 101 | 110 | 9 |
+| ham | 4 | 7 | 130 | 140 | 10 |
+| ham | 5 | 1 | 260 | 280 | 20 |
+| ham | 5 | 1 | 300 | 311 | 11 |
+| ham | 5 | 2 | 70 | 80 | 10 |
+| ham | 5 | 2 | 341 | 351 | 10 |
+| jc | 1 | 3 | 31 | 40 | 9 |
+| jc | 1 | 3 | 40 | 50 | 10 |
+| jc | 1 | 3 | 91 | 100 | 9 |
+| jc | 2 | 1 | 60 | 71 | 11 |
+| jc | 2 | 1 | 300 | 310 | 10 |
+| jc | 3 | 1 | 51 | 60 | 9 |
+| jc | 3 | 1 | 70 | 80 | 10 |
+| jc | 3 | 1 | 90 | 101 | 11 |
+| jc | 4 | 2 | 20 | 30 | 10 |
+| jc | 4 | 3 | 40 | 50 | 10 |
+| jc | 4 | 3 | 140 | 150 | 10 |
+| jc | 4 | 3 | 150 | 160 | 10 |
+| jc | 4 | 3 | 190 | 200 | 10 |
+| jc | 4 | 3 | 300 | 309 | 9 |
+| jc | 5 | 1 | 80 | 90 | 10 |
+| jc | 5 | 3 | 30 | 40 | 10 |
+| jc | 5 | 5 | 10 | 20 | 10 |
+| jc | 5 | 5 | 40 | 50 | 10 |
+| jn | 1 | 1 | 230 | 240 | 10 |
+| jn | 2 | 1 | 130 | 140 | 10 |
+| jn | 2 | 1 | 540 | 550 | 10 |
+| jn | 3 | 1 | 200 | 210 | 10 |
+| jn | 3 | 1 | 289 | 300 | 11 |
+| jn | 4 | 1 | 80 | 90 | 10 |
+| jn | 4 | 2 | 110 | 131 | 21 |
+| jn | 4 | 2 | 161 | 180 | 19 |
+| jn | 4 | 3 | 80 | 90 | 10 |
+| jn | 5 | 7 | 90 | 100 | 10 |
+| lll | 2 | 1 | 149 | 160 | 11 |
+| lll | 2 | 1 | 241 | 250 | 9 |
+| lll | 4 | 1 | 100 | 110 | 10 |
+| lll | 4 | 3 | 80 | 90 | 10 |
+| lll | 4 | 3 | 180 | 190 | 10 |
+| lll | 5 | 2 | 140 | 180 | 40 |
+| lll | 5 | 2 | 211 | 220 | 9 |
+| lll | 5 | 2 | 270 | 280 | 10 |
+| lll | 5 | 2 | 830 | 841 | 11 |
+| lll | 5 | 2 | 880 | 890 | 10 |
+| lr | 1 | 1 | 150 | 179 | 29 |
+| lr | 1 | 1 | 270 | 279 | 9 |
+| lr | 1 | 4 | 320 | 329 | 9 |
+| lr | 2 | 4 | 140 | 160 | 20 |
+| lr | 3 | 2 | 51 | 60 | 9 |
+| lr | 3 | 4 | 10 | 20 | 10 |
+| lr | 4 | 1 | 30 | 50 | 20 |
+| lr | 4 | 2 | 10 | 20 | 10 |
+| lr | 4 | 2 | 40 | 50 | 10 |
+| lr | 4 | 4 | 11 | 20 | 9 |
+| lr | 4 | 5 | 31 | 40 | 9 |
+| lr | 4 | 6 | 211 | 220 | 9 |
+| lr | 5 | 3 | 10 | 31 | 21 |
+| lr | 5 | 3 | 70 | 80 | 10 |
+| lr | 5 | 3 | 140 | 150 | 10 |
+| mac | 1 | 3 | 40 | 50 | 10 |
+| mac | 1 | 3 | 141 | 150 | 9 |
+| mac | 1 | 5 | 50 | 59 | 9 |
+| mac | 1 | 6 | 10 | 20 | 10 |
+| mac | 1 | 7 | 20 | 30 | 10 |
+| mac | 1 | 7 | 50 | 70 | 20 |
+| mac | 2 | 2 | 20 | 30 | 10 |
+| mac | 2 | 3 | 120 | 129 | 9 |
+| mac | 2 | 3 | 131 | 150 | 19 |
+| mac | 3 | 1 | 80 | 91 | 11 |
+| mac | 3 | 4 | 9 | 30 | 21 |
+| mac | 3 | 4 | 30 | 60 | 30 |
+| mac | 3 | 4 | 70 | 90 | 20 |
+| mac | 3 | 4 | 90 | 99 | 9 |
+| mac | 3 | 4 | 99 | 110 | 11 |
+| mac | 4 | 2 | 21 | 30 | 9 |
+| mac | 4 | 3 | 90 | 100 | 10 |
+| mac | 4 | 3 | 140 | 150 | 10 |
+| mac | 4 | 3 | 170 | 180 | 10 |
+| mac | 5 | 3 | 11 | 30 | 19 |
+| mac | 5 | 7 | 20 | 29 | 9 |
+| mac | 5 | 8 | 40 | 50 | 10 |
+| mm | 1 | 4 | 20 | 30 | 10 |
+| mm | 1 | 4 | 81 | 90 | 9 |
+| mm | 2 | 2 | 30 | 39 | 9 |
+| mm | 2 | 2 | 90 | 110 | 20 |
+| mm | 2 | 2 | 120 | 130 | 10 |
+| mm | 2 | 2 | 150 | 160 | 10 |
+| mm | 2 | 4 | 120 | 129 | 9 |
+| mm | 3 | 1 | 30 | 41 | 11 |
+| mm | 3 | 1 | 60 | 70 | 10 |
+| mm | 4 | 1 | 60 | 70 | 10 |
+| mm | 4 | 3 | 80 | 90 | 10 |
+| mm | 5 | 1 | 70 | 100 | 30 |
+| mm | 5 | 1 | 420 | 441 | 21 |
+| mm | 5 | 1 | 470 | 480 | 10 |
+| mnd | 1 | 1 | 10 | 21 | 11 |
+| mnd | 3 | 2 | 310 | 320 | 10 |
+| mnd | 5 | 1 | 20 | 30 | 10 |
+| mnd | 5 | 1 | 70 | 81 | 11 |
+| mv | 3 | 2 | 60 | 70 | 10 |
+| mv | 3 | 2 | 200 | 210 | 10 |
+| mv | 5 | 1 | 90 | 110 | 20 |
+| oth | 1 | 1 | 30 | 40 | 10 |
+| oth | 1 | 2 | 20 | 30 | 10 |
+| oth | 1 | 2 | 40 | 60 | 20 |
+| oth | 1 | 3 | 50 | 61 | 11 |
+| oth | 1 | 3 | 61 | 70 | 9 |
+| oth | 1 | 3 | 110 | 120 | 10 |
+| oth | 1 | 3 | 170 | 180 | 10 |
+| oth | 1 | 3 | 271 | 290 | 19 |
+| oth | 2 | 1 | 199 | 210 | 11 |
+| oth | 2 | 3 | 139 | 159 | 20 |
+| oth | 2 | 3 | 210 | 220 | 10 |
+| oth | 3 | 1 | 41 | 50 | 9 |
+| oth | 3 | 3 | 30 | 40 | 10 |
+| oth | 3 | 3 | 120 | 130 | 10 |
+| oth | 3 | 3 | 160 | 170 | 10 |
+| oth | 3 | 3 | 200 | 220 | 20 |
+| oth | 3 | 3 | 310 | 320 | 10 |
+| oth | 3 | 3 | 320 | 330 | 10 |
+| oth | 3 | 3 | 370 | 401 | 31 |
+| oth | 3 | 3 | 430 | 450 | 20 |
+| oth | 3 | 4 | 50 | 60 | 10 |
+| oth | 3 | 4 | 160 | 180 | 20 |
+| oth | 4 | 1 | 80 | 90 | 10 |
+| oth | 4 | 1 | 260 | 270 | 10 |
+| oth | 4 | 2 | 80 | 90 | 10 |
+| oth | 4 | 2 | 100 | 110 | 10 |
+| oth | 4 | 3 | 50 | 70 | 20 |
+| oth | 5 | 1 | 40 | 50 | 10 |
+| oth | 5 | 1 | 100 | 110 | 10 |
+| oth | 5 | 2 | 60 | 71 | 11 |
+| oth | 5 | 2 | 80 | 111 | 31 |
+| oth | 5 | 2 | 119 | 130 | 11 |
+| oth | 5 | 2 | 180 | 190 | 10 |
+| oth | 5 | 2 | 210 | 241 | 31 |
+| oth | 5 | 2 | 301 | 320 | 19 |
+| oth | 5 | 2 | 360 | 371 | 11 |
+| r3 | 1 | 2 | 80 | 101 | 21 |
+| r3 | 1 | 2 | 110 | 120 | 10 |
+| r3 | 2 | 4 | 31 | 40 | 9 |
+| r3 | 2 | 4 | 60 | 70 | 10 |
+| r3 | 3 | 1 | 50 | 60 | 10 |
+| r3 | 3 | 4 | 30 | 40 | 10 |
+| r3 | 3 | 7 | 50 | 60 | 10 |
+| r3 | 3 | 7 | 110 | 120 | 10 |
+| r3 | 4 | 2 | 59 | 70 | 11 |
+| r3 | 4 | 3 | 20 | 30 | 10 |
+| r3 | 4 | 4 | 80 | 90 | 10 |
+| r3 | 4 | 4 | 170 | 180 | 10 |
+| r3 | 4 | 4 | 261 | 270 | 9 |
+| r3 | 4 | 4 | 360 | 370 | 10 |
+| r3 | 4 | 4 | 370 | 380 | 10 |
+| r3 | 5 | 3 | 50 | 61 | 11 |
+| r3 | 5 | 3 | 69 | 80 | 11 |
+| rom | 1 | 4 | 40 | 50 | 10 |
+| rom | 1 | 5 | 30 | 40 | 10 |
+| rom | 2 | 2 | 19 | 40 | 21 |
+| rom | 2 | 2 | 160 | 180 | 20 |
+| rom | 2 | 3 | 21 | 31 | 10 |
+| rom | 3 | 2 | 30 | 40 | 10 |
+| rom | 3 | 2 | 80 | 90 | 10 |
+| rom | 3 | 3 | 70 | 80 | 10 |
+| rom | 3 | 5 | 60 | 81 | 21 |
+| rom | 3 | 5 | 150 | 161 | 11 |
+| rom | 3 | 5 | 220 | 241 | 21 |
+| rom | 4 | 5 | 20 | 30 | 10 |
+| rom | 5 | 3 | 70 | 80 | 10 |
+| rom | 5 | 3 | 110 | 121 | 11 |
+| rom | 5 | 3 | 150 | 161 | 11 |
+| rom | 5 | 3 | 289 | 301 | 12 |
+| shr | 1 | 1 | 210 | 220 | 10 |
+| shr | 2 | 1 | 160 | 169 | 9 |
+| shr | 2 | 1 | 191 | 210 | 19 |
+| shr | 2 | 1 | 391 | 399 | 8 |
+| shr | 4 | 2 | 70 | 80 | 10 |
+| shr | 5 | 2 | 60 | 70 | 10 |
+| tgv | 1 | 2 | 70 | 81 | 11 |
+| tgv | 2 | 4 | 161 | 170 | 9 |
+| tgv | 3 | 1 | 140 | 150 | 10 |
+| tgv | 5 | 4 | 50 | 61 | 11 |
+| tim | 1 | 1 | 20 | 30 | 10 |
+| tim | 1 | 1 | 90 | 110 | 20 |
+| tim | 1 | 1 | 130 | 150 | 20 |
+| tim | 2 | 1 | 10 | 20 | 10 |
+| tim | 2 | 2 | 219 | 231 | 12 |
+| tim | 2 | 2 | 231 | 240 | 9 |
+| tim | 3 | 4 | 10 | 20 | 10 |
+| tim | 3 | 4 | 20 | 30 | 10 |
+| tim | 4 | 3 | 40 | 50 | 10 |
+| tim | 4 | 3 | 60 | 70 | 10 |
+| tim | 4 | 3 | 90 | 100 | 10 |
+| tim | 4 | 3 | 270 | 290 | 20 |
+| tim | 4 | 3 | 530 | 540 | 10 |
+| tim | 5 | 4 | 30 | 40 | 10 |
+| tit | 1 | 1 | 280 | 289 | 9 |
+| tit | 2 | 2 | 11 | 20 | 9 |
+| tit | 4 | 2 | 81 | 91 | 10 |
+| tmp | 1 | 2 | 10 | 20 | 10 |
+| tmp | 1 | 2 | 100 | 110 | 10 |
+| tmp | 1 | 2 | 110 | 120 | 10 |
+| tmp | 1 | 2 | 130 | 151 | 21 |
+| tmp | 1 | 2 | 161 | 171 | 10 |
+| tmp | 1 | 2 | 230 | 250 | 20 |
+| tmp | 1 | 2 | 320 | 330 | 10 |
+| tmp | 1 | 2 | 400 | 420 | 20 |
+| tmp | 1 | 2 | 420 | 430 | 10 |
+| tmp | 2 | 1 | 131 | 149 | 18 |
+| tmp | 2 | 1 | 251 | 261 | 10 |
+| tmp | 2 | 1 | 261 | 270 | 9 |
+| tmp | 2 | 1 | 289 | 319 | 30 |
+| tmp | 3 | 3 | 70 | 81 | 11 |
+| tmp | 3 | 3 | 91 | 100 | 9 |
+| tmp | 4 | 1 | 40 | 50 | 10 |
+| tmp | 4 | 1 | 100 | 120 | 20 |
+| tmp | 5 | 1 | 110 | 120 | 10 |
+| tmp | 5 | 1 | 120 | 141 | 21 |
+| tmp | 5 | 1 | 170 | 200 | 30 |
+| tn | 5 | 1 | 330 | 339 | 9 |
+| wiv | 4 | 4 | 50 | 60 | 10 |
+| wt | 1 | 2 | 70 | 80 | 10 |
+| wt | 1 | 2 | 80 | 101 | 21 |
+| wt | 1 | 2 | 140 | 150 | 10 |
+| wt | 1 | 2 | 210 | 220 | 10 |
+| wt | 1 | 2 | 321 | 331 | 10 |
+| wt | 1 | 2 | 410 | 420 | 10 |
+| wt | 2 | 1 | 50 | 60 | 10 |
+| wt | 2 | 1 | 90 | 100 | 10 |
+| wt | 2 | 3 | 20 | 30 | 10 |
+| wt | 2 | 3 | 50 | 61 | 11 |
+| wt | 2 | 3 | 70 | 90 | 20 |
+| wt | 2 | 3 | 100 | 110 | 10 |
+| wt | 2 | 3 | 130 | 140 | 10 |
+| wt | 2 | 3 | 190 | 200 | 10 |
+| wt | 3 | 2 | 50 | 60 | 10 |
+| wt | 4 | 4 | 30 | 40 | 10 |
+| wt | 4 | 4 | 60 | 70 | 10 |
+| wt | 4 | 4 | 70 | 91 | 21 |
+| wt | 4 | 4 | 91 | 110 | 19 |
+| wt | 4 | 4 | 361 | 380 | 19 |
+| wt | 4 | 4 | 511 | 522 | 11 |
+| wt | 4 | 4 | 522 | 552 | 30 |
+| wt | 5 | 1 | 41 | 60 | 19 |
+| wt | 5 | 1 | 60 | 80 | 20 |
+| wt | 5 | 1 | 90 | 120 | 30 |
+| wt | 5 | 3 | 50 | 70 | 20 |
+| wt | 5 | 3 | 90 | 99 | 9 |
+| wt | 5 | 3 | 99 | 120 | 21 |
