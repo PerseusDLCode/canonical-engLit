@@ -225,7 +225,7 @@
           </sp>
           <sp who="sec.-witch.">
             <speaker>Sec. Witch.</speaker>
-            <l>Paddock calls. </l>
+            <l n="10">Paddock calls. </l>
           </sp>
           <sp who="third-witch.">
             <speaker>Third Witch.</speaker>
@@ -264,7 +264,7 @@
             <speaker>Ser.</speaker>
             <l part="F">Doubtful it stood; </l>
             <l>As two spent swimmers, that do cling together </l>
-            <l>And choke their art. The merciless Macdonwald-- </l>
+            <l n="10">And choke their art. The merciless Macdonwald-- </l>
             <l>Worthy to be a rebel, for to that </l>
             <l>The multiplying villanies of nature </l>
             <l>Do swarm upon him--from the western isles </l>
@@ -274,7 +274,7 @@
             <l>For brave Macbeth--well he deserves that name-- </l>
             <l>Disdaining fortune, with his brandish'd steel, </l>
             <l>Which smoked with bloody execution, </l>
-            <l>Like valour's minion carved out his passage </l>
+            <l n="20">Like valour's minion carved out his passage </l>
             <l>Till he faced the slave; </l>
             <l>Which ne'er shook hands, nor bade farewell to him, </l>
             <l>Till he unseam'd him from the nave to the chaps, </l>
@@ -290,7 +290,7 @@
             <l>Shipwrecking storms and direful thunders break, </l>
             <l>So from that spring whence comfort seem'd to come </l>
             <l>Discomfort swells. Mark, king of Scotland, mark: </l>
-            <l>No sooner justice had with valour arm'd </l>
+            <l n="30">No sooner justice had with valour arm'd </l>
             <l>Compell'd these skipping kerns to trust their heels, </l>
             <l>But the Norweyan lord surveying vantage </l>
             <l>With furbish'd arms and new supplies of men </l>
@@ -308,7 +308,7 @@
             <l>If I say sooth, I must report they were </l>
             <l>As cannons overcharged with double cracks, so they </l>
             <l>Doubly redoubled strokes upon the foe: </l>
-            <l>Except they meant to bathe in reeking wounds, </l>
+            <l n="40">Except they meant to bathe in reeking wounds, </l>
             <l>Or memorize another Golgotha, </l>
             <l>I cannot tell. </l>
             <l>But I am faint, my gashes cry for help. </l>
@@ -361,7 +361,7 @@
           <sp who="ross.">
             <speaker>Ross.</speaker>
             <l part="F">That now </l>
-            <l>Sweno, the Norways' king, craves composition; </l>
+            <l n="60">Sweno, the Norways' king, craves composition; </l>
             <l>Nor would we deign him burial of his men </l>
             <l>Till he disbursed at Saint Colme's inch </l>
             <l>Ten thousand dollars to our general use. </l>
@@ -408,7 +408,7 @@
             <l>'Aroint thee, witch!' the rump-fed ronyon cries. </l>
             <l>Her husband's to Aleppo gone, master o' the Tiger: </l>
             <l>But in a sieve I'll thither sail, </l>
-            <l>And, like a rat without a tail, </l>
+            <l n="10">And, like a rat without a tail, </l>
             <l>I'll do, I'll do, and I'll do. </l>
           </sp>
           <sp who="sec.-witch.">
@@ -430,7 +430,7 @@
             <l>All the quarters that they know </l>
             <l>I' the shipman's card. </l>
             <l>I will drain him dry as hay: </l>
-            <l>Sleep shall neither night nor day </l>
+            <l n="20">Sleep shall neither night nor day </l>
             <l>Hang upon his pent-house lid; </l>
             <l>He shall live a man forbid: </l>
             <l>Weary se'nnights nine times nine </l>
@@ -446,7 +446,7 @@
           <sp who="first-witch.">
             <speaker>First Witch.</speaker>
             <l>Here I have a pilot's thumb, </l>
-            <l>Wreck'd as homeward he did come. <stage>Drum within.</stage>
+            <l n="30">Wreck'd as homeward he did come. <stage>Drum within.</stage>
               </l>
           </sp>
           <sp who="third-witch.">
@@ -471,7 +471,7 @@
           </sp>
           <sp who="ban.">
             <speaker>Ban.</speaker>
-            <l>How far is't call'd to Forres? What are these </l>
+            <l n="40">How far is't call'd to Forres? What are these </l>
             <l>So wither'd and so wild in their attire, </l>
             <l>That look not like the inhabitants o' the earth, </l>
             <l>And yet are on't? Live you? or are you aught </l>
@@ -491,7 +491,7 @@
           </sp>
           <sp who="sec.-witch.">
             <speaker>Sec. Witch.</speaker>
-            <l>All hail, Macbeth! hail to thee, thane of Cawdor! </l>
+            <l n="50">All hail, Macbeth! hail to thee, thane of Cawdor! </l>
           </sp>
           <sp who="third-witch.">
             <speaker>Third Witch.</speaker>
@@ -538,7 +538,7 @@
           </sp>
           <sp who="first-witch.">
             <speaker>First Witch.</speaker>
-            <l>Banquo and Macbeth, all hail! </l>
+            <l n="70">Banquo and Macbeth, all hail! </l>
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
@@ -555,7 +555,7 @@
           </sp>
           <sp who="ban.">
             <speaker>Ban.</speaker>
-            <l>The earth hath bubbles, as the water has, </l>
+            <l n="80">The earth hath bubbles, as the water has, </l>
             <l>And these are of them. Whither are they vanish'd? </l>
           </sp>
           <sp who="macb.">
@@ -600,7 +600,7 @@
             <l>Strange images of death. As thick as hail </l>
             <l>Came post with post; and every one did bear </l>
             <l>Thy praises in his kingdom's great defence, </l>
-            <l part="I">And pour'd them down before him. </l>
+            <l n="100" part="I">And pour'd them down before him. </l>
           </sp>
           <sp who="ang.">
             <speaker>Ang.</speaker>
@@ -646,7 +646,7 @@
               </l>
             <l>Do you not hope your children shall be kings, </l>
             <l>When those that gave the thane of Cawdor to me </l>
-            <l part="I">Promised no less to them? </l>
+            <l n="120" part="I">Promised no less to them? </l>
           </sp>
           <sp who="ban.">
             <speaker>Ban.</speaker>
@@ -664,7 +664,7 @@
             <stage>[Aside]</stage>
             <l>Two truths are told, </l>
             <l>As happy prologues to the swelling act </l>
-            <l>Of the imperial theme.--I thank you, gentlemen. <stage>[Aside]</stage>
+            <l n="130">Of the imperial theme.--I thank you, gentlemen. <stage>[Aside]</stage>
               </l>
             <l>This supernatural soliciting </l>
             <l>Cannot be ill, cannot be good: if ill, </l>
@@ -676,7 +676,7 @@
             <l>Against the use of nature? Present fears </l>
             <l>Are less than horrible imaginings: </l>
             <l>My thought, whose murder yet is but fantastical, </l>
-            <l>Shakes so my single state of man that function </l>
+            <l n="141">Shakes so my single state of man that function </l>
             <l>Is smother'd in surmise, and nothing is </l>
             <l part="I">But what is not. </l>
           </sp>
@@ -708,7 +708,7 @@
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
-            <l>Give me your favour: my dull brain was wrought </l>
+            <l n="150">Give me your favour: my dull brain was wrought </l>
             <l>With things forgotten. Kind gentlemen, your pains </l>
             <l>Are register'd where every day I turn </l>
             <l>The leaf to read them. Let us toward the
@@ -749,7 +749,7 @@
             <l>Implor'd your highness' pardon and set forth </l>
             <l>A deep repentance: nothing in his life </l>
             <l>Became him like the leaving it; he died </l>
-            <l>As one that had been studied in his death </l>
+            <l n="10">As one that had been studied in his death </l>
             <l>To throw away the dearest thing he owed, </l>
             <l part="I">As 'twere a careless trifle. </l>
           </sp>
@@ -784,7 +784,7 @@
             <l part="F">Welcome hither: </l>
             <l>I have begun to plant thee, and will labour </l>
             <l>To make thee full of growing. Noble Banquo, </l>
-            <l>That hast no less deserved, nor must be known </l>
+            <l n="31">That hast no less deserved, nor must be known </l>
             <l>No less to have done so, let me infold thee </l>
             <l part="I">And hold thee to my heart. </l>
           </sp>
@@ -801,7 +801,7 @@
             <l>And you whose places are the nearest, know </l>
             <l>We will establish our estate upon </l>
             <l>Our eldest, Malcolm, whom we name hereafter </l>
-            <l>The Prince of Cumberland; which honour must </l>
+            <l n="40">The Prince of Cumberland; which honour must </l>
             <l>Not unaccompanied invest him only, </l>
             <l>But signs of nobleness, like stars, shall shine </l>
             <l>On all deservers. From hence to Inverness, </l>
@@ -859,7 +859,7 @@
             <l>Glamis thou art, and Cawdor; and shalt be </l>
             <l>What thou art promised: yet do I fear thy nature; </l>
             <l>It is too full o' the milk of human kindness </l>
-            <l>To catch the nearest way: thou wouldst be great; </l>
+            <l n="20">To catch the nearest way: thou wouldst be great; </l>
             <l>Art not without ambition, but without </l>
             <l>The illness should attend it: what thou wouldst highly </l>
             <l>That wouldst thou holily; wouldst not play false, </l>
@@ -908,7 +908,7 @@
             <l>That no compunctious visitings of nature </l>
             <l>Shake my fell purpose, nor keep peace between </l>
             <l>The effect and it! Come to my woman's breasts, </l>
-            <l>And take my milk for gall, you murdering ministers, </l>
+            <l n="50">And take my milk for gall, you murdering ministers, </l>
             <l>Wherever in your sightless substances </l>
             <l>You wait on nature's mischief! Come, thick night, </l>
             <l>And pall thee in the dunnest smoke of hell, </l>
@@ -920,7 +920,7 @@
             <l>Greater than both, by the all-hail hereafter! </l>
             <l>Thy letters have transported me beyond </l>
             <l>This ignorant present, and I feel now </l>
-            <l part="I">The future in the instant. </l>
+            <l n="59" part="I">The future in the instant. </l>
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
@@ -946,7 +946,7 @@
             <l>But be the serpent under 't. He that's coming </l>
             <l>Must be provided for: and you shall put </l>
             <l>This night's great business into my dispatch; </l>
-            <l>Which shall to all our nights and days to come </l>
+            <l n="71">Which shall to all our nights and days to come </l>
             <l>Give solely sovereign sway and masterdom. </l>
           </sp>
           <sp who="macb.">
@@ -985,7 +985,7 @@
             <l>Buttress, nor coign of vantage, but this bird </l>
             <l>Hath made his pendent bed and procreant cradle: </l>
             <l>Where they most breed and haunt I have observed, </l>
-            <l>The air is delicate. <stage type="entrance">Enter LADY MACBETH.</stage>
+            <l n="10">The air is delicate. <stage type="entrance">Enter LADY MACBETH.</stage>
               </l>
           </sp>
           <sp who="dun.">
@@ -1004,7 +1004,7 @@
             <l>Against those honours deep and broad wherewith </l>
             <l>Your majesty loads our house: for those of old, </l>
             <l>And the late dignities heap'd up to them, </l>
-            <l>We rest your hermits. </l>
+            <l n="20">We rest your hermits. </l>
           </sp>
           <sp who="dun.">
             <speaker>Dun.</speaker>
@@ -1025,7 +1025,7 @@
           <sp who="dun.">
             <speaker>Dun.</speaker>
             <l part="F">Give me your hand; </l>
-            <l>Conduct me to mine host: we love him highly, </l>
+            <l n="30">Conduct me to mine host: we love him highly, </l>
             <l>And shall continue our graces towards him. </l>
             <l>By your leave, hostess. <stage type="exit">Exeunt.</stage></l>
           </sp>
@@ -1050,7 +1050,7 @@
             <l>But here, upon this bank and shoal of time, </l>
             <l>We'ld jump the life to come. But in these cases </l>
             <l>We still have judgement here; that we but teach </l>
-            <l>Bloody instructions, which, being taught, return </l>
+            <l n="10">Bloody instructions, which, being taught, return </l>
             <l>To plague the inventor: this even-handed justice </l>
             <l>Commends the ingredients of our poison'd chalice </l>
             <l>To our own lips. He's here in double trust; </l>
@@ -1060,7 +1060,7 @@
             <l>Not bear the knife myself. Besides, this Duncan </l>
             <l>Hath borne his faculties so meek, hath been </l>
             <l>So clear in his great office, that his virtues </l>
-            <l>Will plead like angels, trumpet-tongued, against </l>
+            <l n="20">Will plead like angels, trumpet-tongued, against </l>
             <l>The deep damnation of his taking-off; </l>
             <l>And pity, like a naked new-born babe, </l>
             <l>Striding the blast, or heaven's cherubim, horsed </l>
@@ -1079,7 +1079,7 @@
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
-            <l part="I">Hath he ask'd for me? </l>
+            <l n="30" part="I">Hath he ask'd for me? </l>
           </sp>
           <sp who="lady-m.">
             <speaker>Lady M.</speaker>
@@ -1099,7 +1099,7 @@
             <l>Wherein you dress'd yourself? hath it slept since? </l>
             <l>And wakes it now, to look so green and pale </l>
             <l>At what it did so freely? From this time </l>
-            <l>Such I account thy love. Art thou afeard </l>
+            <l n="40">Such I account thy love. Art thou afeard </l>
             <l>To be the same in thine own act and valour </l>
             <l>As thou art in desire? Wouldst thou have that </l>
             <l>Which thou esteem'st the ornament of life, </l>
@@ -1117,7 +1117,7 @@
             <speaker>Lady M.</speaker>
             <l part="F">What beast was't, then, </l>
             <l>That made you break this enterprise to me? </l>
-            <l>When you durst do it, then you were a man; </l>
+            <l n="50">When you durst do it, then you were a man; </l>
             <l>And, to be more than what you were, you would </l>
             <l>Be so much more the man. Nor time nor place </l>
             <l>Did then adhere, and yet you would make both: </l>
@@ -1145,7 +1145,7 @@
             <l>Shall be a fume, and the receipt of reason </l>
             <l>A limbeck only: when in swinish sleep </l>
             <l>Their drenched natures lie as in a death, </l>
-            <l>What cannot you and I perform upon </l>
+            <l n="70">What cannot you and I perform upon </l>
             <l>The unguarded Duncan? what not put upon </l>
             <l>His spongy officers, who shall bear the guilt </l>
             <l>Of our great quell? </l>
@@ -1283,7 +1283,7 @@
             <l>Art thou not, fatal vision, sensible </l>
             <l>To feeling as to sight? or art thou but </l>
             <l>A dagger of the mind, a false creation, </l>
-            <l>Proceeding from the heat-oppressed brain? </l>
+            <l n="40">Proceeding from the heat-oppressed brain? </l>
             <l>I see thee yet, in form as palpable </l>
             <l>As this which now I draw. </l>
             <l>Thou marshall'st me the way that I was going; </l>
@@ -1294,7 +1294,7 @@
             <l>Which was not so before. There's no such thing: </l>
             <l>It is the bloody business which informs </l>
             <l>Thus to mine eyes. Now o'er the one half-world </l>
-            <l>Nature seems dead, and wicked dreams abuse </l>
+            <l n="51">Nature seems dead, and wicked dreams abuse </l>
             <l>The curtain'd sleep; withcraft celebrates </l>
             <l>Pale Hecate's offerings, and wither'd murder, </l>
             <l>Alarum'd by his sentinel, the wolf, </l>
@@ -1303,7 +1303,7 @@
             <l>Moves like a ghost. Thou sure and firm-set earth, </l>
             <l>Hear not my steps, which way they walk, for fear </l>
             <l>Thy very stones prate of my whereabout, </l>
-            <l>And take the present horror from the time, </l>
+            <l n="60">And take the present horror from the time, </l>
             <l>Which now suits with it. Whiles I threat, he lives: </l>
             <l>Words to the heat of deeds too cold breath gives. <stage>A bell
                 rings.</stage>
@@ -1380,7 +1380,7 @@
           <sp who="macb.">
             <speaker>Macb.</speaker>
             <l>Hark! </l>
-            <l part="I">Who lies i' the second chamber? </l>
+            <l n="20" part="I">Who lies i' the second chamber? </l>
           </sp>
           <sp who="lady-m.">
             <speaker>Lady M.</speaker>
@@ -1408,7 +1408,7 @@
             <l>One cried 'God bless us!' and 'Amen' the other; </l>
             <l>As they had seen me with these hangman's hands. </l>
             <l>Listening their fear, I could not say 'Amen,' </l>
-            <l>When they did say 'God bless us!' </l>
+            <l n="30">When they did say 'God bless us!' </l>
           </sp>
           <sp who="lady-m.">
             <speaker>Lady M.</speaker>
@@ -1452,7 +1452,7 @@
             <l>And wash this filthy witness from your hand. </l>
             <l>Why did you bring these daggers from the place? </l>
             <l>They must lie there: go carry them; and smear </l>
-            <l part="I">The sleepy grooms with blood. </l>
+            <l n="50" part="I">The sleepy grooms with blood. </l>
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
@@ -1475,7 +1475,7 @@
             <l part="F">Whence is that knocking? </l>
             <l>How is't with me, when every noise appals me? </l>
             <l>What hands are here? ha! they pluck out mine eyes. </l>
-            <l>Will all great Neptune's ocean wash this blood </l>
+            <l n="61">Will all great Neptune's ocean wash this blood </l>
             <l>Clean from my hand? No, this my hand will rather </l>
             <l>The multitudinous seas incarnadine, </l>
             <l>Making the green one red. <stage type="entrance">Re-enter LADY
@@ -1616,7 +1616,7 @@
           </sp>
           <sp who="len.">
             <speaker>Len.</speaker>
-            <l>The night has been unruly: where we lay, </l>
+            <l n="60">The night has been unruly: where we lay, </l>
             <l>Our chimneys were blown down; and, as they say, </l>
             <l>Lamentings heard i' the air; strange screams of death, </l>
             <l>And prophesying with accents terrible </l>
@@ -1691,7 +1691,7 @@
           <sp who="macd.">
             <speaker>Macd.</speaker>
             <l part="F">O gentle lady, </l>
-            <l>'Tis not for you to hear what I can speak: </l>
+            <l n="90">'Tis not for you to hear what I can speak: </l>
             <l>The repetition, in a woman's ear, </l>
             <l part="I">Would murder as it fell. <stage type="entrance">Enter
                 BANQUO.</stage>
@@ -1718,7 +1718,7 @@
             <l>I had lived a blessed time; for, from this instant, </l>
             <l>There's nothing serious in mortality: </l>
             <l>All is but toys: renown and grace is dead; </l>
-            <l>The wine of life is drawn, and the mere lees </l>
+            <l n="101">The wine of life is drawn, and the mere lees </l>
             <l>Is left this vault to brag of. 
               </l>
           </sp>
@@ -1745,7 +1745,7 @@
             <l>Those of his chamber, as it seem'd, had done't: </l>
             <l>Their hands and faces were all badged with blood; </l>
             <l>So were their daggers, which unwiped we found </l>
-            <l>Upon their pillows: </l>
+            <l n="110">Upon their pillows: </l>
             <l>They stared, and were distracted; no man's life </l>
             <l>Was to be trusted with them. </l>
           </sp>
@@ -1765,7 +1765,7 @@
             <l>The expedition of my violent love </l>
             <l>Outrun the pauser, reason. Here lay Duncan, </l>
             <l>His silver skin laced with his golden blood; </l>
-            <l>And his gash'd stabs look'd like a breach in nature </l>
+            <l n="120">And his gash'd stabs look'd like a breach in nature </l>
             <l>For ruin's wasteful entrance: there, the murderers, </l>
             <l>Steep'd in the colours of their trade, their daggers </l>
             <l>Unmannerly breech'd with gore: who could refrain, </l>
@@ -1790,7 +1790,7 @@
             <speaker>Don.</speaker>
             <stage>[Aside to Mal.]</stage>
             <l>What should be spoken here, where our fate, </l>
-            <l>Hid in an auger-hole, may rush, and seize us? </l>
+            <l n="129">Hid in an auger-hole, may rush, and seize us? </l>
             <l>Let's away; </l>
             <l>Our tears are not yet brew'd. </l>
           </sp>
@@ -1798,7 +1798,7 @@
             <speaker>Mal.</speaker>
             <stage>[Aside to Don.]</stage>
             <l>Nor our strong sorrow </l>
-            <l part="I">Upon the foot of motion. </l>
+            <l n="131" part="I">Upon the foot of motion. </l>
           </sp>
           <sp who="ban.">
             <speaker>Ban.</speaker>
@@ -1848,7 +1848,7 @@
             <speaker>Mal.</speaker>
             <l>This murderous shaft that's shot </l>
             <l>Hath not yet lighted, and our safest way </l>
-            <l>Is to avoid the aim. Therefore, to horse; </l>
+            <l n="150">Is to avoid the aim. Therefore, to horse; </l>
             <l>And let us not be dainty of leave-taking, </l>
             <l>But shift away: there's warrant in that theft </l>
             <l>Which steals itself, when there's no mercy left. <stage type="exit">Exeunt.</stage></l>
@@ -1878,7 +1878,7 @@
             <l>And yet dark night strangles the travelling lamp: </l>
             <l>Is't night's predominance, or the day's shame, </l>
             <l>That darkness does the face of earth entomb, </l>
-            <l part="I">When living light should kiss it? </l>
+            <l n="10" part="I">When living light should kiss it? </l>
           </sp>
           <sp who="old-m.">
             <speaker>Old M.</speaker>
@@ -1901,7 +1901,7 @@
           </sp>
           <sp who="ross.">
             <speaker>Ross.</speaker>
-            <l>They did so, to the amazement of mine eyes </l>
+            <l n="20">They did so, to the amazement of mine eyes </l>
             <l>That look'd upon 't. Here comes the good
               Macduff. <stage type="entrance">Enter MACDUFF.</stage>
               </l>
@@ -1935,7 +1935,7 @@
             <speaker>Ross.</speaker>
             <l part="F">'Gainst nature still! </l>
             <l>Thriftless ambition, that wilt ravin up </l>
-            <l>Thine own life's means! Then 'tis most like </l>
+            <l n="30">Thine own life's means! Then 'tis most like </l>
             <l>The sovereignty will fall upon Macbeth. </l>
           </sp>
           <sp who="macd.">
@@ -1972,7 +1972,7 @@
           </sp>
           <sp who="ross.">
             <speaker>Ross.</speaker>
-            <l>Farewell, father. </l>
+            <l n="40">Farewell, father. </l>
           </sp>
           <sp who="old-m.">
             <speaker>Old M.</speaker>
@@ -2033,7 +2033,7 @@
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
-            <l>Ride you this afternoon? </l>
+            <l n="20">Ride you this afternoon? </l>
           </sp>
           <sp who="ban.">
             <speaker>Ban.</speaker>
@@ -2059,7 +2059,7 @@
           </sp>
           <sp who="ban.">
             <speaker>Ban.</speaker>
-            <l>My lord, I will not. </l>
+            <l n="30">My lord, I will not. </l>
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
@@ -2078,7 +2078,7 @@
           <sp who="macb.">
             <speaker>Macb.</speaker>
             <l>I wish your horses swift and sure of foot; </l>
-            <l>And so I do commend you to their backs. </l>
+            <l n="40">And so I do commend you to their backs. </l>
             <l>Farewell. <stage type="exit">[Exit Banquo. </stage>
               </l>
             <l>Let every man be master of his time </l>
@@ -2098,7 +2098,7 @@
             <l part="I">Bring them before us. <stage type="exit">Exit Attendant.</stage>
               </l>
             <l part="F">To be thus is nothing; </l>
-            <l>But to be safely thus.--Our fears in Banquo </l>
+            <l n="50">But to be safely thus.--Our fears in Banquo </l>
             <l>Stick deep; and in his royalty of nature </l>
             <l>Reigns that which would be fear'd: 'tis much he dares; </l>
             <l>And, to that dauntless temper of his mind, </l>
@@ -2108,7 +2108,7 @@
             <l>My Genius is rebuked; as, it is said, </l>
             <l>Mark Antony's was by Caesar. He chid the sisters </l>
             <l>When first they put the name of king upon me, </l>
-            <l>And bade them speak to him: then prophet-like </l>
+            <l n="60">And bade them speak to him: then prophet-like </l>
             <l>They hail'd him father to a line of kings: </l>
             <l>Upon my head they placed a fruitless crown, </l>
             <l>And put a barren sceptre in my gripe, </l>
@@ -2118,7 +2118,7 @@
             <l>For them the gracious Duncan have I murder'd; </l>
             <l>Put rancours in the vessel of my peace </l>
             <l>Only for them; and mine eternal jewel </l>
-            <l>Given to the common enemy of man, </l>
+            <l n="70">Given to the common enemy of man, </l>
             <l>To make them kings, the seed of Banquo kings! </l>
             <l>Rather than so, come fate into the list, </l>
             <l>And champion me to the utterance! Who's there? <stage type="entrance">Re-enter Attendant, with two Murderers.</stage>
@@ -2137,7 +2137,7 @@
             <l>Have you consider'd of my speeches? Know </l>
             <l>That it was he in the times past which held you </l>
             <l>So under fortune, which you thought had been </l>
-            <l>Our innocent self: this I made good to you </l>
+            <l n="80">Our innocent self: this I made good to you </l>
             <l>In our last conference, pass'd in probation with you, </l>
             <l>How you were borne in hand, how cross'd, the instruments, </l>
             <l>Who wrought with them, and all things else that might </l>
@@ -2156,7 +2156,7 @@
             <l>That you can let this go? Are you so gospell'd </l>
             <l>To pray for this good man and for his issue, </l>
             <l>Whose heavy hand hath bow'd you to the grave </l>
-            <l part="I">And beggar'd yours for ever? </l>
+            <l n="91" part="I">And beggar'd yours for ever? </l>
           </sp>
           <sp who="first-mur.">
             <speaker>First Mur.</speaker>
@@ -2171,7 +2171,7 @@
             <l>Distinguishes the swift, the slow, the subtle, </l>
             <l>The housekeeper, the hunter, every one </l>
             <l>According to the gift which bounteous nature </l>
-            <l>Hath in him closed, whereby he does receive </l>
+            <l n="100">Hath in him closed, whereby he does receive </l>
             <l>Particular addition, from the bill </l>
             <l>That writes them all alike: and so of men. </l>
             <l>Now, if you have a station in the file, </l>
@@ -2185,7 +2185,7 @@
           <sp who="sec.-mur.">
             <speaker>Sec. Mur.</speaker>
             <l part="F">I am one, my liege, </l>
-            <l>Whom the vile blows and buffets of the world </l>
+            <l n="110">Whom the vile blows and buffets of the world </l>
             <l>Have so incensed that I am reckless what </l>
             <l part="I">I do to spite the world. </l>
           </sp>
@@ -2210,7 +2210,7 @@
             <l>So is he mine; and in such bloody distance, </l>
             <l>That every minute of his being thrusts </l>
             <l>Against my near'st of life: and though I could </l>
-            <l>With barefaced power sweep him from my sight </l>
+            <l n="120">With barefaced power sweep him from my sight </l>
             <l>And bid my will avouch it, yet I must not, </l>
             <l>For certain friends that are both his and mine, </l>
             <l>Whose loves I may not drop, but wail his fall </l>
@@ -2246,7 +2246,7 @@
           </sp>
           <sp who="both-mur.">
             <speaker>Both Mur.</speaker>
-            <l>We are resolved, my lord. </l>
+            <l n="140">We are resolved, my lord. </l>
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
@@ -2291,7 +2291,7 @@
             <l>Than by destruction dwell in doubtful joy. <stage type="entrance">Enter MACBETH.</stage>
               </l>
             <l>How now, my lord! why do you keep alone, </l>
-            <l>Of sorriest fancies your companions making, </l>
+            <l n="10">Of sorriest fancies your companions making, </l>
             <l>Using those thoughts which should indeed have died </l>
             <l>With them they think on? Things without all remedy </l>
             <l>Should be without regard: what's done is done. </l>
@@ -2305,7 +2305,7 @@
                 </l>
             <l>Ere we will eat our meal in fear and sleep </l>
             <l>In the affliction of these terrible dreams </l>
-            <l>That shake us nightly: better be with the dead, </l>
+            <l n="20">That shake us nightly: better be with the dead, </l>
             <l>Whom we, to gain our peace, have sent to peace, </l>
             <l>Than on the torture of the mind to lie </l>
             <l>In restless ecstasy. Duncan is in his grave; </l>
@@ -2322,7 +2322,7 @@
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
-            <l>So shall I, love; and so, I pray, be you: </l>
+            <l n="30">So shall I, love; and so, I pray, be you: </l>
             <l>Let your remembrance apply to Banquo; </l>
             <l>Present him eminence, both with eye and tongue: </l>
             <l>Unsafe the while, that we </l>
@@ -2346,7 +2346,7 @@
           <sp who="macb.">
             <speaker>Macb.</speaker>
             <l>There's comfort yet; they are as- sailable; </l>
-            <l>Then be thou jocund: ere the bat hath flown </l>
+            <l n="41">Then be thou jocund: ere the bat hath flown </l>
             <l>His cloister'd flight, ere to black Hecate's summons </l>
             <l>The shard-borne beetle with his drowsy hums </l>
             <l>Hath rung night's yawning peal, there shall be done </l>
@@ -2362,7 +2362,7 @@
             <l>Till thou applaud the deed. Come, seeling night, </l>
             <l>Scarf up the tender eye of pitiful day; </l>
             <l>And with thy bloody and invisible hand </l>
-            <l>Cancel and tear to pieces that great bond </l>
+            <l n="50">Cancel and tear to pieces that great bond </l>
             <l>Which keeps me pale! Light thickens; and the crow </l>
             <l>Makes wing to the rooky wood: </l>
             <l>Good things of day begin to droop and drowse; </l>
@@ -2469,7 +2469,7 @@
           </sp>
           <sp who="third-mur.">
             <speaker>Third Mur.</speaker>
-            <l part="I">There's but one down; the son is fled. </l>
+            <l n="20" part="I">There's but one down; the son is fled. </l>
           </sp>
           <sp who="sec.-mur.">
             <speaker>Sec. Mur.</speaker>
@@ -2509,7 +2509,7 @@
           <sp who="lady-m.">
             <speaker>Lady M.</speaker>
             <l>Pronounce it for me, sir, to all our friends; </l>
-            <l>For my heart speaks they are welcome. <stage type="entrance">First Murderer appears at the door.</stage>
+            <l n="9">For my heart speaks they are welcome. <stage type="entrance">First Murderer appears at the door.</stage>
               </l>
           </sp>
           <sp who="macb.">
@@ -2562,7 +2562,7 @@
           <sp who="macb.">
             <speaker>Macb.</speaker>
             <l part="F">Thanks for that: </l>
-            <l>There the grown serpent lies; the worm that's fled </l>
+            <l n="30">There the grown serpent lies; the worm that's fled </l>
             <l>Hath nature that in time will venom breed, </l>
             <l>No teeth for the present. Get thee gone: to morrow </l>
             <l part="I">We'll hear, ourselves, again. <stage type="exit">Exit Murderer.</stage>
@@ -2648,7 +2648,7 @@
           <sp who="macb.">
             <speaker>Macb.</speaker>
             <l>Ay, and a bold one, that dare look on that </l>
-            <l part="I">Which might appal the devil. </l>
+            <l n="60" part="I">Which might appal the devil. </l>
           </sp>
           <sp who="lady-m.">
             <speaker>Lady M.</speaker>
@@ -2664,7 +2664,7 @@
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
-            <l>Prithee, see there! behold! look! lo! how say you? </l>
+            <l n="70">Prithee, see there! behold! look! lo! how say you? </l>
             <l>Why, what care I? If thou canst nod, speak too. </l>
             <l>If charnel-houses and our graves must send </l>
             <l>Those that we bury back, our monuments </l>
@@ -2707,7 +2707,7 @@
             <l>I have a strange infirmity, which is nothing </l>
             <l>To those that know me. Come, love and health to all; </l>
             <l>Then I'll sit down. Give me some wine; fill full. </l>
-            <l>I drink to the general joy o' the whole table, </l>
+            <l n="90">I drink to the general joy o' the whole table, </l>
             <l>And to our dear friend Banquo, whom we miss; </l>
             <l>Would he were here! to all, and him, we thirst, </l>
             <l>And all to all. </l>
@@ -2728,7 +2728,7 @@
             <speaker>Lady M.</speaker>
             <l part="F">Think of this, good peers, </l>
             <l>But as a thing of custom: 'tis no other; </l>
-            <l>Only it spoils the pleasure of the time. </l>
+            <l n="99">Only it spoils the pleasure of the time. </l>
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
@@ -2748,7 +2748,7 @@
           <sp who="lady-m.">
             <speaker>Lady M.</speaker>
             <l>You have displaced the mirth, broke the good meeting, </l>
-            <l part="I">With most admired disorder. </l>
+            <l n="110" part="I">With most admired disorder. </l>
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
@@ -2769,7 +2769,7 @@
             <l>I pray you, speak not; he grows worse and worse; </l>
             <l>Question enrages him. At once, good night: </l>
             <l>Stand not upon the order of your going, </l>
-            <l>But go at once. </l>
+            <l n="120">But go at once. </l>
           </sp>
           <sp who="len.">
             <speaker>Len.</speaker>
@@ -2815,7 +2815,7 @@
             <l>Stepp'd in so far that, should I wade no more, </l>
             <l>Returning were as tedious as go o'er: </l>
             <l>Strange things I have in head, that will to hand; </l>
-            <l>Which must be acted ere they may be scann'd. </l>
+            <l n="141">Which must be acted ere they may be scann'd. </l>
           </sp>
           <sp who="lady-m.">
             <speaker>Lady M.</speaker>
@@ -2849,7 +2849,7 @@
             <l>And I, the mistress of your charms, </l>
             <l>The close contriver of all harms, </l>
             <l>Was never call'd to bear my part, </l>
-            <l>Or show the glory of our art? </l>
+            <l n="10">Or show the glory of our art? </l>
             <l>And, which is worse, all you have done </l>
             <l>Hath been but for a wayward son, </l>
             <l>Spiteful and wrathful, who, as others do, </l>
@@ -2859,7 +2859,7 @@
             <l>Meet me i' the morning: thither he </l>
             <l>Will come to know his destiny: </l>
             <l>Your vessels and your spells provide, </l>
-            <l>Your charms and every thing beside. </l>
+            <l n="20">Your charms and every thing beside. </l>
             <l>I am for the air; this night I'll spend </l>
             <l>Unto a dismal and a fatal end: </l>
             <l>Great business must be wrought ere noon: </l>
@@ -2869,7 +2869,7 @@
             <l>And that distill'd by magic sleights </l>
             <l>Shall raise such artificial sprites </l>
             <l>As by the strength of their illusion </l>
-            <l>Shall draw him on to his confusion: </l>
+            <l n="30">Shall draw him on to his confusion: </l>
             <l>He shall spurn fate, scorn death, and bear </l>
             <l>His hopes 'bove wisdom, grace and fear: </l>
             <l>And you all know, security </l>
@@ -2905,7 +2905,7 @@
             <l>Whom, you may say, if 't please you, Fleance kill'd, </l>
             <l>For Fleance fled: men must not walk too late. </l>
             <l>Who cannot want the thought how monstrous </l>
-            <l>It was for Malcolm and for Donalbain </l>
+            <l n="10">It was for Malcolm and for Donalbain </l>
             <l>To kill their gracious father? damned fact! </l>
             <l>How it did grieve Macbeth! did he not straight </l>
             <l>In pious rage the two delinquents tear, </l>
@@ -2916,7 +2916,7 @@
             <l>He has borne all things well: and I do think </l>
             <l>That had he Duncan's sons under his key-- </l>
             <l>As, an't please heaven, he shall not--they should find </l>
-            <l>What 'twere to kill a father; so should Fleance. </l>
+            <l n="21">What 'twere to kill a father; so should Fleance. </l>
             <l>But, peace! for from broad words and 'cause he fail'd </l>
             <l>His presence at the tyrant's feast, I hear </l>
             <l>Macduff lives in disgrace: sir, can you tell </l>
@@ -2929,7 +2929,7 @@
             <l>Lives in the English court, and is received </l>
             <l>Of the most pious Edward with such grace </l>
             <l>That the malevolence of fortune nothing </l>
-            <l>Takes from his high respect: thither Macduff </l>
+            <l n="30">Takes from his high respect: thither Macduff </l>
             <l>Is gone to pray the holy king, upon his aid </l>
             <l>To wake Northumberland and warlike Siward: </l>
             <l>That by the help of these--with Him above </l>
@@ -2998,7 +2998,7 @@
             <l>Toad, that under cold stone </l>
             <l>Days and nights has thirty one </l>
             <l>Swelter'd venom sleeping got, </l>
-            <l>Boil thou first i' the charmed pot. </l>
+            <l n="10">Boil thou first i' the charmed pot. </l>
           </sp>
           <sp who="all.">
             <speaker>All.</speaker>
@@ -3014,7 +3014,7 @@
             <l>Adder's fork and blind-worm's sting, </l>
             <l>Lizard's leg and howlet's wing, </l>
             <l>For a charm of powerful trouble, </l>
-            <l>Like a hell-broth boil and bubble. </l>
+            <l n="20">Like a hell-broth boil and bubble. </l>
           </sp>
           <sp who="all.">
             <speaker>All.</speaker>
@@ -3030,7 +3030,7 @@
             <l>Liver of blaspheming Jew, </l>
             <l>Gall of goat, and slips of yew </l>
             <l>Silver'd in the moon's eclipse, </l>
-            <l>Nose of Turk and Tartar's lips, </l>
+            <l n="30">Nose of Turk and Tartar's lips, </l>
             <l>Finger of birth-strangled babe </l>
             <l>Ditch-deliver'd by a drab, </l>
             <l>Make the gruel thick and slab: </l>
@@ -3051,7 +3051,7 @@
           </sp>
           <sp who="hec.">
             <speaker>Hec.</speaker>
-            <l>O, well done! I commend your pains; </l>
+            <l n="40">O, well done! I commend your pains; </l>
             <l>And every one shall share i' the gains: </l>
             <l>And now about the cauldron sing, </l>
             <l>Like elves and fairies in a ring, </l>
@@ -3088,7 +3088,7 @@
             <l>Though castles topple on their warders' heads; </l>
             <l>Though palaces and pyramids do slope </l>
             <l>Their heads to their foundations; though the treasure </l>
-            <l>Of nature's germens tumble all together, </l>
+            <l n="60">Of nature's germens tumble all together, </l>
             <l>Even till destruction sicken; answer me </l>
             <l>To what I ask you. </l>
           </sp>
@@ -3236,7 +3236,7 @@
           </sp>
           <sp who="all.">
             <speaker>All.</speaker>
-            <l>Show his eyes, and grieve his heart; </l>
+            <l n="111">Show his eyes, and grieve his heart; </l>
             <l>Come like shadows, so depart! <stage type="entrance">A show of
                 Eight Kings, the last with a glass in his hand; Banquo's Ghost
                 following.</stage>
@@ -3265,7 +3265,7 @@
             <l>Stands Macbeth thus amazedly? </l>
             <l>Come, sisters, cheer we up his sprites, </l>
             <l>And show the best of our delights: </l>
-            <l>I'll charm the air to give a sound, </l>
+            <l n="130">I'll charm the air to give a sound, </l>
             <l>While you perform your antic round; </l>
             <l>That this great king may kindly say, </l>
             <l>Our duties did his welcome pay. <stage>Music.</stage>
@@ -3304,7 +3304,7 @@
             <speaker>Macb.</speaker>
             <l>Infected be the air whereon they ride; </l>
             <l>And damn'd all those that trust them! I did hear </l>
-            <l>The galloping of horse: who was't came by? </l>
+            <l n="141">The galloping of horse: who was't came by? </l>
           </sp>
           <sp who="len.">
             <speaker>Len.</speaker>
@@ -3326,7 +3326,7 @@
             <l>Unless the deed go with it: from this moment </l>
             <l>The very firstlings of my heart shall be </l>
             <l>The firstlings of my hand. And even now, </l>
-            <l>To crown my thoughts with acts, be it thought and done: </l>
+            <l n="150">To crown my thoughts with acts, be it thought and done: </l>
             <l>The castle of Macduff I will surprise; </l>
             <l>Seize upon Fife; give to the edge o' the sword </l>
             <l>His wife, his babes, and all unfortunate souls </l>
@@ -3369,7 +3369,7 @@
             <l>Wisdom! to leave his wife, to leave his babes, </l>
             <l>His mansion and his titles in a place </l>
             <l>From whence himself does fly? He loves us not; </l>
-            <l>He wants the natural touch: for the poor wren, </l>
+            <l n="10">He wants the natural touch: for the poor wren, </l>
             <l>The most diminutive of birds, will fight, </l>
             <l>Her young ones in her nest, against the owl. </l>
             <l>All is the fear and nothing is the love; </l>
@@ -3384,7 +3384,7 @@
             <l>The fits o' the season. I dare not speak much further; </l>
             <l>But cruel are the times, when we are traitors </l>
             <l>And do not know ourselves, when we hold rumour </l>
-            <l>&gt;From what we fear, yet know not what we fear, </l>
+            <l n="21">&gt;From what we fear, yet know not what we fear, </l>
             <l>But float upon a wild and violent sea </l>
             <l>Each way and move. I take my leave of you: </l>
             <l>Shall not be long but I'll be here again: </l>
@@ -3400,7 +3400,7 @@
             <speaker>Ross.</speaker>
             <l>I am so much a fool, should I stay longer, </l>
             <l>It would be my disgrace and your discomfort: </l>
-            <l>I take my leave at once. <stage type="exit">Exit.</stage>
+            <l n="30">I take my leave at once. <stage type="exit">Exit.</stage>
               </l>
           </sp>
           <sp who="l.-macd.">
@@ -3436,7 +3436,7 @@
           </sp>
           <sp who="son.">
             <speaker>Son.</speaker>
-            <l>Nay, how will you do for a husband? </l>
+            <l n="40">Nay, how will you do for a husband? </l>
           </sp>
           <sp who="l.-macd.">
             <speaker>L. Macd.</speaker>
@@ -3519,7 +3519,7 @@
             <l>I doubt some danger does approach you nearly: </l>
             <l>If you will take a homely man's advice, </l>
             <l>Be not found here; hence, with your little ones. </l>
-            <l>To fright you thus, methinks, I am too savage; </l>
+            <l n="71">To fright you thus, methinks, I am too savage; </l>
             <l>To do worse to you were fell cruelty, </l>
             <l>Which is too nigh your person. Heaven preserve you </l>
             <l part="I">I dare abide no longer. <stage type="exit">Exit.</stage>
@@ -3597,7 +3597,7 @@
           <sp who="mal.">
             <speaker>Mal.</speaker>
             <l part="F">What I believe I'll wail, </l>
-            <l>What know believe, and what I can redress, </l>
+            <l n="10">What know believe, and what I can redress, </l>
             <l>As I shall find the time to friend, I will. </l>
             <l>What you have spoke, it may be so perchance. </l>
             <l>This tyrant, whose sole name blisters our tongues, </l>
@@ -3631,7 +3631,7 @@
             <l>Why in that rawness left you wife and child, </l>
             <l>Those precious motives, those strong knots of love, </l>
             <l>Without leave-taking? I pray you, </l>
-            <l>Let not my jealousies be your dishonours, </l>
+            <l n="30">Let not my jealousies be your dishonours, </l>
             <l>But mine own safeties. You may be rightly just, </l>
             <l part="I">Whatever I shall think. </l>
           </sp>
@@ -3667,7 +3667,7 @@
           </sp>
           <sp who="mal.">
             <speaker>Mal.</speaker>
-            <l>It is myself I mean: in whom I know </l>
+            <l n="51">It is myself I mean: in whom I know </l>
             <l>All the particulars of vice so grafted </l>
             <l>That, when they shall be open'd, black Macbeth </l>
             <l>Will seem as pure as snow, and the poor state </l>
@@ -3685,7 +3685,7 @@
             <l part="F">I grant him bloody, </l>
             <l>Luxurious, avaricious, false, deceitful, </l>
             <l>Sudden, malicious, smacking of every sin </l>
-            <l>That has a name: but there's no bottom, none, </l>
+            <l n="61">That has a name: but there's no bottom, none, </l>
             <l>In my voluptuousness: your wives, your daughters, </l>
             <l>Your matrons and your maids, could not fill up </l>
             <l>The cistern of my lust, and my desire </l>
@@ -3698,7 +3698,7 @@
             <l part="F">Boundless intemperance </l>
             <l>In nature is a tyranny; it hath been </l>
             <l>The untimely emptying of the happy throne </l>
-            <l>And fall of many kings. But fear not yet </l>
+            <l n="70">And fall of many kings. But fear not yet </l>
             <l>To take upon you what is yours: you may </l>
             <l>Convey your pleasures in a spacious plenty, </l>
             <l>And yet seem cold, the time you may so hoodwink. </l>
@@ -3712,7 +3712,7 @@
             <l part="F">With this there grows </l>
             <l>In my most ill-composed affection such </l>
             <l>A stanchless avarice that, were I king, </l>
-            <l>I should cut off the nobles for their lands, </l>
+            <l n="80">I should cut off the nobles for their lands, </l>
             <l>Desire his jewels and this other's house: </l>
             <l>And my more-having would be as a sauce </l>
             <l>To make me hunger more; that I should forge </l>
@@ -3726,7 +3726,7 @@
             <l>Than summer-seeming lust, and it hath been </l>
             <l>The sword of our slain kings: yet do not fear; </l>
             <l>Scotland hath foisons to fill up your will, </l>
-            <l>Of your mere own: all these are portable, </l>
+            <l n="90">Of your mere own: all these are portable, </l>
             <l>With other graces weigh'd. </l>
           </sp>
           <sp who="mal.">
@@ -3740,7 +3740,7 @@
             <l>Acting it many ways. Nay, had I power, I should </l>
             <l>Pour the sweet milk of concord into hell, </l>
             <l>Uproar the universal peace, confound </l>
-            <l part="I">All unity on earth. </l>
+            <l n="100" part="I">All unity on earth. </l>
           </sp>
           <sp who="macd.">
             <speaker>Macd.</speaker>
@@ -3760,7 +3760,7 @@
             <l>Since that the truest issue of thy throne </l>
             <l>By his own interdiction stands accursed, </l>
             <l>And does blaspheme his breed? Thy royal father </l>
-            <l>Was a most sainted king: the queen that bore thee, </l>
+            <l n="110">Was a most sainted king: the queen that bore thee, </l>
             <l>Oftener upon her knees than on her feet, </l>
             <l>Died every day she lived. Fare thee well! </l>
             <l>These evils thou repeat'st upon thyself </l>
@@ -3797,7 +3797,7 @@
           <sp who="macd.">
             <speaker>Macd.</speaker>
             <l>Such welcome and unwelcome things at once </l>
-            <l>'Tis hard to reconcile. <stage type="entrance">Enter a
+            <l n="140">'Tis hard to reconcile. <stage type="entrance">Enter a
                 Doctor.</stage>
               </l>
           </sp>
@@ -3827,7 +3827,7 @@
             <l part="F">'Tis call'd the evil: </l>
             <l>A most miraculous work in this good king; </l>
             <l>Which often, since my here-remain in England, </l>
-            <l>I have seen him do. How he solicits heaven, </l>
+            <l n="150">I have seen him do. How he solicits heaven, </l>
             <l>Himself best knows: but strangely-visited people, </l>
             <l>All swoln and ulcerous, pitiful to the eye, </l>
             <l>The mere despair of surgery, he cures, </l>
@@ -3872,7 +3872,7 @@
             <l>Be call'd our mother, but our grave; wher nothing, </l>
             <l>But who knows nothing, is once seen to smile: </l>
             <l>Where sighs and groans and shrieks that rend the air </l>
-            <l>Are made, not mark'd; where violent sorrow seems </l>
+            <l n="170">Are made, not mark'd; where violent sorrow seems </l>
             <l>A modern ecstasy: the dead man's knell </l>
             <l>Is there scarce ask'd for who; and good men's lives </l>
             <l>Expire before the flowers in their caps, </l>
@@ -3914,7 +3914,7 @@
           </sp>
           <sp who="ross.">
             <speaker>Ross.</speaker>
-            <l>No; they were well at peace when I did leave 'em. </l>
+            <l n="180">No; they were well at peace when I did leave 'em. </l>
           </sp>
           <sp who="macd.">
             <speaker>Macd.</speaker>
@@ -3935,7 +3935,7 @@
             <speaker>Mal.</speaker>
             <l part="F">Be't their comfort </l>
             <l>We are coming thither: gracious England hath </l>
-            <l>Lent us good Siward and ten thousand men; </l>
+            <l n="191">Lent us good Siward and ten thousand men; </l>
             <l>An older and a better soldier none </l>
             <l part="I">That Christendom gives out. </l>
           </sp>
@@ -3984,7 +3984,7 @@
             <speaker>Mal.</speaker>
             <l part="F">Merciful heaven! </l>
             <l>What, man! ne'er pull your hat upon your brows; </l>
-            <l>Give sorrow words: the grief that does no speak </l>
+            <l n="210">Give sorrow words: the grief that does no speak </l>
             <l>Whispers the o'er-fraught heart and bids it break. </l>
           </sp>
           <sp who="macd.">
@@ -4020,7 +4020,7 @@
           </sp>
           <sp who="mal.">
             <speaker>Mal.</speaker>
-            <l part="I">Dispute it like a man. </l>
+            <l n="220" part="I">Dispute it like a man. </l>
           </sp>
           <sp who="macd.">
             <speaker>Macd.</speaker>
@@ -4036,7 +4036,7 @@
           <sp who="mal.">
             <speaker>Mal.</speaker>
             <l>Be this the whetstone of your sword: let grief </l>
-            <l>Convert to anger; blunt not the heart, enrage it. </l>
+            <l n="230">Convert to anger; blunt not the heart, enrage it. </l>
           </sp>
           <sp who="macd.">
             <speaker>Macd.</speaker>
@@ -4053,7 +4053,7 @@
             <l>Come, go we to the king; our power is ready; </l>
             <l>Our lack is nothing but our leave: Macbeth </l>
             <l>Is ripe for shaking, and the powers above </l>
-            <l>Put on their instruments. Receive what cheer you may: </l>
+            <l n="240">Put on their instruments. Receive what cheer you may: </l>
             <l part="I">The night is long that never finds the day. <stage type="exit">Exeunt.</stage></l>
           </sp>
         </div>
@@ -4259,7 +4259,7 @@
           <sp who="len.">
             <speaker>Len.</speaker>
             <l>For certain, sir, he is not: I have a file </l>
-            <l>Of all the gentry: there is Siward's son, </l>
+            <l n="10">Of all the gentry: there is Siward's son, </l>
             <l>And many unrough youths that even now </l>
             <l part="I">Protest their first of manhood. </l>
           </sp>
@@ -4280,7 +4280,7 @@
             <l part="F">Now does he feel </l>
             <l>His secret murders sticking on his hands; </l>
             <l>Now minutely revolts upbraid his faith-breach; </l>
-            <l>Those he commands move only in command, </l>
+            <l n="20">Those he commands move only in command, </l>
             <l>Nothing in love: now does he feel his title </l>
             <l>Hang loose about him, like a giant's robe </l>
             <l part="I">Upon a dwarfish thief. </l>
@@ -4327,7 +4327,7 @@
             <l>Shall e'er have power upon thee.' Then fly, false thanes, </l>
             <l>And mingle with the English epicures: </l>
             <l>The mind I sway by and the heart I bear </l>
-            <l>Shall never sag with doubt nor shake with fear. <stage type="entrance">Enter a Servant.</stage>
+            <l n="11">Shall never sag with doubt nor shake with fear. <stage type="entrance">Enter a Servant.</stage>
               </l>
             <l>The devil damn thee black, thou cream-faced loon! </l>
             <l>Where got'st thou that goose look? </l>
@@ -4374,7 +4374,7 @@
           </sp>
           <sp who="sey.">
             <speaker>Sey.</speaker>
-            <l part="I">What is your gracious pleasure? </l>
+            <l n="30" part="I">What is your gracious pleasure? </l>
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
@@ -4425,7 +4425,7 @@
             <speaker>Macb.</speaker>
             <l>Throw physic to the dogs; I'll none of it. </l>
             <l>Come, put mine armour on; give me my staff. </l>
-            <l>Seyton, send out. Doctor, the thanes fly from me. </l>
+            <l n="50">Seyton, send out. Doctor, the thanes fly from me. </l>
             <l>Come, sir, dispatch. If thou couldst, doctor, cast </l>
             <l>The water of my land, find her disease, </l>
             <l>And purge it to a sound and pristine health, </l>
@@ -4442,7 +4442,7 @@
           <sp who="macb.">
             <speaker>Macb.</speaker>
             <l part="F">Bring it after me. </l>
-            <l>I will not be afraid of death and bane, </l>
+            <l n="60">I will not be afraid of death and bane, </l>
             <l>Till Birnam forest come to Dunsinane. </l>
           </sp>
           <sp who="doct.">
@@ -4495,7 +4495,7 @@
             <speaker>Siw.</speaker>
             <l>We learn no other but the confident tyrant </l>
             <l>Keeps still in Dunsinane, and will endure </l>
-            <l part="I">Our setting down before't. </l>
+            <l n="10" part="I">Our setting down before't. </l>
           </sp>
           <sp who="mal.">
             <speaker>Mal.</speaker>
@@ -4516,7 +4516,7 @@
             <l part="F">The time approaches </l>
             <l>That will with due decision make us know </l>
             <l>What we shall say we have and what we owe. </l>
-            <l>Thoughts speculative their unsure hopes relate, </l>
+            <l n="20">Thoughts speculative their unsure hopes relate, </l>
             <l>But certain issue strokes must arbitrate: </l>
             <l>Towards which advance the war. <stage type="exit">Exeunt, marching.</stage></l>
           </sp>
@@ -4550,7 +4550,7 @@
           </sp>
           <sp who="macb.">
             <speaker>Macb.</speaker>
-            <l>I have almost forgot the taste of fears: </l>
+            <l n="10">I have almost forgot the taste of fears: </l>
             <l>The time has been, my senses would have cool'd </l>
             <l>To hear a night-shriek; and my fell of hair </l>
             <l>Would at a dismal treatise rouse and stir </l>
@@ -4568,7 +4568,7 @@
             <speaker>Macb.</speaker>
             <l>She should have died hereafter; </l>
             <l>There would have been a time for such a word. </l>
-            <l>To-morrow, and to-morrow, and to-morrow, </l>
+            <l n="20">To-morrow, and to-morrow, and to-morrow, </l>
             <l>Creeps in this petty pace from day to day </l>
             <l>To the last syllable of recorded time, </l>
             <l>And all our yesterdays have lighted fools </l>
@@ -4579,7 +4579,7 @@
             <l>Told by an idiot, full of sound and fury, </l>
             <l>Signifying nothing. <stage type="entrance">Enter a Messenger.</stage>
               </l>
-            <l>Thou comest to use thy tongue; thy story quickly. </l>
+            <l n="30">Thou comest to use thy tongue; thy story quickly. </l>
           </sp>
           <sp who="mess.">
             <speaker>Mess.</speaker>
@@ -4611,7 +4611,7 @@
             <speaker>Macb.</speaker>
             <l part="F">If thou speak'st false, </l>
             <l>Upon the next tree shalt thou hang alive, </l>
-            <l>Till famine cling thee: if thy speech be sooth, </l>
+            <l n="41">Till famine cling thee: if thy speech be sooth, </l>
             <l>I care not if thou dost for me as much. </l>
             <l>I pull in resolution, and begin </l>
             <l>To doubt the equivocation of the fiend </l>
@@ -4620,7 +4620,7 @@
             <l>Comes toward Dunsinane. Arm, arm, and out! </l>
             <l>If this which he avouches does appear, </l>
             <l>There is nor flying hence nor tarrying here. </l>
-            <l>I 'gin to be aweary of the sun, </l>
+            <l n="50">I 'gin to be aweary of the sun, </l>
             <l>And wish the estate o' the world were now undone. </l>
             <l>Ring the alarum-bell! Blow, wind! come, wrack! </l>
             <l>At least we'll die with harness on our back. <stage type="exit">Exeunt.</stage></l>
@@ -4649,7 +4649,7 @@
             <speaker>Siw.</speaker>
             <l part="F">Fare you well. </l>
             <l>Do we but find the tyrant's power to-night, </l>
-            <l>Let us be beaten, if we cannot fight. </l>
+            <l n="9">Let us be beaten, if we cannot fight. </l>
           </sp>
           <sp who="macd.">
             <speaker>Macd.</speaker>
@@ -4725,7 +4725,7 @@
             <l>My wife and children's ghosts will haunt me still. </l>
             <l>I cannot strike at wretched kerns, whose arms </l>
             <l>Are hired to bear their staves: either thou, Macbeth, </l>
-            <l>Or else my sword with an unbatter'd edge </l>
+            <l n="20">Or else my sword with an unbatter'd edge </l>
             <l>I sheathe again undeeded. There thou shouldst be; </l>
             <l>By this great clatter, one of the greatest note </l>
             <l>Seems bruited. Let me find him, fortune! </l>
@@ -4745,7 +4745,7 @@
           <sp who="mal.">
             <speaker>Mal.</speaker>
             <l part="F">We have met with foes </l>
-            <l part="I">That strike beside us. </l>
+            <l n="29" part="I">That strike beside us. </l>
           </sp>
           <sp who="siw.">
             <speaker>Siw.</speaker>
@@ -4788,7 +4788,7 @@
           <sp who="macb.">
             <speaker>Macb.</speaker>
             <l part="F">Thou losest labour: </l>
-            <l>As easy mayst thou the intrenchant air </l>
+            <l n="10">As easy mayst thou the intrenchant air </l>
             <l>With thy keen sword impress as make me bleed: </l>
             <l>Let fall thy blade on vulnerable crests; </l>
             <l>I bear a charmed life, which must not yield </l>
@@ -4805,7 +4805,7 @@
             <speaker>Macb.</speaker>
             <l>Accursed be that tongue that tells me so, </l>
             <l>For it hath cow'd my better part of man! </l>
-            <l>And be these juggling fiends no more believed, </l>
+            <l n="20">And be these juggling fiends no more believed, </l>
             <l>That palter with us in a double sense; </l>
             <l>That keep the word of promise to our ear, </l>
             <l>And break it to our hope. I'll not fight with thee. </l>
@@ -4821,7 +4821,7 @@
           <sp who="macb.">
             <speaker>Macb.</speaker>
             <l part="F">I will not yield, </l>
-            <l>To kiss the ground before young Malcolm's feet, </l>
+            <l n="29">To kiss the ground before young Malcolm's feet, </l>
             <l>And to be baited with the rabble's curse. </l>
             <l>Though Birnam wood be come to Dunsinane, </l>
             <l>And thou opposed, being of no woman born, </l>
@@ -4848,7 +4848,7 @@
           </sp>
           <sp who="ross.">
             <speaker>Ross.</speaker>
-            <l>Your son, my lord, has paid a soldier's debt: </l>
+            <l n="40">Your son, my lord, has paid a soldier's debt: </l>
             <l>He only lived but till he was a man; </l>
             <l>The which no sooner had his prowess confirm'd </l>
             <l>In the unshrinking station where he fought, </l>
@@ -4877,7 +4877,7 @@
             <l part="F">Why then, God's soldier be he! </l>
             <l>Had I as many sons as I have hairs, </l>
             <l>I would not wish them to a fairer death: </l>
-            <l part="I">And so, his knell is knoll'd. </l>
+            <l n="50" part="I">And so, his knell is knoll'd. </l>
           </sp>
           <sp who="mal.">
             <speaker>Mal.</speaker>
@@ -4902,7 +4902,7 @@
           </sp>
           <sp who="all.">
             <speaker>All.</speaker>
-            <l>Hail, King of Scotland! <stage>Flourish.</stage>
+            <l n="60">Hail, King of Scotland! <stage>Flourish.</stage>
               </l>
           </sp>
           <sp who="mal.">

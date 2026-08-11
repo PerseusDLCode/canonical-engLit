@@ -289,7 +289,7 @@
             <speaker>Mar.</speaker>
             <l>Wherefore rejoice? What conquest brings he home? </l>
             <l>What tributaries follow him to Rome, </l>
-            <l>To grace in captive bonds his chariot-wheels? </l>
+            <l n="40">To grace in captive bonds his chariot-wheels? </l>
             <l>You blocks, you stones, you worse than senseless things! </l>
             <l>O you hard hearts, you cruel men of Rome, </l>
             <l>Knew you not Pompey ? Many a time and oft </l>
@@ -299,7 +299,7 @@
             <l>The live-long day, with patient expectation, </l>
             <l>To see great Pompey pass the streets of Rome: </l>
             <l>And when you saw his chariot but appear, </l>
-            <l>Have you not made an universal shout, </l>
+            <l n="50">Have you not made an universal shout, </l>
             <l>That Tiber trembled underneath her banks, </l>
             <l>To hear the replication of your sounds </l>
             <l>Made in her concave shores? </l>
@@ -309,7 +309,7 @@
             <l>That comes in triumph over Pompey's blood? </l>
             <l>Be gone! </l>
             <l>Run to your houses, fall upon your knees, </l>
-            <l>Pray to the gods to intermit the plague </l>
+            <l n="60">Pray to the gods to intermit the plague </l>
             <l>That needs must light on this ingratitude. </l>
           </sp>
           <sp who="jc-20">
@@ -425,7 +425,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>A soothsayer bids you beware the ides of March. </l>
+            <l n="20">A soothsayer bids you beware the ides of March. </l>
           </sp>
           <sp who="jc-22">
             <speaker>Cæs.</speaker>
@@ -464,7 +464,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l>I am not gamesome: I do lack some part </l>
-            <l>Of that quick spirit that is in Antony. </l>
+            <l n="30">Of that quick spirit that is in Antony. </l>
             <l>Let me not hinder, Cassius, your desires; </l>
             <l>I'll leave you. </l>
           </sp>
@@ -481,7 +481,7 @@
             <l part="F">Cassius, </l>
             <l>Be not deceived: if I have veil'd my look, </l>
             <l>I turn the trouble of my countenance </l>
-            <l>Merely upon myself. Vexed I am </l>
+            <l n="40">Merely upon myself. Vexed I am </l>
             <l>Of late with passions of some difference, </l>
             <l>Conceptions only proper to myself, </l>
             <l>Which give some soil perhaps to my behaviors; </l>
@@ -493,7 +493,7 @@
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
-            <l>Then, Brutus, I have much mistook your passion; </l>
+            <l n="49">Then, Brutus, I have much mistook your passion; </l>
             <l>By means whereof this breast of mine hath buried </l>
             <l>Thoughts of great value, worthy cogitations. </l>
             <l>Tell me, good Brutus, can you see your face? </l>
@@ -511,7 +511,7 @@
             <l>Your hidden worthiness into your eye, </l>
             <l>That you might see your shadow. I have heard, </l>
             <l>Where many of the best respect in Rome, </l>
-            <l>Except immortal Cæsar, speaking of Brutus </l>
+            <l n="61">Except immortal Cæsar, speaking of Brutus </l>
             <l>And groaning underneath this age's yoke, </l>
             <l>Have wish'd that noble Brutus had his eyes. </l>
           </sp>
@@ -527,7 +527,7 @@
             <l>And since you know you cannot see yourself </l>
             <l>So well as by reflection, I, your glass, </l>
             <l>Will modestly discover to yourself </l>
-            <l>That of yourself which you yet know not of. </l>
+            <l n="71">That of yourself which you yet know not of. </l>
             <l>And be not jealous on me, gentle Brutus: </l>
             <l>Were I a common laugher, or did use </l>
             <l>To stale with ordinary oaths my love </l>
@@ -541,7 +541,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>What means this shouting? I do fear, the people </l>
+            <l n="80">What means this shouting? I do fear, the people </l>
             <l part="I">Choose Cæsar for their king. </l>
           </sp>
           <sp who="jc-9">
@@ -558,7 +558,7 @@
             <l>Set honor in one eye and death i' the other, </l>
             <l>And I will look on both indifferently, </l>
             <l>For let the gods so speed me as I love </l>
-            <l>The name of honor more than I fear death. </l>
+            <l n="90">The name of honor more than I fear death. </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -571,7 +571,7 @@
             <l>In awe of such a thing as I myself. </l>
             <l>I was born free as Cæsar; so were you: </l>
             <l>We both have fed as well, and we can both </l>
-            <l>Endure the winter's cold as well as he: </l>
+            <l n="100">Endure the winter's cold as well as he: </l>
             <l>For once, upon a raw and gusty day, </l>
             <l>The troubled Tiber chafing with her shores, </l>
             <l>Cæsar said to me 'Darest thou, Cassius, now </l>
@@ -583,7 +583,7 @@
             <l>With lusty sinews, throwing it aside </l>
             <l>And stemming it with hearts of controversy; </l>
             <l>But ere we could arrive the point proposed, </l>
-            <l>Cæsar cried 'Help me, Cassius, or I sink!' </l>
+            <l n="112">Cæsar cried 'Help me, Cassius, or I sink!' </l>
             <l>I, as Æneas, our great ancestor, </l>
             <l>Did from the flames of Troy upon his shoulder </l>
             <l>The old Anchises bear, so from the waves of Tiber </l>
@@ -591,7 +591,7 @@
             <l>Is now become a god, and Cassius is </l>
             <l>A wretched creature and must bend his body, </l>
             <l>If Cæsar carelessly but nod on him. </l>
-            <l>He had a fever when he was in Spain, </l>
+            <l n="120">He had a fever when he was in Spain, </l>
             <l>And when the fit was on him, I did mark </l>
             <l>How he did shake: 'tis true, this god did shake; </l>
             <l>His coward lips did from their color fly, </l>
@@ -601,7 +601,7 @@
             <l>Mark him and write his speeches in their books, </l>
             <l>Alas, it cried 'Give me some drink, Titinius,' </l>
             <l>As a sick girl. Ye gods, it doth amaze me </l>
-            <l>A man of such a feeble temper should </l>
+            <l n="130">A man of such a feeble temper should </l>
             <l>So get the start of the majestic world </l>
             <l>And bear the palm alone. <stage>Shout. Flourish.</stage>
               </l>
@@ -618,7 +618,7 @@
             <l>Like a Colossus, and we petty men </l>
             <l>Walk under his huge legs and peep about </l>
             <l>To find ourselves dishonorable graves. </l>
-            <l>Men at some time are masters of their fates: </l>
+            <l n="140">Men at some time are masters of their fates: </l>
             <l>The fault, dear Brutus, is not in our stars, </l>
             <l>But in ourselves, that we are underlings. </l>
             <l>Brutus and Cæsar: what should be in that 'Cæsar'? </l>
@@ -628,7 +628,7 @@
             <l>Weigh them, it is as heavy; conjure with 'em, </l>
             <l>Brutus will start a spirit as soon as Cæsar. </l>
             <l>Now, in the names of all the gods at once, </l>
-            <l>Upon what meat doth this our Cæsar feed, </l>
+            <l n="150">Upon what meat doth this our Cæsar feed, </l>
             <l>That he is grown so great? Age, thou art shamed! </l>
             <l>Rome, thou hast lost the breed of noble bloods! </l>
             <l>When went there by an age, since the great flood, </l>
@@ -639,7 +639,7 @@
             <l>When there is in it but one only man. </l>
             <l>O, you and I have heard our fathers say, </l>
             <l>There was a Brutus once that would have brook'd </l>
-            <l>The eternal devil to keep his state in Rome </l>
+            <l n="161">The eternal devil to keep his state in Rome </l>
             <l>As easily as a king. </l>
           </sp>
           <sp who="jc-4">
@@ -650,7 +650,7 @@
             <l>I shall recount hereafter; for this present, </l>
             <l>I would not, so with love I might entreat you, </l>
             <l>Be any further moved. What you have said </l>
-            <l>I will consider; what you have to say </l>
+            <l n="169">I will consider; what you have to say </l>
             <l>I will with patience hear, and find a time </l>
             <l>Both meet to hear and answer such high things. </l>
             <l>Till then, my noble friend, chew upon this: </l>
@@ -689,7 +689,7 @@
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
-            <l>Casca will tell us what the matter is. </l>
+            <l n="190">Casca will tell us what the matter is. </l>
           </sp>
           <sp who="jc-22">
             <speaker>Cæs.</speaker>
@@ -714,7 +714,7 @@
           <sp who="jc-22">
             <speaker>Cæs.</speaker>
             <l>Would he were fatter! But I fear him not: </l>
-            <l>Yet if my name were liable to fear, </l>
+            <l n="200">Yet if my name were liable to fear, </l>
             <l>I do not know the man I should avoid </l>
             <l>So soon as that spare Cassius. He reads much; </l>
             <l>He is a great observer and he looks </l>
@@ -724,7 +724,7 @@
             <l>As if he mock'd himself and scorned his spirit </l>
             <l>That could be moved to smile at any thing </l>
             <l>Such men as he be never at heart's ease </l>
-            <l>Whiles they behold a greater than themselves, </l>
+            <l n="210">Whiles they behold a greater than themselves, </l>
             <l>And therefore are they very dangerous. </l>
             <l>I rather tell thee what is to be fear'd </l>
             <l>Than what I fear; for always I am Cæsar. </l>
@@ -744,7 +744,7 @@
           </sp>
           <sp who="jc-8">
             <speaker>Casca.</speaker>
-            <l>Why, you were with him, were you not? </l>
+            <l n="219">Why, you were with him, were you not? </l>
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
@@ -846,7 +846,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>And after that, he came, thus sad, away? </l>
+            <l n="280">And after that, he came, thus sad, away? </l>
           </sp>
           <sp who="jc-8">
             <speaker>Casca.</speaker>
@@ -901,7 +901,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l>What a blunt fellow is this grown to be! </l>
-            <l>He was quick mettle when he went to school. </l>
+            <l n="301">He was quick mettle when he went to school. </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -917,7 +917,7 @@
             <l>And so it is. For this time I will leave you: </l>
             <l>To-morrow, if you please to speak with me, </l>
             <l>I will come home to you; or, if you will, </l>
-            <l>Come home to me, and I will wait for you. </l>
+            <l n="311">Come home to me, and I will wait for you. </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -931,7 +931,7 @@
             <l>Cæsar doth bear me hard; but he loves Brutus: </l>
             <l>If I were Brutus now and he were Cassius, </l>
             <l>He should not humor me. I will this night, </l>
-            <l>In several hands, in at his windows throw, </l>
+            <l n="321">In several hands, in at his windows throw, </l>
             <l>As if they came from several citizens, </l>
             <l>Writings all tending to the great opinion </l>
             <l>That Rome holds of his name; wherein obscurely </l>
@@ -963,7 +963,7 @@
             <l>Have rived the knotty oaks, and I have seen </l>
             <l>The ambitious ocean swell and rage and foam, </l>
             <l>To be exalted with the threatening clouds: </l>
-            <l>But never till to-night, never till now, </l>
+            <l n="10">But never till to-night, never till now, </l>
             <l>Did I go through a tempest dropping fire. </l>
             <l>Either there is a civil strife in heaven, </l>
             <l>Or else the world, too saucy with the gods, </l>
@@ -979,7 +979,7 @@
             <l>Held up his left hand, which did flame and burn </l>
             <l>Like twenty torches join'd, and yet his hand, </l>
             <l>Not sensible of fire, remain'd unscorch'd. </l>
-            <l>Besides—I ha' not since put up my sword— </l>
+            <l n="20">Besides—I ha' not since put up my sword— </l>
             <l>Against the Capitol I met a lion, </l>
             <l>Who glared upon me, and went surly by, </l>
             <l>Without annoying me: and there were drawn </l>
@@ -990,7 +990,7 @@
             <l>Even at noon-day upon the market-place; </l>
             <l>Hooting and shrieking. When these prodigies </l>
             <l>Do so conjointly meet, let not men say </l>
-            <l>'These are their reasons; they are natural;' </l>
+            <l n="31">'These are their reasons; they are natural;' </l>
             <l>For, I believe, they are portentous things </l>
             <l>Unto the climate that they point upon. </l>
           </sp>
@@ -1009,7 +1009,7 @@
           <sp who="jc-11">
             <speaker>Cic.</speaker>
             <l>Good night then, Casca: this disturbed sky </l>
-            <l>Is not to walk in. </l>
+            <l n="40">Is not to walk in. </l>
           </sp>
           <sp who="jc-8">
             <speaker>Casca.</speaker>
@@ -1047,7 +1047,7 @@
             <l>For my part, I have walk'd about the streets, </l>
             <l>Submitting me unto the perilous night, </l>
             <l>And, thus unbraced, Casca, as you see, </l>
-            <l>Have bared my bosom to the thunder-stone; </l>
+            <l n="50">Have bared my bosom to the thunder-stone; </l>
             <l>And when the cross blue lightning seem'd to open </l>
             <l>The breast of heaven, I did present myself </l>
             <l>Even in the aim and very flash of it. </l>
@@ -1073,7 +1073,7 @@
             <l>Why all these things change from their ordinance </l>
             <l>Their natures and preformed faculties </l>
             <l>To monstrous quality,—why, you shall find </l>
-            <l>That heaven hath infused them with these spirits, </l>
+            <l n="70">That heaven hath infused them with these spirits, </l>
             <l>To make them instruments of fear and warning </l>
             <l>Unto some monstrous state. </l>
             <l>Now could I, Casca, name to thee a man </l>
@@ -1082,7 +1082,7 @@
             <l>As doth the lion in the Capitol, </l>
             <l>A man no mightier than thyself or me </l>
             <l>In personal action, yet prodigious grown </l>
-            <l>And fearful, as these strange eruptions are. </l>
+            <l n="79">And fearful, as these strange eruptions are. </l>
           </sp>
           <sp who="jc-8">
             <speaker>Casca.</speaker>
@@ -1106,7 +1106,7 @@
           <sp who="jc-9">
             <speaker>Cas.</speaker>
             <l>I know where I will wear this dagger then; </l>
-            <l>Cassius from bondage will deliver Cassius: </l>
+            <l n="91">Cassius from bondage will deliver Cassius: </l>
             <l>Therein, ye gods, you make the weak most strong; </l>
             <l>Therein, ye gods, you tyrants do defeat: </l>
             <l>Nor stony tower, nor walls of beaten brass, </l>
@@ -1116,7 +1116,7 @@
             <l>Never lacks power to dismiss itself. </l>
             <l>If I know this, know all the world besides, </l>
             <l>That part of tyranny that I do bear </l>
-            <l part="I">I can shake off at pleasure. <stage>Thunder still.</stage>
+            <l n="100" part="I">I can shake off at pleasure. <stage>Thunder still.</stage>
               </l>
           </sp>
           <sp who="jc-8">
@@ -1133,7 +1133,7 @@
             <l>He were no lion, were not Romans hinds. </l>
             <l>Those that with haste will make a mighty fire </l>
             <l>Begin it with weak straws: what trash is Rome, </l>
-            <l>What rubbish and what offal, when it serves </l>
+            <l n="110">What rubbish and what offal, when it serves </l>
             <l>For the base matter to illuminate </l>
             <l>So vile a thing as Cæsar! But, O grief, </l>
             <l>Where hast thou led me? I perhaps speak this </l>
@@ -1146,7 +1146,7 @@
             <l>You speak to Casca, and to such a man </l>
             <l>That is no fleering tell-tale. Hold, my hand: </l>
             <l>Be factious for redress of all these griefs, </l>
-            <l>And I will set this foot of mine as far </l>
+            <l n="120">And I will set this foot of mine as far </l>
             <l part="I">As who goes farthest. </l>
           </sp>
           <sp who="jc-9">
@@ -1160,7 +1160,7 @@
             <l>In Pompey's porch: for now, this fearful night, </l>
             <l>There is no stir or walking in the streets; </l>
             <l>And the complexion of the element </l>
-            <l>In favor's like the work we have in hand, </l>
+            <l n="130">In favor's like the work we have in hand, </l>
             <l>Most bloody, fiery, and most terrible. 
               </l>
           </sp>
@@ -1207,7 +1207,7 @@
             <l>In at his window; set this up with wax </l>
             <l>Upon old Brutus' statue: all this done, </l>
             <l>Repair to Pompey's porch, where you shall find us. </l>
-            <l>Is Decius Brutus and Trebonius there? </l>
+            <l n="149">Is Decius Brutus and Trebonius there? </l>
           </sp>
           <sp who="jc-13">
             <speaker>Cin.</speaker>
@@ -1229,7 +1229,7 @@
             <speaker>Casca.</speaker>
             <l>O, he sits high in all the people's hearts: </l>
             <l>And that which would appear offence in us, </l>
-            <l>His countenance, like richest alchemy, </l>
+            <l n="160">His countenance, like richest alchemy, </l>
             <l>Will change to virtue and to worthiness. </l>
           </sp>
           <sp who="jc-9">
@@ -1279,7 +1279,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>It must be by his death: and for my part, </l>
+            <l n="11">It must be by his death: and for my part, </l>
             <l>I know no personal cause to spurn at him, </l>
             <l>But for the general. He would be crown'd: </l>
             <l>How that might change his nature, there's the question. </l>
@@ -1299,7 +1299,7 @@
             <l>By which he did ascend. So Cæsar may. </l>
             <l>Then, lest he may, prevent. And, since the quarrel </l>
             <l>Will bear no color for the thing he is, </l>
-            <l>Fashion it thus; that what he is, augmented </l>
+            <l n="31">Fashion it thus; that what he is, augmented </l>
             <l>Would run to these and these extremities: </l>
             <l>And therefore think him as a serpent's egg </l>
             <l>Which, hatch'd, would, as his kind, grow mischievous, </l>
@@ -1319,7 +1319,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l>Get you to bed again; it is not day. </l>
-            <l>Is not to-morrow, boy, the ides of March? </l>
+            <l n="41">Is not to-morrow, boy, the ides of March? </l>
           </sp>
           <sp who="jc-26">
             <speaker>Luc.</speaker>
@@ -1343,7 +1343,7 @@
             <l>'Brutus, thou sleep'st: awake, and see thyself. </l>
             <l>Shall Rome, &amp;c. Speak, strike, redress! </l>
             <l>Brutus, thou sleep'st: awake!' </l>
-            <l>Such instigations have been often dropp'd </l>
+            <l n="50">Such instigations have been often dropp'd </l>
             <l>Where I have took them up. </l>
             <l>'Shall Rome, &amp;c.' Thus must I piece it out: </l>
             <l>Shall Rome stand under one man's awe? What, Rome? </l>
@@ -1357,7 +1357,7 @@
           </sp>
           <sp who="jc-26">
             <speaker>Luc.</speaker>
-            <l>Sir, March is wasted fourteen days. <stage>Knocking
+            <l n="60">Sir, March is wasted fourteen days. <stage>Knocking
                 within.</stage>
               </l>
           </sp>
@@ -1380,7 +1380,7 @@
           <sp who="jc-26">
             <speaker>Luc.</speaker>
             <l>Sir, 'tis your brother Cassius at the door, </l>
-            <l part="I">Who doth desire to see you. </l>
+            <l n="71" part="I">Who doth desire to see you. </l>
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
@@ -1407,7 +1407,7 @@
               </l>
             <l>They are the faction. O conspiracy, </l>
             <l>Shamest thou to show thy dangerous brow by night, </l>
-            <l>When evils are most free? O, then by day </l>
+            <l n="80">When evils are most free? O, then by day </l>
             <l>Where wilt thou find a cavern dark enough </l>
             <l>To mask thy monstrous visage? Seek none, conspiracy; </l>
             <l>Hide it in smiles and affability: </l>
@@ -1426,7 +1426,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l>I have been up this hour, awake all night. </l>
-            <l>Know I these men that come along with you? </l>
+            <l n="90">Know I these men that come along with you? </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -1456,7 +1456,7 @@
             <speaker>Bru.</speaker>
             <l>They are all welcome. </l>
             <l>What watchful cares do interpose themselves </l>
-            <l>Betwixt your eyes and night? </l>
+            <l n="100">Betwixt your eyes and night? </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -1483,7 +1483,7 @@
             <l>Which is a great way growing on the south </l>
             <l>Weighing the youthful season of the year. </l>
             <l>Some two months hence up higher toward the north </l>
-            <l>He first presents his fire; and the high east </l>
+            <l n="111">He first presents his fire; and the high east </l>
             <l>Stands, as the Capitol, directly here. </l>
           </sp>
           <sp who="jc-4">
@@ -1501,7 +1501,7 @@
             <l>If these be motives weak, break off betimes, </l>
             <l>And every man hence to his idle bed; </l>
             <l>So let high-sighted tyranny range on, </l>
-            <l>Till each man drop by lottery. But if these, </l>
+            <l n="120">Till each man drop by lottery. But if these, </l>
             <l>As I am sure they do, bear fire enough </l>
             <l>To kindle cowards and to steel with valor </l>
             <l>The melting spirits of women, then, countrymen, </l>
@@ -1522,7 +1522,7 @@
             <l>That every Roman bears, and nobly bears, </l>
             <l>Is guilty of a several bastardy, </l>
             <l>If he do break the smallest particle </l>
-            <l>Of any promise that hath pass'd from him. </l>
+            <l n="141">Of any promise that hath pass'd from him. </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -1544,7 +1544,7 @@
             <l>And buy men's voices to commend our deeds: </l>
             <l>It shall be said, his judgment ruled our hands; </l>
             <l>Our youths and wildness shall no whit appear, </l>
-            <l>But all be buried in his gravity. </l>
+            <l n="150">But all be buried in his gravity. </l>
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
@@ -1570,7 +1570,7 @@
             <l>Mark Antony, so well beloved of Cæsar, </l>
             <l>Should outlive Cæsar: we shall find of him </l>
             <l>A shrewd contriver; and, you know, his means, </l>
-            <l>If he improve them, may well stretch so far </l>
+            <l n="160">If he improve them, may well stretch so far </l>
             <l>As to annoy us all: which to prevent, </l>
             <l>Let Antony and Cæsar fall together. </l>
           </sp>
@@ -1583,7 +1583,7 @@
             <l>Let us be sacrificers, but not butchers, Caius. </l>
             <l>We all stand up against the spirit of Cæsar; </l>
             <l>And in the spirit of men there is no blood: </l>
-            <l>O, that we then could come by Cæsar's spirit, </l>
+            <l n="170">O, that we then could come by Cæsar's spirit, </l>
             <l>And not dismember Cæsar! But, alas, </l>
             <l>Cæsar must bleed for it! And, gentle friends, </l>
             <l>Let's kill him boldly, but not wrathfully; </l>
@@ -1593,7 +1593,7 @@
             <l>Stir up their servants to an act of rage, </l>
             <l>And after seem to chide 'em. This shall make </l>
             <l>Our purpose necessary and not envious: </l>
-            <l>Which so appearing to the common eyes, </l>
+            <l n="180">Which so appearing to the common eyes, </l>
             <l>We shall be call'd purgers, not murderers. </l>
             <l>And for Mark Antony, think not of him; </l>
             <l>For he can do no more than Cæsar's arm </l>
@@ -1610,7 +1610,7 @@
             <l>If he love Cæsar, all that he can do </l>
             <l>Is to himself, take thought and die for Cæsar: </l>
             <l>And that were much he should; for he is given </l>
-            <l>To sports, to wildness and much company. </l>
+            <l n="190">To sports, to wildness and much company. </l>
           </sp>
           <sp who="jc-45">
             <speaker>Treb.</speaker>
@@ -1639,7 +1639,7 @@
             <l>Quite from the main opinion he held once </l>
             <l>Of fantasy, of dreams and ceremonies: </l>
             <l>It may be, these apparent prodigies, </l>
-            <l>The unaccustom'd terror of this night, </l>
+            <l n="200">The unaccustom'd terror of this night, </l>
             <l>And the persuasion of his augurers, </l>
             <l>May hold him from the Capitol to-day. </l>
           </sp>
@@ -1652,7 +1652,7 @@
             <l>Lions with toils and men with flatterers; </l>
             <l>But when I tell him he hates flatterers, </l>
             <l>He says he does, being then most flattered. </l>
-            <l>Let me work; </l>
+            <l n="210">Let me work; </l>
             <l>For I can give his humor the true bent, </l>
             <l>And I will bring him to the Capitol. </l>
           </sp>
@@ -1677,7 +1677,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l>Now, good Metellus, go along by him: </l>
-            <l>He loves me well, and I have given him reasons; </l>
+            <l n="220">He loves me well, and I have given him reasons; </l>
             <l>Send him but hither, and I'll fashion him. </l>
           </sp>
           <sp who="jc-9">
@@ -1695,7 +1695,7 @@
             <l>And so good morrow to you every one. <stage type="exit">Exeunt
                 all but Brutus.</stage>
               </l>
-            <l>Boy! Lucius! Fast asleep? It is no matter; </l>
+            <l n="230">Boy! Lucius! Fast asleep? It is no matter; </l>
             <l>Enjoy the honey-heavy dew of slumber: </l>
             <l>Thou hast no figures nor no fantasies, </l>
             <l>Which busy care draws in the brains of men; </l>
@@ -1715,7 +1715,7 @@
           <sp who="jc-38">
             <speaker>Por.</speaker>
             <l>Nor for yours neither. You've ungently, Brutus, </l>
-            <l>Stole from my bed: and yesternight, at supper, </l>
+            <l n="239">Stole from my bed: and yesternight, at supper, </l>
             <l>You suddenly arose, and walk'd about, </l>
             <l>Musing and sighing, with your arms across, </l>
             <l>And when I ask'd you what the matter was, </l>
@@ -1726,7 +1726,7 @@
             <l>But, with an angry wafture of your hand, </l>
             <l>Gave sign for me to leave you: so I did; </l>
             <l>Fearing to strengthen that impatience </l>
-            <l>Which seem'd too much enkindled, and withal </l>
+            <l n="250">Which seem'd too much enkindled, and withal </l>
             <l>Hoping it was but an effect of humor, </l>
             <l>Which sometime hath his hour with every man. </l>
             <l>It will not let you eat, nor talk, nor sleep, </l>
@@ -1742,7 +1742,7 @@
           <sp who="jc-38">
             <speaker>Por.</speaker>
             <l>Brutus is wise, and, were he not in health, </l>
-            <l>He would embrace the means to come by it. </l>
+            <l n="260">He would embrace the means to come by it. </l>
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
@@ -1758,7 +1758,7 @@
             <l>And tempt the rheumy and unpurged air </l>
             <l>To add unto his sickness? No, my Brutus; </l>
             <l>You have some sick offence within your mind, </l>
-            <l>Which, by the right and virtue of my place, </l>
+            <l n="270">Which, by the right and virtue of my place, </l>
             <l>I ought to know of: and, upon my knees, </l>
             <l>I charm you, by my once-commended beauty, </l>
             <l>By all your vows of love and that great vow </l>
@@ -1776,7 +1776,7 @@
           <sp who="jc-38">
             <speaker>Por.</speaker>
             <l>I should not need, if you were gentle Brutus. </l>
-            <l>Within the bond of marriage, tell me, Brutus, </l>
+            <l n="281">Within the bond of marriage, tell me, Brutus, </l>
             <l>Is it excepted I should know no secrets </l>
             <l>That appertain to you? Am I yourself </l>
             <l>But, as it were, in sort or limitation, </l>
@@ -1788,7 +1788,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l>You are my true and honorable wife, </l>
-            <l>As dear to me as are the ruddy drops </l>
+            <l n="290">As dear to me as are the ruddy drops </l>
             <l>That visit my sad heart. </l>
           </sp>
           <sp who="jc-38">
@@ -1801,7 +1801,7 @@
             <l>Think you I am no stronger than my sex, </l>
             <l>Being so father'd and so husbanded? </l>
             <l>Tell me your counsels, I will not disclose 'em: </l>
-            <l>I have made strong proof of my constancy, </l>
+            <l n="300">I have made strong proof of my constancy, </l>
             <l>Giving myself a voluntary wound </l>
             <l>Here, in the thigh: can I bear that with patience, </l>
             <l part="I">And not my husband's secrets? </l>
@@ -1818,7 +1818,7 @@
             <l>All the charactery of my sad brows: </l>
             <l>Leave me with haste. <stage type="exit">Exit Portia.</stage>
               </l>
-            <l>Lucius, who's that knocks? <stage type="entrance">Re-enter LUCIUS with
+            <l n="310">Lucius, who's that knocks? <stage type="entrance">Re-enter LUCIUS with
                 LIGARIUS.</stage>
               </l>
           </sp>
@@ -1848,7 +1848,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l>Such an exploit have I in hand, Ligarius, </l>
-            <l>Had you a healthful ear to hear of it. </l>
+            <l n="320">Had you a healthful ear to hear of it. </l>
           </sp>
           <sp who="jc-24">
             <speaker>Lig.</speaker>
@@ -1870,7 +1870,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>That must we also. What it is, my Caius, </l>
+            <l n="330">That must we also. What it is, my Caius, </l>
             <l>I shall unfold to thee, as we are going </l>
             <l part="I">To whom it must be done. </l>
           </sp>
@@ -1922,7 +1922,7 @@
           <sp who="jc-6">
             <speaker>Cal.</speaker>
             <l>What mean you, Cæsar? think you to walk forth? </l>
-            <l>You shall not stir out of your house to-day. </l>
+            <l n="10">You shall not stir out of your house to-day. </l>
           </sp>
           <sp who="jc-22">
             <speaker>Cæs.</speaker>
@@ -1939,7 +1939,7 @@
             <l>A lioness hath whelped in the streets; </l>
             <l>And graves have yawn'd, and yielded up their dead </l>
             <l>Fierce fiery warriors fought upon the clouds, </l>
-            <l>In ranks and squadrons and right form of war, </l>
+            <l n="21">In ranks and squadrons and right form of war, </l>
             <l>Which drizzled blood upon the Capitol; </l>
             <l>The noise of battle hurtled in the air, </l>
             <l>Horses did neigh, and dying men did groan, </l>
@@ -1952,7 +1952,7 @@
             <l part="F">What can be avoided </l>
             <l>Whose end is purposed by the mighty gods? </l>
             <l>Yet Cæsar shall go forth; for these predictions </l>
-            <l>Are to the world in general as to Cæsar. </l>
+            <l n="30">Are to the world in general as to Cæsar. </l>
           </sp>
           <sp who="jc-6">
             <speaker>Cal.</speaker>
@@ -1974,7 +1974,7 @@
             <speaker>Serv.</speaker>
             <l>They would not have you to stir forth to-day. </l>
             <l>Plucking the entrails of an offering forth, </l>
-            <l>They could not find a heart within the beast. </l>
+            <l n="41">They could not find a heart within the beast. </l>
           </sp>
           <sp who="jc-22">
             <speaker>Cæs.</speaker>
@@ -1990,7 +1990,7 @@
           <sp who="jc-6">
             <speaker>Cal.</speaker>
             <l part="F">Alas, my lord, </l>
-            <l>Your wisdom is consumed in confidence. </l>
+            <l n="50">Your wisdom is consumed in confidence. </l>
             <l>Do not go forth to-day: call it my fear </l>
             <l>That keeps you in the house, and not your own. </l>
             <l>We'll send Mark Antony to the senate-house: </l>
@@ -2007,7 +2007,7 @@
           <sp who="jc-19">
             <speaker>Dec.</speaker>
             <l>Cæsar, all hail! good morrow, worthy Cæsar: </l>
-            <l>I come to fetch you to the senate-house. </l>
+            <l n="60">I come to fetch you to the senate-house. </l>
           </sp>
           <sp who="jc-22">
             <speaker>Cæs.</speaker>
@@ -2030,7 +2030,7 @@
           </sp>
           <sp who="jc-19">
             <speaker>Dec.</speaker>
-            <l>Most mighty Cæsar, let me know some cause, </l>
+            <l n="70">Most mighty Cæsar, let me know some cause, </l>
             <l>Lest I be laugh'd at when I tell them so. </l>
           </sp>
           <sp who="jc-22">
@@ -2043,7 +2043,7 @@
             <l>She dreamt to-night she saw my statua, </l>
             <l>Which, like a fountain with an hundred spouts, </l>
             <l>Did run pure blood: and many lusty Romans </l>
-            <l>Came smiling, and did bathe their hands in it: </l>
+            <l n="80">Came smiling, and did bathe their hands in it: </l>
             <l>And these does she apply for warnings, and portents, </l>
             <l>And evils imminent; and on her knee </l>
             <l>Hath begg'd that I will stay at home to-day. </l>
@@ -2056,7 +2056,7 @@
             <l>In which so many smiling Romans bathed, </l>
             <l>Signifies that from you great Rome shall suck </l>
             <l>Reviving blood, and that great men shall press </l>
-            <l>For tinctures, stains, relics and cognizance. </l>
+            <l n="90">For tinctures, stains, relics and cognizance. </l>
             <l>This by Calpurnia's dream is signified. </l>
           </sp>
           <sp who="jc-22">
@@ -2073,7 +2073,7 @@
             <l>Apt to be render'd, for some one to say </l>
             <l>'Break up the senate till another time, </l>
             <l>When Casar's wife shall meet with better dreams.' </l>
-            <l>If Cæsar hide himself, shall they not whisper </l>
+            <l n="101">If Cæsar hide himself, shall they not whisper </l>
             <l>Lo, Cæsar is afraid'? </l>
             <l>Pardon me, Cæsar; for my dear dear love </l>
             <l>To your proceeding bids me tell you this; </l>
@@ -2096,7 +2096,7 @@
           <sp who="jc-22">
             <speaker>Cæs.</speaker>
             <l part="F">Welcome, Publius. </l>
-            <l>What, Brutus, are you stirr'd so early too? </l>
+            <l n="111">What, Brutus, are you stirr'd so early too? </l>
             <l>Good morrow, Casca. Caius Ligarius, </l>
             <l>Cæsar was ne'er so much your enemy </l>
             <l>As that same ague which hath made you lean. </l>
@@ -2195,7 +2195,7 @@
             <l>Set a huge mountain 'tween my heart and tongue </l>
             <l>I have a man's mind, but a woman's might. </l>
             <l>How hard it is for women to keep counsel! </l>
-            <l part="I">Art thou here yet? </l>
+            <l n="10" part="I">Art thou here yet? </l>
           </sp>
           <sp who="jc-26">
             <speaker>Luc.</speaker>
@@ -2218,7 +2218,7 @@
             <speaker>Por.</speaker>
             <l part="F">Prithee, listen well; </l>
             <l>I heard a bustling rumor, like a fray, </l>
-            <l>And the wind brings it from the Capitol. </l>
+            <l n="20">And the wind brings it from the Capitol. </l>
           </sp>
           <sp who="jc-26">
             <speaker>Luc.</speaker>
@@ -2258,7 +2258,7 @@
           <sp who="jc-42">
             <speaker>Sooth.</speaker>
             <l>That I have, lady: if it will please Cæsar </l>
-            <l>To be so good to Cæsar as to hear me, </l>
+            <l n="30">To be so good to Cæsar as to hear me, </l>
             <l>I shall beseech him to befriend himself. </l>
           </sp>
           <sp who="jc-38">
@@ -2278,7 +2278,7 @@
           </sp>
           <sp who="jc-38">
             <speaker>Por.</speaker>
-            <l>I must go in. Ay me, how weak a thing </l>
+            <l n="40">I must go in. Ay me, how weak a thing </l>
             <l>The heart of woman is ! O Brutus, </l>
             <l>The heavens speed thee in thine enterprise ! </l>
             <l>Sure, the boy heard me: Brutus hath a suit </l>
@@ -2336,7 +2336,7 @@
           </sp>
           <sp who="jc-2">
             <speaker>Art.</speaker>
-            <l>Delay not, Cæsar; read it instantly. </l>
+            <l n="10">Delay not, Cæsar; read it instantly. </l>
           </sp>
           <sp who="jc-22">
             <speaker>Cæs.</speaker>
@@ -2382,7 +2382,7 @@
           <sp who="jc-9">
             <speaker>Cas.</speaker>
             <l>Casca, be sudden, for we fear prevention. </l>
-            <l>Brutus, what shall be done? If this be known, </l>
+            <l n="21">Brutus, what shall be done? If this be known, </l>
             <l>Cassius or Cæsar never shall turn back, </l>
             <l part="I">For I will slay myself. </l>
           </sp>
@@ -2406,7 +2406,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>He is address'd: press near and second him. </l>
+            <l n="30">He is address'd: press near and second him. </l>
           </sp>
           <sp who="jc-13">
             <speaker>Cin.</speaker>
@@ -2430,7 +2430,7 @@
             <l>These couchings and these lowly courtesies </l>
             <l>Might fire the blood of ordinary men, </l>
             <l>And turn pre-ordinance and first decree </l>
-            <l>Into the law of children. Be not fond, </l>
+            <l n="40">Into the law of children. Be not fond, </l>
             <l>To think that Cæsar bears such rebel blood </l>
             <l>That will be thaw'd from the true quality </l>
             <l>With that which melteth fools; I mean, sweet words, </l>
@@ -2444,7 +2444,7 @@
           <sp who="jc-12">
             <speaker>Met.</speaker>
             <l>Is there no voice more worthy than my own </l>
-            <l>To sound more sweetly in great Cæsar's ear </l>
+            <l n="51">To sound more sweetly in great Cæsar's ear </l>
             <l>For the repealing of my banish'd brother? </l>
           </sp>
           <sp who="jc-4">
@@ -2466,7 +2466,7 @@
           <sp who="jc-22">
             <speaker>Cæs.</speaker>
             <l>I could be well moved, if I were as you: </l>
-            <l>If I could pray to move, prayers would move me: </l>
+            <l n="60">If I could pray to move, prayers would move me: </l>
             <l>But I am constant as the northern star, </l>
             <l>Of whose true-fix'd and resting quality </l>
             <l>There is no fellow in the firmament. </l>
@@ -2476,7 +2476,7 @@
             <l>So in the world; 'tis furnish'd well with men, </l>
             <l>And men are flesh and blood, and apprehensive; </l>
             <l>Yet in the number I do know but one </l>
-            <l>That unassailable holds on his rank, </l>
+            <l n="70">That unassailable holds on his rank, </l>
             <l>Unshaked of motion: and that I am he, </l>
             <l>Let me a little show it, even in this; </l>
             <l>That I was constant Cimber should be banish'd, </l>
@@ -2513,7 +2513,7 @@
           <sp who="jc-13">
             <speaker>Cin.</speaker>
             <l>Liberty! Freedom! Tyranny is dead! </l>
-            <l>Run hence, proclaim, cry it about the streets. </l>
+            <l n="80">Run hence, proclaim, cry it about the streets. </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -2548,7 +2548,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>Talk not of standing. Publius, good cheer; </l>
+            <l n="90">Talk not of standing. Publius, good cheer; </l>
             <l>There is no harm intended to your person, </l>
             <l>Nor to no Roman else: so tell them, Publius. </l>
           </sp>
@@ -2578,7 +2578,7 @@
             <speaker>Bru.</speaker>
             <l>Fates, we will know your pleasures: </l>
             <l>That we shall die, we know; 'tis but the time </l>
-            <l>And drawing days out, that men stand upon. </l>
+            <l n="101">And drawing days out, that men stand upon. </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -2594,7 +2594,7 @@
             <l>Up to the elbows, and besmear our swords: </l>
             <l>Then walk we forth, even to the market-place, </l>
             <l>And, waving our red weapons o'er our heads, </l>
-            <l>Let's all cry 'Peace, freedom and liberty!' </l>
+            <l n="111">Let's all cry 'Peace, freedom and liberty!' </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -2621,7 +2621,7 @@
           <sp who="jc-9">
             <speaker>Cas.</speaker>
             <l part="F">Ay, every man away: </l>
-            <l>Brutus shall lead; and we will grace his heels </l>
+            <l n="121">Brutus shall lead; and we will grace his heels </l>
             <l>With the most boldest and best hearts of Rome. <stage type="entrance">Enter a Servant.</stage>
               </l>
           </sp>
@@ -2637,7 +2637,7 @@
             <l>Brutus is noble, wise, valiant, and honest; </l>
             <l>Cæsar was mighty, bold, royal, and loving: </l>
             <l>Say I love Brutus, and I honor him; </l>
-            <l>Say I fear'd Cæsar, honor'd him and loved him. </l>
+            <l n="130">Say I fear'd Cæsar, honor'd him and loved him. </l>
             <l>If Brutus will vouchsafe that Antony </l>
             <l>May safely come to him, and be resolved </l>
             <l>How Cæsar hath deserved to lie in death, </l>
@@ -2651,7 +2651,7 @@
             <speaker>Bru.</speaker>
             <l>Thy master is a wise and valiant Roman; </l>
             <l>I never thought him worse. </l>
-            <l>Tell him, so please him come unto this place, </l>
+            <l n="141">Tell him, so please him come unto this place, </l>
             <l>He shall be satisfied; and, by my honor, </l>
             <l part="I">Depart untouch'd. </l>
           </sp>
@@ -2681,7 +2681,7 @@
             <speaker>Ant.</speaker>
             <l>O mighty Casar ! dost thou lie so low? </l>
             <l>Are all thy conquests, glories, triumphs, spoils, </l>
-            <l>Shrunk to this little measure? Fare thee well. </l>
+            <l n="151">Shrunk to this little measure? Fare thee well. </l>
             <l>I know not, gentlemen, what you intend, </l>
             <l>Who else must be let blood, who else is rank: </l>
             <l>If I myself, there is no hour so fit </l>
@@ -2690,7 +2690,7 @@
             <l>With the most noble blood of all this world. </l>
             <l>I do beseech ye, if you bear me hard, </l>
             <l>Now, whilst your purpled hands do reek and smoke, </l>
-            <l>Fulfil your pleasure. Live a thousand years, </l>
+            <l n="160">Fulfil your pleasure. Live a thousand years, </l>
             <l>I shall not find myself so apt to die: </l>
             <l>No place will please me so, no mean of death, </l>
             <l>As here by Cæsar, and by you cut off, </l>
@@ -2703,7 +2703,7 @@
             <l>As, by our hands and this our present act, </l>
             <l>You see we do, yet see you but our hands </l>
             <l>And this the bleeding business they have done: </l>
-            <l>Our hearts you see not; they are pitiful; </l>
+            <l n="170">Our hearts you see not; they are pitiful; </l>
             <l>And pity to the general wrong of Rome— </l>
             <l>As fire drives out fire, so pity pity— </l>
             <l>Hath done this deed on Cæsar. For your part, </l>
@@ -2720,7 +2720,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l>Only be patient till we have appeased </l>
-            <l>The multitude, beside themselves with fear, </l>
+            <l n="181">The multitude, beside themselves with fear, </l>
             <l>And then we will deliver you the cause, </l>
             <l>Why I, that did love Cæsar when I struck him, </l>
             <l part="I">Have thus proceeded. </l>
@@ -2733,7 +2733,7 @@
             <l>Next, Caius Cassius, do I take your hand; </l>
             <l>Now, Decius Brutus, yours: now yours, Metellus; </l>
             <l>Yours, Cinna; and, my valiant Casca, yours; </l>
-            <l>Though last, not least in love, yours, good Trebonius. </l>
+            <l n="190">Though last, not least in love, yours, good Trebonius. </l>
             <l>Gentlemen all,—alas, what shall I say? </l>
             <l>My credit now stands on such slippery ground, </l>
             <l>That one of two bad ways you must conceit me, </l>
@@ -2743,7 +2743,7 @@
             <l>Shall it not grieve thee dearer than thy death, </l>
             <l>To see thy Antony making his peace, </l>
             <l>Shaking the bloody fingers of thy foes, </l>
-            <l>Most noble! in the presence of thy corse? </l>
+            <l n="200">Most noble! in the presence of thy corse? </l>
             <l>Had I as many eyes as thou hast wounds, </l>
             <l>Weeping as fast as they stream forth thy blood, </l>
             <l>It would become me better than to close </l>
@@ -2753,7 +2753,7 @@
             <l>Sign'd in thy spoil, and crimson'd in thy lethe. </l>
             <l>O world, thou wast the forest to this hart; </l>
             <l>And this, indeed, O world, the heart of thee. </l>
-            <l>How like a deer, strucken by many princes, </l>
+            <l n="210">How like a deer, strucken by many princes, </l>
             <l>Dost, thou here lie! </l>
           </sp>
           <sp who="jc-9">
@@ -2775,7 +2775,7 @@
           </sp>
           <sp who="jc-1">
             <speaker>Ant.</speaker>
-            <l>Therefore I took your hands, but was, indeed, </l>
+            <l n="219">Therefore I took your hands, but was, indeed, </l>
             <l>Sway'd from the point, by looking down on Cæsar. </l>
             <l>Friends am I with you all and love you all, </l>
             <l>Upon this hope, that you shall give me reasons </l>
@@ -2793,7 +2793,7 @@
             <l part="F">That's all I seek: </l>
             <l>And am moreover suitor that I may </l>
             <l>Produce his body to the market-place; </l>
-            <l>And in the pulpit, as becomes a friend, </l>
+            <l n="230">And in the pulpit, as becomes a friend, </l>
             <l>Speak in the order of his funeral. </l>
           </sp>
           <sp who="jc-4">
@@ -2815,7 +2815,7 @@
             <l>I will myself into the pulpit first, </l>
             <l>And show the reason of our Cæsar's death: </l>
             <l>What Antony shall speak, I will protest </l>
-            <l>He speaks by leave and by permission, </l>
+            <l n="240">He speaks by leave and by permission, </l>
             <l>And that we are contented Cæsar shall </l>
             <l>Have all true rites and lawful ceremonies. </l>
             <l>It shall advantage more than do us wrong. </l>
@@ -2831,7 +2831,7 @@
             <l>But speak all good you can devise of Cæsar, </l>
             <l>And say you do't by our permission; </l>
             <l>Else shall you not have any hand at all </l>
-            <l>About his funeral: and you shall speak </l>
+            <l n="250">About his funeral: and you shall speak </l>
             <l>In the same pulpit whereto I am going, </l>
             <l part="I">After my speech is ended. </l>
           </sp>
@@ -2853,7 +2853,7 @@
             <l>Thou art the ruins of the noblest man </l>
             <l>That ever lived in the tide of times. </l>
             <l>Woe to the hand that shed this costly blood! </l>
-            <l>Over thy wounds now do I prophesy,— </l>
+            <l n="260">Over thy wounds now do I prophesy,— </l>
             <l>Which, like dumb mouths, do ope their ruby lips, </l>
             <l>To beg the voice and utterance of my tongue— </l>
             <l>A curse shall light upon the limbs of men; </l>
@@ -2863,7 +2863,7 @@
             <l>And dreadful objects so familiar </l>
             <l>That mothers shall but smile when they behold </l>
             <l>Their infants quarter'd with the hands of war; </l>
-            <l>All pity choked with custom of fell deeds: </l>
+            <l n="270">All pity choked with custom of fell deeds: </l>
             <l>And Cæsar's spirit, ranging for revenge, </l>
             <l>With Ate by his side come hot from hell, </l>
             <l>Shall in these confines with a monarch's voice </l>
@@ -2884,7 +2884,7 @@
           <sp who="jc-40">
             <speaker>Serv.</speaker>
             <l>He did receive his letters, and is coming; </l>
-            <l>And bid me say to you by word of mouth— </l>
+            <l n="281">And bid me say to you by word of mouth— </l>
             <l>O Cæsar!— <stage>Seeing the body. </stage>
               </l>
           </sp>
@@ -2902,7 +2902,7 @@
           <sp who="jc-1">
             <speaker>Ant.</speaker>
             <l>Post back with speed, and tell him what hath chanced: </l>
-            <l>Here is a mourning Rome, a dangerous Rome, </l>
+            <l n="289">Here is a mourning Rome, a dangerous Rome, </l>
             <l>No Rome of safety for Octavius yet; </l>
             <l>Hie hence, and tell him so. Yet, stay awhile; </l>
             <l>Thou shalt not back till I have borne this corse </l>
@@ -2944,7 +2944,7 @@
           </sp>
           <sp who="jc-35">
             <speaker>Sec. Cit.</speaker>
-            <l>I will hear Cassius; and compare their reasons, </l>
+            <l n="10">I will hear Cassius; and compare their reasons, </l>
             <l>When severally we hear them rendered. <stage>Brutus goes into the pulpit.</stage>
               </l>
           </sp>
@@ -3024,7 +3024,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>Good countrymen, let me depart alone, </l>
+            <l n="61">Good countrymen, let me depart alone, </l>
             <l>And, for my sake, stay here with Antony: </l>
             <l>Do grace to Cæsar's corpse, and grace his speech </l>
             <l>Tending to Cæsar's glories; which Mark Antony, </l>
@@ -3040,7 +3040,7 @@
           <sp who="jc-35">
             <speaker>Third Cit.</speaker>
             <l>Let him go up into the public chair; </l>
-            <l>We'll hear him. Noble Antony, go up. </l>
+            <l n="70">We'll hear him. Noble Antony, go up. </l>
           </sp>
           <sp who="jc-1">
             <speaker>Ant.</speaker>
@@ -3084,7 +3084,7 @@
           <sp who="jc-1">
             <speaker>Ant.</speaker>
             <l>Friends, Romans, countrymen, lend me your ears; </l>
-            <l>I come to bury Cæsar, not to praise him. </l>
+            <l n="80">I come to bury Cæsar, not to praise him. </l>
             <l>The evil that men do lives after them; </l>
             <l>The good is oft interred with their bones; </l>
             <l>So let it be with Cæsar. The noble Brutus </l>
@@ -3094,7 +3094,7 @@
             <l>Here, under leave of Brutus and the rest— </l>
             <l>For Brutus is an honorable man; </l>
             <l>So are they all, all honorable men— </l>
-            <l>Come I to speak in Cæsar's funeral. </l>
+            <l n="90">Come I to speak in Cæsar's funeral. </l>
             <l>He was my friend faithful and just to me: </l>
             <l>But Brutus says he was ambitious; </l>
             <l>And Brutus is an honorable man. </l>
@@ -3104,7 +3104,7 @@
             <l>When that the poor have cried, Cæsar hath wept: </l>
             <l>Ambition should be made of sterner stuff: </l>
             <l>Yet Brutus says he was ambitious; </l>
-            <l>And Brutus is an honorable man. </l>
+            <l n="100">And Brutus is an honorable man. </l>
             <l>You all did see that on the Lupercal </l>
             <l>I thrice presented him a kingly crown, </l>
             <l>Which he did thrice refuse: was this ambition? </l>
@@ -3114,7 +3114,7 @@
             <l>But here I am to speak what I do know. </l>
             <l>You all did love him once, not without cause: </l>
             <l>What cause withholds you then, to mourn for him? </l>
-            <l>O judgment! thou art fled to brutish beasts, </l>
+            <l n="110">O judgment! thou art fled to brutish beasts, </l>
             <l>And men have lost their reason. Bear with me; </l>
             <l>My heart is in the coffin there with Cæsar, </l>
             <l>And I must pause till it come back to me. </l>
@@ -3140,7 +3140,7 @@
           </sp>
           <sp who="jc-35">
             <speaker>First Cit.</speaker>
-            <l>If it be found so, some will dear abide it. </l>
+            <l n="120">If it be found so, some will dear abide it. </l>
           </sp>
           <sp who="jc-35">
             <speaker>Sec. Cit.</speaker>
@@ -3162,7 +3162,7 @@
             <l>O masters, if I were disposed to stir </l>
             <l>Your hearts and minds to mutiny and rage, </l>
             <l>I should do Brutus wrong, and Cassius wrong, </l>
-            <l>Who, you all know, are honorable men: </l>
+            <l n="130">Who, you all know, are honorable men: </l>
             <l>I will not do them wrong; I rather choose </l>
             <l>To wrong the dead, to wrong myself and you, </l>
             <l>Than I will wrong such honorable men. </l>
@@ -3172,7 +3172,7 @@
             <l>Which, pardon me, I do not mean to read— </l>
             <l>And they would go and kiss dead Cæsar's wounds </l>
             <l>And dip their napkins in his sacred blood, </l>
-            <l>Yea, beg a hair of him for memory, </l>
+            <l n="140">Yea, beg a hair of him for memory, </l>
             <l>And, dying, mention it within their wills, </l>
             <l>Bequeathing it as a rich legacy </l>
             <l>Unto their issue. </l>
@@ -3192,7 +3192,7 @@
             <l>Have patience, gentle friends, I must not read it; </l>
             <l>It is not meet you know how Cæsar loved you. </l>
             <l>You are not wood, you are not stones, but men; </l>
-            <l>And, being men, hearing the will of Cæsar, </l>
+            <l n="149">And, being men, hearing the will of Cæsar, </l>
             <l>It will inflame you, it will make you mad: </l>
             <l>'Tis good you know not that you are his heirs </l>
             <l>For, if you should, O, what would come of it! </l>
@@ -3217,7 +3217,7 @@
             <speaker>All.</speaker>
             
             
-            <l>The will! the testament! </l>
+            <l n="160">The will! the testament! </l>
           </sp>
           <sp who="jc-35">
             <speaker>Sec. Cit.</speaker>
@@ -3249,7 +3249,7 @@
           </sp>
           <sp who="jc-35">
             <speaker>First Cit.</speaker>
-            <l>Stand from the hearse, stand from the body. </l>
+            <l n="170">Stand from the hearse, stand from the body. </l>
           </sp>
           <sp who="jc-35">
             <speaker>Sec. Cit.</speaker>
@@ -3272,7 +3272,7 @@
             <l>That day he overcame the Nervii: </l>
             <l>Look, in this place ran Cassius' dagger through: </l>
             <l>See what a rent the envious Casca made: </l>
-            <l>Through this the well-beloved Brutus stabb'd; </l>
+            <l n="181">Through this the well-beloved Brutus stabb'd; </l>
             <l>And as he pluck'd his cursed steel away, </l>
             <l>Mark how the blood of Cæsar follow'd it, </l>
             <l>As rushing out of doors, to be resolved </l>
@@ -3281,7 +3281,7 @@
             <l>Judge, O you gods, how dearly Cæsar loved him! </l>
             <l>This was the most unkindest cut of all; </l>
             <l>For when the noble Cæsar saw him stab, </l>
-            <l>Ingratitude, more strong than traitors' arms, </l>
+            <l n="190">Ingratitude, more strong than traitors' arms, </l>
             <l>Quite vanquish'd him: then burst his mighty heart; </l>
             <l>And, in his mantle muffling up his face, </l>
             <l>Even at the base of Pompey's statua, </l>
@@ -3291,7 +3291,7 @@
             <l>Whilst bloody treason flourish'd over us. </l>
             <l>O, now you weep; and, I perceive, you feel </l>
             <l>The dint of pity: these are gracious drops. </l>
-            <l>Kind souls, what, weep you when you but behold </l>
+            <l n="200">Kind souls, what, weep you when you but behold </l>
             <l>Our Cæsar's vesture wounded? Look you here, </l>
             <l>Here is himself, marr'd, as you see, with traitors. </l>
           </sp>
@@ -3324,7 +3324,7 @@
             
             
             <l>Revenge! About! Seek! Burn! </l>
-            <l>Fire! Kill! Slay! Let not a traitor live! </l>
+            <l n="210">Fire! Kill! Slay! Let not a traitor live! </l>
           </sp>
           <sp who="jc-1">
             <speaker>Ant.</speaker>
@@ -3346,7 +3346,7 @@
             <l>What private griefs they have, alas, I know not, </l>
             <l>That made them do it: they are wise and honorable, </l>
             <l>And will, no doubt, with reasons answer you. </l>
-            <l>I come not, friends, to steal away your hearts: </l>
+            <l n="221">I come not, friends, to steal away your hearts: </l>
             <l>I am no orator, as Brutus is; </l>
             <l>But, as you know me all, a plain blunt man, </l>
             <l>That love my friend; and that they know full well </l>
@@ -3355,7 +3355,7 @@
             <l>Action, nor utterance, nor the power of speech, </l>
             <l>To stir men's blood: I only speak right on; </l>
             <l>I tell you that which you yourselves do know; </l>
-            <l>Show you sweet Cæsar's wounds, poor poor dumb mouths, </l>
+            <l n="230">Show you sweet Cæsar's wounds, poor poor dumb mouths, </l>
             <l>And bid them speak for me: but were I Brutus, </l>
             <l>And Brutus Antony, there were an Antony </l>
             <l>Would ruffle up your spirits and put a tongue </l>
@@ -3384,7 +3384,7 @@
             <speaker>All.</speaker>
             
             
-            <l>Peace, ho! Hear Antony. Most noble Antony! </l>
+            <l n="240">Peace, ho! Hear Antony. Most noble Antony! </l>
           </sp>
           <sp who="jc-1">
             <speaker>Ant.</speaker>
@@ -3411,7 +3411,7 @@
           </sp>
           <sp who="jc-35">
             <speaker>Third Cit.</speaker>
-            <l>O royal Cæsar! </l>
+            <l n="250">O royal Cæsar! </l>
           </sp>
           <sp who="jc-1">
             <speaker>Ant.</speaker>
@@ -3433,7 +3433,7 @@
             <l>Here was a Cæsar! when comes such another? </l>
             <l>First Cit. Never, never. Come, away, away! </l>
             <l>We'll burn his body in the holy place, </l>
-            <l>And with the brands fire the traitors' houses. </l>
+            <l n="261">And with the brands fire the traitors' houses. </l>
             <l>Take up the body. </l>
           </sp>
           <sp who="jc-35">
@@ -3473,7 +3473,7 @@
           </sp>
           <sp who="jc-1">
             <speaker>Ant.</speaker>
-            <l>And thither will I straight to visit him: </l>
+            <l n="271">And thither will I straight to visit him: </l>
             <l>He comes upon a wish. Fortune is merry, </l>
             <l>And in this mood will give us any thing. </l>
           </sp>
@@ -3519,7 +3519,7 @@
           </sp>
           <sp who="jc-35">
             <speaker>Fourth Cit.</speaker>
-            <l>Are you a married man or a bachelor? </l>
+            <l n="10">Are you a married man or a bachelor? </l>
           </sp>
           <sp who="jc-35">
             <speaker>Sec. Cit.</speaker>
@@ -3577,7 +3577,7 @@
           </sp>
           <sp who="jc-14">
             <speaker>Cin.</speaker>
-            <l>Truly, my name is Cinna. </l>
+            <l n="31">Truly, my name is Cinna. </l>
           </sp>
           <sp who="jc-35">
             <speaker>First Cit.</speaker>
@@ -3644,7 +3644,7 @@
             <l>He shall not live; look, with a spot I damn him. </l>
             <l>But, Lepidus, go you to Cæsar's house; </l>
             <l>Fetch the will hither, and we shall determine </l>
-            <l>How to cut off some charge in legacies. </l>
+            <l n="10">How to cut off some charge in legacies. </l>
           </sp>
           <sp who="jc-23">
             <speaker>Lep.</speaker>
@@ -3673,7 +3673,7 @@
             <l>Octavius, I have seen more days than you: </l>
             <l>And though we lay these honors on this man, </l>
             <l>To ease ourselves of divers slanderous loads, </l>
-            <l>He shall but bear them as the ass bears gold, </l>
+            <l n="22">He shall but bear them as the ass bears gold, </l>
             <l>To groan and sweat under the business, </l>
             <l>Either led or driven, as we point the way; </l>
             <l>And having brought our treasure where we will, </l>
@@ -3688,7 +3688,7 @@
           </sp>
           <sp who="jc-1">
             <speaker>Ant.</speaker>
-            <l>So is my horse, Octavius; and for that </l>
+            <l n="30">So is my horse, Octavius; and for that </l>
             <l>I do appoint him store of provender: </l>
             <l>It is a creature that I teach to fight, </l>
             <l>To wind, to stop, to run directly on, </l>
@@ -3698,7 +3698,7 @@
             <l>A barren-spirited fellow; one that feeds </l>
             <l>On abjects, orts and imitations, </l>
             <l>Which, out of use and staled by other men, </l>
-            <l>Begin his fashion: do not talk of him </l>
+            <l n="40">Begin his fashion: do not talk of him </l>
             <l>But as a property. And now, Octavius, </l>
             <l>Listen great things:—Brutus and Cassius </l>
             <l>Are levying powers: we must straight make head: </l>
@@ -3711,7 +3711,7 @@
           <sp who="jc-33">
             <speaker>Oct.</speaker>
             <l>Let us do so: for we are at the stake, </l>
-            <l>And bay'd about with many enemies; </l>
+            <l n="50">And bay'd about with many enemies; </l>
             <l>And some that smile have in their hearts, I fear, </l>
             <l>Millions of mischiefs. <stage>Exeunt.</stage>
             </l>
@@ -3748,7 +3748,7 @@
             <l>In his own change, or by ill officers, </l>
             <l>Hath given me some worthy cause to wish </l>
             <l>Things done, undone: but, if he be at hand, </l>
-            <l part="I">I shall be satisfied. </l>
+            <l n="10" part="I">I shall be satisfied. </l>
           </sp>
           <sp who="jc-34">
             <speaker>Pin.</speaker>
@@ -3771,7 +3771,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l part="F">Thou hast described </l>
-            <l>A hot friend cooling: ever note, Lucilius, </l>
+            <l n="20">A hot friend cooling: ever note, Lucilius, </l>
             <l>When love begins to sicken and decay, </l>
             <l>It useth an enforced ceremony. </l>
             <l>There are no tricks in plain and simple faith; </l>
@@ -3785,7 +3785,7 @@
             <speaker>Lucil.</speaker>
             <l>They mean this night in Sardis to be quarter'd; </l>
             <l>The greater part, the horse in general, </l>
-            <l part="I">Are come with Cassius. 
+            <l n="30" part="I">Are come with Cassius. 
               </l>
           </sp>
           <sp who="jc-4">
@@ -3823,7 +3823,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l>Judge me, you gods! wrong I mine enemies? </l>
-            <l>And, if not so, how should I wrong a brother? </l>
+            <l n="40">And, if not so, how should I wrong a brother? </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -3844,7 +3844,7 @@
             <speaker>Cas.</speaker>
             <l part="F">Pindarus, </l>
             <l>Bid our commanders lead their charges off </l>
-            <l>A little from this ground. </l>
+            <l n="50">A little from this ground. </l>
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
@@ -3882,7 +3882,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l>Let me tell you, Cassius, you yourself </l>
-            <l>Are much condemn'd to have an itching palm; </l>
+            <l n="11">Are much condemn'd to have an itching palm; </l>
             <l>To sell and mart your offices for gold </l>
             <l part="I">To undeservers. </l>
           </sp>
@@ -3918,7 +3918,7 @@
           <sp who="jc-9">
             <speaker>Cas.</speaker>
             <l part="F">Brutus, bay not me; </l>
-            <l>I'll not endure it: you forget yourself, </l>
+            <l n="30">I'll not endure it: you forget yourself, </l>
             <l>To hedge me in; I am a soldier, I, </l>
             <l>Older in practice, abler than yourself </l>
             <l part="I">To make conditions. </l>
@@ -3951,7 +3951,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l part="F">Hear me, for I will speak. </l>
-            <l>Must I give way and room to your rash choler? </l>
+            <l n="40">Must I give way and room to your rash choler? </l>
             <l>Shall I be frighted when a madman stares? </l>
           </sp>
           <sp who="jc-9">
@@ -3968,7 +3968,7 @@
             <l>You shall digest the venom of your spleen, </l>
             <l>Though it do split you; for, from this day forth, </l>
             <l>I'll use you for my mirth, yea, for my laughter, </l>
-            <l part="I">When you are waspish. </l>
+            <l n="50" part="I">When you are waspish. </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -3997,7 +3997,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>Peace, peace! you durst not so have tempted him. </l>
+            <l n="60">Peace, peace! you durst not so have tempted him. </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -4026,7 +4026,7 @@
             <l>There is no terror, Cassius, in your threats, </l>
             <l>For I am arm'd so strong in honesty </l>
             <l>That they pass by me as the idle wind, </l>
-            <l>Which I respect not. I did send to you </l>
+            <l n="70">Which I respect not. I did send to you </l>
             <l>For certain sums of gold, which you denied me: </l>
             <l>For I can raise no money by vile means: </l>
             <l>By heaven, I had rather coin my heart, </l>
@@ -4035,7 +4035,7 @@
             <l>By any indirection: I did send </l>
             <l>To you for gold to pay my legions, </l>
             <l>Which you denied me: was that done like Cassius? </l>
-            <l>Should I have answer'd Caius Cassius so? </l>
+            <l n="79">Should I have answer'd Caius Cassius so? </l>
             <l>When Marcus Brutus grows so covetous, </l>
             <l>To lock such rascal counters from his friends, </l>
             <l>Be ready, gods, with all your thunderbolts; </l>
@@ -4085,7 +4085,7 @@
             <l>Hated by one he loves; braved by his brother; </l>
             <l>Check'd like a bondman; all his faults observed, </l>
             <l>Set in a note-book, learn'd, and conn'd by rote, </l>
-            <l>To cast into my teeth. O, I could weep </l>
+            <l n="100">To cast into my teeth. O, I could weep </l>
             <l>My spirit from mine eyes! There is my dagger, </l>
             <l>And here my naked breast; within, a heart </l>
             <l>Dearer than Plutus' mine, richer than gold: </l>
@@ -4099,7 +4099,7 @@
             <speaker>Bru.</speaker>
             <l part="F">Sheathe your dagger: </l>
             <l>Be angry when you will, it shall have scope; </l>
-            <l>Do what you will, dishonor shall be humor. </l>
+            <l n="110">Do what you will, dishonor shall be humor. </l>
             <l>O Cassius, you are yoked with a lamb </l>
             <l>That carries anger as the flint bears fire; </l>
             <l>Who, much enforced, shows a hasty spark, </l>
@@ -4121,7 +4121,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>And my heart too. </l>
+            <l n="120">And my heart too. </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -4170,7 +4170,7 @@
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
-            <l>How now! what's the matter? </l>
+            <l n="130">How now! what's the matter? </l>
           </sp>
           <sp who="jc-36">
             <speaker>Poet.</speaker>
@@ -4203,7 +4203,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>Lucilius and Titinius, bid the commanders </l>
+            <l n="140">Lucilius and Titinius, bid the commanders </l>
             <l>Prepare to lodge their companies to-night. </l>
           </sp>
           <sp who="jc-9">
@@ -4240,7 +4240,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>She is dead. </l>
+            <l n="150">She is dead. </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -4273,7 +4273,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l>Speak no more of her. Give me a bowl of wine. </l>
-            <l>In this I bury all unkindness, Cassius. </l>
+            <l n="160">In this I bury all unkindness, Cassius. </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -4299,7 +4299,7 @@
             <l part="F">No more, I pray you. </l>
             <l>Messala, I have here received letters, </l>
             <l>That young Octavius and Mark Antony </l>
-            <l>Come down upon us with a mighty power, </l>
+            <l n="170">Come down upon us with a mighty power, </l>
             <l>Bending their expedition toward Philippi. </l>
           </sp>
           <sp who="jc-29">
@@ -4363,7 +4363,7 @@
           <sp who="jc-29">
             <speaker>Mes.</speaker>
             <l>Then like a Roman bear the truth I tell: </l>
-            <l>For certain she is dead, and by strange manner. </l>
+            <l n="190">For certain she is dead, and by strange manner. </l>
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
@@ -4396,7 +4396,7 @@
           <sp who="jc-9">
             <speaker>Cas.</speaker>
             <l part="F">This it is: </l>
-            <l>'Tis better that the enemy seek us: </l>
+            <l n="200">'Tis better that the enemy seek us: </l>
             <l>So shall he waste his means, weary his soldiers, </l>
             <l>Doing himself offence; whilst we, lying still, </l>
             <l>Are full of rest, defence, and nimbleness. </l>
@@ -4410,7 +4410,7 @@
             <l>The enemy, marching along by them, </l>
             <l>By them shall make a fuller number up, </l>
             <l>Come on refresh'd, new-added, and encouraged; </l>
-            <l>From which advantage shall we cut him off, </l>
+            <l n="211">From which advantage shall we cut him off, </l>
             <l>If at Philippi we do face him there, </l>
             <l part="I">These people at our back. </l>
           </sp>
@@ -4426,7 +4426,7 @@
             <l>The enemy increaseth every day; </l>
             <l>We, at the height, are ready to decline. </l>
             <l>There is a tide in the affairs of men, </l>
-            <l>Which, taken at the flood, leads on to fortune; </l>
+            <l n="220">Which, taken at the flood, leads on to fortune; </l>
             <l>Omitted, all the voyage of their life </l>
             <l>Is bound in shallows and in miseries. </l>
             <l>On such a full sea are we now afloat; </l>
@@ -4494,7 +4494,7 @@
           </sp>
           <sp who="jc-26">
             <speaker>Luc.</speaker>
-            <l>Here in the tent. </l>
+            <l n="240">Here in the tent. </l>
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
@@ -4521,7 +4521,7 @@
           </sp>
           <sp who="jc-46">
             <speaker>Var.</speaker>
-            <l>So please you, we will stand and watch your pleasure. </l>
+            <l n="250">So please you, we will stand and watch your pleasure. </l>
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
@@ -4548,7 +4548,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l part="F">It does, my boy: </l>
-            <l>I trouble thee too much, but thou art willing. </l>
+            <l n="260">I trouble thee too much, but thou art willing. </l>
           </sp>
           <sp who="jc-26">
             <speaker>Luc.</speaker>
@@ -4570,7 +4570,7 @@
             <l>I will be good to thee. <stage>Music, and a song.</stage>
               </l>
             <l>This is a sleepy tune. O murderous slumber, </l>
-            <l>Lay'st thou thy leaden mace upon my boy, </l>
+            <l n="269">Lay'st thou thy leaden mace upon my boy, </l>
             <l>That plays thee music? Gentle knave, good night; </l>
             <l>I will not do thee so much wrong to wake thee: </l>
             <l>If thou dost nod, thou break'st thy instrument; </l>
@@ -4582,7 +4582,7 @@
             <l>I think it is the weakness of mine eyes </l>
             <l>That shapes this monstrous apparition. </l>
             <l>It comes upon me. Art thou any thing? </l>
-            <l>Art thou some god, some angel, or some devil, </l>
+            <l n="280">Art thou some god, some angel, or some devil, </l>
             <l>That makest my blood cold and my hair to stare? </l>
             <l>Speak to me what thou art. </l>
           </sp>
@@ -4612,7 +4612,7 @@
               </l>
             <l>Now I have taken heart thou vanishest: </l>
             <l>Ill spirit, I would hold more talk with thee. </l>
-            <l>Boy, Lucius! Varro! Claudius! Sirs, awake! </l>
+            <l n="291">Boy, Lucius! Varro! Claudius! Sirs, awake! </l>
             <l>Claudius! </l>
           </sp>
           <sp who="jc-26">
@@ -4642,7 +4642,7 @@
           </sp>
           <sp who="jc-26">
             <speaker>Luc.</speaker>
-            <l>Nothing, my lord. </l>
+            <l n="300">Nothing, my lord. </l>
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
@@ -4682,7 +4682,7 @@
             <speaker>Bru.</speaker>
             <l>Go and commend me to my brother Cassius; </l>
             <l>Bid him set on his powers betimes before, </l>
-            <l>And we will follow. </l>
+            <l n="309">And we will follow. </l>
           </sp>
           <sp who="jc-46 jc-15">
             <speaker>Var. Clau.</speaker>
@@ -4716,7 +4716,7 @@
             <speaker>Ant.</speaker>
             <l>Tut, I am in their bosoms, and I know </l>
             <l>Wherefore they do it: they could be content </l>
-            <l>To visit other places; and come down </l>
+            <l n="10">To visit other places; and come down </l>
             <l>With fearful bravery, thinking by this face </l>
             <l>To fasten in our thoughts that they have courage; </l>
             <l part="I">But 'tis not so. <stage type="entrance">Enter a
@@ -4781,7 +4781,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>Good words are better than bad strokes, Octavius. </l>
+            <l n="30">Good words are better than bad strokes, Octavius. </l>
           </sp>
           <sp who="jc-1">
             <speaker>Ant.</speaker>
@@ -4808,7 +4808,7 @@
           </sp>
           <sp who="jc-1">
             <speaker>Ant.</speaker>
-            <l>Villains, you did not so, when your vile daggers </l>
+            <l n="40">Villains, you did not so, when your vile daggers </l>
             <l>Hack'd one another in the sides of Cæsar: </l>
             <l>You show'd your teeth like apes, and fawn'd like hounds, </l>
             <l>And bow'd like bondmen, kissing Cæsar's feet; </l>
@@ -4824,7 +4824,7 @@
           <sp who="jc-33">
             <speaker>Oct.</speaker>
             <l>Come, come, the cause: if arguing make us sweat, </l>
-            <l>The proof of it will turn to redder drops. </l>
+            <l n="50">The proof of it will turn to redder drops. </l>
             <l>Look; </l>
             <l>I draw a sword against conspirators; </l>
             <l>When think you that the sword goes up again? </l>
@@ -4844,7 +4844,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>O, if thou wert the noblest of thy strain, </l>
+            <l n="60">O, if thou wert the noblest of thy strain, </l>
             <l>Young man, thou couldst not die more honorable. </l>
           </sp>
           <sp who="jc-9">
@@ -4903,7 +4903,7 @@
             <l>Upon one battle all our liberties. </l>
             <l>You know that I held Epicurus strong </l>
             <l>And his opinion: now I change my mind, </l>
-            <l>And partly credit things that do presage. </l>
+            <l n="80">And partly credit things that do presage. </l>
             <l>Coming from Sardis, on our former ensign </l>
             <l>Two mighty eagles fell, and there they perch'd, </l>
             <l>Gorging and feeding from our soldiers' hands; </l>
@@ -4917,7 +4917,7 @@
           </sp>
           <sp who="jc-29">
             <speaker>Mes.</speaker>
-            <l part="I">Believe not so. </l>
+            <l n="90" part="I">Believe not so. </l>
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
@@ -4937,7 +4937,7 @@
             <l>But since the affairs of men rest still incertain, </l>
             <l>Let's reason with the worst that may befall. </l>
             <l>If we do lose this battle, then is this </l>
-            <l>The very last time we shall speak together: </l>
+            <l n="100">The very last time we shall speak together: </l>
             <l>What are you then determined to do? </l>
           </sp>
           <sp who="jc-4">
@@ -4954,7 +4954,7 @@
           <sp who="jc-9">
             <speaker>Cas.</speaker>
             <l part="F">Then, if we lose this battle, </l>
-            <l>You are contented to be led in triumph </l>
+            <l n="110">You are contented to be led in triumph </l>
             <l>Thorough the streets of Rome? </l>
           </sp>
           <sp who="jc-4">
@@ -4971,7 +4971,7 @@
           </sp>
           <sp who="jc-9">
             <speaker>Cas.</speaker>
-            <l>For ever, and for ever, farewell, Brutus! </l>
+            <l n="121">For ever, and for ever, farewell, Brutus! </l>
             <l>If we do meet again, we'll smile indeed; </l>
             <l>If not, 'tis true this parting was well made. </l>
           </sp>
@@ -5029,7 +5029,7 @@
           </sp>
           <sp who="jc-34">
             <speaker>Pin.</speaker>
-            <l>Fly further off, my lord, fly further off; </l>
+            <l n="10">Fly further off, my lord, fly further off; </l>
             <l>Mark Antony is in your tents, my lord: </l>
             <l>Fly, therefore, noble Cassius, fly far off. </l>
           </sp>
@@ -5048,7 +5048,7 @@
             <l>Mount thou my horse, and hide thy spurs in him, </l>
             <l>Till he have brought thee up to yonder troops, </l>
             <l>And here again; that I may rest assured </l>
-            <l>Whether yond troops are friend or enemy. </l>
+            <l n="19">Whether yond troops are friend or enemy. </l>
           </sp>
           <sp who="jc-44">
             <speaker>Tit.</speaker>
@@ -5083,7 +5083,7 @@
             
             
             <l>Titinius is enclosed round about </l>
-            <l>With horsemen, that make to him on the spur; </l>
+            <l n="30">With horsemen, that make to him on the spur; </l>
             <l>Yet he spurs on. Now they are almost on him. </l>
             <l>Now, Titinius! Now some light. O, he lights too. </l>
             <l>He's ta'en. <stage>Shout.</stage>
@@ -5100,7 +5100,7 @@
             <l>Come hither, sirrah: </l>
             <l>In Parthia did I take thee prisoner; </l>
             <l>And then I swore thee, saving of thy life, </l>
-            <l>That whatsoever I did bid thee do, </l>
+            <l n="40">That whatsoever I did bid thee do, </l>
             <l>Thou shouldst attempt it. Come now, keep thine oath; </l>
             <l>Now be a freeman: and with this good sword, </l>
             <l>That ran through Cæsar's bowels, search this bosom. </l>
@@ -5115,7 +5115,7 @@
             <speaker>Pin.</speaker>
             <l>So, I am free; yet would not so have been, </l>
             <l>Durst I have done my will. O Cassius, </l>
-            <l>Far from this country Pindarus shall run, </l>
+            <l n="50">Far from this country Pindarus shall run, </l>
             <l>Where never Roman shall take note of him. <stage type="exit">Exit. Re-enter TITINIUS with MESSALA. </stage>
               </l>
           </sp>
@@ -5165,7 +5165,7 @@
             <l>Mistrust of good success hath done this deed. </l>
             <l>O hateful error, melancholy's child, </l>
             <l>Why dost thou show to the apt thoughts of men </l>
-            <l>The things that are not? O error, soon conceived, </l>
+            <l n="70">The things that are not? O error, soon conceived, </l>
             <l>Thou never comest unto a happy birth, </l>
             <l>But kill'st the mother that engender'd thee! </l>
           </sp>
@@ -5196,7 +5196,7 @@
             <l>Thy Brutus bid me give it thee, and I </l>
             <l>Will do his bidding. Brutus, come apace, </l>
             <l>And see how I regarded Caius Cassius. </l>
-            <l>By your leave, gods:—this is a Roman's part: </l>
+            <l n="90">By your leave, gods:—this is a Roman's part: </l>
             <l>Come, Cassius' sword, and find Titinius' heart. <stage>Kills himself.</stage>
               <stage type="entrance">Alarum. Re-enter MESSALA, with BRUTUS,
                 young CATO, STRATO, VOLUMNIUS, and LUCILIUS.</stage>
@@ -5233,7 +5233,7 @@
           <sp who="jc-4">
             <speaker>Bru.</speaker>
             <l>Are yet two Romans living such as these? </l>
-            <l>The last of all the Romans, fare thee well! </l>
+            <l n="100">The last of all the Romans, fare thee well! </l>
             <l>It is impossible that ever Rome </l>
             <l>Should breed thy fellow. Friends, I owe more tears </l>
             <l>To this dead man than you shall see me pay. </l>
@@ -5280,7 +5280,7 @@
           <sp who="jc-25">
             <speaker>Lucil.</speaker>
             <l>O young and noble Cato, art thou down? </l>
-            <l>Why, now thou diest as bravely as Titinius; </l>
+            <l n="11">Why, now thou diest as bravely as Titinius; </l>
             <l>And mayst be honor'd, being Cato's son. </l>
           </sp>
           <sp who="jc-41">
@@ -5316,7 +5316,7 @@
           </sp>
           <sp who="jc-25">
             <speaker>Lucil.</speaker>
-            <l>Safe, Antony; Brutus is safe enough: </l>
+            <l n="21">Safe, Antony; Brutus is safe enough: </l>
             <l>I dare assure thee that no enemy </l>
             <l>Shall ever take alive the noble Brutus: </l>
             <l>The gods defend him from so great a shame! </l>
@@ -5328,7 +5328,7 @@
             <l>This is not Brutus, friend; but, I assure you, </l>
             <l>A prize no less in worth: keep this man safe; </l>
             <l>Give him all kindness: I had rather have </l>
-            <l>Such men my friends than enemies. Go on, </l>
+            <l n="30">Such men my friends than enemies. Go on, </l>
             <l>And see whether Brutus be alive or dead; </l>
             <l>And bring us word unto Octavius' tent </l>
             <l>How every thing is chanced. <stage type="exit">Exeunt.</stage>
@@ -5382,7 +5382,7 @@
           </sp>
           <sp who="jc-16">
             <speaker>Cli.</speaker>
-            <l>O Dardanius! </l>
+            <l n="10">O Dardanius! </l>
           </sp>
           <sp who="jc-18">
             <speaker>Dar.</speaker>
@@ -5415,7 +5415,7 @@
             <l>The ghost of Cæsar hath appear'd to me </l>
             <l>Two several times by night; at Sardis once, </l>
             <l>And, this last night, here in Philippi fields: </l>
-            <l part="I">I know my hour is come. </l>
+            <l n="20" part="I">I know my hour is come. </l>
           </sp>
           <sp who="jc-47">
             <speaker>Vol.</speaker>
@@ -5435,7 +5435,7 @@
           </sp>
           <sp who="jc-47">
             <speaker>Vol.</speaker>
-            <l>That's not an office for a friend, my lord. <stage>Alarum
+            <l n="30">That's not an office for a friend, my lord. <stage>Alarum
                 still. </stage>
               </l>
           </sp>
@@ -5453,7 +5453,7 @@
             <l>I shall have glory by this losing day </l>
             <l>More than Octavius and Mark Antony </l>
             <l>By this vile conquest shall attain unto. </l>
-            <l>So fare you well at once; for Brutus' tongue </l>
+            <l n="40">So fare you well at once; for Brutus' tongue </l>
             <l>Hath almost ended his life's history: </l>
             <l>Night hangs upon mine eyes; my bones would rest, </l>
             <l>That have but labor'd to attain this hour. <stage>Alarum. Cry
@@ -5481,7 +5481,7 @@
           </sp>
           <sp who="jc-4">
             <speaker>Bru.</speaker>
-            <l>Farewell, good Strato. <stage>Runs on his sword.</stage>
+            <l n="50">Farewell, good Strato. <stage>Runs on his sword.</stage>
               </l>
             <l>Cæsar, now be still: </l>
             <l>I kill'd not thee with half so good a will. <stage>Dies.</stage>
@@ -5506,7 +5506,7 @@
           <sp who="jc-25">
             <speaker>Lucil.</speaker>
             <l>So Brutus should be found. I thank thee, Brutus, </l>
-            <l>That thou hast proved Lucilus' saying true. </l>
+            <l n="60">That thou hast proved Lucilus' saying true. </l>
           </sp>
           <sp who="jc-33">
             <speaker>Oct.</speaker>
@@ -5537,7 +5537,7 @@
           <sp who="jc-1">
             <speaker>Ant.</speaker>
             <l>This was the noblest Roman of them all: </l>
-            <l>All the conspirators save only he </l>
+            <l n="70">All the conspirators save only he </l>
             <l>Did that they did in envy of great Cæsar; </l>
             <l>He only, in a general honest thought </l>
             <l>And common good to all, made one of them. </l>

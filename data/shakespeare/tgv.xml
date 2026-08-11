@@ -128,7 +128,7 @@
                   <l>To see the wonders of the world abroad, </l>
                   <l>Than, living dully sluggardized at home, </l>
                   <l>Wear out thy youth with shapeless idleness. </l>
-                  <l>But since thou lovest, love still and thrive therein, </l>
+                  <l n="10">But since thou lovest, love still and thrive therein, </l>
                   <l>Even as I would when I to love begin. </l>
                </sp>
                <sp who="tgv-2">
@@ -144,7 +144,7 @@
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
-                  <l>And on a love-book pray for my success? </l>
+                  <l n="20">And on a love-book pray for my success? </l>
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
@@ -179,7 +179,7 @@
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
-                  <l>To be in love, where scorn is bought with groans; </l>
+                  <l n="30">To be in love, where scorn is bought with groans; </l>
                   <l>Coy looks with heart-sore sighs; one fading moment's mirth </l>
                   <l>With twenty watchful, weary, tedious nights: </l>
                   <l>If haply won, perhaps a hapless gain; </l>
@@ -201,7 +201,7 @@
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
-                  <l>Love is your master, for he masters you: </l>
+                  <l n="40">Love is your master, for he masters you: </l>
                   <l>And he that is so yoked by a fool, </l>
                   <l>Methinks, should not be chronicled for wise. </l>
                </sp>
@@ -217,7 +217,7 @@
                   <l>Is eaten by the canker ere it blow, </l>
                   <l>Even so by love the young and tender wit </l>
                   <l>Is turn'd to folly, blasting in the bud, </l>
-                  <l>Losing his verdure even in the prime </l>
+                  <l n="50">Losing his verdure even in the prime </l>
                   <l>And all the fair effects of future hopes. </l>
                   <l>But wherefore waste I time to counsel thee, </l>
                   <l>That art a votary to fond desire? </l>
@@ -233,7 +233,7 @@
                   <l>Sweet Proteus, no; now let us take our leave. </l>
                   <l>To Milan let me hear from thee by letters </l>
                   <l>Of thy success in love, and what news else </l>
-                  <l>Betideth here in absence of thy friend; </l>
+                  <l n="60">Betideth here in absence of thy friend; </l>
                   <l>And I likewise will visit thee with mine. </l>
                </sp>
                <sp who="tgv-2">
@@ -253,7 +253,7 @@
                   <l>Thou, Julia, thou hast metamorphosed me, </l>
                   <l>Made me neglect my studies, lose my time, </l>
                   <l>War with good counsel, set the world at nought; </l>
-                  <l>Made wit with musing weak, heart sick with thought. <stage type="entrance">Enter SPEED.</stage>
+                  <l n="70">Made wit with musing weak, heart sick with thought. <stage type="entrance">Enter SPEED.</stage>
                      </l>
                </sp>
                <sp who="tgv-3">
@@ -452,7 +452,7 @@
                   <l>Being destined to a drier death on shore. <stage type="exit">[Exit
                         Speed.</stage>
                      </l>
-                  <l>I must go send some better messenger: </l>
+                  <l n="160">I must go send some better messenger: </l>
                   <l>I fear my Julia would not deign my lines, </l>
                   <l>Receiving them from such a worthless post. <stage type="exit">[Exit.</stage>
                   </l>
@@ -489,7 +489,7 @@
                </sp>
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
-                  <l>What think'st thou of the fair Sir Eglamour? </l>
+                  <l n="10">What think'st thou of the fair Sir Eglamour? </l>
                </sp>
                <sp who="tgv-6">
                   <speaker>Luc.</speaker>
@@ -557,7 +557,7 @@
                </sp>
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
-                  <l>His little speaking shows his love but small. </l>
+                  <l n="30">His little speaking shows his love but small. </l>
                </sp>
                <sp who="tgv-6">
                   <speaker>Luc.</speaker>
@@ -594,7 +594,7 @@
                <sp who="tgv-6">
                   <speaker>Luc.</speaker>
                   <l>Sir Valentine's page; and sent, I think, from Proteus. </l>
-                  <l>He would have given it you; but I, being in the way, </l>
+                  <l n="40">He would have given it you; but I, being in the way, </l>
                   <l>Did in your name receive it: pardon the fault I pray. </l>
                </sp>
                <sp who="tgv-5">
@@ -631,7 +631,7 @@
                   <l>Which they would have the profferer construe 'ay.' </l>
                   <l>Fie, fie, how wayward is this foolish love </l>
                   <l>That, like a testy babe, will scratch the nurse </l>
-                  <l>And presently all humbled kiss the rod! </l>
+                  <l n="60">And presently all humbled kiss the rod! </l>
                   <l>How churlishly I chid Lucetta hence, </l>
                   <l>When willingly I would have had her here! </l>
                   <l>How angerly I taught my brow to frown, </l>
@@ -652,7 +652,7 @@
                <sp who="tgv-6">
                   <speaker>Luc.</speaker>
                   <l part="F">I would it were, </l>
-                  <l>That you might kill your stomach on your meat </l>
+                  <l n="70">That you might kill your stomach on your meat </l>
                   <l>And not upon your maid. </l>
                </sp>
                <sp who="tgv-5">
@@ -694,7 +694,7 @@
                </sp>
                <sp who="tgv-6">
                   <speaker>Luc.</speaker>
-                  <l>That I might sing it, madam, to a tune. </l>
+                  <l n="81">That I might sing it, madam, to a tune. </l>
                   <l>Give me a note: your ladyship can set. </l>
                </sp>
                <sp who="tgv-5">
@@ -728,7 +728,7 @@
                </sp>
                <sp who="tgv-6">
                   <speaker>Luc.</speaker>
-                  <l>Keep tune there still, so you will sing it out: </l>
+                  <l n="90">Keep tune there still, so you will sing it out: </l>
                   <l>And yet methinks I do not like this tune. </l>
                </sp>
                <sp who="tgv-5">
@@ -760,7 +760,7 @@
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
                   <l>This babble shall not henceforth trouble me. </l>
-                  <l>Here is a coil with protestation! <stage>[Tears the letter.</stage>
+                  <l n="100">Here is a coil with protestation! <stage>[Tears the letter.</stage>
                      </l>
                   <l>Go get you gone, and let the papers lie: </l>
                   <l>You would be fingering them, to anger me. </l>
@@ -778,7 +778,7 @@
                   <l>Injurious wasps, to feed on such sweet honey </l>
                   <l>And kill the bees that yield it with your stings! </l>
                   <l>I'll kiss each several paper for amends. </l>
-                  <l>Look, here is writ 'kind Julia.' Unkind Julia! </l>
+                  <l n="110">Look, here is writ 'kind Julia.' Unkind Julia! </l>
                   <l>As in revenge of thy ingratitude, </l>
                   <l>I throw thy name against the bruising stones, </l>
                   <l>Trampling contemptuously on thy disdain. </l>
@@ -788,7 +788,7 @@
                   <l>And thus I search it with a sovereign kiss. </l>
                   <l>But twice or thrice was 'Proteus' written down. </l>
                   <l>Be calm, good wind, blow not a word away </l>
-                  <l>Till I have found each letter in the letter, </l>
+                  <l n="120">Till I have found each letter in the letter, </l>
                   <l>Except mine own name: that some whirlwind bear </l>
                   <l>Unto a ragged fearful-hanging rock </l>
                   <l>And throw it thence into the raging sea! </l>
@@ -798,7 +798,7 @@
                   <l>And yet I will not, sith so prettily </l>
                   <l>He couples it to his complaining names. </l>
                   <l>Thus will I fold them one upon another: </l>
-                  <l>Now kiss, embrace, contend, do what you will. <stage type="entrance">Re-enter
+                  <l n="130">Now kiss, embrace, contend, do what you will. <stage type="entrance">Re-enter
                         LUCETTA.</stage>
                      </l>
                </sp>
@@ -868,7 +868,7 @@
                   <l>While other men, of slender reputation, </l>
                   <l>Put forth their sons to seek preferment out: </l>
                   <l>Some of the wars, to try their fortune there; </l>
-                  <l>Some to discover islands far away; </l>
+                  <l n="10">Some to discover islands far away; </l>
                   <l>Some to the studious universities. </l>
                   <l>For any or for all these exercises </l>
                   <l>He said that Proteus your son was meet, </l>
@@ -881,7 +881,7 @@
                   <speaker>Ant.</speaker>
                   <l>Nor need'st thou much importune me to that </l>
                   <l>Whereon this month I have been hammering. </l>
-                  <l>I have consider'd well his loss of time </l>
+                  <l n="20">I have consider'd well his loss of time </l>
                   <l>And how he cannot be a perfect man, </l>
                   <l>Not being tried and tutor'd in the world: </l>
                   <l>Experience is by industry achieved </l>
@@ -916,7 +916,7 @@
                </sp>
                <sp who="tgv-7">
                   <speaker>Pan.</speaker>
-                  <l>To-morrow, may it please you, Don Alphonso, </l>
+                  <l n="40">To-morrow, may it please you, Don Alphonso, </l>
                   <l>With other gentlemen of good esteem </l>
                   <l>Are journeying to salute the emperor </l>
                   <l>And to commend their service to his will. </l>
@@ -934,7 +934,7 @@
                   <l>Here is her hand, the agent of her heart; </l>
                   <l>Here is her oath for love, her honor's pawn. </l>
                   <l>O, that our fathers would applaud our loves, </l>
-                  <l>To seal our happiness with their consents! </l>
+                  <l n="50">To seal our happiness with their consents! </l>
                   <l>O heavenly Julia! </l>
                </sp>
                <sp who="tgv-1">
@@ -956,7 +956,7 @@
                   <l>There is no news, my lord, but that he writes </l>
                   <l>How happily he lives, how well beloved </l>
                   <l>And daily graced by the emperor; </l>
-                  <l>Wishing me with him, partner of his fortune. </l>
+                  <l n="60">Wishing me with him, partner of his fortune. </l>
                </sp>
                <sp who="tgv-1">
                   <speaker>Ant.</speaker>
@@ -975,7 +975,7 @@
                   <l>I am resolved that thou shalt spend some time </l>
                   <l>With Valentinus in the emperor's court: </l>
                   <l>What maintenance he from his friends receives, </l>
-                  <l>Like exhibition thou shalt have from me. </l>
+                  <l n="70">Like exhibition thou shalt have from me. </l>
                   <l>To-morrow be in readiness to go: </l>
                   <l>Excuse it not, for I am peremptory. </l>
                </sp>
@@ -996,7 +996,7 @@
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
                   <l>Thus have I shunn'd the fire for fear of burning, </l>
-                  <l>And drench'd me in the sea, where I am drown'd. </l>
+                  <l n="80">And drench'd me in the sea, where I am drown'd. </l>
                   <l>I fear'd to show my father Julia's letter, </l>
                   <l>Lest he should take exceptions to my love; </l>
                   <l>And with the vantage of mine own excuse </l>
@@ -1263,7 +1263,7 @@
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
-                  <l>No, boy, but as well as I can do them. </l>
+                  <l n="99">No, boy, but as well as I can do them. </l>
                   <l>Peace! here she comes. </l>
                </sp>
                <sp who="tgv-3">
@@ -1319,7 +1319,7 @@
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
                   <l>No, madam; so it stead you, I will write, </l>
-                  <l>Please you command, a thousand times as much; </l>
+                  <l n="121">Please you command, a thousand times as much; </l>
                   <l>And yet-- </l>
                </sp>
                <sp who="tgv-8">
@@ -1343,7 +1343,7 @@
                <sp who="tgv-8">
                   <speaker>Sil.</speaker>
                   <l>Yes, yes: the lines are very quaintly writ; </l>
-                  <l>But since unwillingly, take them again. </l>
+                  <l n="130">But since unwillingly, take them again. </l>
                   <l>Nay, take them. </l>
                </sp>
                <sp who="tgv-4">
@@ -1371,7 +1371,7 @@
                </sp>
                <sp who="tgv-8">
                   <speaker>Sil.</speaker>
-                  <l> Why, if it please you, take it for your labor: </l>
+                  <l n="140"> Why, if it please you, take it for your labor: </l>
                   <l>And so, good morrow, servant. <stage type="exit">Exit.</stage>
                      </l>
                </sp>
@@ -1517,7 +1517,7 @@
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
                   <l>Here is my hand for my true constancy; </l>
-                  <l>And when that hour o'erslips me in the day </l>
+                  <l n="10">And when that hour o'erslips me in the day </l>
                   <l>Wherein I sigh not, Julia, for thy sake, </l>
                   <l>The next ensuing hour some foul mischance </l>
                   <l>Torment me for my love's forgetfulness </l>
@@ -1533,7 +1533,7 @@
                </sp>
                <sp who="tgv-7">
                   <speaker>Pan.</speaker>
-                  <l>Sir Proteus, you are stay'd for. </l>
+                  <l n="20">Sir Proteus, you are stay'd for. </l>
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
@@ -1829,7 +1829,7 @@
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
-                  <l>Ay, my good lord; a son that well deserves </l>
+                  <l n="60">Ay, my good lord; a son that well deserves </l>
                   <l>The honor and regard of such a father. </l>
                </sp>
                <sp who="tgv-10">
@@ -1846,7 +1846,7 @@
                   <l>Yet hath Sir Proteus, for that's his name, </l>
                   <l>Made use and fair advantage of his days; </l>
                   <l>His years but young, but his experience old; </l>
-                  <l>His head unmellow'd, but his judgement ripe; </l>
+                  <l n="71">His head unmellow'd, but his judgement ripe; </l>
                   <l>And, in a word, for far behind his worth </l>
                   <l>Comes all the praises that I now bestow, </l>
                   <l>He is complete in feature and in mind </l>
@@ -1859,7 +1859,7 @@
                   <l>As meet to be an emperor's counsellor. </l>
                   <l>Well, sir, this gentleman is come to me, </l>
                   <l>With commendation from great potentates; </l>
-                  <l>And here he means to spend his time awhile: </l>
+                  <l n="81">And here he means to spend his time awhile: </l>
                   <l>I think 'tis no unwelcome news to you. </l>
                </sp>
                <sp who="tgv-4">
@@ -1878,7 +1878,7 @@
                   <speaker>Val.</speaker>
                   <l>This is the gentleman I told your ladyship </l>
                   <l>Had come along with me, but that his mistress </l>
-                  <l>Did hold his eyes lock'd in her crystal looks. </l>
+                  <l n="90">Did hold his eyes lock'd in her crystal looks. </l>
                </sp>
                <sp who="tgv-8">
                   <speaker>Sil.</speaker>
@@ -1909,7 +1909,7 @@
                </sp>
                <sp who="tgv-8">
                   <speaker>Sil.</speaker>
-                  <l part="I">Have done, have done; here comes the gentleman. <stage type="exit">[Exit THURIO.</stage>
+                  <l n="100" part="I">Have done, have done; here comes the gentleman. <stage type="exit">[Exit THURIO.</stage>
                      <stage type="entrance">Enter PROTEUS</stage>
                      </l>
                </sp>
@@ -1939,7 +1939,7 @@
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
-                  <l>Leave off discourse of disability: </l>
+                  <l n="110">Leave off discourse of disability: </l>
                   <l>Sweet lady, entertain him for your servant. </l>
                </sp>
                <sp who="tgv-2">
@@ -1972,7 +1972,7 @@
                <sp who="tgv-8">
                   <speaker>Sil.</speaker>
                   <l>I wait upon his pleasure. Come, Sir Thurio, </l>
-                  <l>Go with me. Once more, new servant, welcome: </l>
+                  <l n="119">Go with me. Once more, new servant, welcome: </l>
                   <l>I'll leave you to confer of home affairs; </l>
                   <l>When you have done, we look to hear from you. </l>
                </sp>
@@ -2020,7 +2020,7 @@
                   <l>O gentle Proteus, Love's a mighty lord </l>
                   <l>And hath so humbled me as I confess </l>
                   <l>This is no woe to his correction </l>
-                  <l>Nor to his service no such joy on earth. </l>
+                  <l n="140">Nor to his service no such joy on earth. </l>
                   <l>Now no discourse, except it be of love; </l>
                   <l>Now can I break my fast, dine, sup and sleep, </l>
                   <l>Upon the very naked name of love. </l>
@@ -2052,7 +2052,7 @@
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
-                  <l>When I was sick, you gave me bitter pills, </l>
+                  <l n="150">When I was sick, you gave me bitter pills, </l>
                   <l>And I must minister the like to you. </l>
                </sp>
                <sp who="tgv-4">
@@ -2079,7 +2079,7 @@
                   <l>And I will help thee to prefer her too: </l>
                   <l>She shall be dignified with this high honor-- </l>
                   <l>To bear my lady's train, lest the base earth </l>
-                  <l>Should from her vesture chance to steal a kiss </l>
+                  <l n="161">Should from her vesture chance to steal a kiss </l>
                   <l>And, of so great a favor growing proud, </l>
                   <l>Disdain to root the summer-swelling flower </l>
                   <l>And make rough winter everlastingly. </l>
@@ -2101,7 +2101,7 @@
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
                   <l>Not for the world: why, man, she is mine own, </l>
-                  <l>And I as rich in having such a jewel </l>
+                  <l n="170">And I as rich in having such a jewel </l>
                   <l>As twenty seas, if all their sand were pearl, </l>
                   <l>The water nectar and the rocks pure gold. </l>
                   <l>Forgive me that I do not dream on thee, </l>
@@ -2117,7 +2117,7 @@
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
-                  <l>Ay, and we are betroth'd: nay, more, our marriage-hour, </l>
+                  <l n="180">Ay, and we are betroth'd: nay, more, our marriage-hour, </l>
                   <l>With all the cunning manner of our flight, </l>
                   <l>Determined of; how I must climb her window, </l>
                   <l>The ladder made of cords, and all the means </l>
@@ -2130,7 +2130,7 @@
                   <l>Go on before; I shall inquire you forth: </l>
                   <l>I must unto the road, to disembark </l>
                   <l>Some necessaries that I needs must use, </l>
-                  <l>And then I'll presently attend you. </l>
+                  <l n="190">And then I'll presently attend you. </l>
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
@@ -2148,7 +2148,7 @@
                   <l>Her true perfection, or my false transgression, </l>
                   <l>That makes me reasonless to reason thus? </l>
                   <l>She is fair; and so is Julia that I love-- </l>
-                  <l>That I did love, for now my love is thaw'd; </l>
+                  <l n="201">That I did love, for now my love is thaw'd; </l>
                   <l>Which, like a waxen image 'gainst a fire, </l>
                   <l>Bears no impression of the thing it was. </l>
                   <l>Methinks my zeal to Valentine is cold, </l>
@@ -2335,7 +2335,7 @@
                   <l>Love bade me swear and Love bids me forswear. </l>
                   <l>O sweet-suggesting Love, if thou hast sinn'd, </l>
                   <l>Teach me, thy tempted subject, to excuse it! </l>
-                  <l>At first I did adore a twinkling star, </l>
+                  <l n="10">At first I did adore a twinkling star, </l>
                   <l>But now I worship a celestial sun. </l>
                   <l>Unheedful vows may heedfully be broken, </l>
                   <l>And he wants wit that wants resolved will </l>
@@ -2345,7 +2345,7 @@
                   <l>With twenty thousand soul-confirming oaths. </l>
                   <l>I cannot leave to love, and yet I do; </l>
                   <l>But there I leave to love where I should love. </l>
-                  <l>Julia I lose and Valentine I lose: </l>
+                  <l n="20">Julia I lose and Valentine I lose: </l>
                   <l>If I keep them, I needs must lose myself; </l>
                   <l>If I lose them, thus find I by their loss </l>
                   <l>For Valentine myself, for Julia Silvia. </l>
@@ -2355,7 +2355,7 @@
                   <l>Shows Julia but a swarthy Ethiope. </l>
                   <l>I will forget that Julia is alive, </l>
                   <l>Remembering that my love to her is dead; </l>
-                  <l>And Valentine I'll hold an enemy, </l>
+                  <l n="30">And Valentine I'll hold an enemy, </l>
                   <l>Aiming at Silvia as a sweeter friend. </l>
                   <l>I cannot now prove constant to myself, </l>
                   <l>Without some treachery used to Valentine. </l>
@@ -2365,7 +2365,7 @@
                   <l>Now presently I'll give her father notice </l>
                   <l>Of their disguising and pretended flight; </l>
                   <l>Who, all enraged, will banish Valentine; </l>
-                  <l>For Thurio, he intends, shall wed his daughter; </l>
+                  <l n="40">For Thurio, he intends, shall wed his daughter; </l>
                   <l>But, Valentine being gone, I'll quickly cross </l>
                   <l>By some sly trick blunt Thurio's dull proceeding. </l>
                   <l>Love, lend me wings to make my purpose swift, </l>
@@ -2398,7 +2398,7 @@
                </sp>
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
-                  <l>A true-devoted pilgrim is not weary </l>
+                  <l n="10">A true-devoted pilgrim is not weary </l>
                   <l>To measure kingdoms with his feeble steps; </l>
                   <l>Much less shall she that hath Love's wings to fly, </l>
                   <l>And when the flight is made to one so dear, </l>
@@ -2430,7 +2430,7 @@
                   <l>Thou know'st, being stopp'd, impatiently doth rage; </l>
                   <l>But when his fair course is not hindered, </l>
                   <l>He makes sweet music with the enamell'd stones, </l>
-                  <l>Giving a gentle kiss to every sedge </l>
+                  <l n="30">Giving a gentle kiss to every sedge </l>
                   <l>He overtaketh in his pilgrimage, </l>
                   <l>And so by many winding nooks he strays </l>
                   <l>With willing sport to the wild ocean. </l>
@@ -2447,7 +2447,7 @@
                </sp>
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
-                  <l>Not like a woman; for I would prevent </l>
+                  <l n="41">Not like a woman; for I would prevent </l>
                   <l>The loose encounters of lascivious men: </l>
                   <l>Gentle Lucetta, fit me with such weeds </l>
                   <l>As may beseem some well-reputed page. </l>
@@ -2465,7 +2465,7 @@
                </sp>
                <sp who="tgv-6">
                   <speaker>Luc.</speaker>
-                  <l>What fashion, madam, shall I make your breeches? </l>
+                  <l n="50">What fashion, madam, shall I make your breeches? </l>
                </sp>
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
@@ -2490,7 +2490,7 @@
                   <speaker>Jul.</speaker>
                   <l>Lucetta, as thou lovest me, let me have </l>
                   <l>What thou thinkest meet and is most mannerly. </l>
-                  <l>But tell me, wench, how will the world repute me </l>
+                  <l n="60">But tell me, wench, how will the world repute me </l>
                   <l>For undertaking so unstaid a journey? </l>
                   <l>I fear me, it will make me scandalized. </l>
                </sp>
@@ -2512,7 +2512,7 @@
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
                   <l>That is the least, Lucetta, of my fear: </l>
-                  <l>A thousand oaths, an ocean of his tears </l>
+                  <l n="70">A thousand oaths, an ocean of his tears </l>
                   <l>And instances of infinite of love </l>
                   <l>Warrant me welcome to my Proteus. </l>
                </sp>
@@ -2531,7 +2531,7 @@
                </sp>
                <sp who="tgv-6">
                   <speaker>Luc.</speaker>
-                  <l>Pray heaven he prove so, when you come to him! </l>
+                  <l n="80">Pray heaven he prove so, when you come to him! </l>
                </sp>
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
@@ -2544,7 +2544,7 @@
                   <l>All that is mine I leave at thy dispose, </l>
                   <l>My goods, my lands, my reputation; </l>
                   <l>Only, in lieu thereof, dispatch me hence. </l>
-                  <l>Come, answer not, but to it presently! </l>
+                  <l n="90">Come, answer not, but to it presently! </l>
                   <l>I am impatient of my tarriance. <stage type="exit">[Exeunt. </stage>
                   </l>
                </sp>
@@ -2576,7 +2576,7 @@
                   <l>The law of friendship bids me to conceal; </l>
                   <l>But when I call to mind your gracious favours </l>
                   <l>Done to me, undeserving as I am, </l>
-                  <l>My duty pricks me on to utter that </l>
+                  <l n="9">My duty pricks me on to utter that </l>
                   <l>Which else no worldly good should draw from me. </l>
                   <l>Know, worthy prince, Sir Valentine, my friend, </l>
                   <l>This night intends to steal away your daughter: </l>
@@ -2587,7 +2587,7 @@
                   <l>It would be much vexation to your age. </l>
                   <l>Thus, for my duty's sake, I rather chose </l>
                   <l>To cross my friend in his intended drift </l>
-                  <l>Than, by concealing it, heap on your head </l>
+                  <l n="20">Than, by concealing it, heap on your head </l>
                   <l>A pack of sorrows which would press you down, </l>
                   <l>Being unprevented, to your timeless grave. </l>
                </sp>
@@ -2600,7 +2600,7 @@
                   <l>And oftentimes have purposed to forbid </l>
                   <l>Sir Valentine her company and my court: </l>
                   <l>But fearing lest my jealous aim might err </l>
-                  <l>And so unworthily disgrace the man, </l>
+                  <l n="30">And so unworthily disgrace the man, </l>
                   <l>A rashness that I ever yet have shunn'd, </l>
                   <l>I gave him gentle looks, thereby to find </l>
                   <l>That which thyself hast now disclosed to me. </l>
@@ -2613,7 +2613,7 @@
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
                   <l>Know, noble lord, they have devised a mean </l>
-                  <l>How he her chamber-window will ascend </l>
+                  <l n="40">How he her chamber-window will ascend </l>
                   <l>And with a corded ladder fetch her down; </l>
                   <l>For which the youthful lover now is gone </l>
                   <l>And this way comes he with it presently; </l>
@@ -2656,7 +2656,7 @@
                <sp who="tgv-10">
                   <speaker>Duke.</speaker>
                   <l>Nay then, no matter; stay with me awhile; </l>
-                  <l>I am to break with thee of some affairs </l>
+                  <l n="60">I am to break with thee of some affairs </l>
                   <l>That touch me near, wherein thou must be secret. </l>
                   <l>'Tis not unknown to thee that I have sought </l>
                   <l>To match my friend Sir Thurio to my daughter. </l>
@@ -2672,7 +2672,7 @@
                <sp who="tgv-10">
                   <speaker>Duke.</speaker>
                   <l>No, trust me; she is peevish, sullen, froward, </l>
-                  <l>Proud, disobedient, stubborn, lacking duty, </l>
+                  <l n="70">Proud, disobedient, stubborn, lacking duty, </l>
                   <l>Neither regarding that she is my child </l>
                   <l>Nor fearing me as if I were her father; </l>
                   <l>And, may I say to thee, this pride of hers, </l>
@@ -2682,7 +2682,7 @@
                   <l>I now am full resolved to take a wife </l>
                   <l>And turn her out to who will take her in: </l>
                   <l>Then let her beauty be her wedding-dower; </l>
-                  <l>For me and my possessions she esteems not. </l>
+                  <l n="80">For me and my possessions she esteems not. </l>
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
@@ -2701,7 +2701,7 @@
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
-                  <l>Win her with gifts, if she respect not words: </l>
+                  <l n="90">Win her with gifts, if she respect not words: </l>
                   <l>Dumb jewels often in their silent kind </l>
                   <l>More than quick words do move a woman's mind. </l>
                </sp>
@@ -2717,7 +2717,7 @@
                   <l>If she do frown, 'tis not in hate of you, </l>
                   <l>But rather to beget more love in you: </l>
                   <l>If she do chide, 'tis not to have you gone; </l>
-                  <l>For why, the fools are mad, if left alone. </l>
+                  <l n="100">For why, the fools are mad, if left alone. </l>
                   <l>Take no repulse, whatever she doth say; </l>
                   <l>For 'get you gone,' she doth not mean 'away!' </l>
                   <l>Flatter and praise, commend, extol their graces; </l>
@@ -2730,7 +2730,7 @@
                   <l>But she I mean is promised by her friends </l>
                   <l>Unto a youthful gentleman of worth, </l>
                   <l>And kept severely from resort of men, </l>
-                  <l>That no man hath access by day to her. </l>
+                  <l n="110">That no man hath access by day to her. </l>
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
@@ -2755,7 +2755,7 @@
                   <speaker>Val.</speaker>
                   <l>Why then, a ladder quaintly made of cords, </l>
                   <l>To cast up, with a pair of anchoring hooks, </l>
-                  <l>Would serve to scale another Hero's tower, </l>
+                  <l n="120">Would serve to scale another Hero's tower, </l>
                   <l>So bold Leander would adventure it. </l>
                </sp>
                <sp who="tgv-10">
@@ -2783,7 +2783,7 @@
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
-                  <l>It will be light, my lord, that you may bear it </l>
+                  <l n="130">It will be light, my lord, that you may bear it </l>
                   <l>Under a cloak that is of any length. </l>
                </sp>
                <sp who="tgv-10">
@@ -2808,7 +2808,7 @@
                   <l>How shall I fashion me to wear a cloak? </l>
                   <l>I pray thee, let me feel thy cloak upon me. </l>
                   <l>What letter is this same? What's here? 'To Silvia'! </l>
-                  <l>And here an engine fit for my proceeding. </l>
+                  <l n="140">And here an engine fit for my proceeding. </l>
                   <l>I'll be so bold to break the seal for once. <stage> [Reads.</stage>
                      </l>
                   <l>'My thoughts do harbor with my Silvia nightly. </l>
@@ -2820,7 +2820,7 @@
                   <l>Do curse the grace that with such grace hath bless'd them, </l>
                   <l>Because myself do want my servants' fortune: </l>
                   <l>I curse myself, for they are sent by me, </l>
-                  <l>That they should harbour where their lord would be.' </l>
+                  <l n="150">That they should harbour where their lord would be.' </l>
                   <l>What's here? </l>
                   <l>'Silvia, this night I will enfranchise thee.' </l>
                   <l>'Tis so; and here's the ladder for the purpose. </l>
@@ -2830,7 +2830,7 @@
                   <l>Wilt thou reach stars, because they shine on thee? </l>
                   <l>Go, base intruder! overweening slave! </l>
                   <l>Bestow thy fawning smiles on equal mates, </l>
-                  <l>And think my patience, more than thy desert, </l>
+                  <l n="166">And think my patience, more than thy desert, </l>
                   <l>Is privilege for thy departure hence: </l>
                   <l>Thank me for this more than for all the favours </l>
                   <l>Which all too much I have bestow'd on thee. </l>
@@ -2854,7 +2854,7 @@
                   <l>Unless it be to think that she is by </l>
                   <l>And feed upon the shadow of perfection. </l>
                   <l>Except I be by Silvia in the night, </l>
-                  <l>There is no music in the nightingale; </l>
+                  <l n="180">There is no music in the nightingale; </l>
                   <l>Unless I look on Silvia in the day, </l>
                   <l>There is no day for me to look upon; </l>
                   <l>She is my essence, and I leave to be, </l>
@@ -2909,7 +2909,7 @@
                </sp>
                <sp who="tgv-9">
                   <speaker>Launce.</speaker>
-                  <l>Can nothing speak? Master, shall I strike? </l>
+                  <l n="200">Can nothing speak? Master, shall I strike? </l>
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
@@ -2988,7 +2988,7 @@
                   <l>Wringing her hands, whose whiteness so became them </l>
                   <l>As if but now they waxed pale for woe: </l>
                   <l>But neither bended knees, pure hands held up, </l>
-                  <l>Sad sighs, deep groans, nor silver-shedding tears, </l>
+                  <l n="231">Sad sighs, deep groans, nor silver-shedding tears, </l>
                   <l>Could penetrate her uncompassionate sire; </l>
                   <l>But Valentine, if he be ta'en, must die, </l>
                   <l>Besides, her intercession chafed him so, </l>
@@ -3000,7 +3000,7 @@
                   <speaker>Val.</speaker>
                   <l>No more; unless the next word that thou speak'st </l>
                   <l>Have some malignant power upon my life: </l>
-                  <l>If so, I pray thee, breathe it in mine ear, </l>
+                  <l n="240">If so, I pray thee, breathe it in mine ear, </l>
                   <l>As ending anthem of my endless dolour. </l>
                </sp>
                <sp who="tgv-2">
@@ -3025,7 +3025,7 @@
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
                   <l>I pray thee, Launce, an if thou seest my boy </l>
-                  <l>Bid him make haste and meet me at the Northgate. </l>
+                  <l n="259">Bid him make haste and meet me at the Northgate. </l>
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
@@ -3352,7 +3352,7 @@
                   <l>This weak impress of love is as a figure </l>
                   <l>Trenched in ice, which with an hour's heat </l>
                   <l>Dissolves to water and doth lose his form. </l>
-                  <l>A little time will melt her frozen thoughts </l>
+                  <l n="10">A little time will melt her frozen thoughts </l>
                   <l>And worthless Valentine shall be forgot. <stage type="entrance">Enter
                         PROTEUS.</stage>
                      </l>
@@ -3380,7 +3380,7 @@
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
-                  <l>Longer than I prove loyal to your grace </l>
+                  <l n="21">Longer than I prove loyal to your grace </l>
                   <l>Let me not live to look upon your grace. </l>
                </sp>
                <sp who="tgv-10">
@@ -3404,7 +3404,7 @@
                <sp who="tgv-10">
                   <speaker>Duke.</speaker>
                   <l>Ay, and perversely she persevers so. </l>
-                  <l>What might we do to make the girl forget </l>
+                  <l n="30">What might we do to make the girl forget </l>
                   <l>The love of Valentine and love Sir Thurio? </l>
                </sp>
                <sp who="tgv-2">
@@ -3429,7 +3429,7 @@
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
-                  <l>And that, my lord, I shall be loath to do: </l>
+                  <l n="40">And that, my lord, I shall be loath to do: </l>
                   <l>'Tis an ill office for a gentleman, </l>
                   <l>Especially against his very friend. </l>
                </sp>
@@ -3445,7 +3445,7 @@
                   <l>You have prevail'd, my lord: if I can do it </l>
                   <l>By aught that I can speak in his dispraise, </l>
                   <l>She shall not long continue love to him. </l>
-                  <l>But say this weed her love from Valentine, </l>
+                  <l n="50">But say this weed her love from Valentine, </l>
                   <l>It follows not that she will love Sir Thurio. </l>
                </sp>
                <sp who="tgv-11">
@@ -3461,7 +3461,7 @@
                   <l>And, Proteus, we dare trust you in this kind, </l>
                   <l>Because we know, on Valentine's report, </l>
                   <l>You are already Love's firm votary </l>
-                  <l>And cannot soon revolt and change your mind. </l>
+                  <l n="60">And cannot soon revolt and change your mind. </l>
                   <l>Upon this warrant shall you have access </l>
                   <l>Where you with Silvia may confer at large; </l>
                   <l>For she is lumpish, heavy, melancholy, </l>
@@ -3475,7 +3475,7 @@
                   <l>But, you, Sir Thurio, are not sharp enough; </l>
                   <l>You must lay lime to tangle her desires </l>
                   <l>By wailful sonnets, whose composed rhymes </l>
-                  <l>Should be full-fraught with serviceable vows, </l>
+                  <l n="71">Should be full-fraught with serviceable vows, </l>
                </sp>
                <sp who="tgv-10">
                   <speaker>Duke.</speaker>
@@ -3490,7 +3490,7 @@
                   <l>Moist it again, and frame some feeling line </l>
                   <l>That may discover such integrity: </l>
                   <l>For Orpheus' lute was strung with poets' sinews, </l>
-                  <l>Whose golden touch could soften steel and stones, </l>
+                  <l n="80">Whose golden touch could soften steel and stones, </l>
                   <l>Make tigers tame and huge leviathans </l>
                   <l>Forsake unsounded deeps to dance on sands. </l>
                   <l>After your dire-lamenting elegies, </l>
@@ -3507,7 +3507,7 @@
                <sp who="tgv-11">
                   <speaker>Thu.</speaker>
                   <l>And thy advice this night I'll put in practice. </l>
-                  <l>Therefore, sweet Proteus, my direction-giver, </l>
+                  <l n="91">Therefore, sweet Proteus, my direction-giver, </l>
                   <l>Let us into the city presently </l>
                   <l>To sort some gentlemen well skill'd in music. </l>
                   <l>I have a sonnet that will serve the turn </l>
@@ -3571,7 +3571,7 @@
                </sp>
                <sp who="tgv-13">
                   <speaker>Sec. Out.</speaker>
-                  <l>Peace! we'll hear him. </l>
+                  <l n="10">Peace! we'll hear him. </l>
                </sp>
                <sp who="tgv-13">
                   <speaker>Third Out.</speaker>
@@ -3627,7 +3627,7 @@
                   <l>For that which now torments me to rehearse: </l>
                   <l>I kill'd a man, whose death I much repent; </l>
                   <l>But yet I slew him manfully in fight, </l>
-                  <l>Without false vantage or base treachery. </l>
+                  <l n="30">Without false vantage or base treachery. </l>
                </sp>
                <sp who="tgv-13">
                   <speaker>First Out.</speaker>
@@ -3679,7 +3679,7 @@
                   <l>Thrust from the company of awful men: </l>
                   <l>Myself was from Verona banished </l>
                   <l>For practising to steal away a lady, </l>
-                  <l>An heir, and near allied unto the duke. </l>
+                  <l n="50">An heir, and near allied unto the duke. </l>
                </sp>
                <sp who="tgv-13">
                   <speaker>Sec. Out.</speaker>
@@ -3721,7 +3721,7 @@
                </sp>
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
-                  <l>I take your offer and will live with you, </l>
+                  <l n="71">I take your offer and will live with you, </l>
                   <l>Provided that you do no outrages </l>
                   <l>On silly women or poor passengers. </l>
                </sp>
@@ -3754,7 +3754,7 @@
                   <l>When I protest true loyalty to her, </l>
                   <l>She twits me with my falsehood to my friend; </l>
                   <l>When to her beauty I commend my vows, </l>
-                  <l>She bids me think how I have been forsworn </l>
+                  <l n="11">She bids me think how I have been forsworn </l>
                   <l>In breaking faith with Julia whom I loved: </l>
                   <l>And notwithstanding all her sudden quips, </l>
                   <l>The least whereof would quell a lover's hope, </l>
@@ -3771,7 +3771,7 @@
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
-                  <l>Ay, gentle Thurio: for you know that love </l>
+                  <l n="20">Ay, gentle Thurio: for you know that love </l>
                   <l>Will creep in service where it cannot go. </l>
                </sp>
                <sp who="tgv-11">
@@ -3844,7 +3844,7 @@
                   <l>Love doth to her eyes repair, </l>
                   <l> To help him of his blindness, </l>
                   <l>And, being help'd, inhabits there. </l>
-                  <l>Then to Silvia let us sing, </l>
+                  <l n="50">Then to Silvia let us sing, </l>
                   <l> That Silvia is excelling; </l>
                   <l>She excels each mortal thing </l>
                   <l> Upon the dull earth dwelling: </l>
@@ -3957,7 +3957,7 @@
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
                   <l>One, lady, if you knew his pure heart's truth, </l>
-                  <l>You would quickly learn to know him by his voice. </l>
+                  <l n="90">You would quickly learn to know him by his voice. </l>
                </sp>
                <sp who="tgv-8">
                   <speaker>Sil.</speaker>
@@ -3984,7 +3984,7 @@
                   <l>To be seduced by thy flattery, </l>
                   <l>That hast deceived so many with thy vows? </l>
                   <l>Return, return and make thy love amends. </l>
-                  <l>For me, by this pale queen of night I swear, </l>
+                  <l n="101">For me, by this pale queen of night I swear, </l>
                   <l>I am so far from granting thy request </l>
                   <l>That I despise thee for thy wrongful suit, </l>
                   <l>And by and by intend to chide myself </l>
@@ -4005,7 +4005,7 @@
                </sp>
                <sp who="tgv-8">
                   <speaker>Sil.</speaker>
-                  <l>Say that she be; yet Valentine thy friend </l>
+                  <l n="110">Say that she be; yet Valentine thy friend </l>
                   <l>Survives; to whom, thyself art witness, </l>
                   <l>I am bethroth'd: and art thou not ashamed </l>
                   <l>To wrong him with thy importunacy? </l>
@@ -4087,7 +4087,7 @@
                </sp>
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
-                  <l>Not so; but it hath been the longest night </l>
+                  <l n="141">Not so; but it hath been the longest night </l>
                   <l>That e'er I watch'd and the most heaviest. <stage type="exit">[Exeunt.</stage>
                   </l>
                </sp>
@@ -4126,7 +4126,7 @@
                   <speaker>Egl.</speaker>
                   <l>As many, worthy lady, to yourself: </l>
                   <l>According to your ladyship's impose, </l>
-                  <l>I am thus early come to know what service </l>
+                  <l n="10">I am thus early come to know what service </l>
                   <l>It is your pleasure to command me in. </l>
                </sp>
                <sp who="tgv-8">
@@ -4139,7 +4139,7 @@
                   <l>Nor how my father would enforce me marry </l>
                   <l>Vain Thurio, whom my very soul abhors. </l>
                   <l>Thyself hast loved; and I have heard thee say </l>
-                  <l>No grief did ever come so near thy heart </l>
+                  <l n="20">No grief did ever come so near thy heart </l>
                   <l>As when thy lady and thy true love died, </l>
                   <l>Upon whose grave thou vow'dst pure chastity. </l>
                   <l>Sir Eglamour, I would to Valentine, </l>
@@ -4149,7 +4149,7 @@
                   <l>Upon whose faith and honour I repose. </l>
                   <l>Urge not my father's anger, Eglamour, </l>
                   <l>But think upon my grief, a lady's grief, </l>
-                  <l>And on the justice of my flying hence, </l>
+                  <l n="30">And on the justice of my flying hence, </l>
                   <l>To keep me from a most unholy match, </l>
                   <l>Which heaven and fortune still rewards with plagues. </l>
                   <l>I do desire thee, even from a heart </l>
@@ -4162,7 +4162,7 @@
                   <speaker>Egl.</speaker>
                   <l>Madam, I pity much your grievances; </l>
                   <l>Which since I know they virtuously are placed, </l>
-                  <l>I give consent to go along with you, </l>
+                  <l n="40">I give consent to go along with you, </l>
                   <l>Recking as little what betideth me </l>
                   <l>As much I wish all good befortune you. </l>
                   <l part="I">When will you go? </l>
@@ -4285,7 +4285,7 @@
                   <l>A slave, that still an end turns me to shame! </l>
                   <l>Sebastian, I have entertained thee, </l>
                   <l>Partly that I have need of such a youth </l>
-                  <l>That can with some discretion do my business, </l>
+                  <l n="71">That can with some discretion do my business, </l>
                   <l>For 'tis no trusting to yond foolish lout, </l>
                   <l>But chiefly for thy face and thy behaviour, </l>
                   <l>Which, if my augury deceive me not, </l>
@@ -4344,7 +4344,7 @@
                   <l>Alas, poor Proteus! thou hast entertain'd </l>
                   <l>A fox to be the shepherd of thy lambs. </l>
                   <l>Alas, poor fool! why do I pity him </l>
-                  <l>That with his very heart despiseth me? </l>
+                  <l n="100">That with his very heart despiseth me? </l>
                   <l>Because he loves her, he despiseth me; </l>
                   <l>Because I love him, I must pity him. </l>
                   <l>This ring I gave him when he parted from me, </l>
@@ -4354,7 +4354,7 @@
                   <l>To carry that which I would have refused, </l>
                   <l>To praise his faith which I would have dispraised. </l>
                   <l>I am my master's true-confirmed love; </l>
-                  <l>But cannot be true servant to my master, </l>
+                  <l n="110">But cannot be true servant to my master, </l>
                   <l>Unless I prove false traitor to myself. </l>
                   <l>Yet will I woo for him, but yet so coldly </l>
                   <l>As, heaven it knows, I would not have him speed. <stage type="entrance">Enter
@@ -4378,7 +4378,7 @@
                </sp>
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
-                  <l>From my master, Sir Proteus, madam. </l>
+                  <l n="120">From my master, Sir Proteus, madam. </l>
                </sp>
                <sp who="tgv-8">
                   <speaker>Sil.</speaker>
@@ -4425,7 +4425,7 @@
                <sp who="tgv-8">
                   <speaker>Sil.</speaker>
                   <l>The more shame for him that he sends it me; </l>
-                  <l>For I have heard him say a thousand times </l>
+                  <l n="140">For I have heard him say a thousand times </l>
                   <l>His Julia gave it him at his departure. </l>
                   <l>Though his false finger have profaned the ring, </l>
                   <l>Mine shall not do his Julia so much wrong. </l>
@@ -4450,7 +4450,7 @@
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
                   <l>Almost as well as I do know myself: </l>
-                  <l>To think upon her woes I do protest </l>
+                  <l n="150">To think upon her woes I do protest </l>
                   <l>That I have wept a hundred several times. </l>
                </sp>
                <sp who="tgv-8">
@@ -4473,7 +4473,7 @@
                   <l>She, in my judgement, was as fair as you; </l>
                   <l>But since she did neglect her looking-glass </l>
                   <l>And threw her sun-expelling mask away, </l>
-                  <l>The air hath starved the roses in her cheeks </l>
+                  <l n="160">The air hath starved the roses in her cheeks </l>
                   <l>And pinch'd the lily-tincture of her face, </l>
                   <l>That now she is become as black as I. </l>
                </sp>
@@ -4489,7 +4489,7 @@
                   <l>And I was trimm'd in Madam Julia's gown, </l>
                   <l>Which served me as fit, by all men's judgements, </l>
                   <l>As if the garment had been made for me: </l>
-                  <l>Therefore I know she is about my height. </l>
+                  <l n="170">Therefore I know she is about my height. </l>
                   <l>And at that time I made her weep agood, </l>
                   <l>For I did play a lamentable part: </l>
                   <l>Madam, 'twas Ariadne passioning </l>
@@ -4502,7 +4502,7 @@
                <sp who="tgv-8">
                   <speaker>Sil.</speaker>
                   <l>She is beholding to thee, gentle youth. </l>
-                  <l>Alas, poor lady, desolate and left! </l>
+                  <l n="180">Alas, poor lady, desolate and left! </l>
                   <l>I weep myself to think upon thy words. </l>
                   <l>Here, youth, there is my purse; I give thee this </l>
                   <l>For thy sweet mistress' sake, because thou lovest her. </l>
@@ -4516,7 +4516,7 @@
                   <l>I hope my master's suit will be but cold, </l>
                   <l>Since she respects my mistress' love so much, </l>
                   <l>Alas, how love can trifle with itself! </l>
-                  <l>Here is her picture; let me see; I think, </l>
+                  <l n="190">Here is her picture; let me see; I think, </l>
                   <l>If I had such a tire, this face of mine </l>
                   <l>Were full as lovely as is this of hers: </l>
                   <l>And yet the painter flatter'd her a little, </l>
@@ -4526,7 +4526,7 @@
                   <l>I'll get me such a colour'd periwig. </l>
                   <l>Her eyes are grey as glass, and so are mine: </l>
                   <l>Ay, but her forehead 's low, and mine's as high, </l>
-                  <l>What should it be that he respects in her </l>
+                  <l n="200">What should it be that he respects in her </l>
                   <l>But I can make respective in myself, </l>
                   <l>If this fond love were not a blinded god? </l>
                   <l>Come, shadow, come, and take this shadow up, </l>
@@ -4568,7 +4568,7 @@
                <sp who="tgv-8">
                   <speaker>Sil.</speaker>
                   <l>Amen, amen! Go on, good Eglamour, </l>
-                  <l>Out at the postern by the abbey-wall: </l>
+                  <l n="10">Out at the postern by the abbey-wall: </l>
                   <l>I fear I am attended by some spies. </l>
                </sp>
                <sp who="tgv-15">
@@ -4621,7 +4621,7 @@
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
-                  <l>She says it is a fair one. </l>
+                  <l n="10">She says it is a fair one. </l>
                </sp>
                <sp who="tgv-11">
                   <speaker>Thu.</speaker>
@@ -4661,7 +4661,7 @@
                </sp>
                <sp who="tgv-11">
                   <speaker>Thu.</speaker>
-                  <l>What says she to my valor? </l>
+                  <l n="20">What says she to my valor? </l>
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
@@ -4710,7 +4710,7 @@
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
-                  <l>That they are out by lease. </l>
+                  <l n="30">That they are out by lease. </l>
                </sp>
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
@@ -4745,7 +4745,7 @@
                   <l>And Eglamour is in her company. </l>
                   <l>'Tis true; for Friar Laurence met them both, </l>
                   <l>As he in penance wander'd through the forest; </l>
-                  <l>Him he knew well, and guess'd that it was she, </l>
+                  <l n="40">Him he knew well, and guess'd that it was she, </l>
                   <l>But, being mask'd, he was not sure of it; </l>
                   <l>Besides, she did intend confession </l>
                   <l>At Patrick's cell this even; and there she was not; </l>
@@ -4759,7 +4759,7 @@
                </sp>
                <sp who="tgv-11">
                   <speaker>Thu.</speaker>
-                  <l>Why, this it is to be a peevish girl, </l>
+                  <l n="50">Why, this it is to be a peevish girl, </l>
                   <l>That flies her fortune when it follows her. </l>
                   <l>I'll after, more to be revenged on Eglamour </l>
                   <l>Than for the love of reckless Silvia. <stage type="exit">[Exit.</stage>
@@ -4809,7 +4809,7 @@
                   <speaker>Third Out.</speaker>
                   <l>Being nimble-footed, he hath outrun us, </l>
                   <l>But Moyses and Valerius follow him. </l>
-                  <l>Go thou with her to the west end of the wood; </l>
+                  <l n="10">Go thou with her to the west end of the wood; </l>
                   <l>There is our captain: we'll follow him that's fled; </l>
                   <l>The thicket is beset; he cannot 'scape. </l>
                </sp>
@@ -4845,7 +4845,7 @@
                   <l>Tune my distresses and record my woes. </l>
                   <l>O thou that dost inhabit in my breast, </l>
                   <l>Leave not the mansion so long tenantless, </l>
-                  <l>Lest, growing ruinous, the building fall </l>
+                  <l n="10">Lest, growing ruinous, the building fall </l>
                   <l>And leave no memory of what it was! </l>
                   <l>Repair me with thy presence, Silvia; </l>
                   <l>Thou gentle nymph, cherish thy forlorn swain </l>
@@ -4860,7 +4860,7 @@
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
-                  <l>Madam, this service I have done for you, </l>
+                  <l n="20">Madam, this service I have done for you, </l>
                   <l>Though you respect not aught your servant doth, </l>
                   <l>To hazard life and rescue you from him </l>
                   <l>That would have forced your honor and your love; </l>
@@ -4882,7 +4882,7 @@
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
-                  <l>Unhappy were you, madam, ere I came; </l>
+                  <l n="30">Unhappy were you, madam, ere I came; </l>
                   <l>But by my coming I have made you happy. </l>
                </sp>
                <sp who="tgv-8">
@@ -4904,7 +4904,7 @@
                   <l>O, Heaven be judge how I love Valentine, </l>
                   <l>Whose life's as tender to me as my soul! </l>
                   <l>And full as much, for more there cannot be, </l>
-                  <l>I do detest false perjured Proteus. </l>
+                  <l n="40">I do detest false perjured Proteus. </l>
                   <l>Therefore be gone; solicit me no more. </l>
                </sp>
                <sp who="tgv-2">
@@ -4920,7 +4920,7 @@
                   <l>Read over Julia's heart, thy first best love, </l>
                   <l>For whose dear sake thou didst then rend thy faith </l>
                   <l>Into a thousand oaths; and all those oaths. </l>
-                  <l>Descended into perjury, to love me. </l>
+                  <l n="50">Descended into perjury, to love me. </l>
                   <l>Thou hast no faith left now, unless thou'dst two; </l>
                   <l>And that's far worse than none; better have none </l>
                   <l>Than plural faith which is too much by one: </l>
@@ -4953,7 +4953,7 @@
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
                   <l>Ruffian, let go that rude uncivil touch, </l>
-                  <l part="I">Thou friend of an ill fashion! </l>
+                  <l n="61" part="I">Thou friend of an ill fashion! </l>
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
@@ -5037,7 +5037,7 @@
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
                   <l>And Julia herself did give it me; </l>
-                  <l>And Julia herself hath brought it hither. </l>
+                  <l n="100">And Julia herself hath brought it hither. </l>
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
@@ -5053,7 +5053,7 @@
                   <l>Such an immodest raiment, if shame live </l>
                   <l>In a disguise of love: </l>
                   <l>It is the lesser blot, modesty finds, </l>
-                  <l>Women to change their shapes than men their minds. </l>
+                  <l n="110">Women to change their shapes than men their minds. </l>
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
@@ -5072,7 +5072,7 @@
                </sp>
                <sp who="tgv-2">
                   <speaker>Pro.</speaker>
-                  <l>Bear witness, Heaven, I have my wish for ever. </l>
+                  <l n="120">Bear witness, Heaven, I have my wish for ever. </l>
                </sp>
                <sp who="tgv-5">
                   <speaker>Jul.</speaker>
@@ -5102,7 +5102,7 @@
                   <l>Thurio, give back, or else embrace thy death; </l>
                   <l>Come not within the measure of my wrath; </l>
                   <l>Do not name Silvia thine; if once again, </l>
-                  <l>Verona shall not hold thee. Here she stands: </l>
+                  <l n="130">Verona shall not hold thee. Here she stands: </l>
                   <l>Take but possession of her with a touch: </l>
                   <l>I dare thee but to breathe upon my love. </l>
                </sp>
@@ -5118,7 +5118,7 @@
                   <l>The more degenerate and base art thou, </l>
                   <l>To make such means for her as thou hast done </l>
                   <l>And leave her on such slight conditions. </l>
-                  <l>Now, by the honour of my ancestry, </l>
+                  <l n="140">Now, by the honour of my ancestry, </l>
                   <l>I do applaud thy spirit, Valentine, </l>
                   <l>And think thee worthy of an empress' love: </l>
                   <l>Know then, I here forget all former griefs, </l>
@@ -5131,7 +5131,7 @@
                <sp who="tgv-4">
                   <speaker>Val.</speaker>
                   <l>I thank your grace; the gift hath made me happy. </l>
-                  <l>I now beseech you, for your daughter's sake, </l>
+                  <l n="150">I now beseech you, for your daughter's sake, </l>
                   <l>To grant one boon that I shall ask of you. </l>
                </sp>
                <sp who="tgv-10">
@@ -5150,7 +5150,7 @@
                <sp who="tgv-10">
                   <speaker>Duke.</speaker>
                   <l>Thou hast prevail'd; I pardon them and thee; </l>
-                  <l>Dispose of them as thou know'st their deserts. </l>
+                  <l n="160">Dispose of them as thou know'st their deserts. </l>
                   <l>Come, let us go: we will include all jars </l>
                   <l>With triumphs, mirth and rare solemnity. </l>
                </sp>

@@ -991,7 +991,7 @@
                         <speaker>Fal.</speaker>
                         <stage>[To Robin]</stage>
                         <l>Hold, sirrah, bear you these letters tightly; </l>
-                        <l>Sail like my pinnace to these golden shores. </l>
+                        <l n="90">Sail like my pinnace to these golden shores. </l>
                         <l>Rogues, hence, avaunt! vanish like hailstones go: </l>
                         <l>Trudge, plod away o' the hoof; seek shelter, pack! </l>
                         <l>Falstaff will learn the humor of the age, </l>
@@ -1535,7 +1535,7 @@
                         <speaker>Pist.</speaker>
                         <l>He wooes both high and low, both rich and poor. </l>
                         <l>Both young and old, one with another, Ford; </l>
-                        <l>He loves the gallimaufry: Ford, perpend. </l>
+                        <l n="120">He loves the gallimaufry: Ford, perpend. </l>
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
@@ -2528,7 +2528,7 @@
                             </p>
                         <l>To shallow rivers, to whose falls </l>
                         <l>Melodious birds sings madrigals; </l>
-                        <l>There will we make our peds of roses, </l>
+                        <l n="20">There will we make our peds of roses, </l>
                         <l>And a thousand fragrant posies. </l>
                         <l>To shallow-- </l>
                         <p>Mercy on me! I have a great dispositions to cry.
@@ -3188,7 +3188,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l>I love thee. Help me away. Let me creep in here. I'll never-- <stage>[Gets into
+                        <l n="150">I love thee. Help me away. Let me creep in here. I'll never-- <stage>[Gets into
                                 the basket; they cover him with foul linen.</stage>
                             </l>
                     </sp>
@@ -3432,7 +3432,7 @@
                         <l>I seek to heal it only by his wealth: </l>
                         <l>Besides these, other bars he lays before me, </l>
                         <l>My riots past, my wild societies; </l>
-                        <l>And tells me 'tis a thing impossible </l>
+                        <l n="10">And tells me 'tis a thing impossible </l>
                         <l>I should love thee but as a property. </l>
                     </sp>
                     <sp who="anne.">
@@ -3452,7 +3452,7 @@
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
                         <l part="F">Gentle Master Fenton, </l>
-                        <l>Yet seek my father's love; still seek it, sir: </l>
+                        <l n="20">Yet seek my father's love; still seek it, sir: </l>
                         <l>If opportunity and humblest suit </l>
                         <l>Cannot attain it, why, then,--hark you hither! <stage>[They
                                 converse apart.</stage>
@@ -3591,7 +3591,7 @@
                         <speaker>Page.</speaker>
                         <l part="F">No, good Master Fenton. </l>
                         <l>Come, Master Shallow; come, son Slender in. </l>
-                        <l>Knowing my mind, you wrong me, Master Fenton. <stage>[Exeunt
+                        <l n="81">Knowing my mind, you wrong me, Master Fenton. <stage>[Exeunt
                                 Page, Shal., and Slen. </stage>
                             </l>
                     </sp>
@@ -3617,7 +3617,7 @@
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
-                        <l>That's my master, master doctor. </l>
+                        <l n="90">That's my master, master doctor. </l>
                     </sp>
                     <sp who="anne.">
                         <speaker>Anne.</speaker>
@@ -4232,7 +4232,7 @@
                     </sp>
                     <sp who="fal.">
                         <speaker>Fal.</speaker>
-                        <l>No, I'll come no more i' the basket. </l>
+                        <l n="51">No, I'll come no more i' the basket. </l>
                         <l>May I not go out ere he come? </l>
                     </sp>
                     <sp who="mrs.-page.">
@@ -4421,7 +4421,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l>Empty the basket, I say! </l>
+                        <l n="150">Empty the basket, I say! </l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
@@ -4633,7 +4633,7 @@
                         <l>I rather will suspect the sun with cold </l>
                         <l>Than thee with wantonness: now doth thy honour stand, </l>
                         <l>In him that was of late an heretic, </l>
-                        <l>As firm as faith. </l>
+                        <l n="10">As firm as faith. </l>
                     </sp>
                     <sp who="page.">
                         <speaker>Page.</speaker>
@@ -4673,7 +4673,7 @@
                         <speaker>Mrs. Page.</speaker>
                         <l>There is an old tale goes that Herne the hunter,
                                 </l>
-                        <l>Sometime a keeper here in Windsor forest, </l>
+                        <l n="30">Sometime a keeper here in Windsor forest, </l>
                         <l>Doth all the winter-time, at still midnight, </l>
                         <l>Walk round about an oak, with great ragg'd horns; </l>
                         <l>And there he blasts the tree and takes the cattle </l>
@@ -4706,7 +4706,7 @@
                         <l>That likewise have we thought upon, and thus: </l>
                         <l>Nan Page my daughter and my little son </l>
                         <l>And three or four more of their growth we'll dress </l>
-                        <l>Like urchins, ouphes and fairies, green and white, </l>
+                        <l n="50">Like urchins, ouphes and fairies, green and white, </l>
                         <l>With rounds of waxen tapers on their heads, </l>
                         <l>And rattles in their hands: upon a sudden, </l>
                         <l>As Falstaff, she and I, are newly met, </l>
@@ -4717,7 +4717,7 @@
                         <l>And, fairy-like, to pinch the unclean knight, </l>
                         <l>And ask him why, that hour of fairy revel, </l>
                         <l>In their so sacred paths he dares to tread </l>
-                        <l>In shape profane. </l>
+                        <l n="60">In shape profane. </l>
                     </sp>
                     <sp who="mrs.-ford.">
                         <speaker>Mrs. Ford.</speaker>
@@ -4785,7 +4785,7 @@
                         <l>That Slender, though well landed, is an idiot; </l>
                         <l>And he my husband best of all affects. </l>
                         <l>The doctor is well money'd and his friends </l>
-                        <l>Potent at court: he, none but he, shall have her, </l>
+                        <l n="90">Potent at court: he, none but he, shall have her, </l>
                         <l>Though twenty thousand worthier come to crave her. <stage>[Exit. </stage>
                         </l>
                     </sp>
@@ -5065,7 +5065,7 @@
                     <sp who="fent.">
                         <speaker>Fent.</speaker>
                         <l>From time to time I have acquainted you </l>
-                        <l>With the dear love I bear to fair Anne Page; </l>
+                        <l n="10">With the dear love I bear to fair Anne Page; </l>
                         <l>Who mutually hath answer'd my affection, </l>
                         <l>So far forth as herself might be her chooser, </l>
                         <l>Even to my wish: I have a letter from her </l>
@@ -5085,7 +5085,7 @@
                         <l>Now, sir, </l>
                         <l>Her mother, ever strong against that match </l>
                         <l>And firm for Doctor Caius, hath appointed </l>
-                        <l>That he shall likewise shuffle her away, </l>
+                        <l n="30">That he shall likewise shuffle her away, </l>
                         <l>While other sports are tasking of their minds, </l>
                         <l>And at the deanery, where a priest attends, </l>
                         <l>Straight marry her: to this her mother's plot </l>
@@ -5095,7 +5095,7 @@
                         <l>And in that habit, when Slender sees his time </l>
                         <l>To take her by the hand and bid her go, </l>
                         <l>She shall go with him: her mother hath intended, </l>
-                        <l>The better to denote her to the doctor, </l>
+                        <l n="40">The better to denote her to the doctor, </l>
                         <l>For they must all be mask'd and vizarded, </l>
                         <l>That quaint in green she shall be loose enrobed, </l>
                         <l>With ribands pendent, flaring 'bout her head: </l>
@@ -5111,7 +5111,7 @@
                         <speaker>Fent.</speaker>
                         <l>Both, my good host, to go along with me: </l>
                         <l>And here it rests, that you'll procure the vicar </l>
-                        <l>To stay for me at church 'twixt twelve and one, </l>
+                        <l n="50">To stay for me at church 'twixt twelve and one, </l>
                         <l>And, in the lawful name of marrying, </l>
                         <l>To give our hearts united ceremony. </l>
                     </sp>
@@ -5384,7 +5384,7 @@
                         <l>Elves, list your names; silence, you airy toys. </l>
                         <l>Cricket, to Windsor chimneys shalt thou leap: </l>
                         <l>Where fires thou find'st unraked and hearts unswept, </l>
-                        <l>There pinch the maids as blue as bilberry: </l>
+                        <l n="50">There pinch the maids as blue as bilberry: </l>
                         <l>Our radiant queen hates sluts and sluttery. </l>
                     </sp>
                     <sp who="fal.">
@@ -5400,7 +5400,7 @@
                         <l>Raise up the organs of her fantasy; </l>
                         <l>Sleep she as sound as careless infancy: </l>
                         <l>But those as sleep and think not on their sins, </l>
-                        <l>Pinch them, arms, legs, backs, shoulders, sides and shins. </l>
+                        <l n="59">Pinch them, arms, legs, backs, shoulders, sides and shins. </l>
                     </sp>
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
@@ -5414,7 +5414,7 @@
                         <l>With juice of balm and every precious flower: </l>
                         <l>Each fair instalment, coat, and several crest, </l>
                         <l>With loyal blazon, evermore be blest! </l>
-                        <l>And nightly, meadow-fairies, look you sing, </l>
+                        <l n="70">And nightly, meadow-fairies, look you sing, </l>
                         <l>Like to the Garter's compass, in a ring: </l>
                         <l>The expressure that it bears, green let it be, </l>
                         <l>More fertile-fresh than all the field to see; </l>
@@ -5424,7 +5424,7 @@
                         <l>Buckled below fair knighthood's bending knee: </l>
                         <l>Fairies use flowers for their charactery. </l>
                         <l>Away; disperse: but till 'tis one o'clock, </l>
-                        <l>Our dance of custom round about the oak </l>
+                        <l n="80">Our dance of custom round about the oak </l>
                         <l>Of Herne the hunter, let us not forget. </l>
                     </sp>
                     <sp who="evans.">
@@ -5446,7 +5446,7 @@
                     <sp who="quick.">
                         <speaker>Quick.</speaker>
                         <l>With trial-fire touch me his fingerend: </l>
-                        <l>If he be chaste, the flame will back descend </l>
+                        <l n="90">If he be chaste, the flame will back descend </l>
                         <l>And turn him to no pain; but if he start, </l>
                         <l>It is the flesh of a corrupted heart. </l>
                     </sp>
@@ -5471,7 +5471,7 @@
                         <l>And, as you trip, still pinch him to your time. <floatingText xml:lang="eng"><body><head>SONG.</head>
                                     <lg type="song" org="uniform" sample="complete">
                                         <l>Fie on sinful fantasy!
-                                                </l><l>Fie on lust and luxury! </l><l>Lust is but a
+                                                </l><l>Fie on lust and luxury! </l><l n="100">Lust is but a
                                             bloody fire, </l><l>Kindled with
                                             unchaste desire. </l><l>Fed in heart, whose flames aspire </l><l>As thoughts do blow
                                             them, higher and higher. </l><l>Pinch him, fairies, mutually; </l><l>Pinch him for his villany; </l><l>Pinch him, and burn
@@ -5495,7 +5495,7 @@
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
-                        <l>I pray you, come, hold up the jest no higher. </l>
+                        <l n="110">I pray you, come, hold up the jest no higher. </l>
                         <l>Now, good Sir John, how like you Windsor wives? </l>
                         <l>See you these, husband? do not these fair yokes </l>
                         <l>Become the forest better than the town? </l>
@@ -5566,7 +5566,7 @@
                     </sp>
                     <sp who="ford.">
                         <speaker>Ford.</speaker>
-                        <l>What, a hodge-pudding? a bag of flax! </l>
+                        <l n="160">What, a hodge-pudding? a bag of flax! </l>
                     </sp>
                     <sp who="mrs.-page.">
                         <speaker>Mrs. Page.</speaker>
@@ -5710,7 +5710,7 @@
                         <l>The truth is, she and I, long since contracted, </l>
                         <l>Are now so sure that nothing can dissolve us. </l>
                         <l>The offence is holy that she hath committed; </l>
-                        <l>And this deceit loses the name of craft, </l>
+                        <l n="240">And this deceit loses the name of craft, </l>
                         <l>Of disobedience, or unduteous title, </l>
                         <l>Since therein she doth evitate and shun </l>
                         <l>A thousand irreligious cursed hours, </l>

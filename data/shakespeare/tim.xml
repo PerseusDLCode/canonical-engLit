@@ -352,7 +352,7 @@
           <sp who="pain.">
             <speaker>Pain.</speaker>
             <l>You are rapt, sir, in some work, some dedication </l>
-            <l>To the great lord. </l>
+            <l n="20">To the great lord. </l>
           </sp>
           <sp who="poet.">
             <speaker>Poet.</speaker>
@@ -382,7 +382,7 @@
           </sp>
           <sp who="pain.">
             <speaker>Pain.</speaker>
-            <l part="I">Indifferent. </l>
+            <l n="30" part="I">Indifferent. </l>
           </sp>
           <sp who="poet.">
             <speaker>Poet.</speaker>
@@ -410,7 +410,7 @@
           </sp>
           <sp who="poet.">
             <speaker>Poet.</speaker>
-            <l>The senators of Athens: happy man! </l>
+            <l n="41">The senators of Athens: happy man! </l>
           </sp>
           <sp who="pain.">
             <speaker>Pain.</speaker>
@@ -425,7 +425,7 @@
             <l>Halts not particularly, but moves itself </l>
             <l>In a wide sea of wax: no levell'd malice </l>
             <l>Infects one comma in the course I hold; </l>
-            <l>But flies an eagle flight, bold and forth on, </l>
+            <l n="50">But flies an eagle flight, bold and forth on, </l>
             <l>Leaving no tract behind. </l>
           </sp>
           <sp who="pain.">
@@ -459,7 +459,7 @@
             <l>That labour on the bosom of this sphere </l>
             <l>To propagate their states: amongst them all, </l>
             <l>Whose eyes are on this sovereign lady fix'd, </l>
-            <l>One do I personate of Lord Timon's frame, </l>
+            <l n="70">One do I personate of Lord Timon's frame, </l>
             <l>Whom fortune with her ivory hand wafts to her; </l>
             <l>Whose present grace to present slaves and servants </l>
             <l part="I">Translates his rivals. </l>
@@ -477,7 +477,7 @@
             <speaker>Poet.</speaker>
             <l part="F">Nay, sir, but hear me on. </l>
             <l>All those which were his fellows but of late, </l>
-            <l>Some better than his value, on the moment </l>
+            <l n="80">Some better than his value, on the moment </l>
             <l>Follow his strides, his lobbies fill with tendance, </l>
             <l>Rain sacrificial whispering in his ear, </l>
             <l>Make sacred even his stirrup, and through him </l>
@@ -497,7 +497,7 @@
           </sp>
           <sp who="pain.">
             <speaker>Pain.</speaker>
-            <l>'Tis common: </l>
+            <l n="90">'Tis common: </l>
             <l>A thousand moral paintings I can show </l>
             <l>That shall demonstrate these quick blows of Fortune's </l>
             <l>More pregnantly than words. Yet you do well </l>
@@ -547,7 +547,7 @@
           </sp>
           <sp who="old-ath.">
             <speaker>Old Ath.</speaker>
-            <l part="I">Lord Timon, hear me speak. </l>
+            <l n="110" part="I">Lord Timon, hear me speak. </l>
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
@@ -579,7 +579,7 @@
             <l>By night frequents my house. I am a man </l>
             <l>That from my first have been inclined to thrift; </l>
             <l>And my estate deserves an heir more raised </l>
-            <l part="I">Than one which holds a trencher. </l>
+            <l n="120" part="I">Than one which holds a trencher. </l>
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
@@ -602,7 +602,7 @@
           </sp>
           <sp who="old-ath.">
             <speaker>Old Ath.</speaker>
-            <l>Therefore he will be, Timon: </l>
+            <l n="130">Therefore he will be, Timon: </l>
             <l>His honesty rewards him in itself; </l>
             <l part="I">It must not bear my daughter. </l>
           </sp>
@@ -662,7 +662,7 @@
           </sp>
           <sp who="luc.">
             <speaker>Luc.</speaker>
-            <l>Humbly I thank your lordship: never may </l>
+            <l n="150">Humbly I thank your lordship: never may </l>
             <l>That state or fortune fall into my keeping, </l>
             <l>Which is not owed to you! <stage type="exit">Exeunt Lucilius and Old
                 Athenian.</stage>
@@ -749,7 +749,7 @@
           </sp>
           <sp who="apem.">
             <speaker>Apem.</speaker>
-            <l>Till I be gentle, stay thou for thy good morrow; </l>
+            <l n="180">Till I be gentle, stay thou for thy good morrow; </l>
             <l>When thou art Timon's dog, and these knaves honest. </l>
           </sp>
           <sp who="tim.">
@@ -959,7 +959,7 @@
           </sp>
           <sp who="mess.">
             <speaker>Mess.</speaker>
-            <l>'Tis Alcibiades, and some twenty horse, </l>
+            <l n="251">'Tis Alcibiades, and some twenty horse, </l>
             <l>All of companionship. </l>
           </sp>
           <sp who="tim.">
@@ -978,7 +978,7 @@
             <l part="F">So, so, there! </l>
             <l>Aches contract and starve your supple joints! </l>
             <l>That there should be small love 'mongst these sweet knaves, </l>
-            <l>And all this courtesy! The strain of man's bred out </l>
+            <l n="260">And all this courtesy! The strain of man's bred out </l>
             <l>Into baboon and monkey. </l>
           </sp>
           <sp who="alcib.">
@@ -1063,7 +1063,7 @@
             <speaker>Sec. Lord.</speaker>
             <l>He pours it out; Plutus, the god of gold, </l>
             <l>Is but his steward: no meed, but he repays </l>
-            <l>Sevenfold above itself; no gift to him, </l>
+            <l n="290">Sevenfold above itself; no gift to him, </l>
             <l>But breeds the giver a return exceeding </l>
             <l>All use of quittance. </l>
           </sp>
@@ -1107,7 +1107,7 @@
           <sp who="tim.">
             <speaker>Tim.</speaker>
             <l part="F">O, by no means, </l>
-            <l>Honest Ventidius; you mistake my love: </l>
+            <l n="10">Honest Ventidius; you mistake my love: </l>
             <l>I gave it freely ever; and there's none </l>
             <l>Can truly say he gives, if he receives: </l>
             <l>If our betters play at that game, we must not dare </l>
@@ -1126,7 +1126,7 @@
             <l>To set a gloss on faint deeds, hollow welcomes, </l>
             <l>Recanting goodness, sorry ere 'tis shown; </l>
             <l>But where there is true friendship, there needs none. </l>
-            <l>Pray, sit; more welcome are ye to my fortunes </l>
+            <l n="20">Pray, sit; more welcome are ye to my fortunes </l>
             <l>Than my fortunes to me. <stage>[They sit.</stage>
               </l>
           </sp>
@@ -1203,7 +1203,7 @@
             <l>Grant I may never prove so fond, </l>
             <l>To trust man on his oath or bond; </l>
             <l>Or a harlot, for her weeping; </l>
-            <l>Or a dog, that seems a-sleeping; </l>
+            <l n="70">Or a dog, that seems a-sleeping; </l>
             <l>Or my friends, if I should need 'em. </l>
             <l>Amen. So fall to't: </l>
             <l>Rich men sin, and I eat root. <stage>[Eats and drinks.</stage>
@@ -1307,7 +1307,7 @@
           <sp who="cup.">
             <speaker>Cup.</speaker>
             <l>Hail to thee, worthy Timon, and to all </l>
-            <l>That of his bounties taste! The five best senses </l>
+            <l n="130">That of his bounties taste! The five best senses </l>
             <l>Acknowledge thee their patron; and come freely </l>
             <l>To gratulate thy plenteous bosom: th' ear,
                 </l>
@@ -1331,7 +1331,7 @@
             <speaker>Apem.</speaker>
             <l>Hoy-day, what a sweep of vanity comes this way! </l>
             <l>They dance! they are mad women. </l>
-            <l>Like madness is the glory of this life, </l>
+            <l n="140">Like madness is the glory of this life, </l>
             <l>As this pomp shows to a little oil and root. </l>
             <l>We make ourselves fools, to disport ourselves; </l>
             <l>And spend our flatteries, to drink those men </l>
@@ -1341,7 +1341,7 @@
             <l>Who dies, that bears not one spurn to their graves </l>
             <l>Of their friends' gift? </l>
             <l>I should fear those that dance before me now </l>
-            <l>Would one day stamp upon me: 't has been done; </l>
+            <l n="150">Would one day stamp upon me: 't has been done; </l>
             <l>Men shut their doors against a setting sun. <stage>The Lords
                 rise from table, with much adoring  of TIMON; and to show their loves, each  singles out an Amazon, and all dance, men  with women, a lofty strain or two to the  hautboys, and cease.</stage>
               </l>
@@ -1393,7 +1393,7 @@
             <l>Else I should tell him,--well, i' faith, I should, </l>
             <l>When all's spent, he'ld be cross'd then, an he could. </l>
             <l>'Tis pity bounty had not eyes behind </l>
-            <l>That man might ne'er be wretched for his mind. <stage type="exit">[Exit.</stage>
+            <l n="171">That man might ne'er be wretched for his mind. <stage type="exit">[Exit.</stage>
               </l>
           </sp>
           <sp who="first-lord.">
@@ -1424,7 +1424,7 @@
           </sp>
           <sp who="all.">
             <speaker>All.</speaker>
-            <l>So are we all. <stage type="entrance">Enter a Servant.</stage>
+            <l n="180">So are we all. <stage type="entrance">Enter a Servant.</stage>
               </l>
           </sp>
           <sp who="serv.">
@@ -1460,7 +1460,7 @@
             <speaker>Sec. Serv.</speaker>
             <l>May it please your honour, Lord Lucius, </l>
             <l>Out of his free love, hath presented to you </l>
-            <l>Four milk-white horses, trapp'd in silver. </l>
+            <l n="190">Four milk-white horses, trapp'd in silver. </l>
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
@@ -1490,7 +1490,7 @@
             <l>What will this come to? </l>
             <l>He commands us to provide, and give great gifts, </l>
             <l>And all out of an empty coffer: </l>
-            <l>Nor will he know his purse, or yield me this, </l>
+            <l n="201">Nor will he know his purse, or yield me this, </l>
             <l>To show him what a beggar his heart is, </l>
             <l>Being of no power to make his wishes good: </l>
             <l>His promises fly so beyond his state </l>
@@ -1499,7 +1499,7 @@
             <l>Pays interest for't; his land's put to their books. </l>
             <l>Well, would I were gently put out of office </l>
             <l>Before I were forced out! </l>
-            <l>Happier is he that has no friend to feed </l>
+            <l n="210">Happier is he that has no friend to feed </l>
             <l>Than such that do e'en enemies exceed. </l>
             <l part="I">I bleed inwardly for my lord. <stage>Exit.</stage>
               </l>
@@ -1526,7 +1526,7 @@
           </sp>
           <sp who="sec.-lord.">
             <speaker>Sec. Lord.</speaker>
-            <l>O, I beseech you, pardon me my lord, in that. </l>
+            <l n="220">O, I beseech you, pardon me my lord, in that. </l>
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
@@ -1587,7 +1587,7 @@
             <l part="F">What a coil's here! </l>
             <l>Serving of becks and jutting-out of bums! </l>
             <l>I doubt whether their legs be worth the sums </l>
-            <l>That are given for 'em. Friendship's full of dregs: </l>
+            <l n="240">That are given for 'em. Friendship's full of dregs: </l>
             <l>Methinks, false hearts should never have sound legs. </l>
             <l>Thus honest fools lay out their wealth on court'sies. </l>
           </sp>
@@ -1638,7 +1638,7 @@
             <l>And give it Timon, why, the dog coins gold. </l>
             <l>If I would sell my horse, and buy twenty more </l>
             <l>Better than he, why, give my horse to Timon, </l>
-            <l>Ask nothing, give it him, it foals me, straight, </l>
+            <l n="10">Ask nothing, give it him, it foals me, straight, </l>
             <l>And able horses. No porter at his gate, </l>
             <l>But rather one that smiles and still invites </l>
             <l>All that pass by. It cannot hold; no reason </l>
@@ -1656,7 +1656,7 @@
             <l>Importune him for my moneys; be not ceased </l>
             <l>With slight denial, nor then silenced when-- </l>
             <l>'Commend me to your master'--and the cap </l>
-            <l>Plays in the right hand, thus: but tell him, </l>
+            <l n="20">Plays in the right hand, thus: but tell him, </l>
             <l>My uses cry to me, I must serve my turn </l>
             <l>Out of mine own; his days and times are past </l>
             <l>And my reliances on his fracted dates </l>
@@ -1667,7 +1667,7 @@
             <l>But find supply immediate. Get you gone: </l>
             <l>Put on a most importunate aspect, </l>
             <l>A visage of demand! for, I do fear, </l>
-            <l>When every feather sucks in his own wing, </l>
+            <l n="31">When every feather sucks in his own wing, </l>
             <l>Lord Timon will be left a naked gull, </l>
             <l>Which flashes now a phoenix. Get you gone. </l>
           </sp>
@@ -1715,7 +1715,7 @@
           <sp who="caph.">
             <speaker>Caph.</speaker>
             <l part="F">Good even, Varro: what, </l>
-            <l>You come for money? </l>
+            <l n="10">You come for money? </l>
           </sp>
           <sp who="var.-serv.">
             <speaker>Var. Serv.</speaker>
@@ -1766,7 +1766,7 @@
           </sp>
           <sp who="caph.">
             <speaker>Caph.</speaker>
-            <l>Please it your lordship, he hath put me off </l>
+            <l n="20">Please it your lordship, he hath put me off </l>
             <l>To the succession of new days this month: </l>
             <l>My master is awaked by great occasion </l>
             <l>To call upon his own, and humbly prays you </l>
@@ -1797,7 +1797,7 @@
           </sp>
           <sp who="caph.">
             <speaker>Caph.</speaker>
-            <l>If you did know, my lord, my master's wants-- </l>
+            <l n="30">If you did know, my lord, my master's wants-- </l>
           </sp>
           <sp who="var.-serv.">
             <speaker>Var. Serv.</speaker>
@@ -1822,7 +1822,7 @@
             <l>How goes the world, that I am thus encounter'd </l>
             <l>With clamorous demands of date-broke bonds, </l>
             <l>And the detention of long-since-due debts, </l>
-            <l part="I">Against my honour? </l>
+            <l n="40" part="I">Against my honour? </l>
           </sp>
           <sp who="flav.">
             <speaker>Flav.</speaker>
@@ -2070,7 +2070,7 @@
             <speaker>Tim.</speaker>
             <l part="F">Go to: </l>
             <l>Perchance some single vantages you took, </l>
-            <l>When my indisposition put you back; </l>
+            <l n="140">When my indisposition put you back; </l>
             <l>And that unaptness made your minister, </l>
             <l part="I">Thus to excuse yourself. </l>
           </sp>
@@ -2084,7 +2084,7 @@
             <l>Return so much, I have shook my head and wept; </l>
             <l>Yea, 'gainst the authority of manners, pray'd you </l>
             <l>To hold your hand more close: I did endure </l>
-            <l>Not seldom, nor no slight checks, when I have </l>
+            <l n="150">Not seldom, nor no slight checks, when I have </l>
             <l>Prompted you in the ebb of your estate </l>
             <l>And your great flow of debts. My loved lord, </l>
             <l>Though you hear now, too late--yet now's a time-- </l>
@@ -2105,7 +2105,7 @@
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
-            <l>To Lacedaemon did my land extend. </l>
+            <l n="161">To Lacedaemon did my land extend. </l>
           </sp>
           <sp who="flav.">
             <speaker>Flav.</speaker>
@@ -2124,7 +2124,7 @@
             <l>And set me on the proof. So the gods bless me, </l>
             <l>When all our offices have been oppress'd </l>
             <l>With riotous feeders, when our vaults have wept </l>
-            <l>With drunken spilth of wine, when every room </l>
+            <l n="170">With drunken spilth of wine, when every room </l>
             <l>Hath blazed with lights and bray'd with minstrelsy, </l>
             <l>I have retired me to a wasteful cock, </l>
             <l part="I">And set mine eyes at flow. </l>
@@ -2141,7 +2141,7 @@
             <l>What heart, head, sword, force, means, but is Lord Timon's? </l>
             <l>Great Timon, noble, worthy, royal Timon! </l>
             <l>Ah, when the means are gone that buy this praise, </l>
-            <l>The breath is gone whereof this praise is made: </l>
+            <l n="180">The breath is gone whereof this praise is made: </l>
             <l>Feast-won, fast-lost; one cloud of winter showers, </l>
             <l part="I">These flies are couch'd. </l>
           </sp>
@@ -2217,7 +2217,7 @@
             <l>Do what they would; are sorry--you are honourable,-- </l>
             <l>But yet they could have wish'd--they know not-- </l>
             <l>Something hath been amiss--a noble nature </l>
-            <l>May catch a wrench--would all were well-'tis pity;-- </l>
+            <l n="219">May catch a wrench--would all were well-'tis pity;-- </l>
             <l>And so, intending other serious matters, </l>
             <l>After distasteful looks end these hard factions, </l>
             <l>With certain half-caps and cold-moving nods </l>
@@ -2236,7 +2236,7 @@
             <l>Go to Ventidius. <stage>[To Flav.] Prithee, be not sad, </stage>
               </l>
             <l>Thou art true and honest; ingeniously I speak, </l>
-            <l>No blame belongs to thee. <stage>[To Ser.]</stage>
+            <l n="231">No blame belongs to thee. <stage>[To Ser.]</stage>
               </l>
             <l>Ventidius lately </l>
             <l>Buried his father; by whose death he's stepp'd </l>
@@ -2249,7 +2249,7 @@
               </l>
             <l>. <stage>[To Flav.] That had, give't these fellows </stage>
               </l>
-            <l>To whom 'tis instant due. Ne'er speak, or think, </l>
+            <l n="240">To whom 'tis instant due. Ne'er speak, or think, </l>
             <l>That Timon's fortunes 'mong his friends can sink. </l>
           </sp>
           <sp who="flav.">
@@ -2341,7 +2341,7 @@
           </sp>
           <sp who="flam.">
             <speaker>Flam.</speaker>
-            <l>Is't possible the world should so much differ, </l>
+            <l n="50">Is't possible the world should so much differ, </l>
             <l>And we alive that lived? Fly, damned baseness, </l>
             <l>To him that worships thee! <stage>[Throwing the money back.</stage>
               </l>
@@ -2357,7 +2357,7 @@
             <l>Let molten coin be thy damnation, </l>
             <l>Thou disease of a friend, and not himself! </l>
             <l>Has friendship such a faint and milky heart, </l>
-            <l>It turns in less than two nights? O you gods, </l>
+            <l n="59">It turns in less than two nights? O you gods, </l>
             <l>I feel my master's passion! this slave, </l>
             <l>Unto his honour, has my lord's meat in him: </l>
             <l>Why should it thrive and turn to nutriment, </l>
@@ -2481,7 +2481,7 @@
           </sp>
           <sp who="first-stran.">
             <speaker>First Stran.</speaker>
-            <l>Do you observe this, Hostilius? </l>
+            <l n="70">Do you observe this, Hostilius? </l>
           </sp>
           <sp who="sec.-stran.">
             <speaker>Sec. Stran.</speaker>
@@ -2498,7 +2498,7 @@
             <l>Has paid his men their wages: he ne'er drinks, </l>
             <l>But Timon's silver treads upon his lip; </l>
             <l>And yet--O, see the monstrousness of man </l>
-            <l>When he looks out in an ungrateful shape!-- </l>
+            <l n="81">When he looks out in an ungrateful shape!-- </l>
             <l>He does deny him, in respect of his, </l>
             <l>What charitable men afford to beggars. </l>
           </sp>
@@ -2514,7 +2514,7 @@
             <l>To mark me for his friend; yet, I protest, </l>
             <l>For his right noble mind, illustrious virtue </l>
             <l>And honourable carriage, </l>
-            <l>Had his necessity made use of me, </l>
+            <l n="90">Had his necessity made use of me, </l>
             <l>I would have put my wealth into donation, </l>
             <l>And the best half should have return'd to him, </l>
             <l>So much I love his heart: but, I perceive, </l>
@@ -2552,7 +2552,7 @@
             <l part="F">How! have they denied him? </l>
             <l>Has Ventidius and Lucullus denied him? </l>
             <l>And does he send to me? Three? hum! </l>
-            <l>It shows but little love or judgement in him: </l>
+            <l n="11">It shows but little love or judgement in him: </l>
             <l>Must I be his last refuge? His friends, like physicians, </l>
             <l>Thrive, give him over: must I take the cure upon me? </l>
             <l>Has much disgraced me in't; I'm angry at him, </l>
@@ -2561,7 +2561,7 @@
             <l>For, in my conscience, I was the first man </l>
             <l>That e'er received gift from him: </l>
             <l>And does he think so backwardly of me now, </l>
-            <l>That I'll requite it last? No: </l>
+            <l n="20">That I'll requite it last? No: </l>
             <l>So it may prove an argument of laughter </l>
             <l>To the rest, and 'mongst lords I be thought a fool. </l>
             <l>I'ld rather than the worth of thrice the sum, </l>
@@ -2578,7 +2578,7 @@
             <l>This was my lord's best hope; now all are fled, </l>
             <l>Save only the gods: now his friends are dead, </l>
             <l>Doors, that were ne'er acquainted with their wards </l>
-            <l>Many a bounteous year, must be employ'd </l>
+            <l n="40">Many a bounteous year, must be employ'd </l>
             <l>Now to guard sure their master. </l>
             <l>And this is all a liberal course allows; </l>
             <l>Who cannot keep his wealth must keep his house. <stage type="exit">[Exit. </stage>
@@ -2647,7 +2647,7 @@
           </sp>
           <sp who="luc.-serv.">
             <speaker>Luc. Serv.</speaker>
-            <l> Not yet. </l>
+            <l n="10"> Not yet. </l>
           </sp>
           <sp who="phi.">
             <speaker>Phi.</speaker>
@@ -2677,7 +2677,7 @@
           </sp>
           <sp who="tit.">
             <speaker>Tit.</speaker>
-            <l>And he wears jewels now of Timon's gift, </l>
+            <l n="20">And he wears jewels now of Timon's gift, </l>
             <l>For which I wait for money. </l>
           </sp>
           <sp who="hor.">
@@ -2703,7 +2703,7 @@
           </sp>
           <sp who="luc.-serv.">
             <speaker>Luc. Serv.</speaker>
-            <l>Five thousand mine. </l>
+            <l n="30">Five thousand mine. </l>
           </sp>
           <sp who="first-var.-serv.">
             <speaker>First Var. Serv.</speaker>
@@ -2762,7 +2762,7 @@
             <speaker>Flav.</speaker>
             <l part="F">Ay, </l>
             <l>If money were as certain as your waiting, </l>
-            <l>'Twere sure enough. </l>
+            <l n="49">'Twere sure enough. </l>
             <l>Why then preferr'd you not your sums and bills, </l>
             <l>When your false masters eat of my lord's meat? </l>
             <l>Then they could smile and fawn upon his debts </l>
@@ -2779,7 +2779,7 @@
           <sp who="flav.">
             <speaker>Flav.</speaker>
             <l>If 'twill not serve, 'tis not so base as you; </l>
-            <l>For you serve knaves. <stage type="exit">[Exit.</stage>
+            <l n="60">For you serve knaves. <stage type="exit">[Exit.</stage>
               </l>
           </sp>
           <sp who="first-var.-serv.">
@@ -2823,7 +2823,7 @@
             <speaker>Flam.</speaker>
             <stage>[Within.]</stage>
             
-            <l>Servilius, help! My lord! my lord! <stage type="entrance">Enter
+            <l n="80">Servilius, help! My lord! my lord! <stage type="entrance">Enter
                 TIMON, in a rage; FLAMINIUS  following.</stage>
               </l>
           </sp>
@@ -2986,7 +2986,7 @@
             <speaker>Alcib.</speaker>
             <l>I am an humble suitor to your virtues; </l>
             <l>For pity is the virtue of the law, </l>
-            <l>And none but tyrants use it cruelly. </l>
+            <l n="10">And none but tyrants use it cruelly. </l>
             <l>It pleases time and fortune to lie heavy </l>
             <l>Upon a friend of mine, who, in hot blood, </l>
             <l>Hath stepp'd into the law, which is past depth </l>
@@ -2996,7 +2996,7 @@
             <l>Nor did he soil the fact with cowardice-- </l>
             <l>An honour in him which buys out his fault-- </l>
             <l>But with a noble fury and fair spirit, </l>
-            <l>Seeing his reputation touch'd to death, </l>
+            <l n="20">Seeing his reputation touch'd to death, </l>
             <l>He did oppose his foe: </l>
             <l>And with such sober and unnoted passion </l>
             <l>He did behave his anger, ere 'twas spent, </l>
@@ -3009,7 +3009,7 @@
             <l>Your words have took such pains as if they labour'd </l>
             <l>To bring manslaughter into form and set quarrelling </l>
             <l>Upon the head of valour; which indeed </l>
-            <l>Is valour misbegot and came into the world </l>
+            <l n="30">Is valour misbegot and came into the world </l>
             <l>When sects and factions were newly born: </l>
             <l>He's truly valiant that can wisely suffer </l>
             <l>The worst that man can breathe, and make his wrongs </l>
@@ -3026,7 +3026,7 @@
           <sp who="first-sen.">
             <speaker>First Sen.</speaker>
             <l part="F">You cannot make gross sins look clear: </l>
-            <l>To revenge is no valour, but to bear. </l>
+            <l n="40">To revenge is no valour, but to bear. </l>
           </sp>
           <sp who="alcib.">
             <speaker>Alcib.</speaker>
@@ -3039,7 +3039,7 @@
             <l>Such valour in the bearing, what make we </l>
             <l>Abroad? why then, women are more valiant </l>
             <l>That stay at home, if bearing carry it, </l>
-            <l>And the ass more captain than the lion, the felon </l>
+            <l n="50">And the ass more captain than the lion, the felon </l>
             <l>Loaden with irons wiser than the judge, </l>
             <l>If wisdom be in suffering. O my lords, </l>
             <l>As you are great, be pitifully good: </l>
@@ -3075,7 +3075,7 @@
             <speaker>Sec. Sen.</speaker>
             <l>He has made too much plenty with 'em; </l>
             <l>He's a sworn rioter: he has a sin that often </l>
-            <l>Drowns him, and takes his valour prisoner: </l>
+            <l n="70">Drowns him, and takes his valour prisoner: </l>
             <l>If there were no foes, that were enough </l>
             <l>To overcome him: in that beastly fury </l>
             <l>He has been known to commit outrages, </l>
@@ -3092,7 +3092,7 @@
             <l>My lords, if not for any parts in him-- </l>
             <l>Though his right arm might purchase his own time </l>
             <l>And be in debt to none--yet, more to move you, </l>
-            <l>Take my deserts to his, and join 'em both: </l>
+            <l n="80">Take my deserts to his, and join 'em both: </l>
             <l>And, for I know your reverend ages love </l>
             <l>Security, I'll pawn my victories, all </l>
             <l>My honours to you, upon his good returns. </l>
@@ -3108,7 +3108,7 @@
           </sp>
           <sp who="alcib.">
             <speaker>Alcib.</speaker>
-            <l>Must it be so? it must not be. My lords, </l>
+            <l n="90">Must it be so? it must not be. My lords, </l>
             <l>I do beseech you, know me. </l>
           </sp>
           <sp who="sec.-sen.">
@@ -3139,7 +3139,7 @@
           <sp who="alcib.">
             <speaker>Alcib.</speaker>
             <l part="F">Banish me! </l>
-            <l>Banish your dotage; banish usury, </l>
+            <l n="100">Banish your dotage; banish usury, </l>
             <l>That makes the senate ugly. </l>
           </sp>
           <sp who="first-sen.">
@@ -3157,7 +3157,7 @@
             <l>I'm worse than mad: I have kept back their foes, </l>
             <l>While they have told their money and let out </l>
             <l>Their coin upon large interest, I myself </l>
-            <l>Rich only in large hurts. All those for this? </l>
+            <l n="110">Rich only in large hurts. All those for this? </l>
             <l>Is this the balsam that the usuring senate </l>
             <l>Pours into captains' wounds? Banishment! </l>
             <l>It comes not ill; I hate not to be banish'd; </l>
@@ -3371,7 +3371,7 @@
           <sp who="tim.">
             <speaker>Tim.</speaker>
             <l>May you a better feast never behold, </l>
-            <l>You knot of mouth-friends! smoke and lukewarm water </l>
+            <l n="100">You knot of mouth-friends! smoke and lukewarm water </l>
             <l>Is your perfection. This is Timon's last; </l>
             <l>Who, stuck and spangled with your flatteries, </l>
             <l>Washes it off, and sprinkles in your faces </l>
@@ -3383,7 +3383,7 @@
             <l>You fools of fortune, trencher-friends, time's flies, </l>
             <l>Cap and knee slaves, vapours, and minutejacks! </l>
             <l>Of man and beast the infinite malady </l>
-            <l>Crust you quite o'er! What, dost thou go? </l>
+            <l n="110">Crust you quite o'er! What, dost thou go? </l>
             <l>Soft! take thy physic first--thou too--and thou;-- </l>
             <l>Stay, I will lend thee money, borrow none. <stage>[Throws the dishes at them, and
                 drives  them out.</stage>
@@ -3467,7 +3467,7 @@
             <l>And minister in their steads! to general filths </l>
             <l>Convert o' the instant, green virginity, </l>
             <l>Do't in your parents' eyes! bankrupts, hold fast; </l>
-            <l>Rather than render back, out with your knives, </l>
+            <l n="10">Rather than render back, out with your knives, </l>
             <l>And cut your trusters' throats! bound servants, steal! </l>
             <l>Large-handed robbers your grave masters are, </l>
             <l>And pill by law. Maid, to thy master's bed; </l>
@@ -3477,7 +3477,7 @@
             <l>Religion to the gods, peace, justice, truth, </l>
             <l>Domestic awe, night-rest, and neighbourhood, </l>
             <l>Instruction, manners, mysteries, and trades, </l>
-            <l>Degrees, observances, customs, and laws, </l>
+            <l n="20">Degrees, observances, customs, and laws, </l>
             <l>Decline to your confounding contraries. </l>
             <l>And let confusion live! Plagues, incident to men, </l>
             <l>Your potent and infectious fevers heap </l>
@@ -3487,7 +3487,7 @@
             <l>Creep in the minds and marrows of our youth, </l>
             <l>That 'gainst the stream of virtue they may strive, </l>
             <l>And drown themselves in riot! Itches, blains, </l>
-            <l>Sow all the Athenian bosoms; and their crop </l>
+            <l n="30">Sow all the Athenian bosoms; and their crop </l>
             <l>Be general leprosy! Breath infect breath, </l>
             <l>That their society, as their friendship, may </l>
             <l>Be merely poison! Nothing I'll bear from thee, </l>
@@ -3532,7 +3532,7 @@
           <sp who="sec.-serv.">
             <speaker>Sec. Serv.</speaker>
             <l part="F">As we do turn our backs </l>
-            <l>From our companion thrown into his grave, </l>
+            <l n="10">From our companion thrown into his grave, </l>
             <l>So his familiars to his buried fortunes </l>
             <l>Slink all away, leave their false vows with him, </l>
             <l>Like empty purses pick'd; and his poor self, </l>
@@ -3562,7 +3562,7 @@
             <l>Let's yet be fellows; let's shake our heads, and say, </l>
             <l>As 'twere a knell unto our master's fortunes, </l>
             <l>'We have seen better days.' Let each take some; </l>
-            <l>Nay, put out all your hands. Not one word more: </l>
+            <l n="29">Nay, put out all your hands. Not one word more: </l>
             <l>Thus we part rich in sorrow, parting poor. <stage>Servants
                 embrace, and part several ways.</stage>
               </l>
@@ -3575,7 +3575,7 @@
             <l>But only painted, like his varnish'd friends? </l>
             <l>Poor honest lord, brought low by his own heart, </l>
             <l>Undone by goodness! Strange, unusual blood, </l>
-            <l>When man's worst sin is, he does too much good! </l>
+            <l n="40">When man's worst sin is, he does too much good! </l>
             <l>Who, then, dares to be half so kind again? </l>
             <l>For bounty, that makes gods, does still mar men, </l>
             <l>My dearest lord, bless'd, to be most accursed, </l>
@@ -3608,7 +3608,7 @@
             <l>The greater scorns the lesser: not nature, </l>
             <l>To whom all sores lay siege, can bear great fortunes; </l>
             <l>But thy contempt of nature. </l>
-            <l>Raise me this beggar, and deny't that lord; </l>
+            <l n="10">Raise me this beggar, and deny't that lord; </l>
             <l>The senator shall bear contempt hereditary, </l>
             <l>The beggar native honour. </l>
             <l>It is the pasture lards the rother's sides, </l>
@@ -3618,7 +3618,7 @@
             <l>So are they all; for every grise of fortune </l>
             <l>Is smooth'd by that below: the learned pate </l>
             <l>Ducks to the golden fool: all is oblique; </l>
-            <l>There's nothing level in our cursed natures, </l>
+            <l n="20">There's nothing level in our cursed natures, </l>
             <l>But direct villany. Therefore, be abhorr'd </l>
             <l>All feasts, societies, and throngs of men! </l>
             <l>His semblable, yea, himself, Timon disdains: </l>
@@ -3629,7 +3629,7 @@
             <l>Gold? yellow, glittering, precious gold? No, gods, </l>
             <l>I am no idle votarist: roots, you clear heavens </l>
             <l>Thus much of this will make black white, foul fair, </l>
-            <l>Wrong right, base noble, old young, coward valiant. </l>
+            <l n="30">Wrong right, base noble, old young, coward valiant. </l>
             <l>Ha, you gods! why this? what this, you gods? Why, this </l>
             <l>Will lug your priests and servants from your sides, </l>
             <l>Pluck stout men's pillows from below their heads: </l>
@@ -3639,7 +3639,7 @@
             <l>And give them title, knee and approbation </l>
             <l>With senators on the bench: this is it </l>
             <l>That makes the wappen'd widow wed again; </l>
-            <l>She, whom the spital-house and ulcerous sores </l>
+            <l n="40">She, whom the spital-house and ulcerous sores </l>
             <l>Would cast the gorge at, this embalms and spices </l>
             <l>To the April day again. Come, damned earth, </l>
             <l>Thou common whore of mankind, that put'st odds </l>
@@ -3660,7 +3660,7 @@
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
-            <l>A beast, as thou art. The canker gnaw thy heart, </l>
+            <l n="50">A beast, as thou art. The canker gnaw thy heart, </l>
             <l>For showing me again the eyes of man! </l>
           </sp>
           <sp who="alcib.">
@@ -3683,7 +3683,7 @@
             <speaker>Tim.</speaker>
             <l>I know thee too; and more than that I know thee, </l>
             <l>I desire not to know. Follow thy drum; </l>
-            <l>With man's blood paint the ground, gules, gules: </l>
+            <l n="60">With man's blood paint the ground, gules, gules: </l>
             <l>Religious canons, civil laws are cruel; </l>
             <l>Then what should war be? This fell whore of thine </l>
             <l>Hath in her more destruction than thy sword, </l>
@@ -3711,7 +3711,7 @@
           <sp who="alcib.">
             <speaker>Alcib.</speaker>
             <l part="F">Noble Timon, </l>
-            <l part="I">What friendship may I do thee? </l>
+            <l n="70" part="I">What friendship may I do thee? </l>
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
@@ -3743,7 +3743,7 @@
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
-            <l>As thine is now, held with a brace of harlots. </l>
+            <l n="80">As thine is now, held with a brace of harlots. </l>
           </sp>
           <sp who="timan.">
             <speaker>Timan.</speaker>
@@ -3773,7 +3773,7 @@
           <sp who="alcib.">
             <speaker>Alcib.</speaker>
             <l>Pardon him, sweet Timandra; for his wits </l>
-            <l>Are drown'd and lost in his calamities. </l>
+            <l n="90">Are drown'd and lost in his calamities. </l>
             <l>I have but little gold of late, brave Timon </l>
             <l>The want whereof doth daily make revolt </l>
             <l>In my penurious band: I have heard, and grieved, </l>
@@ -3797,7 +3797,7 @@
           <sp who="alcib.">
             <speaker>Alcib.</speaker>
             <l part="F">Why, fare thee well: </l>
-            <l part="I">Here is some gold for thee. </l>
+            <l n="100" part="I">Here is some gold for thee. </l>
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
@@ -3830,7 +3830,7 @@
             <l>Thou wast born to conquer my country. </l>
             <l>Put up thy gold: go on,--here's gold,--go on; </l>
             <l>Be as a planetary plague, when Jove </l>
-            <l>Will o'er some high-viced city hang his poison </l>
+            <l n="110">Will o'er some high-viced city hang his poison </l>
             <l>In the sick air: let not thy sword skip one: </l>
             <l>Pity not honour'd age for his white beard; </l>
             <l>He is an usurer: strike me the counterfeit matron; </l>
@@ -3840,7 +3840,7 @@
             <l>That through the window-bars bore at men's eyes, </l>
             <l>Are not within the leaf of pity writ, </l>
             <l>But set them down horrible traitors: spare not the babe, </l>
-            <l>Whose dimpled smiles from fools exhaust their mercy; </l>
+            <l n="120">Whose dimpled smiles from fools exhaust their mercy; </l>
             <l>Think it a bastard, whom the oracle </l>
             <l>Hath doubtfully pronounced thy throat shall cut, </l>
             <l>And mince it sans remorse: swear against objects; </l>
@@ -3853,7 +3853,7 @@
           </sp>
           <sp who="alcib.">
             <speaker>Alcib.</speaker>
-            <l>Hast thou gold yet? I'll take the gold thou givest me, </l>
+            <l n="130">Hast thou gold yet? I'll take the gold thou givest me, </l>
             <l>Not all thy counsel. </l>
           </sp>
           <sp who="tim.">
@@ -3872,7 +3872,7 @@
             <l>Although, I know, you'll swear, terribly swear </l>
             <l>Into strong shudders and to heavenly agues </l>
             <l>The immortal gods that hear you,--spare your oaths. </l>
-            <l>I'll trust to your conditions: be whores still; </l>
+            <l n="140">I'll trust to your conditions: be whores still; </l>
             <l>And he whose pious breath seeks to convert you, </l>
             <l>Be strong in whore, allure him, burn him up; </l>
             <l>Let your close fire predominate his smoke, </l>
@@ -3898,7 +3898,7 @@
             <l>That scolds against the quality of flesh, </l>
             <l>And not believes himself: down with the nose, </l>
             <l>Down with it flat; take the bridge quite away </l>
-            <l>Of him that, his particular to foresee, </l>
+            <l n="160">Of him that, his particular to foresee, </l>
             <l>Smells from the general weal: make curl'dpate ruffians bald; </l>
             <l>And let the unscarr'd braggarts of the war </l>
             <l>Derive some pain from you: plague all; </l>
@@ -3917,7 +3917,7 @@
           </sp>
           <sp who="alcib.">
             <speaker>Alcib.</speaker>
-            <l>Strike up the drum towards Athens! Farewell, Timon: </l>
+            <l n="170">Strike up the drum towards Athens! Farewell, Timon: </l>
             <l>If I thrive well, I'll visit thee again. </l>
           </sp>
           <sp who="tim.">
@@ -3952,7 +3952,7 @@
             <l>Should yet be hungry! Common mother, thou, <stage>[Digging.</stage>
               </l>
             <l>Whose womb unmeasurable, and infinite breast, </l>
-            <l>Teems, and feeds all; whose self-same mettle, </l>
+            <l n="180">Teems, and feeds all; whose self-same mettle, </l>
             <l>Whereof thy proud child, arrogant man, is puff'd, </l>
             <l>Engenders the black toad and adder blue, </l>
             <l>The gilded newt and eyeless venom'd worm, </l>
@@ -3962,7 +3962,7 @@
             <l>From forth thy plenteous bosom, one poor root! </l>
             <l>Ensear thy fertile and conceptious womb, </l>
             <l>Let it no more bring out ingrateful man! </l>
-            <l>Go great with tigers, dragons, wolves, and bears; </l>
+            <l n="190">Go great with tigers, dragons, wolves, and bears; </l>
             <l>Teem with new monsters, whom thy upward face </l>
             <l>Hath to the marbled mansion all above </l>
             <l>Never presented!--O, a root,--dear thanks!-- </l>
@@ -3976,7 +3976,7 @@
           <sp who="apem.">
             <speaker>Apem.</speaker>
             <l>I was directed hither: men report </l>
-            <l>Thou dost affect my manners, and dost use them. </l>
+            <l n="200">Thou dost affect my manners, and dost use them. </l>
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
@@ -3992,7 +3992,7 @@
             <l>Thy flatterers yet wear silk, drink wine, lie soft; </l>
             <l>Hug their diseased perfumes, and have forgot </l>
             <l>That ever Timon was. Shame not these woods, </l>
-            <l>By putting on the cunning of a carper. </l>
+            <l n="210">By putting on the cunning of a carper. </l>
             <l>Be thou a flatterer now, and seek to thrive </l>
             <l>By that which has undone thee: hinge thy knee, </l>
             <l>And let his very breath, whom thou'lt observe, </l>
@@ -4005,7 +4005,7 @@
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
-            <l>Were I like thee, I 'ld throw away myself. </l>
+            <l n="220">Were I like thee, I 'ld throw away myself. </l>
           </sp>
           <sp who="apem.">
             <speaker>Apem.</speaker>
@@ -4018,7 +4018,7 @@
             <l>Candied with ice, caudle thy morning taste, </l>
             <l>To cure thy o'er-night's surfeit? Call the creatures </l>
             <l>Whose naked natures live in all the spite </l>
-            <l>Of wreakful heaven, whose bare unhoused trunks, </l>
+            <l n="230">Of wreakful heaven, whose bare unhoused trunks, </l>
             <l>To the conflicting elements exposed, </l>
             <l>Answer mere nature; bid them flatter thee; </l>
             <l part="I">O, thou shalt find-- </l>
@@ -4093,7 +4093,7 @@
             <l>In general riot; melted down thy youth </l>
             <l>In different beds of lust; and never learn'd </l>
             <l>The icy precepts of respect, but follow'd </l>
-            <l>The sugar'd game before thee. But myself, </l>
+            <l n="260">The sugar'd game before thee. But myself, </l>
             <l>Who had the world as my confectionary, </l>
             <l>The mouths, the tongues, the eyes and hearts of men </l>
             <l>At duty, more than I could frame employment, </l>
@@ -4103,7 +4103,7 @@
             <l>For every storm that blows: I, to bear this, </l>
             <l>That never knew but better, is some burden: </l>
             <l>Thy nature did commence in sufferance, time </l>
-            <l>Hath made thee hard in't. Why shouldst thou hate men? </l>
+            <l n="270">Hath made thee hard in't. Why shouldst thou hate men? </l>
             <l>They never flatter'd thee: what hast thou given ? </l>
             <l>If thou wilt curse, thy father, that poor rag, </l>
             <l>Must be thy subject, who in spite put stuff </l>
@@ -4163,7 +4163,7 @@
           </sp>
           <sp who="apem.">
             <speaker>Apem.</speaker>
-            <l part="I">Here is no use for gold. </l>
+            <l n="290" part="I">Here is no use for gold. </l>
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
@@ -4306,7 +4306,7 @@
           <sp who="tim.">
             <speaker>Tim.</speaker>
             <l>If I name thee. </l>
-            <l>I'll beat thee, but I should infect my hands. </l>
+            <l n="370">I'll beat thee, but I should infect my hands. </l>
           </sp>
           <sp who="apem.">
             <speaker>Apem.</speaker>
@@ -4357,7 +4357,7 @@
             <l>Thou ever young, fresh, loved and delicate wooer, </l>
             <l>Whose blush doth thaw the consecrated snow </l>
             <l>That lies on Dian's lap! thou visible god, </l>
-            <l>That solder'st close impossibilities, </l>
+            <l n="389">That solder'st close impossibilities, </l>
             <l>And makest them kiss! that speak'st with every tongue, </l>
             <l>To every purpose! O thou touch of hearts! </l>
             <l>Think, thy slave man rebels, and by thy virtue </l>
@@ -4448,7 +4448,7 @@
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
-            <l>Your greatest want is, you want much of meat. </l>
+            <l n="420">Your greatest want is, you want much of meat. </l>
             <l>Why should you want? Behold, the earth hath roots; </l>
             <l>Within this mile break forth a hundred springs; </l>
             <l>The oaks bear mast, the briers scarlet hips; </l>
@@ -4465,7 +4465,7 @@
             <l>Nor on the beasts themselves, the birds, and fishes; </l>
             <l>You must eat men. Yet thanks I must you con </l>
             <l>That you are thieves profess'd, that you work not </l>
-            <l>In holier shapes: for there is boundless theft </l>
+            <l n="431">In holier shapes: for there is boundless theft </l>
             <l>In limited professions. Rascal thieves, </l>
             <l>Here's gold. Go, suck the subtle blood o' the grape, </l>
             <l>Till the high fever seethe your blood to froth, </l>
@@ -4484,7 +4484,7 @@
             <l>The laws, your curb and whip, in their rough power </l>
             <l>Have uncheck'd theft. Love not yourselves: away, </l>
             <l>Rob one another. There's more gold. Cut throats: </l>
-            <l>All that you meet are thieves: to Athens go, </l>
+            <l n="450">All that you meet are thieves: to Athens go, </l>
             <l>Break open shops; nothing can you steal, </l>
             <l>But thieves do lose it: steal no less for this </l>
             <l>I give you; and gold confound you whosoe'er! </l>
@@ -4517,7 +4517,7 @@
             <l>Is yond despised and ruinous man my lord? </l>
             <l>Full of decay and failing? O monument </l>
             <l>And wonder or good deeds evilly bestow'd! </l>
-            <l>What an alteration of honour </l>
+            <l n="469">What an alteration of honour </l>
             <l>Has desperate want made! </l>
             <l>What viler thing upon the earth than friends </l>
             <l>Who can bring noblest minds to basest ends! </l>
@@ -4560,7 +4560,7 @@
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
-            <l>What, dost thou weep? Come nearer. Then I love thee, </l>
+            <l n="490">What, dost thou weep? Come nearer. Then I love thee, </l>
             <l>Because thou art a woman, and disclaim'st </l>
             <l>Flinty mankind; whose eyes do never give </l>
             <l>But thorough lust and laughter. Pity's sleeping: </l>
@@ -4576,7 +4576,7 @@
             <speaker>Tim.</speaker>
             <l>Had I a steward </l>
             <l>So true, so just, and now so comfortable? </l>
-            <l>It almost turns my dangerous nature mild. </l>
+            <l n="500">It almost turns my dangerous nature mild. </l>
             <l>Let me behold thy face. Surely, this man </l>
             <l>Was born of woman. </l>
             <l>Forgive my general and exceptless rashness, </l>
@@ -4586,7 +4586,7 @@
             <l>How fain would I have hated all mankindl </l>
             <l>And thou redeem'st thyself: but all, save thee, </l>
             <l>I fell with curses. </l>
-            <l>Methinks thou art more honest now than wise; </l>
+            <l n="510">Methinks thou art more honest now than wise; </l>
             <l>For, by oppressing and betraying me, </l>
             <l>Thou mightst have sooner got another service: </l>
             <l>For many so arrive at second masters, </l>
@@ -4599,7 +4599,7 @@
           <sp who="flav.">
             <speaker>Flav.</speaker>
             <l>No, my most worthy master; in whose breast </l>
-            <l>Doubt and suspect, alas, are placed too late: </l>
+            <l n="520">Doubt and suspect, alas, are placed too late: </l>
             <l>You should have fear'd false times when you did feast: </l>
             <l>Suspect still comes where an estate is least. </l>
             <l>That which I show, heaven knows, is merely love, </l>
@@ -4609,7 +4609,7 @@
             <l>For any benefit that points to me, </l>
             <l>Either in hope or present, I 'ld exchange </l>
             <l>For this one wish, that you had power and wealth </l>
-            <l>To requite me, by making rich yourself. </l>
+            <l n="530">To requite me, by making rich yourself. </l>
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
@@ -4623,7 +4623,7 @@
             <l>What thou deny'st to men; let prisons swallow 'em, </l>
             <l>Debts wither 'em to nothing; be men like blasted woods, </l>
             <l>And may diseases lick up their false bloods! </l>
-            <l part="I">And so farewell and thrive. </l>
+            <l n="540" part="I">And so farewell and thrive. </l>
           </sp>
           <sp who="flav.">
             <speaker>Flav.</speaker>
@@ -4757,7 +4757,7 @@
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
-            <l>Have I once lived to see two honest men ? </l>
+            <l n="60">Have I once lived to see two honest men ? </l>
           </sp>
           <sp who="poet.">
             <speaker>Poet.</speaker>
@@ -4770,7 +4770,7 @@
             <l>Whose star-like nobleness gave life and influence </l>
             <l>To their whole being! I am rapt and cannot cover </l>
             <l>The monstrous bulk of this ingratitude </l>
-            <l>With any size of words. </l>
+            <l n="70">With any size of words. </l>
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
@@ -4803,7 +4803,7 @@
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
-            <l>Ye're honest men: ye've heard that I have gold; </l>
+            <l n="80">Ye're honest men: ye've heard that I have gold; </l>
             <l>I am sure you have: speak truth; ye're honest men. </l>
           </sp>
           <sp who="pain.">
@@ -4826,7 +4826,7 @@
             <l>E'en so, sir, as I say. And, for thy fiction, </l>
             <l>Why, thy verse swells with stuff so fine and smooth </l>
             <l>That thou art even natural in thine art. </l>
-            <l>But, for all this, my honest-natured friends, </l>
+            <l n="90">But, for all this, my honest-natured friends, </l>
             <l>I must needs say you have a little fault: </l>
             <l>Marry, 'tis not monstrous in you, neither wish I </l>
             <l part="I">You take much pains to mend. </l>
@@ -4864,7 +4864,7 @@
           <sp who="tim.">
             <speaker>Tim.</speaker>
             <l>Ay, and you hear him cog, see him dissemble, </l>
-            <l>Know his gross patchery, love him, feed him, </l>
+            <l n="100">Know his gross patchery, love him, feed him, </l>
             <l>Keep in your bosom: yet remain assured </l>
             <l>That he's a made-up villain. </l>
           </sp>
@@ -4890,7 +4890,7 @@
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
-            <l>You that way and you this, but two in company; </l>
+            <l n="110">You that way and you this, but two in company; </l>
             <l>Each man apart, all single and alone, </l>
             <l>Yet an arch-villain keeps him company. </l>
             <l>If where thou art two villains shall not be, </l>
@@ -4909,7 +4909,7 @@
           </sp>
           <sp who="flav.">
             <speaker>Flav.</speaker>
-            <l>It is in vain that you would speak with Timon; </l>
+            <l n="120">It is in vain that you would speak with Timon; </l>
             <l>For he is set so only to himself </l>
             <l>That nothing but himself which looks like man </l>
             <l part="I">Is friendly with him. </l>
@@ -4956,7 +4956,7 @@
           </sp>
           <sp who="first-sen.">
             <speaker>First Sen.</speaker>
-            <l>The senators of Athens greet thee, Timon. </l>
+            <l n="140">The senators of Athens greet thee, Timon. </l>
           </sp>
           <sp who="tim.">
             <speaker>Tim.</speaker>
@@ -4977,7 +4977,7 @@
             <l part="F">They confess </l>
             <l>Toward the forgetfulness too general, gross: </l>
             <l>Which now the public body, which doth seldom </l>
-            <l>Play the recanter, feeling in itself </l>
+            <l n="150">Play the recanter, feeling in itself </l>
             <l>A lack of Timon's aid, hath sense withal </l>
             <l>Of it own fail, restraining aid to Timon; </l>
             <l>And send forth us, to make their sorrow'd render, </l>
@@ -4992,7 +4992,7 @@
             <speaker>Tim.</speaker>
             <l part="F">You witch me in it; </l>
             <l>Surprise me to the very brink of tears: </l>
-            <l>Lend me a fool's heart and a woman's eyes, </l>
+            <l n="161">Lend me a fool's heart and a woman's eyes, </l>
             <l>And I'll beweep these comforts, worthy senators. </l>
           </sp>
           <sp who="first-sen.">
@@ -5026,7 +5026,7 @@
             <l>Of contumelious, beastly, mad-brain'd war </l>
             <l>Then let him know, and tell him Timon speaks it, </l>
             <l>In pity of our aged and our youth, </l>
-            <l>I cannot choose but tell him, that I care not, </l>
+            <l n="180">I cannot choose but tell him, that I care not, </l>
             <l>And let him take't at worst; for their knives care not, </l>
             <l>While you have throats to answer: for myself, </l>
             <l>There's not a whittle in the unruly camp </l>
@@ -5042,7 +5042,7 @@
           <sp who="tim.">
             <speaker>Tim.</speaker>
             <l>Why, I was writing of my epitaph; </l>
-            <l>It will be seen to-morrow: my long sickness </l>
+            <l n="190">It will be seen to-morrow: my long sickness </l>
             <l>Of health and living now begins to mend, </l>
             <l>And nothing brings me all things. Go, live still; </l>
             <l>Be Alcibiades your plague, you his, </l>
@@ -5068,7 +5068,7 @@
           </sp>
           <sp who="first-sen.">
             <speaker>First Sen.</speaker>
-            <l>These words become your lips as they pass thorough them. </l>
+            <l n="199">These words become your lips as they pass thorough them. </l>
           </sp>
           <sp who="sec.-sen.">
             <speaker>Sec. Sen.</speaker>
@@ -5092,7 +5092,7 @@
           <sp who="tim.">
             <speaker>Tim.</speaker>
             <l>I have a tree, which grows here in my close, </l>
-            <l>That mine own use invites me to cut down, </l>
+            <l n="210">That mine own use invites me to cut down, </l>
             <l>And shortly must I fell it: tell my friends, </l>
             <l>Tell Athens, in the sequence of degree </l>
             <l>From high to low throughout, that whoso please </l>
@@ -5108,7 +5108,7 @@
             <speaker>Tim.</speaker>
             <l>Come not to me again: but say to Athens, </l>
             <l>Timon hath made his everlasting mansion </l>
-            <l>Upon the beached verge of the salt flood; </l>
+            <l n="220">Upon the beached verge of the salt flood; </l>
             <l>Who once a day with his embossed froth </l>
             <l>The turbulent surge shall cover: thither come, </l>
             <l>And let my grave-stone be your oracle. </l>
@@ -5121,7 +5121,7 @@
           <sp who="first-sen.">
             <speaker>First Sen.</speaker>
             <l>His discontents are unremoveably </l>
-            <l>Coupled to nature. </l>
+            <l n="229">Coupled to nature. </l>
           </sp>
           <sp who="sec.-sen.">
             <speaker>Sec. Sen.</speaker>
@@ -5163,7 +5163,7 @@
             <l>I met a courier, one mine ancient friend; </l>
             <l>Whom, though in general part we were opposed, </l>
             <l>Yet our old love made a particular force, </l>
-            <l>And made us speak like friends: this man was riding </l>
+            <l n="10">And made us speak like friends: this man was riding </l>
             <l>From Alcibiades to Timon's cave, </l>
             <l>With letters of entreaty, which imported </l>
             <l>His fellowship i' the cause against your city, </l>
@@ -5203,7 +5203,7 @@
             <l>I cannot read; the character I'll take with wax: </l>
             <l>Our captain hath in every figure skill, </l>
             <l>An aged interpreter, though young in days: </l>
-            <l>Before proud Athens he's set down by this, </l>
+            <l n="10">Before proud Athens he's set down by this, </l>
             <l>Whose fall the mark of his ambition is. <stage type="exit">[Exit.</stage>
             </l>
           </sp>
@@ -5250,7 +5250,7 @@
             <speaker>Sec. Sen.</speaker>
             <l part="F">So did we woo </l>
             <l>Transformed Timon to our city's love </l>
-            <l>By humble message and by promised means: </l>
+            <l n="21">By humble message and by promised means: </l>
             <l>We were not all unkind, nor all deserve </l>
             <l part="I">The common stroke of war. </l>
           </sp>
@@ -5267,7 +5267,7 @@
             <l part="F">Nor are they living </l>
             <l>Who were the motives that you first went out; </l>
             <l>Shame that they wanted cunning, in excess </l>
-            <l>Hath broke their hearts. March, noble lord, </l>
+            <l n="30">Hath broke their hearts. March, noble lord, </l>
             <l>Into our city with thy banners spread: </l>
             <l>By decimation, and a tithed death-- </l>
             <l>If thy revenges hunger for that food </l>
@@ -5281,7 +5281,7 @@
             <l>For those that were, it is not square to take </l>
             <l>On those that are, revenges: crimes, like lands, </l>
             <l>Are not inherited. Then, dear countryman, </l>
-            <l>Bring in thy ranks, but leave without thy rage: </l>
+            <l n="40">Bring in thy ranks, but leave without thy rage: </l>
             <l>Spare thy Athenian cradle and those kin </l>
             <l>Which in the bluster of thy wrath must fall </l>
             <l>With those that have offended: like a shepherd, </l>
@@ -5317,7 +5317,7 @@
             <l>Those enemies of Timon's and mine own </l>
             <l>Whom you yourselves shall set out for reproof </l>
             <l>Fall and no more: and, to atone your fears </l>
-            <l>With my more noble meaning, not a man </l>
+            <l n="60">With my more noble meaning, not a man </l>
             <l>Shall pass his quarter, or offend the stream </l>
             <l>Of regular justice in your city's bounds, </l>
             <l>But shall be render'd to your public laws </l>
@@ -5357,7 +5357,7 @@
             <l>Scorn'dst our brain's flow and those our droplets which </l>
             <l>From niggard nature fall, yet rich conceit </l>
             <l>Taught thee to make vast Neptune weep for aye </l>
-            <l>On thy low grave, on faults forgiven. Dead </l>
+            <l n="80">On thy low grave, on faults forgiven. Dead </l>
             <l>Is noble Timon: of whose memory </l>
             <l>Hereafter more. Bring me into your city, </l>
             <l>And I will use the olive with my sword, </l>

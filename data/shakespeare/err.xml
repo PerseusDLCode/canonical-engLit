@@ -158,7 +158,7 @@
      <sp who="aege.">
       <speaker>Æge.</speaker>
       <l>Yet this my comfort: when your words are done, </l>
-      <l>My woes end likewise with the evening sun. </l>
+      <l n="29">My woes end likewise with the evening sun. </l>
      </sp>
      <sp who="duke.">
       <speaker>Duke.</speaker>
@@ -176,7 +176,7 @@
       <l>In Syracusa was I born, and wed </l>
       <l>Unto a woman, happy but for me, </l>
       <l>And by me, had not our hap been bad. </l>
-      <l>With her I lived in joy; our wealth increased </l>
+      <l n="41">With her I lived in joy; our wealth increased </l>
       <l>By prosperous voyages I often made </l>
       <l>To Epidamnum; till my factor's death </l>
       <l>And the great care of goods at random left </l>
@@ -185,7 +185,7 @@
       <l>Before herself, almost at fainting under </l>
       <l>The pleasing punishment that women bear, </l>
       <l>Had made provision for her following me </l>
-      <l>And soon and safe arrived where I was. </l>
+      <l n="50">And soon and safe arrived where I was. </l>
       <l>There had she not been long but she became </l>
       <l>A joyful mother of two goodly sons; </l>
       <l>And, which was strange, the one so like the other </l>
@@ -195,7 +195,7 @@
       <l>Of such a burden, male twins, both alike: </l>
       <l>Those,--for their parents were exceeding poor,-- </l>
       <l>I bought and brought up to attend my sons. </l>
-      <l>My wife, not meanly proud of two such boys, </l>
+      <l n="60">My wife, not meanly proud of two such boys, </l>
       <l>Made daily motions for our home return: </l>
       <l>Unwilling I agreed; alas! too soon, </l>
       <l>We came aboard. </l>
@@ -205,7 +205,7 @@
       <l>But longer did we not retain much hope; </l>
       <l>For what obscured light the heavens did grant </l>
       <l>Did but convey unto our fearful minds </l>
-      <l>A doubtful warrant of immediate death; </l>
+      <l n="70">A doubtful warrant of immediate death; </l>
       <l>Which though myself would gladly have embraced, </l>
       <l>Yet the incessant weepings of my wife, </l>
       <l>Weeping before for what she saw must come, </l>
@@ -215,7 +215,7 @@
       <l>And this it was, for other means was none: </l>
       <l>The sailors sought for safety by our boat, </l>
       <l>And left the ship, then sinking-ripe, to us: </l>
-      <l>My wife, more careful for the latter-born, </l>
+      <l n="80">My wife, more careful for the latter-born, </l>
       <l>Had fasten'd him unto a small spare mast, </l>
       <l>Such as seafaring men provide for storms; </l>
       <l>To him one of the other twins was bound, </l>
@@ -225,7 +225,7 @@
       <l>Fasten'd ourselves at either end the mast; </l>
       <l>And floating straight, obedient to the stream, </l>
       <l>Was carried towards Corinth, as we thought. </l>
-      <l>At length the sun, gazing upon the earth, </l>
+      <l n="90">At length the sun, gazing upon the earth, </l>
       <l>Dispersed those vapors that offended us; </l>
       <l>And, by the benefit of his wished light, </l>
       <l>The seas wax'd calm, and we discovered </l>
@@ -241,7 +241,7 @@
      </sp>
      <sp who="aege.">
       <speaker>Æge.</speaker>
-      <l>O, had the gods done so, I had not now </l>
+      <l n="100">O, had the gods done so, I had not now </l>
       <l>Worthily term'd them merciless to us! </l>
       <l>For, ere the ships could meet by twice five leagues, </l>
       <l>We were encounter'd by a mighty rock; </l>
@@ -252,7 +252,7 @@
       <l>What to delight in, what to sorrow for. </l>
       <l>Her part, poor soul! seeming as burdened </l>
       <l>With lesser weight but not with lesser woe, </l>
-      <l>Was carried with more speed before the wind; </l>
+      <l n="111">Was carried with more speed before the wind; </l>
       <l>And in our sight they three were taken up </l>
       <l>By fishermen of Corinth, as we thought. </l>
       <l>At length, another ship had seized on us; </l>
@@ -262,7 +262,7 @@
       <l>Had not their bark been very slow of sail; </l>
       <l>And therefore homeward did they bend their course. </l>
       <l>Thus have you heard me sever'd from my bliss; </l>
-      <l>That by misfortunes was my life prolong'd, </l>
+      <l n="121">That by misfortunes was my life prolong'd, </l>
       <l>To tell sad stories of my own mishaps. </l>
      </sp>
      <sp who="duke.">
@@ -278,7 +278,7 @@
       <l>After his brother: and importuned me </l>
       <l>That his attendant--so his case was like, </l>
       <l>Reft of his brother, but retain'd his name-- </l>
-      <l>Might bear him company in the quest of him: </l>
+      <l n="131">Might bear him company in the quest of him: </l>
       <l>Whom whilst I labor'd of a love to see, </l>
       <l>I hazarded the loss of whom I loved. </l>
       <l>Five summers have I spent in furthest Greece, </l>
@@ -287,7 +287,7 @@
       <l>Hopeless to find, yet loath to leave unsought </l>
       <l>Or that or any place that harbors men. </l>
       <l>But here must end the story of my life; </l>
-      <l>And happy were I in my timely death, </l>
+      <l n="140">And happy were I in my timely death, </l>
       <l>Could all my travels warrant me they live. </l>
      </sp>
      <sp who="duke.">
@@ -300,7 +300,7 @@
       <l>My soul should sue as advocate for thee. </l>
       <l>But, though thou art adjudged to the death </l>
       <l>And passed sentence may not be recall'd </l>
-      <l>But to our honor's great disparagement, </l>
+      <l n="150">But to our honor's great disparagement, </l>
       <l>Yet I will favor thee in what I can. </l>
       <l>Therefore, merchant, I'll limit thee this day </l>
       <l>To seek thy life by beneficial help: </l>
@@ -340,7 +340,7 @@
      </sp>
      <sp who="ant.-s.">
       <speaker>Ant. S.</speaker>
-      <l>Go bear it to the Centaur, where we host, </l>
+      <l n="10">Go bear it to the Centaur, where we host, </l>
       <l>And stay there, Dromio, till I come to thee. </l>
       <l>Within this hour it will be dinner-time: </l>
       <l>Till that, I'll view the manners of the town, </l>
@@ -357,7 +357,7 @@
      </sp>
      <sp who="ant.-s.">
       <speaker>Ant. S.</speaker>
-      <l>A trusty villain, sir, that very oft, </l>
+      <l n="20">A trusty villain, sir, that very oft, </l>
       <l>When I am dull with care and melancholy, </l>
       <l>Lightens my humor with his merry jests. </l>
       <l>What, will you walk with me about the town, </l>
@@ -370,7 +370,7 @@
       <l>I crave your pardon. Soon at five o'clock, </l>
       <l>Please you, I'l meet with you upon the mart </l>
       <l>And afterward consort you till bed-time: </l>
-      <l>My present business calls me from you now. </l>
+      <l n="30">My present business calls me from you now. </l>
      </sp>
      <sp who="ant.-s.">
       <speaker>Ant. S.</speaker>
@@ -390,7 +390,7 @@
       <l>That in the ocean seeks another drop, </l>
       <l>Who, falling there to find his fellow forth, </l>
       <l>Unseen, inquisitive, confounds himself: </l>
-      <l>So I, to find a mother and a brother, </l>
+      <l n="40">So I, to find a mother and a brother, </l>
       <l>In quest of them, unhappy, lose myself. <stage type="entrance"> Enter
         DROMIO of Ephesus.</stage>
        </l>
@@ -406,7 +406,7 @@
       <l>She is so hot because the meat is cold; </l>
       <l>The meat is cold because you come not home; </l>
       <l>You come not home because you have no stomach; </l>
-      <l>You have no stomach having broke your fast; </l>
+      <l n="51">You have no stomach having broke your fast; </l>
       <l>But we that know what 'tis to fast and pray </l>
       <l>Are penitent for your default to-day. </l>
      </sp>
@@ -425,7 +425,7 @@
       <speaker>Ant. S.</speaker>
       <l>I am not in a sportive humor now: </l>
       <l>Tell me, and dally not, where is the money? </l>
-      <l>We being strangers here, how darest thou trust </l>
+      <l n="61">We being strangers here, how darest thou trust </l>
       <l>So great a charge from thine own custody? </l>
      </sp>
      <sp who="dro.-e.">
@@ -440,7 +440,7 @@
      <sp who="ant.-s.">
       <speaker>Ant. S.</speaker>
       <l>Come, Dromio, come, these jests are out of season; </l>
-      <l>Reserve them till a merrier hour than this. </l>
+      <l n="70">Reserve them till a merrier hour than this. </l>
       <l>Where is the gold I gave in charge to thee? </l>
      </sp>
      <sp who="dro.-e.">
@@ -462,7 +462,7 @@
       <speaker>Ant. S.</speaker>
       <l>Now, as I am a Christian, answer me </l>
       <l>In what safe place you have bestow'd my money, </l>
-      <l>Or I shall break that merry sconce of yours </l>
+      <l n="80">Or I shall break that merry sconce of yours </l>
       <l>That stands on tricks when I am undisposed: </l>
       <l>Where is the thousand marks thou hadst of me? </l>
      </sp>
@@ -482,7 +482,7 @@
       <speaker>Dro. E.</speaker>
       <l>Your worship's wife, my mistress at the Phoenix; </l>
       <l>She that doth fast till you come home to dinner </l>
-      <l>And prays that you will hie you home to dinner. </l>
+      <l n="91">And prays that you will hie you home to dinner. </l>
      </sp>
      <sp who="ant.-s.">
       <speaker>Ant. S.</speaker>
@@ -501,7 +501,7 @@
       <l>The villain is o'er-raught of all my money. </l>
       <l>They say this town is full of cozenage, </l>
       <l>As, nimble jugglers that deceive the eye, </l>
-      <l>Dark-working sorcerers that change the mind, </l>
+      <l n="100">Dark-working sorcerers that change the mind, </l>
       <l>Soul-killing witches that deform the body, </l>
       <l>Disguised cheaters, prating mountebanks, </l>
       <l>And many such-like liberties of sin: </l>
@@ -537,7 +537,7 @@
       <l>Good sister, let us dine and never fret: </l>
       <l>A man is master of his liberty: </l>
       <l>Time is their master, and, when they see time, </l>
-      <l>They'll go or come: if so, be patient, sister. </l>
+      <l n="10">They'll go or come: if so, be patient, sister. </l>
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
@@ -565,7 +565,7 @@
       <l>There's nothing situate under heaven's eye </l>
       <l>But hath his bound, in earth, in sea, in sky: </l>
       <l>The beasts, the fishes, and the winged fowls </l>
-      <l>Are their males' subjects and at their controls: </l>
+      <l n="20">Are their males' subjects and at their controls: </l>
       <l>Men, more divine, the masters of all these, </l>
       <l>Lords of the wide world and wild watery seas, </l>
       <l>Indued with intellectual sense and souls, </l>
@@ -587,7 +587,7 @@
      </sp>
      <sp who="luc.">
       <speaker>Luc.</speaker>
-      <l>Ere I learn love, I'll practise to obey. </l>
+      <l n="30">Ere I learn love, I'll practise to obey. </l>
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
@@ -606,7 +606,7 @@
       <l>But were we burden'd with like weight of pain, </l>
       <l>As much or more we should ourselves complain: </l>
       <l>So thou, that hast no unkind mate to grieve thee, </l>
-      <l>With urging helpless patience wouldst relieve me; </l>
+      <l n="40">With urging helpless patience wouldst relieve me; </l>
       <l>But, if thou live to see like right bereft, </l>
       <l>This fool-begg'd patience in thee will be left. </l>
      </sp>
@@ -675,7 +675,7 @@
      </sp>
      <sp who="luc.">
       <speaker>Luc.</speaker>
-      <l>Quoth who? </l>
+      <l n="70">Quoth who? </l>
      </sp>
      <sp who="dro.-e.">
       <speaker>Dro. E.</speaker>
@@ -700,7 +700,7 @@
      </sp>
      <sp who="dro.-e.">
       <speaker>Dro. E.</speaker>
-      <l>And he will bless that cross with other beating: </l>
+      <l n="80">And he will bless that cross with other beating: </l>
       <l>Between you I shall have a holy head. </l>
      </sp>
      <sp who="adr.">
@@ -723,7 +723,7 @@
       <speaker>Adr.</speaker>
       <l>His company must do his minions grace, </l>
       <l>Whilst I at home starve for a merry look. </l>
-      <l>Hath homely age the alluring beauty took </l>
+      <l n="90">Hath homely age the alluring beauty took </l>
       <l>From my poor cheek? then he hath wasted it: </l>
       <l>Are my discourses dull? barren my wit? </l>
       <l>If voluble and sharp discourse be marr'd, </l>
@@ -733,7 +733,7 @@
       <l>What ruins are in me that can be found, </l>
       <l>By him not ruin'd? then is he the ground </l>
       <l>Of my defeatures. My decayed fair </l>
-      <l>A sunny look of his would soon repair: </l>
+      <l n="100">A sunny look of his would soon repair: </l>
       <l>But, too unruly deer, he breaks the pale </l>
       <l>And feeds from home; poor I am but his stale. </l>
      </sp>
@@ -750,7 +750,7 @@
       <l>Would that alone, alone he would detain, </l>
       <l>So he would keep fair quarter with his bed! </l>
       <l>I see the jewel best enamelled </l>
-      <l>Will lose his beauty; yet the gold bides still, </l>
+      <l n="111">Will lose his beauty; yet the gold bides still, </l>
       <l>That others touch, and often touching will </l>
       <l>Wear gold: and no man that hath a name, </l>
       <l>By falsehood and corruption doth it shame. </l>
@@ -783,7 +783,7 @@
       <l>How now, sir! is your merry humor alter'd? </l>
       <l>As you love strokes, so jest with me again. </l>
       <l>You know no Centaur? you received no gold? </l>
-      <l>Your mistress sent to have me home to dinner? </l>
+      <l n="11">Your mistress sent to have me home to dinner? </l>
       <l>My house was at the Phoenix? Wast thou mad, </l>
       <l>That thus so madly thou didst answer me? </l>
      </sp>
@@ -804,7 +804,7 @@
       <speaker>Ant. S.</speaker>
       <l>Villain, thou didst deny the gold's receipt, </l>
       <l>And told'st me of a mistress and a dinner; </l>
-      <l>For which, I hope, thou felt'st I was displeased. </l>
+      <l n="20">For which, I hope, thou felt'st I was displeased. </l>
      </sp>
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>
@@ -827,7 +827,7 @@
       <l>Because that I familiarly sometimes </l>
       <l>Do use you for my fool and chat with you, </l>
       <l>Your sauciness will jest upon my love </l>
-      <l>And make a common of my serious hours. </l>
+      <l n="30">And make a common of my serious hours. </l>
       <l>When the sun shines let foolish gnats make sport, </l>
       <l>But creep in crannies when he hides his beams. </l>
       <l>If you will jest with me, know my aspect </l>
@@ -865,7 +865,7 @@
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>
       <l>Was there ever any man thus beaten out of season, </l>
-      <l>When in the why and the wherefore is neither rhyme nor reason? </l>
+      <l n="50">When in the why and the wherefore is neither rhyme nor reason? </l>
       <l>Well, sir, I thank you. </l>
      </sp>
      <sp who="ant.-s.">
@@ -1031,7 +1031,7 @@
      </sp>
      <sp who="ant.-s.">
       <speaker>Ant. S.</speaker>
-      <l>I knew 'twould be a bald conclusion: </l>
+      <l n="111">I knew 'twould be a bald conclusion: </l>
       <l>But, soft! who wafts us yonder? <stage type="entrance"> Enter ADRIANA and LUCIANA.</stage>
        </l>
      </sp>
@@ -1044,7 +1044,7 @@
       <l>That never words were music to thine ear, </l>
       <l>That never object pleasing in thine eye, </l>
       <l>That never touch well welcome to thy hand, </l>
-      <l>That never meat sweet-savor'd in thy taste, </l>
+      <l n="120">That never meat sweet-savor'd in thy taste, </l>
       <l>Unless I spake, or look'd, or touch'd, or carved to thee. </l>
       <l>How comes it now, my husband, O, how comes it, </l>
       <l>That thou art thus estranged from thyself? </l>
@@ -1054,7 +1054,7 @@
       <l>Ah, do not tear away thyself from me! </l>
       <l>For know, my love, as easy mayest thou fall </l>
       <l>A drop of water in the breaking gulf, </l>
-      <l>And take unmingled thence that drop again, </l>
+      <l n="130">And take unmingled thence that drop again, </l>
       <l>Without addition or diminishing, </l>
       <l>As take from me thyself and not me too. </l>
       <l>How dearly would it touch thee to the quick, </l>
@@ -1064,7 +1064,7 @@
       <l>Wouldst thou not spit at me and spurn at me </l>
       <l>And hurl the name of husband in my face </l>
       <l>And tear the stain'd skin off my harlot-brow </l>
-      <l>And from my false hand cut the wedding-ring </l>
+      <l n="140">And from my false hand cut the wedding-ring </l>
       <l>And break it with a deep-divorcing vow? </l>
       <l>I know thou canst; and therefore see thou do it. </l>
       <l>I am possess'd with an adulterate blot; </l>
@@ -1077,7 +1077,7 @@
      </sp>
      <sp who="ant.-s.">
       <speaker>Ant. S.</speaker>
-      <l>Plead you to me, fair dame? I know you not: </l>
+      <l n="150">Plead you to me, fair dame? I know you not: </l>
       <l>In Ephesus I am but two hours old, </l>
       <l>As strange unto your town as to your talk; </l>
       <l>Who, every word by all my wit being scann'd, </l>
@@ -1099,7 +1099,7 @@
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
-      <l>By thee; and this thou didst return from him, </l>
+      <l n="160">By thee; and this thou didst return from him, </l>
       <l>That he did buffet thee, and, in his blows, </l>
       <l>Denied my house for his, me for his wife. </l>
      </sp>
@@ -1123,7 +1123,7 @@
      </sp>
      <sp who="ant.-s.">
       <speaker>Ant. S.</speaker>
-      <l>How can she thus then call us by our names? </l>
+      <l n="169">How can she thus then call us by our names? </l>
       <l>Unless it be by inspiration. </l>
      </sp>
      <sp who="adr.">
@@ -1137,7 +1137,7 @@
       <l>Thou art an elm, my husband, I a vine, </l>
       <l>Whose weakness, married to thy stronger state, </l>
       <l>Makes me with thy strength to communicate: </l>
-      <l>If aught possess thee from me, it is dross, </l>
+      <l n="180">If aught possess thee from me, it is dross, </l>
       <l>Usurping ivy, brier, or idle moss; </l>
       <l>Who, all for want of pruning, with intrusion </l>
       <l>Infect thy sap and live on thy confusion. </l>
@@ -1153,7 +1153,7 @@
      </sp>
      <sp who="luc.">
       <speaker>Luc.</speaker>
-      <l>Dromio, go bid the servants spread for dinner. </l>
+      <l n="190">Dromio, go bid the servants spread for dinner. </l>
      </sp>
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>
@@ -1204,7 +1204,7 @@
       <l>To put the finger in the eye and weep, </l>
       <l>Whilst man and master laugh my woes to scorn. </l>
       <l>Come, sir, to dinner. Dromio, keep the gate. </l>
-      <l>Husband, I'll dine above with you to-day </l>
+      <l n="210">Husband, I'll dine above with you to-day </l>
       <l>And shrive you of a thousand idle pranks. </l>
       <l>Sirrah, if any ask you for your master, </l>
       <l>Say he dines forth, and let no creature enter. </l>
@@ -1220,7 +1220,7 @@
      </sp>
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>
-      <l>Master, shall I be porter at the gate? </l>
+      <l n="220">Master, shall I be porter at the gate? </l>
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
@@ -1256,7 +1256,7 @@
       <l>But here's a villain that would face me down </l>
       <l>He met me on the mart and that I beat him, </l>
       <l>And charged him with a thousand marks in gold, </l>
-      <l>And that I did deny my wife and house. </l>
+      <l n="10">And that I did deny my wife and house. </l>
       <l>Thou drunkard, thou, what didst thou mean by this? </l>
      </sp>
      <sp who="dro.-e.">
@@ -1279,7 +1279,7 @@
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
-      <l>You're sad, Signior Balthazar: pray God our cheer </l>
+      <l n="20">You're sad, Signior Balthazar: pray God our cheer </l>
       <l>May answer my good will and your good welcome here. </l>
      </sp>
      <sp who="bal.">
@@ -1307,7 +1307,7 @@
       <speaker>Ant. E.</speaker>
       <l>Ay to a niggardly host and more sparing guest: </l>
       <l>But though my cates be mean, take them in good part; </l>
-      <l>Better cheer may you have, but not with better heart. </l>
+      <l n="30">Better cheer may you have, but not with better heart. </l>
       <l>But, soft! my door is lock'd. Go bid them let us in. </l>
      </sp>
      <sp who="dro.-e.">
@@ -1338,7 +1338,7 @@
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>
       <stage>[Within]</stage>
-      <l>Right, sir; I'll tell you when, an you'll tell me wherefore. </l>
+      <l n="40">Right, sir; I'll tell you when, an you'll tell me wherefore. </l>
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
@@ -1482,7 +1482,7 @@
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
-      <l>There is something in the wind, that we cannot get in. </l>
+      <l n="70">There is something in the wind, that we cannot get in. </l>
      </sp>
      <sp who="dro.-e.">
       <speaker>Dro. E.</speaker>
@@ -1516,7 +1516,7 @@
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>
       <stage>[Within]</stage>
-      <l>Ay, when fowls have no feathers and fish have no fin. </l>
+      <l n="80">Ay, when fowls have no feathers and fish have no fin. </l>
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
@@ -1538,7 +1538,7 @@
       <l>Herein you war against your reputation </l>
       <l>And draw within the compass of suspect </l>
       <l>The unviolated honor of your wife, </l>
-      <l>Once this,--your long experience of her wisdom, </l>
+      <l n="90">Once this,--your long experience of her wisdom, </l>
       <l>Her sober virtue, years and modesty, </l>
       <l>Plead on her part some cause to you unknown; </l>
       <l>And doubt not, sir, but she will well excuse </l>
@@ -1548,7 +1548,7 @@
       <l>And about evening come yourself alone </l>
       <l>To know the reason of this strange restraint. </l>
       <l>If by strong hand you offer to break in </l>
-      <l>Now in the stirring passage of the day, </l>
+      <l n="100">Now in the stirring passage of the day, </l>
       <l>A vulgar comment will be made of it, </l>
       <l>And that supposed by the common rout </l>
       <l>Against your yet ungalled estimation </l>
@@ -1560,7 +1560,7 @@
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
       <l>You have prevailed: I will depart in quiet, </l>
-      <l>And, in despite of mirth, mean to be merry. </l>
+      <l n="109">And, in despite of mirth, mean to be merry. </l>
       <l>I know a wench of excellent discourse, </l>
       <l>Pretty and witty; wild, and yet, too, gentle: </l>
       <l>There will we dine. This woman that I mean, </l>
@@ -1573,7 +1573,7 @@
       <l>Bring it, I pray you, to the Porpentine; </l>
       <l>For there's the house: that chain will I bestow-- </l>
       <l>Be it for nothing but to spite my wife-- </l>
-      <l>Upon mine hostess there: good sir, make haste. </l>
+      <l n="120">Upon mine hostess there: good sir, make haste. </l>
       <l>Since mine own doors refuse to entertain me, </l>
       <l>I'll knock elsewhere, to see if they'll disdain me. </l>
      </sp>
@@ -1606,7 +1606,7 @@
       <l>Or if you like elsewhere, do it by stealth; </l>
       <l>Muffle your false love with some show of blindness: </l>
       <l>Let not my sister read it in your eye; </l>
-      <l>Be not thy tongue thy own shame's orator; </l>
+      <l n="11">Be not thy tongue thy own shame's orator; </l>
       <l>Look sweet, speak fair, become disloyalty; </l>
       <l>Apparel vice like virtue's harbinger; </l>
       <l>Bear a fair presence, though your heart be tainted; </l>
@@ -1615,7 +1615,7 @@
       <l>What simple thief brags of his own attaint? </l>
       <l>'Tis double wrong, to truant with your bed </l>
       <l>And let her read it in thy looks at board: </l>
-      <l>Shame hath a bastard fame, well managed; </l>
+      <l n="20">Shame hath a bastard fame, well managed; </l>
       <l>Ill deeds are doubled with an evil word. </l>
       <l>Alas, poor women! make us but believe, </l>
       <l>Being compact of credit, that you love us; </l>
@@ -1629,7 +1629,7 @@
      <sp who="ant.-s.">
       <speaker>Ant. S.</speaker>
       <l>Sweet mistress,--what your name is else, I know not, </l>
-      <l>Nor by what wonder you do hit of mine,-- </l>
+      <l n="31">Nor by what wonder you do hit of mine,-- </l>
       <l>Less in your knowledge and your grace you show not </l>
       <l>Than our earth's wonder, more than earth divine. </l>
       <l>Teach me, dear creature, how to think and speak; </l>
@@ -1638,7 +1638,7 @@
       <l>The folded meaning of your words' deceit. </l>
       <l>Against my soul's pure truth why labor you </l>
       <l>To make it wander in an unknown field? </l>
-      <l>Are you a god? would you create me new? </l>
+      <l n="40">Are you a god? would you create me new? </l>
       <l>Transform me then, and to your power I'll yield. </l>
       <l>But if that I am I, then well I know v</l>
       <l>Your weeping sister is no wife of mine, </l>
@@ -1648,7 +1648,7 @@
       <l>To drown me in thy sister's flood of tears: </l>
       <l>Sing, siren, for thyself and I will dote: </l>
       <l>Spread o'er the silver waves thy golden hairs, </l>
-      <l>And as a bed I'll take them and there lie, </l>
+      <l n="50">And as a bed I'll take them and there lie, </l>
       <l>And in that glorious supposition think </l>
       <l>He gains by death that hath such means to die: </l>
       <l>Let Love, being light, be drowned if she sink ! </l>
@@ -1896,7 +1896,7 @@
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>
       <l>As from a bear a man would run for life, </l>
-      <l>So fly I from her that would be my wife. <stage>[Exit.</stage>
+      <l n="161">So fly I from her that would be my wife. <stage>[Exit.</stage>
        </l>
      </sp>
      <sp who="ant.-s.">
@@ -1942,7 +1942,7 @@
       <speaker>Ang.</speaker>
       <l>Not once, nor twice, but twenty times you have. </l>
       <l>Go home with it and please your wife withal; </l>
-      <l>And soon at supper-time I'll visit you </l>
+      <l n="180">And soon at supper-time I'll visit you </l>
       <l>And then receive my money for the chain. </l>
      </sp>
      <sp who="ant.-s.">
@@ -1992,7 +1992,7 @@
       <speaker>Ang.</speaker>
       <l>Even just the sum that I do owe to you </l>
       <l>Is growing to me by Antipholus, </l>
-      <l>And in the instant that I met with you </l>
+      <l n="10">And in the instant that I met with you </l>
       <l>He had of me a chain: at five o'clock </l>
       <l>I shall receive the money for the same. </l>
       <l>Pleaseth you walk with me down to his house, </l>
@@ -2009,7 +2009,7 @@
       <l>And buy a rope's end: that will I bestow </l>
       <l>Among my wife and her confederates, </l>
       <l>For locking me out of my doors by day. </l>
-      <l>But, soft! I see the goldsmith. Get thee gone; </l>
+      <l n="20">But, soft! I see the goldsmith. Get thee gone; </l>
       <l>Buy thou a rope and bring it home to me. </l>
      </sp>
      <sp who="dro.-e.">
@@ -2030,7 +2030,7 @@
       <l>Saving your merry humor, here's the note </l>
       <l>How much your chain weighs to the utmost carat, </l>
       <l>The fineness of the gold and chargeful fashion, </l>
-      <l>Which doth amount to three odd ducats more </l>
+      <l n="31">Which doth amount to three odd ducats more </l>
       <l>Than I stand debted to this gentleman: </l>
       <l>I pray you, see him presently discharged, </l>
       <l>For he is bound to sea and stays but for it. </l>
@@ -2042,7 +2042,7 @@
       <l>Good signior, take the stranger to my house </l>
       <l>And with you take the chain and bid my wife </l>
       <l>Disburse the sum on the receipt thereof: </l>
-      <l>Perchance I will be there as soon as you. </l>
+      <l n="40">Perchance I will be there as soon as you. </l>
      </sp>
      <sp who="ang.">
       <speaker>Ang.</speaker>
@@ -2070,7 +2070,7 @@
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
       <l>Good Lord! you use this dalliance to excuse </l>
-      <l>Your breach of promise to the Porpentine. </l>
+      <l n="50">Your breach of promise to the Porpentine. </l>
       <l>I should have chid you for not bringing it, </l>
       <l>But, like a shrew, you first begin to brawl. </l>
      </sp>
@@ -2098,7 +2098,7 @@
      </sp>
      <sp who="sec.-mer.">
       <speaker>Sec. Mer.</speaker>
-      <l>My business cannot brook this dalliance. </l>
+      <l n="60">My business cannot brook this dalliance. </l>
       <l>Good sir, say whether you'll answer me or no: </l>
       <l>If not, I'll leave him to the officer. </l>
      </sp>
@@ -2129,7 +2129,7 @@
      </sp>
      <sp who="sec.-mer.">
       <speaker>Sec. Mer.</speaker>
-      <l>Well, officer, arrest him at my suit. </l>
+      <l n="70">Well, officer, arrest him at my suit. </l>
      </sp>
      <sp who="off.">
       <speaker>Off.</speaker>
@@ -2158,7 +2158,7 @@
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
-      <l>I do obey thee till I give thee bail. </l>
+      <l n="81">I do obey thee till I give thee bail. </l>
       <l>But, sirrah, you shall buy this sport as dear </l>
       <l>As all the metal in your shop will answer. </l>
      </sp>
@@ -2175,7 +2175,7 @@
       <l>That stays but till her owner comes aboard, </l>
       <l>And then, sir, she bears away. Our fraughtage, sir, </l>
       <l>I have convey'd aboard; and I have bought </l>
-      <l>The oil, the balsamum and aqua-vitæ. </l>
+      <l n="90">The oil, the balsamum and aqua-vitæ. </l>
       <l>The ship is in her trim: the merry wind </l>
       <l>Blows fair from land: they stay for nought at all </l>
       <l>But for their owner, master, and yourself. </l>
@@ -2197,7 +2197,7 @@
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>
       <l>You sent me for a rope's end as soon: </l>
-      <l>You sent me to the bay, sir, for a bark. </l>
+      <l n="100">You sent me to the bay, sir, for a bark. </l>
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
@@ -2216,7 +2216,7 @@
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>
       <l>To Adriana! that is where we dined, </l>
-      <l>Where Dowsabel did claim me for her husband: </l>
+      <l n="111">Where Dowsabel did claim me for her husband: </l>
       <l>She is too big, I hope, for me to compass. </l>
       <l>Thither I must, although against my will, </l>
       <l>For servants must their masters' minds fulfil. <stage>[Exit.</stage></l>
@@ -2249,7 +2249,7 @@
      </sp>
      <sp who="luc.">
       <speaker>Luc.</speaker>
-      <l>Then swore he that he was a stranger here. </l>
+      <l n="10">Then swore he that he was a stranger here. </l>
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
@@ -2331,7 +2331,7 @@
       <l>A wolf, nay, worse, a fellow all in buff; </l>
       <l>A back-friend, a shoulder-clapper, one that countermands </l>
       <l>The passages of alleys, creeks and narrow lands; </l>
-      <l>A hound that runs counter and yet draws dryfoot well; </l>
+      <l n="40">A hound that runs counter and yet draws dryfoot well; </l>
       <l>One that before the judgement carries poor souls to hell. </l>
      </sp>
      <sp who="adr.">
@@ -2359,7 +2359,7 @@
       <l>This I wonder at, 
        </l>
       <l>That he, unknown to me, should be in debt, </l>
-      <l>Tell me, was he arrested on a band? </l>
+      <l n="50">Tell me, was he arrested on a band? </l>
      </sp>
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>
@@ -2392,7 +2392,7 @@
       <l>Time is a very bankrupt, and owes more than he's worth, to season.
         </l>
       <l>Nay, he's a thief too: have you not heard men say, </l>
-      <l>That Time comes stealing on by night and day? </l>
+      <l n="61">That Time comes stealing on by night and day? </l>
       <l>If Time be in debt and theft, and a sergeant in the way, </l>
       <l>Hath he not reason to turn back an hour in a day? <stage type="entrance"> Re-enter LUCIANA with a purse. </stage>
        </l>
@@ -2423,7 +2423,7 @@
       <l>Some offer me commodities to buy: </l>
       <l>Even now a tailor call'd me in his shop </l>
       <l>And show'd me silks that he had bought for me </l>
-      <l>And therewithal took measure of my body. </l>
+      <l n="10">And therewithal took measure of my body. </l>
       <l>Sure, these are but imaginary wiles </l>
       <l>And Lapland sorcerers inhabit here. <stage type="entrance"> Enter
         DROMIO of Syracuse.</stage>
@@ -2494,7 +2494,7 @@
      </sp>
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>
-      <l>Master, is this Mistress Satan? </l>
+      <l n="50">Master, is this Mistress Satan? </l>
      </sp>
      <sp who="ant.-s.">
       <speaker>Ant. S.</speaker>
@@ -2511,7 +2511,7 @@
      </sp>
      <sp who="cour.">
       <speaker>Cour.</speaker>
-      <l>Your man and you are marvellous merry, sir. </l>
+      <l n="60">Your man and you are marvellous merry, sir. </l>
       <l>Will you go with me? We'll mend our dinner here ? </l>
      </sp>
      <sp who="dro.-s.">
@@ -2537,7 +2537,7 @@
      <sp who="cour.">
       <speaker>Cour.</speaker>
       <l>Give me the ring of mine you had at dinner, </l>
-      <l>Or, for my diamond, the chain you promised, </l>
+      <l n="71">Or, for my diamond, the chain you promised, </l>
       <l>And I'll be gone, sir, and not trouble you. </l>
      </sp>
      <sp who="dro.-s.">
@@ -2552,7 +2552,7 @@
      <sp who="cour.">
       <speaker>Cour.</speaker>
       <l>I pray you, sir, my ring, or else the chain: </l>
-      <l>I hope you do not mean to cheat me so. </l>
+      <l n="80">I hope you do not mean to cheat me so. </l>
      </sp>
      <sp who="ant.-s.">
       <speaker>Ant. S.</speaker>
@@ -2573,7 +2573,7 @@
       <l>Both one and other he denies me now. </l>
       <l>The reason that I gather he is mad, </l>
       <l>Besides this present instance of his rage, </l>
-      <l>Is a mad tale he told to-day at dinner, </l>
+      <l n="90">Is a mad tale he told to-day at dinner, </l>
       <l>Of his own doors being shut against his entrance. </l>
       <l>Belike his wife, acquainted with his fits, </l>
       <l>On purpose shut the doors against his way. </l>
@@ -2603,7 +2603,7 @@
       <l>I tell you, 'twill sound harshly in her ears. <stage type="entrance">Enter DROMIO of Ephesus with a rope's-end.</stage>
        </l>
       <l>Here comes my man; I think he brings the money. </l>
-      <l>How now, sir! have you that I sent you for? </l>
+      <l n="10">How now, sir! have you that I sent you for? </l>
      </sp>
      <sp who="dro.-e.">
       <speaker>Dro. E.</speaker>
@@ -2701,7 +2701,7 @@
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
-      <l>His incivility confirms no less. </l>
+      <l n="50">His incivility confirms no less. </l>
       <l>Good Doctor Pinch, you are a conjurer; </l>
       <l>Establish him in his true sense again, </l>
       <l>And I will please you what you will demand. </l>
@@ -2727,7 +2727,7 @@
       <speaker>Pinch.</speaker>
       <l>I charge thee, Satan, housed within this man, </l>
       <l>To yield possession to my holy prayers </l>
-      <l>And to thy state of darkness hie thee straight: </l>
+      <l n="60">And to thy state of darkness hie thee straight: </l>
       <l>I conjure thee by all the saints in heaven! </l>
      </sp>
      <sp who="ant.-e.">
@@ -2750,7 +2750,7 @@
       <speaker>Adr.</speaker>
       <l>O husband, God doth know you dined at home; </l>
       <l>Where would you had remain'd until this time, </l>
-      <l>Free from these slanders and this open shame! </l>
+      <l n="71">Free from these slanders and this open shame! </l>
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
@@ -2786,7 +2786,7 @@
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
-      <l>And did not I in rage depart from thence ? </l>
+      <l n="80">And did not I in rage depart from thence ? </l>
      </sp>
      <sp who="dro.-e.">
       <speaker>Dro. E.</speaker>
@@ -2814,7 +2814,7 @@
      <sp who="dro.-e.">
       <speaker>Dro. E.</speaker>
       <l>Money by me! heart and goodwill you might; </l>
-      <l>But surely, master, not a rag of money. </l>
+      <l n="90">But surely, master, not a rag of money. </l>
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
@@ -2842,7 +2842,7 @@
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
       <l>Say, wherefore didst thou lock me forth to-day? </l>
-      <l>And why dost thou deny the bag of gold? </l>
+      <l n="100">And why dost thou deny the bag of gold? </l>
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
@@ -2868,7 +2868,7 @@
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
-      <l>O, bind him, bind him! let him not come near me. </l>
+      <l n="110">O, bind him, bind him! let him not come near me. </l>
      </sp>
      <sp who="pinch.">
       <speaker>Pinch.</speaker>
@@ -2897,7 +2897,7 @@
      <sp who="adr.">
       <speaker>Adr.</speaker>
       <l>What wilt thou do, thou peevish officer ? </l>
-      <l>Hast thou delight to see a wretched man </l>
+      <l n="119">Hast thou delight to see a wretched man </l>
       <l>Do outrage and displeasure to himself? </l>
      </sp>
      <sp who="off.">
@@ -2919,7 +2919,7 @@
      </sp>
      <sp who="dro.-e.">
       <speaker>Dro. E.</speaker>
-      <l>Master, I am here enter'd in bond for you. </l>
+      <l n="130">Master, I am here enter'd in bond for you. </l>
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
@@ -2964,7 +2964,7 @@
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
-      <l>He did bespeak a chain for me, but had it not. </l>
+      <l n="140">He did bespeak a chain for me, but had it not. </l>
      </sp>
      <sp who="cour.">
       <speaker>Cour.</speaker>
@@ -2988,7 +2988,7 @@
      <sp who="adr.">
       <speaker>Adr.</speaker>
       <l>And come with naked swords. </l>
-      <l>Let's call more help to have them bound again. 
+      <l n="150">Let's call more help to have them bound again. 
        </l>
      </sp>
      <sp who="off.">
@@ -3055,7 +3055,7 @@
      </sp>
      <sp who="sec.-mer.">
       <speaker>Sec. Mer.</speaker>
-      <l>Speak softly; yonder, as I think, he walks. <stage type="entrance">Enter ANTIPHOLUS of Syracuse and DROMIO of Syracuse.</stage>
+      <l n="10">Speak softly; yonder, as I think, he walks. <stage type="entrance">Enter ANTIPHOLUS of Syracuse and DROMIO of Syracuse.</stage>
        </l>
      </sp>
      <sp who="ang.">
@@ -3069,7 +3069,7 @@
       <l>With circumstance and oaths so to deny </l>
       <l>This chain which now you wear so openly: </l>
       <l>Beside the charge, the shame, imprisonment, </l>
-      <l>You have done wrong to this my honest friend, </l>
+      <l n="20">You have done wrong to this my honest friend, </l>
       <l>Who, but for staying on our controversy, </l>
       <l>Had hoisted sail and put to sea to-day: </l>
       <l>This chain you had of me; can you deny it? </l>
@@ -3094,7 +3094,7 @@
      </sp>
      <sp who="ant.-s.">
       <speaker>Ant. S.</speaker>
-      <l>Thou art a villain to impeach me thus: </l>
+      <l n="30">Thou art a villain to impeach me thus: </l>
       <l>I'll prove mine honor and mine honesty </l>
       <l>Against thee presently, if thou darest stand. </l>
      </sp>
@@ -3124,7 +3124,7 @@
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
-      <l>To fetch my poor distracted husband hence. </l>
+      <l n="40">To fetch my poor distracted husband hence. </l>
       <l>Let us come in, that we may bind him fast </l>
       <l>And bear him home for his recovery. </l>
      </sp>
@@ -3150,7 +3150,7 @@
      <sp who="abb.">
       <speaker>Abb.</speaker>
       <l>Hath he not lost much wealth by wreck of sea? </l>
-      <l>Buried some dear friend? Hath not else his eye </l>
+      <l n="51">Buried some dear friend? Hath not else his eye </l>
       <l>Stray'd his affection in unlawful love? </l>
       <l>A sin prevailing much in youthful men, </l>
       <l>Who give their eyes the liberty of gazing. </l>
@@ -3202,7 +3202,7 @@
       <speaker>Abb.</speaker>
       <l>And thereof came it that the man was mad: </l>
       <l>The venom clamors of a jealous woman </l>
-      <l>Poisons more deadly than a mad dog's tooth. </l>
+      <l n="71">Poisons more deadly than a mad dog's tooth. </l>
       <l>It seems his sleeps were hinder'd by thy railing, </l>
       <l>And thereof comes it that his head is light. </l>
       <l>Thou say'st his meat was sauced with thy upbraidings: </l>
@@ -3211,7 +3211,7 @@
       <l>And what's a fever but a fit of madness? </l>
       <l>Thou say'st his sports were hinder'd by thy brawls: </l>
       <l>Sweet recreation barr'd, what doth ensue </l>
-      <l>But moody and dull melancholy, </l>
+      <l n="80">But moody and dull melancholy, </l>
       <l>Kinsman to grim and comfortless despair, </l>
       <l>And at her heels a huge infectious troop </l>
       <l>Of pale distemperatures and foes to life? </l>
@@ -3228,7 +3228,7 @@
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
-      <l>She did betray me to my own reproof. </l>
+      <l n="91">She did betray me to my own reproof. </l>
       <l>Good people, enter and lay hold on him. </l>
      </sp>
      <sp who="abb.">
@@ -3249,7 +3249,7 @@
      <sp who="adr.">
       <speaker>Adr.</speaker>
       <l>I will attend my husband, be his nurse, </l>
-      <l>Diet his sickness, for it is my office, </l>
+      <l n="100">Diet his sickness, for it is my office, </l>
       <l>And will have no attorney but myself; </l>
       <l>And therefore let me have him home with me. </l>
      </sp>
@@ -3265,7 +3265,7 @@
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
-      <l>I will not hence and leave my husband here: </l>
+      <l n="110">I will not hence and leave my husband here: </l>
       <l>And ill it doth beseem your holiness </l>
       <l>To separate the husband and the wife. </l>
      </sp>
@@ -3288,7 +3288,7 @@
      <sp who="sec.-mer.">
       <speaker>Sec. Mer.</speaker>
       <l>By this, I think, the dial points at five: </l>
-      <l>Anon, I'm sure, the duke himself in person </l>
+      <l n="120">Anon, I'm sure, the duke himself in person </l>
       <l>Comes this way to the melancholy vale, </l>
       <l>The place of death and sorry execution, </l>
       <l>Behind the ditches of the abbey here. </l>
@@ -3316,7 +3316,7 @@
      </sp>
      <sp who="duke.">
       <speaker>Duke.</speaker>
-      <l>Yet once again proclaim it publicly, </l>
+      <l n="131">Yet once again proclaim it publicly, </l>
       <l>If any friend will pay the sum for him,m </l>
       <l>He shall not die; so much we tender him. </l>
      </sp>
@@ -3335,7 +3335,7 @@
       <l>Whom I made lord of me and all I had, </l>
       <l>At your important letters,--this ill day </l>
       <l>A most outrageous fit of madness took him; </l>
-      <l>That desperately he hurried through the street, </l>
+      <l n="141">That desperately he hurried through the street, </l>
       <l>With him his bondman, all as mad as he,-- </l>
       <l>Doing displeasure to the citizens </l>
       <l>By rushing in their houses, bearing thence </l>
@@ -3344,7 +3344,7 @@
       <l>Whilst to take order for the wrongs I went, </l>
       <l>That here and there his fury had committed. </l>
       <l>Anon, I wot not by what strong escape, </l>
-      <l>He broke from those that had the guard of him; </l>
+      <l n="150">He broke from those that had the guard of him; </l>
       <l>And with his mad attendant and himself, </l>
       <l>Each one with ireful passion, with drawn swords, </l>
       <l>Met us again and madly bent on us, </l>
@@ -3354,7 +3354,7 @@
       <l>And here the abbess shuts the gates on us </l>
       <l>And will not suffer us to fetch him out, </l>
       <l>Nor send him forth that we may bear him hence. </l>
-      <l>Therefore, most gracious duke, with thy command </l>
+      <l n="160">Therefore, most gracious duke, with thy command </l>
       <l>Let him be brought forth and borne hence for help. </l>
      </sp>
      <sp who="duke.">
@@ -3373,7 +3373,7 @@
       <speaker>Serv.</speaker>
       <l>O mistress, mistress, shift and save yourself! </l>
       <l>My master and his man are both broke loose, </l>
-      <l>Beaten the maids a-row and bound the doctor, </l>
+      <l n="171">Beaten the maids a-row and bound the doctor, </l>
       <l>Whose beard they have singed off with brands of fire; </l>
       <l>And ever, as it blazed, they threw on him </l>
       <l>Great pails of puddled mire to quench the hair: </l>
@@ -3384,7 +3384,7 @@
      </sp>
      <sp who="adr.">
       <speaker>Adr.</speaker>
-      <l>Peace, fool! thy master and his man are here, </l>
+      <l n="179">Peace, fool! thy master and his man are here, </l>
       <l>And that is false thou dost report to us. </l>
      </sp>
      <sp who="serv.">
@@ -3405,7 +3405,7 @@
       <l>Ay me, it is my husband! Witness you, </l>
       <l>That he is borne about invisible: </l>
       <l>Even now we housed him in the abbey here; </l>
-      <l>And now he's there, past thought of human reason. <stage type="entrance">Enter ANTIPHOLUS of Ephesus and DROMIO of Ephesus.</stage>
+      <l n="190">And now he's there, past thought of human reason. <stage type="entrance">Enter ANTIPHOLUS of Ephesus and DROMIO of Ephesus.</stage>
        </l>
      </sp>
      <sp who="ant.-e.">
@@ -3425,7 +3425,7 @@
       <speaker>Ant. E.</speaker>
       <l>Justice, sweet prince, against that woman there! </l>
       <l>She whom thou gavest to me to be my wife, </l>
-      <l>That hath abused and dishonor'd me </l>
+      <l n="200">That hath abused and dishonor'd me </l>
       <l>Even in the strength and height of injury! </l>
       <l>Beyond imagination is the wrong </l>
       <l>That she this day hath shameless thrown on me. </l>
@@ -3447,7 +3447,7 @@
       <speaker>Adr.</speaker>
       <l>No, my good lord: myself, he and my sister </l>
       <l>To-day did dine together. So befall my soul </l>
-      <l>As this is false he burdens me withal! </l>
+      <l n="210">As this is false he burdens me withal! </l>
      </sp>
      <sp who="luc.">
       <speaker>Luc.</speaker>
@@ -3466,7 +3466,7 @@
       <l>Nor heady-rash, provoked with raging ire, </l>
       <l>Albeit my wrongs might make one wiser mad. </l>
       <l>This woman lock'd me out this day from dinner: </l>
-      <l>That goldsmith there, were he not pack'd with her, </l>
+      <l n="220">That goldsmith there, were he not pack'd with her, </l>
       <l>Could witness it, for he was with me then; </l>
       <l>Who parted with me to go fetch a chain, </l>
       <l>Promising to bring it to the Porpentine, </l>
@@ -3476,7 +3476,7 @@
       <l>And in his company that gentleman. </l>
       <l>There did this perjured goldsmith swear me down </l>
       <l>That I this day of him received the chain, </l>
-      <l>Which, God he knows, I saw not: for the which </l>
+      <l n="230">Which, God he knows, I saw not: for the which </l>
       <l>He did arrest me with an officer. </l>
       <l>I did obey, and sent my peasant home </l>
       <l>For certain ducats: he with none return'd </l>
@@ -3488,7 +3488,7 @@
       <l>They brought one Pinch, a hungry lean-faced villain, </l>
       <l>A mere anatomy, a mountebank, </l>
       <l>A threadbare juggler and a forutne-teller, </l>
-      <l>A needy, hollow-eyed, sharp-looking wretch, </l>
+      <l n="241">A needy, hollow-eyed, sharp-looking wretch, </l>
       <l>A living-dead man: this pernicious slave, </l>
       <l>Forsooth, took on him as a conjurer, </l>
       <l>And, gazing in mine eyes, feeling my pulse, </l>
@@ -3497,7 +3497,7 @@
       <l>They fell upon me, bound me, bore me thence </l>
       <l>And in a dark and dankish vault at home </l>
       <l>There left me and my man, both bound together; </l>
-      <l>Till, gnawing with my teeth my bonds in sunder, </l>
+      <l n="250">Till, gnawing with my teeth my bonds in sunder, </l>
       <l>I gain'd my freedom and immediately </l>
       <l>Ran hither to your grace; whom I beseech </l>
       <l>To give me ample satisfaction </l>
@@ -3520,7 +3520,7 @@
      <sp who="sec.-mer.">
       <speaker>Sec. Mer.</speaker>
       <l>Besides, I will be sworn these ears of mine </l>
-      <l>Heard you confess you had the chain of him </l>
+      <l n="261">Heard you confess you had the chain of him </l>
       <l>After you first foreswore it on the mart: </l>
       <l>And thereupon I drew my sword on you; </l>
       <l>And then you fled into this abbey here, </l>
@@ -3535,7 +3535,7 @@
      </sp>
      <sp who="duke.">
       <speaker>Duke.</speaker>
-      <l>Why, what an intricate impeach is this! </l>
+      <l n="270">Why, what an intricate impeach is this! </l>
       <l>I think you all have drunk of Circe's cup. </l>
       <l>If here you housed him, here he would have been; </l>
       <l>If he were mad, he would not plead so coldly: </l>
@@ -3560,7 +3560,7 @@
      </sp>
      <sp who="cour.">
       <speaker>Cour.</speaker>
-      <l>As sure, my liege, as I do see your grace. </l>
+      <l n="280">As sure, my liege, as I do see your grace. </l>
      </sp>
      <sp who="duke.">
       <speaker>Duke.</speaker>
@@ -3587,7 +3587,7 @@
      <sp who="dro.-e.">
       <speaker>Dro. E.</speaker>
       <l>Within this hour I was his bondman, sir, </l>
-      <l>But he, I thank him, gnaw'd in two my cords: </l>
+      <l n="290">But he, I thank him, gnaw'd in two my cords: </l>
       <l>Now am I Dromio and his man unbound. </l>
      </sp>
      <sp who="aege.">
@@ -3613,7 +3613,7 @@
       <l>O, grief hath changed me since you saw me last, </l>
       <l>And careful hours with time's deformed hand </l>
       <l>Have written strange defeatures in my face: </l>
-      <l>But tell me yet, dost thou not know my voice? </l>
+      <l n="301">But tell me yet, dost thou not know my voice? </l>
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
@@ -3653,7 +3653,7 @@
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
-      <l>I never saw my father in my life. </l>
+      <l n="320">I never saw my father in my life. </l>
      </sp>
      <sp who="aege.">
       <speaker>Æge.</speaker>
@@ -3677,7 +3677,7 @@
      </sp>
      <sp who="abb.">
       <speaker>Abb.</speaker>
-      <l>Most mighty duke, behold a man much wrong'd. <stage>[All gather to see them. </stage>
+      <l n="331">Most mighty duke, behold a man much wrong'd. <stage>[All gather to see them. </stage>
        </l>
      </sp>
      <sp who="adr.">
@@ -3708,7 +3708,7 @@
      </sp>
      <sp who="abb.">
       <speaker>Abb.</speaker>
-      <l>Whoever bound him, I will loose his bonds </l>
+      <l n="340">Whoever bound him, I will loose his bonds </l>
       <l>And gain a husband by his liberty. </l>
       <l>Speak, old Ægeon, if thou be'st the man </l>
       <l>That hadst a wife once call'd Æmilia </l>
@@ -3724,7 +3724,7 @@
      </sp>
      <sp who="abb.">
       <speaker>Abb.</speaker>
-      <l>By men of Epidamnum he and I </l>
+      <l n="350">By men of Epidamnum he and I </l>
       <l>And the twin Dromio all were taken up; </l>
       <l>But by and by rude fishermen of Corinth </l>
       <l>By force took Dromio and my son from them </l>
@@ -3737,7 +3737,7 @@
       <l>Why, here begins his morning story right: </l>
       <l>These two Antipholuses, these two so like, </l>
       <l>And these two Dromios, one in semblance,-- </l>
-      <l>Besides her urging of her wreck at sea,-- </l>
+      <l n="360">Besides her urging of her wreck at sea,-- </l>
       <l>These are the parents to these children, </l>
       <l>Which accidentally are met together. </l>
       <l>Antipholus, thou camest from Corinth first? </l>
@@ -3797,7 +3797,7 @@
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
-      <l>And you, sir, for this chain arrested me. </l>
+      <l n="380">And you, sir, for this chain arrested me. </l>
      </sp>
      <sp who="ang.">
       <speaker>Ang.</speaker>
@@ -3822,7 +3822,7 @@
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
-      <l>These ducats pawn I for my father here. </l>
+      <l n="390">These ducats pawn I for my father here. </l>
      </sp>
      <sp who="duke.">
       <speaker>Duke.</speaker>
@@ -3843,7 +3843,7 @@
       <l>And hear at large discoursed all our fortunes: </l>
       <l>And all that are assembled in this place, </l>
       <l>That by this sympathized one day's error </l>
-      <l>Have suffer'd wrong, go keep us company, </l>
+      <l n="399">Have suffer'd wrong, go keep us company, </l>
       <l>And we shall make full satisfaction. </l>
       <l>Thirty-three years have I but gone in travail </l>
       <l>Of you, my sons; and till this present hour </l>
@@ -3866,7 +3866,7 @@
      </sp>
      <sp who="ant.-e.">
       <speaker>Ant. E.</speaker>
-      <l>Dromio, what stuff of mine hast thou embark'd? </l>
+      <l n="410">Dromio, what stuff of mine hast thou embark'd? </l>
      </sp>
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>
@@ -3889,7 +3889,7 @@
       <speaker>Dro. E.</speaker>
       <l>Methinks you are my glass, and not my brother: </l>
       <l>I see by you I am a sweet-faced youth. </l>
-      <l>Will you walk in to see their gossiping? </l>
+      <l n="420">Will you walk in to see their gossiping? </l>
      </sp>
      <sp who="dro.-s.">
       <speaker>Dro. S.</speaker>

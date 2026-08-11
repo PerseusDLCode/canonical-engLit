@@ -260,7 +260,7 @@
       <l part="F">'Twixt Guynes and Arde: </l>
       <l>I was then present, saw them salute on horseback; </l>
       <l>Beheld them, when they lighted, how they clung </l>
-      <l>In their embracement, as they grew together; </l>
+      <l n="11">In their embracement, as they grew together; </l>
       <l>Which had they, what four throned ones could have weigh'd </l>
       <l part="I">Such a compounded one? </l>
      </sp>
@@ -278,7 +278,7 @@
       <l>Became the next day's master, till the last </l>
       <l>Made former wonders its. To-day the French, </l>
       <l>All clinquant, all in gold, like heathen gods, </l>
-      <l>Shone down the English; and, to-morrow, they </l>
+      <l n="21">Shone down the English; and, to-morrow, they </l>
       <l>Made Britain India: every man that stood </l>
       <l>Show'd like a mine. Their dwarfish pages were </l>
       <l>As cherubins, all gilt: the madams too, </l>
@@ -287,7 +287,7 @@
       <l>Was to them as a painting: now this masque </l>
       <l>Was cried incomparable; and the ensuing night </l>
       <l>Made it a fool and beggar. The two kings, </l>
-      <l>Equal in lustre, were now best, now worst, </l>
+      <l n="30">Equal in lustre, were now best, now worst, </l>
       <l>As presence did present them; him in eye, </l>
       <l>Still him in praise: and, being present both, </l>
       <l>Twas said they saw but one; and no discerner </l>
@@ -304,7 +304,7 @@
      </sp>
      <sp who="nor.">
       <speaker>Nor.</speaker>
-      <l>As I belong to worship and affect </l>
+      <l n="40">As I belong to worship and affect </l>
       <l>In honour honesty, the tract of every thing </l>
       <l>Would by a good discourser lose some life, </l>
       <l>Which action's self was tongue to. All was royal; </l>
@@ -359,7 +359,7 @@
       <l part="F">I cannot tell </l>
       <l>What heaven hath given him,--let some graver eye </l>
       <l>Pierce into that; but I can see his pride </l>
-      <l>Peep through each part of him: whence has he that, </l>
+      <l n="70">Peep through each part of him: whence has he that, </l>
       <l>If not from hell? the devil is a niggard, </l>
       <l>Or has given all before, and he begins </l>
       <l part="I">A new hell in himself. </l>
@@ -374,7 +374,7 @@
       <l>To whom as great a charge as little honour </l>
       <l>He meant to lay upon: and his own letter, </l>
       <l>The honourable board of council out, </l>
-      <l part="I">Must fetch him in the papers. </l>
+      <l n="80" part="I">Must fetch him in the papers. </l>
      </sp>
      <sp who="aber.">
       <speaker>Aber.</speaker>
@@ -429,7 +429,7 @@
      <sp who="buck.">
       <speaker>Buck.</speaker>
       <l part="F">Why, all this business </l>
-      <l part="I">Our reverend cardinal carried. </l>
+      <l n="100" part="I">Our reverend cardinal carried. </l>
      </sp>
      <sp who="nor.">
       <speaker>Nor.</speaker>
@@ -442,7 +442,7 @@
       <l>Together; to consider further that </l>
       <l>What his high hatred would effect wants not </l>
       <l>A minister in his power. You know his nature, </l>
-      <l>That he's revengeful, and I know his sword </l>
+      <l n="110">That he's revengeful, and I know his sword </l>
       <l>Math a sharp edge: it's long and, 't may be said, </l>
       <l>It reaches far, and where 'twill not extend, </l>
       <l>Thither he darts it. Bosom up my counsel, </l>
@@ -474,7 +474,7 @@
      <sp who="wol.">
       <speaker>Wol.</speaker>
       <l>Well, we shall then know more; and Buckingham </l>
-      <l>Shall lessen this big look. <stage type="exit">Exeunt Wolsey and his
+      <l n="120">Shall lessen this big look. <stage type="exit">Exeunt Wolsey and his
         Train.</stage>
        </l>
      </sp>
@@ -550,7 +550,7 @@
       <speaker>Buck.</speaker>
       <l>To the king I'll say't; and make my vouch as strong </l>
       <l>As shore of rock. Attend. This holy fox, </l>
-      <l>Or wolf, or both,--for he is equal ravenous </l>
+      <l n="160">Or wolf, or both,--for he is equal ravenous </l>
       <l>As he is subtle, and as prone to mischief </l>
       <l>As able to perform't; his mind and place </l>
       <l>Infecting one another, yea, reciprocally-- </l>
@@ -566,7 +566,7 @@
      </sp>
      <sp who="buck.">
       <speaker>Buck.</speaker>
-      <l>Pray, give me favour, sir. This cunning cardinal </l>
+      <l n="169">Pray, give me favour, sir. This cunning cardinal </l>
       <l>The articles o' the combination drew </l>
       <l>As himself pleased; and they were ratified </l>
       <l>As he cried 'Thus let be': to as much end </l>
@@ -577,7 +577,7 @@
       <l>To the old dam, treason,--Charles the emperor, </l>
       <l>Under pretence to see the queen his aunt,-- </l>
       <l>For 'twas indeed his colour, but he came </l>
-      <l>To whisper Wolsey,--here makes visitation: </l>
+      <l n="180">To whisper Wolsey,--here makes visitation: </l>
       <l>His fears were, that the interview betwixt </l>
       <l>England and France might, through their amity, </l>
       <l>Breed him some prejudice; for from this league </l>
@@ -587,7 +587,7 @@
       <l>Paid ere he promised; whereby his suit was granted </l>
       <l>Ere it was ask'd; but when the way was made, </l>
       <l>And paved with gold, the emperor thus desired, </l>
-      <l>That he would please to alter the king's course, </l>
+      <l n="190">That he would please to alter the king's course, </l>
       <l>And break the foresaid peace. Let the king know, </l>
       <l>As soon he shall by me, that thus the cardinal </l>
       <l>Does buy and sell his honour as he pleases, </l>
@@ -636,7 +636,7 @@
       <speaker>Buck.</speaker>
       <l part="F">It will help me nothing </l>
       <l>To plead mine innocence; for that dye is on me, </l>
-      <l>Which makes my whitest part black. The will of heaven </l>
+      <l n="210">Which makes my whitest part black. The will of heaven </l>
       <l>Be done in this and all things! I obey. </l>
       <l>O my Lord Abergavenny, fare you well! </l>
      </sp>
@@ -658,7 +658,7 @@
       <l part="F">Here is a warrant from </l>
       <l>The king to attach Lord Montacute; and the bodies </l>
       <l>Of the duke's confessor, John de la Car, </l>
-      <l part="I">One Gilbert Peck, his chancellor,-- </l>
+      <l n="219" part="I">One Gilbert Peck, his chancellor,-- </l>
      </sp>
      <sp who="buck.">
       <speaker>Buck.</speaker>
@@ -716,7 +716,7 @@
      </sp>
      <sp who="q.-kath.">
       <speaker>Q. Kath.</speaker>
-      <l>Nay, we must longer kneel: I am a suitor. </l>
+      <l n="10">Nay, we must longer kneel: I am a suitor. </l>
      </sp>
      <sp who="king.">
       <speaker>King.</speaker>
@@ -740,7 +740,7 @@
      <sp who="q.-kath.">
       <speaker>Q. Kath.</speaker>
       <l>I am solicited, not by a few, </l>
-      <l>And those of true condition, that your subjects </l>
+      <l n="20">And those of true condition, that your subjects </l>
       <l>Are in great grievance: there have been commissions </l>
       <l>Sent down among 'em, which hath flaw'd the heart </l>
       <l>Of all their loyalties: wherein, although, </l>
@@ -769,7 +769,7 @@
       <l part="F">Taxation! </l>
       <l>Wherein? and what taxation? My lord cardinal, </l>
       <l>You that are blamed for it alike with us, </l>
-      <l part="I">Know you of this taxation? </l>
+      <l n="40" part="I">Know you of this taxation? </l>
      </sp>
      <sp who="wol.">
       <speaker>Wol.</speaker>
@@ -804,7 +804,7 @@
       <l>Under your promised pardon. The subjects' grief </l>
       <l>Comes through commissions, which compel from each </l>
       <l>The sixth part of his substance, to be levied </l>
-      <l>Without delay; and the pretence for this </l>
+      <l n="60">Without delay; and the pretence for this </l>
       <l>Is named, your wars in France: this makes bold mouths: </l>
       <l>Tongues spit their duties out, and cold hearts freeze </l>
       <l>Allegiance in them; their curses now </l>
@@ -822,7 +822,7 @@
      <sp who="wol.">
       <speaker>Wol.</speaker>
       <l part="F">And for me, </l>
-      <l>I have no further gone in this than by </l>
+      <l n="70">I have no further gone in this than by </l>
       <l>A single voice; and that not pass'd me but </l>
       <l>By learned approbation of the judges. If I am </l>
       <l>Traduced by ignorant tongues, which neither know </l>
@@ -832,7 +832,7 @@
       <l>That virtue must go through. We must not stint </l>
       <l>Our necessary actions, in the fear </l>
       <l>To cope malicious censurers; which ever, </l>
-      <l>As ravenous fishes, do a vessel follow </l>
+      <l n="80">As ravenous fishes, do a vessel follow </l>
       <l>That is new-trimm'd, but benefit no further </l>
       <l>Than vainly longing. What we oft do best, </l>
       <l>By sick interpreters, once weak ones, is </l>
@@ -846,7 +846,7 @@
      <sp who="king.">
       <speaker>King.</speaker>
       <l part="F">Things done well, </l>
-      <l>And with a care, exempt themselves from fear; </l>
+      <l n="90">And with a care, exempt themselves from fear; </l>
       <l>Things done without example, in their issue </l>
       <l>Are to be fear'd. Have you a precedent </l>
       <l>Of this commission? I believe, not any. </l>
@@ -856,7 +856,7 @@
       <l>From every tree lop, bark, and part o' the timber; </l>
       <l>And, though we leave it with a root, thus hack'd, </l>
       <l>The air will drink the sap. To every county </l>
-      <l>Where this is question'd send our letters, with </l>
+      <l n="100">Where this is question'd send our letters, with </l>
       <l>Free pardon to each man that has denied </l>
       <l>The force of this commission: pray, look to't; </l>
       <l part="I">I put it to your care. </l>
@@ -877,7 +877,7 @@
      <sp who="q.-kath.">
       <speaker>Q. Kath.</speaker>
       <l>I am sorry that the Duke of Buckingham </l>
-      <l part="I">Is run in your displeasure. </l>
+      <l n="110" part="I">Is run in your displeasure. </l>
      </sp>
      <sp who="king.">
       <speaker>King.</speaker>
@@ -954,7 +954,7 @@
       <speaker>Surv.</speaker>
       <l part="F">Sir, a Chartreux friar, </l>
       <l>His confessor; who fed him every minute </l>
-      <l part="I">With words of sovereignty. </l>
+      <l n="150" part="I">With words of sovereignty. </l>
      </sp>
      <sp who="king.">
       <speaker>King.</speaker>
@@ -970,7 +970,7 @@
       <l>Men fear'd the French would prove perfidious, </l>
       <l>To the king's danger. Presently the duke </l>
       <l>Said, 'twas the fear, indeed; and that he doubted </l>
-      <l>'Twould prove the verity of certain words </l>
+      <l n="160">'Twould prove the verity of certain words </l>
       <l>Spoke by a holy monk; 'that oft,' says he, </l>
       <l>'Hath sent to me, wishing me to permit </l>
       <l>John de la Car, my chaplain, a choice hour </l>
@@ -982,7 +982,7 @@
       <l>This pausingly ensued: Neither the king nor's heirs, </l>
       <l>Tell you the duke, shall prosper: bid him strive </l>
       <l>To gain the love o' the commonalty: the duke </l>
-      <l part="I">Shall govern England.' </l>
+      <l n="171" part="I">Shall govern England.' </l>
      </sp>
      <sp who="q.-kath.">
       <speaker>Q. Kath.</speaker>
@@ -1002,7 +1002,7 @@
       <speaker>Surv.</speaker>
       <l>On my soul, I'll speak but truth. </l>
       <l>I told my lord the duke, by the devil's illusions </l>
-      <l>The monk might be deceived; and that 'twas dangerous for him </l>
+      <l n="180">The monk might be deceived; and that 'twas dangerous for him </l>
       <l>To ruminate on this so far, until </l>
       <l>It forged him some design, which, being believed, </l>
       <l>It was much like to do: he answer'd, 'Tush, </l>
@@ -1028,7 +1028,7 @@
       <speaker>Surv.</speaker>
       <l part="F">Being at Greenwich, </l>
       <l>After your highness had reproved the duke </l>
-      <l part="I">About Sir William Blomer,-- </l>
+      <l n="190" part="I">About Sir William Blomer,-- </l>
      </sp>
      <sp who="king.">
       <speaker>King.</speaker>
@@ -1076,7 +1076,7 @@
      <sp who="king.">
       <speaker>King.</speaker>
       <l part="F">There's his period, </l>
-      <l>To sheathe his knife in us. He is attach'd; </l>
+      <l n="211">To sheathe his knife in us. He is attach'd; </l>
       <l>Call him to present trial: if he may </l>
       <l>Find mercy in the law, 'tis his; if none, </l>
       <l>Let him not seek 't of us: by day and night, </l>
@@ -1110,7 +1110,7 @@
       <l>Have got by the late voyage is but merely </l>
       <l>A fit or two o' the face; but they are shrewd ones; </l>
       <l>For when they hold 'em, you would swear directly </l>
-      <l>Their very noses had been counsellors </l>
+      <l n="10">Their very noses had been counsellors </l>
       <l>To Pepin or Clotharius, they keep state so. </l>
      </sp>
      <sp who="sands.">
@@ -1142,7 +1142,7 @@
      </sp>
      <sp who="lov.">
       <speaker>Lov.</speaker>
-      <l>The reformation of our travell'd gallants, </l>
+      <l n="20">The reformation of our travell'd gallants, </l>
       <l>That fill the court with quarrels, talk, and tailors. </l>
      </sp>
      <sp who="cham.">
@@ -1160,7 +1160,7 @@
       <l>Pertaining thereunto, as fights and fireworks, </l>
       <l>Abusing better men than they can be, </l>
       <l>Out of a foreign wisdom, renouncing clean </l>
-      <l>The faith they have in tennis, and tall stockings, </l>
+      <l n="31">The faith they have in tennis, and tall stockings, </l>
       <l>Short blister'd breeches, and those types of travel, </l>
       <l>And understand again like honest men; </l>
       <l>Or pack to their old playfellows: there, I take it, </l>
@@ -1181,7 +1181,7 @@
       <speaker>Lov.</speaker>
       <l part="F">Ay, marry, </l>
       <l>There will be woe indeed, lords: the sly whoresons </l>
-      <l>Have got a speeding trick to lay down ladies; </l>
+      <l n="41">Have got a speeding trick to lay down ladies; </l>
       <l>A French song and a fiddle has no fellow. </l>
      </sp>
      <sp who="sands.">
@@ -1206,7 +1206,7 @@
      <sp who="cham.">
       <speaker>Cham.</speaker>
       <l part="F">Sir Thomas, </l>
-      <l part="I">Whither were you a-going? </l>
+      <l n="50" part="I">Whither were you a-going? </l>
      </sp>
      <sp who="lov.">
       <speaker>Lov.</speaker>
@@ -1233,7 +1233,7 @@
      </sp>
      <sp who="sands.">
       <speaker>Sands.</speaker>
-      <l>He may, my lord; has wherewithal: in him </l>
+      <l n="60">He may, my lord; has wherewithal: in him </l>
       <l>Sparing would show a worse sin than ill doctrine: </l>
       <l>Men of his way should be most liberal; </l>
       <l part="I">They are set here for examples. </l>
@@ -1309,7 +1309,7 @@
      </sp>
      <sp who="cham.">
       <speaker>Cham.</speaker>
-      <l>Sweet ladies, will it please you sit? Sir Harry, </l>
+      <l n="20">Sweet ladies, will it please you sit? Sir Harry, </l>
       <l>Place you that side; I'll take the charge of this: </l>
       <l>His grace is entering. Nay, you must not freeze; </l>
       <l>Two women placed together makes cold weather: </l>
@@ -1331,7 +1331,7 @@
       <speaker>Sands.</speaker>
       <l>O, very mad, exceeding mad, in love too: </l>
       <l>But he would bite none; just as I do now, </l>
-      <l part="I">He would kiss you twenty with a breath. <stage>Kisses her.</stage>
+      <l n="30" part="I">He would kiss you twenty with a breath. <stage>Kisses her.</stage>
        </l>
      </sp>
      <sp who="cham.">
@@ -1360,7 +1360,7 @@
       <speaker>Sands.</speaker>
       <l part="F">Your grace is noble: </l>
       <l>Let me have such a bowl may hold my thanks, </l>
-      <l part="I">And save me so much talking. </l>
+      <l n="40" part="I">And save me so much talking. </l>
      </sp>
      <sp who="wol.">
       <speaker>Wol.</speaker>
@@ -1403,7 +1403,7 @@
      </sp>
      <sp who="cham.">
       <speaker>Cham.</speaker>
-      <l part="I">Look out there, some of ye. <stage type="exit">Exit Servant.</stage>
+      <l n="50" part="I">Look out there, some of ye. <stage type="exit">Exit Servant.</stage>
        </l>
      </sp>
      <sp who="wol.">
@@ -1429,7 +1429,7 @@
       <l part="F">Good lord chamberlain, </l>
       <l>Go, give 'em welcome; you can speak the French tongue; </l>
       <l>And, pray, receive 'em nobly, and conduct 'em </l>
-      <l>Into our presence, where this heaven of beauty </l>
+      <l n="60">Into our presence, where this heaven of beauty </l>
       <l>Shall shine at full upon them. Some attend him. <stage type="exit">Exit Chamberlain,
         attended. All rise, and tables removed.</stage>
        </l>
@@ -1447,7 +1447,7 @@
       <l>To tell your grace, that, having heard by fame </l>
       <l>Of this so noble and so fair assembly </l>
       <l>This night to meet here, they could do no less, </l>
-      <l>Out of the great respect they bear to beauty, </l>
+      <l n="70">Out of the great respect they bear to beauty, </l>
       <l>But leave their flocks; and, under your fair conduct, </l>
       <l>Crave leave to view these ladies and entreat </l>
       <l part="I">An hour of revels with 'em. </l>
@@ -1477,7 +1477,7 @@
       <speaker>Wol.</speaker>
       <l part="F">Pray, tell 'em thus much from me: </l>
       <l>There should be one amongst 'em, by his person, </l>
-      <l>More worthy this place than myself; to whom, </l>
+      <l n="80">More worthy this place than myself; to whom, </l>
       <l>If I but knew him, with my love and duty </l>
       <l part="I">I would surrender it. </l>
      </sp>
@@ -1513,7 +1513,7 @@
      <sp who="wol.">
       <speaker>Wol.</speaker>
       <l part="F">I am glad </l>
-      <l part="I">Your grace is grown so pleasant. </l>
+      <l n="90" part="I">Your grace is grown so pleasant. </l>
      </sp>
      <sp who="king.">
       <speaker>King.</speaker>
@@ -1641,7 +1641,7 @@
       <l>Of divers witnesses; which the duke desired </l>
       <l>To have brought viva voce to his face: </l>
       <l>At which appear'd against him his surveyor; </l>
-      <l>Sir Gilbert Peck his chancellor; and John Car, </l>
+      <l n="21">Sir Gilbert Peck his chancellor; and John Car, </l>
       <l>Confessor to him; with that devil-monk, </l>
       <l part="I">Hopkins that made this mischief. </l>
      </sp>
@@ -1658,7 +1658,7 @@
       <l>And so his peers, upon this evidence, </l>
       <l>Have found him guilty of high treason. Much </l>
       <l>He spoke, and learnedly, for life; but all </l>
-      <l>Was either pitied in him or forgotten. </l>
+      <l n="30">Was either pitied in him or forgotten. </l>
      </sp>
      <sp who="sec.-gent.">
       <speaker>Sec. Gent.</speaker>
@@ -1686,7 +1686,7 @@
      <sp who="sec.-gent.">
       <speaker>Sec. Gent.</speaker>
       <l part="F">Certainly </l>
-      <l part="I">The cardinal is the end of this. </l>
+      <l n="40" part="I">The cardinal is the end of this. </l>
      </sp>
      <sp who="first-gent.">
       <speaker>First Gent.</speaker>
@@ -1713,7 +1713,7 @@
       <speaker>Sec. Gent.</speaker>
       <l part="F">All the commons </l>
       <l>Hate him perniciously, and, o' my conscience, </l>
-      <l>Wish him ten fathom deep: this duke as much </l>
+      <l n="52">Wish him ten fathom deep: this duke as much </l>
       <l>They love and dote on; call him bounteous Buckingham, </l>
       <l part="I">The mirror of all courtesy;-- 
        </l>
@@ -1737,7 +1737,7 @@
       <l>You that thus far have come to pity me, </l>
       <l>Hear what I say, and then go home and lose me. </l>
       <l>I have this day received a traitor's judgement, </l>
-      <l>And by that name must die: yet, heaven bear witness, </l>
+      <l n="60">And by that name must die: yet, heaven bear witness, </l>
       <l>And if I have a conscience, let it sink me, </l>
       <l>Even as the axe falls, if I be not faithful! </l>
       <l>The law I bear no malice for my death; </l>
@@ -1748,7 +1748,7 @@
       <l>Nor build their evils on the graves of great men; </l>
       <l>For then my guiltless blood must cry against 'em. </l>
       <l>For further life in this world I ne'er hope, </l>
-      <l>Nor will I sue, although the king have mercies </l>
+      <l n="71">Nor will I sue, although the king have mercies </l>
       <l>More than I dare make faults. You few that loved me, </l>
       <l>And dare be bold to weep for Buckingham, </l>
       <l>His noble friends and fellows, whom to leave </l>
@@ -1760,7 +1760,7 @@
      </sp>
      <sp who="lov.">
       <speaker>Lov.</speaker>
-      <l>I do beseech your grace, for charity, </l>
+      <l n="80">I do beseech your grace, for charity, </l>
       <l>If ever any malice in your heart </l>
       <l>Were hid against me, now to forgive me frankly. </l>
      </sp>
@@ -1773,7 +1773,7 @@
       <l>Shall mark my grave. Commend me to his grace; </l>
       <l>And, if he speak of Buckingham, pray, tell him </l>
       <l>You met him half in heaven: my vows and prayers </l>
-      <l>Yet are the king's; and, till my soul forsake, </l>
+      <l n="90">Yet are the king's; and, till my soul forsake, </l>
       <l>Shall cry for blessings on him: may he live </l>
       <l>Longer than I have time to tell his years! </l>
       <l>Ever beloved and loving may his rule be! </l>
@@ -1791,7 +1791,7 @@
       <l part="F">Prepare there, </l>
       <l>The duke is coming: see the barge be ready; </l>
       <l>And fit it with such furniture as suits </l>
-      <l part="I">The greatness of his person. </l>
+      <l n="100" part="I">The greatness of his person. </l>
      </sp>
      <sp who="buck.">
       <speaker>Buck.</speaker>
@@ -1805,7 +1805,7 @@
       <l>My noble father, Henry of Buckingham, </l>
       <l>Who first raised head against usurping Richard, </l>
       <l>Flying for succour to his servant Banister, </l>
-      <l>Being distress'd, was by that wretch betray'd, </l>
+      <l n="111">Being distress'd, was by that wretch betray'd, </l>
       <l>And without trial fell; God's peace be with him! </l>
       <l>Henry the Seventh succeeding, truly pitying </l>
       <l>My father's loss, like a most royal prince, </l>
@@ -1814,7 +1814,7 @@
       <l>Henry the Eighth, life, honour, name and all </l>
       <l>That made me happy at one stroke has taken </l>
       <l>For ever from the world. I had my trial, </l>
-      <l>And, must needs say, a noble one; which makes me </l>
+      <l n="120">And, must needs say, a noble one; which makes me </l>
       <l>A little happier than my wretched father: </l>
       <l>Yet thus far we are one in fortunes: both </l>
       <l>Fell by our servants, by those men we loved most; </l>
@@ -1824,7 +1824,7 @@
       <l>Where you are liberal of your loves and counsels </l>
       <l>Be sure you be not loose; for those you make friends </l>
       <l>And give your hearts to, when they once perceive </l>
-      <l>The least rub in your fortunes, fall away </l>
+      <l n="130">The least rub in your fortunes, fall away </l>
       <l>Like water from ye, never found again </l>
       <l>But where they mean to sink ye. All good people, </l>
       <l>Pray for me! I must now forsake ye: the last hour </l>
@@ -1885,7 +1885,7 @@
       <l>The king will venture at it. Either the cardinal, </l>
       <l>Or some about him near, have, out of malice </l>
       <l>To the good queen, possess'd him with a scruple </l>
-      <l>That will undo her: to confirm this too, </l>
+      <l n="160">That will undo her: to confirm this too, </l>
       <l>Cardinal Campeius is arrived, and lately; </l>
       <l part="I">As all think, for this business. </l>
      </sp>
@@ -1962,7 +1962,7 @@
      <sp who="suf.">
       <speaker>Suf.</speaker>
       <l part="F">No, his conscience </l>
-      <l part="I">Has crept too near another lady. </l>
+      <l n="19" part="I">Has crept too near another lady. </l>
      </sp>
      <sp who="nor.">
       <speaker>Nor.</speaker>
@@ -1982,7 +1982,7 @@
       <l>Between us and the emperor, the queen's great nephew, </l>
       <l>He dives into the king's soul, and there scatters </l>
       <l>Dangers, doubts, wringing of the conscience, </l>
-      <l>Fears, and despairs; and all these for his marriage: </l>
+      <l n="30">Fears, and despairs; and all these for his marriage: </l>
       <l>And out of all these to restore the king, </l>
       <l>He counsels a divorce; a loss of her </l>
       <l>That, like a jewel, has hung twenty years </l>
@@ -1996,7 +1996,7 @@
       <speaker>Cham.</speaker>
       <l>Heaven keep me from such counsel! 'Tis most true </l>
       <l>These news are every where; every tongue speaks 'em, </l>
-      <l>And every true heart weeps for 't: all that dare </l>
+      <l n="41">And every true heart weeps for 't: all that dare </l>
       <l>Look into these affairs see this main end, </l>
       <l>The French king's sister. Heaven will one day open </l>
       <l>The king's eyes, that so long have slept upon </l>
@@ -2013,7 +2013,7 @@
       <l>Or this imperious man will work us all </l>
       <l>From princes into pages: all men's honours </l>
       <l>Lie like one lump before him, to be fashion'd </l>
-      <l part="I">Into what pitch he please. </l>
+      <l n="50" part="I">Into what pitch he please. </l>
      </sp>
      <sp who="suf.">
       <speaker>Suf.</speaker>
@@ -2067,7 +2067,7 @@
      <sp who="nor.">
       <speaker>Nor.</speaker>
       <l>A gracious king that pardons all offences </l>
-      <l>Malice ne'er meant: our breach of duty this way </l>
+      <l n="70">Malice ne'er meant: our breach of duty this way </l>
       <l>Is business of estate; in which we come </l>
       <l part="I">To know your royal pleasure. </l>
      </sp>
@@ -2127,7 +2127,7 @@
       <speaker>Wol.</speaker>
       <l>Your grace has given a precedent of wisdom </l>
       <l>Above all princes, in committing freely </l>
-      <l>Your scruple to the voice of Christendom: </l>
+      <l n="89">Your scruple to the voice of Christendom: </l>
       <l>Who can be angry now? what envy reach you? </l>
       <l>The Spaniard, tied by blood and favour to her, </l>
       <l>Must now confess, if they have any goodness, </l>
@@ -2142,7 +2142,7 @@
      <sp who="king.">
       <speaker>King.</speaker>
       <l>And once more in mine arms I bid him welcome, </l>
-      <l>And thank the holy conclave for their loves: </l>
+      <l n="101">And thank the holy conclave for their loves: </l>
       <l>They have sent me such a man I would have wish'd for. </l>
      </sp>
      <sp who="cam.">
@@ -2157,7 +2157,7 @@
      <sp who="king.">
       <speaker>King.</speaker>
       <l>Two equal men. The queen shall be acquainted </l>
-      <l>Forthwith for what you come. Where's Gardiner? </l>
+      <l n="110">Forthwith for what you come. Where's Gardiner? </l>
      </sp>
      <sp who="wol.">
       <speaker>Wol.</speaker>
@@ -2184,7 +2184,7 @@
      <sp who="gar.">
       <speaker>Gar.</speaker>
       <stage>[Aside to Wol.]</stage>
-      <l>But to be commanded </l>
+      <l n="120">But to be commanded </l>
       <l>For ever by your grace, whose hand has raised me. </l>
      </sp>
      <sp who="king.">
@@ -2241,7 +2241,7 @@
         Gardiner. </stage>
        </l>
       <l>The most convenient place that I can think of </l>
-      <l>For such receipt of learning is Black-Friars; </l>
+      <l n="140">For such receipt of learning is Black-Friars; </l>
       <l>There ye shall meet about this weighty business. </l>
       <l>My Wolsey, see it furnish'd. O, my lord, </l>
       <l>Would it not grieve an able man to leave </l>
@@ -2269,7 +2269,7 @@
       <l>So many courses of the sun enthroned, </l>
       <l>Still growing in a majesty and pomp, the which </l>
       <l>To leave a thousand-fold more bitter than </l>
-      <l>'Tis sweet at first to acquire,--after this process, </l>
+      <l n="10">'Tis sweet at first to acquire,--after this process, </l>
       <l>To give her the avaunt! it is a pity </l>
       <l part="I">Would move a monster. </l>
      </sp>
@@ -2295,7 +2295,7 @@
       <speaker>Anne.</speaker>
       <l part="F">So much the more </l>
       <l>Must pity drop upon her. Verily, </l>
-      <l>I swear, 'tis better to be lowly born, </l>
+      <l n="20">I swear, 'tis better to be lowly born, </l>
       <l>And range with humble livers in content, </l>
       <l>Than to be perk'd up in a glistering grief, </l>
       <l part="I">And wear a golden sorrow. </l>
@@ -2317,7 +2317,7 @@
       <l>For all this spice of your hypocrisy: </l>
       <l>You, that have so fair parts of woman on you, </l>
       <l>Have too a woman's heart: which ever yet </l>
-      <l>Affected eminence, wealth, sovereignty; </l>
+      <l n="30">Affected eminence, wealth, sovereignty; </l>
       <l>Which, to say sooth, are blessings; and which gifts, </l>
       <l>Saving your mincing, the capacity </l>
       <l>Of your soft cheveril conscience would receive, </l>
@@ -2365,7 +2365,7 @@
       <l part="F">In faith, for little England </l>
       <l>You'ld venture an emballing: I myself </l>
       <l>Would for Carnarvonshire, although there 'long'd </l>
-      <l>No more to the crown but that. Lo, who comes here? <stage type="entrance">Enter the LORD CHAMBERLAIN. </stage>
+      <l n="50">No more to the crown but that. Lo, who comes here? <stage type="entrance">Enter the LORD CHAMBERLAIN. </stage>
        </l>
      </sp>
      <sp who="cham.">
@@ -2394,7 +2394,7 @@
       <l>You bear a gentle mind, and heavenly blessings </l>
       <l>Follow such creatures. That you may, fair lady, </l>
       <l>Perceive I speak sincerely, and high note's </l>
-      <l>Ta'en of your many virtues, the king's majesty </l>
+      <l n="61">Ta'en of your many virtues, the king's majesty </l>
       <l>Commends his good opinion of you, and </l>
       <l>Does purpose honour to you no less flowing </l>
       <l>Than Marchioness of Pembroke; to which title </l>
@@ -2424,7 +2424,7 @@
       <l>That they have caught the king: and who knows yet </l>
       <l>But from this lady may proceed a gem </l>
       <l>To lighten all this isle? I'll to the king, </l>
-      <l part="I">And say I spoke with you. <stage type="exit">[Exit Lord
+      <l n="80" part="I">And say I spoke with you. <stage type="exit">[Exit Lord
         Chamberlain.</stage>
        </l>
      </sp>
@@ -2449,7 +2449,7 @@
      </sp>
      <sp who="old-l.">
       <speaker>Old L.</speaker>
-      <l>How tastes it? is it bitter? forty pence, no. </l>
+      <l n="90">How tastes it? is it bitter? forty pence, no. </l>
       <l>There was a lady once, 'tis an old story, </l>
       <l>That would not be a queen, that would she not, </l>
       <l>For all the mud in Egypt: have you heard it? </l>
@@ -2467,7 +2467,7 @@
       <l>That promises moe thousands: honour's train </l>
       <l>Is longer than his foreskirt. By this time </l>
       <l>I know your back will bear a duchess: say, </l>
-      <l part="I">Are you not stronger than you were? </l>
+      <l n="100" part="I">Are you not stronger than you were? </l>
      </sp>
      <sp who="anne.">
       <speaker>Anne.</speaker>
@@ -2531,7 +2531,7 @@
      </sp>
      <sp who="king.">
       <speaker>King.</speaker>
-      <l>Here. </l>
+      <l n="11">Here. </l>
      </sp>
      <sp who="scribe.">
       <speaker>Scribe.</speaker>
@@ -2551,7 +2551,7 @@
       <l>I am a most poor woman, and a stranger, </l>
       <l>Born out of your dominions; having here </l>
       <l>No judge indifferent, nor no more assurance </l>
-      <l>Of equal friendship and proceeding. Alas, sir, </l>
+      <l n="19">Of equal friendship and proceeding. Alas, sir, </l>
       <l>In what have I offended you? what cause </l>
       <l>Hath my behaviour given to your displeasure, </l>
       <l>That thus you should proceed to put me off, </l>
@@ -2562,7 +2562,7 @@
       <l>Yea, subject to your countenance, glad or sorry </l>
       <l>As I saw it inclined: when was the hour </l>
       <l>I ever contradicted your desire, </l>
-      <l>Or made it not mine too? Or which of your friends </l>
+      <l n="30">Or made it not mine too? Or which of your friends </l>
       <l>Have I not strove to love, although I knew </l>
       <l>He were mine enemy? what friend of mine </l>
       <l>That had to him derived your anger, did I </l>
@@ -2572,7 +2572,7 @@
       <l>Upward of twenty years, and have been blest </l>
       <l>With many children by you: if, in the course </l>
       <l>And process of this time, you can report, </l>
-      <l>And prove it too, against mine honour aught, </l>
+      <l n="40">And prove it too, against mine honour aught, </l>
       <l>My bond to wedlock, or my love and duty, </l>
       <l>Against your sacred person, in God's name, </l>
       <l>Turn me away; and let the foul'st contempt </l>
@@ -2582,7 +2582,7 @@
       <l>A prince most prudent, of an excellent </l>
       <l>And unmatch'd wit and judgement: Ferdinand, </l>
       <l>My father, king of Spain, was reckon'd one </l>
-      <l>The wisest prince that there had reign'd by many </l>
+      <l n="50">The wisest prince that there had reign'd by many </l>
       <l>A year before: it is not to be question'd </l>
       <l>That they had gather'd a wise council to them </l>
       <l>Of every realm, that did debate this business, </l>
@@ -2597,7 +2597,7 @@
       <l part="F">You have here, lady. </l>
       <l>And of your choice, these reverend fathers; men </l>
       <l>Of singular integrity and learning, </l>
-      <l>Yea, the elect o' the land, who are assembled </l>
+      <l n="61">Yea, the elect o' the land, who are assembled </l>
       <l>To plead your cause: it shall be therefore bootless </l>
       <l>That longer you desire the court; as well </l>
       <l>For your own quiet, as to rectify </l>
@@ -2639,7 +2639,7 @@
       <l>Induced by potent circumstances, that </l>
       <l>You are mine enemy, and make my challenge </l>
       <l>You shall not be my judge: for it is you </l>
-      <l>Have blown this coal betwixt my lord and me; </l>
+      <l n="80">Have blown this coal betwixt my lord and me; </l>
       <l>Which God's dew quench! Therefore I say again, </l>
       <l>I utterly abhor, yea, from my soul </l>
       <l>Refuse you for my judge; whom, yet once more, </l>
@@ -2653,7 +2653,7 @@
       <l>Have stood to charity, and display'd the effects </l>
       <l>Of disposition gentle, and of wisdom </l>
       <l>O'ertopping woman's power. Madam, you do me wrong: </l>
-      <l>I have no spleen against you; nor injustice </l>
+      <l n="90">I have no spleen against you; nor injustice </l>
       <l>For you or any: how far I have proceeded, </l>
       <l>Or how far further shall, is warranted </l>
       <l>By a commission from the consistory, </l>
@@ -2663,7 +2663,7 @@
       <l>That I gainsay my deed, how may he wound, </l>
       <l>And worthily, my falsehood! yea, as much </l>
       <l>As you have done my truth. If he know </l>
-      <l>That I am free of your report, he knows </l>
+      <l n="100">That I am free of your report, he knows </l>
       <l>I am not of your wrong. Therefore in him </l>
       <l>It lies to cure me: and the cure is, to </l>
       <l>Remove these thoughts from you: the which before </l>
@@ -2678,7 +2678,7 @@
       <l>To oppose your cunning. You're meek and humble-mouth'd; </l>
       <l>You sign your place and calling, in full seeming, </l>
       <l>With meekness and humility; but your heart </l>
-      <l>Is cramm'd with arrogancy, spleen, and pride. </l>
+      <l n="111">Is cramm'd with arrogancy, spleen, and pride. </l>
       <l>You have, by fortune and his highness' favours, </l>
       <l>Gone slightly o'er low steps and now are mounted </l>
       <l>Where powers are your retainers, and your words, </l>
@@ -2715,7 +2715,7 @@
      <sp who="q.-kath.">
       <speaker>Q. Kath.</speaker>
       <l>What need you note it? pray you, keep your way: </l>
-      <l>When you are call'd, return. Now, the Lord help, </l>
+      <l n="130">When you are call'd, return. Now, the Lord help, </l>
       <l>They vex me past my patience! Pray you, pass on: </l>
       <l>I will not tarry; no, nor ever more </l>
       <l>Upon this business my appearance make </l>
@@ -2733,7 +2733,7 @@
       <l>Thy meekness saint-like, wife-like government, </l>
       <l>Obeying in commanding, and thy parts </l>
       <l>Sovereign and pious else, could speak thee out, </l>
-      <l>The queen of earthly queens: she 's noble born; </l>
+      <l n="141">The queen of earthly queens: she 's noble born; </l>
       <l>And, like her true nobility, she has </l>
       <l part="I">Carried herself towards me. </l>
      </sp>
@@ -2746,7 +2746,7 @@
       <l>There must I be unloosed, although not there </l>
       <l>At once and fully satisfied,--whether ever I </l>
       <l>Did broach this business to your highness; or </l>
-      <l>Laid any scruple in your way, which might </l>
+      <l n="151">Laid any scruple in your way, which might </l>
       <l>Induce you to the question on 't? or ever </l>
       <l>Have to you, but with thanks to God for such </l>
       <l>A royal lady, spake one the least word that might </l>
@@ -2761,7 +2761,7 @@
       <l>That you have many enemies, that know not </l>
       <l>Why they are so, but, like to village-curs, </l>
       <l>Bark when their fellows do: by some of these </l>
-      <l>The queen is put in anger. You're excused: </l>
+      <l n="161">The queen is put in anger. You're excused: </l>
       <l>But will you be more justified? you ever </l>
       <l>Have wish'd the sleeping of this business; never desired </l>
       <l>It to be stirr'd; but oft have hinder'd, oft, </l>
@@ -2769,7 +2769,7 @@
       <l>I speak my good lord cardinal to this point, </l>
       <l>And thus far clear him. Now, what moved me to't, </l>
       <l>I will be bold with time and your attention: </l>
-      <l>Then mark the inducement. Thus it came; give heed to't: </l>
+      <l n="170">Then mark the inducement. Thus it came; give heed to't: </l>
       <l>My conscience first received a tenderness, </l>
       <l>Scruple, and prick, on certain speeches utter'd </l>
       <l>By the Bishop of Bayonne, then French ambassador; </l>
@@ -2780,7 +2780,7 @@
       <l>I mean the bishop, did require a respite; </l>
       <l>Wherein he might the king his lord advertise </l>
       <l>Whether our daughter were legitimate, </l>
-      <l>Respecting this our marriage with the dowager, </l>
+      <l n="181">Respecting this our marriage with the dowager, </l>
       <l>Sometimes our brother's wife. This respite shook </l>
       <l>The bosom of my conscience, enter'd me, </l>
       <l>Yea, with a splitting power, and made to tremble </l>
@@ -2789,7 +2789,7 @@
       <l>And press'd in with this caution. First, methought </l>
       <l>I stood not in the smile of heaven; who had </l>
       <l>Commanded nature, that my lady's womb, </l>
-      <l>If it conceived a male child by me, should </l>
+      <l n="190">If it conceived a male child by me, should </l>
       <l>Do no more offices of life to 't than </l>
       <l>The grave does to the dead; for her male issue </l>
       <l>Or died where they were made, or shortly after </l>
@@ -2799,7 +2799,7 @@
       <l>Be gladded in't by me: then follows, that </l>
       <l>I weigh'd the danger which my realms stood in </l>
       <l>By this my issue's fail; and that gave to me </l>
-      <l>Many a groaning throe. Thus hulling in </l>
+      <l n="200">Many a groaning throe. Thus hulling in </l>
       <l>The wild sea of my conscience, I did steer </l>
       <l>Toward this remedy, whereupon we are </l>
       <l>Now present here together; that's to say, </l>
@@ -2834,7 +2834,7 @@
       <speaker>King.</speaker>
       <l part="F">I then moved you, </l>
       <l>My Lord of Canterbury; and got your leave </l>
-      <l>To make this present summons: unsolicited </l>
+      <l n="220">To make this present summons: unsolicited </l>
       <l>I left no reverend person in this court; </l>
       <l>But by particular consent proceeded </l>
       <l>Under your hands and seals: therefore, go on; </l>
@@ -2845,7 +2845,7 @@
       <l>And kingly dignity, we are contented </l>
       <l>To wear our mortal state to come with her, </l>
       <l>Katharine our queen, before the primest creature </l>
-      <l part="I">That's paragon'd o' the world. </l>
+      <l n="230" part="I">That's paragon'd o' the world. </l>
      </sp>
      <sp who="cam.">
       <speaker>Cam.</speaker>
@@ -2864,7 +2864,7 @@
       <l>This dilatory sloth and tricks of Rome. </l>
       <l>My learn'd and well-beloved servant, Cranmer, </l>
       <l>Prithee, return: with thy approach, I know, </l>
-      <l>My comfort comes along. Break up the court: </l>
+      <l n="241">My comfort comes along. Break up the court: </l>
       <l>I say, set on. <stage type="exit">[Exeunt in manner as they
         entered.</stage>
       </l>
@@ -2926,7 +2926,7 @@
       <l part="F">Pray their graces </l>
       <l>To come near. <stage>[Exit Gent.</stage>
        </l>
-      <l>What can be their business </l>
+      <l n="20">What can be their business </l>
       <l>With me, a poor weak woman, fall'n from favour? </l>
       <l>I do not like their coming. Now I think on't, </l>
       <l>They should be good men; their affairs as righteous: </l>
@@ -2979,7 +2979,7 @@
       <l>If you speak truth, for their poor mistress' sake; </l>
       <l>Believe me, she has had much wrong: lord cardinal, </l>
       <l>The willing'st sin I ever yet committed </l>
-      <l part="I">May be absolved in English. </l>
+      <l n="50" part="I">May be absolved in English. </l>
      </sp>
      <sp who="wol.">
       <speaker>Wol.</speaker>
@@ -3011,7 +3011,7 @@
       <stage>[Aside]</stage>
       <l>To betray me.-- </l>
       <l>My lords, I thank you both for your good wills; </l>
-      <l>Ye speak like honest men; pray God, ye prove so! </l>
+      <l n="70">Ye speak like honest men; pray God, ye prove so! </l>
       <l>But how to make ye suddenly an answer, </l>
       <l>In such a point of weight, so near mine honour,-- </l>
       <l>More near my lfe, I fear,--with my weak wit, </l>
@@ -3021,7 +3021,7 @@
       <l>Either for such men or such business. </l>
       <l>For her sake that I have been,--for I feel </l>
       <l>The last fit of my greatness,--good your graces, </l>
-      <l>Let me have time and counsel for my cause: </l>
+      <l n="80">Let me have time and counsel for my cause: </l>
       <l>Alas, I am a woman, friendless, hopeless! </l>
      </sp>
      <sp who="wol.">
@@ -3083,7 +3083,7 @@
       <l>The cordial that ye bring a wretched lady, </l>
       <l>A woman lost among ye, laugh'd at, scorn'd? </l>
       <l>I will not wish ye half my miseries; </l>
-      <l>I have more charity: but say, I warn'd ye; </l>
+      <l n="110">I have more charity: but say, I warn'd ye; </l>
       <l>Take heed, for heaven's sake, take heed, lest at once </l>
       <l>The burthen of my sorrows fall upon ye. </l>
      </sp>
@@ -3098,7 +3098,7 @@
       <l>And all such false professors; would you have me-- </l>
       <l>If you have any justice, any pity; </l>
       <l>If ye be any thing but churchmen's habits-- </l>
-      <l>Put my sick cause into his hands that hates me? </l>
+      <l n="119">Put my sick cause into his hands that hates me? </l>
       <l>Alas, has banish'd me his bed already, </l>
       <l>His love, too long ago! I am old, my lords, </l>
       <l>And all the fellowship I hold now with him </l>
@@ -3116,7 +3116,7 @@
       <l>Since virtue finds no friends--a wife, a true one? </l>
       <l>A woman, I dare say without vain-glory, </l>
       <l>Never yet branded with suspicion? </l>
-      <l>Have I with all my full affections </l>
+      <l n="130">Have I with all my full affections </l>
       <l>Still met the king? loved him next heaven? obey'd him? </l>
       <l>Been, out of fondness, superstitious to him? </l>
       <l>Almost forgot my prayers to content him? </l>
@@ -3132,7 +3132,7 @@
      </sp>
      <sp who="q.-kath.">
       <speaker>Q. Kath.</speaker>
-      <l>My lord, I dare not make myself so guilty, </l>
+      <l n="140">My lord, I dare not make myself so guilty, </l>
       <l>To give up willingly that noble title </l>
       <l>Your master wed me to: nothing but death </l>
       <l part="I">Shall e'er divorce my dignities. </l>
@@ -3150,7 +3150,7 @@
       <l>I am the most unhappy woman living. </l>
       <l>Alas, poor wenches, where are now your fortunes! </l>
       <l>Shipwreck'd upon a kingdom, where no pity, </l>
-      <l>No friends, no hope; no kindred weep for me; </l>
+      <l n="151">No friends, no hope; no kindred weep for me; </l>
       <l>Almost no grave allow'd me: like the lily, </l>
       <l>That once was mistress of the field and flourished, </l>
       <l part="I">I'll hang my head and perish. </l>
@@ -3163,7 +3163,7 @@
       <l>Upon what cause, wrong you? alas, our places, </l>
       <l>The way of our profession is against it: </l>
       <l>We are to cure such sorrows, not to sow 'em. </l>
-      <l>For goodness' sake, consider what you do; </l>
+      <l n="160">For goodness' sake, consider what you do; </l>
       <l>How you may hurt yourself, ay, utterly </l>
       <l>Grow from the king's acquaintance, by this carriage. </l>
       <l>The hearts of princes kiss obedience, </l>
@@ -3176,7 +3176,7 @@
      <sp who="cam.">
       <speaker>Cam.</speaker>
       <l>Madam, you'll find it so. You wrong your virtues </l>
-      <l>With these weak women's fears; a noble spirit, </l>
+      <l n="170">With these weak women's fears; a noble spirit, </l>
       <l>As yours was put into you, ever casts </l>
       <l>Such doubts, as false coin, from it. The king loves you; </l>
       <l>Beware you lose it not: for us, if you please </l>
@@ -3189,7 +3189,7 @@
       <l>If I have used myself unmannerly; </l>
       <l>You know I am a woman, lacking wit </l>
       <l>To make a seemly answer to such persons. </l>
-      <l>Pray, do my service to his majesty: </l>
+      <l n="180">Pray, do my service to his majesty: </l>
       <l>He has my heart yet; and shall have my prayers </l>
       <l>While I shall have my life. Come, reverend fathers, </l>
       <l>Bestow your counsels on me: she now begs, </l>
@@ -3244,7 +3244,7 @@
      <sp who="nor.">
       <speaker>Nor.</speaker>
       <l part="F">O, fear him not; </l>
-      <l>His spell in that is out: the king hath found </l>
+      <l n="21">His spell in that is out: the king hath found </l>
       <l>Matter against him that for ever mars </l>
       <l>The honey of his language. No, he's settled, </l>
       <l part="I">Not to come off, in his displeasure. </l>
@@ -3301,7 +3301,7 @@
       <speaker>Cham.</speaker>
       <l>The king in this perceives him, how he coasts </l>
       <l>And hedges his own way. But in this point </l>
-      <l>All his tricks founder, and he brings his physic </l>
+      <l n="41">All his tricks founder, and he brings his physic </l>
       <l>After his patient's death: the king already </l>
       <l part="I">Hath married the fair lady. </l>
      </sp>
@@ -3333,7 +3333,7 @@
       <l>Marry, this is yet but young, and may be left </l>
       <l>To some ears unrecounted. But, my lords, </l>
       <l>She is a gallant creature, and complete </l>
-      <l>In mind and feature: I persuade me, from her </l>
+      <l n="51">In mind and feature: I persuade me, from her </l>
       <l>Will fall some blessing to this land, which shall </l>
       <l part="I">In it be memorized. </l>
      </sp>
@@ -3354,7 +3354,7 @@
       <l>Will make this sting the sooner. Cardinal Campeius </l>
       <l>Is stol'n away to Rome; hath ta'en no leave; </l>
       <l>Has left the cause o' the king unhandled; and </l>
-      <l>Is posted, as the agent of our cardinal, </l>
+      <l n="60">Is posted, as the agent of our cardinal, </l>
       <l>To second all his plot. I do assure you </l>
       <l part="I">The king cried Ha! at this. </l>
      </sp>
@@ -3420,7 +3420,7 @@
      <sp who="crom.">
       <speaker>Crom.</speaker>
       <l part="F">Presently </l>
-      <l>He did unseal them: and the first he view'd, </l>
+      <l n="80">He did unseal them: and the first he view'd, </l>
       <l>He did it with a serious mind; a heed </l>
       <l>Was in his countenance. You he bade </l>
       <l part="I">Attend him here this morning. </l>
@@ -3443,7 +3443,7 @@
       <l>The French king's sister: he shall marry her. </l>
       <l>Anne Bullen! No; I'll no Anne Bullens for him: </l>
       <l>There's more in't than fair visage. Bullen! </l>
-      <l>No, we'll no Bullens. Speedily I wish </l>
+      <l n="90">No, we'll no Bullens. Speedily I wish </l>
       <l>To hear from Rome. The Marchioness of Pembroke! </l>
      </sp>
      <sp who="nor.">
@@ -3469,7 +3469,7 @@
       <l>Then out it goes. What though I know her virtuous </l>
       <l>And well deserving? yet I know her for </l>
       <l>A spleeny Lutheran; and not wholesome to </l>
-      <l>Our cause, that she should lie i' the bosom of </l>
+      <l n="101">Our cause, that she should lie i' the bosom of </l>
       <l>Our hard-ruled king. Again, there is sprung up </l>
       <l>An heretic, an arch one, Cranmer; one </l>
       <l>Hath crawl'd into the favour of the king, </l>
@@ -3514,7 +3514,7 @@
      <sp who="king.">
       <speaker>King.</speaker>
       <l part="F">It may well be; </l>
-      <l>There is a mutiny in's mind. This morning </l>
+      <l n="121">There is a mutiny in's mind. This morning </l>
       <l>Papers of state he sent me to peruse, </l>
       <l>As I required: and wot you what I found </l>
       <l>There,--on my conscience, put unwittingly? </l>
@@ -3528,7 +3528,7 @@
       <speaker>Nor.</speaker>
       <l part="F">It's heaven's will: </l>
       <l>Some spirit put this paper in the packet, </l>
-      <l part="I">To bless your eye withal. </l>
+      <l n="130" part="I">To bless your eye withal. </l>
      </sp>
      <sp who="king.">
       <speaker>King.</speaker>
@@ -3551,7 +3551,7 @@
       <l part="F">Good my lord, </l>
       <l>You are full of heavenly stuff, and bear the inventory </l>
       <l>Of your best graces in your mind; the which </l>
-      <l>You were now running o'er: you have scarce time </l>
+      <l n="140">You were now running o'er: you have scarce time </l>
       <l>To steal from spiritual leisure a brief span </l>
       <l>To keep your earthly audit: sure, in that </l>
       <l>I deem you an ill husband, and am glad </l>
@@ -3587,7 +3587,7 @@
       <l>I have kept you next my heart, have not alone </l>
       <l>Employ'd you where high profits might come home, </l>
       <l>But pared my present havings, to bestow </l>
-      <l>My bounties upon you. </l>
+      <l n="160">My bounties upon you. </l>
      </sp>
      <sp who="wol.">
       <speaker>Wol.</speaker>
@@ -3612,7 +3612,7 @@
       <l>My sovereign, I confess your royal graces, </l>
       <l>Shower'd on me daily, have been more than could </l>
       <l>My studied purposes requite; which went </l>
-      <l>Beyond all man's endeavours: my endeavours </l>
+      <l n="170">Beyond all man's endeavours: my endeavours </l>
       <l>Have ever come too short of my desires, </l>
       <l>Yet filled with my abilities: mine own ends </l>
       <l>Have been mine so that ever more they pointed </l>
@@ -3637,7 +3637,7 @@
       <l>Your brain, and every function of your power, </l>
       <l>Should, notwithstanding that your bond of duty, </l>
       <l>As 'twere in love's particular, be more </l>
-      <l part="I">To me, your friend, than any. </l>
+      <l n="190" part="I">To me, your friend, than any. </l>
      </sp>
      <sp who="wol.">
       <speaker>Wol.</speaker>
@@ -3673,7 +3673,7 @@
       <l>Upon the daring huntsman that has gall'd him; </l>
       <l>Then makes him nothing. I must read this paper; </l>
       <l>I fear, the story of his anger. 'Tis so; </l>
-      <l>This paper has undone me: 'tis the account </l>
+      <l n="211">This paper has undone me: 'tis the account </l>
       <l>Of all that world of wealth I have drawn together </l>
       <l>For mine own ends; indeed, to gain the popedome, </l>
       <l>And fee my friends in Rome. O negligence! </l>
@@ -3682,7 +3682,7 @@
       <l>I sent the king? Is there no way to cure this? </l>
       <l>No new device to beat this from his brains? </l>
       <l>I know 'twill stir him strongly; yet I know </l>
-      <l>A way, if it take right, in spite of fortune </l>
+      <l n="220">A way, if it take right, in spite of fortune </l>
       <l>Will bring me off again. What's this? 'To the Pope!' </l>
       <l>The letter, as I live, with all the business </l>
       <l>I writ to's holiness. Nay then, farewell! </l>
@@ -3698,7 +3698,7 @@
      <sp who="nor.">
       <speaker>Nor.</speaker>
       <l>Hear the king's pleasure, cardinal: who commands you </l>
-      <l>To render up the great seal presently </l>
+      <l n="230">To render up the great seal presently </l>
       <l>Into our hands; and to confine yourself </l>
       <l>To Asher House, my Lord of Winchester's, </l>
       <l part="I">Till you hear further from his highness. </l>
@@ -3719,7 +3719,7 @@
       <l>Till I find more than will or words to do it, </l>
       <l>I mean your malice, know, officious lords, </l>
       <l>I dare and must deny it. Now I feel </l>
-      <l>Of what coarse metal ye are moulded, envy: </l>
+      <l n="240">Of what coarse metal ye are moulded, envy: </l>
       <l>How eagerly ye follow my disgraces, </l>
       <l>As if it fed ye! and how sleek and wanton </l>
       <l>Ye appear in every thing may bring my ruin! </l>
@@ -3734,7 +3734,7 @@
      </sp>
      <sp who="sur.">
       <speaker>Sur.</speaker>
-      <l part="I">The king, that gave it. </l>
+      <l n="251" part="I">The king, that gave it. </l>
      </sp>
      <sp who="wol.">
       <speaker>Wol.</speaker>
@@ -3757,7 +3757,7 @@
       <l>Of noble Buckingham, my father-in-law: </l>
       <l>The heads of all thy brother cardinals, </l>
       <l>With thee and all thy best parts bound together, </l>
-      <l>Weigh'd not a hair of his. Plague of your policy! </l>
+      <l n="260">Weigh'd not a hair of his. Plague of your policy! </l>
       <l>You sent me deputy for Ireland; </l>
       <l>Far from his succour, from the king, from all </l>
       <l>That might have mercy on the fault thou gavest him; </l>
@@ -3772,7 +3772,7 @@
       <l>Found his deserts: how innocent I was </l>
       <l>From any private malice in his end, </l>
       <l>His noble jury and foul cause can witness. </l>
-      <l>If I loved many words, lord, I should tell you </l>
+      <l n="271">If I loved many words, lord, I should tell you </l>
       <l>You have as little honesty as honour, </l>
       <l>That in the way of loyalty and truth </l>
       <l>Toward the king, my ever royal master, </l>
@@ -3785,7 +3785,7 @@
       <l>Your long coat, priest, protects you; thou shouldst feel </l>
       <l>My sword i' the life-blood of thee else. My lords, </l>
       <l>Can ye endure to hear this arrogance? </l>
-      <l>And from this fellow? If we live thus tamely, </l>
+      <l n="280">And from this fellow? If we live thus tamely, </l>
       <l>To be thus jaded by a piece of scarlet, </l>
       <l>Farewell nobility; let his grace go forward, </l>
       <l part="I">And dare us with his cap like larks. </l>
@@ -3804,7 +3804,7 @@
       <l>You writ to the pope against the king: your goodness, </l>
       <l>Since you provoke me, shall be most notorious. </l>
       <l>My Lord of Norfolk, as you are truly noble, </l>
-      <l>As you respect the common good, the state </l>
+      <l n="291">As you respect the common good, the state </l>
       <l>Of our despised nobility, our issues, </l>
       <l>Who, if he live, will scarce be gentlemen, </l>
       <l>Produce the grand sum of his sins, the articles </l>
@@ -3820,7 +3820,7 @@
      <sp who="nor.">
       <speaker>Nor.</speaker>
       <l>Those articles, my lord, are in the king's hand: </l>
-      <l part="I">But, thus much, they are foul ones. </l>
+      <l n="300" part="I">But, thus much, they are foul ones. </l>
      </sp>
      <sp who="wol.">
       <speaker>Wol.</speaker>
@@ -3844,7 +3844,7 @@
      </sp>
      <sp who="sur.">
       <speaker>Sur.</speaker>
-      <l>I had rather want those than my head. Have at you! </l>
+      <l n="310">I had rather want those than my head. Have at you! </l>
       <l>First, that, without the king's assent or knowledge, </l>
       <l>You wrought to be a legate; by which power </l>
       <l>You maim'd the jurisdiction of all bishops. </l>
@@ -3861,7 +3861,7 @@
       <l>Then that, without the knowledge </l>
       <l>Either of king or council, when you went </l>
       <l>Ambassador to the emperor, you made bold </l>
-      <l>To carry into Flanders the great seal. </l>
+      <l n="320">To carry into Flanders the great seal. </l>
      </sp>
      <sp who="sur.">
       <speaker>Sur.</speaker>
@@ -3880,7 +3880,7 @@
       <l>Then that you have sent innumerable substance-- </l>
       <l>By what means got, I leave to your own conscience-- </l>
       <l>To furnish Rome, and to prepare the ways </l>
-      <l>You have for dignities: to the mere undoing </l>
+      <l n="330">You have for dignities: to the mere undoing </l>
       <l>Of all the kingdom. Many more there are; </l>
       <l>Which, since they are of you, and odious, </l>
       <l part="I">I will not taint my mouth with. </l>
@@ -3901,7 +3901,7 @@
       <speaker>Suf.</speaker>
       <l>Lord cardinal, the king's further pleasure is, </l>
       <l>Because all those things you have done of late, </l>
-      <l>By your power legatine, within this kingdom, </l>
+      <l n="340">By your power legatine, within this kingdom, </l>
       <l>Fall into the compass of a praemunire, </l>
       <l>That therefore such a writ be sued against you; </l>
       <l>To forfeit all your goods, lands, tenements, </l>
@@ -3914,7 +3914,7 @@
       <l>How to live better. For your stubborn answer </l>
       <l>About the giving back the great seal to us, </l>
       <l>The king shall know it, and, no doubt, shall thank you. </l>
-      <l>So fare you well, my little good lord cardinal. <stage type="exit">Exeunt all but Wolsey.</stage>
+      <l n="350">So fare you well, my little good lord cardinal. <stage type="exit">Exeunt all but Wolsey.</stage>
        </l>
      </sp>
      <sp who="wol.">
@@ -3928,7 +3928,7 @@
       <l>And, when he thinks, good easy man, full surely </l>
       <l>His greatness is a-ripening, nips his root, </l>
       <l>And then he falls, as I do. I have ventured, </l>
-      <l>Like little wanton boys that swim on bladders, </l>
+      <l n="360">Like little wanton boys that swim on bladders, </l>
       <l>This many summers in a sea of glory, </l>
       <l>But far beyond my depth: my high-blown pride </l>
       <l>At length broke under me and now has left me, </l>
@@ -3938,7 +3938,7 @@
       <l>I feel my heart new open'd. O, how wretch'd </l>
       <l>Is that poor man that hangs on princes' favours! </l>
       <l>There is, betwixt that smile we would aspire to, </l>
-      <l>That sweet aspect of princes, and their ruin, </l>
+      <l n="370">That sweet aspect of princes, and their ruin, </l>
       <l>More pangs and fears than wars or women have: </l>
       <l>And when he falls, he falls like Lucifer, </l>
       <l part="I">Never to hope again. <stage type="entrance">Enter CROMWELL,
@@ -3966,7 +3966,7 @@
       <l part="F">Why, well; </l>
       <l>Never so truly happy, my good Cromwell. </l>
       <l>I know myself now; and I feel within me </l>
-      <l>A peace above all earthly dignities, </l>
+      <l n="380">A peace above all earthly dignities, </l>
       <l>A still and quiet conscience. The king has cured me, </l>
       <l>I humbly thank his grace; and from these shoulders, </l>
       <l>These ruin'd pillars, out of pity, taken </l>
@@ -3982,7 +3982,7 @@
       <speaker>Wol.</speaker>
       <l>I hope I have: I am able now, methinks, </l>
       <l>Out of a fortitude of soul I feel, </l>
-      <l>To endure more miseries and greater far </l>
+      <l n="390">To endure more miseries and greater far </l>
       <l>Than my weak-hearted enemies dare offer. </l>
       <l part="I">What news abroad? </l>
      </sp>
@@ -4008,7 +4008,7 @@
       <l>For truth's sake and his conscience; that his bones, </l>
       <l>When he has run his course and sleeps in blessings, </l>
       <l>May have a tomb of orphans' tears wept on 'em! </l>
-      <l>What more? </l>
+      <l n="400">What more? </l>
      </sp>
      <sp who="crom.">
       <speaker>Crom.</speaker>
@@ -4032,7 +4032,7 @@
       <l>There was the weight that pull'd me down. O Cromwell, </l>
       <l>The king has gone beyond me: all my glories </l>
       <l>In that one woman I have lost for ever: </l>
-      <l>No sun shall ever usher forth mine honours, </l>
+      <l n="411">No sun shall ever usher forth mine honours, </l>
       <l>Or gild again the noble troops that waited </l>
       <l>Upon my smiles. Go, get thee from me, Cromwell; </l>
       <l>I am a poor fall'n man, unworthy now </l>
@@ -4043,7 +4043,7 @@
       <l>I know his noble nature--not to let </l>
       <l>Thy hopeful service perish too: good Cromwell, </l>
       <l>Neglect him not; make use now, and provide </l>
-      <l part="I">For thine own future safety. </l>
+      <l n="421" part="I">For thine own future safety. </l>
      </sp>
      <sp who="crom.">
       <speaker>Crom.</speaker>
@@ -4053,7 +4053,7 @@
       <l>Bear witness, all that have not hearts of iron, </l>
       <l>With what a sorrow Cromwell leaves his lord. </l>
       <l>The king shall have my service; but my prayers </l>
-      <l>For ever and for ever shall be yours. </l>
+      <l n="429">For ever and for ever shall be yours. </l>
      </sp>
      <sp who="wol.">
       <speaker>Wol.</speaker>
@@ -4066,7 +4066,7 @@
       <l>Of me more must be heard of, say, I taught thee, </l>
       <l>Say, Wolsey, that once trod the ways of glory, </l>
       <l>And sounded all the depths and shoals of honour, </l>
-      <l>Found thee a way, out of his wreck, to rise in; </l>
+      <l n="439">Found thee a way, out of his wreck, to rise in; </l>
       <l>A sure and safe one, though thy master miss'd it. </l>
       <l>Mark but my fall, and that that ruin'd me. </l>
       <l>Cromwell, I charge thee, fling away ambition: </l>
@@ -4078,7 +4078,7 @@
       <l>To silence envious tongues. Be just, and fear not: </l>
       <l>Let all the ends thou aim'st at be thy country's, </l>
       <l>Thy God's, and truth's; then if thou fall'st, O Cromwell, </l>
-      <l>Thou fall'st a blessed martyr! Serve the king; </l>
+      <l n="450">Thou fall'st a blessed martyr! Serve the king; </l>
       <l>And,--prithee, lead me in: </l>
       <l>There take an inventory of all I have, </l>
       <l>To the last penny; 'tis the king's: my robe, </l>
@@ -4138,7 +4138,7 @@
       <speaker>Sec. Gent.</speaker>
       <l>'Tis well: the citizens, </l>
       <l>I am sure, have shown at full their royal minds-- </l>
-      <l>As, let 'em have their rights, they are ever forward-- </l>
+      <l n="10">As, let 'em have their rights, they are ever forward-- </l>
       <l>In celebration of this day with shows, </l>
       <l part="I">Pageants and sights of honour. </l>
      </sp>
@@ -4159,7 +4159,7 @@
       <l>By custom of the coronation. </l>
       <l>The Duke of Suffolk is the first, and claims </l>
       <l>To be high-steward; next, the Duke of Norfolk, </l>
-      <l>He to be earl marshal: you may read the rest. </l>
+      <l n="20">He to be earl marshal: you may read the rest. </l>
      </sp>
      <sp who="sec.-gent.">
       <speaker>Sec. Gent.</speaker>
@@ -4175,7 +4175,7 @@
       <l>Learned and reverend fathers of his order, </l>
       <l>Held a late court at Dunstable, six miles off </l>
       <l>From Ampthill where the princess lay; to which </l>
-      <l>She was often cited by them, but appear'd not: </l>
+      <l n="30">She was often cited by them, but appear'd not: </l>
       <l>And, to be short, for not appearance and </l>
       <l>The king's late scruple, by the main assent </l>
       <l>Of all these learned men she was divorced, </l>
@@ -4211,7 +4211,7 @@
      <sp who="first-gent.">
       <speaker>First Gent.</speaker>
       <l part="F">Marquess Dorset: </l>
-      <l>And that the Earl of Surrey, with the rod. </l>
+      <l n="40">And that the Earl of Surrey, with the rod. </l>
      </sp>
      <sp who="sec.-gent.">
       <speaker>Sec. Gent.</speaker>
@@ -4244,7 +4244,7 @@
       <speaker>First Gent.</speaker>
       <l part="F">They that bear </l>
       <l>The cloth of honour over her, are four barons </l>
-      <l>Of the Cinque-ports. </l>
+      <l n="50">Of the Cinque-ports. </l>
      </sp>
      <sp who="sec.-gent.">
       <speaker>Sec. Gent.</speaker>
@@ -4285,7 +4285,7 @@
      </sp>
      <sp who="third-gent.">
       <speaker>Third Gent.</speaker>
-      <l part="Y">That I did. </l>
+      <l n="60" part="Y">That I did. </l>
      </sp>
      <sp who="first-gent.">
       <speaker>First Gent.</speaker>
@@ -4309,7 +4309,7 @@
       <l>In a rich chair of state, opposing freely </l>
       <l>The beauty of her person to the people. </l>
       <l>Believe me, sir, she is the goodliest woman </l>
-      <l>That ever lay by man: which when the people </l>
+      <l n="71">That ever lay by man: which when the people </l>
       <l>Had the full view, such a noise arose </l>
       <l>As the shrouds make at sea in a stiff tempest, </l>
       <l>As loud, and to as many tunes: hats, cloaks,-- </l>
@@ -4318,7 +4318,7 @@
       <l>I never saw before. Great-bellied women, </l>
       <l>That had not half a week to go, like rams </l>
       <l>In the old time of war, would shake the press, </l>
-      <l>And make 'em reel before 'em. No man living </l>
+      <l n="80">And make 'em reel before 'em. No man living </l>
       <l>Could say 'This is my wife' there; all were woven </l>
       <l part="I">So strangely in one piece. </l>
      </sp>
@@ -4357,7 +4357,7 @@
      </sp>
      <sp who="sec.-gent.">
       <speaker>Sec. Gent.</speaker>
-      <l>What two reverend bishops </l>
+      <l n="100">What two reverend bishops </l>
       <l>Were those that went on each side of the queen? </l>
      </sp>
      <sp who="third-gent.">
@@ -4385,7 +4385,7 @@
      <sp who="third-gent.">
       <speaker>Third Gent.</speaker>
       <l part="F">Thomas Cromwell; </l>
-      <l>A man in much esteem with the king, and truly </l>
+      <l n="110">A man in much esteem with the king, and truly </l>
       <l>A worthy friend. The king hath made him master </l>
       <l>O' the jewel house, </l>
       <l>And one, already, of the privy council. </l>
@@ -4438,7 +4438,7 @@
      </sp>
      <sp who="kath.">
       <speaker>Kath.</speaker>
-      <l>Prithee, good Griffith, tell me how he died: </l>
+      <l n="10">Prithee, good Griffith, tell me how he died: </l>
       <l>If well, he stepp'd before me, happily </l>
       <l part="I">For my example. </l>
      </sp>
@@ -4459,7 +4459,7 @@
       <speaker>Grif.</speaker>
       <l>At last, with easy roads, he came to Leicester, </l>
       <l>Lodged in the abbey; where the reverend </l>
-      <l>With all his covent, honourably received him; </l>
+      <l n="20">With all his covent, honourably received him; </l>
       <l>To whom he gave these words, 'O father abbot, </l>
       <l>An old man, broken with the storms of state, </l>
       <l>Is come to lay his weary bones among ye; </l>
@@ -4470,7 +4470,7 @@
       <l>Foretold should be his last, full of repentance, </l>
       <l>Continual meditations, tears, and sorrows, </l>
       <l>He gave his honours to the world again, </l>
-      <l>His blessed part to heaven, and slept in peace. </l>
+      <l n="31">His blessed part to heaven, and slept in peace. </l>
      </sp>
      <sp who="kath.">
       <speaker>Kath.</speaker>
@@ -4482,7 +4482,7 @@
       <l>Tied all the kingdom: simony was fair-play; </l>
       <l>His own opinion was his law: i' the presence </l>
       <l>He would say untruths; and be ever double </l>
-      <l>Both in his words and meaning: he was never, </l>
+      <l n="40">Both in his words and meaning: he was never, </l>
       <l>But where he meant to ruin, pitiful: </l>
       <l>His promises were, as he then was, mighty; </l>
       <l>But his performance, as he is now, nothing: </l>
@@ -4514,7 +4514,7 @@
       <l>Which was a sin, yet in bestowing, madam, </l>
       <l>He was most princely: ever witness for him </l>
       <l>Those twins of learning that he raised in you, </l>
-      <l>Ipswich and Oxford! one of which fell with him, </l>
+      <l n="60">Ipswich and Oxford! one of which fell with him, </l>
       <l>Unwilling to outlive the good that did it; </l>
       <l>The other, though unfinish'd, yet so famous, </l>
       <l>So excellent in art, and still so rising, </l>
@@ -4527,7 +4527,7 @@
      </sp>
      <sp who="kath.">
       <speaker>Kath.</speaker>
-      <l>After my death I wish no other herald, </l>
+      <l n="70">After my death I wish no other herald, </l>
       <l>No other speaker of my living actions, </l>
       <l>To keep mine honour from corruption, </l>
       <l>But such an honest chronicler as Griffith. </l>
@@ -4537,7 +4537,7 @@
       <l>Patience, be near me still; and set me lower: </l>
       <l>I have not long to trouble thee. Good Griffith, </l>
       <l>Cause the musicians play me that sad note </l>
-      <l>I named my knell, whilst I sit meditating </l>
+      <l n="80">I named my knell, whilst I sit meditating </l>
       <l>On that celestial harmony I go to. <stage>Sad and solemn
         music.</stage>
        </l>
@@ -4579,7 +4579,7 @@
       <speaker>Kath.</speaker>
       <l>No? Saw you not, even now, a blessed troop </l>
       <l>Invite me to a banquet; whose bright faces </l>
-      <l>Cast thousand beams upon me, like the sun? </l>
+      <l n="90">Cast thousand beams upon me, like the sun? </l>
       <l>They promised me eternal happiness; </l>
       <l>And brought me garlands, Griffith, which I feel </l>
       <l>I am not worthy yet to wear: I shall, assuredly. </l>
@@ -4614,7 +4614,7 @@
      </sp>
      <sp who="mess.">
       <speaker>Mess.</speaker>
-      <l part="I">An't like your grace,-- </l>
+      <l n="100" part="I">An't like your grace,-- </l>
      </sp>
      <sp who="kath.">
       <speaker>Kath.</speaker>
@@ -4661,7 +4661,7 @@
       <l>The king's request that I would visit you; </l>
       <l>Who grieves much for your weakness, and by me </l>
       <l>Sends you his princely commendations, </l>
-      <l>And heartily entreats you take good comfort. </l>
+      <l n="120">And heartily entreats you take good comfort. </l>
      </sp>
      <sp who="kath.">
       <speaker>Kath.</speaker>
@@ -4690,7 +4690,7 @@
      <sp who="kath.">
       <speaker>Kath.</speaker>
       <l>Sir, I most humbly pray you to deliver </l>
-      <l part="I">This to my lord the king. </l>
+      <l n="130" part="I">This to my lord the king. </l>
      </sp>
      <sp who="cap.">
       <speaker>Cap.</speaker>
@@ -4706,7 +4706,7 @@
       <l>I hope she will deserve well,--and a little. </l>
       <l>To love her for her mother's sake, that loved him, </l>
       <l>Heaven knows how dearly. My next poor petition </l>
-      <l>Is, that his noble grace would have some pity </l>
+      <l n="140">Is, that his noble grace would have some pity </l>
       <l>Upon my wretched women, that so long </l>
       <l>Have follow'd both my fortunes faithfully: </l>
       <l>Of which there is not one, I dare avow, </l>
@@ -4717,7 +4717,7 @@
       <l>And, sure, those men are happy that shall have 'em. </l>
       <l>The last is, for my men; they are the poorest, </l>
       <l>But poverty could never draw 'em from me; </l>
-      <l>That they may have their wages duly paid 'em, </l>
+      <l n="151">That they may have their wages duly paid 'em, </l>
       <l>And something over to remember me by: </l>
       <l>If heaven had pleased to have given me longer life </l>
       <l>And able means, we had not parted thus. </l>
@@ -4730,7 +4730,7 @@
      <sp who="cap.">
       <speaker>Cap.</speaker>
       <l part="F">By heaven, I will, </l>
-      <l>Or let me lose the fashion of a man! </l>
+      <l n="160">Or let me lose the fashion of a man! </l>
      </sp>
      <sp who="kath.">
       <speaker>Kath.</speaker>
@@ -4744,7 +4744,7 @@
       <l>Call in more women. When I am dead, good wench, </l>
       <l>Let me be used with honour: strew me over </l>
       <l>With maiden flowers, that all the world may know </l>
-      <l>I was a chaste wife to my grave: embalm me, </l>
+      <l n="171">I was a chaste wife to my grave: embalm me, </l>
       <l>Then lay me forth: although unqueen'd, yet like </l>
       <l>A queen, and daughter to a king, inter me. </l>
       <l>I can no more. <stage type="exit">Exeunt, leading Katharine.</stage>
@@ -4791,7 +4791,7 @@
      <sp who="lov.">
       <speaker>Lov.</speaker>
       <l part="F">I must to him too, </l>
-      <l>Before he go to bed. I'll take my leave. </l>
+      <l n="10">Before he go to bed. I'll take my leave. </l>
      </sp>
      <sp who="gar.">
       <speaker>Gar.</speaker>
@@ -4809,7 +4809,7 @@
       <l>And durst commend a secret to your ear </l>
       <l>Much weightier than this work. The queen's in labour, </l>
       <l>They say, in great extremity; and fear'd </l>
-      <l part="I">She'll with the labour end. </l>
+      <l n="20" part="I">She'll with the labour end. </l>
      </sp>
      <sp who="gar.">
       <speaker>Gar.</speaker>
@@ -4849,7 +4849,7 @@
      <sp who="gar.">
       <speaker>Gar.</speaker>
       <l part="F">Yes, yes, Sir Thomas </l>
-      <l>There are that dare; and I myself have ventured </l>
+      <l n="41">There are that dare; and I myself have ventured </l>
       <l>To speak my mind of him: and indeed this day, </l>
       <l>Sir, I may tell it you, I think I have </l>
       <l>Incensed the lords o' the council, that he is, </l>
@@ -4859,7 +4859,7 @@
       <l>Have broken with the king; who hath so far </l>
       <l>Given ear to our complaint, of his great grace </l>
       <l>And princely care foreseeing those fell mischiefs </l>
-      <l>Our reasons laid before him, hath commanded </l>
+      <l n="51">Our reasons laid before him, hath commanded </l>
       <l>To-morrow morning to the council-board </l>
       <l>He be convented. He's a rank weed, Sir Thomas, </l>
       <l>And we must root him out. From your affairs </l>
@@ -4912,7 +4912,7 @@
      </sp>
      <sp who="suf.">
       <speaker>Suf.</speaker>
-      <l>God safely quit her of her burthen, and </l>
+      <l n="71">God safely quit her of her burthen, and </l>
       <l>With gentle travail, to the gladding of </l>
       <l part="I">Your highness with an heir! </l>
      </sp>
@@ -4935,7 +4935,7 @@
       <l>Charles, good night. <stage type="exit">Exit Suffolk.</stage><stage type="entrance">Enter
         SIR ANTHONY DENNY. </stage>
        </l>
-      <l>Well, sir, what follows? 
+      <l n="80">Well, sir, what follows? 
        </l>
      </sp>
      <sp who="den.">
@@ -4989,7 +4989,7 @@
      <sp who="king.">
       <speaker>King.</speaker>
       <l>How now, my lord! you do desire to know </l>
-      <l>Wherefore I sent for you. </l>
+      <l n="90">Wherefore I sent for you. </l>
      </sp>
      <sp who="cran.">
       <speaker>Cran.</speaker>
@@ -5006,7 +5006,7 @@
       <l>Ah, my good lord, I grieve at what I speak, </l>
       <l>And am right sorry to repeat what follows: </l>
       <l>I have, and most unwillingly, of late </l>
-      <l>Heard many grievous, I do say, my lord, </l>
+      <l n="100">Heard many grievous, I do say, my lord, </l>
       <l>Grievous complaints of you; which, being consider'd, </l>
       <l>Have moved us and our council, that you shall </l>
       <l>This morning come before us; where, I know, </l>
@@ -5023,7 +5023,7 @@
       <stage>[Kneeling]</stage>
       <l>I humbly thank your highness; </l>
       <l>And am right glad to catch this good occasion </l>
-      <l>Most thoroughly to be winnow'd, where my chaff </l>
+      <l n="111">Most thoroughly to be winnow'd, where my chaff </l>
       <l>And corn shall fly asunder: for, I know, </l>
       <l>There's none stands under more calumnious tongues </l>
       <l part="I">Than I myself, poor man. </l>
@@ -5036,7 +5036,7 @@
       <l>Prithee, let's walk. Now, by my holidame, </l>
       <l>What manner of man are you? My lord, I look'd </l>
       <l>You would have given me your petition, that </l>
-      <l>I should have ta'en some pains to bring together </l>
+      <l n="120">I should have ta'en some pains to bring together </l>
       <l>Yourself and your accusers; and to have heard you, </l>
       <l part="I">Without indurance, further. </l>
      </sp>
@@ -5054,7 +5054,7 @@
       <l part="F">Know you not </l>
       <l>How your state stands i' the world, with the whole world? </l>
       <l>Your enemies are many, and not small; their practices </l>
-      <l>Must bear the same proportion; and not ever </l>
+      <l n="131">Must bear the same proportion; and not ever </l>
       <l>The justice and the truth o' the question carries </l>
       <l>The due o' the verdict with it: at what ease </l>
       <l>Might corrupt minds procure knaves as corrupt </l>
@@ -5082,7 +5082,7 @@
       <l>In charging you with matters, to commit you, </l>
       <l>The best persuasions to the contrary </l>
       <l>Fail not to use, and with what vehemency </l>
-      <l>The occasion shall instruct you: if entreaties </l>
+      <l n="150">The occasion shall instruct you: if entreaties </l>
       <l>Will render you no remedy, this ring </l>
       <l>Deliver them, and your appeal to us </l>
       <l>There make before them. Look, the good man weeps! </l>
@@ -5103,7 +5103,7 @@
      </sp>
      <sp who="old-l.">
       <speaker>Old L.</speaker>
-      <l>I'll not come back; the tidings that I bring </l>
+      <l n="159">I'll not come back; the tidings that I bring </l>
       <l>Will make my boldness manners. Now, good angels </l>
       <l>Fly o'er thy royal head, and shade thy person </l>
       <l part="I">Under their blessed wings! </l>
@@ -5134,7 +5134,7 @@
      </sp>
      <sp who="king.">
       <speaker>King.</speaker>
-      <l>Give her an hundred marks. I'll to the queen. <stage type="exit">[Exit. </stage>
+      <l n="171">Give her an hundred marks. I'll to the queen. <stage type="exit">[Exit. </stage>
        </l>
      </sp>
      <sp who="old-l.">
@@ -5190,7 +5190,7 @@
       <stage>[Aside]</stage>
       <l>This is a piece of malice. I am glad </l>
       <l>I came this way so happily: the king </l>
-      <l>Shall understand it presently. <stage type="exit">[Exit.</stage>
+      <l n="10">Shall understand it presently. <stage type="exit">[Exit.</stage>
        </l>
      </sp>
      <sp who="cran.">
@@ -5210,7 +5210,7 @@
      </sp>
      <sp who="butts.">
       <speaker>Butts.</speaker>
-      <l part="I">I'll show your grace the strangest sight-- </l>
+      <l n="20" part="I">I'll show your grace the strangest sight-- </l>
      </sp>
      <sp who="king.">
       <speaker>King.</speaker>
@@ -5316,7 +5316,7 @@
       <l>Toward the king first, then his laws, in filling </l>
       <l>The whole realm, by your teaching and your chaplains, </l>
       <l>For so we are inform'd, with new opinions, </l>
-      <l>Divers and dangerous; which are heresies, </l>
+      <l n="19">Divers and dangerous; which are heresies, </l>
       <l>And, not reform'd, may prove pernicious. </l>
      </sp>
      <sp who="gar.">
@@ -5330,7 +5330,7 @@
       <l>To one man's honour, his contagious sickness, </l>
       <l>Farewell all physic: and what follows then? </l>
       <l>Commotions, uproars, with a general taint </l>
-      <l>Of the whole state: as, of late days, our neighbours, </l>
+      <l n="30">Of the whole state: as, of late days, our neighbours, </l>
       <l>The upper Germany, can dearly witness, </l>
       <l>Yet freshly pitied in our memories. </l>
      </sp>
@@ -5344,7 +5344,7 @@
       <l>Was ever, to do well: nor is there living, </l>
       <l>I speak it with a single heart, my lords, </l>
       <l>A man that more detests, more stirs against, </l>
-      <l>Both in his private conscience and his place, </l>
+      <l n="41">Both in his private conscience and his place, </l>
       <l>Defacers of a public peace, than I do. </l>
       <l>Pray heaven, the king may never find a heart </l>
       <l>With less allegiance in it! Men that make </l>
@@ -5374,7 +5374,7 @@
       <speaker>Cran.</speaker>
       <l>Ah, my good Lord of Winchester, I thank you; </l>
       <l>You are always my good friend; if your will pass, </l>
-      <l>I shall both find your lordship judge and juror, </l>
+      <l n="61">I shall both find your lordship judge and juror, </l>
       <l>You are so merciful: I see your end; </l>
       <l>'Tis my undoing; love and meekness, lord, </l>
       <l>Become a churchman better than ambition: </l>
@@ -5387,7 +5387,7 @@
      </sp>
      <sp who="gar.">
       <speaker>Gar.</speaker>
-      <l>My lord, my lord, you are a sectary, </l>
+      <l n="71">My lord, my lord, you are a sectary, </l>
       <l>That's the plain truth: your painted gloss discovers, </l>
       <l>To men that understand you, words and weakness. </l>
      </sp>
@@ -5452,7 +5452,7 @@
      <sp who="chan.">
       <speaker>Chan.</speaker>
       <l>Then thus for you, my lord: it stands agreed, </l>
-      <l>I take it, by all voices, that forthwith </l>
+      <l n="89">I take it, by all voices, that forthwith </l>
       <l>You be convey'd to the Tower a prisoner; </l>
       <l>There to remain till the king's further pleasure </l>
       <l>Be known unto us: are you all agreed, lords? </l>
@@ -5486,7 +5486,7 @@
      <sp who="cran.">
       <speaker>Cran.</speaker>
       <l part="F">Stay, good my lords, </l>
-      <l>I have a little yet to say. Look there, my lords; </l>
+      <l n="99">I have a little yet to say. Look there, my lords; </l>
       <l>By virtue of that ring, I take my cause </l>
       <l>Out of the gripes of cruel men, and give it </l>
       <l>To a most noble judge, the king my master. </l>
@@ -5533,7 +5533,7 @@
       <l>Not only good and wise, but most religious: </l>
       <l>One that, in all obedience, makes the church </l>
       <l>The chief aim of his honour; and, to strengthen </l>
-      <l>That holy duty, out of dear respect, </l>
+      <l n="120">That holy duty, out of dear respect, </l>
       <l>His royal self in judgement comes to hear </l>
       <l>The cause betwixt her and this great offender. </l>
      </sp>
@@ -5546,7 +5546,7 @@
       <l>To me you cannot reach, you play the spaniel, </l>
       <l>And think with wagging of your tongue to win me; </l>
       <l>But, whatsoe'er thou takest me for, I'm sure </l>
-      <l>Thou hast a cruel nature and a bloody. <stage>[To Cranmer]</stage>
+      <l n="130">Thou hast a cruel nature and a bloody. <stage>[To Cranmer]</stage>
        </l>
       <l>Good man, sit down. Now let me see the proudest </l>
       <l>He, that dares most, but wag his finger at thee: </l>
@@ -5565,7 +5565,7 @@
       <l>Was it discretion, lords, to let this man, </l>
       <l>This good man,--few of you deserve that title,-- </l>
       <l>This honest man, wait like a lousy footboy </l>
-      <l>At chamber-door? and one as great as you are? </l>
+      <l n="141">At chamber-door? and one as great as you are? </l>
       <l>Why, what a shame was this! Did my commission </l>
       <l>Bid ye so far forget yourselves? I gave ye </l>
       <l>Power as he was a counsellor to try him, </l>
@@ -5578,7 +5578,7 @@
       <speaker>Chan.</speaker>
       <l part="F">Thus far, </l>
       <l>My most dread sovereign, may it like your grace </l>
-      <l>To let my tongue excuse all. What was purposed </l>
+      <l n="150">To let my tongue excuse all. What was purposed </l>
       <l>Concerning his imprisonment, was rather, </l>
       <l>If there be faith in men, meant for his trial, </l>
       <l>And fair purgation to the world, than malice, </l>
@@ -5591,7 +5591,7 @@
       <l>I will say thus much for him, if a prince </l>
       <l>May be beholding to a subject, I </l>
       <l>Am, for his love and service, so to him. </l>
-      <l>Make me no more ado, but all embrace him: </l>
+      <l n="160">Make me no more ado, but all embrace him: </l>
       <l>Be friends, for shame, my lords! My Lord of Canterbury, </l>
       <l>I have a suit which you must not deny me; </l>
       <l>That is, a fair young maid that yet wants baptism, </l>
@@ -5627,7 +5627,7 @@
       <l>The common voice, I see, is verified </l>
       <l>Of thee, which says thus, 'Do my Lord of Canterbury </l>
       <l>A shrewd turn, and he is your friend for ever.' </l>
-      <l>Come, lords, we trifle time away; I long </l>
+      <l n="180">Come, lords, we trifle time away; I long </l>
       <l>To have this young one made a Christian. </l>
       <l>As I have made ye one, lords, one remain; </l>
       <l>So I grow stronger, you more honour gain. <stage type="exit">[Exeunt.</stage>
@@ -5677,7 +5677,7 @@
       <l>Alas, I know not; how gets the tide in? </l>
       <l>As much as one sound cudgel of four foot-- </l>
       <l>You see the poor remainder--could distribute, </l>
-      <l part="I">I made no spare, sir. </l>
+      <l n="21" part="I">I made no spare, sir. </l>
      </sp>
      <sp who="port.">
       <speaker>Port.</speaker>
@@ -5752,7 +5752,7 @@
      <sp who="port.">
       <speaker>Port.</speaker>
       <l part="F">An 't please your honour, </l>
-      <l>We are but men; and what so many may do, </l>
+      <l n="80">We are but men; and what so many may do, </l>
       <l>Not being torn a-pieces, we have done: </l>
       <l part="I">An army cannot rule 'em. </l>
      </sp>
@@ -5766,7 +5766,7 @@
       <l>Ye should do service. Hark! the trumpets sound; </l>
       <l>They're come already from the christening: </l>
       <l>Go, break among the press, and find a way out </l>
-      <l>To let the troop pass fairly; or I'll find </l>
+      <l n="90">To let the troop pass fairly; or I'll find </l>
       <l>A Marshalsea shall hold ye play these two months. </l>
      </sp>
      <sp who="port.">
@@ -5822,7 +5822,7 @@
      </sp>
      <sp who="cran.">
       <speaker>Cran.</speaker>
-      <l part="Y">Elizabeth. </l>
+      <l n="10" part="Y">Elizabeth. </l>
      </sp>
      <sp who="king.">
       <speaker>King.</speaker>
@@ -5848,7 +5848,7 @@
       <l>Let none think flattery, for they'll find 'em truth. </l>
       <l>This royal infant--heaven still move about her!-- </l>
       <l>Though in her cradle, yet now promises </l>
-      <l>Upon this land a thousand thousand blessings, </l>
+      <l n="21">Upon this land a thousand thousand blessings, </l>
       <l>Which time shall bring to ripeness: she shall be </l>
       <l>But few now living can behold that goodness-- </l>
       <l>A pattern to all princes living with her, </l>
@@ -5858,7 +5858,7 @@
       <l>That mould up such a mighty piece as this is, </l>
       <l>With all the virtues that attend the good, </l>
       <l>Shall still be doubled on her: truth shall nurse her, </l>
-      <l>Holy and heavenly thoughts still counsel her: </l>
+      <l n="31">Holy and heavenly thoughts still counsel her: </l>
       <l>She shall be loved and fear'd: her own shall bless her; </l>
       <l>Her foes shake like a field of beaten corn, </l>
       <l>And hang their heads with sorrow: good grows with her: </l>
@@ -5867,7 +5867,7 @@
       <l>The merry songs of peace to all his nighbours: </l>
       <l>God shall be truly known; and those about her </l>
       <l>From her shall read the perfect ways of honour, </l>
-      <l>And by those claim their greatness, not by blood. </l>
+      <l n="40">And by those claim their greatness, not by blood. </l>
       <l>Nor shall this peace sleep with her: but as when </l>
       <l>The bird of wonder dies, the maiden phoenix, </l>
       <l>Her ashes new create another heir, </l>
@@ -5877,7 +5877,7 @@
       <l>Who from the sacred ashes of her honour </l>
       <l>Shall star-like rise, as great in fame as she was, </l>
       <l>And so stand fix'd: peace, plenty, love, truth, terror, </l>
-      <l>That were the servants to this chosen infant, </l>
+      <l n="50">That were the servants to this chosen infant, </l>
       <l>Shall then be his, and like a vine grow to him: </l>
       <l>Wherever the bright sun of heaven shall shine, </l>
       <l>His honour and the greatness of his name </l>
@@ -5894,7 +5894,7 @@
       <speaker>Cran.</speaker>
       <l>She shall be, to the happiness of England, </l>
       <l>An aged princess; many days shall see her, </l>
-      <l>And yet no day without a deed to crown it. </l>
+      <l n="60">And yet no day without a deed to crown it. </l>
       <l>Would I had known no more! but she must die, </l>
       <l>She must, the saints must have her; yet a virgin, </l>
       <l>A most unspotted fly shall she pass </l>
@@ -5908,7 +5908,7 @@
       <l>This oracle of comfort has so pleased me, </l>
       <l>That when I am in heaven I shall desire </l>
       <l>To see what this child does, and praise my Maker. </l>
-      <l>I thank ye all. To you, my good lord mayor, </l>
+      <l n="71">I thank ye all. To you, my good lord mayor, </l>
       <l>And your good brethren, I am much beholding; </l>
       <l>I have received much honour by your presence, </l>
       <l>And ye shall find me thankful. Lead the way, lords: </l>
@@ -5933,7 +5933,7 @@
     <l>Abused extremely, and to cry 'That's witty!' </l>
     <l>Which we have not done neither: that, I fear, </l>
     <l>All the expected good we 're like to hear </l>
-    <l>For this play at this time, is only in </l>
+    <l n="10">For this play at this time, is only in </l>
     <l>The merciful construction of good women; </l>
     <l>For such a one we show'd 'em: if they smile, </l>
     <l>And say 'twill do, I know, within a while </l>
