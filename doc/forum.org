@@ -1,0 +1,255 @@
+#+TITLE: canonical-engLit / MVP Forum
+#+SUBTITLE: Deliberative record — design, research, decisions
+#+STARTUP: overview logdrawer
+#+FILETAGS: :englit:mvp:
+
+Design and research deliberation for the Globe Shakespeare and
+commentary reference works sprint. Implementation detail (fix counts,
+file names, function-level walkthroughs) belongs in code or =doc/=
+reports, not here. Tasks belong in =agenda.org=, cross-linked by
+CUSTOM_ID.
+
+Participants: Cliff (project lead), Claude Chat (design/research),
+Claude Code (implementation). Charles Pletcher and Alison Babeu are
+external collaborators on specific decisions; see GitHub issues for
+those threads.
+
+* Discussions
+
+** Project scope and management
+:PROPERTIES:
+:CUSTOM_ID: process/project-setup
+:ASSIGNEES: Cliff
+:SOURCE: chat/2026-08-17
+:DISPOSITION: adopt
+:END:
+
+Scope of this sprint: get the Globe Shakespeare editions (44 plays and
+poems) and the four NVS reference works (Abbott, Schmidt, Onions, Dyce)
+readable in the MVP dev server, and establish the citation
+infrastructure (Globe↔FTLN mapping, =<bibl>= resolution) that links
+commentary citations to primary text passages.
+
+The work spans three repositories:
+- =canonical-engLit= — encoding (primary)
+- =corpus-tools= — mapping and resolution tools
+- =MinimumViablePerseus= — pipeline target
+
+Deliberation lives here. Task tracking in =agenda.org=. For tasks
+requiring Charles Pletcher or Alison Babeu, GitHub issues are filed
+against the "Globe Shakespeare and Commentary Reference Works in MVP"
+milestone in =canonical-engLit=.
+
+*** Decision
+[2026-08-17] Forum and agenda in =canonical-engLit/doc/=, following the
+NVS Hypervariorum protocol. GitHub milestone for external-facing tasks.
+No GitHub Projects boards or labels taxonomy — milestone + issues is
+the right granularity.
+
+** Shakespeare source edition
+:PROPERTIES:
+:CUSTOM_ID: encoding/shakespeare-source-edition
+:ASSIGNEES: Cliff, Claude Chat
+:SOURCE: chat/2026-08-11
+:DISPOSITION: adopt
+:END:
+
+Which Shakespeare edition to use as the primary text in Perseus MVP,
+given that: the existing Perseus Globe encoding lacks =citeStructure=
+and has quality issues; the Folger/DraCor edition (CC BY-NC 3.0) has
+superior engineering (FTLN + act.scene.line, TEI Simple); and the
+reference works (Abbott, Schmidt, Onions, Dyce) all cite by Globe
+act.scene.line.
+
+Research summary in [[file:shakespeare-editions-comparison.org][shakespeare-editions-comparison.org]] and
+[[file:citing-shakespeare.org][citing-shakespeare.org]].
+
+Key findings:
+- Greg's position (from group meeting): the canonical text for
+  Shakespeare is the First Folio; Globe is a derived edition. Perseus
+  should support multiple editions as it does for classical texts.
+- CC BY-NC 3.0 on the Folger edition is acceptable: Perseus's focus
+  is non-commercial scholarship; the F1 edition can be swapped out
+  later without affecting the citation graph research.
+- The DraCor ShakeDraCor repo (cloned locally) provides TEI with both
+  FTLN (in =xml:id="ftln-NNNN"=) and act.scene.line (in =@n="1.1.27"=)
+  on every line element — the mapping is directly extractable.
+- Martin Mueller's tokenized Folger texts
+  (=martinmueller39/FolgerShakespeareTokenized=) add word-level
+  linguistic annotation for future NLP work.
+
+*** Decision
+[2026-08-11] DraCor/Folger as primary edition for MVP; Globe encoding
+retained as a second edition. The CorpusMap (=corpus-tools=) provides
+bidirectional Globe↔FTLN translation. Reference work citations
+(Schmidt, Abbott, etc.) resolve through Globe act.scene.line, then
+translate to FTLN for linking to the Folger text.
+
+** =<lb>= elements and Globe line numbering
+:PROPERTIES:
+:CUSTOM_ID: encoding/lb-and-line-numbering
+:ASSIGNEES: Cliff, Claude Chat, Claude Code
+:SOURCE: chat/2026-08-12
+:DISPOSITION: adopt
+:END:
+
+The existing Globe encoding had three classes of problems with line
+milestones: (1) all =<lb/>= placed at end of lines rather than
+beginning per TEI P5; (2) F1 TLN milestones (=<lb ed="F1" n="..."/>= )
+embedded in the Globe text — a conceptual muddle; (3) Globe =<lb ed="G">= elements mostly unnumbered, with the =cRefPattern= working by
+positional counting. Full analysis in [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]].
+
+Research established:
+- Numbered =<lb ed="G" @n>= are primarily a *prose* device; in verse,
+  =<l>= is the natural citation unit and unnumbered =<lb ed="G"/>= are
+  redundant.
+- Globe numbers should be transferred to =@n= on =<l>= elements,
+  then interpolated between anchors per scene.
+- =@part="N"= on =<l>= and =<p>= is an lxml DTD-materialization
+  artifact; strip it (keep only I, M, F, Y).
+- F1 =<lb>= elements removed: TLN data now comes from DraCor via
+  the CorpusMap, not from milestones embedded in the Globe text.
+- 7 Priority-1 anchor errors (backward-running Globe numbers within
+  scenes) identified; need correction against a printed Globe edition.
+  See [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]] §Priority 1.
+- 9 plays have no Globe number anchors at all (1h4, 1h6, 2h4, 2h6,
+  3h6, ant, aww, per, tro): line numbers there are interpolated counts,
+  not verified against print.
+
+*** Decision
+[2026-08-12] Strip F1 =<lb>=; strip unnumbered =<lb ed="G">= from
+verse; transfer =@n= from numbered =<lb ed="G">= to enclosing =<l>=;
+interpolate remaining verse line numbers per scene. Prose: retain
+=<lb ed="G" @n>= in correct TEI position (beginning of line). All
+implemented in =corpus-tools= and =src/mvp/= XSLTs; see =agenda.org=
+for DONE items. Priority-1 errors and ungrounded plays are flagged for
+manual review, not yet corrected.
+
+** Citation encoding: =<bibl>= vs =<ref>=
+:PROPERTIES:
+:CUSTOM_ID: citations/bibl-encoding
+:ASSIGNEES: Cliff, Claude Chat
+:SOURCE: chat/2026-08-14
+:DISPOSITION: adopt
+:END:
+
+The reference works encode Shakespeare citations as =<bibl n="shak. lr
+2.4.261">= — a structured but machine-opaque format. Question: should
+the encoding be revised to use =<ref @target>= with a CTS URN?
+
+TEI semantics distinguish =<bibl>= (bibliographic reference — a work
+as source) from =<ref>= (cross-reference — a specific location in
+another text). Shakespeare citations in commentary are evidence
+pointers (here is an instance of this usage), which is =<ref>=
+territory. The =@n= attribute was always a workaround for the absence
+of machine-readable URIs.
+
+The =@cRef= attribute requires a =<refsDecl>= in the TEI header; since
+CTS URNs are proper URIs, =@target= is correct — no header declaration
+needed.
+
+Pattern for bare citation (Schmidt):
+#+begin_example
+<ref target="urn:cts:engLit:shakespeare.lr.globe:2.4.261">Lr. II, 4, 261</ref>
+#+end_example
+
+Pattern for quoted citation with attribution (Onions):
+#+begin_example
+<cit>
+  <quote>his abject object,</quote>
+  <bibl><ref target="urn:cts:engLit:shakespeare.h8.globe:1.1.127">H8 I. i. 127</ref></bibl>
+</cit>
+#+end_example
+
+=<bibl><ref target>= preferred over =<bibl target>= for consistency
+across patterns, at the cost of some terseness.
+
+*** Decision
+[2026-08-14] Replace =<bibl @n>= with =<bibl><ref @target>= (for
+attributed citations) and bare =<ref @target>= (for inline citations
+in running text). =@target= carries a CTS URN using the citation
+family convention below. Retain =<bibl @n>= in source files until the
+resolver is written and URN naming is settled (Phase 0a).
+
+** CTS URNs, citation families, and the work/edition problem
+:PROPERTIES:
+:CUSTOM_ID: citations/cts-urns-and-citation-families
+:ASSIGNEES: Cliff, Claude Chat
+:SOURCE: chat/2026-08-14
+:DISPOSITION: adopt (pragmatic stance); open (theoretical)
+:END:
+
+The fundamental problem: CTS's work/version distinction presupposes a
+stable, edition-independent textual identity to which a canonical
+citation scheme can be attached. For Shakespeare this breaks down in
+two ways: (1) there are two competing citation conventions (Globe
+act.scene.line, Hinman/Folger TLN) neither of which is universal;
+(2) for plays like Lear, Q1 and F1 are not witnesses to the same
+underlying work but genuinely different texts, so there is no
+work-level citation that is edition-independent.
+
+The CTS spec requires the scholarly community to establish a single
+canonical citation scheme for each work, but provides no mechanism for
+cases where the community has not done so, or where the decision is
+contested. The Homer Multitext handles multiple witnesses by treating
+each manuscript as a version URN — but this works only when all
+witnesses are variants of the same underlying text, not when (as with
+Q/F Lear) the texts represent separate authorial or theatrical states.
+
+*The concept of citation families:* what sits in the CTS version slot
+should be a *citation authority* — a named scholarly convention for
+how a work is divided and numbered — not an edition. Editions are
+witnesses to (or implementations of) a citation authority, not the
+authority itself. This distinction is not made in the current CTS spec.
+
+Two families for Shakespeare:
+- Globe (act.scene.line): `urn:cts:engLit:shakespeare.lr.globe:2.4.261`
+- First Folio / TLN: `urn:cts:engLit:shakespeare.lr.f1:1664`
+
+*File naming* (edition-level, separate from citation family):
+- =shakespeare.lr.folger-eng1.xml= — DraCor/Folger, FTLN-based
+- =shakespeare.lr.globe-eng1.xml= — Globe encoding, act.scene.line
+
+The CorpusMap in =corpus-tools= functions as a provisional registry,
+mapping between citation families. A formal registry (declaring
+citation schemes, their authorities, and conversion tables) is what
+the CTS architecture needs but does not have.
+
+This problem deserves a paper, which Cliff will write. The paper's
+argument: CTS's version slot encodes two logically distinct things —
+citation convention and editorial text — which should be separated.
+The "citation family" concept is what needs to sit in that slot.
+
+*** Decision
+[2026-08-14] Pragmatic stance for this project: use citation family
+identifiers (=globe=, =f1=) in URN passage references; use
+=folger-eng1=, =globe-eng1= as file-level edition identifiers.
+Document the distinction explicitly. Treat the CorpusMap as the
+provisional registry. Ratify naming with Alison Babeu and Greg Crane
+before committing URNs to encoded files. Paper deferred to later.
+
+** Globe↔FTLN mapping: approach and tool
+:PROPERTIES:
+:CUSTOM_ID: citations/globe-ftln-mapping
+:ASSIGNEES: Cliff, Claude Chat, Claude Code
+:SOURCE: chat/2026-08-14
+:DISPOSITION: adopt
+:END:
+
+Required for resolving Globe act.scene.line citations (Schmidt, Abbott,
+Onions, Dyce) to FTLN for linking to the DraCor/Folger text.
+
+The OS Shakespeare SQL database lacks the mapping data. The right
+source is the DraCor/Folger TEI XML, which encodes both systems on
+every line element: =xml:id="ftln-NNNN"= for FTLN and =@n="1.1.27"=
+for act.scene.line. Extraction is a five-line XPath.
+
+Implemented in =corpus-tools= as =generate-line-map=, producing a
+corpus-wide JSON file. The =CorpusMap= class provides bidirectional
+in-memory lookup. Bidirectionality: Globe→FTLN for resolving reference
+work citations; FTLN→Globe for displaying familiar citations in the UI.
+
+*** Decision
+[2026-08-14] Extract from DraCor XML; serialize as JSON; query via
+=CorpusMap= class in =corpus-tools=. Implemented and working.
+See =agenda.org= =corpus-tools/generate-line-map= (DONE).

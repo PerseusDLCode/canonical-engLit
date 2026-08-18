@@ -1,0 +1,48 @@
+Discussion in this morning's Perseus meeting revealed an important
+problem in my plans for the Globe Shakespeare/commentary work that
+needs to be addressed before work can proceed.
+
+The problem concerns CTS urns. I'd always wondered how the "ground
+truth" source for CTS urns was established: what is the truly
+canonical version of a text?  Greg answered this question: the CTS
+designers say editors should determine that edition using scholarly
+considerations; the resolution of CTS references to locations in other
+editions must be handled separately.
+
+For Shakespeare, the truly canonical version is the text of the First
+Folio, not the Globe act/scene/line scheme. That is problematic for
+us, because all of our nineteenth-century commentaries and lexicons
+use the Globe scheme, as does most scholarship until quite recently.
+
+So, we need to change direction.
+
+We should not try to shoehorn through-line numbers into the Globe
+edition right now. Our focus is not only on re-introducing a readable
+version of Shakespeare to Perseus, but more importantly on activating
+the citation apparatus in the scholarly commentary so that it is
+amenable to the same LLM, NLP-driven citation analysis currently being
+investigated in the classical texts (and in the NVS).
+
+Perseus contains multiple editions of various classical texts; clearly
+it can contain multiple editions of Shakespeare. We should introduce a
+Perseus edition of the First Folio (or more than one -- one should be
+the Oxford original-language TEI transcription)
+
+We should include the
+NVS editions we already have (the out-of-copyright Furness editions
+that were double-keyed); we should also include an edition of the
+First Folio. Our development work with the commentaries should focus
+on converting the Globe citations to proper CTS urns using the
+through-line numbers.
+
+1. First task, then: create a tool that converts Globe line numbers to
+  through-line numbers and vice versa.  The [[https://www.opensourceshakespeare.org/downloads/][OpenSourceShakespeare
+   project]] includes a downloadable SQL database that purportedly
+   performs the required mapping.
+
+2. Then work on three parallel tasks:
+   1. Edit the commentaries to use TLNs
+   2. Produce a Perseus edition of the First Folio
+   3. Add citeStructures to the Globe editions so that they can be
+      referenced.
+

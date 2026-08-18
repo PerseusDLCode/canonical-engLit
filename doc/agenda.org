@@ -1,0 +1,235 @@
+#+TITLE: canonical-engLit / MVP Agenda
+#+STARTUP: overview
+#+FILETAGS: :englit:mvp:
+
+Task list for the Globe Shakespeare and commentary reference works
+sprint. Deliberation in [[file:forum.org][forum.org]]. Cross-referencing to GitHub issues
+where external collaborators (Charles Pletcher, Alison Babeu) are
+involved.
+
+* Phase 0: Decisions (prerequisites)
+
+* TODO Establish canonical CTS URN identifiers
+:PROPERTIES:
+:CUSTOM_ID: phase0/cts-urns
+:ASSIGNEES: Cliff, Alison Babeu, Greg Crane
+:GITHUB_ISSUE: 3
+:END:
+See [[file:forum.org::#citations/cts-urns-and-citation-families][#citations/cts-urns-and-citation-families]].
+
+Decisions needed before any =@target= URNs are written into encoded files:
+- Citation family identifiers: confirm =globe= and =f1= as the citation
+  authority tokens in URNs
+- File-level edition identifiers: confirm =folger-eng1= and =globe-eng1=
+- Textgroup identifier: confirm =shakespeare= (not =shak=)
+- Textgroup and work identifiers for Abbott, Schmidt, Onions, Dyce
+
+Blocked on: conversation with Alison Babeu and Greg Crane.
+
+* TODO Agree on schema path convention
+:PROPERTIES:
+:CUSTOM_ID: phase0/schema-path
+:ASSIGNEES: Cliff, Charles Pletcher
+:GITHUB_ISSUE: 2
+:END:
+Current implementation uses raw-GitHub-URL =<?xml-model?>= PIs pointing
+to =perseus-schemas= (done by Claude Code via =update-schema-pi.xsl=).
+This is the de facto decision; needs Charles's awareness and sign-off
+before it's treated as the project-wide convention for other repos.
+
+* TODO Agree on engLit corpus discovery in MVP
+:PROPERTIES:
+:CUSTOM_ID: phase0/corpus-discovery
+:ASSIGNEES: Cliff, Charles Pletcher
+:GITHUB_ISSUE: 3
+:END:
+MVP's =config.py= has no =engLit= entry in =_CORPUS_LABELS=. Adding
+it requires confirming that corpus discovery handles the
+=canonical-engLit/data/= layout correctly. One-line change, but needs
+Charles's sign-off.
+
+* Phase 1: Corpus repair (canonical-engLit/mvp branch)
+
+* TODO Correct Priority-1 Globe anchor errors
+:PROPERTIES:
+:CUSTOM_ID: encoding/priority1-anchor-errors
+:ASSIGNEES: Cliff
+:END:
+7 scenes with backward-running Globe line-number anchors, identified
+in the dry-run survey. See [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]] §Priority 1.
+
+Requires checking each case against a printed Globe edition (or
+Spevack concordance) and correcting the anchor =@n= value in the
+source file. These are data errors, not encoding errors; Claude Code
+should not attempt to "fix" them heuristically.
+
+Plays affected: Hamlet (5.2), Richard II (2.1), Romeo and Juliet (3.3),
+Henry V (1.2), Love's Labour's Lost (5.2 ×2), Measure for Measure (2.2).
+
+* TODO Add CTS structure for Onions and Dyce
+:PROPERTIES:
+:CUSTOM_ID: phase1/cts-structure-onions-dyce
+:ASSIGNEES: Claude Code
+:DEPENDS: phase0/cts-urns
+:END:
+Both are currently bare XML files with no =__cts__.xml= at any level.
+Required:
+- =data/onions/__cts__.xml= (textgroup)
+- =data/onions/glossary/__cts__.xml= (work + edition)
+- Relocate =onions.xml= to =data/onions/glossary/glossary.xml=
+- Same structure for Dyce
+
+Follow the Abbott pattern. URN values depend on Phase 0 decision.
+
+* TODO Survey <bibl @n> format across reference works
+:PROPERTIES:
+:CUSTOM_ID: phase1/bibl-survey
+:ASSIGNEES: Claude Code
+:END:
+The Schmidt =<bibl @n>= format is known: =n="shak. lr 2.4.261"=.
+Abbott, Onions, and Dyce have not been surveyed; Cliff reports
+citations are less consistently encoded there.
+
+Survey task:
+1. Collect all =<bibl @n>= and =<bibl>= elements from all four works
+2. For Shakespeare citations: catalog the =@n= format variations
+   (play abbreviation, location format, range citations, missing line
+   numbers, "sq." patterns)
+3. Count: citations with machine-readable =@n=, without =@n=, and with
+   malformed =@n=
+4. Report as org-mode table
+
+Output informs the bibl resolver design (Phase 3).
+
+* TODO citeStructure migration for reference works
+:PROPERTIES:
+:CUSTOM_ID: phase1/citestructure-refworks
+:ASSIGNEES: Cliff, Claude Code
+:DEPENDS: phase1/bibl-survey
+:END:
+Abbott, Schmidt, Onions, Dyce each need =citeStructure= before MVP's
+=ReferenceParser= can chunk them. The appropriate structure depends on
+the actual document structure, which the content audit will establish.
+
+Expected:
+- Abbott: sections numbered =§1=, =§2=, … — one or two-level structure
+- Schmidt, Onions, Dyce: alphabetically-ordered headword entries
+
+Write a separate XSLT per work type once the structure is confirmed.
+
+* Phase 2: MVP pipeline integration
+
+* TODO Register engLit in MVP config
+:PROPERTIES:
+:CUSTOM_ID: phase2/register-englit
+:ASSIGNEES: Cliff
+:DEPENDS: phase0/corpus-discovery
+:END:
+Add =engLit= to =_CORPUS_LABELS= in =MinimumViablePerseus/src/mvp/site/config.py=.
+Confirm corpus discovery handles =canonical-engLit/data/= layout.
+Coordinate with Charles Pletcher.
+
+* TODO Validate one Shakespeare play end-to-end
+:PROPERTIES:
+:CUSTOM_ID: phase2/validate-one-play
+:ASSIGNEES: Cliff
+:DEPENDS: phase2/register-englit
+:END:
+Run King Lear through the full MVP pipeline: corpus discovery →
+=ReferenceParser= → =ChunkCompiler= → dev server reading view. Validate
+rendering before processing all 44 plays.
+
+* TODO Full Shakespeare corpus through pipeline
+:PROPERTIES:
+:CUSTOM_ID: phase2/full-shakespeare
+:ASSIGNEES: Claude Code
+:DEPENDS: phase2/validate-one-play
+:END:
+Run all 44 play files through the pipeline; review a sample for
+rendering correctness. Exclude non-dramatic works (son, ven, lc, pht,
+pp, luc) and under-encoded files (tro, per) from this pass.
+
+* TODO Reference works through pipeline
+:PROPERTIES:
+:CUSTOM_ID: phase2/reference-works-pipeline
+:ASSIGNEES: Claude Code
+:DEPENDS: phase1/citestructure-refworks, phase2/register-englit
+:END:
+Run Abbott, Schmidt, Onions, Dyce through the pipeline. Lexical works
+chunk by headword; likely to surface encoding issues not caught in the
+survey. Review output with Cliff.
+
+* Phase 3: Citation linking
+
+* TODO Build play-abbreviation → CTS URN mapping
+:PROPERTIES:
+:CUSTOM_ID: phase3/play-abbr-map
+:ASSIGNEES: Cliff, Claude Code
+:DEPENDS: phase0/cts-urns, phase1/bibl-survey
+:END:
+Once URN naming is settled and the =<bibl @n>= survey is complete:
+build a mapping table from Schmidt/Abbott play abbreviations to CTS
+edition identifiers. The CorpusMap already handles Globe→FTLN; this
+adds the play-abbreviation layer on top.
+
+* TODO Write <bibl> resolver (dry-run first)
+:PROPERTIES:
+:CUSTOM_ID: phase3/bibl-resolver
+:ASSIGNEES: Claude Code
+:DEPENDS: phase3/play-abbr-map
+:END:
+A script that reads the reference work XML files, finds all Shakespeare
+=<bibl @n>= citations, resolves them to CTS URNs via the CorpusMap,
+and rewrites them as =<bibl><ref @target="urn:cts:...">= (for attributed
+citations) or =<ref @target>= (for inline citations).
+
+Run in =--dry-run= mode first: report resolved / unresolved / flagged
+counts per work before writing any files. Do not run the output pass
+until Cliff has reviewed the dry-run report.
+
+Incomplete location refs (=@n="shak. tn 2.5"= with no line number)
+should be flagged for manual review, not silently dropped.
+
+* Completed work
+
+* DONE Strip @part="N" from l and p elements
+:PROPERTIES:
+:CUSTOM_ID: done/strip-part-n
+:END:
+=src/strip-part-attrs.xsl= — removes =@part="N"= (lxml DTD artifact)
+from all =<l>= and =<p>= elements; preserves I, M, F, Y.
+Applied to all Shakespeare play files.
+
+* DONE Strip lb tags; transfer @n to l elements
+:PROPERTIES:
+:CUSTOM_ID: done/strip-lb
+:END:
+=src/strip-lb-tags.xsl= — removes all =<lb ed="F1">= (TLN); removes
+unnumbered =<lb ed="G">= from verse; transfers =@n= from numbered
+=<lb ed="G">= to enclosing =<l>=; drops all =<lb>= inside =<l>=.
+Numbered =<lb ed="G">= in prose retained in place.
+
+* DONE Interpolate Globe scene-relative line numbers
+:PROPERTIES:
+:CUSTOM_ID: done/interpolate-line-numbers
+:END:
+=corpus-tools: number-verse-lines= — adds scene-relative =@n= to =<l>=
+elements by interpolating between existing anchor values. Dry-run mode
+reports collisions. Applied to all plays except excluded files.
+See [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]] for full survey and collision report.
+
+* DONE Normalize schema PIs
+:PROPERTIES:
+:CUSTOM_ID: done/schema-pis
+:END:
+=src/update-schema-pi.xsl= — updates =<?xml-model?>= PIs to point to
+raw-GitHub-URL of =perseus-schemas= (=https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/=).
+Parameterized by schema name. Applied to all Shakespeare play files.
+
+* DONE Build Globe↔FTLN corpus map
+:PROPERTIES:
+:CUSTOM_ID: done/corpus-map
+:END:
+=corpus-tools: generate-line-map= — extracts FTLN and Globe act.scene.line
+from DraCor TEI XML; serializes as JSON; provides bidirectional lookup
+via =CorpusMap= class. Covers all 37 DraCor plays.
