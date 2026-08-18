@@ -18,37 +18,55 @@ play sigla and dotted act.scene.line format the map already keys on —
 good alignment by construction, and a much larger, messier test than
 the hand-built fixtures in =test_tln_globe_map.py=.
 
-The map held up well: *94.37% of clean act.scene.line citations resolve
-to a TLN*. This report is about the remaining 5.63% — three genuinely
-distinct causes were isolated and verified to different degrees of
-confidence, plus one baseline residual and one unrelated ShakeDraCor
-data bug found along the way. None of the causes are defects in
-=tln_globe_map.py= itself; all trace to how Schmidt's =@n= attribute was
-generated, or to gaps/typos in ShakeDraCor's own source.
+The map held up well: *94.42% of clean act.scene.line citations
+resolved to a TLN* before any repair. One of the causes behind the
+remaining shortfall turned out to be a fully-diagnosed, mechanical bug
+in Schmidt's own =@n= markup, and has since been *fixed* — see "Cause
+1" below and =corpus-tools='s =repair-schmidt-citations= command. After
+that fix, *95.72% resolve*. None of the remaining causes are defects in
+=tln_globe_map.py= itself; they trace to how Schmidt's =@n= attribute
+was generated, or to gaps/typos in ShakeDraCor's own source.
+
+*Revision note (2026-08-18, later the same day):* this report originally
+claimed a second fully-verified cause — a "King Lear continuous
+through-scene citation convention" — and reported citation counts about
+13% lower than the true figures. Both are corrected below; see "Cause 2"
+for what went wrong and why, and the note at the end of the Summary
+table for the counting bug. The retraction happened *before* any fix
+was built from the Lear claim, so nothing was shipped on the strength of
+it.
 
 A regression test (=corpus-tools/tests/test_schmidt_lexicon_map.py=)
-now guards the 94% resolution rate and documents one concrete instance
-of the baseline residual gap.
+guards the resolution rate and documents one concrete instance of the
+baseline residual gap.
 
 ** Summary
 
 | Stage                                                    |   Count |    % of citations |
 |-----------------------------------------------------------+---------+--------------------|
-| Total =shak.= citations in the lexicon                    | 204,318 |               100% |
-| Non-dramatic sigla (Sonnets, /Venus and Adonis/, etc.)     |  15,858 |              7.76% |
-| Non-clean format (ranges, "sq.", act-only, etc.)           |  10,245 |              5.02% |
-| *Clean act.scene.line citations attempted*                 | *178,215* |          *87.22%* |
+| Clean act.scene.line citations (dramatic sigla only)       | 204,766 |               100% |
 |-----------------------------------------------------------+---------+--------------------|
-| Resolved to a TLN                                          | 168,177 |    94.37% of clean |
-| *Unresolved*                                                | *10,038* |  *5.63% of clean*  |
+| Resolved before repair                                      | 193,345 |    94.42% of clean |
+| Unresolved before repair                                     |  11,421 |     5.58% of clean |
+|-----------------------------------------------------------+---------+--------------------|
+| Fixed by =repair-schmidt-citations= (Cause 1)                |   2,667 |     1.30% of clean |
+| *Resolved after repair*                                       | *196,012* |  *95.72% of clean* |
+| *Still unresolved*                                            |   *8,754* |   *4.28% of clean* |
 
-| Unresolved breakdown                                       |  Count | % of unresolved | Diagnosis        |
-|--------------------------------------------------------------+--------+------------------+-------------------|
-| Single-scene-Act collapse bug                                 |  2,486 |            24.8% | Fully diagnosed   |
-| Bare "N, N" display pattern (all plays; Lear subset verified) |  1,623 |            16.2% | Partially verified |
-| Other (isolated TLN gaps, prose drift, unverified)             |  5,929 |            59.1% | Partially diagnosed |
+Note: the citation count above (204,766) supersedes this report's
+original figure (178,215, "94.37%" resolved). The first pass extracted
+citations with a regex requiring =<bibl n="= to be textually adjacent in
+the raw XML; the lexicon's own formatting wraps long attribute lists
+onto a new line in many places (=<bibl\n  n="shak. ...">=), and every
+one of those was silently skipped. =repair-schmidt-citations= and the
+updated =test_schmidt_lexicon_map.py= both parse citations properly (by
+iterating =<bibl>= elements, not scanning raw text), which is how the
+missing ~26,500 citations turned up. The qualitative findings below are
+unaffected — the true resolution rate (94.42%) is close to the
+originally-reported one (94.37%) — but every specific count in this
+report has been recomputed against the corrected extraction.
 
-* Cause 1: single-scene-Act citation collapse (2,486 citations, fully diagnosed)
+* Cause 1: single-scene-Act citation collapse — FIXED (2,667 citations)
 
 When an Act has only one scene — Tempest Act 5, Merchant of Venice Act
 5, Measure for Measure Act 5, and others — Schmidt's own printed
@@ -70,70 +88,119 @@ line). The result: a well-formed-looking three-part reference
 (=5.169.458=) that can never resolve, because Tempest's Act 5 has
 exactly one scene and no line 169 in it.
 
-*Detection rule* (used to produce the 2,486 count): the citation's Act,
-per ShakeDraCor's own =<div type="scene">= structure for that play, has
-exactly one scene, and Schmidt's display text is a bare "Roman numeral,
-number" pair.
+*Detection rule:* the citation's Act, per ShakeDraCor's own =<div
+type="scene">= structure for that play, has exactly one scene, and
+Schmidt's display text is a bare "Roman numeral, number" pair. The fix
+reconstructs =act.1.line= from the display text's own line number and
+only rewrites the citation if that reconstruction actually resolves to
+a TLN — never an unverified guess.
 
-This single bug is the leading cause of Tempest's below-average
-resolution rate (86.3%) and contributes to several other plays whose
-final act is a single long scene.
+*Fixed*: =corpus-tools='s =repair-schmidt-citations= command
+(=src/schmidt_citations.py= + =src/commands/repair_schmidt_citations.py=)
+applies this rule mechanically. Run against the real lexicon, it found
+2,667 fixable citations (2,130 distinct old->new mappings; some
+citations repeat verbatim across multiple headword entries) across 11
+plays:
 
-* Cause 2: King Lear's continuous through-scene citation (verified 15/15 on a sample; scope beyond Lear unverified)
+| Play | Fixes | | Play | Fixes |
+|------+-------+-+------+-------|
+| tmp  |   787 | | shr  |    94 |
+| mm   |   456 | | jn   |    77 |
+| err  |   297 | | tit  |     1 |
+| mnd  |   288 | |      |       |
+| mv   |   210 | |      |       |
+| tn   |   167 | |      |       |
+| r2   |   167 | |      |       |
+| lll  |   123 | |      |       |
 
-A chunk of Lear's failures have display text like =22, 12=, =4, 364=,
-=1, 4= — a bare pair of arabic numbers, no act indicator at all. Lear
-is well known among editors for having no act divisions in its Quarto
-source text; the five-act structure now standard was imposed later, and
-older editions (including, evidently, Schmidt's Globe source)
-frequently cited Lear by a *continuous scene number running straight
-through all five acts* (1 through 25) rather than by act.scene.
+Fixes are applied as surgical string substitutions on the lexicon's raw
+XML text (matching each citation's exact old =n="..."= value), not by
+mutating and re-serializing the parsed tree — lxml's serializer doesn't
+preserve the file's hand-wrapped attribute formatting on a round trip,
+which would have rewritten the whole file's whitespace for a
+~2,600-attribute change. The committed diff
+(canonical-engLit commit =ee629df=) touches only the changed =n=
+attribute values.
 
-To verify this, I built Lear's continuous scene order directly from
-ShakeDraCor's own document order (each =<div type="scene">= in
-document order, regardless of its parent Act), then reinterpreted each
-sampled bare "N, line" display pair as (continuous-scene, line) instead
-of Schmidt's mis-encoded (act, scene, line):
+This bug was the leading cause of Tempest's below-average resolution
+rate (86.20% -> 97.40% after the fix) and several other plays whose
+final act is a single long scene (Measure for Measure 89.74% -> 96.88%,
+Comedy of Errors 86.80% -> 93.73%, Midsummer Night's Dream 90.75% ->
+96.66%).
+
+* Cause 2 — RETRACTED: there is no verified "King Lear continuous-scene" pattern
+
+This report originally claimed a second fully-diagnosed cause: that
+Schmidt's Globe source cited Lear by a continuous scene number running
+straight through all five acts (1-25) rather than by act.scene, based on
+reinterpreting bare "N, line" display citations (e.g. =22, 12=) as
+(continuous-scene, line) and finding 15/15 sampled cases resolved
+correctly. That verification was flawed and the finding does not hold.
+
+*What went wrong:* the 15-sample check tested only the *first* 15 of
+Lear's 87 bare-numeric citations, in document order. That sample
+happened, by chance, to consist entirely of low numbers (1-25) that fit
+Lear's real scene count. Testing the full population of 87 tells a
+different story: only 2 have a number in Lear's valid continuous-scene
+range at all. The other 85 have numbers like 55, 85, 124, 136 that
+cannot be scene references for a 25-scene play under any interpretation.
+
+Worse, the 2 "in-range" cases are not Lear citations. Checking their
+surrounding context in the lexicon:
 
 #+begin_example
-continuous scene 22 = Act 4, Scene 7   (ShakeDraCor skips a numbered
-                                         "Scene 4" within this Act, so
-                                         continuous count and per-act
-                                         scene count diverge)
-"22, 12"  ->  Act 4 Scene 7, line 12  ->  globe "4.7.12"  ->  TLN 3060  [correct]
-"4, 364"  ->  Act 1 Scene 4, line 364 ->  globe "1.4.364" ->  TLN 940   [correct]
+<bibl n="shak. son 35.4">Sonn. 35, 4</bibl></cit></cit>.
+<bibl n="shak. lr 1.22.12">22, 12</bibl>.
 #+end_example
 
-All 15 sampled citations resolved correctly under this reinterpretation
-(100%). This mechanism accounts for at least 74 of Lear's 277
-unresolved citations (the ones with this exact bare-numeric display
-shape).
+=Sonn. 35, 4= is a Sonnets citation with no quote of its own; =22, 12=
+immediately follows it with no play abbreviation printed at all — a
+Schmidt typographic convention of dropping the repeated work
+abbreviation across a run of citations to the *same* work. This citation
+is almost certainly =Sonnet 22, line 12=, continuing the *Sonnets*
+citation, not Lear at all. Whatever tool built the machine-readable =n=
+attribute apparently defaulted the run-continuation citation to the
+*current play's* siglon (=lr=, Lear, presumably from the entry's
+dominant context) rather than tracking which work the citation run was
+actually continuing. Both of the "verified" Lear matches were
+coincidences of this misattribution landing on a valid-looking TLN by
+chance.
 
-*Important caveat — do not over-generalize this fix.* The same bare
-"N, N" display shape recurs at similar magnitude in essentially *every*
-play in the corpus, not just Lear — 1,623 instances corpus-wide,
-including plays with no Quarto/act-division history at all (Cymbeline
-121, Antony and Cleopatra 103, Hamlet 96, Othello 94). Most of these
-plays have no scholarly reason to use continuous scene numbering, so
-this shared display shape almost certainly has more than one
-underlying cause. The leading unverified hypothesis is that many of
-these are Schmidt's *internal* cross-references within his own
-dictionary (e.g. "see p. 85", rendered the same way a play citation
-would be) that got swept up by the =@n=-generating tool as if they were
-play citations. This has *not* been verified and should not be treated
-as understood — it needs its own investigation, play by play, before
-any repair pass assumes Lear's fix generalizes.
+*Confirming this is a coincidence, not a real pattern:* reinterpreting
+the same "bare N, N -> continuous scene" logic against Cymbeline — a
+play with no Quarto/act-division history and no scholarly reason to use
+continuous scene numbering — also "resolves" 8 citations to real TLNs.
+=cym 5.19.7= ("19, 7") reinterpreted as continuous scene 19 resolves to
+Act 4 Scene 1, line 7, TLN 2212 — a perfectly plausible-looking but
+almost certainly meaningless result. With Cymbeline's TLN space holding
+thousands of lines across 27 possible continuous-scene values, some
+fraction of random (scene, line) reinterpretations will land on a real
+TLN purely by chance. *"Resolves to some TLN" is not sufficient evidence
+of correctness* — this report's original methodology treated it as such,
+which is how the Lear claim survived an initial check.
 
-Pericles is a plausible second candidate for genuine continuous-scene
-citation (it shares Lear's Quarto/act-division problem — the Quarto has
-no act divisions), but this has not been separately verified the way
-Lear was.
+*What the bare "N, N" pattern actually is:* most likely, at least in
+part, exactly what the Lear example above shows — implicit continuation
+of a citation run to a *different* work (often the Sonnets or another
+play), where Schmidt's print drops the repeated abbreviation and the
+=@n=-generation tool guessed wrong about which work continues. This
+would need a *stateful* parser that tracks "current work" across a
+citation run to resolve correctly — structurally the same class of
+problem already known and deferred for the NVS/Furness annotations
+(=nvs-annotations/shake.var.*.annot.xml=, which similarly omits
+=@act=/=@scene= and inherits from a preceding annotation). It has not
+been verified end-to-end and is *not* part of the current repair pass.
+Pericles was also checked (it shares Lear's Quarto/act-division
+history) using the same full-population methodology: only 3 of 104
+bare-numeric citations resolve under continuous-scene reinterpretation,
+and the rest have out-of-range numbers up to 151 against Pericles' 22
+real scenes — the same negative result as Lear.
 
 * Cause 3: 2 Henry IV's prose relineation drift (partially diagnosed)
 
-2 Henry IV has the worst resolution rate in the corpus, 82.53% (927
-unresolved out of 5,306 clean citations), and by a wide margin: the
-next-worst play (Tempest) sits at 86.3%. It also has the highest
+2 Henry IV has the worst resolution rate in the corpus, 82.40% (1,064
+unresolved out of 6,045 clean citations) — untouched by the Cause 1
+repair, since 2H4 has no single-scene Acts. It also has the highest
 prose fraction of any play in the corpus — 51.8% of ShakeDraCor's
 through-lines are =<lb>= prose milestones rather than =<l>= verse
 lines, against a corpus median well under half that.
@@ -158,18 +225,20 @@ about 22 lines "longer" than Folger's.
 
 | Type                                    | 2H4 count | % of 2H4 unresolved |
 |-------------------------------------------+-----------+-----------------------|
-| Overflow past ShakeDraCor's scene end      |       185 |                 20.0% |
-| In-range gap                                |       742 |                 80.0% |
+| Overflow past ShakeDraCor's scene end      |       217 |                 20.4% |
+| In-range gap                                |       847 |                 79.6% |
 
-Only the 185 overflow cases are directly and unambiguously explained by
+Only the 217 overflow cases are directly and unambiguously explained by
 the relineation-drift mechanism as demonstrated above. The remaining
-742 in-range gaps are consistent with the same underlying cause
+847 in-range gaps are consistent with the same underlying cause
 (relineation drift doesn't only produce a longer tail — it can also
 produce collisions *within* a scene if the two editions' line breaks
 diverge and then partially re-converge), but that has not been verified
-line-by-line the way the Lear and single-scene-Act mechanisms were.
-Prose relineation remains the leading hypothesis for 2H4, not a closed
-case.
+line-by-line the way the single-scene-Act mechanism was. Given how
+Cause 2's superficially-plausible "resolves to a TLN" check turned out
+to be worthless as evidence, no attempt was made to auto-fix this
+pattern. Prose relineation remains the leading hypothesis for 2H4, not a
+closed case.
 
 * Baseline residual: isolated TLN gaps in ShakeDraCor's own source (all plays, ~1-4%)
 
@@ -191,9 +260,11 @@ recurs across the whole corpus at roughly 0.3%-4.4% of each play's
 lines (lowest in Merry Wives itself and Henry VI Part 1; highest in
 Comedy of Errors, Lear, and Macbeth), and reads as genuine editorial
 practice — a Through-Line-Number slot reserved but not printed in this
-edition — rather than a ShakeDraCor extraction bug. This is the
-baseline every play sits on top of, on top of which Causes 1-3 above
-add their own, larger effects for specific plays.
+edition — rather than a ShakeDraCor extraction bug. This is unaffected
+by the citation-counting correction above (it was always derived
+directly from ShakeDraCor's own source, not from lexicon.xml), and is
+the baseline every play sits on top of, on top of which Causes 1-3 add
+their own, larger effects for specific plays.
 
 =corpus-tools/tests/test_schmidt_lexicon_map.py::test_wiv_4_4_9_is_a_known_source_gap=
 documents this exact case as a regression fixture, so it doesn't get
@@ -221,16 +292,16 @@ cites into, so it's noted here rather than fixed — it would need to be
 corrected upstream in ShakeDraCor's source, or worked around locally if
 we ever depend on Othello's TLN values specifically.
 
-* Next step
+* Next steps
 
-Plan a Schmidt-citation-repair pass that:
-1. Mechanically fixes Cause 1 (single-scene-Act collapse) using the
-   structural detection rule above — deterministic, no ambiguity.
-2. Applies Lear's continuous-scene reinterpretation, and investigates
-   Pericles as a probable second case, /before/ touching the bare "N,
-   N" pattern in any other play.
-3. Leaves Cause 3 (2H4 prose drift) and the un-generalized part of
-   Cause 2 for further investigation rather than guessing — a repair
-   that silently "fixes" an unverified case risks producing a
-   confidently wrong citation, which is worse than an honest failure to
-   resolve.
+1. ~~Mechanically fix Cause 1~~ — done; see above.
+2. Investigate the implicit-citation-continuation hypothesis behind the
+   bare "N, N" display pattern (all plays, not just Lear) as its own
+   project, alongside the structurally identical NVS/Furness
+   stateful-parsing problem. Do not attempt a mechanical fix without the
+   same full-population, content-level verification standard this
+   report's Cause 2 retraction established as necessary.
+3. Leave Cause 3 (2H4 prose drift) for further investigation rather than
+   guessing — a repair that silently "fixes" an unverified case risks
+   producing a confidently wrong citation, which is worse than an honest
+   failure to resolve.
