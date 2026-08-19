@@ -9,11 +9,15 @@ involved.
 
 * Phase 0: Decisions (prerequisites)
 
-* TODO Establish canonical CTS URN identifiers
+* DONE Establish canonical CTS URN identifiers
+CLOSED: [2026-08-19 Wed 17:18]
 :PROPERTIES:
 :CUSTOM_ID: phase0/cts-urns
 :ASSIGNEES: Cliff, Alison Babeu, Greg Crane
 :GITHUB_ISSUE: 3
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-19 Wed 17:18]
 :END:
 See [[file:forum.org::#citations/cts-urns-and-citation-families][#citations/cts-urns-and-citation-families]].
 
@@ -23,6 +27,14 @@ Decisions needed before any =@target= URNs are written into encoded files:
 - File-level edition identifiers: confirm =folger-eng1= and =globe-eng1=
 - Textgroup identifier: confirm =shakespeare= (not =shak=)
 - Textgroup and work identifiers for Abbott, Schmidt, Onions, Dyce
+
+** Decision
+Alison confirms:
+- =shakespeare= is the textgroup identifier;
+- plays (works) are identified by the MLA convention already used in
+  the Globe filenames (e.g., =King Lear= is =urn:cts:engLit:shakespeare:lr=
+- use citation-family identifiers (=globe=, =f1=) as file-level edition identifiers;
+  see [[https://github.com/PerseusDLCode/canonical-engLit/discussions/5][discussion on establishing canonical identifiers]] and [[https://github.com/PerseusDLCode/canonical-engLit/discussions/6][discussion on citation families]].
 
 Blocked on: conversation with Alison Babeu and Greg Crane.
 
@@ -37,6 +49,8 @@ to =perseus-schemas= (done by Claude Code via =update-schema-pi.xsl=).
 This is the de facto decision; needs Charles's awareness and sign-off
 before it's treated as the project-wide convention for other repos.
 
+*Decision*: use the raw-GitHub-URLs.
+
 * TODO Agree on engLit corpus discovery in MVP
 :PROPERTIES:
 :CUSTOM_ID: phase0/corpus-discovery
@@ -47,6 +61,45 @@ MVP's =config.py= has no =engLit= entry in =_CORPUS_LABELS=. Adding
 it requires confirming that corpus discovery handles the
 =canonical-engLit/data/= layout correctly. One-line change, but needs
 Charles's sign-off.
+
+* DONE Convert ShakeDraCor TEI into the Perseus corpus structure
+CLOSED: [2026-08-19 Wed]
+:PROPERTIES:
+:CUSTOM_ID: phase1/import-shakedracor
+:ASSIGNEES: Claude Code
+:DEPENDS: phase0/cts-urns
+:END:
+=corpus-tools: import-shakedracor= (=src/shakedracor_import.py= +
+=src/commands/import_shakedracor.py=) converts all 37 ShakeDraCor plays
+into =data/shakespeare/{work}/shakespeare.{work}.f1.xml=, nested
+per-work (matching =canonical-greekLit= and engLit's own other
+textgroups, e.g. =james1/basilikon=), with a per-work =__cts__.xml=.
+Reuses the existing =set-genre=/=normalize= pipeline
+(=drama-act-scene-line= genre) rather than reimplementing CTS URN,
+schema PI, or citeStructure logic.
+
+Required two additions to =corpus-tools/xslt/add-citeStructure.xsl=:
+- =drama-act-scene-line-cs= now also matches =div[@type='induction'
+  | 'prologue' | 'epilogue' | 'chorus']= as flat (div → line) sibling
+  branches alongside the nested act → scene → line structure -- these
+  plays have real citable top-level divs outside the numbered acts
+  (e.g. Henry V's Prologue/Chorus/Epilogue, Shrew's Induction).
+- New opt-in =throughline-cs= template (=CTS-tln= refsDecl) citing
+  every line by its Folger Through-Line-Number, derived from
+  ShakeDraCor's own =xml:id="ftln-NNNN"=. Emitted alongside the primary
+  act.scene.line refsDecl for =f1= editions specifically (not the
+  Globe files, which carry no ftln ids) via a new
+  =$include-tln-refsdecl= param, wired through =pipeline.py='s
+  =PIPELINES["drama"]= as a pass-through override.
+
+All 37 converted files validate against both =perseus_drama.rng= (jing)
+and the corpus-tools Schematron gate. One flagged anomaly, left
+untouched rather than guessed at: All's Well's =n="2.4.gap"= placeholder
+(pre-existing ShakeDraCor data quirk).
+
+The existing flat Globe files (=data/shakespeare/{work}.xml=,
+=globe-eng1=... not yet renamed) are untouched -- migrating them into
+the same nested layout is separate, later work, not done here.
 
 * Phase 1: Corpus repair (canonical-engLit/mvp branch)
 
@@ -217,6 +270,21 @@ Numbered =<lb ed="G">= in prose retained in place.
 elements by interpolating between existing anchor values. Dry-run mode
 reports collisions. Applied to all plays except excluded files.
 See [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]] for full survey and collision report.
+
+*Correction [2026-08-19]:* this note previously read "applied to all
+plays except excluded files" without qualification. It silently
+reached zero plays for 7 of them (1h4, 1h6, 2h4, 2h6, 3h6, ant, aww):
+those files have no =<l>= elements at all -- verse is flattened into
+=<p>= with only sparse 10-line Globe milestones, so there was nothing
+for the pass to interpolate. Confirmed via git history (the
+=number-verse-lines= commit never touches =2h4.xml=) and by direct
+inspection against a 19th-c. Globe-edition scan (2H4's Induction
+matches the surviving milestones exactly, confirming the underlying
+verse-line data is recoverable, just not reconstructed here). Decision
+[2026-08-18]: set the Globe encoding aside for these plays rather than
+reconstruct it; ShakeDraCor is now the primary edition (see
+=phase1/import-shakedracor= above). Full detail in the corpus-tools
+session memory =englit-shakespeare-verse-encoding-gap=.
 
 * DONE Normalize schema PIs
 :PROPERTIES:

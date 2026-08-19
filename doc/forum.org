@@ -228,6 +228,9 @@ Document the distinction explicitly. Treat the CorpusMap as the
 provisional registry. Ratify naming with Alison Babeu and Greg Crane
 before committing URNs to encoded files. Paper deferred to later.
 
+**** Update
+Alison and Greg agree with this approach. We should implement it.
+
 ** Globe↔FTLN mapping: approach and tool
 :PROPERTIES:
 :CUSTOM_ID: citations/globe-ftln-mapping
@@ -253,3 +256,38 @@ work citations; FTLN→Globe for displaying familiar citations in the UI.
 [2026-08-14] Extract from DraCor XML; serialize as JSON; query via
 =CorpusMap= class in =corpus-tools=. Implemented and working.
 See =agenda.org= =corpus-tools/generate-line-map= (DONE).
+
+** citeStructure for early modern plays with non-act top-level divs, and a throughline citation scheme
+:PROPERTIES:
+:CUSTOM_ID: encoding/citestructure-induction-and-tln
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: session/2026-08-19
+:DISPOSITION: adopt
+:END:
+
+Converting ShakeDraCor plays (=import-shakedracor=, see =agenda.org=
+=phase1/import-shakedracor=) surfaced two gaps in the existing
+=drama-act-scene-line-cs= citeStructure template
+(=corpus-tools/xslt/add-citeStructure.xsl=):
+
+1. Several plays have real citable top-level divs outside the numbered
+   acts -- Induction (Shrew, 2H4), Prologue (H5, Troilus and
+   Cressida), Epilogue, and per-act Chorus (H5) -- that the template
+   couldn't cite into at all (only =div[@type='act']= was matched at
+   the outer level).
+2. The =f1= (ShakeDraCor/Folger) editions carry Folger Through-Line-Numbers
+   (=xml:id="ftln-NNNN"=) that deserve their own citation scheme, since
+   TLN is the eventual First-Folio-grounded target (see
+   =#citations/cts-urns-and-citation-families=), not just an internal
+   cross-reference.
+
+*** Decision
+[2026-08-19] Extend =drama-act-scene-line-cs= with flat (div → line)
+sibling branches for =induction=/=prologue=/=epilogue=/=chorus=,
+alongside the existing nested act → scene → line branch. Add a second,
+opt-in refsDecl (=xml:id="CTS-tln"=) citing every line by its
+ftln-derived integer, emitted only when the pipeline is called with
+=include-tln-refsdecl=true= (i.e. for =f1= editions specifically -- the
+Globe files carry no ftln ids and don't get this refsDecl). Implemented
+in =corpus-tools= (=add-citeStructure.xsl=, =pipeline.py=,
+=import_shakedracor.py=); test coverage in =tests/test_pipeline.py=.

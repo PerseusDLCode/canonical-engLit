@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:engLit:shakespeare.wiv" xml:lang="eng" groupUrn="urn:cts:engLit:shakespeare">
+   <ti:title xml:lang="eng">The Merry Wives of Windsor</ti:title>
+   <ti:edition xml:lang="eng" workUrn="urn:cts:engLit:shakespeare.wiv" urn="urn:cts:engLit:shakespeare.wiv.f1">
+      <ti:label xml:lang="eng">The Merry Wives of Windsor</ti:label>
+      <ti:description xml:lang="eng">The Folger Shakespeare (Folger Digital Texts), ed. Barbara A. Mowat and Paul Werstine, via ShakeDraCor (dracor.org/shake). CC BY-NC 3.0.</ti:description>
+   </ti:edition>
+</ti:work>
