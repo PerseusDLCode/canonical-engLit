@@ -5,4 +5,8 @@
       <ti:label xml:lang="eng">Two Gentlemen of Verona</ti:label>
       <ti:description xml:lang="eng">The Folger Shakespeare (Folger Digital Texts), ed. Barbara A. Mowat and Paul Werstine, via ShakeDraCor (dracor.org/shake). CC BY-NC 3.0.</ti:description>
    </ti:edition>
+   <ti:edition xml:lang="eng" workUrn="urn:cts:engLit:shakespeare.tgv" urn="urn:cts:engLit:shakespeare.tgv.globe">
+      <ti:label xml:lang="eng">Two Gentlemen of Verona</ti:label>
+      <ti:description xml:lang="eng">The Globe Shakespeare, ed. W. G. Clark and W. Aldis Wright. New York: Nelson Doubleday, Inc.</ti:description>
+   </ti:edition>
 </ti:work>
