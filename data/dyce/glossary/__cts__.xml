@@ -1,0 +1,10 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:dyce"
+  urn="urn:cts:engLit:dyce.glossary"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">A General Glossary to Shakespeare's Works</ti:title>
+  <ti:edition urn="urn:cts:engLit:dyce.glossary.perseus-eng1" workUrn="urn:cts:engLit:dyce.glossary" xml:lang="eng">
+    <ti:label xml:lang="eng">A General Glossary to Shakespeare's Works</ti:label>
+    <ti:description xml:lang="eng">Dyce, Alexander. A General Glossary to Shakespeare's Works. Boston: Dana Estes and Company, 1904.</ti:description>
+  </ti:edition>
+</ti:work>

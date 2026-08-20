@@ -123,11 +123,15 @@ should not attempt to "fix" them heuristically.
 Plays affected: Hamlet (5.2), Richard II (2.1), Romeo and Juliet (3.3),
 Henry V (1.2), Love's Labour's Lost (5.2 ×2), Measure for Measure (2.2).
 
-* TODO Add CTS structure for Onions and Dyce
+* DONE Add CTS structure for Onions and Dyce
+CLOSED: [2026-08-20 Thu 09:52]
 :PROPERTIES:
 :CUSTOM_ID: phase1/cts-structure-onions-dyce
 :ASSIGNEES: Claude Code
 :DEPENDS: phase0/cts-urns
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-20 Thu 09:52]
 :END:
 Both are currently bare XML files with no =__cts__.xml= at any level.
 Required:
@@ -137,6 +141,19 @@ Required:
 - Same structure for Dyce
 
 Follow the Abbott pattern. URN values depend on Phase 0 decision.
+
+Done: =urn:cts:engLit:onions= / =onions.glossary= / =onions.glossary.perseus-eng1=;
+=urn:cts:engLit:dyce= / =dyce.glossary= / =dyce.glossary.perseus-eng1=. Both files
+relocated, schema PI switched from the dead local =schemas/= path to the
+raw-GitHub-URL =perseus_lexical.rng= (per phase0/schema-path), and the
+=<div type="edition">/@n= corrected from a leftover =shak.perseus-eng1= copy-paste
+artifact to the work's own edition URN.
+
+**Not done, found in passing**: neither file is anywhere close to
+=perseus_lexical.rng=-valid — jing reports ~7,000 content-level errors (misplaced
+=<ab>=/=<quote>=, etc.), pre-existing in the source encoding, unrelated to CTS
+structure. citeStructure migration (=phase1/citestructure-refworks=) will need to
+budget for this; may be worse than Abbott/Schmidt.
 
 * TODO Survey <bibl @n> format across reference works
 :PROPERTIES:

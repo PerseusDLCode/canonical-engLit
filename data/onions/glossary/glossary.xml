@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../schemas/perseus_lexica.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_lexical.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
       <teiHeader xml:lang="eng">
             <fileDesc>
                   <titleStmt>
@@ -50,7 +50,7 @@
             <revisionDesc><change><ab>converted to TEI P5</ab></change></revisionDesc>
       </teiHeader>
       <text xml:lang="eng">
-            <body><div type="edition" n="urn:cts:engLit:shak.perseus-eng1" xml:lang="eng">
+            <body><div type="edition" n="urn:cts:engLit:onions.glossary.perseus-eng1" xml:lang="eng">
                   <div type="textpart" subtype="glossary">
                         <pb/>
                         <div type="textpart" subtype="section">

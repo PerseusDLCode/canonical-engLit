@@ -1,0 +1,10 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  groupUrn="urn:cts:engLit:onions"
+  urn="urn:cts:engLit:onions.glossary"
+  xml:lang="eng">
+    <ti:title xml:lang="eng">A Shakespeare Glossary</ti:title>
+  <ti:edition urn="urn:cts:engLit:onions.glossary.perseus-eng1" workUrn="urn:cts:engLit:onions.glossary" xml:lang="eng">
+    <ti:label xml:lang="eng">A Shakespeare Glossary</ti:label>
+    <ti:description xml:lang="eng">Onions, C. T. A Shakespeare Glossary. Oxford: Clarendon Press, 1911.</ti:description>
+  </ti:edition>
+</ti:work>
