@@ -38,11 +38,15 @@ Alison confirms:
 
 Blocked on: conversation with Alison Babeu and Greg Crane.
 
-* TODO Agree on schema path convention
+* DONE Agree on schema path convention
+CLOSED: [2026-08-19 Wed 17:59]
 :PROPERTIES:
 :CUSTOM_ID: phase0/schema-path
 :ASSIGNEES: Cliff, Charles Pletcher
 :GITHUB_ISSUE: 2
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-19 Wed 17:59]
 :END:
 Current implementation uses raw-GitHub-URL =<?xml-model?>= PIs pointing
 to =perseus-schemas= (done by Claude Code via =update-schema-pi.xsl=).

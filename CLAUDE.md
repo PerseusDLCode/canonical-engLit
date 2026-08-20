@@ -14,7 +14,10 @@ works of Shakespeare.
 - `schemas/` — outdated TEI customizations from a prior refurbishment.
   Do not use. The current schemas are in the sibling repository
   `perseus-schemas` (`https://github.com/PerseusDLCode/perseus-schemas`).
-- `src/` — scripts from the prior refurbishment; some may still be useful.
+- `src/` — one-off scripts from the prior corpus refurbishment, most of
+  them specific to individual Marlowe plays or other non-Shakespeare texts.
+  Do not reuse them for Shakespeare without careful inspection; write new
+  tools instead.
 - `doc/` — project documentation, including `forum.org` (design
   deliberation) and `agenda.org` (task tracking).
 
