@@ -155,10 +155,14 @@ artifact to the work's own edition URN.
 structure. citeStructure migration (=phase1/citestructure-refworks=) will need to
 budget for this; may be worse than Abbott/Schmidt.
 
-* TODO Survey <bibl @n> format across reference works
+* DONE Survey <bibl @n> format across reference works
+CLOSED: [2026-08-22 Sat 14:33]
 :PROPERTIES:
 :CUSTOM_ID: phase1/bibl-survey
 :ASSIGNEES: Claude Code
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-22 Sat 14:33]
 :END:
 The Schmidt =<bibl @n>= format is known: =n="shak. lr 2.4.261"=.
 Abbott, Onions, and Dyce have not been surveyed; Cliff reports
@@ -174,6 +178,15 @@ Survey task:
 4. Report as org-mode table
 
 Output informs the bibl resolver design (Phase 3).
+
+Done: full report at [[file:bibl-survey-report.org][bibl-survey-report.org]]. Headline:
+Schmidt is the outlier (99.99% carry =@n=, 0.03% malformed), not the
+norm — Abbott and Dyce carry *no* =@n= at all, and Onions only on 9%
+of its citations. All three free-text works use different citation
+grammars (Onions: =Abbr. rom.rom.arabic=; Dyce: =FULL TITLE,
+rom.rom.arabic=; Abbott: mixed with non-Shakespeare citations,
+needs an abbreviation whitelist to separate). Malformation rates
+measured where =@n= exists: Schmidt 0.03%, Onions 1.7%.
 
 * TODO citeStructure migration for reference works
 :PROPERTIES:
