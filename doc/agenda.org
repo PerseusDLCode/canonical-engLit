@@ -202,6 +202,10 @@ Expected:
 - Abbott: sections numbered =§1=, =§2=, … — one or two-level structure
 - Schmidt, Onions, Dyce: alphabetically-ordered headword entries
 
+Strategy under discussion, not yet decided — see forum.org
+=#encoding/citestructure-refworks-strategy= (four candidate
+approaches with pros/cons, informed by the bibl survey above).
+
 Write a separate XSLT per work type once the structure is confirmed.
 
 * Phase 2: MVP pipeline integration

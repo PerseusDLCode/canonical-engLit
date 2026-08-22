@@ -291,3 +291,94 @@ ftln-derived integer, emitted only when the pipeline is called with
 Globe files carry no ftln ids and don't get this refsDecl). Implemented
 in =corpus-tools= (=add-citeStructure.xsl=, =pipeline.py=,
 =import_shakedracor.py=); test coverage in =tests/test_pipeline.py=.
+
+** citeStructure strategy for the four reference works
+:PROPERTIES:
+:CUSTOM_ID: encoding/citestructure-refworks-strategy
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: session/2026-08-22
+:DISPOSITION: open
+:END:
+
+=phase1/citestructure-refworks= (agenda.org) was scoped assuming
+Abbott/Schmidt/Onions/Dyce were roughly one problem with two shapes
+(section-numbered vs. alphabetical headword). The =<bibl>= survey (see
+=phase1/bibl-survey=, agenda.org; full data in
+=doc/bibl-survey-report.org=) complicates that: the four works don't
+just structure *themselves* differently, they encode their outbound
+Shakespeare citations in four different grammars, only one of which
+(Schmidt's =@n=) is machine-readable already. Onions is 91% free text,
+Dyce and Abbott 100%, and Abbott's free text is interleaved with
+citations to *other* authors (Jonson, Spenser, the Bible) with no
+reliable syntactic marker separating them from Shakespeare citations.
+
+Two coupled problems are in play: (a) citeStructure proper -- how a
+reader/=ReferenceParser= cites *into* each reference work (Abbott by
+§section/subsection/paragraph; Schmidt/Onions/Dyce by headword); (b)
+resolving the =<bibl>= citations *out* to Shakespeare CTS URNs
+(=phase3/bibl-resolver=, currently DEPENDS on this task). How tightly
+to couple (a) and (b) -- and how uniformly to treat the four works --
+is the open question. Four candidate strategies, not mutually
+exclusive:
+
+**** Strategy A -- bespoke, combined per-work XSLT
+One XSLT per work that adds citeStructure *and* tags that work's
+=<bibl>= citations as =<ref>= in the same pass.
+- Pros: one round-trip through the pipeline per work; whoever's
+  writing it stays in the context of that work's idiosyncrasies once,
+  not twice; natural per-work commit/review unit.
+- Cons: conflates two problems with different dependencies (citeStructure
+  only needs the corpus-tools pipeline; bibl-tagging additionally needs
+  the Abbott whitelist / =phase3/play-abbr-map=); front-loads the
+  hardest problem (Abbott) before the easier three can ship; if the
+  whitelist stalls, all four works stall together in MVP instead of
+  Schmidt/Onions/Dyce becoming readable independently.
+
+**** Strategy B -- two fully separate passes (citeStructure now, resolver later)
+Keep Phase 1 narrowly about navigation-citeStructure only; leave all
+=<bibl>= → =<ref>= tagging to a wholly separate Phase 3 pass, as
+agenda.org currently implies.
+- Pros: matches the existing DEPENDS graph; unblocks headword/section
+  display in MVP without waiting on the resolver; each phase has one
+  clear, checkable success criterion.
+- Cons: two edit/review cycles over the same files; if Phase 3 later
+  needs finer anchoring than Phase 1's citeStructure provides (e.g. an
+  =xml:id= per =<bibl>= to target with =<ref>=), some of Phase 1's work
+  may need revisiting rather than being purely additive.
+
+**** Strategy C -- shared citeStructure for the three lexica, Abbott separate
+Schmidt/Onions/Dyce share an identical =alpha → entryFree= structure
+(confirmed in the source, not just assumed) -- write one parameterized
+=lexicon-headword-cs= template for all three instead of three near-copies;
+Abbott's section/subsection/paragraph structure gets its own template.
+- Pros: DRY -- one fix in headword-citing logic fixes three works at
+  once; matches the existing corpus-tools pattern of shared structural
+  subclasses driving shared XSLT branches rather than per-corpus forks.
+- Cons: uniformity has only been confirmed at the entry level sampled
+  so far, not across the full ~280K entries combined -- multi-sense
+  entries, run-on headwords, or cross-reference-only entries could force
+  work-specific escape hatches anyway; doesn't reduce the independent
+  ~7,000-error RNG cleanup Onions/Dyce need before either validates
+  regardless of which XSLT strategy is chosen.
+
+**** Strategy D -- normalize free-text citations to =@n= up front, before writing any resolver
+Treat the free-text → =@n= conversion (Onions/Dyce/Abbott →
+Schmidt's =n="shak. <abbr> <act>.<scene>.<line>"= convention) as its
+own one-time editorial/data-repair pass, so Phase 3's resolver only
+ever has to understand one format, not four.
+- Pros: concentrates format-specific complexity into one reviewable,
+  testable normalization pass per work instead of smearing
+  format-detection across resolver code forever; produces cleaner
+  source data with a benefit beyond this resolver; fixes the
+  malformed-=@n= long tail (Schmidt's bare =shak. luc=, Onions'
+  duplicate-token/leading-dot bugs) once, at the source, instead of
+  special-casing it downstream indefinitely.
+- Cons: rewrites primary citation *content*, not just structural
+  scaffolding, at real scale (tens of thousands of free-text citations
+  across three works) -- materially higher risk of silently
+  misreading a citation than A/B/C, none of which touch citation text;
+  can't start on Abbott until the author/play whitelist already
+  exists, since you can't normalize a citation you can't first
+  identify as Shakespeare's; harder to review than new XSLT (diffing a
+  regenerated attribute against free text is less legible than
+  reviewing template logic).
