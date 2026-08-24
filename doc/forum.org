@@ -382,3 +382,55 @@ ever has to understand one format, not four.
   identify as Shakespeare's; harder to review than new XSLT (diffing a
   regenerated attribute against free text is less legible than
   reviewing template logic).
+
+** Schmidt play-abbreviation table: verification against DraCor corpus
+:PROPERTIES:
+:CUSTOM_ID: citations/schmidt-play-abbr-table
+:ASSIGNEES: Claude Code
+:SOURCE: session/2026-08-24
+:DISPOSITION: adopt (histories); open (unregistered poems)
+:END:
+
+=src/mvp/schmidt_spec.md= requires verifying the 43-entry Schmidt
+play-abbreviation → CTS playid table against the actual DraCor corpus
+before implementing the =<bibl>= resolver, with particular attention to
+the histories (1h4, 2h4, 1h6, 2h6, 3h6) and the shorter poems (lc, pp,
+pht).
+
+*Histories:* verified against the 37 plays imported from ShakeDraCor
+(=phase1/import-shakedracor=). =data/shakespeare/{1h4,2h4,1h6,2h6,3h6}/=
+each contain a =shakespeare.{id}.f1.xml= whose =<idno type="CTS">= and
+=<title>= match the spec table exactly (e.g. =urn:cts:engLit:shakespeare.1h6.f1=
+/ "Henry VI, Part 1"), and whose =<bibl>= provenance note in the header
+confirms derivation "via ShakeDraCor (dracor.org/shake)". No id
+mismatches anywhere in the 37-play set the table draws from.
+
+*Shorter poems (lc, pp, pht):* not a mismatch, but not verifiable
+either -- DraCor/ShakeDraCor is a drama-only corpus (37 plays, no
+poems), so there is no DraCor playId for =lc=, =pp=, or =pht= to check
+the spec table's ids against. Confirmed these three exist locally only
+as un-migrated flat Globe files (=data/shakespeare/{lc,pp,pht}.xml=,
+pre-=phase1/import-shakedracor= layout) with no =__cts__.xml= and no
+CTS URN registered at any level (checked the shared
+=data/shakespeare/__cts__.xml=: no entry for any of the two). The same
+is true of =son=, =ven=, and =luc=, also present in the Schmidt table.
+All six are the non-dramatic works CLAUDE.md marks out of scope for the
+current sprint's own encoding work -- but Schmidt still *cites* them,
+so the resolver still needs identifiers for them even though nothing
+external confirms those identifiers yet. The ids in the spec table
+(=lc=, =pp=, =pht=, =son=, =ven=, =luc=) are self-consistent with the
+MLA-convention play-id scheme Alison confirmed for dramatic works
+(=phase0/cts-urns=) and with Schmidt's own abbreviations, so there's no
+reason to expect they're wrong -- they just rest on that convention
+and on Cliff/Alison's naming, not on an external corpus the way the 37
+DraCor-backed plays do.
+
+*** Decision
+[2026-08-24] Histories confirmed aligned with DraCor; no changes to
+the spec table needed for them. For the six non-dramatic-work ids
+(=lc, pp, pht, son, ven, luc=), proceed with the spec table as
+written -- consistent with the existing MLA-convention naming
+decision -- but flag them as unverified-against-DraCor-by-construction
+rather than confirmed, since DraCor has no corresponding entries to
+check against. Proceeding to implement =phase1/citestructure-refworks=
+(Schmidt) and the Task 2 resolver per =src/mvp/schmidt_spec.md=.
