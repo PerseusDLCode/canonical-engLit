@@ -59,7 +59,7 @@ before it's treated as the project-wide convention for other repos.
 :PROPERTIES:
 :CUSTOM_ID: phase0/corpus-discovery
 :ASSIGNEES: Cliff, Charles Pletcher
-:GITHUB_ISSUE: 3
+:GITHUB_ISSUE: https://github.com/PerseusDLCode/MinimumViablePerseus/issues/176
 :END:
 MVP's =config.py= has no =engLit= entry in =_CORPUS_LABELS=. Adding
 it requires confirming that corpus discovery handles the
