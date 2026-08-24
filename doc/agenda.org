@@ -208,6 +208,16 @@ approaches with pros/cons, informed by the bibl survey above).
 
 Write a separate XSLT per work type once the structure is confirmed.
 
+*Progress:* Schmidt done — =citeStructure unit="alpha"= over the 26
+alpha-level =textpart= divs, replacing the broken =cRefPattern=; jing
+error count against =perseus_lexical.rng= unchanged (19,526 before and
+after). Schema constraint found along the way, relevant to the
+Abbott/Onions/Dyce templates still to come: this customization
+requires =citeStructure= to nest inside =refsDecl= (not replace it),
+and forbids =citeData= outright (=model.descLike= is =notAllowed= in
+=perseus_lexical.rng=). Abbott/Onions/Dyce strategy still open, per
+=#encoding/citestructure-refworks-strategy=.
+
 * Phase 2: MVP pipeline integration
 
 * TODO Register engLit in MVP config
@@ -262,6 +272,20 @@ Once URN naming is settled and the =<bibl @n>= survey is complete:
 build a mapping table from Schmidt/Abbott play abbreviations to CTS
 edition identifiers. The CorpusMap already handles Globe→FTLN; this
 adds the play-abbreviation layer on top.
+
+*Progress:* Schmidt's table done and verified — 44 abbreviations
+(43 works + =e3= flagged as non-Shakespeare), =PLAY_ABBR_TO_ID= in
+=src/mvp/resolve_schmidt_bibls.py=. Verification against the
+DraCor/ShakeDraCor corpus recorded in =doc/forum.org=
+=#citations/schmidt-play-abbr-table=: the five histories (1h4, 2h4,
+1h6, 2h6, 3h6) confirmed exact against the imported ShakeDraCor files;
+the three non-dramatic poems in the table (lc, pp, pht) aren't in
+DraCor at all (drama-only corpus) and are carried through by
+convention, not externally verified. Abbott's mapping is not started —
+it additionally needs an author/play whitelist to separate Shakespeare
+citations from Jonson/Spenser/Bible references first, which doesn't
+exist yet (see forum =#encoding/citestructure-refworks-strategy=,
+Strategies A and D).
 
 * TODO Write <bibl> resolver (dry-run first)
 :PROPERTIES:
