@@ -171,6 +171,12 @@ in running text). =@target= carries a CTS URN using the citation
 family convention below. Retain =<bibl @n>= in source files until the
 resolver is written and URN naming is settled (Phase 0a).
 
+**** UPDATE <2026-08-25 Tue>
+The CTS URN format has been determined; the wrapping <bibl @n>
+elements may now be removed.
+
+
+
 ** CTS URNs, citation families, and the work/edition problem
 :PROPERTIES:
 :CUSTOM_ID: citations/cts-urns-and-citation-families

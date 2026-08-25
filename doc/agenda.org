@@ -8,8 +8,7 @@ where external collaborators (Charles Pletcher, Alison Babeu) are
 involved.
 
 * Phase 0: Decisions (prerequisites)
-
-* DONE Establish canonical CTS URN identifiers
+** DONE Establish canonical CTS URN identifiers
 CLOSED: [2026-08-19 Wed 17:18]
 :PROPERTIES:
 :CUSTOM_ID: phase0/cts-urns
@@ -28,7 +27,7 @@ Decisions needed before any =@target= URNs are written into encoded files:
 - Textgroup identifier: confirm =shakespeare= (not =shak=)
 - Textgroup and work identifiers for Abbott, Schmidt, Onions, Dyce
 
-** Decision
+*** Decision
 Alison confirms:
 - =shakespeare= is the textgroup identifier;
 - plays (works) are identified by the MLA convention already used in
@@ -38,7 +37,7 @@ Alison confirms:
 
 Blocked on: conversation with Alison Babeu and Greg Crane.
 
-* DONE Agree on schema path convention
+** DONE Agree on schema path convention
 CLOSED: [2026-08-19 Wed 17:59]
 :PROPERTIES:
 :CUSTOM_ID: phase0/schema-path
@@ -55,18 +54,20 @@ before it's treated as the project-wide convention for other repos.
 
 *Decision*: use the raw-GitHub-URLs.
 
-* TODO Agree on engLit corpus discovery in MVP
+** DONE Agree on engLit corpus discovery in MVP
+CLOSED: [2026-08-24 Mon]
 :PROPERTIES:
 :CUSTOM_ID: phase0/corpus-discovery
 :ASSIGNEES: Cliff, Charles Pletcher
 :GITHUB_ISSUE: https://github.com/PerseusDLCode/MinimumViablePerseus/issues/176
 :END:
-MVP's =config.py= has no =engLit= entry in =_CORPUS_LABELS=. Adding
-it requires confirming that corpus discovery handles the
-=canonical-engLit/data/= layout correctly. One-line change, but needs
-Charles's sign-off.
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-24 Mon]
+:END:
+Charles added =engLit= to =_CORPUS_LABELS= in =MinimumViablePerseus=.
+Phase 2 is now unblocked.
 
-* DONE Convert ShakeDraCor TEI into the Perseus corpus structure
+** DONE Convert ShakeDraCor TEI into the Perseus corpus structure
 CLOSED: [2026-08-19 Wed]
 :PROPERTIES:
 :CUSTOM_ID: phase1/import-shakedracor
@@ -107,10 +108,16 @@ the same nested layout is separate, later work, not done here.
 
 * Phase 1: Corpus repair (canonical-engLit/mvp branch)
 
-* TODO Correct Priority-1 Globe anchor errors
+* CANCELLED Correct Priority-1 Globe anchor errors
+CLOSED: [2026-08-25 Tue 10:48]
 :PROPERTIES:
 :CUSTOM_ID: encoding/priority1-anchor-errors
 :ASSIGNEES: Cliff
+:END:
+:LOGBOOK:
+- State "CANCELLED"  from "TODO"       [2026-08-25 Tue 10:48] \\
+  We have set aside (at least for now) Perseus's Globe editions and
+  replaced them with DraCor's Shakespeare.
 :END:
 7 scenes with backward-running Globe line-number anchors, identified
 in the dry-run survey. See [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]] §Priority 1.
@@ -122,6 +129,7 @@ should not attempt to "fix" them heuristically.
 
 Plays affected: Hamlet (5.2), Richard II (2.1), Romeo and Juliet (3.3),
 Henry V (1.2), Love's Labour's Lost (5.2 ×2), Measure for Measure (2.2).
+
 
 * DONE Add CTS structure for Onions and Dyce
 CLOSED: [2026-08-20 Thu 09:52]
@@ -250,17 +258,23 @@ n="...">= (flagged/unresolved citations) and 14 plain-text
 neither matches the substitution pattern. Verified: =<ref target>=
 count unchanged at 233,265; =<bibl>= count dropped from 233,374 to
 109; lxml parses clean (no-DTD); jing against =perseus_lexical.rng=
-reports 0 errors, same before and after. Commit split from the
-unrelated =<emph>=->=<mentioned>= cleanup that was already sitting in
-this file's working tree; see the two separate commits on =mvp=.
+reports 0 errors, same before and after (the file now validates
+clean — a byproduct of the unrelated in-progress
+=<emph>=->=<mentioned>= cleanup already in the working tree, not of
+this task). Not yet committed — file still carries that unrelated
+uncommitted diff; commit on request per the corpus-cleanup workflow.
 
 * Phase 2: MVP pipeline integration
 
-* TODO Register engLit in MVP config
+* DONE Register engLit in MVP config
+CLOSED: [2026-08-25 Tue 11:07]
 :PROPERTIES:
 :CUSTOM_ID: phase2/register-englit
 :ASSIGNEES: Cliff
 :DEPENDS: phase0/corpus-discovery
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-25 Tue 11:07]
 :END:
 Add =engLit= to =_CORPUS_LABELS= in =MinimumViablePerseus/src/mvp/site/config.py=.
 Confirm corpus discovery handles =canonical-engLit/data/= layout.
