@@ -43,7 +43,7 @@
         <language ident="ang">Anglo-Saxon </language>
       </langUsage>
     </profileDesc>
-    <revisionDesc><change><ab>converted to TEI P5</ab></change></revisionDesc>
+    <revisionDesc><change>converted to TEI P5</change></revisionDesc>
   </teiHeader>
   <text xml:lang="eng">
     <body><div type="edition" n="urn:cts:engLit:dyce.glossary.perseus-eng1" xml:lang="eng">
