@@ -218,6 +218,42 @@ and forbids =citeData= outright (=model.descLike= is =notAllowed= in
 =perseus_lexical.rng=). Abbott/Onions/Dyce strategy still open, per
 =#encoding/citestructure-refworks-strategy=.
 
+* DONE remove enclosing <bibl @n> elements from <ref @target> elements in Schmidt
+CLOSED: [2026-08-25 Tue]
+:PROPERTIES:
+:CUSTOM_ID: phase1/remove-enclosing-bibls
+:ASSIGNEES: Claude Code
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-08-25 Tue]
+:END:
+
+Now that the CTS URN patterns for Shakespeare's plays have been
+established (see [[file:forum.org::*UPDATE <2026-08-25 Tue>][UPDATE <2026-08-25 Tue>]]), the enclosing <bibl>
+elements may be removed from Schmidt's lexicon.
+
+Algorithm: for every <bibl><ref target=N>M</ref></bibl>, remove the
+enclosing <bibl> element.
+
+After performing the replacement, verify that the XML document is
+still well-formed and valid.
+
+*Done:* =src/strip_bibl_wrapper.py= — a literal text substitution
+(=<bibl><ref target= -> <ref target==, =</ref></bibl> -> </ref>=)
+rather than an XSLT/lxml reserialization pass; verified before running
+that the pattern is unambiguous (233,265 clean =<bibl><ref
+target=...></ref></bibl>= pairs, matching the =<ref target>= count
+exactly, with no whitespace or nested markup between the tags in any
+instance). 233,265 wrappers removed; the 95 remaining =<bibl
+n="...">= (flagged/unresolved citations) and 14 plain-text
+=<bibl>Appendix ...</bibl>= cross-references were left untouched, as
+neither matches the substitution pattern. Verified: =<ref target>=
+count unchanged at 233,265; =<bibl>= count dropped from 233,374 to
+109; lxml parses clean (no-DTD); jing against =perseus_lexical.rng=
+reports 0 errors, same before and after. Commit split from the
+unrelated =<emph>=->=<mentioned>= cleanup that was already sitting in
+this file's working tree; see the two separate commits on =mvp=.
+
 * Phase 2: MVP pipeline integration
 
 * TODO Register engLit in MVP config
