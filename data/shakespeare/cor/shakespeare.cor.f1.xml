@@ -34,7 +34,7 @@
          <refsDecl n="CTS" xml:id="CTS">
             <citeStructure match="/TEI/text/body" use="@xml:base">
                <citeStructure unit="act" delim=":" match="div[@type='act']" use="@n">
-                  <citeStructure unit="scene" delim="." match="div[@type='scene']" use="@n">
+                  <citeStructure unit="scene" delim="." match="div[@type='scene']" use="@n" n="chunk">
                      <citeStructure unit="line" delim="." match="l" use="@n"/>
                   </citeStructure>
                </citeStructure>
@@ -64,6 +64,7 @@
          <refsDecl n="CTS-tln" xml:id="CTS-tln">
             <citeStructure match="/TEI/text/body" use="@xml:base">
                <citeStructure unit="line"
+                  n="chunk"
                               delim=":"
                               match=".//l[starts-with(@xml:id, 'ftln-')] | .//lb[starts-with(@xml:id, 'ftln-')]"
                               use="string(number(substring-after(@xml:id, 'ftln-')))"/>
