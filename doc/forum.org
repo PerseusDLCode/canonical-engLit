@@ -440,3 +440,81 @@ decision -- but flag them as unverified-against-DraCor-by-construction
 rather than confirmed, since DraCor has no corresponding entries to
 check against. Proceeding to implement =phase1/citestructure-refworks=
 (Schmidt) and the Task 2 resolver per =src/mvp/schmidt_spec.md=.
+
+** Merging orphaned citations into their <cit>
+:PROPERTIES:
+:CUSTOM_ID: citations/orphaned-cit-merge
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: session/2026-08-29 -- session/2026-09-01
+:DISPOSITION: adopt
+:END:
+
+An automatic-tagging artifact, distinct from the doubled-=<cit>=
+wrapper (=phase1= cleanup, already fixed) and the verbatim-duplicate-
+citation-run bug (already fixed): =<cit>= only ever captured the
+*first* citation following a =<quote>=, leaving every further citation
+for that same quote as a bare =<ref>= sibling. E.g. printed "an
+hundred, LLL IV, 2, 63. R2 IV, 16. H6B IV, 8, 59. ..." (10 citations)
+encoded as =<cit><quote>an hundred,</quote><ref>LLL IV, 2, 63</ref></cit>=
+followed by 9 orphaned bare =<ref>= elements. Corpus-wide: ~15,000
+=<cit>= elements have at least one trailing orphaned =<ref>=, ~71,000
+orphaned refs total (counts as of 2026-09-01, after the duplicate-run
+collapse already removed ~9,700 of the original ~78,700).
+
+Two problems surfaced while designing the fix, both resolved below.
+
+*Schema constraint:* =perseus_lexical.rng='s =<cit>= content model
+(=oneOrMore= of a closed element choice: =model.biblLike=,
+=model.egLike=, =model.entryPart=, =model.global=, =model.graphicLike=,
+=model.ptrLike=, =model.attributable=) is element-only -- no bare text
+allowed as a direct child, and =<mentioned>= is not among the allowed
+choices either (=<note>= is). A first merge attempt that simply moved
+=<cit>='s closing tag out to enclose the orphaned run left the original
+separator punctuation (=". "=, =", "=, etc.) and inline =<mentioned>=
+apparatus text as bare content directly inside =<cit>=, which jing
+correctly rejected (thousands of "text not allowed here" errors).
+Cliff has hit this =<cit>= content-model rigidity before; no clean way
+around it short of customizing the schema, which is out of scope here.
+
+*Scope discovery:* restricting the orphan-absorption boundary to stop
+at the next =<cit>=, the enclosing =</entryFree>=, *or* the next
+=<lb/>= (senses change there -- see the =<lb/>=-as-sense-boundary
+finding from the earlier citation-structure survey), the remaining
+"gap" content between orphaned refs sorts into three shapes: pure
+separator punctuation (a lone =.=, =;=, or =,=, ~57,700 instances,
+semantically empty once the refs are proper siblings); recognizable
+apparatus/cross-reference patterns (=(Qq. <mentioned>a hundred</mentioned>)=,
+=cf. <ref>...</ref>=, =q. v.=); and a genuine "other" residual (~11,700
+instances) that is prose introducing an entirely new sense/example via
+a bare =<mentioned>= with its own trailing citation list, never marked
+by =<cit>=/=<quote>= or =<lb/>= at all -- really the same unmarked-
+sense-boundary problem already deferred to future =<lb/>=-based
+=<sense>= reconstruction work, just surfacing here too. Forcing that
+prose into a =<note>= would misrepresent a whole new example as mere
+annotation.
+
+*** Decision
+[2026-09-01]
+- Merge only through gaps that are pure separator punctuation (dropped
+  -- see below) or a recognized apparatus/=cf.=/=q. v.= pattern
+  (wrapped in =<note>=, satisfying the schema and matching the earlier
+  =cf.=-wrapping decision). The moment a gap doesn't match either
+  shape, stop the merge there (partial merge -- absorb what's safe,
+  leave the rest still-orphaned) rather than guess; those residual
+  cases are left for the future sense-structure pass.
+- On dropping punctuation: Cliff raised, then answered, the concern
+  directly -- once refs move to be adjacent siblings inside =<cit>=,
+  an individual separator character's "this period separated ref A
+  from ref B" meaning is unrecoverable regardless of where the
+  character ends up (relocating all of them to just after the new
+  =</cit>= only produces a meaningless cluster of identical
+  characters, e.g. =</cit>. . . <cit>=). Not a faithful-print-encoding
+  concern at this stage of the project regardless (per Cliff: "we're
+  not trying to produce an entirely faithful encoding of Schmidt's
+  printed volumes at this point").
+- Refinement: keep the *final* separator -- the one immediately before
+  the absorption boundary (next =<cit>= or =</entryFree>=) -- since it
+  plays a different role (closing the whole sense, not separating two
+  citations) and reads more naturally as =</cit>. <cit>= than
+  =</cit><cit>=. Drop the internal ones (between individual orphaned
+  refs).

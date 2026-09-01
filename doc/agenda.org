@@ -264,6 +264,29 @@ clean — a byproduct of the unrelated in-progress
 this task). Not yet committed — file still carries that unrelated
 uncommitted diff; commit on request per the corpus-cleanup workflow.
 
+* TODO Merge orphaned citations into their <cit> in Schmidt
+:PROPERTIES:
+:CUSTOM_ID: phase1/orphaned-cit-merge
+:ASSIGNEES: Claude Code
+:END:
+See [[file:forum.org::#citations/orphaned-cit-merge][#citations/orphaned-cit-merge]] for the full design discussion.
+
+Continuing the Schmidt citation-repair sequence (div/section rename →
+duplicate-citation collapse → edition-token strip + line-number
+recovery → *this task* → sense structure from =<lb/>=). =<cit>= only
+ever captured the first citation after a =<quote>=; ~15,000 =<cit>=
+elements have a trailing orphaned =<ref>= sibling (~71,000 orphaned
+refs total) that need absorbing into their =<cit>=.
+
+Design settled: absorb through gaps that are pure separator punctuation
+(dropped, keeping only the final one before the absorption boundary)
+or a recognized =cf.=/=q. v.=/apparatus pattern (wrapped in =<note>=,
+schema-valid); stop the merge at the first unrecognized gap (partial
+merge, not a guess) -- expected to concentrate in prose that
+introduces a new sense via a bare =<mentioned>= with no =<cit>=/=<lb/>=
+marking, deferred to the future =<lb/>=-based =<sense>= reconstruction
+work. Not yet implemented -- picking up in a new session.
+
 * Phase 2: MVP pipeline integration
 
 * DONE Register engLit in MVP config
