@@ -264,10 +264,14 @@ clean — a byproduct of the unrelated in-progress
 this task). Not yet committed — file still carries that unrelated
 uncommitted diff; commit on request per the corpus-cleanup workflow.
 
-* TODO Merge orphaned citations into their <cit> in Schmidt
+* DONE Merge orphaned citations into their <cit> in Schmidt
+CLOSED: [2026-09-01 Tue]
 :PROPERTIES:
 :CUSTOM_ID: phase1/orphaned-cit-merge
 :ASSIGNEES: Claude Code
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-09-01 Tue]
 :END:
 See [[file:forum.org::#citations/orphaned-cit-merge][#citations/orphaned-cit-merge]] for the full design discussion.
 
@@ -285,7 +289,29 @@ schema-valid); stop the merge at the first unrecognized gap (partial
 merge, not a guess) -- expected to concentrate in prose that
 introduces a new sense via a bare =<mentioned>= with no =<cit>=/=<lb/>=
 marking, deferred to the future =<lb/>=-based =<sense>= reconstruction
-work. Not yet implemented -- picking up in a new session.
+work.
+
+*Done:* =corpus-tools/src/schmidt_cit_merge.py= +
+=commands/merge_schmidt_orphaned_citations.py= (=corpus-tools=
+=c350290=), applied to the lexicon (=canonical-engLit= =3e135d7=).
+Absorption boundary is the next =<cit>=, =</entryFree>=, or =<lb/>=,
+whichever comes first. Apparatus recognition kept narrow and verified
+against real gap text before implementing (not guessed at): =cf.=, the
+common paired =(cf. <ref>...</ref>).= parenthetical, =q. v.=, and
+=(Qq./Ff. <mentioned>...</mentioned>).=; deliberately excludes =etc.=
+despite being frequent (627+119 instances) since it usually precedes
+genuinely new prose rather than terminating a citation list, confirmed
+by reading real examples in context.
+
+Result: 11,099 =<cit>= merged (9,734 full, 1,365 partial), 45,091
+orphaned refs absorbed, 1,107 gaps wrapped in =<note>=. 5,758 distinct
+gap shapes stopped a merge and remain orphaned (written to a CSV via
+=--report=) -- the same deferred =<lb/>=-based =<sense>= reconstruction
+problem as above, not solved here. Verified: well-formed, 0 jing errors
+(unchanged from baseline), =<ref>=/=<cit>= occurrence counts unchanged
+corpus-wide (219,287 / 103,949), spot-checked against the "an hundred"
+example from the design discussion (all 10 citations absorbed,
+including the mid-run =(Qq. ...)= note).
 
 * Phase 2: MVP pipeline integration
 
