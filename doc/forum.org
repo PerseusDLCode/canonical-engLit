@@ -518,3 +518,61 @@ annotation.
   citations) and reads more naturally as =</cit>. <cit>= than
   =</cit><cit>=. Drop the internal ones (between individual orphaned
   refs).
+
+** Sense-boundary reconstruction: reframing and open questions
+:PROPERTIES:
+:CUSTOM_ID: citations/sense-boundary-reconstruction
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: session/2026-09-01
+:DISPOSITION: needs-cliff-input
+:END:
+
+The previous section (and =doc/agenda.org= =phase1/orphaned-cit-merge=)
+repeatedly deferred a residual problem to "future =<lb/>=-based
+=<sense>= reconstruction work." On review, that phrase was a
+placeholder, not a plan -- no design document exists anywhere in the
+repo, and the "=<lb/>= marks a sense boundary" claim it rests on cites
+an "earlier citation-structure survey" that isn't retrievable. See
+=doc/schmidt-sense-boundary-survey-report.org= for the full
+investigation; summary here.
+
+*** Reframing
+=<lb/>= alone is weak: 76.6% of entries have zero =<lb/>=, and ~18% of
+the =<lb/>= that exist are ordinary print-line wraps, not sense
+boundaries. The strong, complete signal is Schmidt's own inline
+numbering convention (=1)=, =2)=, =a)=, =b)=, occasionally =I)=,
+=II)=), which fires even in zero-=<lb/>= entries. **Agreed with Cliff:
+the reconstruction should be reframed around that numbering convention
+as the primary signal, with =<lb/>= used only to corroborate a
+boundary a marker already implies** -- not "=<lb/>=-based."
+
+*** Schema
+No change needed. =<sense>= is already a legal direct child of
+=<entryFree>= in =perseus_lexical.rng= (via =model.entryPart=), and its
+content model already accepts =<cit>=, =<mentioned>=, bare =<ref>=,
+=<lb/>=, =<note>=, text, and nested =<sense>= (with =@level= for
+depth) -- everything currently sitting loose in these entries.
+
+*** Open questions (Cliff's call, not decided here)
+1. No-marker entries (76.6% of the corpus): leave flat, or wrap in one
+   implicit =<sense>= for structural uniformity?
+2. Do the =orphaned-cit-merge= task's ~5,758 residual gap shapes
+   (prose introducing a new sense/example with no =<cit>=/=<lb/>=/
+   marker of any kind) correlate with the no-marker buckets, as
+   expected? Should the eventual reconstruction resolve those refs into
+   their now-legal home directly inside a =<sense>= (bare =<ref>= is
+   schema-legal there), closing that loop, or is that a separate pass?
+3. Several headwords have more than one =<entryFree>= (e.g. two
+   separate =Lop,= entries for =subst.=/=vb.=, two separate =Whore,=
+   similarly) -- is grouping same-headword homographs under TEI's
+   =<hom>= in scope here, or later?
+4. 11 entries nest roman-numeral top-level groups with arabic numbering
+   that *restarts* under each (=Call,=, =Set,=, ...), sometimes with a
+   further letter-qualified restart beneath that (=Set,= reaches this).
+   What does =@level= track across that nesting, and how is an arabic
+   restart under a fresh roman group disambiguated from a continuation
+   of the previous group's numbering?
+
+Not answered here, same as this section's own schema/scope questions
+were settled before =#citations/orphaned-cit-merge='s implementation
+began.

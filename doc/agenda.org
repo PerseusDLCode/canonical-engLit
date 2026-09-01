@@ -313,6 +313,59 @@ corpus-wide (219,287 / 103,949), spot-checked against the "an hundred"
 example from the design discussion (all 10 citations absorbed,
 including the mid-run =(Qq. ...)= note).
 
+Note: "the future =<lb/>=-based =<sense>= reconstruction work" named
+above turned out to be an undesigned placeholder -- see the next two
+entries.
+
+* DONE Survey Schmidt sense-boundary signal strength
+CLOSED: [2026-09-01 Tue]
+:PROPERTIES:
+:CUSTOM_ID: phase1/sense-boundary-survey
+:ASSIGNEES: Claude Code
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-09-01 Tue]
+:END:
+See [[file:forum.org::#citations/sense-boundary-reconstruction][#citations/sense-boundary-reconstruction]] and
+=doc/schmidt-sense-boundary-survey-report.org= for the full
+investigation and report.
+
+Before building the =<sense>=-reconstruction transform, quantified
+whether =<lb/>= is actually a reliable sense-boundary signal (it isn't:
+76.6% of entries have zero =<lb/>=, ~18% of existing =<lb/>= are
+ordinary print-line wraps) and identified the real signal -- Schmidt's
+own inline =1)=/=2)=/=a)=/=b)=/=I)=/=II)= numbering convention, which
+fires even in zero-=<lb/>= entries.
+
+*Done:* =corpus-tools/src/schmidt_sense_survey.py= +
+=commands/survey_schmidt_senses.py= (=corpus-tools=, branch
+=schmidt-tools=), read-only, verified against real corpus examples
+(=Abatement,=, =Accent,=, =Aim,= vb., =Abraham,=, =Ay,= interj.) before
+running on the full lexicon. Classified all 20,101 entries into 5
+signal-strength buckets: =no_marker= 15,053, =clean= 3,591, =partial=
+778, =lb_noise_only= 358, =zero_lb_multi_sense= 321. Several
+false-positive marker shapes found and excluded by reading real
+context (cross-reference =(cf. def. 4)=, possessive =(the sun's)=,
+regnal/biblical roman-numeral citations, the pronoun =I=, Schmidt's
+dash-for-stem convention) -- see the report for the full list and the
+evidence behind each. No corpus data modified.
+
+* TODO Reconstruct <sense> boundaries in Schmidt
+:PROPERTIES:
+:CUSTOM_ID: phase1/sense-boundary-reconstruction
+:ASSIGNEES: Claude Code
+:DEPENDS: phase1/sense-boundary-survey
+:END:
+See [[file:forum.org::#citations/sense-boundary-reconstruction][#citations/sense-boundary-reconstruction]] and
+=doc/schmidt-sense-boundary-survey-report.org=.
+
+Blocked on Cliff's answers to the open questions in both documents:
+how to treat no-marker entries, whether to fold in the
+=orphaned-cit-merge= residual-gap resolution, whether homographs
+(=<hom>=) are in scope, and how =@level= should track the roman/arabic/
+letter nesting found in 11 entries. Not designed yet -- do not start
+implementation before those are settled.
+
 * Phase 2: MVP pipeline integration
 
 * DONE Register engLit in MVP config

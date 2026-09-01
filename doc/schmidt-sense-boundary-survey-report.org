@@ -1,0 +1,248 @@
+#+TITLE: Schmidt Sense-Boundary Survey: Scoping Report
+#+DATE: 2026-09-01
+#+AUTHOR: Clifford Wulfman
+#+OPTIONS: toc:t num:nil
+
+* Overview
+
+This report scopes the task repeatedly deferred during the Schmidt
+citation-repair round as "future =<lb/>=-based =<sense>= reconstruction
+work" (see =doc/forum.org= =#citations/orphaned-cit-merge= and
+=doc/agenda.org= =phase1/orphaned-cit-merge=). On inspection that phrase
+turned out to be a placeholder, not a plan -- no design document, no
+CUSTOM_ID, and the "=<lb/>= marks a sense boundary" claim it rests on
+cites an "earlier citation-structure survey" that doesn't exist as a
+retrievable artifact anywhere in this repo. Before building anything
+that rewrites 20,101 dictionary entries, this report quantifies the
+actual problem and proposes a design, following the same pattern as
+the earlier [[file:globe-line-numbering-report.org][Globe
+line-numbering report]]: survey first, hand to Cliff for review, build
+second.
+
+=corpus-tools='s =survey-schmidt-senses= command (branch
+=schmidt-tools=) was run read-only over
+=data/schmidt/lexicon/schmidt.lexicon.perseus-eng1.xml= (20,101
+=<entryFree>= elements). It does not modify the lexicon.
+
+** Headline finding: =<lb/>= is not the real signal
+
+Direct measurement shows =<lb/>= alone is weak and incomplete:
+
+- Of 20,101 entries, only 11,771 =<lb/>= exist total (0.586/entry), and
+  *76.6% of entries have zero =<lb/>=*.
+- Of the =<lb/>= that do exist, roughly 18% are ordinary print-line
+  wraps mid-discussion, not sense boundaries.
+- 321 entries (see below) contain multiple numbered senses with *zero*
+  =<lb/>= anywhere in the entry.
+
+The signal that actually is strong and complete is Schmidt's own
+typographic convention: plain, untagged prose markers --- arabic
+=1)=, =2)=..., lowercase-letter sub-senses =a)=, =b)=..., and,
+rarely, roman-numeral top-level groupings =I)=, =II)=.... This fires
+even in zero-=<lb/>= entries. Sense =1)= is also very often *implicit*
+--- it opens the entry with no marker of its own at all (e.g.
+="Advantage, subst. any favourable condition or circumstance; 1)
+profit, gain: ..."= --- the entry's very first content simply *is*
+sense 1).
+
+**This report reframes the task around that numbering convention as
+the primary signal, with =<lb/>= used only to corroborate a boundary
+already implied by a marker** -- confirmed with Cliff before writing
+this survey.
+
+** Schema note
+
+No schema change is needed for the eventual reconstruction.
+=perseus_lexical.rng= already defines =<sense>= as a legal direct child
+of =<entryFree>= (via =model.entryPart=), and =<sense>='s own content
+model (=text | sense | model.entryPart.top [cit, def, gramGrp, re,
+...] | model.phrase [mentioned, ref, hi, ...] | model.global [lb,
+note, ...]=) already accepts everything currently sitting loose in
+these entries -- including bare =<ref>=, which may give the ~5,758
+residual orphaned-citation gap shapes left over from the
+=orphaned-cit-merge= task (=doc/forum.org=
+=#citations/orphaned-cit-merge=) a natural home once sense boundaries
+exist, without needing =<note>=-wrapping.
+
+* Summary: five signal-strength buckets
+
+Every entry lands in exactly one bucket (verified: counts sum to
+20,101, no double-counting).
+
+| Bucket                  | Entries | Meaning                                                              |
+|--------------------------+---------+-----------------------------------------------------------------------|
+| =no_marker=              |  15,053 | No recognized sense marker at all -- single implied sense, nothing to reconstruct. |
+| =clean=                  |   3,591 | Markers found; every transition between them is =<lb/>=-corroborated. |
+| =partial=                |     778 | Markers found; at least one transition is *not* =<lb/>=-corroborated (still unambiguous -- a real marker, just no line-wrap there). |
+| =lb_noise_only=          |     358 | No recognized marker, but the entry does have =<lb/>= -- pure print-line noise, single sense. |
+| =zero_lb_multi_sense=    |     321 | Multiple markers found, but *zero* =<lb/>= anywhere in the entry.      |
+
+Marker tokens found corpus-wide, after excluding confirmed
+false-positive shapes (below): 14,084 arabic, 2,381 letter, 24 roman
+--- 16,489 total candidate sense-boundary markers.
+
+** Reading the buckets together
+
+=clean= (3,591) + =partial= (778) + =zero_lb_multi_sense= (321) = 4,690
+entries have a genuine, unambiguous, multi-sense marker (arabic,
+letter, or roman) somewhere in them -- these are candidates for actual
+=<sense>= wrapping. Within that group, =<lb/>= corroboration is
+available for most transitions but not all: even a =clean= entry can
+sit right next to a =partial= sibling with the same headword-family
+shape (=Aim,= vb. below is a single entry mixing both an aligned and
+an unaligned transition).
+
+=no_marker= (15,053) + =lb_noise_only= (358) = 15,411 entries show no
+marker-based multi-sense signal at all. Most of these probably
+genuinely are single-sense entries (Schmidt's lexicon skews toward
+short entries). But this bucket is also exactly where the
+=orphaned-cit-merge= task's ~5,758 residual "other" gap shapes live --
+prose that introduces a new sense/example via a bare =<mentioned>=,
+never marked by =<cit>=, =<lb/>=, *or* a numbered marker. Marker-based
+detection cannot find these by construction; they are a distinct,
+harder problem (see "Open questions" below), not resolved here.
+
+* Examples per bucket
+
+** =clean= -- "Abatement," (real entry)
+
+#+BEGIN_SRC xml
+<entryFree><orth>Abatement,</orth> 1) diminution, debilitation: <ref target="...">Hml. IV, 7, 121</ref>
+  (cf. <ref target="...">Hml. IV, 7, 121</ref>).
+  <ref target="...">Lr. I, 4, 64</ref>. <ref target="...">Cymb. V, 4, 21</ref>.<lb/>2) lower estimation: <cit>
+    <quote>falls into a. and low price,</quote>
+    <ref target="...">Tw. I, 1, 13</ref>
+  </cit>. </entryFree>
+#+END_SRC
+
+Sense =1)= opens the entry (nothing precedes it, so it needs no
+=<lb/>=); sense =2)= is directly =<lb/>=-aligned (=.<lb/>2)=). Both
+transitions corroborated -> =clean=.
+
+** =partial= -- "Aim," vb. (real entry, abridged)
+
+#+BEGIN_SRC xml
+<entryFree><orth>Aim,</orth> vb. 1) to point or direct a weapon; a) absolutely: <cit>...</cit>.<lb/>b) trans.: ...
+  <lb/>c) intr., followed by <mentioned>at</mentioned>: ... <lb/>2) to guess: ...</entryFree>
+#+END_SRC
+
+=1)= opens the entry. =a)= follows *mid-line*, with no =<lb/>= at all
+("...a weapon; a) absolutely:") -- a real, unambiguous sub-sense
+marker that simply didn't fall at a print-line wrap. =b)=, =c)=, =2)=
+are each properly =<lb/>=-aligned. One unaligned transition among four
+makes this =partial=, not =clean= -- exactly the shape any
+reconstruction heuristic must expect to see routinely, not treat as
+exceptional.
+
+** =zero_lb_multi_sense= -- "Abraham," (real entry)
+
+#+BEGIN_SRC xml
+<entryFree><orth>Abraham,</orth> 1) the patriarch: <ref target="...">R2 IV, 104</ref>. <ref target="...">R3 IV, 3, 38</ref>.
+  2) Christian name of Mr. Slender: <ref target="...">Wiv. I, 1, 57</ref> 3) <cit>
+    <quote>young A. Cupid,</quote>
+    <ref target="...">Rom. II, 1, 13</ref>
+  </cit>, in derision ... </entryFree>
+#+END_SRC
+
+Three distinct, unambiguous senses (patriarch / Falstaff's page's
+Christian name / the Cupid pun), zero =<lb/>= anywhere -- the whole
+entry is short enough that it never wraps a print line. =<lb/>=-only
+detection would miss all three of these boundaries.
+
+** =lb_noise_only= -- "Ay," interj. (real entry, abridged)
+
+#+BEGIN_SRC xml
+<entryFree><orth>Ay,</orth> interj. (M. Edd. <mentioned>Ah</mentioned>): <cit>
+    <quote>Ay, alack, how new is husband in my mouth!</quote>
+    <ref target="...">John III, 1, 305</ref>
+  </cit>. Generally coupled with <mentioned>me</mentioned>: <cit>
+    <quote>Ay me!</quote>
+    ...
+#+END_SRC
+
+Single sense throughout (an interjection with usage notes, not a
+multi-sense headword); its two =<lb/>= are ordinary print-line wraps
+in a long entry, not sense boundaries. Nothing to reconstruct here.
+
+** =no_marker= -- most of the corpus
+
+The plurality case: a short, single-sense entry with no numbered
+marker and no =<lb/>= at all, e.g. =Abroach;=, =Accéss=, =Adoor;=.
+Nothing to reconstruct.
+
+* Confirmed false-positive shapes (excluded)
+
+Each of these was found by reading real surrounding context, not
+guessed at, and is excluded in the survey code
+(=corpus-tools/src/schmidt_sense_survey.py=):
+
+| Shape                          | Real example                                    | Why it isn't a marker                              |
+|----------------------------------+--------------------------------------------------+-------------------------------------------------------|
+| =(cf. def. N)=                  | =(cf. def. 4)=                                   | Cross-references another sense's number; doesn't open one. |
+| =(the X's)=                     | ="hiding thy (the sun's)"=                        | Possessive gloss on a pronoun antecedent; apostrophe-s ends in a bare letter before =)=. |
+| =(our --s)=                     | ="(our --s)."=                                    | Schmidt's dash-for-repeated-headword-stem convention; suffix letter before =)=, not a marker. |
+| =Richard II)= / =Henry IV)=      | ="(i. e. Richard II)"=                            | Spelled-out regnal-number citation gloss, same shape as a roman marker. |
+| =St. Luke XVI)= / =Chap. IX)=    | ="cf. 2 Chronicles, Chap. IX"=                    | Biblical chapter citation, same shape.                 |
+| Bare pronoun =I)=               | ="(== poor I)."=                                  | Indistinguishable from roman numeral =I= by shape alone; only accepted when the entry also has a companion =II= (a real top-level sequence has both, the pronoun never does). |
+| Roman numerals above =V=        | ="sec. XXI)"= (legal statute), =IX)= (Bible chapter) | Every roman-shaped token above =IV= found in this corpus turned out to be a citation, not a sense marker (verified: =I=, =II=, =III=, =IV= account for all genuine cases found; capped rather than guessed at a higher bound). |
+
+**Known remaining imprecision, documented rather than chased further:**
+one arabic false positive was caught by spot-check --
+="Commit,"='s entry ends "=...(cf. Oth. IV, 2, 72) 80). </entryFree>="=,
+where "=80)="= reads like a stray print-page or footnote number, not a
+sense. It doesn't change that entry's bucket (already =partial= for
+unrelated reasons), and no general rule was added for it since a
+single instance isn't enough evidence to generalize safely --
+flagged here for whoever builds the reconstruction to watch for.
+
+* Known structural complexity: hierarchical roman/arabic/letter nesting
+
+11 entries (=Be.=, =Break,=, =Breed,=, =Burn=, =Call,=, =Capable,=,
+=Change,=, =Close,=, =Commit,=, =Give=, =Set,=) use roman numerals as a
+*top-level* grouping, with arabic numbering *restarting from 1* under
+each roman group, and letters nested a level deeper still under some
+of those. E.g. real "Call," (abridged):
+
+#+BEGIN_SRC xml
+<entryFree><orth>Call,</orth> vb., I) to name: <cit>...</cit> (i. e. Richard II). <lb/>II) to pronounce: ...
+#+END_SRC
+
+=Set,= is the extreme case: 34 markers across =I)=/=II)= top-level
+groups, with arabic numbering that appears to restart *again* at a
+third, letter-qualified level within =I)= itself. This survey's flat
+per-entry marker list captures every individual marker's identity and
+=<lb/>=-alignment correctly, but does not attempt to model the
+nesting/restart relationship -- that's a real design question for the
+reconstruction itself (does =<sense>= nesting with =@level= track
+roman > arabic > letter directly, or does an arabic restart need its
+own disambiguation logic separate from a fresh roman group?), not
+resolved here.
+
+* Open questions for the reconstruction task (not answered here)
+
+1. **No-marker entries:** leave flat (no =<sense>= wrapper at all) since
+   there's nothing to divide, or wrap the whole entry in a single
+   implicit =<sense>= for structural uniformity across the corpus?
+2. **The orphaned-cit-merge residual gaps:** do the ~5,758 gap shapes
+   that stopped a merge (see =doc/forum.org=
+   =#citations/orphaned-cit-merge=) correlate with the =no_marker= /
+   =lb_noise_only= buckets, as expected (prose introducing a new
+   example with no tagging convention of any kind)? If so, should the
+   eventual reconstruction also resolve those refs into their now-legal
+   home directly inside a =<sense>= (bare =<ref>= is schema-legal
+   there), closing that loop -- or is that a separate pass?
+3. **Homographs:** =perseus_lexical.rng= also defines =<hom>= for
+   distinct homographs of the same headword (this survey found several
+   headwords with more than one =<entryFree>=, e.g. two separate =Lop,=
+   entries for the =subst.= and =vb.= senses, and two separate =Whore,=
+   entries similarly) -- is grouping same-headword homographs under
+   =<hom>= in scope for this pass, or a separate later concern?
+4. **Roman/arabic/letter nesting** (previous section) -- what does
+   =@level= track, and how does an arabic restart under a fresh roman
+   group get disambiguated from a *continuation* of the previous
+   group's numbering?
+
+This report proposes no answers to these -- they're Cliff's editorial
+calls to make before any =<sense>=-wrapping script gets built, the same
+way =#citations/orphaned-cit-merge='s schema and scope questions were
+settled before that task's implementation.
