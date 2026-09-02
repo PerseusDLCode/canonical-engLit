@@ -440,3 +440,230 @@ decision -- but flag them as unverified-against-DraCor-by-construction
 rather than confirmed, since DraCor has no corresponding entries to
 check against. Proceeding to implement =phase1/citestructure-refworks=
 (Schmidt) and the Task 2 resolver per =src/mvp/schmidt_spec.md=.
+
+** Merging orphaned citations into their <cit>
+:PROPERTIES:
+:CUSTOM_ID: citations/orphaned-cit-merge
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: session/2026-08-29 -- session/2026-09-01
+:DISPOSITION: adopt
+:END:
+
+An automatic-tagging artifact, distinct from the doubled-=<cit>=
+wrapper (=phase1= cleanup, already fixed) and the verbatim-duplicate-
+citation-run bug (already fixed): =<cit>= only ever captured the
+*first* citation following a =<quote>=, leaving every further citation
+for that same quote as a bare =<ref>= sibling. E.g. printed "an
+hundred, LLL IV, 2, 63. R2 IV, 16. H6B IV, 8, 59. ..." (10 citations)
+encoded as =<cit><quote>an hundred,</quote><ref>LLL IV, 2, 63</ref></cit>=
+followed by 9 orphaned bare =<ref>= elements. Corpus-wide: ~15,000
+=<cit>= elements have at least one trailing orphaned =<ref>=, ~71,000
+orphaned refs total (counts as of 2026-09-01, after the duplicate-run
+collapse already removed ~9,700 of the original ~78,700).
+
+Two problems surfaced while designing the fix, both resolved below.
+
+*Schema constraint:* =perseus_lexical.rng='s =<cit>= content model
+(=oneOrMore= of a closed element choice: =model.biblLike=,
+=model.egLike=, =model.entryPart=, =model.global=, =model.graphicLike=,
+=model.ptrLike=, =model.attributable=) is element-only -- no bare text
+allowed as a direct child, and =<mentioned>= is not among the allowed
+choices either (=<note>= is). A first merge attempt that simply moved
+=<cit>='s closing tag out to enclose the orphaned run left the original
+separator punctuation (=". "=, =", "=, etc.) and inline =<mentioned>=
+apparatus text as bare content directly inside =<cit>=, which jing
+correctly rejected (thousands of "text not allowed here" errors).
+Cliff has hit this =<cit>= content-model rigidity before; no clean way
+around it short of customizing the schema, which is out of scope here.
+
+*Scope discovery:* restricting the orphan-absorption boundary to stop
+at the next =<cit>=, the enclosing =</entryFree>=, *or* the next
+=<lb/>= (senses change there -- see the =<lb/>=-as-sense-boundary
+finding from the earlier citation-structure survey), the remaining
+"gap" content between orphaned refs sorts into three shapes: pure
+separator punctuation (a lone =.=, =;=, or =,=, ~57,700 instances,
+semantically empty once the refs are proper siblings); recognizable
+apparatus/cross-reference patterns (=(Qq. <mentioned>a hundred</mentioned>)=,
+=cf. <ref>...</ref>=, =q. v.=); and a genuine "other" residual (~11,700
+instances) that is prose introducing an entirely new sense/example via
+a bare =<mentioned>= with its own trailing citation list, never marked
+by =<cit>=/=<quote>= or =<lb/>= at all -- really the same unmarked-
+sense-boundary problem already deferred to future =<lb/>=-based
+=<sense>= reconstruction work, just surfacing here too. Forcing that
+prose into a =<note>= would misrepresent a whole new example as mere
+annotation.
+
+*** Decision
+[2026-09-01]
+- Merge only through gaps that are pure separator punctuation (dropped
+  -- see below) or a recognized apparatus/=cf.=/=q. v.= pattern
+  (wrapped in =<note>=, satisfying the schema and matching the earlier
+  =cf.=-wrapping decision). The moment a gap doesn't match either
+  shape, stop the merge there (partial merge -- absorb what's safe,
+  leave the rest still-orphaned) rather than guess; those residual
+  cases are left for the future sense-structure pass.
+- On dropping punctuation: Cliff raised, then answered, the concern
+  directly -- once refs move to be adjacent siblings inside =<cit>=,
+  an individual separator character's "this period separated ref A
+  from ref B" meaning is unrecoverable regardless of where the
+  character ends up (relocating all of them to just after the new
+  =</cit>= only produces a meaningless cluster of identical
+  characters, e.g. =</cit>. . . <cit>=). Not a faithful-print-encoding
+  concern at this stage of the project regardless (per Cliff: "we're
+  not trying to produce an entirely faithful encoding of Schmidt's
+  printed volumes at this point").
+- Refinement: keep the *final* separator -- the one immediately before
+  the absorption boundary (next =<cit>= or =</entryFree>=) -- since it
+  plays a different role (closing the whole sense, not separating two
+  citations) and reads more naturally as =</cit>. <cit>= than
+  =</cit><cit>=. Drop the internal ones (between individual orphaned
+  refs).
+
+** Sense-boundary reconstruction: reframing and open questions
+:PROPERTIES:
+:CUSTOM_ID: citations/sense-boundary-reconstruction
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: session/2026-09-01
+:DISPOSITION: needs-cliff-input
+:END:
+
+The previous section (and =doc/agenda.org= =phase1/orphaned-cit-merge=)
+repeatedly deferred a residual problem to "future =<lb/>=-based
+=<sense>= reconstruction work." On review, that phrase was a
+placeholder, not a plan -- no design document exists anywhere in the
+repo, and the "=<lb/>= marks a sense boundary" claim it rests on cites
+an "earlier citation-structure survey" that isn't retrievable. See
+=doc/schmidt-sense-boundary-survey-report.org= for the full
+investigation; summary here.
+
+*** Reframing
+=<lb/>= alone is weak: 76.6% of entries have zero =<lb/>=, and ~18% of
+the =<lb/>= that exist are ordinary print-line wraps, not sense
+boundaries. The strong, complete signal is Schmidt's own inline
+numbering convention (=1)=, =2)=, =a)=, =b)=, occasionally =I)=,
+=II)=), which fires even in zero-=<lb/>= entries. **Agreed with Cliff:
+the reconstruction should be reframed around that numbering convention
+as the primary signal, with =<lb/>= used only to corroborate a
+boundary a marker already implies** -- not "=<lb/>=-based."
+
+*** Schema
+No change needed. =<sense>= is already a legal direct child of
+=<entryFree>= in =perseus_lexical.rng= (via =model.entryPart=), and its
+content model already accepts =<cit>=, =<mentioned>=, bare =<ref>=,
+=<lb/>=, =<note>=, text, and nested =<sense>= (with =@level= for
+depth) -- everything currently sitting loose in these entries.
+
+*** Open questions (Cliff's call, not decided here)
+1. No-marker entries (76.6% of the corpus): leave flat, or wrap in one
+   implicit =<sense>= for structural uniformity?
+2. Do the =orphaned-cit-merge= task's ~5,758 residual gap shapes
+   (prose introducing a new sense/example with no =<cit>=/=<lb/>=/
+   marker of any kind) correlate with the no-marker buckets, as
+   expected? Should the eventual reconstruction resolve those refs into
+   their now-legal home directly inside a =<sense>= (bare =<ref>= is
+   schema-legal there), closing that loop, or is that a separate pass?
+3. Several headwords have more than one =<entryFree>= (e.g. two
+   separate =Lop,= entries for =subst.=/=vb.=, two separate =Whore,=
+   similarly) -- is grouping same-headword homographs under TEI's
+   =<hom>= in scope here, or later?
+4. 11 entries nest roman-numeral top-level groups with arabic numbering
+   that *restarts* under each (=Call,=, =Set,=, ...), sometimes with a
+   further letter-qualified restart beneath that (=Set,= reaches this).
+   What does =@level= track across that nesting, and how is an arabic
+   restart under a fresh roman group disambiguated from a continuation
+   of the previous group's numbering?
+
+Not answered here, same as this section's own schema/scope questions
+were settled before =#citations/orphaned-cit-merge='s implementation
+began.
+** Non-dramatic works are in scope; Venus and Adonis / Lucrece citeStructure gaps found
+:PROPERTIES:
+:CUSTOM_ID: citations/poem-citestructure-gaps
+:ASSIGNEES: Cliff
+:SOURCE: session/2026-09-02
+:DISPOSITION: needs-cliff-input
+:END:
+
+*** Scope correction
+Cliff: the =CLAUDE.md= Gotchas entry reading "Non-dramatic works ...
+are out of scope for the current MVP sprint" is incorrect and does not
+reflect project scope -- it contradicts this forum's own
+=#process/project-setup= entry ("the Globe Shakespeare editions (44
+plays *and poems*)"). All works, including the poems and =son.xml=,
+are in scope. =CLAUDE.md= has not been edited yet pending Cliff's
+confirmation of the replacement wording (see end of this entry).
+
+*** Finding
+While reviewing =schmidt-lexicon-workshop='s pass-1 =citations.tsv=
+output (=phase1/schmidt-extract-identity=; the workshop is a separate
+repo, https://github.com/PerseusDLCode/schmidt-lexicon-workshop, that
+extracts Schmidt's already-resolved citations out of the P5 lexicon
+rather than re-resolving them), a large "unexplained" bucket of
+per-entry citation-count mismatches turned out not to be random noise:
+81% of the 1,370 unexplained mismatches (1,115) mention a poem siglum
+in their citation text, wildly disproportionate to poems' ~8% share of
+all Schmidt citations.
+
+Per-work resolution rate (Schmidt =<bibl>= citations in the P4 source
+vs. already-resolved =<ref target>= in the P5 lexicon):
+
+| Work                    | P4 citations | P5 resolved | Rate  |
+|-------------------------+--------------+-------------+-------|
+| Venus and Adonis (=ven=) |         4960 |        4079 | 82.2% |
+| Lucrece (=luc=)          |         5682 |        4779 | 84.1% |
+| All other works (avg)    |       222695 |      210429 | 94.5% |
+
+Sonnets (99.1%), Lover's Complaint (97.2%), Passionate Pilgrim (93.5%),
+and The Phoenix and Turtle (97.1%) all resolve at or above the drama
+average -- this is not "poems as a class," it is specifically Venus
+and Adonis and Lucrece. Both have real, distinct, previously-unnoticed
+encoding gaps:
+
+- =data/shakespeare/ven.xml=: declares
+  =<citeStructure unit="line" match=".//l[@n]" use="@n"/>=, but *zero*
+  of its 1,196 =<l>= elements carry an =@n= attribute at all. The
+  citeStructure matches nothing. Whatever produced the 4,079 URNs
+  already resolved in the Schmidt P5 lexicon did not come from this
+  file's structure -- some other, unverified source was used, which
+  would also explain why the remaining 18% have no way to be checked
+  against real line boundaries and simply fail.
+
+- =data/shakespeare/luc.xml=: the opposite problem. It *does* carry
+  real global line numbers, but only on =<lb n="704">=-style
+  milestones -- the declared citeStructure instead nests
+  =unit="stanza"= (real, correct =<div type="stanza" n="107">=
+  numbering) then =unit="line" ... use="position()"=, i.e. line
+  position *within its stanza* (1-7, resetting every stanza), never
+  touching the =<lb n=...>= milestones that already carry the correct
+  global number.
+
+  Worked example, traced end to end: Schmidt's =Abomination,= entry
+  cites =Lucr. 704; Lucr. 921; Lucr. 921; Ant. III, 6, 94= (4 citations,
+  P4). Only 3 resolve in P5 (=luc:921= twice, =ant:3.6.94= once) --
+  =Lucr. 704= is entirely absent, not merely malformed. Line 704
+  demonstrably exists and is exactly right for this entry: "Drunken
+  Desire must vomit his receipt," =<lb n="704"/>=, immediately followed
+  by "Ere he can see his own abomination." =<lb n="705"/>=. The
+  citation is valid; it is unaddressable under the current
+  citeStructure.
+
+*** Not done here
+No files were modified investigating this -- =schmidt-lexicon-workshop=
+extracts citations from the existing P5 lexicon and does not touch
+=canonical-engLit= at all (confirmed clean =git status= throughout).
+Fixing =ven.xml=/=luc.xml= (adding real global =@n= to Venus and
+Adonis's =<l>= elements; rewiring Lucrece's citeStructure to address by
+its existing =<lb n>= milestones instead of stanza-position) is
+=canonical-engLit= encoding work, prerequisite to any future
+re-resolution of the ~1,780 currently-unresolved Ven./Lucr. citations
+in Schmidt. Re-resolving those citations once the structure is fixed
+is separate work again (=phase3/bibl-resolver= territory), not decided
+or started here.
+
+*** Open for Cliff
+1. Confirm/word the =CLAUDE.md= scope correction above.
+2. Should =ven.xml=/=luc.xml= structural fixes become their own
+   =agenda.org= task now, or wait until the rest of the non-dramatic
+   corpus is reviewed for similar gaps (=son.xml=, =lc.xml=, =pp.xml=,
+   =pht.xml= were not audited here -- only the two poems the resolution
+   -rate anomaly pointed at)?

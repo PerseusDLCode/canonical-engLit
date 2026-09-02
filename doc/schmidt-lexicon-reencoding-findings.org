@@ -1,0 +1,300 @@
+#+TITLE: Schmidt's Shakespeare-Lexicon: Findings on Re-Encoding Scope
+#+DATE: 2026-09-01
+#+AUTHOR: Clifford Wulfman
+#+OPTIONS: toc:t num:nil
+
+* Purpose of this report
+
+Findings only -- no recommendation, no plan. Written to support Cliff
+thinking through the scope of this problem elsewhere (Claude Chat)
+before any further design or implementation work happens in this
+repo. It documents what a single hand-encoded test case
+(=data/schmidt/lexicon/abate.xml=) revealed when compared against (a)
+the corresponding entry in the working corpus file
+(=data/schmidt/lexicon/schmidt.lexicon.perseus-eng1.xml=) and (b) the
+Schmidt print source it was transcribed from.
+
+**Bottom line the evidence points toward:** the mechanical
+citation-repair work completed so far (unwrap doubled =<cit>=,
+collapse duplicate citations, strip edition tokens, recover line
+numbers, merge orphaned citations, survey sense-boundary signal
+strength -- see =doc/agenda.org= Phase 1) has been operating on a
+*flat* text model. A single hand-encoded entry shows the actual target
+structure is not flat, and getting from one to the other is not
+another item in the same mechanical-transform sequence -- it looks
+like a from-scratch re-encoding of the lexicon's ~20,000 entries.
+
+* The test case
+
+** The print source (image transcription)
+
+#+BEGIN_QUOTE
+*Abate,* (cf. /Bate/) 1) tr. a) to beat down, to overthrow, to
+humble: /most —d captives,/ Cor. III, 3, 132.
+
+b) to weaken, to diminish: /air and water do a. the fire,/ Ven. 654.
+Tp. IV, 56. Mids. III, 2, 432 /(a. thy hours,/ = shorten). Merch. V,
+198. Shr. Ind. 1, 137. H5 III, 2, 24. Tit. I, 43. Rom. IV, 1, 120.
+Hml. IV, 7, 116.
+
+c) to blunt, to take off the edge of: /a. the edge of traitors,/ R3
+V, 5, 35. /from his metal was his party steeled; which once in him
+—d, all the rest turned on themselves,/ H4B I, 1, 117.
+
+d) to reduce in estimation: /I would a. her nothing,/ Cymb. I, 4, 73.
+
+e) to deduct, to except: /a. throw at novum,/ LLL V, 2, 547.
+
+f) to curtail, with /of/: /she hath —d me of half my train,/ Lr. II,
+4, 161.
+
+2) intr. (used by none but Pistol), to decrease: /and fury shall a./
+H5 II, 1, 70. IV, 4, 50.
+#+END_QUOTE
+
+** The current corpus encoding (flat)
+
+=data/schmidt/lexicon/schmidt.lexicon.perseus-eng1.xml=, the
+=Abate,= =<entryFree>=, after every citation-repair pass completed to
+date:
+
+#+BEGIN_SRC xml
+<entryFree><orth>Abate,</orth> (cf. <mentioned>Bate</mentioned>) 1) tr. a) to beat down, to
+    overthrow, to humble: <cit>
+        <quote>most --d captives,</quote>
+        <ref target="urn:cts:engLit:shakespeare.cor:3.3.132">Cor. III, 3, 132</ref>
+      </cit>.<lb/>b) to weaken, to diminish: <cit>
+        <quote>air and water do a. the fire,</quote>
+        <ref target="urn:cts:engLit:shakespeare.ven:654">Ven. 654</ref>
+      <ref target="urn:cts:engLit:shakespeare.tmp:4.1.56">Tp. IV, 56</ref><ref target="urn:cts:engLit:shakespeare.mnd:3.2.432">Mids.
+      III, 2, 432</ref></cit> (<mentioned>a. thy hours,</mentioned> == shorten). <ref target="urn:cts:engLit:shakespeare.mv:5.1.198">Merch. V, 198</ref>. ...
+      <lb/>c) to blunt, to take off the edge of: <cit>...</cit>. <cit>...</cit>. <lb/>d) ... <lb/>e) ... <lb/>f) ...
+      <lb/>2) intr. (used by none but Pistol), to decrease: <cit>
+        <quote>and fury shall a.</quote>
+        <ref target="urn:cts:engLit:shakespeare.h5:2.1.70">H5 II, 1, 70</ref>
+      <ref target="urn:cts:engLit:shakespeare.h5:4.4.50">IV, 4, 50</ref></cit>. </entryFree>
+#+END_SRC
+
+Every citation resolves correctly and every =<cit>= is well-formed --
+this is the accumulated result of the whole citation-repair sequence
+working as designed. But the entry is still, structurally, one long
+run of text: the =1) tr. a) ... b) ... c) ...= sense/sub-sense
+hierarchy exists only as an unmarked typographic convention inside
+that text, "tr."/"intr." are bare abbreviation strings, the
+definitions ("to beat down, to overthrow, to humble") are prose
+sitting in the same undifferentiated stream as the citations that
+follow them, =(cf. <mentioned>Bate</mentioned>)= is decorative text
+with no actual link, and Schmidt's shorthand for citing the headword
+inside a quotation (=--d captives=, =a. the fire=) is preserved
+verbatim as print typography rather than encoded.
+
+** The hand-encoded target (=abate.xml=)
+
+#+BEGIN_SRC xml
+<entryFree xml:id="abate">
+   <orth xml:id="abate-orth">Abate</orth>
+   <ref target="#bate">cf <mentioned>Bate</mentioned></ref>
+   <sense n="1">
+      <gramGrp>
+         <pos>verb</pos>
+         <subc>transitive</subc>
+      </gramGrp>
+      <sense n="a">
+         <def>to beat down, to overthrow, to humble</def>
+         <cit>
+            <quote>most <oRef target="#abate-orth" type="nohyph"/>d captives</quote>
+            <ref target="urn:cts:engLit:shakespeare.cor:3.3.132">Cor. III, 3 132</ref>
+         </cit>
+      </sense>
+      <sense n="b">
+         <def>to weaken, to diminish</def>
+         <cit>
+            <quote>air and water do <oRef target="#abate-orth"/> the fire</quote>
+            <ref target="urn:cts:engLit:shakespeare.ven:654">Ven. 654</ref>
+         </cit>
+         <ref target="urn:cts:engLit:shakespeare.tmp:4.1.56">Tp. IV, 56</ref>
+         <cit>
+            <ref>Mids III, 2, 432</ref>
+            <quote><oRef target="#abate-orth"/> thy hours</quote>
+            <note>== shorten</note>
+         </cit>
+         <ref target="urn:cts:engLit:shakespeare.mv:5.1.198">Merch. V, 198</ref>. ...
+      </sense>
+      <!-- sense n="c" through n="f", each: <def> then one or more <cit> -->
+   </sense>
+   <sense n="2">
+      <gramGrp>
+         <pos>verb</pos>
+         <subc>intransitive</subc>
+      </gramGrp>
+   </sense>
+   <note>used by none but Pistol</note>
+   <def>to decrease</def>
+   <cit>
+      <quote>and fury shall <oRef target="#abate-orth"/></quote>
+      <ref target="urn:cts:engLit:shakespeare.h5:2.1.70">H5 II, 1, 70</ref>
+   </cit>
+   <ref target="urn:cts:engLit:shakespeare.h5:4.4.50">IV, 4, 50</ref>
+</entryFree>
+#+END_SRC
+
+* Structural gaps this reveals
+
+| Feature                      | Current corpus encoding                              | Hand-encoded target                                                          |
+|-------------------------------+---------------------------------------------------------+---------------------------------------------------------------------------------|
+| Orthographic form              | =<orth>Abate,</orth>= -- punctuation baked into the text | =<orth xml:id="abate-orth">Abate</orth>= -- clean form, own =xml:id=          |
+| Sense hierarchy                | Unmarked typographic convention (=1) tr. a) ...=) inside running text | Real nested =<sense n="1">/<sense n="a">.../<sense n="2">=                    |
+| Grammatical category           | Bare abbreviation text (=tr.=, =intr.=) inline           | =<gramGrp><pos>verb</pos><subc>transitive</subc></gramGrp>= per sense          |
+| Definitions                    | Prose mixed into the same stream as citations            | =<def>= as its own element, preceding its sense's =<cit>= elements             |
+| Headword-in-quotation shorthand | Literal print typography: dash-elision (=--d=) and letter-abbreviation (=a.=) preserved as text | =<oRef target="#abate-orth" type="nohyph"/>= -- one structured empty element for both conventions, disambiguated by =@type= |
+| Cross-references between entries | Decorative parenthetical text: =(cf. <mentioned>Bate</mentioned>)= | Real link: =<ref target="#bate">cf <mentioned>Bate</mentioned></ref>=          |
+| =<lb/>= (print line breaks)     | Present, inherited from the original transcription        | Entirely absent -- dropped as pure page-layout noise                          |
+
+The last row is independent corroboration of a finding from the
+sense-boundary survey (=doc/schmidt-sense-boundary-survey-report.org=):
+that survey measured empirically that =<lb/>= correlates poorly with
+sense boundaries (76.6% of entries have none at all; ~18% of existing
+ones are mid-sentence print wraps). This hand encoding shows the
+*intended target* independently agrees: =<lb/>= is not carried forward
+at all.
+
+* Complications confirmed beyond this one entry
+
+** Homographs cross-reference each other, so linking needs a resolution strategy first
+
+The corpus was checked for what "cf. Bate" should actually point to.
+There are *two* separate =Bate,= =<entryFree>= elements in the corpus:
+
+#+BEGIN_SRC xml
+<entryFree><orth>Bate,</orth> subst., quarrel: <cit>
+    <quote>breeds no b. with telling of discreet stories,</quote>
+    <ref target="urn:cts:engLit:shakespeare.2h4:2.4.271">H4B II, 4, 271</ref>
+  </cit>. </entryFree>
+
+<entryFree><orth>Bate,</orth> vb., (cf. <mentioned>abate</mentioned>) 1) trans., a) to beat down, to
+    weaken: <cit>...</cit>. ...</entryFree>
+#+END_SRC
+
+=Abate='s "cf. Bate" clearly means the second one (the verb), and that
+entry cross-references back to =abate= in turn -- a genuine
+bidirectional link between homographs. =abate.xml='s placeholder
+(=<entryFree xml:id="bate"></entryFree>=, singular and empty) doesn't
+yet reflect that there are two =Bate,= entries to disambiguate
+between. Any corpus-wide cross-reference-linking pass needs an
+identity/disambiguation scheme for homographs *before* it can resolve
+a single =(cf. X)= mention correctly, and this =Bate,=/=Abate,= pair is
+direct proof such cases are real, not hypothetical.
+
+** The headword-in-quotation shorthand has more than one form
+
+Two distinct print conventions were seen in this one entry alone:
+dash-elision (=--d captives=, =--d, all the rest=) and bare
+letter-period (=a. the fire=, =a. throw at novum=). =abate.xml=
+collapses both into =<oRef>=, distinguished by =@type="nohyph"=
+(present on the dash-elision cases, absent on the plain ones). Whether
+these are the *only* two forms across the whole lexicon, or whether
+there are others not yet catalogued, is unknown -- this entry is one
+data point.
+
+** The grammatical-abbreviation vocabulary is itself uncatalogued
+
+"tr." and "intr." map cleanly to =pos=verb, subc=transitive/
+intransitive= here. Other entries surveyed earlier in this session
+used =subst.=, =vb.=, =adj.=, =adv.=, =trans.=, =intr.=, =absol.=,
+=accus.= and more (see =doc/schmidt-sense-boundary-survey-report.org='s
+false-positive discussion, which brushed up against several of these
+without cataloguing them). None of that abbreviation set has been
+enumerated or mapped to TEI =<gramGrp>= vocabulary yet.
+
+** Even a single hand-encoded entry isn't fully self-consistent
+
+Noted for completeness, not resolved: in =abate.xml=, sense =2='s
+=<note>=, =<def>=, and =<cit>= sit as siblings *after*
+=</sense>=, not nested inside =<sense n="2">= the way =a= through =f=
+each hold their own =<def>=/=<cit>= internally. There's also a
+mismatched citation target (line 50: =target="...mv:5.1.137"= --
+Merchant of Venice's URN pattern -- attached to text reading =Shr.
+Ind. 1, 137=, which is Taming of the Shrew), a stray =/= after a
+closing =</cit>= (line 66), and a doubled capital-I typo (=Lr. I I, 4,
+161=, line 86). None of this changes the structural picture above, but
+it's a small preview of how much per-entry editorial attention scaling
+this encoding to ~20,000 entries is likely to require, even with a
+settled target schema.
+
+* Scale
+
+- 20,101 =<entryFree>= elements total in
+  =schmidt.lexicon.perseus-eng1.xml=.
+- The sense-boundary survey already found 4,690 entries with an
+  unambiguous multi-sense marker (3,591 =clean=, 778 =partial=, 321
+  =zero_lb_multi_sense=) that would need =<sense>= nesting. But
+  =<oRef>= conversion and cross-reference linking aren't gated on
+  having multiple senses at all -- a single-sense entry can still cite
+  its headword via dash-elision or letter-abbreviation, and still
+  carry a =(cf. X)= cross-reference. Those two transformations
+  plausibly touch a much larger fraction of the corpus than the
+  sense-nesting problem does, independent of it.
+- =<gramGrp>= extraction depends on first cataloguing Schmidt's full
+  grammatical-abbreviation vocabulary, which hasn't been done.
+
+* What this changes about the work done so far
+
+The completed citation-repair sequence (=doc/agenda.org= Phase 1,
+items through =phase1/orphaned-cit-merge=) operated entirely within
+the flat-text model -- unwrapping/collapsing/resolving/merging
+=<cit>=/=<ref>= elements without touching the surrounding prose. All of
+that work (233,265 resolved citations, 11,099 merged =<cit>= elements,
+etc.) is still valid content -- the citations themselves aren't wrong.
+But =abate.xml= shows the citations are only one piece of a much larger
+target structure, and the =<sense>=-boundary survey
+(=phase1/sense-boundary-survey=, closed 2026-09-01) -- which was scoped
+as "the next step after citation repair" -- turns out to answer only
+the sense-nesting question, not the =<gramGrp>=/=<def>=/=<oRef>=/
+cross-reference questions this single hand-encoded entry surfaces.
+
+* Open questions (not answered here -- for the Claude Chat discussion)
+
+1. Is a from-scratch re-encoding of all ~20,000 entries the right
+   framing, or is there a way to layer structure onto the existing
+   flat text incrementally (sense-nesting first, then =<gramGrp>=,
+   then =<def>=, then =<oRef>=, then cross-references) without
+   redoing the whole entry each time?
+2. What is the complete catalogue of Schmidt's headword-in-quotation
+   shorthand conventions (dash-elision, letter-abbreviation, others?),
+   and is it regular enough to convert to =<oRef>= mechanically, or
+   does it need per-entry judgment?
+3. What is the complete catalogue of Schmidt's grammatical
+   abbreviations, and what's the mapping to TEI =<gramGrp>=/=<pos>=/
+   =<subc>= vocabulary?
+4. How should cross-entry references resolve when the target headword
+   has multiple homograph entries -- and how common is that
+   (=Bate,=/=Abate,= is one confirmed case; is there a way to survey
+   how many headwords have more than one =<entryFree>=)?
+5. What identity scheme do entries need (=xml:id= per =<entryFree>=,
+   with homograph disambiguation) to support #4?
+6. Given =abate.xml= itself isn't fully self-consistent after
+   hand-encoding a single entry, is full automation realistic at all,
+   or does this need a human-in-the-loop workflow -- and if so, what
+   does tooling need to do to support an editor rather than replace
+   one?
+7. Does any of the completed citation-repair work need to be revisited
+   under the new structure (e.g. =abate.xml='s =<cit>= for "Mids. III,
+   2, 432" orders =<ref>= *before* =<quote>=, unlike the flat corpus's
+   consistent quote-then-ref order -- is =<cit>= child order meant to
+   vary, and if so does that affect any of the existing
+   citation-processing tooling)?
+
+* Source materials referenced
+
+- =data/schmidt/lexicon/abate.xml= -- the hand-encoded target example
+- =data/schmidt/lexicon/schmidt.lexicon.perseus-eng1.xml= -- the
+  working corpus, =Abate,= and both =Bate,= entries
+- Page image of the printed Schmidt entry for =Abate= (supplied
+  2026-09-01, not stored in this repo)
+- =doc/schmidt-sense-boundary-survey-report.org= -- prior survey this
+  finding builds on and partially supersedes in scope
+- =doc/forum.org= =#citations/sense-boundary-reconstruction= -- prior
+  open-questions entry, now understood to be narrower than the actual
+  problem
+- =doc/agenda.org= =phase1/sense-boundary-survey=,
+  =phase1/sense-boundary-reconstruction= -- task tracking
