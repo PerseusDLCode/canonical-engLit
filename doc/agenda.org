@@ -366,6 +366,106 @@ how to treat no-marker entries, whether to fold in the
 letter nesting found in 11 entries. Not designed yet -- do not start
 implementation before those are settled.
 
+*Re-scoped 2026-09-01:* superseded as an in-place transform on the P5
+corpus. Sense reconstruction is now step 4 of the record-extraction
+pipeline described in [[file:schmidt-record-extraction-strategy.org][schmidt-record-extraction-strategy.org]], operating
+on the P4 source and emitting =senses.tsv= rather than editing XML.
+Depends on =phase1/schmidt-extract-identity=.
+
+* TODO Build Schmidt record-extraction pass 1: identity and oRef
+:PROPERTIES:
+:CUSTOM_ID: phase1/schmidt-extract-identity
+:ASSIGNEES: Claude Code
+:DEPENDS: phase1/sense-boundary-survey
+:END:
+Read [[file:schmidt-record-extraction-strategy.org][schmidt-record-extraction-strategy.org]] first -- it records the
+decisions this task implements and the evidence behind them. Summary of
+what changed: Schmidt's Lexicon is a database, not a text; the P4
+source (=Renaissance/Schmidt/copyright/schmidt.xml=) retains structure
+the P5 derivative lost; we regenerate from P4 through reviewable
+intermediate tables rather than continuing to mutate the P5 file.
+
+*Repository:* this work does *not* go in =canonical-engLit=. It lives in
+a new repo, =schmidt-lexicon-workshop=, which produces generated TEI
+that is then delivered here. The =schmidt-tools= branch of
+=corpus-tools= migrates into it. Rationale in the strategy document
+§Where this lives; the short version is that a canonical repo is a
+published dataset and intermediate tables under active review are not
+part of that contract.
+
+First task in the new repo is therefore to set it up: vendor the P4
+source pinned by checksum (do not move or copy it into version control
+as an editable file), migrate the =schmidt-tools= scripts, and
+establish the =make verify= target described below before writing the
+extractors.
+
+This is the first of five extraction passes and covers the two fully
+deterministic ones. Scope is deliberately narrow: it exists to prove
+the pipeline shape cheaply.
+
+*In scope:*
+1. *Identity restoration.* Recover =@key= from the P4 source as
+   =@xml:id=. Both files hold 20,101 =<entryFree>= elements in the
+   same order, so this is a positional join. =@key= is unique across
+   all 20,101 entries and already disambiguates homographs
+   (=Bate1=/=Bate2=, =A1=--=A7=); 1,922 headwords have more than one
+   entry. Emit =entries.tsv= (=key=, ordinal, =orth= text) and verify
+   the join by comparing normalized =<orth>= strings across the two
+   files, not by trusting position alone. Report every mismatch; do
+   not repair silently.
+2. *=<oRef>= conversion.* Convert both headword-elision conventions:
+   dash-elision (=--d captives=, 19,652 tokens in 4,664 entries;
+   closed suffix inventory, commonest =s= 8,113 / =ed= 3,996 / =ing=
+   2,686 / =d= 2,129) and initial-letter abbreviation (=a. the fire=,
+   ~70,700 tokens in 11,407 entries). Both occur inside =<emph>= spans
+   as well as =<quote>= (1,316 cases) -- handle both contexts. Emit
+   the observed suffix inventory as =suffixes.tsv= for review; do not
+   hard-code it in the script.
+
+*Required of both passes -- the coverage assertion.* For every entry,
+the concatenation of everything extracted into fields, plus everything
+explicitly classified as consumed-delimiter or declared-noise, must
+reconstitute the original entry string exactly. Tokenizer discipline:
+account for every character of the input. This is not optional and not
+deferrable to a later pass -- it is the check whose absence let the
+P4→P5 migration drop 20,101 =@key= values unnoticed. A pass that
+cannot state what it discarded is not finished.
+
+*Out of scope:* =<gramGrp>=, =<def>=, sense splitting, cross-reference
+resolution, ~==~ handling, and TEI generation. Do not write a
+generator yet. The intermediate tables are the deliverable.
+
+*Provenance requirements (set up now, exercised later).* Because the
+workshop is separate from the dataset, generated output must carry its
+own origin or the separation reproduces the amnesia we are fixing:
+- Every generated TEI file gets a =<teiHeader>/<encodingDesc>/<appInfo>=
+  stamp naming the tool, its version, the workshop commit, and the
+  sha256 of the P4 source it was generated from. See the strategy
+  document for the exact shape.
+- Generated files are marked =DO NOT EDIT=, and that mark is enforced
+  by a =make verify= target that regenerates into a temp directory and
+  diffs against the committed output. An advisory comment is not
+  sufficient; the diff is the mechanism that stops the TEI from
+  quietly reacquiring authority over the tables.
+
+*Constraints:*
+- The P4 source is read-only input. Do not modify it.
+- Do not modify =schmidt.lexicon.perseus-eng1.xml=. It is being
+  superseded, not repaired.
+- Punctuation is syntax: parse delimiters before discarding them, and
+  do not add a normalization step that strips colons, ~==~, or
+  parentheses ahead of the parser.
+- =<bibl @n>= in the P4 source is unreliable (confirmed: =n="shak. mv
+  5.1.137"= on =Shr. Ind. 1, 137=). Display text is authoritative.
+  Citation resolution is a later pass and depends on the existing
+  233,265 resolutions, which must be extracted to =citations.tsv=
+  rather than recomputed.
+
+*Open schema questions are Cliff's, not Claude Code's* -- see the
+strategy document §Open schema questions. Do not resolve =<oRef
+@type>=, =<cit>= child order, or ODD customization by implementation
+choice; flag and ask.
+
 * Phase 2: MVP pipeline integration
 
 * DONE Register engLit in MVP config

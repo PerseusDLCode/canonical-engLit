@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="lexicon">
+            <entryFree xml:id="abate">
+               <orth xml:id="abate-orth">Abate</orth>
+               <ref target="#bate">cf <mentioned>Bate</mentioned></ref>
+               <sense n="1">
+                  <gramGrp>
+                     <pos>verb</pos>
+                     <subc>transitive</subc>
+                  </gramGrp>
+                  <sense n="a">
+                     <def>to beat down, to overthrow, to humble</def>
+                     <cit>
+                        <quote>most <oRef target="#abate-orth" type="nohyph"/>d captives</quote>
+                        <ref target="urn:cts:engLit:shakespeare.cor:3.3.132">Cor. III, 3, 132</ref>
+                     </cit>
+                  </sense>
+                  <sense n="b">
+                     <def>to weaken, to diminish</def>
+                     <cit>
+                        <quote>air and water do <oRef target="#abate-orth" /> the fire</quote>
+                        <ref target="urn:cts:engLit:shakespeare.ven:654">Ven. 654</ref>
+                     </cit>
+                     <ref target="urn:cts:engLit:shakespeare.tmp:4.1.56">Tp. IV, 56</ref>
+                     <cit>
+                        <ref>Mids III, 2, 432</ref>
+                        <quote><oRef target="#abate-orth"/> thy hours</quote>
+                        <note>== shorten</note>
+                     </cit>
+                     <ref target="urn:cts:engLit:shakespeare.mv:5.1.198">Merch. V, 198</ref>. 
+                     <ref target="urn:cts:engLit:shakespeare.shr:ind.1.143">Shr. Ind. 1, 143.</ref>
+                     <ref target="urn:cts:engLit:shakespeare.h5:3.2.24">H5 III, 2, 24</ref>. 
+                     <ref target="urn:cts:engLit:shakespeare.tit:1.1.43">Tit. I, 43</ref>. 
+                     <ref target="urn:cts:engLit:shakespeare.rom:4.1.120">Rom. IV, 1, 120</ref>. 
+                     <ref target="urn:cts:engLit:shakespeare.ham:4.7.116">Hml. IV, 7, 116</ref>
+                  </sense>
+                  <sense n="c">
+                     <def>to blunt, to take off the edge of</def>
+                     <cit>
+                        <quote><oRef target="#abate-orth"/> the edge of traitors</quote>
+                        <ref target="urn:cts:engLit:shakespeare.r3:5.5.35">R3 V, 5, 35</ref>
+                     </cit>.
+                     <cit>
+                        <quote>from his metal was his party steeled; which once in him <oRef target="#abate-orth" type="nohyph"/>d, all the rest
+                           turned on themselves,</quote>
+                        <ref target="urn:cts:engLit:shakespeare.2h4:1.1.117">H4B I, 1, 117</ref>
+                     </cit>
+                  </sense>
+                  <sense n="d">
+                     <def>to reduce in estimation</def>
+                     <cit>
+                        <quote>I would <oRef target="#abate-orth"/> her nothing,</quote>
+                        <ref target="urn:cts:engLit:shakespeare.cym:1.4.73">Cymb. I, 4, 73</ref>
+                     </cit>. 
+                  </sense>
+                  <sense n="e">
+                     <def>to deduct, to except</def>
+                     <cit>
+                        <quote><oRef target="#abate-orth"/> throw at novum,</quote>
+                        <ref target="urn:cts:engLit:shakespeare.lll:5.2.547">LLL V, 2, 547</ref>
+                     </cit>.  
+                  </sense>
+                  <sense n="f">
+                     <def>to curtail, with <mentioned>of</mentioned></def>
+                     <cit>
+                        <quote>she hath <oRef target="#abate-orth" type="nohyph"/>d me of half my train,</quote>
+                        <ref target="urn:cts:engLit:shakespeare.lr:2.4.161">Lr. II, 4, 161</ref>
+                     </cit>. 
+                  </sense>
+               </sense>
+               <sense n="2">
+                  <gramGrp>
+                     <pos>verb</pos>
+                     <subc>intransitive</subc>
+                  </gramGrp>
+               
+               <note>used by none but Pistol</note>
+               <def>to decrease</def>
+               <cit>
+                  <quote>and fury shall <oRef target="#abate-orth"/></quote>
+                  <ref target="urn:cts:engLit:shakespeare.h5:2.1.70">H5 II, 1, 70</ref>
+               </cit>
+               <ref target="urn:cts:engLit:shakespeare.h5:4.4.50">IV, 4, 50</ref>
+               </sense>
+            </entryFree>
+            
+            <!-- the bate entry referred to by abate -->
+            
+            <entryFree xml:id="bate">
+               <!-- content omitted -->
+            </entryFree>
+         </div>
+      </body>
+  </text>
+</TEI>
