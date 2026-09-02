@@ -641,11 +641,25 @@ encoding gaps:
   cites =Lucr. 704; Lucr. 921; Lucr. 921; Ant. III, 6, 94= (4 citations,
   P4). Only 3 resolve in P5 (=luc:921= twice, =ant:3.6.94= once) --
   =Lucr. 704= is entirely absent, not merely malformed. Line 704
-  demonstrably exists and is exactly right for this entry: "Drunken
-  Desire must vomit his receipt," =<lb n="704"/>=, immediately followed
-  by "Ere he can see his own abomination." =<lb n="705"/>=. The
+  demonstrably exists and is exactly right for this entry: stanza 101
+  runs lines 701-707 (265 stanzas x 7 lines = 1855 total, matching
+  exactly), and =<lb n="704"/>= -- which trails "Drunken Desire must
+  vomit his receipt," and precedes "Ere he can see his own
+  abomination." -- marks line 704 as "Ere he can see his own
+  abomination.", the line that actually contains the headword. The
   citation is valid; it is unaddressable under the current
   citeStructure.
+
+  *Correction [2026-09-02]:* this worked example originally paired line
+  704 with "Drunken Desire must vomit his receipt," and 705 with "Ere
+  he can see his own abomination." -- backwards. Per this file's own
+  stated rule that =<lb>= marks the *beginning* of the line it labels
+  (not the line it trails), =<lb n="704"/>= labels the line that
+  follows it, not the one it's nested in. Confirmed independently by
+  stanza arithmetic (101 x 7 - 7 + 1 = 701 through 707) and by content
+  (only "Ere he can see his own abomination." contains the headword
+  being cited). Found while implementing =phase1/poems-up-to-speed=;
+  =luc='s =citeStructure= fix in that task uses the corrected pairing.
 
 *** Not done here
 No files were modified investigating this -- =schmidt-lexicon-workshop=

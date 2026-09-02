@@ -133,15 +133,24 @@ under-encoded: Troilus and Cressida has no `<lb>` markup at all;
 Pericles has only 4. Do not treat these as representative of the
 corpus; do not use them as test cases.
 
-**`data/shakespeare/ven.xml` and `data/shakespeare/luc.xml` have broken
-citeStructures.** `ven.xml` declares
+**`ven`'s and `luc`'s citeStructures were broken; fixed 2026-09-02.**
+`data/shakespeare/ven/shakespeare.ven.globe.xml` declared
 `<citeStructure unit="line" match=".//l[@n]" use="@n"/>` but none of its
-1,196 `<l>` elements carries `@n`, so the citeStructure matches nothing.
-`luc.xml` has correct global line numbers on `<lb n="704">`-style
-milestones but declares stanza-relative line position instead, leaving
-those numbers unaddressable. Both are known and unfixed; see `forum.org`
-`#citations/poem-citestructure-gaps`. A declared citeStructure that
-matches zero nodes is a defect class worth checking for generally.
+1,196 `<l>` elements carried `@n`, so the citeStructure matched
+nothing; it now addresses by stanza + in-stanza line position instead.
+Real global line numbers were not restored for `ven` (out of scope for
+that task), so this is not yet a Schmidt-style bare-line citation the
+way `luc`'s fix below is.
+`data/shakespeare/luc/shakespeare.luc.globe.xml` had correct global
+line numbers on `<lb n="...">`-style milestones but declared
+stanza-relative line position instead, leaving those numbers
+unaddressable; the milestone numbers were transferred onto `<l>/@n`
+(verified against all 1,855 lines) and the `<lb>` elements removed, so
+it now addresses by a flat global line number. See `forum.org`
+`#citations/poem-citestructure-gaps` — that entry's own worked example
+originally mis-paired its line numbers (fixed there too). A declared
+citeStructure that matches zero nodes is a defect class worth checking
+for generally.
 
 **Non-dramatic works (`son`, `ven`, `lc`, `pht`, `pp`, `luc`) are in
 scope.** They have different structural conventions from the plays and

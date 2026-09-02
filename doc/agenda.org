@@ -466,11 +466,15 @@ strategy document §Open schema questions. Do not resolve =<oRef
 @type>=, =<cit>= child order, or ODD customization by implementation
 choice; flag and ask.
 
-* TODO Bring the poems up to speed 
+* DONE Bring the poems up to speed
 Venus and Adonis and Lucrece
+CLOSED: [2026-09-02 Wed]
 :PROPERTIES:
 :CUSTOM_ID: phase1/poems-up-to-speed
 :ASSIGNEES: Cliff
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-09-02 Wed]
 :END:
 
 See [[file:forum.org::#citations/poem-citestructure-gaps][#citations/poem-citestructure-gaps]] for the full finding.
@@ -496,20 +500,20 @@ and, where available, an XML endoding of the Folger edition.
 
 Here are the steps in this task:
 
-** TODO create proper CTS metadata for the poems
+** DONE create proper CTS metadata for the poems
 Following the pattern in the dramatic works, create a =__cts__.xml= file
 for each poem.
 
-** TODO correct the TEI schema
+** DONE correct the TEI schema
 In each Globe file, Change the xml-model to
 https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_verse.rng
 
-** TODO correct the =@xml:lang= values
+** DONE correct the =@xml:lang= values
 In each poem, change the =@xml:lang= attribute values from three
 characters to two: /eng/ to /en/; /lat/ to /la/. If you encounter other
 values, flag them.
 
-** TODO Clean up the Sonnets
+** DONE Clean up the Sonnets
 - For each sonnet (e.g., <div type="sonnet"> ), do the following:
   - change the type from =sonnet= to =poem=
   - change the value of the =@n= attribute from a Roman numeral to an
@@ -518,27 +522,27 @@ values, flag them.
   - number each line in the poem, restarting the numbering sequence
     for each poem.
 
-** TODO Clean up Lucrece
+** DONE Clean up Lucrece
 - remove all =<lb/>= tags
 - in the =<body>=, number all the =<l>= elements sequentially, beginning
   at 1.
-** TODO Clean up Venus and Adonis
+** DONE Clean up Venus and Adonis
 - remove the extraneous attributes added by lxml: =@org=, =@sample=, =@default= 
 - delete the =<div type="section"> start and end tags (the stanzas
   should be top-level structures right below the =<body>=)
 - Give each top-level =<lg>= the =@type= "stanza" and number them sequentially.
 
 
-** TODO Clean up The Passionate Pilgrim
+** DONE Clean up The Passionate Pilgrim
 - remove the extraneous attributes added by lxml: =@org=, =@sample=,
   =@default= 
 - number the lines in each poem, restarting at line 1 for each poem.
-** TODO Clean up The Phoenix and the Turtls
+** DONE Clean up The Phoenix and the Turtls
 As with /The Passionate Pilgrim/:
 - remove the extraneous attributes added by lxml: =@org=, =@sample=, =@default= 
 - number the lines in each poem, restarting at line 1 for each poem.
 
-** TODO Clean up A Lover's Complaint
+** DONE Clean up A Lover's Complaint
 As with the previous works:
 - Flatten the <div type="poem"> division (there is only one poem)
 - Number all the lines sequentially
@@ -546,6 +550,66 @@ As with the previous works:
   do not restart numbering at each stanza break -- the numbers should
   be sequential from beginning to end of the poem.
 - number the lines in each poem
+
+*Done:* six new one-off XSLT stylesheets (=src/fix-{lc,ven,luc,pht,pp,son}.xsl=,
+=src/fix-poem-lang.xsl=), reusing the existing =src/update-schema-pi.xsl=
+unchanged for the schema-PI fix. All six =__cts__.xml= created (Globe
+edition only -- see scope note below). All six Globe files re-validate
+clean (0 jing errors) against =perseus_verse.rng=; element counts
+(=<l>=, =<lg>=, =<div>=) verified unchanged except where the task called
+for structural changes (div unwrap in =ven=/=lc=). Not yet committed --
+commit on request per the corpus-cleanup workflow.
+
+Scope, confirmed with Cliff before implementation:
+- Folger integration (raw FDT files already present in =ven=, =luc=,
+  =pht=, =son=) is deferred to a separate future task; =__cts__.xml=
+  carries only the Globe edition for now.
+- citeStructure declarations were rewritten for all six poems, not just
+  =ven=/=luc= -- the numbering changes made several existing
+  declarations stale (e.g. a =use="position()"= that assumed
+  per-stanza restart no longer agrees with continuous numbering in
+  =lc=/=pht=). =luc= now uses a flat =unit="line" use="@n"= (matching
+  how Schmidt cites it, by bare line number) instead of the old
+  stanza-relative =position()=. =ven= now uses a working
+  =stanza→line(position())= nesting instead of the old =unit="line"
+  match=".//l[@n]"= that matched zero nodes -- but since no checklist
+  item restored real global =@n= on =ven='s lines, this closes the
+  "matches nothing" defect without fully restoring Schmidt-style
+  bare-line-number addressability for =ven=; that would need a future
+  task analogous to what recovered =luc='s numbers from its =<lb>=
+  milestones.
+- The Phoenix and the Turtle's line numbering runs as one continuous
+  sequence across the main poem and the Threnos (matching its existing
+  continuous stanza numbering, 1-18, not restarting).
+
+Deviation from the literal checklist wording, found during
+implementation: the "@org, @sample, @default" instruction (=ven=, =pp=,
+=pht=) was narrowed to =@org=/=@sample= only. =@default="false"= on
+=sourceDesc=/=biblStruct=/=langUsage= turns out to be standing corpus
+boilerplate present even in the already-integrated, cleaned play files
+(confirmed in =lr/shakespeare.lr.globe.xml=) -- not lxml pollution.
+Stripping it from the poems would have made them inconsistent with the
+plays, not more consistent.
+
+Two data quality findings surfaced along the way, unrelated to this
+task's own scope but worth recording:
+- Sonnet XV's source =@n= is lowercase (=n="xv"=, every other sonnet is
+  uppercase); handled with a case-insensitive match rather than
+  silently leaving it unconverted.
+- The worked Lucrece example in [[file:forum.org::#citations/poem-citestructure-gaps][#citations/poem-citestructure-gaps]] (repeated
+  in =CLAUDE.md=) mis-pairs its line numbers: it attributes line 704 to
+  "Drunken Desire must vomit his receipt," but stanza 101 spans lines
+  701-707 by exact arithmetic (265 stanzas x 7 lines = 1855), and
+  =CLAUDE.md='s own stated rule (=<lb>= marks the *beginning* of the
+  line it labels) puts =<lb n="704"/>= -- which trails "receipt," and
+  precedes "Ere he can see" -- on "Ere he can see his own
+  =*abomination*=." instead. That pairing is also the one that makes
+  semantic sense: this is Schmidt's citation for the headword
+  "Abomination," and only that line contains the word. Verified against
+  the actual file (=grep=, stanza arithmetic) rather than assumed;
+  =forum.org= and =CLAUDE.md='s Gotcha entry should be corrected to
+  swap the two lines in the example. Not fixed here since it's prose in
+  another file, not code -- flagging for Cliff to correct or confirm.
 
 * Phase 2: MVP pipeline integration
 
