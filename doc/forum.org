@@ -662,7 +662,7 @@ or started here.
 
 *** Open for Cliff
 1. Confirm/word the =CLAUDE.md= scope correction above.
-2. Should =ven.xml=/=luc.xml= structural fixes become their own
+2. Should =ven.xml= / =luc.xml= structural fixes become their own
    =agenda.org= task now, or wait until the rest of the non-dramatic
    corpus is reviewed for similar gaps (=son.xml=, =lc.xml=, =pp.xml=,
    =pht.xml= were not audited here -- only the two poems the resolution

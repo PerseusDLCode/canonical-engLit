@@ -466,34 +466,86 @@ strategy document §Open schema questions. Do not resolve =<oRef
 @type>=, =<cit>= child order, or ODD customization by implementation
 choice; flag and ask.
 
-* TODO Fix citeStructure/line-numbering gaps in Venus and Adonis and Lucrece
+* TODO Bring the poems up to speed 
+Venus and Adonis and Lucrece
 :PROPERTIES:
-:CUSTOM_ID: phase1/poem-citestructure-gaps
+:CUSTOM_ID: phase1/poems-up-to-speed
 :ASSIGNEES: Cliff
 :END:
+
 See [[file:forum.org::#citations/poem-citestructure-gaps][#citations/poem-citestructure-gaps]] for the full finding.
 Non-dramatic works are in scope for this sprint (the exclusion note in
 =CLAUDE.md= was incorrect and needs correcting -- see that forum entry).
+Nevertheless, the globe-edition poems have not been edited to reflect
+the new patterns, nor have the Folger editions been integrated into
+the canonical-engLit corpus. 
 
-Found while reviewing =schmidt-lexicon-workshop='s pass-1 output: Venus
-and Adonis and Lucrece resolve only 82.2%/84.1% of their Schmidt
-citations (vs. 94.5% for every other work, poems included), and both
-have real, distinct structural causes, not data-quality noise:
-- =data/shakespeare/ven.xml=: citeStructure requires =<l @n>=, but none
-  of its 1,196 =<l>= elements carry =@n= at all.
-- =data/shakespeare/luc.xml=: citeStructure addresses lines by
-  stanza-relative =position()=, ignoring the correct global line
-  numbers already present on its =<lb n=...>= milestones.
+The poems are the following:
+| title                      | abbreviation |
+|----------------------------+--------------|
+| A Lover's Complaint        | lc           |
+| Venus and Adonis           | ven          |
+| The Rape of Lucrece        | luc          |
+| The Phoenix and the Turtle | pht          |
+| The Passionate Pilgrim     | pp           |
+| Sonnets                    | son          |
 
-Fix: give Venus and Adonis's =<l>= elements real global =@n= values;
-rewire Lucrece's citeStructure to use its existing =<lb n>= milestones
-instead of stanza-position. =son.xml=, =lc.xml=, =pp.xml=, =pht.xml=
-were not audited for similar gaps -- only these two, which the
-resolution-rate anomaly pointed at.
+Following the pattern of the dramatic works, there is a directory for
+each poem; in that directory is an XML encoding of the Globe edition
+and, where available, an XML endoding of the Folger edition.
 
-Re-resolving the ~1,780 currently-unresolved Ven./Lucr. Schmidt
-citations once this is fixed is separate, later work
-(=phase3/bibl-resolver= territory).
+Here are the steps in this task:
+
+** TODO create proper CTS metadata for the poems
+Following the pattern in the dramatic works, create a =__cts__.xml= file
+for each poem.
+
+** TODO correct the TEI schema
+In each Globe file, Change the xml-model to
+https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_verse.rng
+
+** TODO correct the =@xml:lang= values
+In each poem, change the =@xml:lang= attribute values from three
+characters to two: /eng/ to /en/; /lat/ to /la/. If you encounter other
+values, flag them.
+
+** TODO Clean up the Sonnets
+- For each sonnet (e.g., <div type="sonnet"> ), do the following:
+  - change the type from =sonnet= to =poem=
+  - change the value of the =@n= attribute from a Roman numeral to an
+    arabic numeral.  Leave the Roman numeral in the =<head>= element as
+    it is.
+  - number each line in the poem, restarting the numbering sequence
+    for each poem.
+
+** TODO Clean up Lucrece
+- remove all =<lb/>= tags
+- in the =<body>=, number all the =<l>= elements sequentially, beginning
+  at 1.
+** TODO Clean up Venus and Adonis
+- remove the extraneous attributes added by lxml: =@org=, =@sample=, =@default= 
+- delete the =<div type="section"> start and end tags (the stanzas
+  should be top-level structures right below the =<body>=)
+- Give each top-level =<lg>= the =@type= "stanza" and number them sequentially.
+
+
+** TODO Clean up The Passionate Pilgrim
+- remove the extraneous attributes added by lxml: =@org=, =@sample=,
+  =@default= 
+- number the lines in each poem, restarting at line 1 for each poem.
+** TODO Clean up The Phoenix and the Turtls
+As with /The Passionate Pilgrim/:
+- remove the extraneous attributes added by lxml: =@org=, =@sample=, =@default= 
+- number the lines in each poem, restarting at line 1 for each poem.
+
+** TODO Clean up A Lover's Complaint
+As with the previous works:
+- Flatten the <div type="poem"> division (there is only one poem)
+- Number all the lines sequentially
+- Give each <lg> the type 'stanza' and number them sequentially (but
+  do not restart numbering at each stanza break -- the numbers should
+  be sequential from beginning to end of the poem.
+- number the lines in each poem
 
 * Phase 2: MVP pipeline integration
 
