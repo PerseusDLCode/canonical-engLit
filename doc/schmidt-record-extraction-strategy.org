@@ -21,7 +21,10 @@ question.
 
 =Renaissance/Schmidt/copyright/schmidt.xml= (TEI P4, 21.8 MB) is
 cleaner than =data/schmidt/lexicon/schmidt.lexicon.perseus-eng1.xml=
-(TEI P5, 31.8 MB) in ways that matter structurally.
+(TEI P5, 31.8 MB) in ways that matter structurally. One of the two
+differences below is migration damage; the other is a deliberate
+recent decision. They are separated here because conflating them
+misattributes a design choice as an error.
 
 ** Entry identity already exists upstream
 
@@ -40,23 +43,40 @@ The working P5 corpus has *zero* =@key= and *zero* =@xml:id=.
 Open questions #4 (how do cross-references resolve when the target has
 homographs) and #5 (what identity scheme do entries need) in the
 findings report are therefore not open. Perseus's editors solved
-identity and homograph disambiguation twenty-five years ago; a
-transform somewhere in the P4→P5 chain dropped it silently. =Abate='s
-=(cf. Bate)= resolves to =Bate2=.
+identity and homograph disambiguation twenty-five years ago; the 2025
+corpus-wide P4→P5 migration dropped it silently. =Abate='s =(cf. Bate)=
+resolves to =Bate2=.
 
-** Italics were over-committed semantically
+Note for the wider audit: this loss produced no error and no warning.
+Assume other non-Shakespeare P5 derivatives from that migration carry
+comparable damage until each has been checked against its P4 ancestor.
+
+** Italics: a live decision, not a loss
 
 The P4 source has 19,525 =<emph>= spans. The P5 corpus has *exactly*
-19,525 =<mentioned>= elements. A presentational signal (italic) was
-converted wholesale into one semantic claim.
+19,525 =<mentioned>= elements.
 
-It isn't one thing. ~45% of those spans are multiword, and read as
-uncited quotations or glosses (=the heels a the ass,=; =continue still
-in this so good a mind,=), not as cited word-forms. 1,316 of them
-contain the headword-elision shorthand (=--d=, =a.=), which is
-otherwise a quotation marker. Italic in Schmidt distinguishes
-quotations, cited word-forms, cross-references, and foreign matter;
-=<mentioned>= is right for perhaps half of them.
+This one is deliberate and recent -- commit =Retag <emph> as
+<mentioned> in Schmidt; drop stray <ab> wrapper in revisionDesc=,
+2026-08-25. It is a decision to reopen, not an accident to repair, and
+it is Cliff's to make. (An earlier draft of this document grouped it
+with the =@key= loss as anonymous migration damage. That was wrong.)
+
+The argument for reopening it: italic in Schmidt is a presentational
+signal doing at least four jobs, and the retag commits all of them to
+one reading. ~45% of the spans are multiword and read as uncited
+quotations or glosses (=the heels a the ass,=; =continue still in this
+so good a mind,=) rather than as cited word-forms. 1,316 contain the
+headword-elision shorthand (=--d=, =a.=), which is otherwise a
+quotation marker. Italic also carries cross-references and foreign
+matter. =<mentioned>= looks right for perhaps half.
+
+The practical consequence for the pipeline is small, and is the reason
+this is not urgent: extraction reads the P4 =<emph>= spans directly, so
+the classification can be decided -- and revised -- as an extraction
+column rather than as a retag of the P5 file. Whatever is decided,
+record it as a =forum.org= entry with the reasoning, so the next reader
+finds a decision rather than an inference.
 
 ** =<bibl @n>= in the source is not trustworthy
 
