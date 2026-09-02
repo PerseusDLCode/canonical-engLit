@@ -466,6 +466,35 @@ strategy document §Open schema questions. Do not resolve =<oRef
 @type>=, =<cit>= child order, or ODD customization by implementation
 choice; flag and ask.
 
+* TODO Fix citeStructure/line-numbering gaps in Venus and Adonis and Lucrece
+:PROPERTIES:
+:CUSTOM_ID: phase1/poem-citestructure-gaps
+:ASSIGNEES: Cliff
+:END:
+See [[file:forum.org::#citations/poem-citestructure-gaps][#citations/poem-citestructure-gaps]] for the full finding.
+Non-dramatic works are in scope for this sprint (the exclusion note in
+=CLAUDE.md= was incorrect and needs correcting -- see that forum entry).
+
+Found while reviewing =schmidt-lexicon-workshop='s pass-1 output: Venus
+and Adonis and Lucrece resolve only 82.2%/84.1% of their Schmidt
+citations (vs. 94.5% for every other work, poems included), and both
+have real, distinct structural causes, not data-quality noise:
+- =data/shakespeare/ven.xml=: citeStructure requires =<l @n>=, but none
+  of its 1,196 =<l>= elements carry =@n= at all.
+- =data/shakespeare/luc.xml=: citeStructure addresses lines by
+  stanza-relative =position()=, ignoring the correct global line
+  numbers already present on its =<lb n=...>= milestones.
+
+Fix: give Venus and Adonis's =<l>= elements real global =@n= values;
+rewire Lucrece's citeStructure to use its existing =<lb n>= milestones
+instead of stanza-position. =son.xml=, =lc.xml=, =pp.xml=, =pht.xml=
+were not audited for similar gaps -- only these two, which the
+resolution-rate anomaly pointed at.
+
+Re-resolving the ~1,780 currently-unresolved Ven./Lucr. Schmidt
+citations once this is fixed is separate, later work
+(=phase3/bibl-resolver= territory).
+
 * Phase 2: MVP pipeline integration
 
 * DONE Register engLit in MVP config

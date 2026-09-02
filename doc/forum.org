@@ -576,3 +576,94 @@ depth) -- everything currently sitting loose in these entries.
 Not answered here, same as this section's own schema/scope questions
 were settled before =#citations/orphaned-cit-merge='s implementation
 began.
+** Non-dramatic works are in scope; Venus and Adonis / Lucrece citeStructure gaps found
+:PROPERTIES:
+:CUSTOM_ID: citations/poem-citestructure-gaps
+:ASSIGNEES: Cliff
+:SOURCE: session/2026-09-02
+:DISPOSITION: needs-cliff-input
+:END:
+
+*** Scope correction
+Cliff: the =CLAUDE.md= Gotchas entry reading "Non-dramatic works ...
+are out of scope for the current MVP sprint" is incorrect and does not
+reflect project scope -- it contradicts this forum's own
+=#process/project-setup= entry ("the Globe Shakespeare editions (44
+plays *and poems*)"). All works, including the poems and =son.xml=,
+are in scope. =CLAUDE.md= has not been edited yet pending Cliff's
+confirmation of the replacement wording (see end of this entry).
+
+*** Finding
+While reviewing =schmidt-lexicon-workshop='s pass-1 =citations.tsv=
+output (=phase1/schmidt-extract-identity=; the workshop is a separate
+repo, https://github.com/PerseusDLCode/schmidt-lexicon-workshop, that
+extracts Schmidt's already-resolved citations out of the P5 lexicon
+rather than re-resolving them), a large "unexplained" bucket of
+per-entry citation-count mismatches turned out not to be random noise:
+81% of the 1,370 unexplained mismatches (1,115) mention a poem siglum
+in their citation text, wildly disproportionate to poems' ~8% share of
+all Schmidt citations.
+
+Per-work resolution rate (Schmidt =<bibl>= citations in the P4 source
+vs. already-resolved =<ref target>= in the P5 lexicon):
+
+| Work                    | P4 citations | P5 resolved | Rate  |
+|-------------------------+--------------+-------------+-------|
+| Venus and Adonis (=ven=) |         4960 |        4079 | 82.2% |
+| Lucrece (=luc=)          |         5682 |        4779 | 84.1% |
+| All other works (avg)    |       222695 |      210429 | 94.5% |
+
+Sonnets (99.1%), Lover's Complaint (97.2%), Passionate Pilgrim (93.5%),
+and The Phoenix and Turtle (97.1%) all resolve at or above the drama
+average -- this is not "poems as a class," it is specifically Venus
+and Adonis and Lucrece. Both have real, distinct, previously-unnoticed
+encoding gaps:
+
+- =data/shakespeare/ven.xml=: declares
+  =<citeStructure unit="line" match=".//l[@n]" use="@n"/>=, but *zero*
+  of its 1,196 =<l>= elements carry an =@n= attribute at all. The
+  citeStructure matches nothing. Whatever produced the 4,079 URNs
+  already resolved in the Schmidt P5 lexicon did not come from this
+  file's structure -- some other, unverified source was used, which
+  would also explain why the remaining 18% have no way to be checked
+  against real line boundaries and simply fail.
+
+- =data/shakespeare/luc.xml=: the opposite problem. It *does* carry
+  real global line numbers, but only on =<lb n="704">=-style
+  milestones -- the declared citeStructure instead nests
+  =unit="stanza"= (real, correct =<div type="stanza" n="107">=
+  numbering) then =unit="line" ... use="position()"=, i.e. line
+  position *within its stanza* (1-7, resetting every stanza), never
+  touching the =<lb n=...>= milestones that already carry the correct
+  global number.
+
+  Worked example, traced end to end: Schmidt's =Abomination,= entry
+  cites =Lucr. 704; Lucr. 921; Lucr. 921; Ant. III, 6, 94= (4 citations,
+  P4). Only 3 resolve in P5 (=luc:921= twice, =ant:3.6.94= once) --
+  =Lucr. 704= is entirely absent, not merely malformed. Line 704
+  demonstrably exists and is exactly right for this entry: "Drunken
+  Desire must vomit his receipt," =<lb n="704"/>=, immediately followed
+  by "Ere he can see his own abomination." =<lb n="705"/>=. The
+  citation is valid; it is unaddressable under the current
+  citeStructure.
+
+*** Not done here
+No files were modified investigating this -- =schmidt-lexicon-workshop=
+extracts citations from the existing P5 lexicon and does not touch
+=canonical-engLit= at all (confirmed clean =git status= throughout).
+Fixing =ven.xml=/=luc.xml= (adding real global =@n= to Venus and
+Adonis's =<l>= elements; rewiring Lucrece's citeStructure to address by
+its existing =<lb n>= milestones instead of stanza-position) is
+=canonical-engLit= encoding work, prerequisite to any future
+re-resolution of the ~1,780 currently-unresolved Ven./Lucr. citations
+in Schmidt. Re-resolving those citations once the structure is fixed
+is separate work again (=phase3/bibl-resolver= territory), not decided
+or started here.
+
+*** Open for Cliff
+1. Confirm/word the =CLAUDE.md= scope correction above.
+2. Should =ven.xml=/=luc.xml= structural fixes become their own
+   =agenda.org= task now, or wait until the rest of the non-dramatic
+   corpus is reviewed for similar gaps (=son.xml=, =lc.xml=, =pp.xml=,
+   =pht.xml= were not audited here -- only the two poems the resolution
+   -rate anomaly pointed at)?
