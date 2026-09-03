@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:engLit:shakespeare.son" xml:lang="eng" groupUrn="urn:cts:engLit:shakespeare">
+   <ti:title xml:lang="eng">Sonnets</ti:title>
+   <ti:edition xml:lang="eng" workUrn="urn:cts:engLit:shakespeare.son" urn="urn:cts:engLit:shakespeare.son.globe">
+      <ti:label xml:lang="eng">Sonnets</ti:label>
+      <ti:description xml:lang="eng">The Globe Shakespeare, ed. W. G. Clark and W. Aldis Wright. New York: Nelson Doubleday, Inc.</ti:description>
+   </ti:edition>
+</ti:work>

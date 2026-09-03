@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/PerseusDLCode/perseus-schemas/main/perseus_verse.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>The Phoenix and the Turtle</title>
+        <author>William Shakespeare</author>
+        <editor>W. G. Clark</editor>
+        <editor>W. Aldis Wright</editor>   </titleStmt>
+      <publicationStmt><p>later</p></publicationStmt> <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>William Shakespeare</author>
+            <editor>W. G. Clark</editor>
+            <editor>W. Aldis Wright</editor>
+            <title>The Globe Shakespeare</title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <publisher>Nelson Doubleday, Inc.</publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <refsDecl n="CTS" xml:id="CTS"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure unit="stanza" delim=":" match=".//lg[@type='stanza']" use="@n"><citeStructure unit="line" delim="." match="l" use="@n"/></citeStructure></citeStructure></refsDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+        <tei:language xmlns:tei="http://www.tei-c.org/ns/1.0" ident="eng"> English </tei:language>
+      </langUsage>
+    </profileDesc>
+
+    <revisionDesc><change><ab>converted to TEI P5</ab></change></revisionDesc>
+  </teiHeader>
+
+  <text xml:lang="en">
+    <body xml:base="urn:cts:engLit:shakespeare.pht.globe">
+      <div type="textpart" subtype="section" n="1">
+        <head>THE PHOENIX AND THE TURTLE</head>
+        <lg n="1" type="stanza">
+          <l n="1">LET the bird of loudest lay,</l>
+          <l n="2">On the sole Arabian tree,</l>
+          <l n="3">Herald sad and trumpet be,</l>
+          <l n="4">To whose sound chaste wings obey.</l>
+        </lg>
+        <lg n="2" type="stanza">
+          <l n="5">But thou shrieking harbinger,</l>
+          <l n="6">Foul precurrer of the fiend,</l>
+          <l n="7">Augur of the fever's end,</l>
+          <l n="8">To this troop come thou not near!</l>
+        </lg>
+        <lg n="3" type="stanza">
+          <l n="9">From this session interdict</l>
+          <l n="10">Every fowl of tyrant wing,</l>
+          <l n="11">Save the eagle, feather'd king:</l>
+          <l n="12">Keep the obsequy so strict.</l>
+        </lg>
+        <lg n="4" type="stanza">
+          <l n="13">Let the priest in surplice white,</l>
+          <l n="14">That defunctive music can,</l>
+          <l n="15">Be the death-divining swan,</l>
+          <l n="16">Lest the requiem lack his right.</l>
+        </lg>
+        <lg n="5" type="stanza">
+          <l n="17">And thou treble-dated crow,</l>
+          <l n="18">That thy sable gender makest</l>
+          <l n="19">With the breath thou givest and takest,</l>
+          <l n="20">'Mongst our mourners shalt thou go.</l>
+        </lg>
+        <lg n="6" type="stanza">
+          <l n="21">Here the anthem doth commence:</l>
+          <l n="22">Love and Constancy is dead;</l>
+          <l n="23">Phoenix and the turtle fled</l>
+          <l n="24">In a mutual flame from hence.</l>
+        </lg>
+        <lg n="7" type="stanza">
+          <l n="25">So they lov'd, as love in twain</l>
+          <l n="26">Had the essence but in one;</l>
+          <l n="27">Two distincts, division none:</l>
+          <l n="28">Number there in love was slain.</l>
+        </lg>
+        <lg n="8" type="stanza">
+          <l n="29">Hearts remote, yet not asunder;</l>
+          <l n="30">Distance, and no space was seen</l>
+          <l n="31">'Twixt the turtle and his queen:</l>
+          <l n="32">But in them it were a wonder.</l>
+        </lg>
+        <lg n="9" type="stanza">
+          <l n="33">So between them love did shine,</l>
+          <l n="34">That the turtle saw his right</l>
+          <l n="35">Flaming in the phoenix' sight;</l>
+          <l n="36">Either was the other's mine.</l>
+        </lg>
+        <lg n="10" type="stanza">
+          <l n="37">Property was thus appalled,</l>
+          <l n="38">That the self was not the same;</l>
+          <l n="39">Single nature's double name</l>
+          <l n="40">Neither two nor one was called.</l>
+        </lg>
+        <lg n="11" type="stanza">
+          <l n="41">Reason, in itself confounded,</l>
+          <l n="42">Saw division grow together,</l>
+          <l n="43">To themselves yet either neither,</l>
+          <l n="44">Simple were so well compounded,</l>
+        </lg>
+        <lg n="12" type="stanza">
+          <l n="45">That it cried, How true a twain</l>
+          <l n="46">Seemeth this concordant one!</l>
+          <l n="47">Love hath reason, reason none,</l>
+          <l n="48">If what parts can so remain.</l>
+        </lg>
+        <lg n="13" type="stanza">
+          <l n="49">Whereupon it made this threne</l>
+          <l n="50">To the phoenix and the dove,</l>
+          <l n="51">Co-supremes and stars of love,</l>
+          <l n="52">As chorus to their tragic scene.</l>
+        </lg>
+      </div>
+
+      <div type="textpart" subtype="section" n="2">
+        <head>THRENOS</head>
+        <lg n="14" type="stanza">
+          <l n="53">Beauty, truth, and rarity,</l>
+          <l n="54">Grace in all simplicity,</l>
+          <l n="55">Here enclosed in cinders lie.</l>
+        </lg>
+        <lg n="15" type="stanza">
+          <l n="56">Death is now the phoenix' nest;</l>
+          <l n="57">And the turtle's loyal breast</l>
+          <l n="58">To eternity doth rest,</l>
+        </lg>
+        <lg n="16" type="stanza">
+          <l n="59">Leaving no posterity:</l>
+          <l n="60">'T was not their infirmity,</l>
+          <l n="61">It was married chastity.</l>
+        </lg>
+        <lg n="17" type="stanza">
+          <l n="62">Truth may seem, but cannot be:</l>
+          <l n="63">Beauty brag, but 'tis not she;</l>
+          <l n="64">Truth and beauty buried be.</l>
+        </lg>
+        <lg n="18" type="stanza">
+          <l n="65">To this urn let those repair</l>
+          <l n="66">That are either true or fair;</l>
+          <l n="67">For these dead birds sigh a prayer.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

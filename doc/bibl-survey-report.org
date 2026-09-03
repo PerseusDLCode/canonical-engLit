@@ -1,0 +1,176 @@
+#+TITLE: <bibl @n> and Free-Text Citation Survey: Abbott, Schmidt, Onions, Dyce
+#+DATE: 2026-08-22
+#+AUTHOR: Claude Code
+#+OPTIONS: toc:t num:nil
+
+* Overview
+
+Survey for =phase1/bibl-survey= in [[file:agenda.org][agenda.org]]. Every =<bibl>= element
+was extracted from all four Shakespeare reference works (via
+=lxml.iterparse=, exact TEI-namespace tag match, streaming so the
+30MB Schmidt file doesn't need to be held in memory) and classified
+by whether it carries a machine-readable =@n= attribute and, if not,
+by the shape of its text content.
+
+The headline finding: **Schmidt is the outlier, not the norm.**
+Schmidt's lexicon carries a near-universal =n="shak. <abbr>
+<act>.<scene>.<line>"= attribute (99.99% of its 233,374 =<bibl>=
+elements). Abbott, Onions, and Dyce do not — their Shakespeare
+citations are almost entirely embedded as free text inside =<bibl>=
+with no =@n= at all, in three different citation-string conventions.
+Any Phase 3 resolver has to handle four distinct parsing problems,
+not one attribute format with three copies.
+
+** Summary
+
+| Work    | Total =<bibl>= | With =@n=       | Without =@n=      | Note                                    |
+|---------+----------------+------------------+--------------------+------------------------------------------|
+| Abbott  |          5,205 |                0 |              5,205 | free-text only, mixed with non-Shak refs |
+| Schmidt |        233,374 | 233,360 (99.99%) |                 14 | near-total =@n= coverage                 |
+| Onions  |         33,292 |  2,996 (9.0%)    |             30,296 | =@n= is a minority overlay, not the norm |
+| Dyce    |         14,388 |                0 |             14,388 | free-text only, ALL-CAPS play titles     |
+
+* Schmidt --- =@n= format catalog (233,360 with =@n=)
+
+Overwhelmingly clean. Format is always =shak. <play-abbr>
+<locator>=, lower-cased, space after the period.
+
+| Shape                        |   Count | % of with-@n | Example                  |
+|-------------------------------+---------+---------------+---------------------------|
+| act.scene.line (full)         | 204,766 |         87.8% | =shak. lll 5.1.50=        |
+| act.scene only (no line)      |  15,732 |          6.7% | =shak. tn 2.5=            |
+| single number only            |  12,708 |          5.4% | =shak. ven 200= (Venus & Adonis / Lucrece, cited by line only — correct for non-dramatic poems, not malformed) |
+| sonnet, roman numeral + line  |      56 |        <0.1% | =shak. son cl.11=         |
+| chorus/Gower special-cases    |       4 |        <0.1% | =shak. h5 4.chorus=, =shak. per 5.chorus1= |
+| induction special-case        |       1 |        <0.1% | =shak. shr ind.2.77=      |
+| **malformed: no locator**     |      53 |        <0.1% | =shak. luc= (bare, work only) |
+| **malformed: duplicated token** |    18 |        <0.1% | =shak. ven ven= (data-entry bug) |
+
+=@n= not starting with =shak.= (22 total, all legitimate — Schmidt
+quotes the Bible and classical sources for etymology, not just
+Shakespeare): =Hebrews 8.5=, =Plin. Nat. 19.19.1=, =Mark2.25=, =Hom.
+Od. 19.394=, =Matthew 11.25=. A resolver needs a =shak.= prefix gate
+before attempting CTS resolution; these 22 are out of scope for the
+Shakespeare mapping table (=phase3/play-abbr-map=).
+
+14 =<bibl>= without =@n= are Schmidt's own appendix cross-references
+(=App. I, 1=), not Shakespeare citations.
+
+**Total true malformed: 71 / 233,360 (0.03%).** Schmidt needs almost
+no special-case handling.
+
+* Onions --- =@n= is present on only 9% of citations
+
+2,996 of 33,292 =<bibl>= carry =@n=, in the same =shak.= scheme as
+Schmidt (evidently added by the same later editorial pass, sharing
+even its bugs):
+
+| Shape                       | Count | Example                        |
+|-------------------------------+-------+---------------------------------|
+| act.scene.line (full)         | 1,840 | =shak. h8 1.1.127=              |
+| act.scene only                |   978 | =shak. ham 4.5=, =shak. wt 4.2.= (trailing dot) |
+| single number only             |    70 | =shak. ven 405=                 |
+| sonnet, roman + line           |    37 | =shak. son xc.4=                |
+| **malformed: duplicated token**  |    23 | =shak. ven ven=  (same bug as Schmidt) |
+| **malformed: no locator**       |    19 | =shak. luc=                     |
+| Gower/prologue/chorus special  |    14 | =shak. per 3.Gower.36=, =shak. per 3.prologue= |
+| **malformed: missing act (leading dot)** | 5 | =shak. shr .2.117= |
+| **malformed: double-dot / blank play code** | 6 | =shak. rom 2.Chor..2=, =shak.  ..1674=, =shak.  4.7.80= |
+
+**True malformed: ~52 / 2,996 (1.7%)** — small in absolute terms but
+5x Schmidt's malformation rate.
+
+The other 30,296 (91%) =<bibl>= have no =@n= at all:
+
+| Bucket                    |  Count | Example                    |
+|-----------------------------+--------+------------------------------|
+| has digit (locator-bearing) | 29,391 | =Ham. II. i. 58=, =LLL. V. ii. 17= |
+| no digit, short              |    905 | =iii.=, =Wint. IV. iii.= (elliptical continuation refs — omit the play when it repeats the previous entry's) |
+
+Format for the 29,391: =<PlayAbbr>. <Act roman>. <scene roman>.
+<line arabic>=, title-cased abbreviation, periods after each
+segment. This is the dominant Onions format by a wide margin — a
+resolver for Onions is mostly a free-text parser, with the 2,996
+=@n= entries as a bonus, not the primary path.
+
+* Dyce --- no =@n= at all; free text only (14,388)
+
+| Bucket                    |  Count | Example                                          |
+|-----------------------------+--------+----------------------------------------------------|
+| has digit (locator-bearing)  | 12,032 | =THE TWO GENTLEMEN OF VERONA, i. 2. 53=            |
+| no digit, short (editor tag) |  2,159 | =MALONE=, =(STEEVENS)=, =(BLACKSTONE)=, =(MASON)= |
+| no digit, long (other biblio) |    197 | =Latham's ed. of Johnson's Dict.=, =Forby's Vocab. of East Anglia.= |
+
+Format for the 12,032: **full play title in ALL CAPS**, comma, lower
+roman act, lower roman scene, arabic line — the most verbose and
+most consistent of the three free-text conventions (no
+abbreviation-table needed, but title strings must be matched against
+full canonical titles, not a short-code lookup).
+
+The 2,159 "editor tag" bibls are not Shakespeare citations at all —
+they're attributions naming which 18th/19th-century editor
+(Steevens, Malone, Farmer, Warburton, Mason, Blackstone...)
+contributed the adjoining note. A resolver must recognize and skip
+these, not attempt to parse them as locators.
+
+* Abbott --- no =@n=; free text, and citations are the minority of =<bibl>= usage (5,205)
+
+Abbott's =<bibl>= is used for two structurally different things, and
+naive "has a digit" bucketing conflates them:
+
+1. **External bibliographic citations** (footnotes/front matter
+   citing other 19th-century scholarship): e.g. =MÄTZNER'S Englische
+   Grammatik (3 vols., Berlin, 1865)=, =William of Palerne (Early
+   English Text Society, 1867)=. These have digits (dates, volume
+   counts) but are never Shakespeare locators.
+2. **Genuine Shakespeare (and other Elizabethan-author) passage
+   citations**, e.g. =Macbeth, i. 4. 11.=, =Rich. III. iii. 3. 23=,
+   =J. C. iv. 3. 102=, poems cited by line only (=V. and A. 604=,
+   =R. of L. 404=, =Sonn. 146=). A meaningful minority cite
+   *non-Shakespeare* Elizabethan authors for comparison (=B. J.
+   Sejan. iii. 1.= — Ben Jonson's Sejanus; =SPEN. F.Q. i. 5. 42.= —
+   Spenser's Faerie Queene; Bible, Bacon, Montaigne, Pope) — these
+   need to be excluded from the Shakespeare map, not mis-resolved.
+3. A separate 154 =<bibl>= are the front-matter index of "fully
+   indexed" play titles with no locator at all (=<bibl>Hamlet</bibl>=)
+   — not citations, just a list.
+
+Because (1) and (2) are both "has a digit" and share no reliable
+syntactic marker (no @n, no consistent parenthesization — most of
+the =<cit><bibl>...</bibl></cit>= examples are bare, only 7 of 5,205
+happen to be parenthesized), separating them mechanically needs a
+**play/author abbreviation whitelist**, not a regex on shape alone.
+This is a materially harder parsing problem than Onions or Dyce, and
+should be budgeted accordingly for =phase1/citestructure-refworks=
+and =phase3/bibl-resolver=. Abbott was not fully sub-classified here
+— building an authoritative abbreviation whitelist is Phase 3 work
+(=phase3/play-abbr-map=), not this survey.
+
+* Implications for Phase 3 resolver design
+
+- Four different citation grammars, not one: Schmidt's =@n= scheme
+  is the easy case (also used by ~9% of Onions); the other three
+  free-text conventions all need dedicated parsers:
+  - Onions: =Abbr. RomanAct. RomanScene. ArabicLine.=
+  - Dyce: =FULL TITLE, roman.roman.arabic=
+  - Abbott: =Abbr, roman.roman.arabic= or =Abbr line= for poems,
+    *mixed in with non-Shakespeare citations requiring a
+    whitelist to exclude*.
+- A single play/poem-abbreviation → CTS-URN mapping table
+  (=phase3/play-abbr-map=) needs to cover at least three distinct
+  abbreviation vocabularies (Schmidt/Onions share one; Abbott and
+  Dyce each use their own), plus Dyce's full-title strings.
+- Malformation is real but small everywhere it was measured
+  (Schmidt 0.03%, Onions 1.7% of their =@n= entries) — not a
+  blocker, just needs a "give up gracefully, don't guess" fallback
+  in the resolver, consistent with [[file:agenda.org][agenda.org]]'s existing stance on
+  data errors.
+- Editor-attribution and non-locator bibls (Dyce's 2,159, Onions'
+  905 elliptical refs, Abbott's 154-entry play index) must be
+  recognized and *skipped*, not treated as failed parses.
+- Onions and Dyce did not validate against =perseus_lexical.rng=
+  when the CTS structure was added ([[file:agenda.org][agenda.org]],
+  =phase1/cts-structure-onions-dyce=, ~7,000 jing errors) — that
+  content-encoding repair is independent of this citation-parsing
+  work but will need to happen before or alongside
+  =phase1/citestructure-refworks=.

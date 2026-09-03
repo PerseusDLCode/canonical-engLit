@@ -1,0 +1,394 @@
+#+TITLE: Schmidt's Shakespeare-Lexicon: Record-Extraction Strategy
+#+DATE: 2026-09-01
+#+AUTHOR: Clifford Wulfman
+#+OPTIONS: toc:t num:nil
+
+* Status and purpose
+
+Decisions, not findings. This document records the strategy settled on
+in a Claude Chat session on 2026-09-01, following
+[[file:schmidt-lexicon-reencoding-findings.org][schmidt-lexicon-reencoding-findings.org]], and supersedes that report's
+framing of the problem. It is written for Claude Code as the primary
+reader: it states what was decided, what evidence the decisions rest
+on, and what constraints implementation must respect.
+
+The findings report asked whether to re-encode ~20,000 entries from
+scratch or to layer structure onto the existing flat corpus
+incrementally. The answer is *neither*. Two discoveries changed the
+question.
+
+* Discovery 1: the P4 source retains what the P5 derivative lost
+
+=Renaissance/Schmidt/copyright/schmidt.xml= (TEI P4, 21.8 MB) is
+cleaner than =data/schmidt/lexicon/schmidt.lexicon.perseus-eng1.xml=
+(TEI P5, 31.8 MB) in ways that matter structurally. One of the two
+differences below is migration damage; the other is a deliberate
+recent decision. They are separated here because conflating them
+misattributes a design choice as an error.
+
+** Entry identity already exists upstream
+
+The P4 source carries =<entryFree key="Abate" type="main">=:
+
+- *20,101 entries, 20,101 unique =@key= values, zero collisions.*
+- Homographs are already disambiguated by numeric suffix: =A1=--=A7=,
+  =Abject1=/=Abject2=, and -- for the case the findings report
+  identified as proof that homograph resolution is a real problem --
+  =Bate1= (subst.) and =Bate2= (vb.).
+- *1,922 headwords carry more than one entry*, covering 4,175 entries
+  (~21% of the corpus).
+
+The working P5 corpus has *zero* =@key= and *zero* =@xml:id=.
+
+Open questions #4 (how do cross-references resolve when the target has
+homographs) and #5 (what identity scheme do entries need) in the
+findings report are therefore not open. Perseus's editors solved
+identity and homograph disambiguation twenty-five years ago; the 2025
+corpus-wide P4→P5 migration dropped it silently. =Abate='s =(cf. Bate)=
+resolves to =Bate2=.
+
+Note for the wider audit: this loss produced no error and no warning.
+Assume other non-Shakespeare P5 derivatives from that migration carry
+comparable damage until each has been checked against its P4 ancestor.
+
+** Italics: a live decision, not a loss
+
+The P4 source has 19,525 =<emph>= spans. The P5 corpus has *exactly*
+19,525 =<mentioned>= elements.
+
+This one is deliberate and recent -- commit =Retag <emph> as
+<mentioned> in Schmidt; drop stray <ab> wrapper in revisionDesc=,
+2026-08-25. It is a decision to reopen, not an accident to repair, and
+it is Cliff's to make. (An earlier draft of this document grouped it
+with the =@key= loss as anonymous migration damage. That was wrong.)
+
+The argument for reopening it: italic in Schmidt is a presentational
+signal doing at least four jobs, and the retag commits all of them to
+one reading. ~45% of the spans are multiword and read as uncited
+quotations or glosses (=the heels a the ass,=; =continue still in this
+so good a mind,=) rather than as cited word-forms. 1,316 contain the
+headword-elision shorthand (=--d=, =a.=), which is otherwise a
+quotation marker. Italic also carries cross-references and foreign
+matter. =<mentioned>= looks right for perhaps half.
+
+The practical consequence for the pipeline is small, and is the reason
+this is not urgent: extraction reads the P4 =<emph>= spans directly, so
+the classification can be decided -- and revised -- as an extraction
+column rather than as a retag of the P5 file. Whatever is decided,
+record it as a =forum.org= entry with the reasoning, so the next reader
+finds a decision rather than an inference.
+
+** =<bibl @n>= in the source is not trustworthy
+
+The findings report flagged an apparent hand-encoding error in
+=abate.xml= (a Merchant URN on Shrew display text). It is inherited,
+not introduced. The source reads:
+
+#+BEGIN_SRC xml
+<bibl n="shak. mv 5.1.137">Shr. Ind. 1, 137.</bibl>
+#+END_SRC
+
+*The display text is authoritative; =@n= is not.* This is exactly why
+the completed citation-repair work (233,265 resolutions, derived from
+display text) is the most valuable artifact in the project and must be
+preserved as data rather than regenerated.
+
+* Discovery 2: the lexicon is a database, not a text
+
+The governing reframing. Schmidt's Lexicon is printed in two volumes,
+but it is not prose, drama, or verse: it is a set of ~20,000 records
+that happen to have been typeset. The "faithful encoding" instinct --
+preserve as much of the source's form as possible -- is the wrong
+instinct here. The goal is to translate printed form into structured
+records.
+
+The corpus measurements support this strongly:
+
+| Measure                                   | Value  |
+|-------------------------------------------+--------|
+| Median entry length (text, chars)          |    130 |
+| Entries under 200 chars                    | 12,652 |
+| Entries over 5,000 chars                   |    216 |
+| Long entries that are prose-heavy          |      4 |
+
+Only four entries (=John=, =News=, =Obey=, =Presently=) are long
+enough and citation-sparse enough to resist the record model. Even the
+largest entry (~38,000 chars) is citation-dense. There is no
+significant population of "essay" entries requiring a different
+treatment. What does need a home in the record schema is Schmidt's
+discursive residue -- asides like =used by none but Pistol= or =a
+solecism formed in derision by Coriolanus= -- but that is a
+field-design question, not an entry-genre question.
+
+* The corollary: punctuation is syntax, not content
+
+"We don't care about preserving the punctuation" is right in substance
+and dangerous as a slogan. Much of Schmidt's punctuation is
+*load-bearing as delimiter*. It must be parsed before it is discarded,
+and no normalization pass may strip it before the parser sees it.
+
+| Delimiter                | Function                          | Count / coverage                    |
+|--------------------------+-----------------------------------+-------------------------------------|
+| =:= (colon)              | separates =<def>= from citations  | holds in 11,012 of 12,992 entries with a =<cit>= (85%) |
+| ~==~                     | gloss operator ("means")          | 7,598 instances                     |
+| =( ... )=                | editorial aside / note            | e.g. =(used by none but Pistol)=, =(Ff /on/)=, =(cf. /Bate/)= |
+| italic (=<emph>=)        | quotation, cited form, x-ref      | 19,525 spans                        |
+| =--= + suffix            | headword elision (=--d captives=) | 19,652 tokens in 4,664 entries      |
+| initial + =.=            | headword abbreviation (=a. the fire=) | ~70,700 tokens in 11,407 entries |
+| =1)= =2)= / =a)= =b)=    | sense and sub-sense numbering     | 4,637 entries have =2)=; only 623 have =a)= |
+
+The print form is the syntax of a record language. Parse it, consume
+the delimiters, discard the tokens once they have done their work.
+
+* The pipeline
+
+Regenerate from the P4 source; do not continue mutating the P5
+derivative. The derivative is a lossy intermediate, and every further
+pass over it inherits the losses.
+
+The move that makes regeneration safe -- and that dissolves the
+"from scratch vs. incremental" dilemma -- is to extract the completed
+citation-repair results into a standoff table *before* touching
+anything else. The pipeline then becomes a pure, re-runnable function:
+
+#+BEGIN_EXAMPLE
+  schmidt.xml (P4, canonical, read-only)
+    + citations.tsv     233,265 resolutions, editorially earned
+    + gramgrp.tsv       ~25 abbreviation → pos/subc mappings
+    + suffixes.tsv      ~25 dash-elision inflectional forms
+    + xrefs.tsv         "cf. X" → @key, homographs resolved
+    + senses.tsv        one row per sense (see below)
+    ───────────────────────────────────────────────────────────
+    → generate (XSLT/XQuery) →  structured TEI P5
+#+END_EXAMPLE
+
+Consequences to hold onto:
+
+1. *Nothing is destroyed by re-running.* Improve the sense parser,
+   re-run, get a better corpus. The 233k citations stop being frozen
+   inside a mutated file and become a data layer we own.
+2. *The intermediate is the editorial artifact; the TEI is a
+   serialization of it.* This inverts the usual assumption that the
+   TEI file is what one curates. It is the right inversion here.
+3. *The generator must stay stupid.* If =generate.xsl= ever needs a
+   judgment call, that judgment belongs in an extraction column
+   instead. Keeping the generator dumb is the test of whether the data
+   has actually been extracted or the hard part merely deferred.
+
+** Ordering
+
+Identity first, cross-references last, because the latter depend on
+the former.
+
+1. =@key= → =@xml:id= restoration (positional join; both files have
+   20,101 entries in the same order)
+2. =<oRef>= conversion (dash-elision + letter-abbreviation)
+3. =<gramGrp>= extraction
+4. =<def>= / sense splitting
+5. Cross-reference resolution
+
+* Where this lives: =schmidt-lexicon-workshop=
+
+The extraction work gets its own repository. The generated TEI is
+delivered into =canonical-engLit=; nothing else about this pipeline
+belongs there.
+
+The reasoning is the MVP dataset framing applied consistently: a
+canonical repo is a *published dataset*, a thing others build on. A
+workshop is a thing that produces datasets. =senses.tsv= churning
+through fifteen review passes has no business in the history of a repo
+whose contract is "this is the corpus."
+
+The negative evidence is close to hand. =canonical-greekLit= still
+carries apparatus from its eXist days -- not because anyone decided it
+should, but because the workshop had nowhere else to live, so it
+fossilized in place. Today's archaeology on the P4→P5 migration was
+archaeology on exactly that kind of fossil: an undocumented transform
+that ate 20,101 =@key= values and left no record of itself. A separate,
+versioned repo turns the transform from a lost event into a
+re-runnable object.
+
+** The cost, and how it is paid
+
+Separating the workshop splits provenance: generated TEI would land in
+=canonical-engLit= with no in-repo record of what made it -- precisely
+the failure we are closing. Three mechanisms pay that cost. All three
+are requirements, not suggestions.
+
+*** 1. The generator stamps its output
+
+TEI has the slot natively. Every generated file carries:
+
+#+BEGIN_SRC xml
+<encodingDesc>
+  <appInfo>
+    <application ident="schmidt-extract" version="0.3.1"
+                 when="2026-09-14">
+      <label>Schmidt record-extraction pipeline</label>
+      <ptr target="https://github.com/PerseusDLCode/schmidt-lexicon-workshop"/>
+      <note>generated from 4f2a9c1; source schmidt.xml sha256 e3b0c44...</note>
+    </application>
+  </appInfo>
+</encodingDesc>
+#+END_SRC
+
+With the stamp, "where did this file come from" is answerable from the
+file itself, permanently. Without it, the separation is a tidier
+version of the same amnesia.
+
+*** 2. Generated output is marked and the mark is enforced
+
+A =DO NOT EDIT= note in the header is advisory. A =make verify= target
+that regenerates into a temp directory and diffs against the committed
+file is a proof. If someone hand-fixes an entry in =canonical-engLit=,
+the diff catches it and the fix is known to belong upstream in a TSV.
+
+This check is what keeps the inversion honest. Without it the TEI
+slowly reacquires authority and we are back where we started, with
+edits living in a 32 MB file and no way to re-derive them.
+
+*** 3. The input is pinned, not moved
+
+The P4 source is an edition artifact; it stays in
+=Renaissance/Schmidt/copyright/=. The workshop vendors it -- submodule,
+or pinned copy plus checksum -- and the checksum goes in the stamp.
+That lets a future maintainer distinguish output drift caused by a
+tooling change from drift caused by a source change.
+
+** Naming and scope
+
+The repo is =schmidt-lexicon-workshop=. The =-workshop= suffix names
+the *relationship* to =canonical-engLit= rather than the subject
+matter, which is the distinction that keeps the layout legible: it
+tells a maintainer what kind of thing they are in before they read a
+line of it.
+
+Resist generalizing now. Abbott, Onions, and Dyce are the same shape,
+but the extraction grammar is Schmidt's -- his colon, his ~==~, his
+elision conventions. Build for Schmidt specifically. If a second case
+proves the harness generalizes (the coverage-assertion machinery and
+the TSV→TEI generator plausibly do), promote *that part* to
+=corpus-tools= then, and =abbott-workshop= sits alongside. Designing
+for reuse before there are two cases produces an abstraction shaped
+like exactly one thing.
+
+The =schmidt-tools= branch of =corpus-tools= migrates into the
+workshop. Doing so is a useful forcing function for deciding what is
+Schmidt-specific and what is general.
+
+* The non-negotiable: provable losslessness
+
+Because the print form is being discarded, we lose the ability to
+eyeball an entry against the source. That check must be replaced by a
+mechanical one.
+
+*Coverage assertion:* for every entry, the concatenation of everything
+extracted into fields, plus everything explicitly classified as
+consumed-delimiter or declared-noise, must reconstitute the original
+entry string exactly.
+
+This is tokenizer discipline: the parser must account for every
+character of its input. It runs over all 20,101 entries in seconds, and
+it is the only mechanism that catches silent drops at scale. It is
+also precisely the failure that produced the P5 derivative -- something
+ate 20,101 =@key= values and nobody noticed for years, because nothing
+was checking that the output still contained the input.
+
+Every extraction pass ships with its coverage assertion. A pass that
+cannot state what it discarded is not finished.
+
+* Shape of the intermediate
+
+Flat TSV for the closed vocabularies (=gramgrp.tsv=, =suffixes.tsv=,
+=citations.tsv=, =xrefs.tsv=): greppable, diffable, editable as an org
+table.
+
+Entry records are nested, and TSV would fight that. Resolution: *one
+row per sense, with a path column.*
+
+#+BEGIN_EXAMPLE
+  key      path    pos    subc          def                                    note
+  Abate    1              transitive
+  Abate    1/a     verb   transitive    to beat down, to overthrow, to humble
+  Abate    1/b     verb   transitive    to weaken, to diminish
+  Abate    2       verb   intransitive  to decrease                            used by none but Pistol
+#+END_EXAMPLE
+
+Citations key on =(key, path, ordinal)=; quotations likewise, with
+=<oRef>= positions recorded as offsets or as a lightly-marked string.
+The nesting reconstitutes by sorting on =path=. The corpus stays
+sortable, greppable, and reviewable in Emacs, and =git diff= over a
+review pass shows exactly which senses changed -- none of which is
+possible when the same edit lives inside a 32 MB XML file.
+
+* Work split
+
+Grounded in the counts above, this is far smaller than "20,000 entries
+need hand encoding."
+
+** Deterministic (no review queue)
+- =@xml:id= restoration from =@key=
+- =<lb/>= removal (established as noise by the sense-boundary survey)
+- =<orth>= normalization (strip trailing comma)
+- =<oRef>= conversion: closed suffix inventory (=s= 8,113, =ed= 3,996,
+  =ing= 2,686, =d= 2,129, then =es/est/er/ies/n/st/eth= and a thin tail
+  ending around =edst=), plus initial-letter match for the
+  abbreviation form
+- ~==~ → =<note>=
+
+** Parse plus confidence-ranked review queue
+- Sense splitting: 4,670 entries, of which only *623* have the
+  two-level =1) a) b)= structure that =abate.xml= exemplifies
+- =<gramGrp>= extraction from a closed vocabulary: =subst.= (1,930),
+  =vb.= (1,762), =adj.= (612), =adv.= (199), =impf.=, =partic.=,
+  =absol.=, =prepos.=, =plur.=, =pron.=, =trans.=, =intr.=,
+  =interj.=, =conj.=, =compar.=, =fem.=, plus the prosodic
+  =monosyll./dissyll./trisyll.= set
+- =<def>= boundary via the colon rule (85% clean; ~1,980 entries with
+  a =<cit>= fail it and need review)
+- Cross-reference targets where the headword has homographs (1,922
+  headwords)
+
+** Editor required
+Whatever the parsers flag. Tooling should emit a confidence-ranked
+queue, *not* silently produce finished markup. A few thousand entries
+of human attention, not twenty thousand.
+
+* Corrections to the findings report
+
+- The section "Even a single hand-encoded entry isn't fully
+  self-consistent" describes a state of =abate.xml= that no longer
+  obtains: there is no stray =/=, no =Lr. I I=, and sense 2's
+  =<note>/<def>/<cit>= *are* inside =<sense n="2">=. It should not be
+  cited as evidence of per-entry fragility.
+- The =Shr. Ind. 1, 137= / =mv= URN mismatch is an inherited source
+  error, not a hand-encoding error (see above).
+
+* Open schema questions (not settled here)
+
+These are for Cliff, and are underdetermined enough to be worth
+Opus-level deliberation rather than implementation guesswork:
+
+1. =<cit>= child order. =abate.xml= puts =<ref>= before =<quote>= in
+   one case and after in others, and bare =<ref>= elements sit as
+   siblings of =<cit>= when a citation carries no quotation. If child
+   order is free, the ODD should say so; if not, normalize.
+2. =<oRef type="nohyph">=. The distinction is recoverable from whether
+   a word character follows, so =@type= is redundant -- harmless if
+   documented, but it should be a deliberate choice.
+3. Empty =<oRef>= with =@target= is a customization of TEI's
+   dictionaries module. It belongs in the ODD family already under
+   development, not in =tei_all=.
+4. Where Schmidt's discursive residue lands in the record schema.
+5. Homograph cross-reference policy: =(cf. X)= where X has two or more
+   candidate entries -- rule plus review queue, or review always?
+
+* Source materials
+
+- =Renaissance/Schmidt/copyright/schmidt.xml= -- P4 source, canonical
+  input, pinned by checksum from the workshop
+- =data/schmidt/lexicon/schmidt.lexicon.perseus-eng1.xml= -- P5
+  derivative, to be superseded by generated output
+- =data/schmidt/lexicon/abate.xml= -- hand-encoded target exemplar
+- [[file:schmidt-lexicon-reencoding-findings.org][schmidt-lexicon-reencoding-findings.org]] -- findings this supersedes
+- [[file:schmidt-sense-boundary-survey-report.org][schmidt-sense-boundary-survey-report.org]] -- sense-marker survey, still valid

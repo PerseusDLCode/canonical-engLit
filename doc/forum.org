@@ -1,0 +1,687 @@
+#+TITLE: canonical-engLit / MVP Forum
+#+SUBTITLE: Deliberative record — design, research, decisions
+#+STARTUP: overview logdrawer
+#+FILETAGS: :englit:mvp:
+
+Design and research deliberation for the Globe Shakespeare and
+commentary reference works sprint. Implementation detail (fix counts,
+file names, function-level walkthroughs) belongs in code or =doc/=
+reports, not here. Tasks belong in =agenda.org=, cross-linked by
+CUSTOM_ID.
+
+Participants: Cliff (project lead), Claude Chat (design/research),
+Claude Code (implementation). Charles Pletcher and Alison Babeu are
+external collaborators on specific decisions; see GitHub issues for
+those threads.
+
+* Discussions
+
+** Project scope and management
+:PROPERTIES:
+:CUSTOM_ID: process/project-setup
+:ASSIGNEES: Cliff
+:SOURCE: chat/2026-08-17
+:DISPOSITION: adopt
+:END:
+
+Scope of this sprint: get the Globe Shakespeare editions (44 plays and
+poems) and the four NVS reference works (Abbott, Schmidt, Onions, Dyce)
+readable in the MVP dev server, and establish the citation
+infrastructure (Globe↔FTLN mapping, =<bibl>= resolution) that links
+commentary citations to primary text passages.
+
+The work spans three repositories:
+- =canonical-engLit= — encoding (primary)
+- =corpus-tools= — mapping and resolution tools
+- =MinimumViablePerseus= — pipeline target
+
+Deliberation lives here. Task tracking in =agenda.org=. For tasks
+requiring Charles Pletcher or Alison Babeu, GitHub issues are filed
+against the "Globe Shakespeare and Commentary Reference Works in MVP"
+milestone in =canonical-engLit=.
+
+*** Decision
+[2026-08-17] Forum and agenda in =canonical-engLit/doc/=, following the
+NVS Hypervariorum protocol. GitHub milestone for external-facing tasks.
+No GitHub Projects boards or labels taxonomy — milestone + issues is
+the right granularity.
+
+** Shakespeare source edition
+:PROPERTIES:
+:CUSTOM_ID: encoding/shakespeare-source-edition
+:ASSIGNEES: Cliff, Claude Chat
+:SOURCE: chat/2026-08-11
+:DISPOSITION: adopt
+:END:
+
+Which Shakespeare edition to use as the primary text in Perseus MVP,
+given that: the existing Perseus Globe encoding lacks =citeStructure=
+and has quality issues; the Folger/DraCor edition (CC BY-NC 3.0) has
+superior engineering (FTLN + act.scene.line, TEI Simple); and the
+reference works (Abbott, Schmidt, Onions, Dyce) all cite by Globe
+act.scene.line.
+
+Research summary in [[file:shakespeare-editions-comparison.org][shakespeare-editions-comparison.org]] and
+[[file:citing-shakespeare.org][citing-shakespeare.org]].
+
+Key findings:
+- Greg's position (from group meeting): the canonical text for
+  Shakespeare is the First Folio; Globe is a derived edition. Perseus
+  should support multiple editions as it does for classical texts.
+- CC BY-NC 3.0 on the Folger edition is acceptable: Perseus's focus
+  is non-commercial scholarship; the F1 edition can be swapped out
+  later without affecting the citation graph research.
+- The DraCor ShakeDraCor repo (cloned locally) provides TEI with both
+  FTLN (in =xml:id="ftln-NNNN"=) and act.scene.line (in =@n="1.1.27"=)
+  on every line element — the mapping is directly extractable.
+- Martin Mueller's tokenized Folger texts
+  (=martinmueller39/FolgerShakespeareTokenized=) add word-level
+  linguistic annotation for future NLP work.
+
+*** Decision
+[2026-08-11] DraCor/Folger as primary edition for MVP; Globe encoding
+retained as a second edition. The CorpusMap (=corpus-tools=) provides
+bidirectional Globe↔FTLN translation. Reference work citations
+(Schmidt, Abbott, etc.) resolve through Globe act.scene.line, then
+translate to FTLN for linking to the Folger text.
+
+** =<lb>= elements and Globe line numbering
+:PROPERTIES:
+:CUSTOM_ID: encoding/lb-and-line-numbering
+:ASSIGNEES: Cliff, Claude Chat, Claude Code
+:SOURCE: chat/2026-08-12
+:DISPOSITION: adopt
+:END:
+
+The existing Globe encoding had three classes of problems with line
+milestones: (1) all =<lb/>= placed at end of lines rather than
+beginning per TEI P5; (2) F1 TLN milestones (=<lb ed="F1" n="..."/>= )
+embedded in the Globe text — a conceptual muddle; (3) Globe =<lb ed="G">= elements mostly unnumbered, with the =cRefPattern= working by
+positional counting. Full analysis in [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]].
+
+Research established:
+- Numbered =<lb ed="G" @n>= are primarily a *prose* device; in verse,
+  =<l>= is the natural citation unit and unnumbered =<lb ed="G"/>= are
+  redundant.
+- Globe numbers should be transferred to =@n= on =<l>= elements,
+  then interpolated between anchors per scene.
+- =@part="N"= on =<l>= and =<p>= is an lxml DTD-materialization
+  artifact; strip it (keep only I, M, F, Y).
+- F1 =<lb>= elements removed: TLN data now comes from DraCor via
+  the CorpusMap, not from milestones embedded in the Globe text.
+- 7 Priority-1 anchor errors (backward-running Globe numbers within
+  scenes) identified; need correction against a printed Globe edition.
+  See [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]] §Priority 1.
+- 9 plays have no Globe number anchors at all (1h4, 1h6, 2h4, 2h6,
+  3h6, ant, aww, per, tro): line numbers there are interpolated counts,
+  not verified against print.
+
+*** Decision
+[2026-08-12] Strip F1 =<lb>=; strip unnumbered =<lb ed="G">= from
+verse; transfer =@n= from numbered =<lb ed="G">= to enclosing =<l>=;
+interpolate remaining verse line numbers per scene. Prose: retain
+=<lb ed="G" @n>= in correct TEI position (beginning of line). All
+implemented in =corpus-tools= and =src/mvp/= XSLTs; see =agenda.org=
+for DONE items. Priority-1 errors and ungrounded plays are flagged for
+manual review, not yet corrected.
+
+** Citation encoding: =<bibl>= vs =<ref>=
+:PROPERTIES:
+:CUSTOM_ID: citations/bibl-encoding
+:ASSIGNEES: Cliff, Claude Chat
+:SOURCE: chat/2026-08-14
+:DISPOSITION: adopt
+:END:
+
+The reference works encode Shakespeare citations as =<bibl n="shak. lr
+2.4.261">= — a structured but machine-opaque format. Question: should
+the encoding be revised to use =<ref @target>= with a CTS URN?
+
+TEI semantics distinguish =<bibl>= (bibliographic reference — a work
+as source) from =<ref>= (cross-reference — a specific location in
+another text). Shakespeare citations in commentary are evidence
+pointers (here is an instance of this usage), which is =<ref>=
+territory. The =@n= attribute was always a workaround for the absence
+of machine-readable URIs.
+
+The =@cRef= attribute requires a =<refsDecl>= in the TEI header; since
+CTS URNs are proper URIs, =@target= is correct — no header declaration
+needed.
+
+Pattern for bare citation (Schmidt):
+#+begin_example
+<ref target="urn:cts:engLit:shakespeare.lr.globe:2.4.261">Lr. II, 4, 261</ref>
+#+end_example
+
+Pattern for quoted citation with attribution (Onions):
+#+begin_example
+<cit>
+  <quote>his abject object,</quote>
+  <bibl><ref target="urn:cts:engLit:shakespeare.h8.globe:1.1.127">H8 I. i. 127</ref></bibl>
+</cit>
+#+end_example
+
+=<bibl><ref target>= preferred over =<bibl target>= for consistency
+across patterns, at the cost of some terseness.
+
+*** Decision
+[2026-08-14] Replace =<bibl @n>= with =<bibl><ref @target>= (for
+attributed citations) and bare =<ref @target>= (for inline citations
+in running text). =@target= carries a CTS URN using the citation
+family convention below. Retain =<bibl @n>= in source files until the
+resolver is written and URN naming is settled (Phase 0a).
+
+**** UPDATE <2026-08-25 Tue>
+The CTS URN format has been determined; the wrapping <bibl @n>
+elements may now be removed.
+
+
+
+** CTS URNs, citation families, and the work/edition problem
+:PROPERTIES:
+:CUSTOM_ID: citations/cts-urns-and-citation-families
+:ASSIGNEES: Cliff, Claude Chat
+:SOURCE: chat/2026-08-14
+:DISPOSITION: adopt (pragmatic stance); open (theoretical)
+:END:
+
+The fundamental problem: CTS's work/version distinction presupposes a
+stable, edition-independent textual identity to which a canonical
+citation scheme can be attached. For Shakespeare this breaks down in
+two ways: (1) there are two competing citation conventions (Globe
+act.scene.line, Hinman/Folger TLN) neither of which is universal;
+(2) for plays like Lear, Q1 and F1 are not witnesses to the same
+underlying work but genuinely different texts, so there is no
+work-level citation that is edition-independent.
+
+The CTS spec requires the scholarly community to establish a single
+canonical citation scheme for each work, but provides no mechanism for
+cases where the community has not done so, or where the decision is
+contested. The Homer Multitext handles multiple witnesses by treating
+each manuscript as a version URN — but this works only when all
+witnesses are variants of the same underlying text, not when (as with
+Q/F Lear) the texts represent separate authorial or theatrical states.
+
+*The concept of citation families:* what sits in the CTS version slot
+should be a *citation authority* — a named scholarly convention for
+how a work is divided and numbered — not an edition. Editions are
+witnesses to (or implementations of) a citation authority, not the
+authority itself. This distinction is not made in the current CTS spec.
+
+Two families for Shakespeare:
+- Globe (act.scene.line): `urn:cts:engLit:shakespeare.lr.globe:2.4.261`
+- First Folio / TLN: `urn:cts:engLit:shakespeare.lr.f1:1664`
+
+*File naming* (edition-level, separate from citation family):
+- =shakespeare.lr.folger-eng1.xml= — DraCor/Folger, FTLN-based
+- =shakespeare.lr.globe-eng1.xml= — Globe encoding, act.scene.line
+
+The CorpusMap in =corpus-tools= functions as a provisional registry,
+mapping between citation families. A formal registry (declaring
+citation schemes, their authorities, and conversion tables) is what
+the CTS architecture needs but does not have.
+
+This problem deserves a paper, which Cliff will write. The paper's
+argument: CTS's version slot encodes two logically distinct things —
+citation convention and editorial text — which should be separated.
+The "citation family" concept is what needs to sit in that slot.
+
+*** Decision
+[2026-08-14] Pragmatic stance for this project: use citation family
+identifiers (=globe=, =f1=) in URN passage references; use
+=folger-eng1=, =globe-eng1= as file-level edition identifiers.
+Document the distinction explicitly. Treat the CorpusMap as the
+provisional registry. Ratify naming with Alison Babeu and Greg Crane
+before committing URNs to encoded files. Paper deferred to later.
+
+**** Update
+Alison and Greg agree with this approach. We should implement it.
+
+** Globe↔FTLN mapping: approach and tool
+:PROPERTIES:
+:CUSTOM_ID: citations/globe-ftln-mapping
+:ASSIGNEES: Cliff, Claude Chat, Claude Code
+:SOURCE: chat/2026-08-14
+:DISPOSITION: adopt
+:END:
+
+Required for resolving Globe act.scene.line citations (Schmidt, Abbott,
+Onions, Dyce) to FTLN for linking to the DraCor/Folger text.
+
+The OS Shakespeare SQL database lacks the mapping data. The right
+source is the DraCor/Folger TEI XML, which encodes both systems on
+every line element: =xml:id="ftln-NNNN"= for FTLN and =@n="1.1.27"=
+for act.scene.line. Extraction is a five-line XPath.
+
+Implemented in =corpus-tools= as =generate-line-map=, producing a
+corpus-wide JSON file. The =CorpusMap= class provides bidirectional
+in-memory lookup. Bidirectionality: Globe→FTLN for resolving reference
+work citations; FTLN→Globe for displaying familiar citations in the UI.
+
+*** Decision
+[2026-08-14] Extract from DraCor XML; serialize as JSON; query via
+=CorpusMap= class in =corpus-tools=. Implemented and working.
+See =agenda.org= =corpus-tools/generate-line-map= (DONE).
+
+** citeStructure for early modern plays with non-act top-level divs, and a throughline citation scheme
+:PROPERTIES:
+:CUSTOM_ID: encoding/citestructure-induction-and-tln
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: session/2026-08-19
+:DISPOSITION: adopt
+:END:
+
+Converting ShakeDraCor plays (=import-shakedracor=, see =agenda.org=
+=phase1/import-shakedracor=) surfaced two gaps in the existing
+=drama-act-scene-line-cs= citeStructure template
+(=corpus-tools/xslt/add-citeStructure.xsl=):
+
+1. Several plays have real citable top-level divs outside the numbered
+   acts -- Induction (Shrew, 2H4), Prologue (H5, Troilus and
+   Cressida), Epilogue, and per-act Chorus (H5) -- that the template
+   couldn't cite into at all (only =div[@type='act']= was matched at
+   the outer level).
+2. The =f1= (ShakeDraCor/Folger) editions carry Folger Through-Line-Numbers
+   (=xml:id="ftln-NNNN"=) that deserve their own citation scheme, since
+   TLN is the eventual First-Folio-grounded target (see
+   =#citations/cts-urns-and-citation-families=), not just an internal
+   cross-reference.
+
+*** Decision
+[2026-08-19] Extend =drama-act-scene-line-cs= with flat (div → line)
+sibling branches for =induction=/=prologue=/=epilogue=/=chorus=,
+alongside the existing nested act → scene → line branch. Add a second,
+opt-in refsDecl (=xml:id="CTS-tln"=) citing every line by its
+ftln-derived integer, emitted only when the pipeline is called with
+=include-tln-refsdecl=true= (i.e. for =f1= editions specifically -- the
+Globe files carry no ftln ids and don't get this refsDecl). Implemented
+in =corpus-tools= (=add-citeStructure.xsl=, =pipeline.py=,
+=import_shakedracor.py=); test coverage in =tests/test_pipeline.py=.
+
+** citeStructure strategy for the four reference works
+:PROPERTIES:
+:CUSTOM_ID: encoding/citestructure-refworks-strategy
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: session/2026-08-22
+:DISPOSITION: open
+:END:
+
+=phase1/citestructure-refworks= (agenda.org) was scoped assuming
+Abbott/Schmidt/Onions/Dyce were roughly one problem with two shapes
+(section-numbered vs. alphabetical headword). The =<bibl>= survey (see
+=phase1/bibl-survey=, agenda.org; full data in
+=doc/bibl-survey-report.org=) complicates that: the four works don't
+just structure *themselves* differently, they encode their outbound
+Shakespeare citations in four different grammars, only one of which
+(Schmidt's =@n=) is machine-readable already. Onions is 91% free text,
+Dyce and Abbott 100%, and Abbott's free text is interleaved with
+citations to *other* authors (Jonson, Spenser, the Bible) with no
+reliable syntactic marker separating them from Shakespeare citations.
+
+Two coupled problems are in play: (a) citeStructure proper -- how a
+reader/=ReferenceParser= cites *into* each reference work (Abbott by
+§section/subsection/paragraph; Schmidt/Onions/Dyce by headword); (b)
+resolving the =<bibl>= citations *out* to Shakespeare CTS URNs
+(=phase3/bibl-resolver=, currently DEPENDS on this task). How tightly
+to couple (a) and (b) -- and how uniformly to treat the four works --
+is the open question. Four candidate strategies, not mutually
+exclusive:
+
+**** Strategy A -- bespoke, combined per-work XSLT
+One XSLT per work that adds citeStructure *and* tags that work's
+=<bibl>= citations as =<ref>= in the same pass.
+- Pros: one round-trip through the pipeline per work; whoever's
+  writing it stays in the context of that work's idiosyncrasies once,
+  not twice; natural per-work commit/review unit.
+- Cons: conflates two problems with different dependencies (citeStructure
+  only needs the corpus-tools pipeline; bibl-tagging additionally needs
+  the Abbott whitelist / =phase3/play-abbr-map=); front-loads the
+  hardest problem (Abbott) before the easier three can ship; if the
+  whitelist stalls, all four works stall together in MVP instead of
+  Schmidt/Onions/Dyce becoming readable independently.
+
+**** Strategy B -- two fully separate passes (citeStructure now, resolver later)
+Keep Phase 1 narrowly about navigation-citeStructure only; leave all
+=<bibl>= → =<ref>= tagging to a wholly separate Phase 3 pass, as
+agenda.org currently implies.
+- Pros: matches the existing DEPENDS graph; unblocks headword/section
+  display in MVP without waiting on the resolver; each phase has one
+  clear, checkable success criterion.
+- Cons: two edit/review cycles over the same files; if Phase 3 later
+  needs finer anchoring than Phase 1's citeStructure provides (e.g. an
+  =xml:id= per =<bibl>= to target with =<ref>=), some of Phase 1's work
+  may need revisiting rather than being purely additive.
+
+**** Strategy C -- shared citeStructure for the three lexica, Abbott separate
+Schmidt/Onions/Dyce share an identical =alpha → entryFree= structure
+(confirmed in the source, not just assumed) -- write one parameterized
+=lexicon-headword-cs= template for all three instead of three near-copies;
+Abbott's section/subsection/paragraph structure gets its own template.
+- Pros: DRY -- one fix in headword-citing logic fixes three works at
+  once; matches the existing corpus-tools pattern of shared structural
+  subclasses driving shared XSLT branches rather than per-corpus forks.
+- Cons: uniformity has only been confirmed at the entry level sampled
+  so far, not across the full ~280K entries combined -- multi-sense
+  entries, run-on headwords, or cross-reference-only entries could force
+  work-specific escape hatches anyway; doesn't reduce the independent
+  ~7,000-error RNG cleanup Onions/Dyce need before either validates
+  regardless of which XSLT strategy is chosen.
+
+**** Strategy D -- normalize free-text citations to =@n= up front, before writing any resolver
+Treat the free-text → =@n= conversion (Onions/Dyce/Abbott →
+Schmidt's =n="shak. <abbr> <act>.<scene>.<line>"= convention) as its
+own one-time editorial/data-repair pass, so Phase 3's resolver only
+ever has to understand one format, not four.
+- Pros: concentrates format-specific complexity into one reviewable,
+  testable normalization pass per work instead of smearing
+  format-detection across resolver code forever; produces cleaner
+  source data with a benefit beyond this resolver; fixes the
+  malformed-=@n= long tail (Schmidt's bare =shak. luc=, Onions'
+  duplicate-token/leading-dot bugs) once, at the source, instead of
+  special-casing it downstream indefinitely.
+- Cons: rewrites primary citation *content*, not just structural
+  scaffolding, at real scale (tens of thousands of free-text citations
+  across three works) -- materially higher risk of silently
+  misreading a citation than A/B/C, none of which touch citation text;
+  can't start on Abbott until the author/play whitelist already
+  exists, since you can't normalize a citation you can't first
+  identify as Shakespeare's; harder to review than new XSLT (diffing a
+  regenerated attribute against free text is less legible than
+  reviewing template logic).
+
+** Schmidt play-abbreviation table: verification against DraCor corpus
+:PROPERTIES:
+:CUSTOM_ID: citations/schmidt-play-abbr-table
+:ASSIGNEES: Claude Code
+:SOURCE: session/2026-08-24
+:DISPOSITION: adopt (histories); open (unregistered poems)
+:END:
+
+=src/mvp/schmidt_spec.md= requires verifying the 43-entry Schmidt
+play-abbreviation → CTS playid table against the actual DraCor corpus
+before implementing the =<bibl>= resolver, with particular attention to
+the histories (1h4, 2h4, 1h6, 2h6, 3h6) and the shorter poems (lc, pp,
+pht).
+
+*Histories:* verified against the 37 plays imported from ShakeDraCor
+(=phase1/import-shakedracor=). =data/shakespeare/{1h4,2h4,1h6,2h6,3h6}/=
+each contain a =shakespeare.{id}.f1.xml= whose =<idno type="CTS">= and
+=<title>= match the spec table exactly (e.g. =urn:cts:engLit:shakespeare.1h6.f1=
+/ "Henry VI, Part 1"), and whose =<bibl>= provenance note in the header
+confirms derivation "via ShakeDraCor (dracor.org/shake)". No id
+mismatches anywhere in the 37-play set the table draws from.
+
+*Shorter poems (lc, pp, pht):* not a mismatch, but not verifiable
+either -- DraCor/ShakeDraCor is a drama-only corpus (37 plays, no
+poems), so there is no DraCor playId for =lc=, =pp=, or =pht= to check
+the spec table's ids against. Confirmed these three exist locally only
+as un-migrated flat Globe files (=data/shakespeare/{lc,pp,pht}.xml=,
+pre-=phase1/import-shakedracor= layout) with no =__cts__.xml= and no
+CTS URN registered at any level (checked the shared
+=data/shakespeare/__cts__.xml=: no entry for any of the two). The same
+is true of =son=, =ven=, and =luc=, also present in the Schmidt table.
+All six are the non-dramatic works CLAUDE.md marks out of scope for the
+current sprint's own encoding work -- but Schmidt still *cites* them,
+so the resolver still needs identifiers for them even though nothing
+external confirms those identifiers yet. The ids in the spec table
+(=lc=, =pp=, =pht=, =son=, =ven=, =luc=) are self-consistent with the
+MLA-convention play-id scheme Alison confirmed for dramatic works
+(=phase0/cts-urns=) and with Schmidt's own abbreviations, so there's no
+reason to expect they're wrong -- they just rest on that convention
+and on Cliff/Alison's naming, not on an external corpus the way the 37
+DraCor-backed plays do.
+
+*** Decision
+[2026-08-24] Histories confirmed aligned with DraCor; no changes to
+the spec table needed for them. For the six non-dramatic-work ids
+(=lc, pp, pht, son, ven, luc=), proceed with the spec table as
+written -- consistent with the existing MLA-convention naming
+decision -- but flag them as unverified-against-DraCor-by-construction
+rather than confirmed, since DraCor has no corresponding entries to
+check against. Proceeding to implement =phase1/citestructure-refworks=
+(Schmidt) and the Task 2 resolver per =src/mvp/schmidt_spec.md=.
+
+** Merging orphaned citations into their <cit>
+:PROPERTIES:
+:CUSTOM_ID: citations/orphaned-cit-merge
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: session/2026-08-29 -- session/2026-09-01
+:DISPOSITION: adopt
+:END:
+
+An automatic-tagging artifact, distinct from the doubled-=<cit>=
+wrapper (=phase1= cleanup, already fixed) and the verbatim-duplicate-
+citation-run bug (already fixed): =<cit>= only ever captured the
+*first* citation following a =<quote>=, leaving every further citation
+for that same quote as a bare =<ref>= sibling. E.g. printed "an
+hundred, LLL IV, 2, 63. R2 IV, 16. H6B IV, 8, 59. ..." (10 citations)
+encoded as =<cit><quote>an hundred,</quote><ref>LLL IV, 2, 63</ref></cit>=
+followed by 9 orphaned bare =<ref>= elements. Corpus-wide: ~15,000
+=<cit>= elements have at least one trailing orphaned =<ref>=, ~71,000
+orphaned refs total (counts as of 2026-09-01, after the duplicate-run
+collapse already removed ~9,700 of the original ~78,700).
+
+Two problems surfaced while designing the fix, both resolved below.
+
+*Schema constraint:* =perseus_lexical.rng='s =<cit>= content model
+(=oneOrMore= of a closed element choice: =model.biblLike=,
+=model.egLike=, =model.entryPart=, =model.global=, =model.graphicLike=,
+=model.ptrLike=, =model.attributable=) is element-only -- no bare text
+allowed as a direct child, and =<mentioned>= is not among the allowed
+choices either (=<note>= is). A first merge attempt that simply moved
+=<cit>='s closing tag out to enclose the orphaned run left the original
+separator punctuation (=". "=, =", "=, etc.) and inline =<mentioned>=
+apparatus text as bare content directly inside =<cit>=, which jing
+correctly rejected (thousands of "text not allowed here" errors).
+Cliff has hit this =<cit>= content-model rigidity before; no clean way
+around it short of customizing the schema, which is out of scope here.
+
+*Scope discovery:* restricting the orphan-absorption boundary to stop
+at the next =<cit>=, the enclosing =</entryFree>=, *or* the next
+=<lb/>= (senses change there -- see the =<lb/>=-as-sense-boundary
+finding from the earlier citation-structure survey), the remaining
+"gap" content between orphaned refs sorts into three shapes: pure
+separator punctuation (a lone =.=, =;=, or =,=, ~57,700 instances,
+semantically empty once the refs are proper siblings); recognizable
+apparatus/cross-reference patterns (=(Qq. <mentioned>a hundred</mentioned>)=,
+=cf. <ref>...</ref>=, =q. v.=); and a genuine "other" residual (~11,700
+instances) that is prose introducing an entirely new sense/example via
+a bare =<mentioned>= with its own trailing citation list, never marked
+by =<cit>=/=<quote>= or =<lb/>= at all -- really the same unmarked-
+sense-boundary problem already deferred to future =<lb/>=-based
+=<sense>= reconstruction work, just surfacing here too. Forcing that
+prose into a =<note>= would misrepresent a whole new example as mere
+annotation.
+
+*** Decision
+[2026-09-01]
+- Merge only through gaps that are pure separator punctuation (dropped
+  -- see below) or a recognized apparatus/=cf.=/=q. v.= pattern
+  (wrapped in =<note>=, satisfying the schema and matching the earlier
+  =cf.=-wrapping decision). The moment a gap doesn't match either
+  shape, stop the merge there (partial merge -- absorb what's safe,
+  leave the rest still-orphaned) rather than guess; those residual
+  cases are left for the future sense-structure pass.
+- On dropping punctuation: Cliff raised, then answered, the concern
+  directly -- once refs move to be adjacent siblings inside =<cit>=,
+  an individual separator character's "this period separated ref A
+  from ref B" meaning is unrecoverable regardless of where the
+  character ends up (relocating all of them to just after the new
+  =</cit>= only produces a meaningless cluster of identical
+  characters, e.g. =</cit>. . . <cit>=). Not a faithful-print-encoding
+  concern at this stage of the project regardless (per Cliff: "we're
+  not trying to produce an entirely faithful encoding of Schmidt's
+  printed volumes at this point").
+- Refinement: keep the *final* separator -- the one immediately before
+  the absorption boundary (next =<cit>= or =</entryFree>=) -- since it
+  plays a different role (closing the whole sense, not separating two
+  citations) and reads more naturally as =</cit>. <cit>= than
+  =</cit><cit>=. Drop the internal ones (between individual orphaned
+  refs).
+
+** Sense-boundary reconstruction: reframing and open questions
+:PROPERTIES:
+:CUSTOM_ID: citations/sense-boundary-reconstruction
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: session/2026-09-01
+:DISPOSITION: needs-cliff-input
+:END:
+
+The previous section (and =doc/agenda.org= =phase1/orphaned-cit-merge=)
+repeatedly deferred a residual problem to "future =<lb/>=-based
+=<sense>= reconstruction work." On review, that phrase was a
+placeholder, not a plan -- no design document exists anywhere in the
+repo, and the "=<lb/>= marks a sense boundary" claim it rests on cites
+an "earlier citation-structure survey" that isn't retrievable. See
+=doc/schmidt-sense-boundary-survey-report.org= for the full
+investigation; summary here.
+
+*** Reframing
+=<lb/>= alone is weak: 76.6% of entries have zero =<lb/>=, and ~18% of
+the =<lb/>= that exist are ordinary print-line wraps, not sense
+boundaries. The strong, complete signal is Schmidt's own inline
+numbering convention (=1)=, =2)=, =a)=, =b)=, occasionally =I)=,
+=II)=), which fires even in zero-=<lb/>= entries. **Agreed with Cliff:
+the reconstruction should be reframed around that numbering convention
+as the primary signal, with =<lb/>= used only to corroborate a
+boundary a marker already implies** -- not "=<lb/>=-based."
+
+*** Schema
+No change needed. =<sense>= is already a legal direct child of
+=<entryFree>= in =perseus_lexical.rng= (via =model.entryPart=), and its
+content model already accepts =<cit>=, =<mentioned>=, bare =<ref>=,
+=<lb/>=, =<note>=, text, and nested =<sense>= (with =@level= for
+depth) -- everything currently sitting loose in these entries.
+
+*** Open questions (Cliff's call, not decided here)
+1. No-marker entries (76.6% of the corpus): leave flat, or wrap in one
+   implicit =<sense>= for structural uniformity?
+2. Do the =orphaned-cit-merge= task's ~5,758 residual gap shapes
+   (prose introducing a new sense/example with no =<cit>=/=<lb/>=/
+   marker of any kind) correlate with the no-marker buckets, as
+   expected? Should the eventual reconstruction resolve those refs into
+   their now-legal home directly inside a =<sense>= (bare =<ref>= is
+   schema-legal there), closing that loop, or is that a separate pass?
+3. Several headwords have more than one =<entryFree>= (e.g. two
+   separate =Lop,= entries for =subst.=/=vb.=, two separate =Whore,=
+   similarly) -- is grouping same-headword homographs under TEI's
+   =<hom>= in scope here, or later?
+4. 11 entries nest roman-numeral top-level groups with arabic numbering
+   that *restarts* under each (=Call,=, =Set,=, ...), sometimes with a
+   further letter-qualified restart beneath that (=Set,= reaches this).
+   What does =@level= track across that nesting, and how is an arabic
+   restart under a fresh roman group disambiguated from a continuation
+   of the previous group's numbering?
+
+Not answered here, same as this section's own schema/scope questions
+were settled before =#citations/orphaned-cit-merge='s implementation
+began.
+** Non-dramatic works are in scope; Venus and Adonis / Lucrece citeStructure gaps found
+:PROPERTIES:
+:CUSTOM_ID: citations/poem-citestructure-gaps
+:ASSIGNEES: Cliff
+:SOURCE: session/2026-09-02
+:DISPOSITION: needs-cliff-input
+:END:
+
+*** Scope correction
+Cliff: the =CLAUDE.md= Gotchas entry reading "Non-dramatic works ...
+are out of scope for the current MVP sprint" is incorrect and does not
+reflect project scope -- it contradicts this forum's own
+=#process/project-setup= entry ("the Globe Shakespeare editions (44
+plays *and poems*)"). All works, including the poems and =son.xml=,
+are in scope. =CLAUDE.md= has not been edited yet pending Cliff's
+confirmation of the replacement wording (see end of this entry).
+
+*** Finding
+While reviewing =schmidt-lexicon-workshop='s pass-1 =citations.tsv=
+output (=phase1/schmidt-extract-identity=; the workshop is a separate
+repo, https://github.com/PerseusDLCode/schmidt-lexicon-workshop, that
+extracts Schmidt's already-resolved citations out of the P5 lexicon
+rather than re-resolving them), a large "unexplained" bucket of
+per-entry citation-count mismatches turned out not to be random noise:
+81% of the 1,370 unexplained mismatches (1,115) mention a poem siglum
+in their citation text, wildly disproportionate to poems' ~8% share of
+all Schmidt citations.
+
+Per-work resolution rate (Schmidt =<bibl>= citations in the P4 source
+vs. already-resolved =<ref target>= in the P5 lexicon):
+
+| Work                    | P4 citations | P5 resolved | Rate  |
+|-------------------------+--------------+-------------+-------|
+| Venus and Adonis (=ven=) |         4960 |        4079 | 82.2% |
+| Lucrece (=luc=)          |         5682 |        4779 | 84.1% |
+| All other works (avg)    |       222695 |      210429 | 94.5% |
+
+Sonnets (99.1%), Lover's Complaint (97.2%), Passionate Pilgrim (93.5%),
+and The Phoenix and Turtle (97.1%) all resolve at or above the drama
+average -- this is not "poems as a class," it is specifically Venus
+and Adonis and Lucrece. Both have real, distinct, previously-unnoticed
+encoding gaps:
+
+- =data/shakespeare/ven.xml=: declares
+  =<citeStructure unit="line" match=".//l[@n]" use="@n"/>=, but *zero*
+  of its 1,196 =<l>= elements carry an =@n= attribute at all. The
+  citeStructure matches nothing. Whatever produced the 4,079 URNs
+  already resolved in the Schmidt P5 lexicon did not come from this
+  file's structure -- some other, unverified source was used, which
+  would also explain why the remaining 18% have no way to be checked
+  against real line boundaries and simply fail.
+
+- =data/shakespeare/luc.xml=: the opposite problem. It *does* carry
+  real global line numbers, but only on =<lb n="704">=-style
+  milestones -- the declared citeStructure instead nests
+  =unit="stanza"= (real, correct =<div type="stanza" n="107">=
+  numbering) then =unit="line" ... use="position()"=, i.e. line
+  position *within its stanza* (1-7, resetting every stanza), never
+  touching the =<lb n=...>= milestones that already carry the correct
+  global number.
+
+  Worked example, traced end to end: Schmidt's =Abomination,= entry
+  cites =Lucr. 704; Lucr. 921; Lucr. 921; Ant. III, 6, 94= (4 citations,
+  P4). Only 3 resolve in P5 (=luc:921= twice, =ant:3.6.94= once) --
+  =Lucr. 704= is entirely absent, not merely malformed. Line 704
+  demonstrably exists and is exactly right for this entry: stanza 101
+  runs lines 701-707 (265 stanzas x 7 lines = 1855 total, matching
+  exactly), and =<lb n="704"/>= -- which trails "Drunken Desire must
+  vomit his receipt," and precedes "Ere he can see his own
+  abomination." -- marks line 704 as "Ere he can see his own
+  abomination.", the line that actually contains the headword. The
+  citation is valid; it is unaddressable under the current
+  citeStructure.
+
+  *Correction [2026-09-02]:* this worked example originally paired line
+  704 with "Drunken Desire must vomit his receipt," and 705 with "Ere
+  he can see his own abomination." -- backwards. Per this file's own
+  stated rule that =<lb>= marks the *beginning* of the line it labels
+  (not the line it trails), =<lb n="704"/>= labels the line that
+  follows it, not the one it's nested in. Confirmed independently by
+  stanza arithmetic (101 x 7 - 7 + 1 = 701 through 707) and by content
+  (only "Ere he can see his own abomination." contains the headword
+  being cited). Found while implementing =phase1/poems-up-to-speed=;
+  =luc='s =citeStructure= fix in that task uses the corrected pairing.
+
+*** Not done here
+No files were modified investigating this -- =schmidt-lexicon-workshop=
+extracts citations from the existing P5 lexicon and does not touch
+=canonical-engLit= at all (confirmed clean =git status= throughout).
+Fixing =ven.xml=/=luc.xml= (adding real global =@n= to Venus and
+Adonis's =<l>= elements; rewiring Lucrece's citeStructure to address by
+its existing =<lb n>= milestones instead of stanza-position) is
+=canonical-engLit= encoding work, prerequisite to any future
+re-resolution of the ~1,780 currently-unresolved Ven./Lucr. citations
+in Schmidt. Re-resolving those citations once the structure is fixed
+is separate work again (=phase3/bibl-resolver= territory), not decided
+or started here.
+
+*** Open for Cliff
+1. Confirm/word the =CLAUDE.md= scope correction above.  (<2026-09-03 Thu 09:02> confirmed.)
+2. Should =ven.xml= / =luc.xml= structural fixes become their own
+   =agenda.org= task now, or wait until the rest of the non-dramatic
+   corpus is reviewed for similar gaps (=son.xml=, =lc.xml=, =pp.xml=,
+   =pht.xml= were not audited here -- only the two poems the resolution
+   -rate anomaly pointed at)?
+
+   - <2026-09-03 Thu 09:03> answer :: I modified the agenda item for
+     Venus and Adonis and Lucrece to include all the poems ([[file:agenda.org::*Bring the poems up to speed][Bring the
+     poems up to speed]]); Claude Code has completed the task.
