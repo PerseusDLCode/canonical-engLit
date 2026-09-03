@@ -570,14 +570,22 @@ Scope, confirmed with Cliff before implementation:
   per-stanza restart no longer agrees with continuous numbering in
   =lc=/=pht=). =luc= now uses a flat =unit="line" use="@n"= (matching
   how Schmidt cites it, by bare line number) instead of the old
-  stanza-relative =position()=. =ven= now uses a working
-  =stanza→line(position())= nesting instead of the old =unit="line"
-  match=".//l[@n]"= that matched zero nodes -- but since no checklist
-  item restored real global =@n= on =ven='s lines, this closes the
-  "matches nothing" defect without fully restoring Schmidt-style
-  bare-line-number addressability for =ven=; that would need a future
-  task analogous to what recovered =luc='s numbers from its =<lb>=
-  milestones.
+  stanza-relative =position()=.
+
+  *Update [2026-09-03]:* =ven= was initially left with a
+  =stanza→line(position())= nesting rather than real global =@n=,
+  flagged at the time as not fully matching Schmidt's citation
+  convention for that poem. Claude Chat caught the bug: Schmidt cites
+  =ven= (and, it turned out, =pp=) by continuous global line number too,
+  the same as =luc=. Fixed: both now carry continuous global =@n= on
+  every body =<l>= (=ven=: 1,194, front-matter epigraph excluded; =pp=:
+  430, continuous across both sequences rather than restarting per
+  poem) and a flat =unit="line" use="@n"= citeStructure, matching
+  =luc='s pattern. The stanza (=ven=) and sequence/poem (=pp=) divisions
+  stay in the markup as display structure, out of the citation path.
+  =src/fix-ven-lines.xsl= / =src/fix-pp-lines.xsl= applied on top of the
+  already-committed files; re-validated clean against
+  =perseus_verse.rng=.
 - The Phoenix and the Turtle's line numbering runs as one continuous
   sequence across the main poem and the Threnos (matching its existing
   continuous stanza numbering, 1-18, not restarting).

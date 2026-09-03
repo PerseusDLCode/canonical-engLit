@@ -675,9 +675,13 @@ is separate work again (=phase3/bibl-resolver= territory), not decided
 or started here.
 
 *** Open for Cliff
-1. Confirm/word the =CLAUDE.md= scope correction above.
+1. Confirm/word the =CLAUDE.md= scope correction above.  (<2026-09-03 Thu 09:02> confirmed.)
 2. Should =ven.xml= / =luc.xml= structural fixes become their own
    =agenda.org= task now, or wait until the rest of the non-dramatic
    corpus is reviewed for similar gaps (=son.xml=, =lc.xml=, =pp.xml=,
    =pht.xml= were not audited here -- only the two poems the resolution
    -rate anomaly pointed at)?
+
+   - <2026-09-03 Thu 09:03> answer :: I modified the agenda item for
+     Venus and Adonis and Lucrece to include all the poems ([[file:agenda.org::*Bring the poems up to speed][Bring the
+     poems up to speed]]); Claude Code has completed the task.
