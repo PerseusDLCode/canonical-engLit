@@ -712,6 +712,35 @@ should be flagged for manual review, not silently dropped.
 
 * Completed work
 
+* DONE Strip @default="false" and @status="draft" schema-default artifacts
+:PROPERTIES:
+:CUSTOM_ID: done/strip-lxml-defaults
+:END:
+Found while auditing the six poems for leftover lxml noise
+(=phase1/poems-up-to-speed=): =@default="false"= on =sourceDesc=/
+=biblStruct=/=langUsage= and =@status="draft"= on =biblStruct= are not
+poem-specific pollution -- they were present, identically, in all 80 of
+the corpus's 84 Globe/F1 files (including every already-integrated
+play). Checked against =perseus_drama.rng=/=perseus_verse.rng=: both
+are RelaxNG-declared defaults (=a:defaultValue="false"= and ="draft"=
+respectively) -- the same class of artifact as =@part="N"=, just from a
+different schema-default-materialization pass.
+
+=src/strip_lxml_defaults.py= — a literal text substitution (three
+fixed patterns: =sourceDesc default="false">=, =biblStruct
+default="false" status="draft">=, =langUsage default="false">=; each
+confirmed to occur exactly once per file before running) rather than an
+XSLT/lxml reserialization pass, deliberately: an XSLT identity-transform
+attempt at this first collapsed the imported F1 files' hand-formatted
+multi-line =citeStructure= attribute lists onto one line, an
+unrelated ~1000-line diff per file for what should be a three-line
+change (same failure mode =strip_bibl_wrapper.py= was written to avoid
+during the Schmidt work). Applied to all 80 Globe/F1 files (the 4 raw,
+not-yet-integrated =*.folger.xml= files were left untouched, per the
+standing decision to defer Folger integration). Re-validated clean
+against =perseus_drama.rng=/=perseus_verse.rng= (0 errors on all 80
+files); diffs confirmed minimal (3 lines changed per file).
+
 * DONE Strip @part="N" from l and p elements
 :PROPERTIES:
 :CUSTOM_ID: done/strip-part-n

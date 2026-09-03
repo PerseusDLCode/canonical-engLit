@@ -126,7 +126,13 @@ non-Shakespeare derivatives have comparable damage until audited.
 libxml2 generally) materializes default attribute values from the DTD
 during parsing and writes them to output, polluting the serialized
 files. This is the source of the `@part="N"` proliferation in the
-current files. Always parse without DTD loading.
+current files, and, from RelaxNG-declared defaults rather than a DTD
+this time, of `@default="false"` on `sourceDesc`/`biblStruct`/
+`langUsage` and `@status="draft"` on `biblStruct` (stripped corpus-wide,
+`done/strip-lxml-defaults` in `agenda.org`). Always parse without DTD
+loading, and treat any attribute value matching a schema's own
+documented `a:defaultValue` as a candidate instance of this same
+artifact class.
 
 **`data/shakespeare/tro.xml` and `data/shakespeare/per.xml`** are
 under-encoded: Troilus and Cressida has no `<lb>` markup at all;

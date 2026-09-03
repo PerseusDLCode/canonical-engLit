@@ -6,8 +6,8 @@
     <author>William Shakespeare</author>
     <editor>W. G. Clark</editor>
     <editor>W. Aldis Wright</editor>   </titleStmt>
-   <publicationStmt><p>later</p></publicationStmt> <sourceDesc default="false">
-    <biblStruct default="false" status="draft">
+   <publicationStmt><p>later</p></publicationStmt> <sourceDesc>
+    <biblStruct>
      <monogr>
       <author>William Shakespeare</author>
       <editor>W. G. Clark</editor>
@@ -27,7 +27,7 @@
   </encodingDesc>
 
   <profileDesc>
-   <langUsage default="false">
+   <langUsage>
     <tei:language xmlns:tei="http://www.tei-c.org/ns/1.0" ident="eng"> English </tei:language>
    </langUsage>
   </profileDesc>

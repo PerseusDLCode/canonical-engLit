@@ -14,8 +14,8 @@
             <authority>Perseus Project</authority>
             <idno type="CTS">urn:cts:engLit:shakespeare.tn.f1</idno>
          </publicationStmt>
-         <sourceDesc default="false">
-            <biblStruct default="false" status="draft">
+         <sourceDesc>
+            <biblStruct>
                <monogr>
                   <author>William Shakespeare</author>
                   <editor>Barbara A. Mowat</editor>
@@ -75,7 +75,7 @@
          <textClass>
             <catRef scheme="#perseus-genre" target="#drama-act-scene-line"/>
          </textClass>
-         <langUsage default="false">
+         <langUsage>
             <language ident="eng">English</language>
          </langUsage>
       </profileDesc>
