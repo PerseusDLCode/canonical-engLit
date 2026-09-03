@@ -1,0 +1,286 @@
+#+TITLE: Alignment Oracles: Recovering Edition-Bound Citation Systems with Reference Works
+#+SUBTITLE: A working method, arising from the Schmidt Lexicon re-encoding
+#+DATE: 2026-09-03
+#+AUTHOR: Clifford Wulfman
+#+OPTIONS: toc:t num:nil
+
+* Status
+
+Record of a working session, 2026-09-03, and a method proposal arising
+from it. Written with an eye to reporting under the Schmidt Sciences
+Humanities and AI Virtual Institute (HAVI), whose stated concern --
+that AI tooling "often prioritizes uniformity, often erasing the
+cultural, material, and perceptual differences that are essential to
+humanistic research" -- describes with some precision the failure this
+document diagnoses and the method it proposes as a remedy.
+
+Companion documents:
+- [[file:schmidt-record-extraction-strategy.org][schmidt-record-extraction-strategy.org]] -- the extraction pipeline
+- [[file:schmidt-lexicon-reencoding-findings.org][schmidt-lexicon-reencoding-findings.org]] -- initial findings
+- =forum.org= =#citations/poem-citestructure-gaps= -- the poem citeStructure defects
+- The NVS repository at =PerseusDLCode/nvs/= -- Furness citation cascade, globe↔TLN mapping
+
+* 1. The occasion
+
+We set out to clean up the TEI encoding of Schmidt's
+/Shakespeare-Lexicon/ (1874; 2nd ed. 1886) so that its citations could
+be resolved to CTS URNs in the Minimum Viable Perseus corpus. The
+Lexicon holds 20,101 entries and something over 230,000 citations into
+the Shakespearean text. It is, as we came to put it, *a database that
+happens to have been typeset*: ~20,000 highly regular records, not
+prose.
+
+What began as an encoding cleanup turned into a diagnosis of three
+nested failures, each one hidden beneath the last, and each invisible
+to ordinary validation.
+
+* 2. Three layers of failure
+
+** Layer 1: silent structural loss in migration
+
+The P4 source (=Renaissance/Schmidt/copyright/schmidt.xml=) carries
+=<entryFree key="Abate" type="main">= -- 20,101 entries, 20,101 unique
+keys, no collisions, with homographs already disambiguated
+(=Bate1=/=Bate2=, =A1=--=A7=; 1,922 headwords carry more than one
+entry). The P5 derivative on which a year of work had been built has
+*no* =@key= and no =@xml:id= whatsoever.
+
+The 2025 corpus-wide P4→P5 migration dropped a complete identity
+system. It threw no error. Nothing downstream noticed, because nothing
+downstream was checking that the output still contained the input. The
+loss was found only because both files happened to be open at once.
+
+** Layer 2: declarations addressing structures that no longer exist
+
+Perseus's TEI files declare their citation schemes in
+=<refsDecl>/<citeStructure>=. We found several that address element
+patterns which earlier, well-intentioned cleanup passes had dismantled:
+
+- =ven.xml= declared =<citeStructure unit="line" match=".//l[@n]"/>=
+  when not one of its 1,196 =<l>= elements carried =@n=. The
+  declaration matched nothing at all.
+- =luc.xml= carried correct global line numbers on =<lb n="704">=
+  milestones while declaring stanza-relative position, leaving those
+  numbers unaddressable.
+- =pp.xml=, after a repair pass, numbered lines restarting within each
+  of its twenty poems -- while Schmidt cites /The Passionate Pilgrim/
+  by continuous line number up to 430. Three-quarters of his 995
+  =Pilgr.= citations became unreachable.
+- Every play file still declares its line level as
+  =match=".//lb[@ed='G']" use="position()"=, though an earlier
+  =strip-lb= pass moved Globe numbers onto =<l @n>= and left =<lb>=
+  only in prose. /King Lear/ offers 65 addressable =<lb>= against 2,550
+  numbered lines.
+
+A declared citeStructure that matches zero or near-zero nodes is a
+defect class worth asserting against corpus-wide. It is the exact
+analogue, at the level of declaration, of the coverage failure at Layer
+1: a claim about structure that nothing verifies.
+
+** Layer 3: the line numbers themselves are synthetic
+
+This is the serious one.
+
+Schmidt cites /Lr./ II, 4, 161 for =abate=. In the printed Globe
+edition (verified against the Internet Archive's digitisation, p. 860)
+line 161 is *She hath abated me of half my train*. Schmidt is correct.
+
+In our P5 Globe file that line is numbered 162. In the Folger/DraCor
+edition it is =<l xml:id="ftln-1539" n="179">=. Three numbers for one
+line.
+
+The P4 encoding explains why. Greg's original markup reads:
+
+#+BEGIN_SRC xml
+<l>She hath abated me of half my train; <lb ed="G"/><lb n="1442" ed="F1"/></l>
+#+END_SRC
+
+The F1 through-line numbers were transcribed densely and carry =@n=.
+The Globe line *boundaries* were marked, but their *numbers* were not.
+Only the sparse printed decade markers survive as numbered =<lb ed="G"
+n="…">= -- and in /King Lear/ all 65 of those sit inside =<p>=
+elements. **In verse there are no anchors at all.** Every Globe line
+number in our corpus was produced by counting boundaries, with nothing
+to check the count against.
+
+The count is wrong, and wrong differently in each scene:
+
+| Location | Printed Globe | Perseus P5 | Offset |
+|----------+---------------+------------+--------|
+| I.1 "Meantime we shall express our darker purpose." | 37 | 38 | +1 |
+| I.1 "To shake all cares and business from our age;" | 40 | 41 | +1 |
+| I.1 "Since now we will divest us, both of rule," | 50 | 51 | +1 |
+| I.1 "As much as child e'er loved, or father found;" | 60 | 61 | +1 |
+| II.4 "With how depraved a quality--O Regan!" | 139 | 140 | −1 |
+| II.4 "Nature in you stands on the very verge" | 149 | 150 | −1 |
+| II.4 "[Rising] Never, Regan:" | 160 | 161 | +1 |
+
+In I.1 the drift enters before the verse begins -- most plausibly from
+counting the =Sennet. Enter KING LEAR…= stage direction, which the
+Globe does not number -- and then persists, unchecked, for 286 lines.
+In II.4 the offset is −1 and then flips to +1 at a *duplicated* number:
+two distinct lines both numbered 160, neither carrying =@part=. Across
+/King Lear/ there are 22 such collisions in 12 of its 26 scenes.
+
+Duplicate numbers break CTS addressing outright, independently of
+alignment: =lr.globe:2.4.160= is ambiguous today.
+
+* 3. The underlying problem: citations are edition-bound
+
+The three layers share a root. Each is a case of edition-specific
+material being flattened into an apparently uniform representation, and
+the flattening leaving no trace of itself.
+
+The clearest instance is textual rather than numerical. At Globe I.1
+line 150 the Globe reads *Of her confine*; the Folger text reads *Of
+his confine*. The same nominal location in two editions of equal
+standing carries different words. A citation resolved from one lineation
+onto the other can land on a line that does not contain the word being
+illustrated -- and will do so silently.
+
+This is the practical face of a theoretical problem already identified
+in the NVS work: **CTS URNs model a work as a single citable object,
+and cannot represent works with competing textual traditions of equal
+authority.** /Lr./ II, 4, 161 is not a coordinate in /King Lear/. It is
+a coordinate in one printing of one edition. Schmidt is an unusually
+good witness for the argument precisely because he is rigorous,
+exhaustive and 150 years old: 233,000 citations that are exact,
+verifiable, and unresolvable in the abstract.
+
+Schmidt's Lexicon is not a text about Shakespeare that happens to
+contain references. It is an index into a specific material artifact.
+Digitisation that discards which artifact has discarded the thing that
+makes the index work.
+
+* 4. The proposed method: reference works as alignment oracles
+
+Recovering the Globe lineation by transcription would mean reading
+page images for 37 plays. We propose instead to recover it from
+evidence we already hold.
+
+** The idea
+
+A reference work that cites densely into a text is a large collection
+of *independent word-location assertions*. Schmidt asserts that
+=abate= (in the form /abated/) occurs at /Lr./ II, 4, 161. That is a
+falsifiable claim about our text, testable without human judgement.
+
+Given a text whose lineation is uncertain by a small unknown offset,
+and a few hundred such assertions per scene, the offset can be
+recovered by fitting: for each (work, act, scene), find the integer δ
+maximising the proportion of citations whose headword occurs at line
+/n/+δ. The reference work becomes an *alignment oracle*.
+
+The dependency looks circular and is not. We are not using Schmidt to
+decide what the lines say; the text is fixed and known. We are using
+thousands of independent assertions to recover a single small integer
+per scene.
+
+** Why reference works make good oracles
+
+- *Density.* Schmidt yields 96,704 act/scene/line citations across the
+  plays. /Hamlet/ alone has 6,153; /King Lear/ 5,072 across 26 scenes,
+  median 136 citations per scene.
+- *Independence.* Each citation was made separately, by a scholar
+  consulting a page. Errors are uncorrelated; a systematic offset in our
+  data is not.
+- *Verifiability.* The claim is a string match, not an interpretation.
+  Schmidt's own headword-elision conventions (=--d=, =a.=) tell us
+  which inflected form to expect.
+- *Redundancy across witnesses.* Abbott's /Shakespearian Grammar/,
+  Onions's /Glossary/ and Dyce's /Glossary/ all cite Globe lineation
+  independently. Agreement across four nineteenth-century reference
+  works is strong evidence; disagreement localises a problem.
+
+** Self-diagnosis
+
+The method reports its own confidence, which is its chief virtue. A
+scene whose citations peak sharply at a single δ has a constant offset
+and is solved. A scene with no clear peak has an internal duplicate or
+gap rather than a uniform shift -- which is precisely the scene whose
+page image needs consulting. The fit thus reduces a 37-play
+transcription problem to a short list of flagged scenes.
+
+Known weak spots: /King Lear/'s smallest scene carries only 12
+citations, and short scenes will not fit reliably. Prose passages,
+where Globe numbers printed lines rather than verse lines, need
+separate handling.
+
+** Validation plan
+
+1. Check first whether the NVS globe↔TLN mapping tool already carries a
+   verified Globe lineation for /King Lear/. If it does, this is a
+   join, not a project. (This check is required by the NVS
+   collaboration protocol, added after an earlier episode in which days
+   were spent on an elaborate solution to a problem already solved in
+   the source.)
+2. Fit offsets for /King Lear/ from Schmidt alone.
+3. Verify against the Internet Archive page images already downloaded.
+4. Repeat with Abbott, Onions and Dyce; measure agreement.
+5. Only then generalise to the remaining plays.
+
+* 5. Relation to the NVS work
+
+The Hypervariorum NVS project has been resolving Furness's /King Lear/
+bibliography through a tiered cascade, reaching ~90% at Tiers 0--3. That
+cascade and this offset fit are *the same procedure at different
+scales*: both recover a mapping by accumulating independent assertions
+until one alignment dominates, and both treat residual ambiguity as a
+queue for human adjudication rather than a failure.
+
+Worth writing up as a method rather than twice as an implementation
+detail. The NVS globe↔TLN mapping tool is the natural place for the
+shared machinery to live.
+
+* 6. Why this belongs in a HAVI report
+
+HAVI's diagnosis is that AI tooling erases "the cultural, material, and
+perceptual differences that are essential to humanistic research." Our
+three layers are a documented, quantified instance: a unique identity
+system deleted without error, citation declarations severed from the
+structures they describe, and an entire edition's lineation replaced by
+a synthetic count that nobody could check.
+
+Three observations seem worth reporting.
+
+*First, the failure mode is silence.* None of the three layers produced
+an error, a warning or a validation failure. The corrective discipline
+we have adopted -- a *coverage assertion* requiring that every character
+of an entry be accounted for as extracted, consumed, or explicitly
+discarded -- is cheap, mechanical, and would have caught Layer 1 in
+seconds. It is tokenizer discipline applied to editorial work.
+
+*Second, the humanistic artifact supplies the ground truth.* Schmidt,
+Abbott, Onions and Dyce are not training data and not objects of
+analysis here. They function as *instruments*: an assembled body of
+verified assertions dense enough to recover information that machine
+vision applied to page images could produce only expensively and
+unreliably. This inverts the usual arrangement, in which the humanities
+supply material and computation supplies method.
+
+*Third, the honest scope of AI assistance.* Large models read printed
+pages well enough to be useful, but their failure mode on marginal
+line numbers is to produce a plausible number rather than an error --
+the wrong shape of mistake for an oracle. The productive division of
+labour puts the model where its errors are visible: proposing and
+testing hypotheses, writing and running the fitting code, surveying
+20,000 entries for regularity, and flagging the cases a person must
+adjudicate. Notably, two of the day's substantive corrections went the
+other way -- an assistant's inference from a three-line sample was
+wrong about the Folger =@n= values, and a scholar's knowledge of the
+printed page corrected it.
+
+* 7. Immediate next steps
+
+1. Check the NVS globe↔TLN tool before building anything.
+2. Extract Schmidt's /King Lear/ citations (5,072, across 26 scenes)
+   with headword and expected inflected form.
+3. Implement per-scene offset fitting; report peak sharpness alongside
+   each δ.
+4. Verify against the Lear page images.
+5. Decide Globe retention on the evidence: if offsets recover cleanly,
+   repair the Globe editions as the citation-bearing texts; if they do
+   not, retire them explicitly, with the reasoning recorded in the
+   work-level =__cts__.xml= and in =forum.org=.
+6. Add a corpus-wide Schematron assertion: every declared
+   =citeStructure= must match at least one node.
