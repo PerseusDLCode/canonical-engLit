@@ -685,3 +685,87 @@ or started here.
    - <2026-09-03 Thu 09:03> answer :: I modified the agenda item for
      Venus and Adonis and Lucrece to include all the poems ([[file:agenda.org::*Bring the poems up to speed][Bring the
      poems up to speed]]); Claude Code has completed the task.
+
+** Globe lineation is synthetic; reference works as alignment oracles
+:PROPERTIES:
+:CUSTOM_ID: citations/alignment-oracles
+:END:
+<2026-09-03 Thu>
+
+Working session tracing why Schmidt's citations resolve unevenly.
+Written up in full as [[file:alignment-oracles.org][alignment-oracles.org]]; this entry records the
+finding and the working arrangement. Draft under revision by Cliff on
+branch =alignment-oracles= (off =mvp=).
+
+*** The finding
+Three nested failures, each invisible to validation:
+
+1. The 2025 P4→P5 migration silently dropped Schmidt's complete
+   =@key= identity system (20,101 unique keys, homographs already
+   disambiguated). No error, unnoticed for a year.
+2. Several =citeStructure= declarations address element patterns that
+   later cleanup passes dismantled -- =ven.xml= matching nothing at
+   all; every play file still declaring =.//lb[@ed='G']= with
+   =position()= though =strip-lb= moved Globe numbers onto =<l @n>=
+   (/King Lear/: 65 addressable =<lb>= against 2,550 numbered lines).
+3. *The Globe line numbers themselves are synthetic.* Greg's P4 markup
+   transcribed F1 through-line numbers densely (=<lb n="1442"
+   ed="F1"/>=) but marked Globe line /boundaries/ without their
+   /numbers/ (=<lb ed="G"/>=). Only sparse printed decade markers
+   survive as numbered =<lb ed="G" n>=, and in Lear all 65 sit inside
+   =<p>= -- so *verse has no anchors at all*. Every Globe line number
+   in the corpus was produced by counting boundaries, unchecked.
+
+   Verified against the printed Globe (Internet Archive, p. 860 and
+   the Lear opening): I.1 runs +1 from before the verse begins and
+   holds that offset for 286 lines; II.4 runs −1 and flips to +1 at a
+   *duplicated* 160. 22 such collisions in 12 of Lear's 26 scenes.
+   Duplicates break CTS addressing outright regardless of alignment.
+
+Schmidt is right and we are wrong: printed Globe 161 is "She hath
+abated me of half my train," exactly as he cites it. The same line is
+162 in our Globe file and =n="179"= in the Folger/DraCor edition.
+
+*** The method
+Recover the lineation from evidence already held rather than by
+transcribing 37 plays. A reference work citing densely into a text is a
+large body of independent, falsifiable word-location assertions. For
+each (work, act, scene), fit the integer offset δ maximising the
+proportion of citations whose headword occurs at line /n/+δ.
+
+Schmidt yields 96,704 act/scene/line citations across the plays; Lear
+alone 5,072 across 26 scenes, median 136 per scene (min 12 -- short
+scenes will not fit reliably). Abbott, Onions and Dyce cite Globe
+lineation independently and serve as corroborating witnesses.
+
+The fit reports its own confidence: a sharp peak means a constant
+offset, solved; a mushy one means an internal duplicate or gap, and
+/that/ is the scene whose page image needs consulting. A 37-play
+transcription problem becomes a short list of flagged scenes.
+
+*** Before building anything
+Check whether the NVS globe↔TLN mapping tool already carries a verified
+Globe lineation for /King Lear/. If it does, this is a join, not a
+project. (Required by the NVS collaboration protocol.)
+
+*** Open threads
+1. Globe retention still undecided, now on better evidence: repair the
+   Globe editions as the citation-bearing texts if offsets recover
+   cleanly; retire them explicitly if they do not, with reasoning
+   recorded in the work-level =__cts__.xml= and here.
+2. Corpus-wide Schematron assertion: every declared =citeStructure=
+   must match at least one node.
+3. The Furness cascade (NVS) and this offset fit are the same
+   procedure at different scales -- worth writing up as a method
+   rather than twice as an implementation detail.
+4. Feeds the CTS-URN paper: =Lr.= II, 4, 161 is not a coordinate in
+   /King Lear/ but in one printing of one edition. Globe I.1.150 reads
+   "Of /her/ confine"; Folger reads "Of /his/ confine". A URN scheme
+   modelling the work as a single citable object has nowhere to put
+   that.
+5. *Bookmarked, not yet discussed:* the Alignment Oracle is a
+   conspicuously Derridean figure -- an oracle that predicts what
+   should already have been there; recovery of an origin that turns
+   out never to have been transcribed; textual instability as the
+   normal condition rather than the defect. Cliff flagged this
+   <2026-09-03 Thu> as a conversation to have properly.
