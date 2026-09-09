@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="act" n="1">
+            <lb/><head>ACT I</head>
+            <lb/>
+            <milestone unit="line" ed="F1" n="3"/>
+            <div type="scene" n="1">
+               <lb/><head>SCENE I</head> <stage type="setting">King Lear's palace.</stage>
+               <lb/>
+               <milestone unit="line" ed="F1" n="4"/>
+               <lb/><stage type="entrance">Enter KENT, GLOUCESTER, and EDMUND.</stage>
+               <lb/>
+               <milestone unit="line" ed="F1" n="5"/>
+               <sp who="lr-9">
+                  <milestone unit="line" ed="Globe"/><speaker>Kent.</speaker> <p><milestone unit="line" ed="F1" n="2"/> I thought the king had more affected 
+                  <milestone unit="line" ed="Globe"/>the <milestone unit="line" ed="F1" n="6"/>Duke of Albany than Cornwall.</p>      
+               </sp>
+               <sp who="lr-7">
+                  <milestone unit="line" ed="Globe"/><speaker>Glou.</speaker><p><milestone unit="line" ed="F1" n="7"/> It did always seem so to us: but now,
+                     <milestone unit="line" ed="Globe"/>in the division of the kingdom, it appears <milestone unit="line" ed="F1" n="9"/>not  <milestone unit="line" ed="F1" n="8"/> 
+                     <milestone unit="line" ed="Globe"/>which of the dukes he values <milestone unit="line" ed="F1" n="10"/>most; for equalities 
+                     <milestone unit="line" ed="Globe"/>are so weighed, that curiosity in neither <milestone unit="line" ed="F1" n="11"/>can make 
+                     <milestone unit="line" ed="Globe"/>choice of either's moiety.</p>
+               </sp>
+               <sp who="lr-9">
+                  <milestone unit="line" ed="Globe"/><speaker>Kent.</speaker><p><milestone unit="line" ed="F1" n="12"/> Is not this your son, my lord?</p>
+               </sp>
+               <sp who="lr-7">
+                  <milestone unit="line" ed="Globe"/><speaker>Glou.</speaker><p><milestone unit="line" ed="F1" n="13"/> His breeding, sir, hath been at my 
+                  <milestone unit="line" ed="Globe"/>charge: I have <milestone unit="line" ed="F1" n="14"/>so often blushed to acknowledge 
+                  <milestone unit="line" ed="Globe" n="11" source="Globe"/>him, that now I am <milestone unit="line" ed="F1" n="15"/>brazed to it. </p>
+               </sp>
+            </div>
+         </div>
+      </body>
+     
+  </text>
+</TEI>
