@@ -619,6 +619,203 @@ task's own scope but worth recording:
   swap the two lines in the example. Not fixed here since it's prose in
   another file, not code -- flagging for Cliff to correct or confirm.
 
+* TODO Re-derive King Lear P5 from the P4 source (pilot)
+:PROPERTIES:
+:CUSTOM_ID: phase1/rederive-lear-p5
+:ASSIGNEES: Claude Code
+:END:
+Read [[file:alignment-oracles.org][alignment-oracles.org]] first. Pilot for re-deriving the whole Globe
+Shakespeare; do King Lear only, and stop for review before generalising.
+
+*Why.* The current =data/shakespeare/lr/shakespeare.lr.globe.xml= is a
+strict subset of its P4 source plus a broken derived attribute, and
+cannot be repaired. Verified: the P4 (=Renaissance/Shakespeare/opensource/lr.xml=)
+holds 6,927 =<lb>= elements; the P5 retains 65. The migration discarded
+3,352 unnumbered =<lb ed="G"/>= Globe boundaries and all 3,301
+=<lb ed="F1">= through-line numbers, and dissolved 209 of the 274
+transcribed Globe anchors into an interpolated =@n= sequence that no
+longer records which numbers were evidence. The two files' body text is
+byte-identical apart from one entity, and =@part= counts match exactly
+(=I=221, =F=224, =Y=3) -- so the P5 contributes nothing the P4 lacks.
+Do not attempt to repair the P5; regenerate it.
+
+*Encoding model -- decided, do not vary without asking.*
+Globe lineation is heterogeneous: it numbers /verse/ lines in verse and
+/printed/ lines in prose. Conflating those is what broke the last
+migration (Greg emitted a boundary at each typographic break, so the
+shared verse line "Return you to my sister." / "Never, Regan:" -- Globe
+160, one line -- was counted twice, and the resulting off-by-one
+propagated). Therefore:
+
+- =<l>= is an Expression-level verse line. *It carries no =@n=.* Strip
+  the interpolated numbers; do not transfer numbers onto it.
+- =<lb/>= marks a genuine typographic break, where one is being
+  recorded at all.
+- =<milestone unit="line" ed="Globe" n="160"/>= carries the reference
+  system. TEI defines =<milestone>= as marking a boundary at which part
+  of a standard reference system changes, which is exactly the claim
+  being made -- and it is indifferent to whether the Globe was counting
+  verse or printed lines at that point.
+- Hinman/F1 through-line numbers become a parallel system:
+  =<milestone unit="line" ed="F1" n="1442"/>=. Preserve all 3,301.
+  These are *not* Folger FTLNs (see =forum.org= on the drifting offset)
+  -- do not rename, merge, or align them here.
+- =@ed= values are a closed list; declare it in the ODD so a stray
+  =ed="G"= fails validation rather than silently creating a second
+  reference system.
+
+*Provenance -- the point of the exercise.*
+Milestones whose =@n= was transcribed from the page carry =@source=
+pointing to a =<witness>= or =<bibl>= in the header identifying the copy
+(the Internet Archive Globe scan). Milestones whose =@n= was counted
+carry no =@source=. There are 274 transcribed Globe anchors in Lear;
+they fall at 11, 31, 41, 191, 219 and similar -- *not* a clean decade
+series, so derive them from the P4 markup, never by assuming a pattern.
+
+Losing the distinction between transcribed and counted numbers is the
+single most damaging thing the 2025 migration did. It must survive this
+one, in the markup, not in a convention.
+
+*Do not invent numbers you cannot justify.* Of the 250 intervals between
+consecutive anchors, 84 close exactly and 166 do not (excess of +1 in 87
+intervals, +2 in 36, +3 in 18, +4 in 12, and −1 in 10). Where an
+interval does not close, the boundary count disagrees with the page and
+we do not yet know which boundaries are spurious. Emit the milestone
+without =@n=, or with =@cert="low"=, and *report the interval*. Do not
+smooth, interpolate, or guess. Resolving these is the alignment-oracle
+task (=phase1/alignment-oracle-lear=, to be written), not this one.
+
+*citeStructure.* Declare act → scene → line, with the line level
+matching the Globe milestones and using =@n=. Verify with
+=perseus-cts/scripts/check_corpus.py=: the file must come back =ok=,
+with a leaf-depth count in the thousands, not the dozens. A leaf count
+near 65 means the declaration is addressing the old surviving =<lb>=
+elements and is wrong.
+
+*Also run check_corpus.py over the current Globe files first and keep
+the CSV.* That baseline is the measured record of what the lossy
+transform cost, and is wanted for the HAVI report. It is the record we
+keep -- not the files.
+
+*Deliverables:*
+1. Baseline =check_corpus.py= CSV over =data/shakespeare/= as it stands.
+2. Re-derived =shakespeare.lr.globe.xml=.
+3. A report of every non-closing anchor interval, with the boundaries it
+   contains, as input to the oracle task.
+4. =check_corpus.py= run on the new file, =ok=, counts stated.
+
+*Out of scope:* the other 36 plays; the poems; resolving non-closing
+intervals; anything touching FTLN alignment or the =corpus-tools=
+globe↔TLN utility.
+
+*Ask, do not decide:* whether =@cert= or a bare unnumbered milestone is
+the right marker for unresolved numbers; anything requiring a new
+ODD construct.
+
+*Progress:* both asked-for decisions resolved with Cliff before
+implementation. Unresolved anchors: bare unnumbered =<milestone>=, no
+=@n= and no =@cert= guess (needed so the line-level citeStructure leaf
+count lands in the thousands, not the ~274 a numbered-only match would
+give). =@ed= closure: **deferred**, not done here -- =att.edition/@ed=
+is declared once in =perseus-schemas='s =perseus_base.odd= and shared
+by every Perseus corpus; a survey before touching it found dozens of
+legitimate, distinct =@ed= sigils already in use outside Shakespeare
+(canonical-greekLit: Bekker, Spiro, Steph, Loeb, page-B, ...;
+canonical-latinLit: actscene, oct, org, Magnus, ...; First1KGreek: alt,
+org, v, r, ...). A corpus-wide closed list would have broken jing
+validation across three other corpora immediately, and
+=ODD-CHAINING-PROTOCOL.md= notes a prior per-child attribute-value
+override "never worked" in this toolchain -- so there's no proven safe
+scoping yet. Needs its own design; flagging as follow-up, not folded
+into this pilot.
+
+New =corpus-tools= command =rederive-globe-lineation=
+(=src/globe_lineation.py= + =src/globe_anchor_intervals.py= +
+=src/commands/rederive_globe_lineation.py=, 26 unit tests), built to
+generalize to the other 36 plays later. Re-derived
+=shakespeare.lr.globe.xml= from the P4 source: all 6,927 =<lb>= become
+=<milestone>= (3,626 Globe -- 274 numbered, 3,352 not -- + 3,301 F1,
+all numbered); the II.4 collision at Globe 160 no longer exists (the
+shared line "Return you to my sister." carries the one transcribed
+anchor; the unnumbered lines on either side carry none). =citeStructure=
+line leaf now matches =.//milestone[@ed='Globe']=; =check_corpus.py=
+confirms =ok=, leaf depth 3,626 (was 65). 0 jing errors against the
+rebuilt =perseus_drama.rng=; 0 Schematron findings. Full
+=data/shakespeare/= re-check unchanged from baseline (same 77 =ok= / 3
+pre-existing =config_error=), confirming no regressions from the schema
+change.
+
+*Correction after initial delivery:* the first pass placed milestones
+where P4's =<lb>= physically sat (trailing the content they number,
+Greg's own convention). Cliff caught this against the TEI =<lb>=
+reference doc (already this repo's own settled convention -- see
+=CLAUDE.md=, "marks the beginning of the line it labels, not the
+end"). Checking =perseus_cts= confirmed it wasn't just style:
+the resolver walks *forward* from a matched milestone to build its
+cited span, and canonical-greekLit's existing =card=-milestone
+citeStructures already place milestones leading the element they
+introduce -- trailing placement would have made every citation resolve
+one line off, silently. Fixed by a post-conversion repositioning pass
+that shifts each edition's =@n= back by one boundary-slot and
+physically relocates each relabeled marker to lead the =<l>=/=<p>= it
+describes (prose markers embedded mid-sentence are relabeled in place
+only, since they already sit at the right character offset). One new
+leading milestone was synthesized (F1's opening boundary, P4's
+=<lb n="2" ed="F1"/>= right after "ACT I", which otherwise had nowhere
+to shift into). A real bug in the first cut of this fix -- back-to-back
+Globe/F1 markers meant checking only a marker's own =.tail= misjudged
+several mid-paragraph boundaries as line-ends and moved them, which
+silently perturbed the interval-closure counts below -- was caught by
+re-deriving and diffing before vs. after, fixed
+(=_has_content_after=, with a regression test), and confirmed the
+counts are now stable under re-runs. Full account in
+[[file:lear-globe-anchor-intervals-report.org::*Milestone placement: start-forward, not trailing][the report's own section on this]].
+
+Two P4 encoding details not anticipated in this task's own write-up,
+handled and reported rather than silently dropped (coverage-assertion
+discipline, =alignment-oracles.org= §6): 12 instances of P4's
+=<reg orig="X">Y</reg>= hyphenation-regularization shorthand, and 2
+stray =<l @n>= in the P4 source itself (=Act 2.1=, =Act 3.7=) --
+stripped per the "=<l>= carries no =@n=" rule, logged rather than
+silently dropped.
+
+=<reg orig>= handling changed after initial delivery. First cut added
+=orig=/=reg= to =perseus_base.odd='s core include list and converted
+each instance to =<choice><orig>X</orig><reg>Y</reg></choice>=. Cliff
+judged the schema change unnecessary -- nothing is lost by just keeping
+the regularized reading. Reverted: =perseus-schemas= =274d300= ("adds
+orig and rec to allowable elements") reverted at =e6fd910=; the
+Schematron =legacy-reg= narrowing in =corpus-tools= reverted to its
+original unconditional form. =<reg orig="X">Y</reg>= now collapses
+straight to plain text =Y= (no wrapper, no schema dependency); see
+[[file:lear-globe-anchor-intervals-report.org::*No schema change needed for P4's <reg orig> shorthand][the report's own section on this]].
+
+Anchor-interval closure audit: 249 within-scene intervals (not the
+250 estimated in =alignment-oracles.org='s working session -- one
+scene, III.3, has zero transcribed anchors and contributes none; that
+document's estimate should be treated as superseded by this count), 84
+close exactly, 165 do not (excess +1×87, +2×36, +3×18, +4×12, +5×1,
++6×1, −1×10). Full report:
+[[file:lear-globe-anchor-intervals-report.org][lear-globe-anchor-intervals-report.org]],
+data in [[file:reports/lear-globe-anchor-intervals.csv][reports/lear-globe-anchor-intervals.csv]] -- input to
+=phase1/alignment-oracle-lear= (still to be written), not resolved
+here.
+
+Spot-checking against the actual =perseus_cts= resolver (not just its
+=citation_records()= sanity check, which is unaffected) surfaced two
+real gaps in fetching a single milestone-addressed passage's *text* --
+=elements_between()= only collects sibling elements, so a span whose
+content is plain tail text (the normal shape now) comes back empty,
+and =_milestone_chunks()= doesn't compose ancestor act/scene tokens
+into the URN. Neither is a Lear data defect; both are =perseus_cts=
+gaps relevant to =phase2/validate-one-play=. Recorded, not fixed here:
+=forum.org= =#citations/perseus-cts-milestone-resolve-gap=.
+
+Not yet committed in any of the three repos touched
+(=canonical-engLit=, =corpus-tools=, =perseus-schemas=) -- commit on
+request per the corpus-cleanup workflow. Stopping here for review
+before generalising to the other 36 plays, per this task's own scope.
+
 * Phase 2: MVP pipeline integration
 
 * DONE Register engLit in MVP config
@@ -781,6 +978,33 @@ verse-line data is recoverable, just not reconstructed here). Decision
 reconstruct it; ShakeDraCor is now the primary edition (see
 =phase1/import-shakedracor= above). Full detail in the corpus-tools
 session memory =englit-shakespeare-verse-encoding-gap=.
+
+*Superseded [2026-09-09]:* both halves of the 2026-08-18 decision above
+no longer hold. ShakeDraCor/Folger is *not* the primary edition -- it
+carries no Globe lineation (its =@n= is scene-relative Folger
+numbering) and differs textually from the Globe, so it cannot serve as
+a target for Schmidt's citations. The Globe editions are retained as
+the citation-bearing texts; see =forum.org=
+=#citations/globe-recap=.
+
+Nor is the Globe apparatus missing for these seven plays. The premise
+was that they have "only sparse 10-line Globe milestones" -- true of
+the *P5*, false of the P4. =Renaissance/Shakespeare/opensource/ant.xml=
+holds *3,570* =<lb ed="G"/>= boundaries with *273* of them numbered:
+essentially the same density as Lear (3,626 / 274). Nothing was
+missing; =strip-lb-tags.xsl= transfers =@n= to the *enclosing* =<l>=,
+these files have no =<l>=, so nothing transferred and the =<l>=-based
+tooling downstream reported "no anchors" when it meant "no anchors I
+can reach." A first-pass interval audit of the P4 Antony gives 236
+intervals, 53 closing exactly, 183 not (excess +1×61, +2×61, +3×21,
++4×26, larger×8, negative×3).
+
+The =<milestone unit="line" ed="Globe">= model adopted for the Lear
+re-derivation does not depend on =<l>= at all, so it applies to these
+seven plays unchanged. Verse-as-prose remains a real encoding defect in
+them, but it is separable: citation resolution needs to know where the
+Globe's line boundaries fall, not which lines are verse. Antony is the
+second pilot after Lear.
 
 * DONE Normalize schema PIs
 :PROPERTIES:

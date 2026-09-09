@@ -769,3 +769,254 @@ project. (Required by the NVS collaboration protocol.)
    out never to have been transcribed; textual instability as the
    normal condition rather than the defect. Cliff flagged this
    <2026-09-03 Thu> as a conversation to have properly.
+
+** Where we got to: recap of the Globe/Schmidt citation work
+:PROPERTIES:
+:CUSTOM_ID: citations/globe-recap
+:END:
+<2026-09-09 Wed>
+
+Several sessions of back-and-forth, with two false trails. This entry
+is the summary to start from; the detail is in
+[[file:alignment-oracles.org][alignment-oracles.org]] and the entries above.
+
+*** How we got here
+1. ~2003 -- Cliff encodes the Globe Shakespeare from double-keyboarded
+   data entry, TEI P4, putting the printed line numbers on the verse
+   lines as =<l n="10">=.
+2. Later -- Greg adds =<lb ed="F1"/>= milestones.
+3. 2024/25 -- Cliff migrates the Early English texts to P5, Globe and
+   Schmidt included, and on returning to the project moves the line
+   numbers from =<l>= onto =<lb ed="G">= for consistency.
+4. 2026 -- refurbishment for MVP begins; Schmidt citation resolution
+   raises the question of Globe vs through-line citation.
+5. We believed the Folger/DraCor edition carried both Globe and TLN
+   numbering, and prepared to retire our Globe.
+6. *It does not.* Folger =@n= is scene-relative Folger lineation, not
+   Globe. The editions also differ textually -- Globe I.1.150 reads "Of
+   /her/ confine", Folger "Of /his/ confine" -- so a citation resolved
+   across them can land on a line that lacks the word being
+   illustrated. Decision reversed: keep and repair our Globe.
+7. We foundered on line boundaries versus verse lines, and settled on
+   =<milestone unit="line" ed="Globe">= carrying the reference system,
+   with =@source= marking numbers transcribed from the page.
+8. Now: recover the Globe lineation using the reference works as
+   alignment oracles, so the Globe edition is an accurate target for
+   Schmidt.
+
+*** Decided
+- The Globe edition is *retained*, as the citation-bearing text.
+  DraCor/Folger is a reading text with no role in citation resolution.
+- =<l>= is an Expression-level verse line and carries *no* =@n=.
+- Globe reference points are =<milestone unit="line" ed="Globe">=;
+  =@source= points to the witness for transcribed numbers and is absent
+  for counted ones.
+- Structural lines -- =<head>=, =<stage>= -- get *no* Globe milestone.
+  The Globe numbers only spoken text: counting text lines from the top
+  of I.1 reaches exactly 11 at "him, that now I am brazed to it," which
+  is where the printed marginal 11 sits.
+- The alignment oracles are *Schmidt, Abbott, Onions and Dyce* -- not
+  AI. Their citations are independent word-location assertions; the
+  machine's role is to fit and to flag. Getting this backwards inverts
+  the claim we intend to report.
+- The P5 Globe files are superseded, not repaired: they are a strict
+  subset of the P4 (65 =<lb>= retained of 6,927) plus a broken derived
+  =@n=. Body text and =@part= counts are identical, so nothing is lost
+  by regenerating.
+
+*** Open
+- *Provenance of the unnumbered Globe boundaries.* Cliff's recollection
+  accounts for the 274 numbers (printed, keyed in 2003, later moved to
+  =<lb ed="G">=) but not for the 3,352 unnumbered =<lb ed="G"/>=
+  boundaries. Whether these are transcribed evidence or later inference
+  changes what the oracle must establish -- "which transcribed break did
+  the count miscount" versus "where are the breaks at all". Evidence so
+  far is mixed: in prose only 40% sit adjacent to an F1 boundary, so
+  they are not simply copies of the Folio breaks; but in the I.1 passage
+  checked against the printed page they follow the /Folio/ lineation
+  ("...seem so to us: but" | "now, in the division...") rather than the
+  Globe's ("...but now," | "in the division...").
+- Greg's =ed="F1"= numbers: recommend *keeping* them with a =@source=
+  recording that provenance is unknown. They are neither Bodleian Folio
+  text-line numbers (drift +3 to +103 across the play) nor Folger FTLNs
+  (drift −6 to +342). Deleting uninterpretable transcribed data is the
+  move that lost Schmidt's =@key= values.
+- ODD: declare the =@ed= value list and the milestone conventions, so
+  they fail validation rather than evaporating in the next transform.
+
+*** Not started
+The oracle fit itself. Everything to date is diagnosis.
+
+*** Two red herrings, recorded so we recognise the shape
+1. *Retiring the Globe in favour of DraCor* -- rested on an untested
+   assumption about what =@n= meant, drawn from the first three lines of
+   a file, where scene-relative numbering and TLN happen to coincide.
+2. *Characterising Greg's F1 numbering* -- a bounded question (do TLNs
+   count blank lines?) expanded into a full comparison against the
+   Bodleian First Folio. Interesting; not on the path. Schmidt cites
+   Globe.
+
+Both share a shape: a plausible inference from a small sample, pursued
+before it was checked. It is the same failure as the migration losses,
+at conversational rather than computational scale.
+
+** perseus_cts can't yet resolve a single milestone-addressed passage on the re-derived Lear file
+:PROPERTIES:
+:CUSTOM_ID: citations/perseus-cts-milestone-resolve-gap
+:ASSIGNEES: Claude Code
+:SOURCE: session/2026-09-08 -- session/2026-09-09
+:DISPOSITION: needs-cliff-input
+:END:
+<2026-09-09 Wed>
+
+Found while spot-checking the re-derived =shakespeare.lr.globe.xml=
+(=phase1/rederive-lear-p5=) against the actual =perseus_cts= resolver
+rather than trusting the placement design by inspection alone.
+=check_corpus.py='s =citation_records()= walk is unaffected (=ok=,
+=d2=3626=) -- these are gaps in the two APIs a consumer would actually
+use to fetch a single passage's *text*, =resolve()= and =chunks()=,
+both in =perseus-cts/src/perseus_cts/cts_resolver.py=. Neither is a
+defect in the Lear data or in this task's milestone placement; both
+are structural gaps in the resolver when a leaf =citeStructure=
+addresses =<milestone>= elements nested several levels under =<div>=,
+rather than the flat =<div><p>...</p></div>= shape its own test
+fixture uses.
+
+*** Finding 1: =elements_between()= only collects elements, never tail text
+=cts_resolver.py='s =elements_between()= (used by =_milestone_chunks()=,
+the span-builder behind =chunks()=) walks =root.iter()=, collects every
+*element* whose document-order position falls between two milestones,
+and keeps only the topmost ones. A line whose actual text is the
+milestone's own =.tail= -- exactly the shape this task's placement fix
+produces, e.g. =<l><milestone ed="Globe" n="160"/>Return you to my
+sister. <milestone ed="F1" n="1440"/></l>= -- contributes *no* elements
+to that span, so =elements_between()= returns =[]= and the chunk's
+text comes back empty. Verified directly against the real file: calling
+=resolver._milestone_chunks()= on Lear's line-level =citeStructure=
+yields 274 numbered chunks (matching the 274 transcribed anchors,
+confirming the anchor count itself is fine), of which the large
+majority have empty text; =urn:...:shakespeare.lr.globe.160= returns
+=''=, not "Return you to my sister." A chunk only gets real text when
+the span happens to contain a sub-element (a =<speaker>=, a =<stage>=)
+regardless of the actual verse/prose text alongside it -- coincidence,
+not correctness. This isn't specific to Globe's sparse numbering; it
+would affect any milestone-delimited span whose content is plain text.
+
+*** Finding 2: =_milestone_chunks()= doesn't compose ancestor URN components
+=_milestone_chunks()= builds each chunk's URN as
+=self._base_urn + delim + val= -- =val= from the matched milestone's
+own =@n= only. It has no path back through the =citeStructure= tree to
+the act/scene tokens the milestone sits under. Invoked directly on
+Lear's line-level =citeStructure= (three levels deep: act -> scene ->
+line), this produces =urn:...:shakespeare.lr.globe.160= for *every*
+scene that happens to have a transcribed anchor at Globe 160 -- five
+of them, since Globe numbering restarts each scene by design. The
+composed, correct form (=...:2.4.160=) is never produced by this path.
+=chunks()= itself doesn't hit this today only because it auto-selects
+its target level as either an explicit =n="chunk"= citeStructure or,
+failing that, the *penultimate* level (=_find_chunk_cs()= /
+=_penultimate_cs()=) -- for Lear's three-level hierarchy that's
+"scene", not "line", so =chunks()= currently yields 26 correct
+scene-level =CitationChunk=s via the unrelated =_div_chunks()= path and
+never reaches =_milestone_chunks()= at all. The gap only surfaces when
+something calls =_milestone_chunks()= directly at a non-chunk-level, or
+if a future citeStructure ever marks the line level itself as the
+chunk level.
+
+*** What does work
+- =resolve()= (single-URN) correctly locates the matched node through
+  the full act -> scene -> line hierarchy -- =2.4.160= resolves to the
+  right =<milestone>= -- but then returns that bare node as-is with no
+  span-building at all (see =_resolve_with_cs=, =return matched=). For
+  a milestone leaf that node is definitionally empty, so =resolve()=
+  can locate the right point but never returns text.
+- The START-FORWARD span-building /algorithm/ itself (walk from a
+  matched milestone to the next) is the right shape for how this
+  task's milestones are now placed, and is exercised and passing in
+  =perseus-cts='s own test suite (=tests/test_cts_resolver.py=,
+  =MILESTONE_XML= fixture, =test_each_chunk_contains_correct_content=)
+  -- on that fixture, content sits in wrapping elements
+  (=<div><p>card 1 content</p></div>=), which is why the tail-text gap
+  above doesn't show up there.
+- The anchor data itself is sound: 274 numbered chunks from 274
+  transcribed anchors, no more, no less; =citation_records()=/leaf
+  depth is unaffected.
+
+*** Not done here
+No fix attempted -- this is =perseus-cts=, a sibling repo, and outside
+=phase1/rederive-lear-p5='s scope. Recording so it's not lost and so
+whoever picks up =phase2/validate-one-play= (which will need to render
+individual passages, not just count them) knows to check =resolve()=/
+=chunks()= output against real text before trusting it for a
+milestone-addressed leaf level.
+
+** Commit discipline across multiple agents and repositories
+:PROPERTIES:
+:CUSTOM_ID: protocol/commit-discipline
+:END:
+<2026-09-09 Wed>
+
+Recurring problem, worsening as more agents (human and AI) work the
+project: changes accumulate uncommitted across several repositories at
+once. On 2026-09-09 there were uncommitted changes in
+=canonical-engLit=, =corpus-tools= and =perseus-schemas=
+simultaneously, and =citations.tsv= in the workshop had already been
+generated from a dirty tree -- its provenance header reads
+=commit=74e5ee7-DIRTY=, so the table cannot be reproduced from its own
+record. That is the exact failure the stamping discipline was designed
+to prevent.
+
+*** Why it happens, and why "commit more often" won't fix it
+The review loop has no natural commit point. A single day's Lear work
+ran: Claude Code delivers the re-derivation → Cliff catches the
+milestone placement → Claude Code fixes it → Claude Code finds a bug in
+its own fix → Claude (chat) flags the anchor displacement from outside
+→ a schema change is reverted across two repos. At no point in that
+sequence is the tree in a state that reads as "done": every moment is
+either *just delivered, not yet reviewed* or *under correction*. The
+stopping point keeps receding while the diff grows.
+
+Exhorting ourselves to commit more often competes directly with review,
+and review wins. The fix has to attach the commit to a boundary that
+already exists.
+
+*** Two couplings that already have boundaries
+1. *Stamped artifacts require a clean tree.* Anything carrying a
+   provenance header -- =citations.tsv=, =lear-globe-anchor-intervals.csv=,
+   a re-derived play -- cannot honestly be produced from a dirty tree,
+   because the stamp would be false. Make =make regenerate= *refuse* on
+   a dirty tree rather than emit =-DIRTY=. Self-enforcing, needs no
+   memory, and fires exactly when the record matters most.
+2. *An agenda activity note is a commit message.* Claude Code already
+   writes a substantial note when a task reaches a reportable state;
+   writing it *is* the moment of "this piece is done." Couple them: the
+   note and the commit land together. Costs nothing, and puts the commit
+   at a boundary that exists anyway.
+
+*** The structural gap: no single working tree
+This project has no one repository. A day's work routinely touches
+=canonical-engLit=, =corpus-tools=, =perseus-schemas= and
+=schmidt-lexicon-workshop=. Some changes are *one logical change split
+across repos* -- e.g. the =orig=/=reg= revert, which is
+=perseus-schemas= =e6fd910= plus the =corpus-tools= Schematron
+=legacy-reg= revert. Git cannot express that relation and neither can
+=agenda.org=; nothing in either record says those two commits belong
+together.
+
+Proposed convention: when a change spans repositories, put a shared
+token in every commit message involved (e.g. =[xrepo: reg-orig-revert]=)
+and name the same token in the agenda note. Crude, but it makes the
+relation greppable from either side, which is more than we have now.
+
+*** Related
+- Branch drift is a symptom of the same thing: the Globe re-derivation
+  modules (=globe_lineation.py=, =globe_anchor_intervals.py=,
+  =rederive_globe_lineation.py=) were written on =corpus-tools='s
+  =schmidt-tools= branch because that is where the session happened to
+  be, and =xslt/schmidt-edit.xsl= is Schmidt work that now belongs in
+  the workshop repo.
+- Some of the 2026-09-09 disorder originated in chat-side advice: the
+  workshop split was proposed without accounting for cross-repo
+  commits, and Cliff was asked to hold off committing pending a chat
+  edit to =alignment-oracles.org=. Coordination load added from outside
+  the working tree is still coordination load.

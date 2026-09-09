@@ -34,52 +34,28 @@ What began as an encoding cleanup turned into a diagnosis of three
 nested failures, each one hidden beneath the last, and each invisible
 to ordinary validation.
 
-* 2. Three layers of failure
+* 2. Flawed Migrations
+- My migration of Schmidt's /Lexicon/ was quite faulty.  The P4 source
+  (=Renaissance/Schmidt/copyright/schmidt.xml=) carries =<entryFree
+  key="Abate" type="main">= -- 20,101 entries, 20,101 unique keys, no
+  collisions, with homographs already disambiguated (=Bate1=/=Bate2=,
+  =A1=--=A7=; 1,922 headwords carry more than one entry). The P5
+  derivation omitted the =@key= and no =@xml:id= attributes.
 
-** Layer 1: silent structural loss in migration
+- The P4->P5 migration of the Globe edition of Shakespeare's plays
+  removed the edition-specific =<lb/>= milestones and tried to restore
+  numbering of Globe =<l>= elements.  As described below, those Globe
+  =<lb/>= tags are /print line boundaries/, not line numbers, and are
+  crucial to our alignment. The P4->P5 migration of the Globe edition
+  needs to start from scratch again.
 
-The P4 source (=Renaissance/Schmidt/copyright/schmidt.xml=) carries
-=<entryFree key="Abate" type="main">= -- 20,101 entries, 20,101 unique
-keys, no collisions, with homographs already disambiguated
-(=Bate1=/=Bate2=, =A1=--=A7=; 1,922 headwords carry more than one
-entry). The P5 derivative on which a year of work had been built has
-*no* =@key= and no =@xml:id= whatsoever.
+- The poems have received less attention, and their migration to P5
+  was incomplete; specifically, the =citeStructure= apparatus had not
+  been incorporated.
 
-The 2025 corpus-wide P4→P5 migration dropped a complete identity
-system. It threw no error. Nothing downstream noticed, because nothing
-downstream was checking that the output still contained the input. The
-loss was found only because both files happened to be open at once.
+** the line numbers themselves are synthetic
 
-** Layer 2: declarations addressing structures that no longer exist
-
-Perseus's TEI files declare their citation schemes in
-=<refsDecl>/<citeStructure>=. We found several that address element
-patterns which earlier, well-intentioned cleanup passes had dismantled:
-
-- =ven.xml= declared =<citeStructure unit="line" match=".//l[@n]"/>=
-  when not one of its 1,196 =<l>= elements carried =@n=. The
-  declaration matched nothing at all.
-- =luc.xml= carried correct global line numbers on =<lb n="704">=
-  milestones while declaring stanza-relative position, leaving those
-  numbers unaddressable.
-- =pp.xml=, after a repair pass, numbered lines restarting within each
-  of its twenty poems -- while Schmidt cites /The Passionate Pilgrim/
-  by continuous line number up to 430. Three-quarters of his 995
-  =Pilgr.= citations became unreachable.
-- Every play file still declares its line level as
-  =match=".//lb[@ed='G']" use="position()"=, though an earlier
-  =strip-lb= pass moved Globe numbers onto =<l @n>= and left =<lb>=
-  only in prose. /King Lear/ offers 65 addressable =<lb>= against 2,550
-  numbered lines.
-
-A declared citeStructure that matches zero or near-zero nodes is a
-defect class worth asserting against corpus-wide. It is the exact
-analogue, at the level of declaration, of the coverage failure at Layer
-1: a claim about structure that nothing verifies.
-
-** Layer 3: the line numbers themselves are synthetic
-
-This is the serious one.
+This is a serious flaw.
 
 Schmidt cites /Lr./ II, 4, 161 for =abate=. In the printed Globe
 edition (verified against the Internet Archive's digitisation, p. 860)
@@ -89,19 +65,16 @@ In our P5 Globe file that line is numbered 162. In the Folger/DraCor
 edition it is =<l xml:id="ftln-1539" n="179">=. Three numbers for one
 line.
 
-The P4 encoding explains why. Greg's original markup reads:
+The P4 encoding explains why. Greg's augmented markup reads:
 
 #+BEGIN_SRC xml
 <l>She hath abated me of half my train; <lb ed="G"/><lb n="1442" ed="F1"/></l>
 #+END_SRC
 
 The F1 through-line numbers were transcribed densely and carry =@n=.
-The Globe line *boundaries* were marked, but their *numbers* were not.
-Only the sparse printed decade markers survive as numbered =<lb ed="G"
-n="…">= -- and in /King Lear/ all 65 of those sit inside =<p>=
-elements. **In verse there are no anchors at all.** Every Globe line
-number in our corpus was produced by counting boundaries, with nothing
-to check the count against.
+The Globe line /boundaries/ were marked, but most of them without their
+/numbers/. Every Globe line number in the P5 corpus was produced by
+counting those boundaries.
 
 The count is wrong, and wrong differently in each scene:
 
@@ -115,15 +88,89 @@ The count is wrong, and wrong differently in each scene:
 | II.4 "Nature in you stands on the very verge" | 149 | 150 | −1 |
 | II.4 "[Rising] Never, Regan:" | 160 | 161 | +1 |
 
-In I.1 the drift enters before the verse begins -- most plausibly from
-counting the =Sennet. Enter KING LEAR…= stage direction, which the
-Globe does not number -- and then persists, unchecked, for 286 lines.
-In II.4 the offset is −1 and then flips to +1 at a *duplicated* number:
-two distinct lines both numbered 160, neither carrying =@part=. Across
-/King Lear/ there are 22 such collisions in 12 of its 26 scenes.
+In I.1 the drift enters before the verse begins and then persists for
+286 lines. In II.4 the offset is −1 and then flips to +1 at a
+*duplicated* number: two distinct lines both numbered 160, neither
+carrying =@part=. Across /King Lear/ there are 22 such collisions in 12
+of its 26 scenes.
 
 Duplicate numbers break CTS addressing outright, independently of
 alignment: =lr.globe:2.4.160= is ambiguous today.
+
+** Layer 3a: the P4 is in far better shape than the P5
+
+/Correction to an earlier draft of this document, which asserted that
+"in verse there are no anchors at all." That is true of the P5 file and
+false of its source -- a mistake of exactly the kind this document is
+about./
+
+In /King Lear/ the P4 carries *3,626* =<lb ed="G"/>= boundaries, of
+which *274 are numbered*: roughly one transcribed anchor every ten to
+thirteen lines, most of them in verse. Only 65 survived into the P5,
+because the =strip-lb= pass dissolved the verse anchors into an
+interpolated sequence. *The distinction between a transcribed number
+and a counted one is the most valuable thing in the P4 file, and it is
+precisely what the migration destroyed.*
+
+Those anchors make the count auditable interval by interval. Of the 250
+intervals between consecutive anchors in Lear, 84 close exactly and 166
+do not, with a small and bounded excess:
+
+| Excess boundaries in interval | Intervals |
+|-------------------------------+-----------|
+| +1                            |        87 |
+| +2                            |        36 |
+| +3                            |        18 |
+| +4                            |        12 |
+| −1                            |        10 |
+| larger                        |         3 |
+
+The cause is visible in the markup around the collision at 160:
+
+#+BEGIN_SRC xml
+<l>Return you to my sister. <lb n="160" ed="G"/><lb n="1440" ed="F1"/></l>
+<l><stage>[Rising]</stage> Never, Regan: <lb ed="G"/><lb n="1441" ed="F1"/></l>
+#+END_SRC
+
+Greg's anchor is /correct/: the shared verse line beginning "Return you
+to my sister." is Globe 160. But he emitted a Globe boundary for each
+half, so the counter saw two lines where the page has one. Split verse
+lines are the principal source of drift, and every instance is
+localised to within one anchor interval.
+
+This materially changes the size of the problem. It is not "recover an
+unknown lineation" but "in this interval of eleven boundaries that
+should hold ten lines, which pair is one line?"
+
+** Layer 3b: three numbering systems, not two
+
+Although the P4's dense F1 through-line numbers look like a ready-made bridge to
+the DraCor/Folger editions, they are not. Matching 1,252 lines by
+normalised text between the P4 Lear and its Folger counterpart, the
+offset between Perseus's ~ed="F1"~ numbers and Folger's =ftln-= ids
+drifts monotonically across the play:
+
+| Perseus TLN | Offset to FTLN |
+|-------------+----------------|
+|          40 |             −6 |
+|         518 |            +40 |
+|        1496 |            +98 |
+|        2161 |           +194 |
+|        2497 |           +303 |
+|        3294 |           +342 |
+
+These are two different through-line systems -- almost certainly Hinman
+against Folger's own -- and the relation between them is not a constant
+to be subtracted but an alignment to be computed. Composing
+Globe→Perseus-TLN→FTLN therefore requires two alignments, not one.
+
+The existing globe↔TLN tool in =corpus-tools= was built on the
+assumption that =@n= on =<l>= held Globe line numbers. It does not, in
+either edition, and the tool needs rebuilding rather than patching.
+
+*Standing caution for this corpus: any two things called "line numbers"
+should be assumed to be different systems until they have been matched
+by text.* That assumption failed three times in a single working day.
 
 * 3. The underlying problem: citations are edition-bound
 
@@ -141,8 +188,8 @@ illustrated -- and will do so silently.
 This is the practical face of a theoretical problem already identified
 in the NVS work: **CTS URNs model a work as a single citable object,
 and cannot represent works with competing textual traditions of equal
-authority.** /Lr./ II, 4, 161 is not a coordinate in /King Lear/. It is
-a coordinate in one printing of one edition. Schmidt is an unusually
+authority.** /Lr./ II, 4, 161 is not a coordinate in /King Lear/. It is a
+coordinate in one printing of one edition. Schmidt is an unusually
 good witness for the argument precisely because he is rigorous,
 exhaustive and 150 years old: 233,000 citations that are exact,
 verifiable, and unresolvable in the abstract.
@@ -158,6 +205,20 @@ Recovering the Globe lineation by transcription would mean reading
 page images for 37 plays. We propose instead to recover it from
 evidence we already hold.
 
+** Anchors constrain, oracle resolves
+
+The P4 anchors (Layer 3a) do most of the work. They bound the problem
+to individual intervals of ten or so lines, each with a known excess of
+one to four boundaries. What they do not do is say /which/ boundaries
+in an interval are spurious. That is the oracle's job, and it is a
+choice among a handful of candidates rather than a search over an
+unknown offset.
+
+The method below is therefore stated in its general form, but in
+practice it will run as a local adjudicator inside anchored intervals.
+The general form still matters for corpora without anchors -- which is
+most of them.
+
 ** The idea
 
 A reference work that cites densely into a text is a large collection
@@ -171,7 +232,7 @@ recovered by fitting: for each (work, act, scene), find the integer δ
 maximising the proportion of citations whose headword occurs at line
 /n/+δ. The reference work becomes an *alignment oracle*.
 
-The dependency looks circular and is not. We are not using Schmidt to
+The dependency looks circular, but it is not. We are not using Schmidt to
 decide what the lines say; the text is fixed and known. We are using
 thousands of independent assertions to recover a single small integer
 per scene.
@@ -194,30 +255,40 @@ per scene.
 
 ** Self-diagnosis
 
-The method reports its own confidence, which is its chief virtue. A
-scene whose citations peak sharply at a single δ has a constant offset
-and is solved. A scene with no clear peak has an internal duplicate or
-gap rather than a uniform shift -- which is precisely the scene whose
-page image needs consulting. The fit thus reduces a 37-play
-transcription problem to a short list of flagged scenes.
+The method reports its own confidence, which is its chief virtue. An
+interval whose citations agree on a single resolution is solved; one
+whose citations disagree, or which no citation touches, is flagged for
+a page image. The fit thus reduces a 37-play transcription problem to a
+short list of flagged intervals.
+
+The two constraints are independent, which is what makes the
+combination strong. The anchors are transcriptions from the page; the
+citations are assertions made by scholars reading a different copy of
+the same edition. Where they agree, the result is about as well
+evidenced as anything in this corpus. Where they disagree, something is
+wrong that we would want to know about.
 
 Known weak spots: /King Lear/'s smallest scene carries only 12
-citations, and short scenes will not fit reliably. Prose passages,
-where Globe numbers printed lines rather than verse lines, need
-separate handling.
+citations, so anchor intervals in short scenes may go unadjudicated.
+Prose passages, where the Globe numbers printed lines rather than verse
+lines, need separate handling -- and are also where the surviving P5
+anchors happen to be.
 
 ** Validation plan
 
-1. Check first whether the NVS globe↔TLN mapping tool already carries a
-   verified Globe lineation for /King Lear/. If it does, this is a
-   join, not a project. (This check is required by the NVS
-   collaboration protocol, added after an earlier episode in which days
-   were spent on an elaborate solution to a problem already solved in
-   the source.)
-2. Fit offsets for /King Lear/ from Schmidt alone.
+1. Re-derive /King Lear/'s Globe lineation from the P4: count
+   boundaries, reconcile against the 274 anchors, and produce the list
+   of intervals that do not close.
+2. Adjudicate those intervals with Schmidt's Lear citations.
 3. Verify against the Internet Archive page images already downloaded.
 4. Repeat with Abbott, Onions and Dyce; measure agreement.
 5. Only then generalise to the remaining plays.
+
+The check against the NVS globe↔TLN tool, listed here in an earlier
+draft, has been overtaken: that tool was built on the same mistaken
+assumption about =@n= (Layer 3b) and is not a shortcut. Existing
+Globe↔TLN maps from other projects remain worth surveying before we
+build our own.
 
 * 5. Relation to the NVS work
 
@@ -272,15 +343,23 @@ printed page corrected it.
 
 * 7. Immediate next steps
 
-1. Check the NVS globe↔TLN tool before building anything.
+1. *Re-process the P4 Shakespeare files*, preserving the distinction
+   between transcribed and counted numbers. The P5 derivatives are not
+   worth repairing; the information needed to build them correctly is
+   in =Renaissance/Shakespeare/opensource/= and was discarded in
+   transit. Transcribed anchors must survive into the P5 as such --
+   flagged in the markup, not merged into an interpolated sequence.
 2. Extract Schmidt's /King Lear/ citations (5,072, across 26 scenes)
    with headword and expected inflected form.
-3. Implement per-scene offset fitting; report peak sharpness alongside
-   each δ.
+3. Reconcile boundaries against anchors; adjudicate the residue with
+   the oracle; report confidence per interval.
 4. Verify against the Lear page images.
-5. Decide Globe retention on the evidence: if offsets recover cleanly,
-   repair the Globe editions as the citation-bearing texts; if they do
-   not, retire them explicitly, with the reasoning recorded in the
-   work-level =__cts__.xml= and in =forum.org=.
-6. Add a corpus-wide Schematron assertion: every declared
+5. Decide Globe retention on the evidence: if the lineation recovers
+   cleanly, repair the Globe editions as the citation-bearing texts; if
+   it does not, retire them explicitly, with the reasoning recorded in
+   the work-level =__cts__.xml= and in =forum.org=.
+6. Rebuild the =corpus-tools= globe↔TLN utility on a text-matched
+   alignment rather than on =@n=; survey existing Globe↔TLN maps from
+   other projects first.
+7. Add a corpus-wide Schematron assertion: every declared
    =citeStructure= must match at least one node.
