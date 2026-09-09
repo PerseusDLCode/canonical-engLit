@@ -1,0 +1,2386 @@
+act,scene,anchor_a,anchor_b,gap,boundaries_between,excess,closes,boundary_position,boundary_n,leads_into
+1,1,11,31,20,22,2,no,1,,"him, that now I am"
+1,1,11,31,20,22,2,no,2,,I cannot conceive you.
+1,1,11,31,20,22,2,no,3,,"Sir, this young fellow's mother"
+1,1,11,31,20,22,2,no,4,,could: whereupon
+1,1,11,31,20,22,2,no,5,,"and had, indeed, sir, a"
+1,1,11,31,20,22,2,no,6,,she had a husband for her bed.
+1,1,11,31,20,22,2,no,7,,a fault?
+1,1,11,31,20,22,2,no,8,,"I cannot wish the fault undone, the"
+1,1,11,31,20,22,2,no,9,,issue of it
+1,1,11,31,20,22,2,no,10,,"But I have, sir, a son by order of"
+1,1,11,31,20,22,2,no,11,,"law, some"
+1,1,11,31,20,22,2,no,12,,dearer in my account:
+1,1,11,31,20,22,2,no,13,,something saucily into the
+1,1,11,31,20,22,2,no,14,,"sent for, yet was his mother fair;"
+1,1,11,31,20,22,2,no,15,,"good sport at his making, and the whoreson"
+1,1,11,31,20,22,2,no,16,,must
+1,1,11,31,20,22,2,no,17,,"noble gentleman,"
+1,1,11,31,20,22,2,no,18,,"No, my lord."
+1,1,11,31,20,22,2,no,19,,My lord of Kent:
+1,1,11,31,20,22,2,no,20,,hereafter as my honourable friend.
+1,1,11,31,20,22,2,no,21,,My services to your lordship.
+1,1,11,31,20,22,2,no,22,31,"I must love you, and sue to know"
+1,1,31,41,10,11,1,no,1,,you better.
+1,1,31,41,10,11,1,no,2,,"Sir, I shall study deserving."
+1,1,31,41,10,11,1,no,3,,"He hath been out nine years, and"
+1,1,31,41,10,11,1,no,4,,away he shall
+1,1,31,41,10,11,1,no,5,,Sennet.
+1,1,31,41,10,11,1,no,6,,"Attend the lords of France and Burgundy, Gloucester."
+1,1,31,41,10,11,1,no,7,,"I shall, my liege."
+1,1,31,41,10,11,1,no,8,,Meantime we shall express our darker purpose.
+1,1,31,41,10,11,1,no,9,,Give me the map there. Know that we have divided
+1,1,31,41,10,11,1,no,10,,In three our kingdom: and 'tis our fast intent
+1,1,31,41,10,11,1,no,11,41,To shake all cares and business from our age;
+1,1,41,50,9,9,0,yes,,,
+1,1,50,70,20,20,0,yes,,,
+1,1,70,80,10,11,1,no,1,,"Sir, I am made"
+1,1,70,80,10,11,1,no,2,,"Of the self-same metal that my sister is,"
+1,1,70,80,10,11,1,no,3,,And prize me at her worth. In my true heart
+1,1,70,80,10,11,1,no,4,,I find she names my very deed of love;
+1,1,70,80,10,11,1,no,5,,Only she comes too short: that I profess
+1,1,70,80,10,11,1,no,6,,"Myself an enemy to all other joys,"
+1,1,70,80,10,11,1,no,7,,Which the most precious square of sense possesses;
+1,1,70,80,10,11,1,no,8,,And find I am alone felicitate
+1,1,70,80,10,11,1,no,9,,In your dear highness' love.
+1,1,70,80,10,11,1,no,10,,Then poor Cordelia!
+1,1,70,80,10,11,1,no,11,80,"And yet not so; since, I am sure, my love's"
+1,1,80,90,10,10,0,yes,,,
+1,1,90,100,10,11,1,no,1,,Nothing!
+1,1,90,100,10,11,1,no,2,,Nothing.
+1,1,90,100,10,11,1,no,3,,Nothing will come of nothing: speak again.
+1,1,90,100,10,11,1,no,4,,"Unhappy that I am, I cannot heave"
+1,1,90,100,10,11,1,no,5,,My heart into my mouth: I love your majesty
+1,1,90,100,10,11,1,no,6,,According to my bond; nor more nor less.
+1,1,90,100,10,11,1,no,7,,"How, how, Cordelia! mend your speech a little,"
+1,1,90,100,10,11,1,no,8,,Lest it may mar your fortunes.
+1,1,90,100,10,11,1,no,9,,"Good my lord,"
+1,1,90,100,10,11,1,no,10,,"You have begot me, bred me, loved me: I"
+1,1,90,100,10,11,1,no,11,100,"Return those duties back as are right fit,"
+1,1,100,110,10,11,1,no,1,,"Obey you, love you, and most honour you."
+1,1,100,110,10,11,1,no,2,,"Why have my sisters husbands, if they say"
+1,1,100,110,10,11,1,no,3,,"They loved you all? Haply, when I shall wed."
+1,1,100,110,10,11,1,no,4,,That lord whose hand must take my plight shall carry
+1,1,100,110,10,11,1,no,5,,"Half my love with him, half my care and duty:"
+1,1,100,110,10,11,1,no,6,,"Sure, I shall never marry like my sisters,"
+1,1,100,110,10,11,1,no,7,,To love my father all.
+1,1,100,110,10,11,1,no,8,,But goes thy heart with this?
+1,1,100,110,10,11,1,no,9,,"Ay, good my lord."
+1,1,100,110,10,11,1,no,10,,"So young, and so untender?"
+1,1,100,110,10,11,1,no,11,110,"So young, my lord, and true."
+1,1,110,120,10,10,0,yes,,,
+1,1,120,130,10,11,1,no,1,,"To gorge his appetite, shall to my bosom"
+1,1,120,130,10,11,1,no,2,,"Be as well neighbour'd, pitied, and relieved,"
+1,1,120,130,10,11,1,no,3,,As thou my sometime daughter.
+1,1,120,130,10,11,1,no,4,,"Good my liege,--"
+1,1,120,130,10,11,1,no,5,,"Peace, Kent."
+1,1,120,130,10,11,1,no,6,,Come not between the dragon and his wrath.
+1,1,120,130,10,11,1,no,7,,"I loved her most, and thought to set my rest"
+1,1,120,130,10,11,1,no,8,,"On her kind nursery. Hence, and avoid my sight!"
+1,1,120,130,10,11,1,no,9,,"So be my grave my peace, as here I give"
+1,1,120,130,10,11,1,no,10,,Her father's heart from her! Call France; who stirs?
+1,1,120,130,10,11,1,no,11,130,"Call Burgundy. Cornwall and Albany,"
+1,1,130,140,10,10,0,yes,,,
+1,1,140,150,10,11,1,no,1,,"Beloved sons, be yours: which to confirm,"
+1,1,140,150,10,11,1,no,2,,This coronet part betwixt you.
+1,1,140,150,10,11,1,no,3,,"Royal Lear,"
+1,1,140,150,10,11,1,no,4,,"Whom I have ever honour'd as my king,"
+1,1,140,150,10,11,1,no,5,,"Loved as my father, as my master follow'd,"
+1,1,140,150,10,11,1,no,6,,"As my great patron thought on in my prayers,--"
+1,1,140,150,10,11,1,no,7,,"The bow is bent and drawn, make from the shaft."
+1,1,140,150,10,11,1,no,8,,"Let it fall rather, though the fork invade"
+1,1,140,150,10,11,1,no,9,,"The region of my heart: be Kent unmannerly,"
+1,1,140,150,10,11,1,no,10,,"When Lear is mad. What wilt thou do, old man?"
+1,1,140,150,10,11,1,no,11,150,"Think'st thou that duty shall have dread to speak,"
+1,1,150,160,10,12,2,no,1,,"When power to flattery bows? To plainness honour's bound,"
+1,1,150,160,10,12,2,no,2,,When majesty stoops to folly. Reverse thy doom;
+1,1,150,160,10,12,2,no,3,,"And, in thy best consideration, check"
+1,1,150,160,10,12,2,no,4,,"This hideous rashness: answer my life my judgement,"
+1,1,150,160,10,12,2,no,5,,Thy youngest daughter does not love thee least;
+1,1,150,160,10,12,2,no,6,,Nor are those empty-hearted whose low sound
+1,1,150,160,10,12,2,no,7,,Reverbs no hollowness.
+1,1,150,160,10,12,2,no,8,,"Kent, on thy life, no more."
+1,1,150,160,10,12,2,no,9,,My life I never held but as a pawn
+1,1,150,160,10,12,2,no,10,,"To wage against thy enemies; nor fear to lose it,"
+1,1,150,160,10,12,2,no,11,,Thy safety being the motive.
+1,1,150,160,10,12,2,no,12,160,Out of my sight!
+1,1,160,170,10,14,4,no,1,,"See better, Lear; and let me still remain"
+1,1,160,170,10,14,4,no,2,,The true blank of thine eye.
+1,1,160,170,10,14,4,no,3,,"Now, by Apollo,--"
+1,1,160,170,10,14,4,no,4,,"Now, by Apollo, king,"
+1,1,160,170,10,14,4,no,5,,Thou swear'st thy gods in vain.
+1,1,160,170,10,14,4,no,6,,"O, vassal! miscreant!"
+1,1,160,170,10,14,4,no,7,,"Dear sir, forbear."
+1,1,160,170,10,14,4,no,8,,"Dear sir, forbear."
+1,1,160,170,10,14,4,no,9,,Do;
+1,1,160,170,10,14,4,no,10,,"Kill thy physician, and the fee bestow"
+1,1,160,170,10,14,4,no,11,,Upon thy foul disease. Revoke thy doom;
+1,1,160,170,10,14,4,no,12,,"Or, whilst I can vent clamour from my throat,"
+1,1,160,170,10,14,4,no,13,,I'll tell thee thou dost evil.
+1,1,160,170,10,14,4,no,14,170,"Hear me, recreant!"
+1,1,170,179,9,9,0,yes,,,
+1,1,179,191,12,12,0,yes,,,
+1,1,191,200,9,11,2,no,1,,lord.
+1,1,191,200,9,11,2,no,2,,"My lord of Burgundy,"
+1,1,191,200,9,11,2,no,3,,"We first address towards you, who with this king"
+1,1,191,200,9,11,2,no,4,,"Hath rivall'd for our daughter: what, in the least,"
+1,1,191,200,9,11,2,no,5,,"Will you require in present dower with her,"
+1,1,191,200,9,11,2,no,6,,Or cease your quest of love?
+1,1,191,200,9,11,2,no,7,,"Most royal majesty,"
+1,1,191,200,9,11,2,no,8,,"I crave no more than what your highness offer'd,"
+1,1,191,200,9,11,2,no,9,,Nor will you tender less.
+1,1,191,200,9,11,2,no,10,,"Right noble Burgundy,"
+1,1,191,200,9,11,2,no,11,200,"When she was dear to us, we did hold her so;"
+1,1,200,210,10,12,2,no,1,,"But now her price is fall'n. Sir, there she stands:"
+1,1,200,210,10,12,2,no,2,,"If aught within that little seeming substance,"
+1,1,200,210,10,12,2,no,3,,"Or all of it, with our displeasure pieced,"
+1,1,200,210,10,12,2,no,4,,"And nothing more, may fitly like your grace,"
+1,1,200,210,10,12,2,no,5,,"She's there, and she is yours."
+1,1,200,210,10,12,2,no,6,,I know no answer.
+1,1,200,210,10,12,2,no,7,,"Will you, with those infirmities she owes,"
+1,1,200,210,10,12,2,no,8,,"Unfriended, new-adopted to our hate,"
+1,1,200,210,10,12,2,no,9,,"Dower'd with our curse, and stranger'd with our oath,"
+1,1,200,210,10,12,2,no,10,,"Take her, or leave her?"
+1,1,200,210,10,12,2,no,11,,"Pardon me, royal sir;"
+1,1,200,210,10,12,2,no,12,210,Election makes not up on such conditions.
+1,1,210,219,9,10,1,no,1,,"Then leave her, sir; for, by the power that made me,"
+1,1,210,219,9,10,1,no,2,,I tell you all her wealth.
+1,1,210,219,9,10,1,no,3,,"I would not from your love make such a stray,"
+1,1,210,219,9,10,1,no,4,,To match you where I hate! therefore beseech you
+1,1,210,219,9,10,1,no,5,,To avert your liking a more worthier way
+1,1,210,219,9,10,1,no,6,,Than on a wretch whom nature is ashamed
+1,1,210,219,9,10,1,no,7,,Almost to acknowledge hers.
+1,1,210,219,9,10,1,no,8,,"This is most strange,"
+1,1,210,219,9,10,1,no,9,,"That she, that even but now was your best object,"
+1,1,210,219,9,10,1,no,10,219,"The argument of your praise, balm of your age,"
+1,1,219,230,11,12,1,no,1,,"Most best, most dearest, should in this trice of time"
+1,1,219,230,11,12,1,no,2,,"Commit a thing so monstrous, to dismantle"
+1,1,219,230,11,12,1,no,3,,"So many folds of favor. Sure, her offence"
+1,1,219,230,11,12,1,no,4,,"Must be of such unnatural degree,"
+1,1,219,230,11,12,1,no,5,,"That monsters it, or your fore-vouch'd affection"
+1,1,219,230,11,12,1,no,6,,"Fall'n into taint: which to believe of her,"
+1,1,219,230,11,12,1,no,7,,Must be a faith that reason without miracle
+1,1,219,230,11,12,1,no,8,,Could never plant in me.
+1,1,219,230,11,12,1,no,9,,"I yet beseech your majesty,--"
+1,1,219,230,11,12,1,no,10,,"If for I want that glib and oily art,"
+1,1,219,230,11,12,1,no,11,,"To speak and purpose not; since what I well intend,"
+1,1,219,230,11,12,1,no,12,230,"I'll do't before I speak,--that you make known"
+1,1,230,239,9,10,1,no,1,,"It is no vicious blot, murder, or foulness,"
+1,1,230,239,9,10,1,no,2,,"No unchaste action, or dishonour'd step,"
+1,1,230,239,9,10,1,no,3,,That hath deprived me of your grace and favor;
+1,1,230,239,9,10,1,no,4,,"But even for want of that for which I am richer,"
+1,1,230,239,9,10,1,no,5,,"A still-soliciting eye, and such a tongue"
+1,1,230,239,9,10,1,no,6,,"As I am glad I have not, though not to have it"
+1,1,230,239,9,10,1,no,7,,Hath lost me in your liking.
+1,1,230,239,9,10,1,no,8,,Better thou
+1,1,230,239,9,10,1,no,9,,Hadst not been born than not to have pleased me better.
+1,1,230,239,9,10,1,no,10,239,"Is it but this,--a tardiness in nature"
+1,1,239,251,12,14,2,no,1,,Which often leaves the history unspoke
+1,1,239,251,12,14,2,no,2,,"That it intends to do? My lord of Burgundy,"
+1,1,239,251,12,14,2,no,3,,What say you to the lady? Love's not love
+1,1,239,251,12,14,2,no,4,,When it is mingled with regards that stand
+1,1,239,251,12,14,2,no,5,,Aloof from the entire point. Will you have her?
+1,1,239,251,12,14,2,no,6,,She is herself a dowry.
+1,1,239,251,12,14,2,no,7,,"Royal Lear,"
+1,1,239,251,12,14,2,no,8,,"Give but this portion which yourself proposed,"
+1,1,239,251,12,14,2,no,9,,"And here I take Cordelia by the hand,"
+1,1,239,251,12,14,2,no,10,,Duchess of Burgundy.
+1,1,239,251,12,14,2,no,11,,Nothing: I have sworn; I am firm.
+1,1,239,251,12,14,2,no,12,,"I am sorry, then, you have so lost a father"
+1,1,239,251,12,14,2,no,13,,That you must lose a husband.
+1,1,239,251,12,14,2,no,14,251,Peace be with Burgundy!
+1,1,251,261,10,10,0,yes,,,
+1,1,261,270,9,9,0,yes,,,
+1,1,270,279,9,10,1,no,1,,Bid farewell to your sisters.
+1,1,270,279,9,10,1,no,2,,"The jewels of our father, with wash'd eyes"
+1,1,270,279,9,10,1,no,3,,Cordelia leaves you: I know you what you are;
+1,1,270,279,9,10,1,no,4,,And like a sister am most loath to call
+1,1,270,279,9,10,1,no,5,,Your faults as they are named. Use well our father:
+1,1,270,279,9,10,1,no,6,,To your professed bosoms I commit him:
+1,1,270,279,9,10,1,no,7,,"But yet, alas, stood I within his grace,"
+1,1,270,279,9,10,1,no,8,,I would prefer him to a better place.
+1,1,270,279,9,10,1,no,9,,"So, farewell to you both."
+1,1,270,279,9,10,1,no,10,279,Prescribe not us our duties.
+1,1,279,290,11,12,1,no,1,,Let your study
+1,1,279,290,11,12,1,no,2,,"Be to content your lord, who hath received you"
+1,1,279,290,11,12,1,no,3,,"At fortune's alms. You have obedience scanted,"
+1,1,279,290,11,12,1,no,4,,And well are worth the want that you have wanted.
+1,1,279,290,11,12,1,no,5,,Time shall unfold what plaited cunning hides:
+1,1,279,290,11,12,1,no,6,,"Who cover faults, at last shame them derides."
+1,1,279,290,11,12,1,no,7,,Well may you prosper!
+1,1,279,290,11,12,1,no,8,,"Come, my fair Cordelia."
+1,1,279,290,11,12,1,no,9,,"Sister, it is not a little I have to say"
+1,1,279,290,11,12,1,no,10,,of what most nearly appertains to us both.
+1,1,279,290,11,12,1,no,11,,I think our father will hence to-night.
+1,1,279,290,11,12,1,no,12,290,"That's most certain, and with you;"
+1,1,290,310,20,20,0,yes,,,
+1,2,10,20,10,10,0,yes,,,
+1,2,20,30,10,10,0,yes,,,
+1,2,30,40,10,10,0,yes,,,
+1,2,40,70,30,32,2,no,1,,I find it not fit for your
+1,2,40,70,30,32,2,no,2,,"Give me the letter, sir."
+1,2,40,70,30,32,2,no,3,,"I shall offend, either to detain or"
+1,2,40,70,30,32,2,no,4,,give it.
+1,2,40,70,30,32,2,no,5,,"them,"
+1,2,40,70,30,32,2,no,6,,"Let's see, let's see."
+1,2,40,70,30,32,2,no,7,,"I hope, for my brother's justification,"
+1,2,40,70,30,32,2,no,8,,he wrote
+1,2,40,70,30,32,2,no,9,,virtue.
+1,2,40,70,30,32,2,no,10,,'This policy and reverence of
+1,2,40,70,30,32,2,no,11,,age makes the
+1,2,40,70,30,32,2,no,12,,our times; keeps our fortunes from
+1,2,40,70,30,32,2,no,13,,oldness cannot relish them. I begin to find an
+1,2,40,70,30,32,2,no,14,,idle
+1,2,40,70,30,32,2,no,15,,"aged tyranny; who sways,"
+1,2,40,70,30,32,2,no,16,,"power, but as it is suffered. Come to me, that"
+1,2,40,70,30,32,2,no,17,,of
+1,2,40,70,30,32,2,no,18,,sleep till I waked
+1,2,40,70,30,32,2,no,19,,"his revenue for ever, and live the"
+1,2,40,70,30,32,2,no,20,,"of your brother, EDGAR.'"
+1,2,40,70,30,32,2,no,21,,"Hum--conspiracy!--'Sleep till I waked him,"
+1,2,40,70,30,32,2,no,22,,--you should
+1,2,40,70,30,32,2,no,23,,Edgar! Had he a
+1,2,40,70,30,32,2,no,24,,and brain to breed it in?--
+1,2,40,70,30,32,2,no,25,,you? who brought it?
+1,2,40,70,30,32,2,no,26,,"It was not brought me, my lord;"
+1,2,40,70,30,32,2,no,27,,there's the
+1,2,40,70,30,32,2,no,28,,at the casement of
+1,2,40,70,30,32,2,no,29,,You know the character to be your
+1,2,40,70,30,32,2,no,30,,brother's?
+1,2,40,70,30,32,2,no,31,,"If the matter were good, my lord, I"
+1,2,40,70,30,32,2,no,32,70,durst swear
+1,2,70,101,31,32,1,no,1,,I would fain think it
+1,2,70,101,31,32,1,no,2,,It is his.
+1,2,70,101,31,32,1,no,3,,"It is his hand, my lord; but I hope"
+1,2,70,101,31,32,1,no,4,,his heart is
+1,2,70,101,31,32,1,no,5,,Hath he never heretofore sounded
+1,2,70,101,31,32,1,no,6,,you in this business?
+1,2,70,101,31,32,1,no,7,,"Never, my lord: but I have heard"
+1,2,70,101,31,32,1,no,8,,him oft maintain
+1,2,70,101,31,32,1,no,9,,"perfect age, and fathers"
+1,2,70,101,31,32,1,no,10,,"should be as ward to the son, and"
+1,2,70,101,31,32,1,no,11,,manage his revenue.
+1,2,70,101,31,32,1,no,12,,"O villain, villain! His very opinion"
+1,2,70,101,31,32,1,no,13,,in the letter!
+1,2,70,101,31,32,1,no,14,,brutish
+1,2,70,101,31,32,1,no,15,,"Go, sirrah, seek him; I'll"
+1,2,70,101,31,32,1,no,16,,abominable villain! Where is he?
+1,2,70,101,31,32,1,no,17,,"I do not well know, my lord. If it"
+1,2,70,101,31,32,1,no,18,,shall please you to
+1,2,70,101,31,32,1,no,19,,against my brother till you can
+1,2,70,101,31,32,1,no,20,,"him better testimony of his intent, you shall"
+1,2,70,101,31,32,1,no,21,,"run a certain course; where, if you violently"
+1,2,70,101,31,32,1,no,22,,proceed against
+1,2,70,101,31,32,1,no,23,,would make a great
+1,2,70,101,31,32,1,no,24,,and shake in pieces the heart of
+1,2,70,101,31,32,1,no,25,,"I dare pawn down my life for him, that"
+1,2,70,101,31,32,1,no,26,,hath wrote this to feel my affection to your
+1,2,70,101,31,32,1,no,27,,"honor, and"
+1,2,70,101,31,32,1,no,28,,Think you so?
+1,2,70,101,31,32,1,no,29,,"If your honour judge it meet, I will"
+1,2,70,101,31,32,1,no,30,,place you
+1,2,70,101,31,32,1,no,31,,"this, and by an auricular"
+1,2,70,101,31,32,1,no,32,101,satisfaction; and that without
+1,2,101,111,10,11,1,no,1,,than this very evening.
+1,2,101,111,10,11,1,no,2,,He cannot be such a monster--
+1,2,101,111,10,11,1,no,3,,"Nor is not, sure."
+1,2,101,111,10,11,1,no,4,,"To his father, that so tenderly and"
+1,2,101,111,10,11,1,no,5,,"entirely loves him. Heaven and earth! Edmund,"
+1,2,101,111,10,11,1,no,6,,seek
+1,2,101,111,10,11,1,no,7,,you: frame the business
+1,2,101,111,10,11,1,no,8,,"I would unstate myself,"
+1,2,101,111,10,11,1,no,9,,resolution.
+1,2,101,111,10,11,1,no,10,,"I will seek him, sir, presently; convey"
+1,2,101,111,10,11,1,no,11,111,the business
+1,2,111,151,40,44,4,no,1,,acquaint you withal.
+1,2,111,151,40,44,4,no,2,,These late eclipses in the sun and
+1,2,111,151,40,44,4,no,3,,moon portend
+1,2,111,151,40,44,4,no,4,,of nature can
+1,2,111,151,40,44,4,no,5,,yet nature finds itself scourged
+1,2,111,151,40,44,4,no,6,,"effects: love cools, friendship falls off,"
+1,2,111,151,40,44,4,no,7,,"divide: in cities, mutinies; in countries,"
+1,2,111,151,40,44,4,no,8,,discord;
+1,2,111,151,40,44,4,no,9,,cracked 'twixt
+1,2,111,151,40,44,4,no,10,,mine comes under the
+1,2,111,151,40,44,4,no,11,,against father: the king falls from
+1,2,111,151,40,44,4,no,12,,there's father against child. We have
+1,2,111,151,40,44,4,no,13,,"seen the best of our time: machinations, hollownwss,"
+1,2,111,151,40,44,4,no,14,,"treachery, and all ruinous disorders,"
+1,2,111,151,40,44,4,no,15,,follow us disquietly
+1,2,111,151,40,44,4,no,16,,"this villain, Edmund; it shall lose"
+1,2,111,151,40,44,4,no,17,,do it carefully. And the noble and true-hearted
+1,2,111,151,40,44,4,no,18,,"Kent banished! his offence, honesty!"
+1,2,111,151,40,44,4,no,19,,'Tis strange.
+1,2,111,151,40,44,4,no,20,,This is the excellent foppery of the
+1,2,111,151,40,44,4,no,21,,"world, that,"
+1,2,111,151,40,44,4,no,22,,often the surfeit of our own
+1,2,111,151,40,44,4,no,23,,"make guilty of our disasters the sun, the"
+1,2,111,151,40,44,4,no,24,,and the stars: as if we were villains by necessity;
+1,2,111,151,40,44,4,no,25,,"fools by heavenly compulsion; knaves,"
+1,2,111,151,40,44,4,no,26,,"thieves, and"
+1,2,111,151,40,44,4,no,27,,"drunkards, liars,"
+1,2,111,151,40,44,4,no,28,,enforced obedience of planetary
+1,2,111,151,40,44,4,no,29,,"and all that we are evil in, by a divine thrusting"
+1,2,111,151,40,44,4,no,30,,on: an admirable evasion of whoremaster
+1,2,111,151,40,44,4,no,31,,"man,"
+1,2,111,151,40,44,4,no,32,,charge of a star!
+1,2,111,151,40,44,4,no,33,,my mother under the dragon's
+1,2,111,151,40,44,4,no,34,,nativity was under Ursa major: so
+1,2,111,151,40,44,4,no,35,,"I am rough and lecherous. Tut, I should"
+1,2,111,151,40,44,4,no,36,,"have been that I am, had the maidenliest star"
+1,2,111,151,40,44,4,no,37,,in the firmament
+1,2,111,151,40,44,4,no,38,,Edgar--
+1,2,111,151,40,44,4,no,39,,and
+1,2,111,151,40,44,4,no,40,,old comedy:
+1,2,111,151,40,44,4,no,41,,with a sigh like Tom
+1,2,111,151,40,44,4,no,42,,eclipses do portend these divisions!
+1,2,111,151,40,44,4,no,43,,mi.
+1,2,111,151,40,44,4,no,44,151,"How now, brother Edmund! what serious"
+1,2,151,170,19,18,-1,no,1,,contemplation
+1,2,151,170,19,18,-1,no,2,,"I am thinking, brother, of a prediction"
+1,2,151,170,19,18,-1,no,3,,I read this
+1,2,151,170,19,18,-1,no,4,,these eclipses.
+1,2,151,170,19,18,-1,no,5,,Do you busy yourself about that?
+1,2,151,170,19,18,-1,no,6,,"I promise you, the effects he writes"
+1,2,151,170,19,18,-1,no,7,,of succeed
+1,2,151,170,19,18,-1,no,8,,"the child and the parent; death, dearth,"
+1,2,151,170,19,18,-1,no,9,,dissolutions of ancient amities; divisions in
+1,2,151,170,19,18,-1,no,10,,"state, menaces and maledictions against king"
+1,2,151,170,19,18,-1,no,11,,"and nobles; needless diffidences, banishment"
+1,2,151,170,19,18,-1,no,12,,"of friends, dissipation of cohorts, nuptial"
+1,2,151,170,19,18,-1,no,13,,"breaches, and I know not what."
+1,2,151,170,19,18,-1,no,14,,How long have you been a sectary astronomical?
+1,2,151,170,19,18,-1,no,15,,"Come, come;"
+1,2,151,170,19,18,-1,no,16,,last?
+1,2,151,170,19,18,-1,no,17,,"Why, the night gone by."
+1,2,151,170,19,18,-1,no,18,170,Spake you with him?
+1,2,170,179,9,10,1,no,1,,"Ay, two hours together."
+1,2,170,179,9,10,1,no,2,,Parted you in good terms? Found
+1,2,170,179,9,10,1,no,3,,you no displeasure
+1,2,170,179,9,10,1,no,4,,countenance?
+1,2,170,179,9,10,1,no,5,,None at all.
+1,2,170,179,9,10,1,no,6,,Bethink yourself wherein you may
+1,2,170,179,9,10,1,no,7,,have offended
+1,2,170,179,9,10,1,no,8,,his presence till
+1,2,170,179,9,10,1,no,9,,qualified the heat of his displeasure;
+1,2,170,179,9,10,1,no,10,179,"this instant so rageth in him, that with the mischief"
+1,2,179,199,20,21,1,no,1,,of your person it would scarcely allay.
+1,2,179,199,20,21,1,no,2,,Some villain hath done me wrong.
+1,2,179,199,20,21,1,no,3,,"That's my fear. I pray you, have a"
+1,2,179,199,20,21,1,no,4,,continent
+1,2,179,199,20,21,1,no,5,,"goes slower; and, as"
+1,2,179,199,20,21,1,no,6,,"my lodging, from whence I will fitly"
+1,2,179,199,20,21,1,no,7,,"to hear my lord speak: pray ye, go;"
+1,2,179,199,20,21,1,no,8,,"my key: if you do stir abroad, go armed."
+1,2,179,199,20,21,1,no,9,,"Armed, brother!"
+1,2,179,199,20,21,1,no,10,,"Brother, I advise you to the best; go"
+1,2,179,199,20,21,1,no,11,,armed: I am no honest
+1,2,179,199,20,21,1,no,12,,good meaning towards you: I have told
+1,2,179,199,20,21,1,no,13,,"what I have seen and heard; but faintly, nothing"
+1,2,179,199,20,21,1,no,14,,like the image and horror of it: pray you
+1,2,179,199,20,21,1,no,15,,away.
+1,2,179,199,20,21,1,no,16,,Shall I hear from you anon?
+1,2,179,199,20,21,1,no,17,,I do serve you in this business.
+1,2,179,199,20,21,1,no,18,,"A credulous father! and a brother noble,"
+1,2,179,199,20,21,1,no,19,,"Whose nature is so far from doing harms,"
+1,2,179,199,20,21,1,no,20,,That he suspects none; on whose foolish honesty
+1,2,179,199,20,21,1,no,21,199,My practices ride easy! I see the business.
+1,3,9,20,11,11,0,yes,,,
+1,4,10,21,11,12,1,no,1,,what art thou?
+1,4,10,21,11,12,1,no,2,,"A man, sir."
+1,4,10,21,11,12,1,no,3,,What dost thou profess? what
+1,4,10,21,11,12,1,no,4,,wouldst thou
+1,4,10,21,11,12,1,no,5,,I do profess to be no less than I
+1,4,10,21,11,12,1,no,6,,seem; to serve
+1,4,10,21,11,12,1,no,7,,trust; to love him that is
+1,4,10,21,11,12,1,no,8,,"with him that is wise, and says little; to"
+1,4,10,21,11,12,1,no,9,,judgement; to fight when I cannot choose; and
+1,4,10,21,11,12,1,no,10,,to
+1,4,10,21,11,12,1,no,11,,What art thou?
+1,4,10,21,11,12,1,no,12,21,"A very honest-hearted fellow, and as"
+1,4,21,30,9,9,0,yes,,,
+1,4,30,31,1,1,0,yes,,,
+1,4,31,39,8,8,0,yes,,,
+1,4,39,60,21,21,0,yes,,,
+1,4,60,71,11,11,0,yes,,,
+1,4,71,80,9,9,0,yes,,,
+1,4,80,91,11,12,1,no,1,,"France,"
+1,4,80,91,11,12,1,no,2,,No more of that; I have noted it
+1,4,80,91,11,12,1,no,3,,"well. Go you,"
+1,4,80,91,11,12,1,no,4,,speak with her.
+1,4,80,91,11,12,1,no,5,,call hither my fool.
+1,4,80,91,11,12,1,no,6,,"O, you sir, you, come you hither,"
+1,4,80,91,11,12,1,no,7,,"I, sir?"
+1,4,80,91,11,12,1,no,8,,My lady's father.
+1,4,80,91,11,12,1,no,9,,'My lady's father'! my lord's knave:
+1,4,80,91,11,12,1,no,10,,you whoreson
+1,4,80,91,11,12,1,no,11,,cur!
+1,4,80,91,11,12,1,no,12,91,"I am none of these, my lord;"
+1,4,91,119,28,28,0,yes,,,
+1,4,119,130,11,11,0,yes,,,
+1,4,130,140,10,10,0,yes,,,
+1,4,140,150,10,10,0,yes,,,
+1,4,150,160,10,10,0,yes,,,
+1,4,160,171,11,11,0,yes,,,
+1,4,171,180,9,10,1,no,1,,give thee
+1,4,171,180,9,10,1,no,2,,What two crowns shall they be?
+1,4,171,180,9,10,1,no,3,,"Why, after I have cut the egg i' the"
+1,4,171,180,9,10,1,no,4,,"middle, and"
+1,4,171,180,9,10,1,no,5,,of the egg. When
+1,4,171,180,9,10,1,no,6,,"the middle, and gavest away"
+1,4,171,180,9,10,1,no,7,,borest thy ass on thy back o'er the
+1,4,171,180,9,10,1,no,8,,"hadst little wit in thy bald crown, when thou"
+1,4,171,180,9,10,1,no,9,,gavest thy golden one away. If I speak like
+1,4,171,180,9,10,1,no,10,180,myself in
+1,4,180,190,10,10,0,yes,,,
+1,4,190,209,19,20,1,no,1,,"down thine own breeches,"
+1,4,190,209,19,20,1,no,2,,Then they
+1,4,190,209,19,20,1,no,3,,"And I for sorrow sung,"
+1,4,190,209,19,20,1,no,4,,"That such a king should play bo-peep,"
+1,4,190,209,19,20,1,no,5,,And go the fools among.
+1,4,190,209,19,20,1,no,6,,"Prithee, nuncle, keep a schoolmaster that can"
+1,4,190,209,19,20,1,no,7,,teach
+1,4,190,209,19,20,1,no,8,,"An you lie, sirrah, we'll have you"
+1,4,190,209,19,20,1,no,9,,whipped.
+1,4,190,209,19,20,1,no,10,,I marvel what kin thou and thy
+1,4,190,209,19,20,1,no,11,,daughters are:
+1,4,190,209,19,20,1,no,12,,"speaking true, thou'lt have me"
+1,4,190,209,19,20,1,no,13,,lying; and sometimes I am whipped for holding
+1,4,190,209,19,20,1,no,14,,my peace. I had rather be any kind o'
+1,4,190,209,19,20,1,no,15,,thing than a fool:
+1,4,190,209,19,20,1,no,16,,"thee, nuncle; thou hast pared thy"
+1,4,190,209,19,20,1,no,17,,"sides, and left nothing i' the middle: here"
+1,4,190,209,19,20,1,no,18,,comes one o' the parings.
+1,4,190,209,19,20,1,no,19,,"How now, daughter! what makes"
+1,4,190,209,19,20,1,no,20,209,that frontlet
+1,4,209,220,11,10,-1,no,1,,of late i' the frown.
+1,4,209,220,11,10,-1,no,2,,Thou wast a pretty fellow when thou
+1,4,209,220,11,10,-1,no,3,,hadst no
+1,4,209,220,11,10,-1,no,4,,thou art an O without
+1,4,209,220,11,10,-1,no,5,,"than thou art now; I am a fool,"
+1,4,209,220,11,10,-1,no,6,,nothing.
+1,4,209,220,11,10,-1,no,7,,hold my tongue; so
+1,4,209,220,11,10,-1,no,8,,you say nothing.
+1,4,209,220,11,10,-1,no,9,,"He that keeps nor crust nor crum,"
+1,4,209,220,11,10,-1,no,10,220,"Weary of all, shall want some."
+1,4,220,240,20,20,0,yes,,,
+1,4,240,250,10,10,0,yes,,,
+1,4,250,260,10,10,0,yes,,,
+1,4,260,270,10,10,0,yes,,,
+1,4,270,281,11,12,1,no,1,,A little to disquantity your train;
+1,4,270,281,11,12,1,no,2,,"And the remainder, that shall still depend,"
+1,4,270,281,11,12,1,no,3,,"To be such men as may besort your age,"
+1,4,270,281,11,12,1,no,4,,And know themselves and you.
+1,4,270,281,11,12,1,no,5,,Darkness and devils!
+1,4,270,281,11,12,1,no,6,,Saddle my horses; call my train together.
+1,4,270,281,11,12,1,no,7,,Degenerate bastard! I'll not trouble thee:
+1,4,270,281,11,12,1,no,8,,Yet have I left a daughter.
+1,4,270,281,11,12,1,no,9,,You strike my people; and your disorder'd rabble
+1,4,270,281,11,12,1,no,10,,Make servants of their betters.
+1,4,270,281,11,12,1,no,11,,"Woe, that too late repents,--"
+1,4,270,281,11,12,1,no,12,281,"Is it your will? Speak, sir. Prepare my horses."
+1,4,281,290,9,10,1,no,1,,"Ingratitude, thou marble-hearted fiend,"
+1,4,281,290,9,10,1,no,2,,More hideous when thou show'st thee in a child
+1,4,281,290,9,10,1,no,3,,Than the sea-monster!
+1,4,281,290,9,10,1,no,4,,"Pray, sir, be patient."
+1,4,281,290,9,10,1,no,5,,Detested kite! thou liest.
+1,4,281,290,9,10,1,no,6,,"My train are men of choice and rarest parts,"
+1,4,281,290,9,10,1,no,7,,"That all particulars of duty know,"
+1,4,281,290,9,10,1,no,8,,And in the most exact regard support
+1,4,281,290,9,10,1,no,9,,"The worships of their name. O most small fault,"
+1,4,281,290,9,10,1,no,10,290,How ugly didst thou in Cordelia show!
+1,4,290,300,10,11,1,no,1,,"That, like an engine, wrench'd my frame of nature"
+1,4,290,300,10,11,1,no,2,,"From the fix'd place; drew from my heart all love,"
+1,4,290,300,10,11,1,no,3,,"And added to the gall. O Lear, Lear, Lear!"
+1,4,290,300,10,11,1,no,4,,"Beat at this gate, that let thy folly in,"
+1,4,290,300,10,11,1,no,5,,"And thy dear judgement out! Go, go, my people."
+1,4,290,300,10,11,1,no,6,,"My lord, I am guiltless, as I am ignorant"
+1,4,290,300,10,11,1,no,7,,Of what hath moved you.
+1,4,290,300,10,11,1,no,8,,"It may be so, my lord."
+1,4,290,300,10,11,1,no,9,,"Hear, nature, hear; dear goddess, hear!"
+1,4,290,300,10,11,1,no,10,,"Suspend thy purpose, if thou didst intend"
+1,4,290,300,10,11,1,no,11,300,To make this creature fruitful!
+1,4,300,310,10,10,0,yes,,,
+1,4,310,320,10,11,1,no,1,,How sharper than a serpent's tooth it is
+1,4,310,320,10,11,1,no,2,,"To have a thankless child! Away, away!"
+1,4,310,320,10,11,1,no,3,,"Now, gods that we adore,"
+1,4,310,320,10,11,1,no,4,,Never afflict yourself to know the cause;
+1,4,310,320,10,11,1,no,5,,But let this disposition have that scope
+1,4,310,320,10,11,1,no,6,,That dotage gives it.
+1,4,310,320,10,11,1,no,7,,"What, fifty of my followers at a clap!"
+1,4,310,320,10,11,1,no,8,,Within a fortnight!
+1,4,310,320,10,11,1,no,9,,"What's the matter, sir?"
+1,4,310,320,10,11,1,no,10,,I'll tell thee:
+1,4,310,320,10,11,1,no,11,320,That thou hast power to shake my manhood thus;
+1,4,320,329,9,10,1,no,1,,"That these hot tears, which break from me perforce,"
+1,4,320,329,9,10,1,no,2,,Should make thee worth them.
+1,4,320,329,9,10,1,no,3,,The untented woundings of a father's curse
+1,4,320,329,9,10,1,no,4,,"Pierce every sense about thee! Old fond eyes,"
+1,4,320,329,9,10,1,no,5,,"Beweep this cause again, I'll pluck ye out,"
+1,4,320,329,9,10,1,no,6,,"And cast you, with the waters that you lose,"
+1,4,320,329,9,10,1,no,7,,"To temper clay. Yea, is it come to this?"
+1,4,320,329,9,10,1,no,8,,Let it be so:
+1,4,320,329,9,10,1,no,9,,"Who, I am sure, is kind and comfortable:"
+1,4,320,329,9,10,1,no,10,329,"When she shall hear this of thee, with her"
+1,4,329,331,2,2,0,yes,,,
+1,4,331,340,9,8,-1,no,1,,That I'll resume the shape which thou dost think
+1,4,331,340,9,8,-1,no,2,,"I have cast off for ever: thou shalt, I warrant thee."
+1,4,331,340,9,8,-1,no,3,,"Do you mark that, my lord?"
+1,4,331,340,9,8,-1,no,4,,"I cannot be so partial, Goneril."
+1,4,331,340,9,8,-1,no,5,,"To the great love I bear you,--"
+1,4,331,340,9,8,-1,no,6,,"Pray you, content. What, Oswald, ho!"
+1,4,331,340,9,8,-1,no,7,,"You, sir, more knave than fool, after your master."
+1,4,331,340,9,8,-1,no,8,340,"Nuncle Lear, nuncle Lear,"
+1,4,340,360,20,23,3,no,1,,take the fool with thee.
+1,4,340,360,20,23,3,no,2,,"A fox, when one has caught her,"
+1,4,340,360,20,23,3,no,3,,"And such a daughter,"
+1,4,340,360,20,23,3,no,4,,"Should sure to the slaughter,"
+1,4,340,360,20,23,3,no,5,,If my cap would buy a halter:
+1,4,340,360,20,23,3,no,6,,So the fool follows after.
+1,4,340,360,20,23,3,no,7,,This man hath had good counsel:--
+1,4,340,360,20,23,3,no,8,,'Tis politic and safe to let him keep
+1,4,340,360,20,23,3,no,9,,"At point a hundred knights: yes, that, on every dream,"
+1,4,340,360,20,23,3,no,10,,"Each buzz, each fancy, each complaint, dislike,"
+1,4,340,360,20,23,3,no,11,,"He may enguard his dotage with their powers,"
+1,4,340,360,20,23,3,no,12,,"And hold our lives in mercy. Oswald, I say!"
+1,4,340,360,20,23,3,no,13,,"Well, you may fear too far."
+1,4,340,360,20,23,3,no,14,,Safer than trust too far:
+1,4,340,360,20,23,3,no,15,,"Let me still take away the harms I fear,"
+1,4,340,360,20,23,3,no,16,,Not fear still to be taken: I know his heart.
+1,4,340,360,20,23,3,no,17,,What he hath utter'd I have writ my sister:
+1,4,340,360,20,23,3,no,18,,"If she sustain him and his hundred knights,"
+1,4,340,360,20,23,3,no,19,,"When I have show'd the unfitness,--"
+1,4,340,360,20,23,3,no,20,,"How now, Oswald!"
+1,4,340,360,20,23,3,no,21,,"What, have you writ that letter to my sister?"
+1,4,340,360,20,23,3,no,22,,"Yes, madam."
+1,4,340,360,20,23,3,no,23,360,"Take you some company, and away to horse:"
+1,4,360,370,10,10,0,yes,,,
+1,5,10,20,10,11,1,no,1,,"Ay, boy."
+1,5,10,20,10,11,1,no,2,,"Then, I prithee, be merry; thy wit"
+1,5,10,20,10,11,1,no,3,,shall ne'er go
+1,5,10,20,10,11,1,no,4,,"Ha, ha, ha!"
+1,5,10,20,10,11,1,no,5,,Shalt see thy other daughter will use
+1,5,10,20,10,11,1,no,6,,thee kindly;
+1,5,10,20,10,11,1,no,7,,crab's like an
+1,5,10,20,10,11,1,no,8,,tell.
+1,5,10,20,10,11,1,no,9,,"Why, what canst thou tell, my boy?"
+1,5,10,20,10,11,1,no,10,,She will taste as like this as a crab
+1,5,10,20,10,11,1,no,11,20,does to a
+1,5,20,30,10,10,0,yes,,,
+1,5,30,40,10,10,0,yes,,,
+1,5,40,50,10,10,0,yes,,,
+2,1,10,20,10,10,0,yes,,,
+2,1,20,40,20,21,1,no,1,,"Which I must act: briefness and fortune, work!"
+2,1,20,40,20,21,1,no,2,,"Brother, a word; descend, brother, I say!"
+2,1,20,40,20,21,1,no,3,,"My father watches: O sir, fly this place;"
+2,1,20,40,20,21,1,no,4,,Intelligence is given where you are hid;
+2,1,20,40,20,21,1,no,5,,You have now the good advantage of the night:
+2,1,20,40,20,21,1,no,6,,Have you not spoken 'gainst the Duke of Cornwall?
+2,1,20,40,20,21,1,no,7,,"He's coming hither; now, i' the night, i' the haste,"
+2,1,20,40,20,21,1,no,8,,And Regan with him: have you nothing said
+2,1,20,40,20,21,1,no,9,,Upon his part 'gainst the Duke of Albany?
+2,1,20,40,20,21,1,no,10,,Advise yourself.
+2,1,20,40,20,21,1,no,11,,"I am sure on't, not a word."
+2,1,20,40,20,21,1,no,12,,I hear my father coming: pardon me;
+2,1,20,40,20,21,1,no,13,,In cunning I must draw my sword upon you:
+2,1,20,40,20,21,1,no,14,,Draw; seem to defend yourself;
+2,1,20,40,20,21,1,no,15,,"Yield: come before my father. Light, ho, here!"
+2,1,20,40,20,21,1,no,16,,"Fly, brother. Torches, torches! So, farewell."
+2,1,20,40,20,21,1,no,17,,Some blood drawn on me would beget opinion
+2,1,20,40,20,21,1,no,18,,Of my more fierce endeavor; I have seen drunkards
+2,1,20,40,20,21,1,no,19,,"Do more than this in sport. Father, father!"
+2,1,20,40,20,21,1,no,20,,"Stop, stop! No help?"
+2,1,20,40,20,21,1,no,21,40,"Now, Edmund, where's the villain?"
+2,1,40,51,11,13,2,no,1,,"Here stood he in the dark, his sharp sword out,"
+2,1,40,51,11,13,2,no,2,,"Mumbling of wicked charms, conjuring the moon"
+2,1,40,51,11,13,2,no,3,,"To stand auspicious mistress,--"
+2,1,40,51,11,13,2,no,4,,But where is he?
+2,1,40,51,11,13,2,no,5,,"Look, sir, I bleed."
+2,1,40,51,11,13,2,no,6,,"Where is the villain, Edmund?"
+2,1,40,51,11,13,2,no,7,,"Fled this way, sir. When by no means he could--"
+2,1,40,51,11,13,2,no,8,,"Pursue him, ho! Go after."
+2,1,40,51,11,13,2,no,9,,Persuade me to the murder of your lordship;
+2,1,40,51,11,13,2,no,10,,"But I told him, the revenging gods"
+2,1,40,51,11,13,2,no,11,,'Gainst parricides did all their thunders bend;
+2,1,40,51,11,13,2,no,12,,"Spoke, with how manifold and strong a bond"
+2,1,40,51,11,13,2,no,13,51,"The child was bound to the father; sir, in fine,"
+2,1,51,60,9,11,2,no,1,,Seeing how loathly opposite I stood
+2,1,51,60,9,11,2,no,2,,"To his unnatural purpose, in fell motion,"
+2,1,51,60,9,11,2,no,3,,"With his prepared sword, he charges home"
+2,1,51,60,9,11,2,no,4,,"My unprovided body, lanced mine arm:"
+2,1,51,60,9,11,2,no,5,,"But when he saw my best alarum'd spirits,"
+2,1,51,60,9,11,2,no,6,,"Bold in the quarrel's right, roused to the en-"
+2,1,51,60,9,11,2,no,7,,"counter,"
+2,1,51,60,9,11,2,no,8,,"Or whether gasted by the noise I made,"
+2,1,51,60,9,11,2,no,9,,Full suddenly he fled.
+2,1,51,60,9,11,2,no,10,,Let him fly far:
+2,1,51,60,9,11,2,no,11,60,Not in this land shall he remain uncaught;
+2,1,60,71,11,11,0,yes,,,
+2,1,71,90,19,20,1,no,1,,"Of any trust, virtue, or worth in thee"
+2,1,71,90,19,20,1,no,2,,"Make thy words faith'd? No: what I should deny,--"
+2,1,71,90,19,20,1,no,3,,"As this I would; ay, though thou didst produce"
+2,1,71,90,19,20,1,no,4,,"My very character,--I'ld turn it all"
+2,1,71,90,19,20,1,no,5,,"To thy suggestion, plot, and damned practice:"
+2,1,71,90,19,20,1,no,6,,"And thou must make a dullard of the world,"
+2,1,71,90,19,20,1,no,7,,If they not thought the profits of my death
+2,1,71,90,19,20,1,no,8,,Were very pregnant and potential spurs
+2,1,71,90,19,20,1,no,9,,To make thee seek it.'
+2,1,71,90,19,20,1,no,10,,Strong and fasten'd villain!
+2,1,71,90,19,20,1,no,11,,Would he deny his letter? I never got him.
+2,1,71,90,19,20,1,no,12,,"Hark, the duke's trumpets! I know not why he comes."
+2,1,71,90,19,20,1,no,13,,All ports I'll bar; the villain shall not 'scape;
+2,1,71,90,19,20,1,no,14,,"The duke must grant me that: besides, his picture"
+2,1,71,90,19,20,1,no,15,,"I will send far and near, that all the kingdom"
+2,1,71,90,19,20,1,no,16,,"May have due note of him; and of my land,"
+2,1,71,90,19,20,1,no,17,,"Loyal and natural boy, I'll work the means"
+2,1,71,90,19,20,1,no,18,,To make thee capable.
+2,1,71,90,19,20,1,no,19,,"How now, my noble friend! since I came hither,"
+2,1,71,90,19,20,1,no,20,90,"Which I can call but now, I have heard strange news,"
+2,1,90,100,10,10,0,yes,,,
+2,1,100,120,20,24,4,no,1,,"No marvel, then, though he were ill affected:"
+2,1,100,120,20,24,4,no,2,,"'Tis they have put him on the old man's death,"
+2,1,100,120,20,24,4,no,3,,To have the expense and waste of his revenues.
+2,1,100,120,20,24,4,no,4,,I have this present evening from my sister
+2,1,100,120,20,24,4,no,5,,"Been well inform'd of them; and with such cautions,"
+2,1,100,120,20,24,4,no,6,,"That if they come to sojourn at my house,"
+2,1,100,120,20,24,4,no,7,,"I'll not be there,"
+2,1,100,120,20,24,4,no,8,,"Nor I, I assure thee, Regan."
+2,1,100,120,20,24,4,no,9,,"Edmund, I hear that you have shown your father"
+2,1,100,120,20,24,4,no,10,,A child-like office.
+2,1,100,120,20,24,4,no,11,,"'Twas my duty, sir."
+2,1,100,120,20,24,4,no,12,,He did bewray his practice; and received
+2,1,100,120,20,24,4,no,13,,"This hurt you see, striving to apprehend him."
+2,1,100,120,20,24,4,no,14,,"Ay, my good lord."
+2,1,100,120,20,24,4,no,15,,"If he be taken, he shall never more"
+2,1,100,120,20,24,4,no,16,,"Be fear'd of doing harm: make your own purpose,"
+2,1,100,120,20,24,4,no,17,,"How in my strength you please. For you, Edmund,"
+2,1,100,120,20,24,4,no,18,,Whose virtue and obedience doth this instant
+2,1,100,120,20,24,4,no,19,,"So much commend itself, you shall be ours:"
+2,1,100,120,20,24,4,no,20,,Natures of such deep trust we shall much need;
+2,1,100,120,20,24,4,no,21,,You we first seize on.
+2,1,100,120,20,24,4,no,22,,"I shall serve you, sir,"
+2,1,100,120,20,24,4,no,23,,"Truly, however else."
+2,1,100,120,20,24,4,no,24,120,For him I thank your grace.
+2,1,120,130,10,13,3,no,1,,"You know not why we came to visit you,--"
+2,1,120,130,10,13,3,no,2,,"Thus out of season, threading dark-"
+2,1,120,130,10,13,3,no,3,,eyed night:
+2,1,120,130,10,13,3,no,4,,"Occasions, noble Gloucester, of some poise,"
+2,1,120,130,10,13,3,no,5,,Wherein we must have use of your advice:
+2,1,120,130,10,13,3,no,6,,"Our father he hath writ, so hath our sister,"
+2,1,120,130,10,13,3,no,7,,"Of differences, which I least thought it fit"
+2,1,120,130,10,13,3,no,8,,To answer from our home; the several mes-
+2,1,120,130,10,13,3,no,9,,sengers
+2,1,120,130,10,13,3,no,10,,"From hence attend dispatch. Our good old friend,"
+2,1,120,130,10,13,3,no,11,,Lay comforts to your bosom; and bestow
+2,1,120,130,10,13,3,no,12,,"Your needful counsel to our business,"
+2,1,120,130,10,13,3,no,13,130,Which craves the instant use.
+2,2,10,29,19,19,0,yes,,,
+2,2,29,51,22,25,3,no,1,,of thee nor
+2,2,29,51,22,25,3,no,2,,"What a brazen-faced varlet art thou,"
+2,2,29,51,22,25,3,no,3,,to deny
+2,2,29,51,22,25,3,no,4,,since I tripped up thy
+2,2,29,51,22,25,3,no,5,,"the king? Draw, you rogue:"
+2,2,29,51,22,25,3,no,6,,"it be night, yet the moon shines; I'll make a"
+2,2,29,51,22,25,3,no,7,,"sop o' the moonshine of you: draw, you"
+2,2,29,51,22,25,3,no,8,,whoreson cullionly
+2,2,29,51,22,25,3,no,9,,Away! I have nothing to do with
+2,2,29,51,22,25,3,no,10,,thee.
+2,2,29,51,22,25,3,no,11,,"Draw, you rascal: you come with"
+2,2,29,51,22,25,3,no,12,,letters against
+2,2,29,51,22,25,3,no,13,,puppet's part against
+2,2,29,51,22,25,3,no,14,,"draw, you rogue, or"
+2,2,29,51,22,25,3,no,15,,"your shanks: draw, you rascal; come"
+2,2,29,51,22,25,3,no,16,,ways.
+2,2,29,51,22,25,3,no,17,,"Help, ho! murder! help!"
+2,2,29,51,22,25,3,no,18,,"Strike, you slave; stand, rogue,"
+2,2,29,51,22,25,3,no,19,,stand; you neat
+2,2,29,51,22,25,3,no,20,,"Help, ho! murder! murder!"
+2,2,29,51,22,25,3,no,21,,How now! What's the matter?
+2,2,29,51,22,25,3,no,22,,"With you, goodman boy, an you"
+2,2,29,51,22,25,3,no,23,,"please: come,"
+2,2,29,51,22,25,3,no,24,,master.
+2,2,29,51,22,25,3,no,25,51,Weapons! arms! What's the matter
+2,2,51,60,9,8,-1,no,1,,here?
+2,2,51,60,9,8,-1,no,2,,"Keep peace, upon your lives:"
+2,2,51,60,9,8,-1,no,3,,He dies that strikes
+2,2,51,60,9,8,-1,no,4,,The messengers from our sister and the king.
+2,2,51,60,9,8,-1,no,5,,What is your difference? speak.
+2,2,51,60,9,8,-1,no,6,,"I am scarce in breath, my lord."
+2,2,51,60,9,8,-1,no,7,,"No marvel, you have so bestirred"
+2,2,51,60,9,8,-1,no,8,60,your valour.
+2,2,60,80,20,19,-1,no,1,,in thee: a tailor
+2,2,60,80,20,19,-1,no,2,,Thou art a strange fellow: a tailor make a man?
+2,2,60,80,20,19,-1,no,3,,"Ay, a tailor, sir: a stone-cutter or a"
+2,2,60,80,20,19,-1,no,4,,painter could
+2,2,60,80,20,19,-1,no,5,,though he had been but two
+2,2,60,80,20,19,-1,no,6,,"Speak yet, how grew your quarrel?"
+2,2,60,80,20,19,-1,no,7,,"This ancient ruffian, sir, whose life I"
+2,2,60,80,20,19,-1,no,8,,have spared
+2,2,60,80,20,19,-1,no,9,,Thou whoreson zed! thou unnecessary
+2,2,60,80,20,19,-1,no,10,,letter!
+2,2,60,80,20,19,-1,no,11,,"leave, I will tread this unbolted"
+2,2,60,80,20,19,-1,no,12,,"mortar, and daub the walls of a"
+2,2,60,80,20,19,-1,no,13,,"him. Spare my gray beard, you wagtail?"
+2,2,60,80,20,19,-1,no,14,,"Peace, sirrah!"
+2,2,60,80,20,19,-1,no,15,,"You beastly knave, know you no reverence?"
+2,2,60,80,20,19,-1,no,16,,"Yes, sir; but anger hath a privilege."
+2,2,60,80,20,19,-1,no,17,,Why art thou angry?
+2,2,60,80,20,19,-1,no,18,,"That such a slave as this should wear a sword,"
+2,2,60,80,20,19,-1,no,19,80,"Who wears no honesty. Such smelling rogues as these,"
+2,2,80,90,10,10,0,yes,,,
+2,2,90,100,10,11,1,no,1,,I'ld drive ye cackling home to Camelot.
+2,2,90,100,10,11,1,no,2,,"What, art thou mad, old fellow?"
+2,2,90,100,10,11,1,no,3,,How fell you out? say that.
+2,2,90,100,10,11,1,no,4,,No contraries hold more antipathy
+2,2,90,100,10,11,1,no,5,,Than I and such a knave.
+2,2,90,100,10,11,1,no,6,,Why dost thou call him a knave?
+2,2,90,100,10,11,1,no,7,,What's his offence?
+2,2,90,100,10,11,1,no,8,,His countenance likes me not.
+2,2,90,100,10,11,1,no,9,,"No more, perchance, does mine, nor his, nor hers."
+2,2,90,100,10,11,1,no,10,,"Sir, 'tis my occupation to be plain:"
+2,2,90,100,10,11,1,no,11,100,I have seen better faces in my time
+2,2,100,110,10,12,2,no,1,,Than stands on any shoulder that I see
+2,2,100,110,10,12,2,no,2,,Before me at this instant.
+2,2,100,110,10,12,2,no,3,,"This is some fellow,"
+2,2,100,110,10,12,2,no,4,,"Who, having been praised for bluntness, doth affect"
+2,2,100,110,10,12,2,no,5,,"A saucy roughness, and constrains the garb"
+2,2,100,110,10,12,2,no,6,,"Quite from his nature: he cannot flatter, he,"
+2,2,100,110,10,12,2,no,7,,"An honest mind and plain, he must speak"
+2,2,100,110,10,12,2,no,8,,truth!
+2,2,100,110,10,12,2,no,9,,"An they will take it, so; if not, he's plain:"
+2,2,100,110,10,12,2,no,10,,"These kind of knaves I know, which in this plainness"
+2,2,100,110,10,12,2,no,11,,Harbour more craft and more corrupter ends
+2,2,100,110,10,12,2,no,12,110,Than twenty silly ducking observants
+2,2,110,130,20,22,2,no,1,,That stretch their duties nicely.
+2,2,110,130,20,22,2,no,2,,"Sir, in good sooth, in sincere verity,"
+2,2,110,130,20,22,2,no,3,,"Under the allowance of your great aspect,"
+2,2,110,130,20,22,2,no,4,,"Whose influence, like the wreath of radiant fire"
+2,2,110,130,20,22,2,no,5,,"On flickering Phoebus' front,--"
+2,2,110,130,20,22,2,no,6,,What mean'st by this?
+2,2,110,130,20,22,2,no,7,,"To go out of my dialect, which you"
+2,2,110,130,20,22,2,no,8,,discommend
+2,2,110,130,20,22,2,no,9,,flatterer: he that beguiled
+2,2,110,130,20,22,2,no,10,,was a plain knave; which
+2,2,110,130,20,22,2,no,11,,"I will not be, though I should win your"
+2,2,110,130,20,22,2,no,12,,to entreat me to't.
+2,2,110,130,20,22,2,no,13,,What was the offence you gave him?
+2,2,110,130,20,22,2,no,14,,I never gave him any:
+2,2,110,130,20,22,2,no,15,,It pleased the king his master very late
+2,2,110,130,20,22,2,no,16,,"To strike at me, upon his misconstruction;"
+2,2,110,130,20,22,2,no,17,,"When he, conjunct, and flattering his dis-"
+2,2,110,130,20,22,2,no,18,,"pleasure,"
+2,2,110,130,20,22,2,no,19,,"Tripp'd me behind; being down, insulted, rail'd,"
+2,2,110,130,20,22,2,no,20,,"And put upon him such a deal of man,"
+2,2,110,130,20,22,2,no,21,,"That worthied him, got praises of the king"
+2,2,110,130,20,22,2,no,22,130,For him attempting who was self-subdued;
+2,2,130,140,10,13,3,no,1,,"And, in the fleshment of this dread exploit,"
+2,2,130,140,10,13,3,no,2,,Drew on me here again.
+2,2,130,140,10,13,3,no,3,,None of these rogues and cowards
+2,2,130,140,10,13,3,no,4,,But Ajax is their fool.
+2,2,130,140,10,13,3,no,5,,Fetch forth the stocks!
+2,2,130,140,10,13,3,no,6,,"You stubborn ancient knave, you reverend braggart,"
+2,2,130,140,10,13,3,no,7,,We'll teach you--
+2,2,130,140,10,13,3,no,8,,"Sir, I am too old to learn:"
+2,2,130,140,10,13,3,no,9,,Call not for your stocks for me: I serve the king;
+2,2,130,140,10,13,3,no,10,,On whose employment I was sent to you:
+2,2,130,140,10,13,3,no,11,,"You shall do small respect, show too bold malice"
+2,2,130,140,10,13,3,no,12,,"Against the grace and person of my master,"
+2,2,130,140,10,13,3,no,13,140,Stocking his messenger.
+2,2,140,149,9,10,1,no,1,,"Fetch forth the stocks! As I have life and honor,"
+2,2,140,149,9,10,1,no,2,,There shall he sit till noon.
+2,2,140,149,9,10,1,no,3,,"Till noon! till night, my lord; and all night too."
+2,2,140,149,9,10,1,no,4,,"Why, madam, if I were your father's dog,"
+2,2,140,149,9,10,1,no,5,,You should not use me so.
+2,2,140,149,9,10,1,no,6,,"Sir, being his knave, I will."
+2,2,140,149,9,10,1,no,7,,This is a fellow of the self-same color
+2,2,140,149,9,10,1,no,8,,"Our sister speaks of. Come, bring away the stocks!"
+2,2,140,149,9,10,1,no,9,,Let me beseech your grace not to do so:
+2,2,140,149,9,10,1,no,10,149,"His fault is much, and"
+2,2,149,161,12,13,1,no,1,,Will check him for't: your purposed low correction
+2,2,149,161,12,13,1,no,2,,Is such as basest and contemned'st wretches
+2,2,149,161,12,13,1,no,3,,For pilferings and most common trespasses
+2,2,149,161,12,13,1,no,4,,"Are punish'd with: the king must take it ill,"
+2,2,149,161,12,13,1,no,5,,That he's so slightly valued in his messenger.
+2,2,149,161,12,13,1,no,6,,Should have him thus restrain'd.
+2,2,149,161,12,13,1,no,7,,I'll answer that.
+2,2,149,161,12,13,1,no,8,,"My sister may receive it much more worse,"
+2,2,149,161,12,13,1,no,9,,"To have her gentleman abused, assaulted,"
+2,2,149,161,12,13,1,no,10,,For following her affairs. Put in his legs.
+2,2,149,161,12,13,1,no,11,,"Come, my good lord, away."
+2,2,149,161,12,13,1,no,12,,"I am sorry for thee, friend; 'tis the duke's pleasure,"
+2,2,149,161,12,13,1,no,13,161,"Whose disposition, all the world well knows,"
+2,2,161,171,10,10,0,yes,,,
+2,2,171,179,8,9,1,no,1,,That by thy comfortable beams I may
+2,2,171,179,8,9,1,no,2,,Peruse this letter! Nothing almost sees miracles
+2,2,171,179,8,9,1,no,3,,"But misery: I know 'tis from Cordelia,"
+2,2,171,179,8,9,1,no,4,,Who hath most fortunately been inform'd
+2,2,171,179,8,9,1,no,5,,Of my obscured course; and shall find time
+2,2,171,179,8,9,1,no,6,,"From this enormous state, seeking to give"
+2,2,171,179,8,9,1,no,7,,Losses their remedies. All weary and o'er-
+2,2,171,179,8,9,1,no,8,,"watch'd,"
+2,2,171,179,8,9,1,no,9,179,"Take vantage, heavy eyes, not to behold"
+2,3,11,20,9,9,0,yes,,,
+2,4,11,20,9,10,1,no,1,,then he wears wooden nether-stocks.
+2,4,11,20,9,10,1,no,2,,What's he
+2,4,11,20,9,10,1,no,3,,To set thee here?
+2,4,11,20,9,10,1,no,4,,It is both he and she;
+2,4,11,20,9,10,1,no,5,,Your son and daughter.
+2,4,11,20,9,10,1,no,6,,No.
+2,4,11,20,9,10,1,no,7,,Yes.
+2,4,11,20,9,10,1,no,8,,"No, I say."
+2,4,11,20,9,10,1,no,9,,"I say, yea."
+2,4,11,20,9,10,1,no,10,20,"No, no, they would not."
+2,4,20,31,11,13,2,no,1,,"Yes, they have."
+2,4,20,31,11,13,2,no,2,,"By Jupiter, I swear, no."
+2,4,20,31,11,13,2,no,3,,"By Juno, I swear, ay."
+2,4,20,31,11,13,2,no,4,,They durst not do't;
+2,4,20,31,11,13,2,no,5,,"They could not, would not do't; 'tis worse than murder,"
+2,4,20,31,11,13,2,no,6,,To do upon respect such violent outrage:
+2,4,20,31,11,13,2,no,7,,"Resolve me, with all modest haste, which way"
+2,4,20,31,11,13,2,no,8,,"Thou might'st deserve, or they impose, this usage,"
+2,4,20,31,11,13,2,no,9,,Coming from us.
+2,4,20,31,11,13,2,no,10,,"My lord, when at their home"
+2,4,20,31,11,13,2,no,11,,"I did commend your highness' letters to them,"
+2,4,20,31,11,13,2,no,12,,Ere I was risen from the place that show'd
+2,4,20,31,11,13,2,no,13,31,"My duty kneeling, came there a reeking post,"
+2,4,31,40,9,9,0,yes,,,
+2,4,40,50,10,9,-1,no,1,,Being the very fellow that of late
+2,4,40,50,10,9,-1,no,2,,"Display'd so saucily against your highness,--"
+2,4,40,50,10,9,-1,no,3,,"Having more man than wit about me, drew:"
+2,4,40,50,10,9,-1,no,4,,He raised the house with loud and coward cries.
+2,4,40,50,10,9,-1,no,5,,Your son and daughter found this trespass worth
+2,4,40,50,10,9,-1,no,6,,The shame which here it suffers.
+2,4,40,50,10,9,-1,no,7,,"Winter's not gone yet, if the wild-geese"
+2,4,40,50,10,9,-1,no,8,,fly that way.
+2,4,40,50,10,9,-1,no,9,50,Do make their children blind;
+2,4,50,80,30,33,3,no,1,,But fathers that bear bags
+2,4,50,80,30,33,3,no,2,,Shall see their children kind.
+2,4,50,80,30,33,3,no,3,,"Fortune, that arrant whore,"
+2,4,50,80,30,33,3,no,4,,Ne'er turns the key to the poor.
+2,4,50,80,30,33,3,no,5,,"But, for all this, thou shalt have as many dolours"
+2,4,50,80,30,33,3,no,6,,for thy
+2,4,50,80,30,33,3,no,7,,year.
+2,4,50,80,30,33,3,no,8,,"O, how this mother swells up toward my heart!"
+2,4,50,80,30,33,3,no,9,,"Hysterica passio, down, thou climbing sorrow,"
+2,4,50,80,30,33,3,no,10,,Thy element's below! Where is this daughter?
+2,4,50,80,30,33,3,no,11,,"With the earl, sir, here within."
+2,4,50,80,30,33,3,no,12,,Follow me not;
+2,4,50,80,30,33,3,no,13,,Stay here.
+2,4,50,80,30,33,3,no,14,,Made you no more offence
+2,4,50,80,30,33,3,no,15,,you speak of?
+2,4,50,80,30,33,3,no,16,,None.
+2,4,50,80,30,33,3,no,17,,How chance the king comes with so small a train?
+2,4,50,80,30,33,3,no,18,,An thou hadst been set i' the stocks
+2,4,50,80,30,33,3,no,19,,for that
+2,4,50,80,30,33,3,no,20,,"Why, fool?"
+2,4,50,80,30,33,3,no,21,,"We'll set thee to school to an ant, to"
+2,4,50,80,30,33,3,no,22,,teach
+2,4,50,80,30,33,3,no,23,,All that follow their
+2,4,50,80,30,33,3,no,24,,eyes but blind men; and there's
+2,4,50,80,30,33,3,no,25,,among twenty but can smell him that's stinking.
+2,4,50,80,30,33,3,no,26,,Let go thy hold when a great wheel runs
+2,4,50,80,30,33,3,no,27,,down a
+2,4,50,80,30,33,3,no,28,,it; but the
+2,4,50,80,30,33,3,no,29,,"hill, let him draw thee after."
+2,4,50,80,30,33,3,no,30,,"man gives thee better counsel, give me mine"
+2,4,50,80,30,33,3,no,31,,again: I would have none but knaves follow
+2,4,50,80,30,33,3,no,32,,"it, since a"
+2,4,50,80,30,33,3,no,33,80,"That which serves and seeks for gain,"
+2,4,80,91,11,11,0,yes,,,
+2,4,91,100,9,11,2,no,1,,The images of revolt and flying off.
+2,4,91,100,9,11,2,no,2,,Fetch me a better answer.
+2,4,91,100,9,11,2,no,3,,"My dear lord,"
+2,4,91,100,9,11,2,no,4,,You know the fiery quality of the duke;
+2,4,91,100,9,11,2,no,5,,How unremoveable and fix'd he is
+2,4,91,100,9,11,2,no,6,,In his own course.
+2,4,91,100,9,11,2,no,7,,Vengeance! plague! death! confusion!
+2,4,91,100,9,11,2,no,8,,"Fiery? what quality? Why, Gloucester, Gloucester,"
+2,4,91,100,9,11,2,no,9,,I'll speak with the Duke of Cornwall and his wife.
+2,4,91,100,9,11,2,no,10,,"Well, my good lord, I have inform'd them so."
+2,4,91,100,9,11,2,no,11,100,Inform'd them! Dost thou under-
+2,4,100,110,10,10,0,yes,,,
+2,4,110,120,10,10,0,yes,,,
+2,4,120,130,10,11,1,no,1,,Till it cry sleep to death.
+2,4,120,130,10,11,1,no,2,,I would have all well betwixt you.
+2,4,120,130,10,11,1,no,3,,"O me, my heart, my rising heart! but, down!"
+2,4,120,130,10,11,1,no,4,,"Cry to it, uncle, as the cockney did"
+2,4,120,130,10,11,1,no,5,,to the
+2,4,120,130,10,11,1,no,6,,she knapped 'em
+2,4,120,130,10,11,1,no,7,,"and cried 'Down, wantons,"
+2,4,120,130,10,11,1,no,8,,"brother that, in pure kindness to his"
+2,4,120,130,10,11,1,no,9,,buttered his hay.
+2,4,120,130,10,11,1,no,10,,Good morrow to you both.
+2,4,120,130,10,11,1,no,11,130,Hail to your grace.
+2,4,130,140,10,10,0,yes,,,
+2,4,140,149,9,11,2,no,1,,"I pray you, sir, take patience: I have hope"
+2,4,140,149,9,11,2,no,2,,You less know how to value her desert
+2,4,140,149,9,11,2,no,3,,Than she to scant her duty.
+2,4,140,149,9,11,2,no,4,,"Say, how is that?"
+2,4,140,149,9,11,2,no,5,,I cannot think my sister in the least
+2,4,140,149,9,11,2,no,6,,"Would fail her obligation: if, sir, perchance"
+2,4,140,149,9,11,2,no,7,,"She have restrain'd the riots of your followers,"
+2,4,140,149,9,11,2,no,8,,"'Tis on such ground, and to such wholesome end,"
+2,4,140,149,9,11,2,no,9,,As clears her from all blame.
+2,4,140,149,9,11,2,no,10,,My curses on her!
+2,4,140,149,9,11,2,no,11,149,"O, sir, you are old;"
+2,4,149,160,11,13,2,no,1,,Nature in you stands on the very verge
+2,4,149,160,11,13,2,no,2,,Of her confine: you should be ruled and led
+2,4,149,160,11,13,2,no,3,,"By some discretion, that discerns your state"
+2,4,149,160,11,13,2,no,4,,"Better than yourself. Therefore, I pray you,"
+2,4,149,160,11,13,2,no,5,,That to our sister you do make return;
+2,4,149,160,11,13,2,no,6,,"Say you have wrong'd her, sir."
+2,4,149,160,11,13,2,no,7,,Ask her forgiveness?
+2,4,149,160,11,13,2,no,8,,Do you but mark how this becomes the house:
+2,4,149,160,11,13,2,no,9,,"'Dear daughter, I confess that I am old;"
+2,4,149,160,11,13,2,no,10,,Age is unnecessary: on my knees I beg
+2,4,149,160,11,13,2,no,11,,"That you'll vouchsafe me raiment, bed, and food.'"
+2,4,149,160,11,13,2,no,12,,"Good sir, no more; these are unsightly tricks:"
+2,4,149,160,11,13,2,no,13,160,Return you to my sister.
+2,4,160,170,10,11,1,no,1,,[Rising]
+2,4,160,170,10,11,1,no,2,,She hath abated me of half my train;
+2,4,160,170,10,11,1,no,3,,"Look'd black upon me; struck me with her tongue,"
+2,4,160,170,10,11,1,no,4,,"Most serpent-like, upon the very heart:"
+2,4,160,170,10,11,1,no,5,,All the stored vengeances of heaven fall
+2,4,160,170,10,11,1,no,6,,"On her ingrateful top! Strike her young bones,"
+2,4,160,170,10,11,1,no,7,,"You taking airs, with lameness!"
+2,4,160,170,10,11,1,no,8,,"Fie, sir, fie!"
+2,4,160,170,10,11,1,no,9,,"You nimble lightnings, dart your blinding flames"
+2,4,160,170,10,11,1,no,10,,"Into her scornful eyes! Infect her beauty,"
+2,4,160,170,10,11,1,no,11,170,"You fen-suck'd fogs, drawn by the powerful sun,"
+2,4,170,181,11,11,0,yes,,,
+2,4,181,191,10,14,4,no,1,,"The offices of nature, bond of childhood,"
+2,4,181,191,10,14,4,no,2,,"Effects of courtesy, dues of gratitude;"
+2,4,181,191,10,14,4,no,3,,Thy half o' the kingdom hast thou not forgot
+2,4,181,191,10,14,4,no,4,,Wherein I thee endow'd.
+2,4,181,191,10,14,4,no,5,,"Good sir, to the purpose."
+2,4,181,191,10,14,4,no,6,,Who put my man i' the stocks?
+2,4,181,191,10,14,4,no,7,,What trumpet's that?
+2,4,181,191,10,14,4,no,8,,"I know't, my sister's: this approves her letter,"
+2,4,181,191,10,14,4,no,9,,That she would soon be here.
+2,4,181,191,10,14,4,no,10,,Is your lady come?
+2,4,181,191,10,14,4,no,11,,"This is a slave, whose easy-borrow'd pride"
+2,4,181,191,10,14,4,no,12,,Dwells in the fickle grace of her he follows.
+2,4,181,191,10,14,4,no,13,,"Out, varlet, from my sight!"
+2,4,181,191,10,14,4,no,14,191,What means your grace?
+2,4,191,201,10,11,1,no,1,,"Who stock'd my servant? Regan, I have good hope"
+2,4,191,201,10,11,1,no,2,,Thou didst not know on't.
+2,4,191,201,10,11,1,no,3,,"If you do love old men, if your sweet sway"
+2,4,191,201,10,11,1,no,4,,"Allow obedience, if yourselves are old,"
+2,4,191,201,10,11,1,no,5,,"Make it your cause; send down, and take my part!"
+2,4,191,201,10,11,1,no,6,,[To Gon.]
+2,4,191,201,10,11,1,no,7,,"O Regan, wilt thou take her by the hand?"
+2,4,191,201,10,11,1,no,8,,"Why not by the hand, sir? How have I offended?"
+2,4,191,201,10,11,1,no,9,,All's not offence that indiscretion finds
+2,4,191,201,10,11,1,no,10,,And dotage terms so.
+2,4,191,201,10,11,1,no,11,201,"O sides, you are too tough;"
+2,4,201,210,9,10,1,no,1,,Will you yet hold?
+2,4,201,210,9,10,1,no,2,,"I set him there, sir: but his own disorders"
+2,4,201,210,9,10,1,no,3,,Deserved much less advancement.
+2,4,201,210,9,10,1,no,4,,You! did you?
+2,4,201,210,9,10,1,no,5,,"I pray you, father, being weak, seem so."
+2,4,201,210,9,10,1,no,6,,"If, till the expiration of your month,"
+2,4,201,210,9,10,1,no,7,,"You will return and sojourn with my sister,"
+2,4,201,210,9,10,1,no,8,,"Dismissing half your train, come then to me:"
+2,4,201,210,9,10,1,no,9,,"I am now from home, and out of that provision"
+2,4,201,210,9,10,1,no,10,210,Which shall be needful to your entertainment.
+2,4,210,221,11,12,1,no,1,,"Return to her, and fifty men dismiss'd?"
+2,4,210,221,11,12,1,no,2,,"No, rather I abjure all roofs, and choose"
+2,4,210,221,11,12,1,no,3,,To wage against the enmity o' the air;
+2,4,210,221,11,12,1,no,4,,"To be a comrade with the wolf and owl,--"
+2,4,210,221,11,12,1,no,5,,Necessity's sharp pinch! Return with her?
+2,4,210,221,11,12,1,no,6,,"Why, the hot-blooded France, that dowerless took"
+2,4,210,221,11,12,1,no,7,,"Our youngest born, I could as well be brought"
+2,4,210,221,11,12,1,no,8,,"To knee his throne, and, squire-like, pension beg"
+2,4,210,221,11,12,1,no,9,,To keep base life afoot. Return with her?
+2,4,210,221,11,12,1,no,10,,Persuade me rather to be slave and sumpter
+2,4,210,221,11,12,1,no,11,,To this detested groom.
+2,4,210,221,11,12,1,no,12,221,"At your choice, sir."
+2,4,221,230,9,9,0,yes,,,
+2,4,230,240,10,12,2,no,1,,"I do not bid the thunder-bearer shoot,"
+2,4,230,240,10,12,2,no,2,,Nor tell tales of thee to high-judging Jove:
+2,4,230,240,10,12,2,no,3,,Mend when thou canst; be better at thy leisure:
+2,4,230,240,10,12,2,no,4,,"I can be patient; I can stay with Regan,"
+2,4,230,240,10,12,2,no,5,,I and my hundred knights.
+2,4,230,240,10,12,2,no,6,,Not altogether so:
+2,4,230,240,10,12,2,no,7,,"I look'd not for you yet, nor am provided"
+2,4,230,240,10,12,2,no,8,,"For your fit welcome. Give ear, sir, to my sister;"
+2,4,230,240,10,12,2,no,9,,For those that mingle reason with your passion
+2,4,230,240,10,12,2,no,10,,"Must be content to think you old, and so--"
+2,4,230,240,10,12,2,no,11,,But she knows what she does.
+2,4,230,240,10,12,2,no,12,240,Is this well spoken?
+2,4,240,250,10,10,0,yes,,,
+2,4,250,260,10,11,1,no,1,,"For now I spy a danger,--I entreat you"
+2,4,250,260,10,11,1,no,2,,To bring but five and twenty: to no more
+2,4,250,260,10,11,1,no,3,,Will I give place or notice.
+2,4,250,260,10,11,1,no,4,,I gave you all--
+2,4,250,260,10,11,1,no,5,,And in good time you gave it.
+2,4,250,260,10,11,1,no,6,,"Made you my guardians, my depositaries;"
+2,4,250,260,10,11,1,no,7,,But kept a reservation to be follow'd
+2,4,250,260,10,11,1,no,8,,"With such a number. What, must I come to you"
+2,4,250,260,10,11,1,no,9,,"With five and twenty, Regan? said you so?"
+2,4,250,260,10,11,1,no,10,,"And speak't again, my lord; no more with me."
+2,4,250,260,10,11,1,no,11,260,"Those wicked creatures yet do look well-favour'd,"
+2,4,260,270,10,12,2,no,1,,When others are more wicked; not being the worst
+2,4,260,270,10,12,2,no,2,,Stands in some rank of praise.
+2,4,260,270,10,12,2,no,3,,"Thy fifty yet doth double five-and-twenty,"
+2,4,260,270,10,12,2,no,4,,And thou art twice her love.
+2,4,260,270,10,12,2,no,5,,"Hear me, my lord:"
+2,4,260,270,10,12,2,no,6,,"What need you five and twenty, ten, or five,"
+2,4,260,270,10,12,2,no,7,,To follow in a house where twice so many
+2,4,260,270,10,12,2,no,8,,Have a command to tend you?
+2,4,260,270,10,12,2,no,9,,What need one?
+2,4,260,270,10,12,2,no,10,,"O, reason not the need: our basest beggars"
+2,4,260,270,10,12,2,no,11,,Are in the poorest things superfluous:
+2,4,260,270,10,12,2,no,12,270,"Allow not nature more than nature needs,"
+2,4,270,281,11,11,0,yes,,,
+2,4,281,291,10,10,0,yes,,,
+2,4,291,310,19,22,3,no,1,,This house is little: the old man and his people
+2,4,291,310,19,22,3,no,2,,Cannot be well bestow'd.
+2,4,291,310,19,22,3,no,3,,"'Tis his own blame; hath put himself from rest,"
+2,4,291,310,19,22,3,no,4,,And must needs taste his folly.
+2,4,291,310,19,22,3,no,5,,"For this particular, I'll receive him gladly,"
+2,4,291,310,19,22,3,no,6,,But not one follower.
+2,4,291,310,19,22,3,no,7,,So am I purposed.
+2,4,291,310,19,22,3,no,8,,Where is my lord of Gloucester?
+2,4,291,310,19,22,3,no,9,,Follow'd the old man forth: he is return'd.
+2,4,291,310,19,22,3,no,10,,The king is in high rage.
+2,4,291,310,19,22,3,no,11,,Whither is he going?
+2,4,291,310,19,22,3,no,12,,He calls to horse; but will I know not whither.
+2,4,291,310,19,22,3,no,13,,'Tis best to give him way; he leads himself.
+2,4,291,310,19,22,3,no,14,,"My lord, entreat him by no means to stay."
+2,4,291,310,19,22,3,no,15,,"Alack, the night comes on, and the bleak winds"
+2,4,291,310,19,22,3,no,16,,Do sorely ruffle; for many miles about
+2,4,291,310,19,22,3,no,17,,There's scarce a bush.
+2,4,291,310,19,22,3,no,18,,"O, sir, to wilful men,"
+2,4,291,310,19,22,3,no,19,,The injuries that they themselves procure
+2,4,291,310,19,22,3,no,20,,Must be their schoolmasters. Shut up your doors:
+2,4,291,310,19,22,3,no,21,,He is attended with a desperate train;
+2,4,291,310,19,22,3,no,22,310,"And what they may incense him to, being apt"
+3,1,11,20,9,11,2,no,1,,The to-and-fro-conflicting wind and rain.
+3,1,11,20,9,11,2,no,2,,"This night, wherein the cub-drawn bear would couch,"
+3,1,11,20,9,11,2,no,3,,The lion and the belly-pinched wolf
+3,1,11,20,9,11,2,no,4,,"Keep their fur dry, unbonneted he runs,"
+3,1,11,20,9,11,2,no,5,,And bids what will take all.
+3,1,11,20,9,11,2,no,6,,But who is with him?
+3,1,11,20,9,11,2,no,7,,None but the fool; who labours to out-jest
+3,1,11,20,9,11,2,no,8,,His heart-struck injuries.
+3,1,11,20,9,11,2,no,9,,"Sir, I do know you;"
+3,1,11,20,9,11,2,no,10,,"And dare, upon the warrant of my note,"
+3,1,11,20,9,11,2,no,11,20,"Commend a dear thing to you. There is division,"
+3,1,20,30,10,10,0,yes,,,
+3,1,30,40,10,10,0,yes,,,
+3,1,40,50,10,11,1,no,1,,I am a gentleman of blood and breeding;
+3,1,40,50,10,11,1,no,2,,"And, from some knowledge and assurance, offer"
+3,1,40,50,10,11,1,no,3,,This office to you.
+3,1,40,50,10,11,1,no,4,,I will talk further with you.
+3,1,40,50,10,11,1,no,5,,"No, do not."
+3,1,40,50,10,11,1,no,6,,For confirmation that I am much more
+3,1,40,50,10,11,1,no,7,,"Than my out-wall, open this purse and take"
+3,1,40,50,10,11,1,no,8,,"What it contains. If you shall see Cordelia,--"
+3,1,40,50,10,11,1,no,9,,"As fear not but you shall,--show her this ring;"
+3,1,40,50,10,11,1,no,10,,And she will tell you who your fellow is
+3,1,40,50,10,11,1,no,11,50,That yet you do not know. Fie on this storm!
+3,2,9,21,12,13,1,no,1,,That make ingrateful man!
+3,2,9,21,12,13,1,no,2,,"O nuncle, court holy-water in a dry"
+3,2,9,21,12,13,1,no,3,,house is
+3,2,9,21,12,13,1,no,4,,"Good nuncle,"
+3,2,9,21,12,13,1,no,5,,here's a night pities
+3,2,9,21,12,13,1,no,6,,nor fool.
+3,2,9,21,12,13,1,no,7,,"Rumble thy bellyful! Spit, fire! spout, rain!"
+3,2,9,21,12,13,1,no,8,,"Nor rain, wind, thunder, fire, are my daughters:"
+3,2,9,21,12,13,1,no,9,,"I tax not you, you elements with unkindness;"
+3,2,9,21,12,13,1,no,10,,"I never gave you kingdom, call'd you children,"
+3,2,9,21,12,13,1,no,11,,You owe me no subscription: then let fall
+3,2,9,21,12,13,1,no,12,,"Your horrible pleasure; here I stand, your slave,"
+3,2,9,21,12,13,1,no,13,21,"A poor, infirm, weak, and despised old man:"
+3,2,21,30,9,9,0,yes,,,
+3,2,30,41,11,11,0,yes,,,
+3,2,41,51,10,11,1,no,1,,that's a
+3,2,41,51,10,11,1,no,2,,"Alas, sir, are you here? things that love night"
+3,2,41,51,10,11,1,no,3,,Love not such nights as these; the wrathful skies
+3,2,41,51,10,11,1,no,4,,"Gallow the very wanderers of the dark,"
+3,2,41,51,10,11,1,no,5,,"And make them keep their caves: since I was man,"
+3,2,41,51,10,11,1,no,6,,"Such sheets of fire, such bursts of horrid thunder,"
+3,2,41,51,10,11,1,no,7,,"Such groans of roaring wind and rain, I never"
+3,2,41,51,10,11,1,no,8,,Remember to have heard: man's nature cannot carry
+3,2,41,51,10,11,1,no,9,,The affliction nor the fear.
+3,2,41,51,10,11,1,no,10,,"Let the great gods,"
+3,2,41,51,10,11,1,no,11,51,"That keep this dreadful pother o'er our heads,"
+3,2,51,60,9,10,1,no,1,,"Find out their enemies now. Tremble, thou wretch,"
+3,2,51,60,9,10,1,no,2,,"That hast within thee undivulged crimes,"
+3,2,51,60,9,10,1,no,3,,"Unwhipp'd of justice: hide thee, thou bloody hand;"
+3,2,51,60,9,10,1,no,4,,"Thou perjured, and thou simular man of virtue"
+3,2,51,60,9,10,1,no,5,,"That art incestuous: caitiff, to pieces shake,"
+3,2,51,60,9,10,1,no,6,,That under covert and convenient seeming
+3,2,51,60,9,10,1,no,7,,"Hast practised on man's life: close pent-up guilts,"
+3,2,51,60,9,10,1,no,8,,"Rive your concealing continents, and cry"
+3,2,51,60,9,10,1,no,9,,These dreadful summoners grace. I am a man
+3,2,51,60,9,10,1,no,10,60,More sinn'd against than sinning.
+3,2,60,70,10,11,1,no,1,,"Alack, bare-headed!"
+3,2,60,70,10,11,1,no,2,,"Gracious my lord, hard by here is a hovel;"
+3,2,60,70,10,11,1,no,3,,Some friendship will it lend you 'gainst the tempest:
+3,2,60,70,10,11,1,no,4,,Repose thou there; while I to this hard house--
+3,2,60,70,10,11,1,no,5,,More harder than the stones whereof 'tis raised;
+3,2,60,70,10,11,1,no,6,,"Which even but now, demanding after you,"
+3,2,60,70,10,11,1,no,7,,"Denied me to come in--return, and force"
+3,2,60,70,10,11,1,no,8,,Their scanted courtesy.
+3,2,60,70,10,11,1,no,9,,My wits begin to turn.
+3,2,60,70,10,11,1,no,10,,"Come on, my boy: how dost, my boy? art cold?"
+3,2,60,70,10,11,1,no,11,70,"I am cold myself. Where is this straw, my fellow?"
+3,2,70,80,10,10,0,yes,,,
+3,2,80,91,11,11,0,yes,,,
+3,4,10,20,10,11,1,no,1,,"But if thy flight lay toward the raging sea,"
+3,4,10,20,10,11,1,no,2,,"Thou'ldst meet the bear i' the mouth. When the mind's free,"
+3,4,10,20,10,11,1,no,3,,The body's delicate: the tempest in my mind
+3,4,10,20,10,11,1,no,4,,Doth from my senses take all feeling else
+3,4,10,20,10,11,1,no,5,,Save what beats there. Filial ingratitude!
+3,4,10,20,10,11,1,no,6,,Is it not as this mouth should tear this hand
+3,4,10,20,10,11,1,no,7,,For lifting food to 't? But I will punish home:
+3,4,10,20,10,11,1,no,8,,"No, I will weep no more. In such a night"
+3,4,10,20,10,11,1,no,9,,To shut me out! Pour on; I will endure.
+3,4,10,20,10,11,1,no,10,,"Tn such a night as this! O Regan, Goneril!"
+3,4,10,20,10,11,1,no,11,20,"Your old kind father, whose frank heart gave"
+3,4,20,30,10,11,1,no,1,,"all,--"
+3,4,20,30,10,11,1,no,2,,"O, that way madness lies; let me shun that;"
+3,4,20,30,10,11,1,no,3,,No more of that.
+3,4,20,30,10,11,1,no,4,,"Good my lord, enter here."
+3,4,20,30,10,11,1,no,5,,"Prithee, go in thyself; seek thine own ease:"
+3,4,20,30,10,11,1,no,6,,This tempest will not give me leave to ponder
+3,4,20,30,10,11,1,no,7,,On things would hurt me more. But I'll go in.
+3,4,20,30,10,11,1,no,8,,[To the Fool]
+3,4,20,30,10,11,1,no,9,,"Nay, get thee in. I'll pray, and then I'll sleep."
+3,4,20,30,10,11,1,no,10,,"Poor naked wretches, wheresoe'er you are,"
+3,4,20,30,10,11,1,no,11,30,"That bide the pelting of this pitiless storm,"
+3,4,30,50,20,19,-1,no,1,,"How shall your houseless heads and unfed sides,"
+3,4,30,50,20,19,-1,no,2,,"Your loop'd and window'd raggedness, defend you"
+3,4,30,50,20,19,-1,no,3,,"From seasons such as these? O, I have ta'en"
+3,4,30,50,20,19,-1,no,4,,"Too little care of this! Take physic, pomp;"
+3,4,30,50,20,19,-1,no,5,,"Expose thyself to feel what wretches feel,"
+3,4,30,50,20,19,-1,no,6,,"That thou mayst shake the superflux to them,"
+3,4,30,50,20,19,-1,no,7,,And show the heavens more just.
+3,4,30,50,20,19,-1,no,8,,"Fathom and half, fathom and half! Poor Tom! [The Fool runs o"
+3,4,30,50,20,19,-1,no,9,,"Come not in here, nuncle, here's aspirit."
+3,4,30,50,20,19,-1,no,10,,Help
+3,4,30,50,20,19,-1,no,11,,Give me thy hand. Who's there?
+3,4,30,50,20,19,-1,no,12,,"A spirit, a spirit: he says his name's"
+3,4,30,50,20,19,-1,no,13,,poor
+3,4,30,50,20,19,-1,no,14,,What art thou that dost grumble
+3,4,30,50,20,19,-1,no,15,,there i' the
+3,4,30,50,20,19,-1,no,16,,Away! the foul fiend follows me!
+3,4,30,50,20,19,-1,no,17,,Through the
+3,4,30,50,20,19,-1,no,18,,Hum! go to thy cold
+3,4,30,50,20,19,-1,no,19,50,Hast thou given all to thy two daughters?
+3,4,50,70,20,21,1,no,1,,And art
+3,4,50,70,20,21,1,no,2,,Who gives any thing to poor Tom?
+3,4,50,70,20,21,1,no,3,,whom
+3,4,50,70,20,21,1,no,4,,"through flame,"
+3,4,50,70,20,21,1,no,5,,o'er bog and quagmire;
+3,4,50,70,20,21,1,no,6,,"knives under his pillow, and halters"
+3,4,50,70,20,21,1,no,7,,pew; set ratsbane by his porridge; made him
+3,4,50,70,20,21,1,no,8,,"proud of heart, to ride on a bay trotting-horse"
+3,4,50,70,20,21,1,no,9,,over four-inched
+3,4,50,70,20,21,1,no,10,,shadow for a traitor.
+3,4,50,70,20,21,1,no,11,,"Tom's a-cold,--O, do de, do de, do de."
+3,4,50,70,20,21,1,no,12,,"thee from whirlwinds, star-blasting, and taking!"
+3,4,50,70,20,21,1,no,13,,"Do poor Tom some charity, whom the"
+3,4,50,70,20,21,1,no,14,,foul fiend
+3,4,50,70,20,21,1,no,15,,"--and there,--and there"
+3,4,50,70,20,21,1,no,16,,"What, have his daughters brought him to this pass?"
+3,4,50,70,20,21,1,no,17,,Couldst thou save nothing? Didst thou give them all?
+3,4,50,70,20,21,1,no,18,,"Nay, he reserved a blanket, else we"
+3,4,50,70,20,21,1,no,19,,had been all
+3,4,50,70,20,21,1,no,20,,"Now, all the plagues that in the pendulous air"
+3,4,50,70,20,21,1,no,21,70,Hang fated o'er men's faults light on thy
+3,4,70,101,31,32,1,no,1,,daughters!
+3,4,70,101,31,32,1,no,2,,"He hath no daughters, sir."
+3,4,70,101,31,32,1,no,3,,"Death, traitor! nothing could have subdued nature"
+3,4,70,101,31,32,1,no,4,,To such a lowness but his unkind daughters.
+3,4,70,101,31,32,1,no,5,,"Is it the fashion, that discarded fathers"
+3,4,70,101,31,32,1,no,6,,Should have thus little mercy on their flesh?
+3,4,70,101,31,32,1,no,7,,Judicious punishment! 'twas this flesh begot
+3,4,70,101,31,32,1,no,8,,Those pelican daughters.
+3,4,70,101,31,32,1,no,9,,Pillicock sat on Pillicock-hill:
+3,4,70,101,31,32,1,no,10,,"Halloo, halloo, loo, loo!"
+3,4,70,101,31,32,1,no,11,,This cold night will turn us all to
+3,4,70,101,31,32,1,no,12,,fools and
+3,4,70,101,31,32,1,no,13,,Take heed o' the foul fiend: obey
+3,4,70,101,31,32,1,no,14,,thy parents;
+3,4,70,101,31,32,1,no,15,,commit not
+3,4,70,101,31,32,1,no,16,,thy sweet heart on
+3,4,70,101,31,32,1,no,17,,What hast thou been?
+3,4,70,101,31,32,1,no,18,,"A serving-man, proud in heart and"
+3,4,70,101,31,32,1,no,19,,mind; that
+3,4,70,101,31,32,1,no,20,,my cap; served the lust
+3,4,70,101,31,32,1,no,21,,and did the act of darkness with
+3,4,70,101,31,32,1,no,22,,"as many oaths as I spake words, and broke"
+3,4,70,101,31,32,1,no,23,,them in the sweet face of heaven: one that
+3,4,70,101,31,32,1,no,24,,slept in the
+3,4,70,101,31,32,1,no,25,,"do it: wine loved I deeply, dice"
+3,4,70,101,31,32,1,no,26,,in woman out-paramoured
+3,4,70,101,31,32,1,no,27,,"heart, light of ear, bloody of hand;"
+3,4,70,101,31,32,1,no,28,,"sloth, fox in stealth, wolf in greediness, dog"
+3,4,70,101,31,32,1,no,29,,"madness, lion in prey. Let not the creaking"
+3,4,70,101,31,32,1,no,30,,of shoes
+3,4,70,101,31,32,1,no,31,,poor heart to woman:
+3,4,70,101,31,32,1,no,32,101,"brothels, thy hand out of"
+3,4,101,119,18,18,0,yes,,,
+3,4,119,130,11,12,1,no,1,,"Look, here comes a walking fire."
+3,4,119,130,11,12,1,no,2,,This is the foul fiend Flibbertigibbet:
+3,4,119,130,11,12,1,no,3,,he begins at
+3,4,119,130,11,12,1,no,4,,cock; he gives the web
+3,4,119,130,11,12,1,no,5,,"the eye, and makes the hare-lip;"
+3,4,119,130,11,12,1,no,6,,"white wheat, and hurts the poor creature"
+3,4,119,130,11,12,1,no,7,,earth.
+3,4,119,130,11,12,1,no,8,,S. Withold footed thrice the old;
+3,4,119,130,11,12,1,no,9,,"He met the night-mare, and her nine-fold;"
+3,4,119,130,11,12,1,no,10,,"Bid her alight,"
+3,4,119,130,11,12,1,no,11,,"And her troth plight,"
+3,4,119,130,11,12,1,no,12,130,"And, aroint thee, witch, aroint thee!"
+3,4,130,150,20,21,1,no,1,,How fares your grace?
+3,4,130,150,20,21,1,no,2,,What's he?
+3,4,130,150,20,21,1,no,3,,Who's there? What is't you seek?
+3,4,130,150,20,21,1,no,4,,What are you there? Your names?
+3,4,130,150,20,21,1,no,5,,Poor Tom; that eats the swimming
+3,4,130,150,20,21,1,no,6,,"frog, the"
+3,4,130,150,20,21,1,no,7,,the water; that
+3,4,130,150,20,21,1,no,8,,"the foul fiend rages, eats"
+3,4,130,150,20,21,1,no,9,,swallows the old rat and
+3,4,130,150,20,21,1,no,10,,the green mantle of the standing
+3,4,130,150,20,21,1,no,11,,"whipped from tithing to tithing, and"
+3,4,130,150,20,21,1,no,12,,"punished, and imprisoned; who hath had three"
+3,4,130,150,20,21,1,no,13,,suits
+3,4,130,150,20,21,1,no,14,,"to ride, and weapon to wear;"
+3,4,130,150,20,21,1,no,15,,"But mice and rats, and such small deer,"
+3,4,130,150,20,21,1,no,16,,Have been Tom's food for seven long year.
+3,4,130,150,20,21,1,no,17,,"Beware my follower. Peace, Smulkin; peace, thou fiend!"
+3,4,130,150,20,21,1,no,18,,"What, hath your grace no better company?"
+3,4,130,150,20,21,1,no,19,,The prince of darkness is a gentle-
+3,4,130,150,20,21,1,no,20,,man: Modo
+3,4,130,150,20,21,1,no,21,150,Our flesh and blood is grown so
+3,4,150,160,10,10,0,yes,,,
+3,4,160,170,10,11,1,no,1,,What is the cause of thunder?
+3,4,160,170,10,11,1,no,2,,"Good my lord, take his offer;"
+3,4,160,170,10,11,1,no,3,,I'll talk a word with this same learned Theban.
+3,4,160,170,10,11,1,no,4,,What is your study?
+3,4,160,170,10,11,1,no,5,,"How to prevent the fiend, and to kill vermin."
+3,4,160,170,10,11,1,no,6,,Let me ask you one word in private.
+3,4,160,170,10,11,1,no,7,,"Importune him once more to go, my lord;"
+3,4,160,170,10,11,1,no,8,,His wits begin to unsettle.
+3,4,160,170,10,11,1,no,9,,Canst thou blame him?
+3,4,160,170,10,11,1,no,10,,"His daughters seek his death; ah, that good Kent!"
+3,4,160,170,10,11,1,no,11,170,"He said it would be thus, poor banish'd man!"
+3,4,170,181,11,14,3,no,1,,"Thou say'st the king grows mad; I'll tell thee, friend."
+3,4,170,181,11,14,3,no,2,,"I am almost mad myself: I had a son,"
+3,4,170,181,11,14,3,no,3,,"Now outlaw'd from my blood: he sought my life,"
+3,4,170,181,11,14,3,no,4,,"But lately, very late: I loved him, friend:"
+3,4,170,181,11,14,3,no,5,,"No father his son dearer: truth to tell thee,"
+3,4,170,181,11,14,3,no,6,,The grief hath crazed my wits. What a night's this!
+3,4,170,181,11,14,3,no,7,,"I do beseech your grace,--"
+3,4,170,181,11,14,3,no,8,,"O, cry you mercy, sir."
+3,4,170,181,11,14,3,no,9,,"Noble philosopher, your company."
+3,4,170,181,11,14,3,no,10,,Tom's a-cold.
+3,4,170,181,11,14,3,no,11,,"In, fellow, there, into the hovel: keep thee warm."
+3,4,170,181,11,14,3,no,12,,"Come, let's in all."
+3,4,170,181,11,14,3,no,13,,"This way, my lord."
+3,4,170,181,11,14,3,no,14,181,With him;
+3,5,9,20,11,12,1,no,1,,by a reproveable badness
+3,5,9,20,11,12,1,no,2,,How malicious is my fortune that I
+3,5,9,20,11,12,1,no,3,,must repent
+3,5,9,20,11,12,1,no,4,,"spoke of,"
+3,5,9,20,11,12,1,no,5,,party to the advantages
+3,5,9,20,11,12,1,no,6,,"that this treason were not,"
+3,5,9,20,11,12,1,no,7,,detector!
+3,5,9,20,11,12,1,no,8,,Go with me to the duchess.
+3,5,9,20,11,12,1,no,9,,"If the matter of this paper be certain,"
+3,5,9,20,11,12,1,no,10,,you have
+3,5,9,20,11,12,1,no,11,,"True or false, it hath made thee earl"
+3,5,9,20,11,12,1,no,12,20,of Gloucester.
+3,6,11,21,10,10,0,yes,,,
+3,6,21,40,19,20,1,no,1,,whore's oath.
+3,6,21,40,19,20,1,no,2,,It shall be done; I will arraign them straight.
+3,6,21,40,19,20,1,no,3,,[To Edgar]
+3,6,21,40,19,20,1,no,4,,[To the Fool]
+3,6,21,40,19,20,1,no,5,,"Now, you she foxes!"
+3,6,21,40,19,20,1,no,6,,"Look, where he stands and glares!"
+3,6,21,40,19,20,1,no,7,,"Wantest thou eyes at trial, madam?"
+3,6,21,40,19,20,1,no,8,,"Come o'er the bourn, Bessy, to me,--"
+3,6,21,40,19,20,1,no,9,,"Her boat hath a leak,"
+3,6,21,40,19,20,1,no,10,,And she must not speak
+3,6,21,40,19,20,1,no,11,,Why she dares not come over to thee.
+3,6,21,40,19,20,1,no,12,,The foul fiend haunts poor Tom in
+3,6,21,40,19,20,1,no,13,,the voice of a nightingale. Hopdance cries in
+3,6,21,40,19,20,1,no,14,,"Tom's belly for two white herring. Croak not,"
+3,6,21,40,19,20,1,no,15,,black angel; I have no food for thee.
+3,6,21,40,19,20,1,no,16,,"How do you, sir? Stand you not so amazed:"
+3,6,21,40,19,20,1,no,17,,Will you lie down and rest upon the cushions?
+3,6,21,40,19,20,1,no,18,,I'll see their trial first. Bring in the evidence.
+3,6,21,40,19,20,1,no,19,,[To Edgar]
+3,6,21,40,19,20,1,no,20,40,[To the Fool]
+3,6,40,50,10,10,0,yes,,,
+3,6,50,60,10,9,-1,no,1,,she kicked the poor king her father.
+3,6,50,60,10,9,-1,no,2,,"Come hither, mistress. Is your name Goneril?"
+3,6,50,60,10,9,-1,no,3,,She cannot deny it.
+3,6,50,60,10,9,-1,no,4,,"Cry you mercy, I took you for a"
+3,6,50,60,10,9,-1,no,5,,joint-stool.
+3,6,50,60,10,9,-1,no,6,,"And here's another, whose warp'd looks proclaim"
+3,6,50,60,10,9,-1,no,7,,What store her heart is made on. Stop her there!
+3,6,50,60,10,9,-1,no,8,,"Arms, arms, sword, fire! Corruption in the place!"
+3,6,50,60,10,9,-1,no,9,60,"False justicer, why hast thou let her 'scape?"
+3,6,60,70,10,10,0,yes,,,
+3,6,70,79,9,9,0,yes,,,
+3,6,79,91,12,11,-1,no,1,,horn is dry.
+3,6,79,91,12,11,-1,no,2,,Then let them anatomize Regan; see
+3,6,79,91,12,11,-1,no,3,,what
+3,6,79,91,12,11,-1,no,4,,cause in nature that
+3,6,79,91,12,11,-1,no,5,,"You, sir, I entertain for one of"
+3,6,79,91,12,11,-1,no,6,,my hundred; only I do not like the fashion of
+3,6,79,91,12,11,-1,no,7,,your garments:
+3,6,79,91,12,11,-1,no,8,,attire; but let them be
+3,6,79,91,12,11,-1,no,9,,"Now, good my lord, lie here and rest awhile."
+3,6,79,91,12,11,-1,no,10,,"Make no noise, make no noise; draw"
+3,6,79,91,12,11,-1,no,11,91,the curtains:
+3,6,91,99,8,8,0,yes,,,
+3,6,99,110,11,13,2,no,1,,Both welcome and protection. Take up thy master:
+3,6,99,110,11,13,2,no,2,,"If thou shouldst dally half an hour, his life,"
+3,6,99,110,11,13,2,no,3,,"With thine, and all that offer to defend him,"
+3,6,99,110,11,13,2,no,4,,"Stand in assured loss: take up, take up;"
+3,6,99,110,11,13,2,no,5,,"And follow me, that will to some provision"
+3,6,99,110,11,13,2,no,6,,Give thee quick conduct.
+3,6,99,110,11,13,2,no,7,,Oppressed nature sleeps:
+3,6,99,110,11,13,2,no,8,,"This rest might yet have balm'd thy broken senses,"
+3,6,99,110,11,13,2,no,9,,"Which, if convenience will not allow,"
+3,6,99,110,11,13,2,no,10,,Stand in hard cure.
+3,6,99,110,11,13,2,no,11,,Thou must not stay behind.
+3,6,99,110,11,13,2,no,12,,"Come, come, away."
+3,6,99,110,11,13,2,no,13,110,"When we our betters see bearing our woes,"
+3,6,110,121,11,11,0,yes,,,
+3,7,21,30,9,10,1,no,1,,"Farewell, sweet lord, and sister."
+3,7,21,30,9,10,1,no,2,,"Edmund, farewell."
+3,7,21,30,9,10,1,no,3,,"Go seek the traitor Gloucester,"
+3,7,21,30,9,10,1,no,4,,"Pinion him like a thief, bring him before us."
+3,7,21,30,9,10,1,no,5,,Though well we may not pass upon his life
+3,7,21,30,9,10,1,no,6,,"Without the form of justice, yet our power"
+3,7,21,30,9,10,1,no,7,,"Shall do a courtesy to our wrath, which men"
+3,7,21,30,9,10,1,no,8,,"May blame, but not control."
+3,7,21,30,9,10,1,no,9,,Ingrateful fox! 'tis he.
+3,7,21,30,9,10,1,no,10,30,Bind fast his corky arms.
+3,7,30,40,10,12,2,no,1,,What mean your graces?
+3,7,30,40,10,12,2,no,2,,You are my guests:
+3,7,30,40,10,12,2,no,3,,"Bind him, I say."
+3,7,30,40,10,12,2,no,4,,"Hard, hard. O filthy traitor!"
+3,7,30,40,10,12,2,no,5,,"Unmerciful lady as you are, I'm none."
+3,7,30,40,10,12,2,no,6,,To this chair bind him.
+3,7,30,40,10,12,2,no,7,,"By the kind gods, 'tis most ignobly done"
+3,7,30,40,10,12,2,no,8,,To pluck me by the beard.
+3,7,30,40,10,12,2,no,9,,"So white, and such a traitor!"
+3,7,30,40,10,12,2,no,10,,"Naughty lady,"
+3,7,30,40,10,12,2,no,11,,"These hairs, which thou dost ravish from my chin,"
+3,7,30,40,10,12,2,no,12,40,"Will quicken, and accuse thee: I am your host:"
+3,7,40,50,10,13,3,no,1,,With robbers' hands my hospitable favours
+3,7,40,50,10,13,3,no,2,,You should not ruffle thus. What will you do?
+3,7,40,50,10,13,3,no,3,,"Come, sir,"
+3,7,40,50,10,13,3,no,4,,"Be simple answerer, for we know the truth."
+3,7,40,50,10,13,3,no,5,,And what confederacy have you with the traitors
+3,7,40,50,10,13,3,no,6,,Late footed in the kingdom?
+3,7,40,50,10,13,3,no,7,,To whose hands
+3,7,40,50,10,13,3,no,8,,Speak.
+3,7,40,50,10,13,3,no,9,,"I have a letter guessingly set down,"
+3,7,40,50,10,13,3,no,10,,"Which came from one that's of a neutral heart,"
+3,7,40,50,10,13,3,no,11,,And not from one opposed.
+3,7,40,50,10,13,3,no,12,,Cunning.
+3,7,40,50,10,13,3,no,13,50,And false.
+3,7,50,60,10,10,0,yes,,,
+3,7,60,80,20,22,2,no,1,,"In hell-black night endured, would have buoy'd up,"
+3,7,60,80,20,22,2,no,2,,And quench'd the stelled fires:
+3,7,60,80,20,22,2,no,3,,"Yet, poor old heart, he holp the heavens to rain."
+3,7,60,80,20,22,2,no,4,,"If wolves had at thy gate howl'd that stern time,"
+3,7,60,80,20,22,2,no,5,,"Thou shouldst have said 'Good porter, turn the key,'"
+3,7,60,80,20,22,2,no,6,,All cruels else subscribed: but I shall see
+3,7,60,80,20,22,2,no,7,,The winged vengeance overtake such children.
+3,7,60,80,20,22,2,no,8,,"See't shalt thou never. Fellows, hold the chair."
+3,7,60,80,20,22,2,no,9,,Upon these eyes of thine I'll set my foot.
+3,7,60,80,20,22,2,no,10,,"He that will think to live till he be old,"
+3,7,60,80,20,22,2,no,11,,Give me some help! O cruel! O you gods!
+3,7,60,80,20,22,2,no,12,,One side will mock another; the other too.
+3,7,60,80,20,22,2,no,13,,"If you see vengeance,--"
+3,7,60,80,20,22,2,no,14,,"Hold your hand, my lord:"
+3,7,60,80,20,22,2,no,15,,I have served you ever since I was a child;
+3,7,60,80,20,22,2,no,16,,But better service have I never done you
+3,7,60,80,20,22,2,no,17,,Than now to bid you hold.
+3,7,60,80,20,22,2,no,18,,"How now, you dog!"
+3,7,60,80,20,22,2,no,19,,"If you did wear a beard upon your chin,"
+3,7,60,80,20,22,2,no,20,,I'd shake it on this quarrel. What do you mean?
+3,7,60,80,20,22,2,no,21,,My villain!
+3,7,60,80,20,22,2,no,22,80,"Nay, then, come on, and take the chance of anger."
+3,7,80,90,10,11,1,no,1,,Give me thy sword. A peasant stand up thus!
+3,7,80,90,10,11,1,no,2,,"O, I am slain! My lord, you have one eye left"
+3,7,80,90,10,11,1,no,3,,To see some mischief on him. O!
+3,7,80,90,10,11,1,no,4,,"Lest it see more, prevent it. Out, vile jelly!"
+3,7,80,90,10,11,1,no,5,,Where is thy lustre now?
+3,7,80,90,10,11,1,no,6,,All dark and comfortless.
+3,7,80,90,10,11,1,no,7,,"Edmund, enkindle all the sparks of nature,"
+3,7,80,90,10,11,1,no,8,,To quit this horrid act.
+3,7,80,90,10,11,1,no,9,,"Out, treacherous villain!"
+3,7,80,90,10,11,1,no,10,,Thou call'st on him that hates thee: it was he
+3,7,80,90,10,11,1,no,11,90,That made the overture of thy treasons to us;
+4,1,11,20,9,9,0,yes,,,
+4,1,20,30,10,14,4,no,1,,"I have no way, and therefore want no eyes;"
+4,1,20,30,10,14,4,no,2,,"I stumbled when I saw: full oft 'tis seen,"
+4,1,20,30,10,14,4,no,3,,"Our means secure us, and our mere defects"
+4,1,20,30,10,14,4,no,4,,"Prove our commodities. O dear son Edgar,"
+4,1,20,30,10,14,4,no,5,,The food of thy abused father's wrath!
+4,1,20,30,10,14,4,no,6,,"Might I but live to see thee in my touch,"
+4,1,20,30,10,14,4,no,7,,I'ld say I had eyes again!
+4,1,20,30,10,14,4,no,8,,How now! Who's there?
+4,1,20,30,10,14,4,no,9,,[Aside]
+4,1,20,30,10,14,4,no,10,,am at the worst;?
+4,1,20,30,10,14,4,no,11,,I am worse than e'er I was.
+4,1,20,30,10,14,4,no,12,,'Tis poor mad Tom.
+4,1,20,30,10,14,4,no,13,,[Aside]
+4,1,20,30,10,14,4,no,14,30,worst is not
+4,1,30,50,20,24,4,no,1,,So long as we can say 'This is the worst.'
+4,1,30,50,20,24,4,no,2,,"Fellow, where goest?"
+4,1,30,50,20,24,4,no,3,,Is it a beggar-man?
+4,1,30,50,20,24,4,no,4,,Madman and beggar too.
+4,1,30,50,20,24,4,no,5,,"He has some reason, else he could not beg."
+4,1,30,50,20,24,4,no,6,,I' the last night's storm I such a fellow saw;
+4,1,30,50,20,24,4,no,7,,Which made me think a man a worm: my son
+4,1,30,50,20,24,4,no,8,,Came then into my mind; and yet my mind
+4,1,30,50,20,24,4,no,9,,Was then scarce friends with him:
+4,1,30,50,20,24,4,no,10,,"As flies to wanton boys, are we to the gods,"
+4,1,30,50,20,24,4,no,11,,They kill us for their sport.
+4,1,30,50,20,24,4,no,12,,[Aside]
+4,1,30,50,20,24,4,no,13,,"Bad is the trade that must play fool to sorrow,"
+4,1,30,50,20,24,4,no,14,,"Angering itself and others.--Bless thee, master!"
+4,1,30,50,20,24,4,no,15,,Is that the naked fellow?
+4,1,30,50,20,24,4,no,16,,"Ay, my lord."
+4,1,30,50,20,24,4,no,17,,"Then, prithee, get thee gone: if, for my sake,"
+4,1,30,50,20,24,4,no,18,,"Thou wilt o'ertake us, hence a mile or twain,"
+4,1,30,50,20,24,4,no,19,,"I' the way toward Dover, do it for ancient love;"
+4,1,30,50,20,24,4,no,20,,"And bring some covering for this naked soul,"
+4,1,30,50,20,24,4,no,21,,Who I'll entreat to lead me.
+4,1,30,50,20,24,4,no,22,,"Alack, sir, he is mad."
+4,1,30,50,20,24,4,no,23,,"'Tis the times' plague,"
+4,1,30,50,20,24,4,no,24,50,"Do as I bid thee, or rather do thy pleasure;"
+4,1,50,70,20,22,2,no,1,,"Above the rest, be gone."
+4,1,50,70,20,22,2,no,2,,"I'll bring him the best 'parel that I have,"
+4,1,50,70,20,22,2,no,3,,Come on't what will.
+4,1,50,70,20,22,2,no,4,,"Sirrah, naked fellow,--"
+4,1,50,70,20,22,2,no,5,,Poor Tom's a-cold.
+4,1,50,70,20,22,2,no,6,,"Come hither, fellow."
+4,1,50,70,20,22,2,no,7,,"And yet I must.--Bless thy sweet eyes, they bleed."
+4,1,50,70,20,22,2,no,8,,"sweet eyes, they bleed."
+4,1,50,70,20,22,2,no,9,,Know'st thou the way to Dover?
+4,1,50,70,20,22,2,no,10,,"Both stile and gate, horse-way and"
+4,1,50,70,20,22,2,no,11,,foot-path.
+4,1,50,70,20,22,2,no,12,,his good wits: bless
+4,1,50,70,20,22,2,no,13,,from the foul fiend! five fiends have been in
+4,1,50,70,20,22,2,no,14,,"poor Tom at once; of lust, as Obidicut; Hobbididance,"
+4,1,50,70,20,22,2,no,15,,"prince of dumbness; Mahu, of"
+4,1,50,70,20,22,2,no,16,,"stealing; Modo, of murder; Flibbertigibbet,"
+4,1,50,70,20,22,2,no,17,,"of moping and mowing, who since possesses"
+4,1,50,70,20,22,2,no,18,,"chambermaids and waiting-women. So, bless"
+4,1,50,70,20,22,2,no,19,,"thee, master!"
+4,1,50,70,20,22,2,no,20,,"Here, take this purse, thou whom the heavens' plagues"
+4,1,50,70,20,22,2,no,21,,Have humbled to all strokes: that I am wretched
+4,1,50,70,20,22,2,no,22,70,"Makes thee the happier: heavens, deal so still!"
+4,1,70,81,11,12,1,no,1,,"Let the superfluous and lust-dieted man,"
+4,1,70,81,11,12,1,no,2,,"That slaves your ordinance, that will not see"
+4,1,70,81,11,12,1,no,3,,"Because he doth not feel, feel your power quickly;"
+4,1,70,81,11,12,1,no,4,,"So distribution should undo excess,"
+4,1,70,81,11,12,1,no,5,,And each man have enough. Dost thou know Dover?
+4,1,70,81,11,12,1,no,6,,"Ay, master."
+4,1,70,81,11,12,1,no,7,,"There is a cliff, whose high and bending head"
+4,1,70,81,11,12,1,no,8,,Looks fearfully in the confined deep:
+4,1,70,81,11,12,1,no,9,,"Bring me but to the very brim of it,"
+4,1,70,81,11,12,1,no,10,,And I'll repair the misery thou dost bear
+4,1,70,81,11,12,1,no,11,,With something rich about me: from that place
+4,1,70,81,11,12,1,no,12,81,I shall no leading need.
+4,2,10,20,10,11,1,no,1,,What most he should dislike seems pleasant to him;
+4,2,10,20,10,11,1,no,2,,"What like, offensive."
+4,2,10,20,10,11,1,no,3,,Then shall you go no further.
+4,2,10,20,10,11,1,no,4,,"It is the cowish terror of his spirit,"
+4,2,10,20,10,11,1,no,5,,That dares not undertake: he'll not feel wrongs
+4,2,10,20,10,11,1,no,6,,Which tie him to an answer. Our wishes on the way
+4,2,10,20,10,11,1,no,7,,"May prove effects. Back, Edmund, to my brother;"
+4,2,10,20,10,11,1,no,8,,Hasten his musters and conduct his powers:
+4,2,10,20,10,11,1,no,9,,"I must change arms at home, and give the distaff"
+4,2,10,20,10,11,1,no,10,,Into my husband's hands. This trusty servant
+4,2,10,20,10,11,1,no,11,20,"Shall pass between us: ere long you are like to hear,"
+4,2,20,30,10,13,3,no,1,,"If you dare venture in your own behalf,"
+4,2,20,30,10,13,3,no,2,,A mistress's command. Wear this; spare speech;
+4,2,20,30,10,13,3,no,3,,"Decline your head: this kiss, if it durst speak,"
+4,2,20,30,10,13,3,no,4,,Would stretch thy spirits up into the air:
+4,2,20,30,10,13,3,no,5,,"Conceive, and fare thee well."
+4,2,20,30,10,13,3,no,6,,Yours in the ranks of death.
+4,2,20,30,10,13,3,no,7,,My most dear Gloucester!
+4,2,20,30,10,13,3,no,8,,"O, the difference of man and man!"
+4,2,20,30,10,13,3,no,9,,To thee a woman's services are due:
+4,2,20,30,10,13,3,no,10,,My fool usurps my body.
+4,2,20,30,10,13,3,no,11,,"Madam, here comes my lord."
+4,2,20,30,10,13,3,no,12,,I have been worth the whistle.
+4,2,20,30,10,13,3,no,13,30,O Goneril!
+4,2,30,40,10,10,0,yes,,,
+4,2,40,50,10,11,1,no,1,,"Tigers, not daughters, what have you perform'd?"
+4,2,40,50,10,11,1,no,2,,"A father, and a gracious aged man,"
+4,2,40,50,10,11,1,no,3,,"Whose reverence even the head-lugg'd bear would lick,"
+4,2,40,50,10,11,1,no,4,,"Most barbarous, most degenerate! have you madded."
+4,2,40,50,10,11,1,no,5,,Could my good brother suffer you to do it?
+4,2,40,50,10,11,1,no,6,,"A man, a prince, by him so benefited!"
+4,2,40,50,10,11,1,no,7,,If that the heavens do not their visible spirits
+4,2,40,50,10,11,1,no,8,,"Send quickly down to tame these vile offences,"
+4,2,40,50,10,11,1,no,9,,"It will come,"
+4,2,40,50,10,11,1,no,10,,"Humanity must perforce prey on itself,"
+4,2,40,50,10,11,1,no,11,50,Like monsters of the deep.
+4,2,50,60,10,11,1,no,1,,Milk-liver'd man!
+4,2,50,60,10,11,1,no,2,,"That bear'st a cheek for blows, a head for wrongs:"
+4,2,50,60,10,11,1,no,3,,Who hast not in thy brows an eye discerning
+4,2,50,60,10,11,1,no,4,,Thine honour from thy suffering; that not know'st
+4,2,50,60,10,11,1,no,5,,Fools do those villains pity who are punish'd
+4,2,50,60,10,11,1,no,6,,Ere they have done their mischief. Where's thy drum?
+4,2,50,60,10,11,1,no,7,,"France spreads his banners in our noiseless land,"
+4,2,50,60,10,11,1,no,8,,With plumed helm thy state begins threats;
+4,2,50,60,10,11,1,no,9,,"Whiles thou, a moral fool, sit'st still, and criest"
+4,2,50,60,10,11,1,no,10,,"'Alack, why does he so?'"
+4,2,50,60,10,11,1,no,11,60,"See thyself, devil!"
+4,2,60,81,21,25,4,no,1,,Proper deformity seems not in the fiend
+4,2,60,81,21,25,4,no,2,,So horrid as in woman.
+4,2,60,81,21,25,4,no,3,,O vain fool!
+4,2,60,81,21,25,4,no,4,,"Thou changed and self-cover'd thing, for shame,"
+4,2,60,81,21,25,4,no,5,,Be-monster not thy feature. Were't my fitness
+4,2,60,81,21,25,4,no,6,,"To let these hands obey my blood,"
+4,2,60,81,21,25,4,no,7,,They are apt enough to dislocate and tear
+4,2,60,81,21,25,4,no,8,,"Thy flesh and bones: howe'er thou art a fiend,"
+4,2,60,81,21,25,4,no,9,,A woman's shape doth shield thee.
+4,2,60,81,21,25,4,no,10,,"Marry, your manhood now--"
+4,2,60,81,21,25,4,no,11,,What news?
+4,2,60,81,21,25,4,no,12,,"O, my good lord, the Duke of Cornwall's dead;"
+4,2,60,81,21,25,4,no,13,,"Slain by his servant, going to put out"
+4,2,60,81,21,25,4,no,14,,The other eye of Gloucester.
+4,2,60,81,21,25,4,no,15,,Gloucester's eyes!
+4,2,60,81,21,25,4,no,16,,"A servant that he bred, thrill'd with remorse,"
+4,2,60,81,21,25,4,no,17,,"Opposed against the act, bending his sword"
+4,2,60,81,21,25,4,no,18,,"To his great master; who, thereat enraged,"
+4,2,60,81,21,25,4,no,19,,"Flew on him, and amongst them fell'd him dead;"
+4,2,60,81,21,25,4,no,20,,"But not without that harmful stroke, which since"
+4,2,60,81,21,25,4,no,21,,Hath pluck'd him after.
+4,2,60,81,21,25,4,no,22,,"This shows you are above,"
+4,2,60,81,21,25,4,no,23,,"You justicers, that these our nether crimes"
+4,2,60,81,21,25,4,no,24,,"So speedily can venge! But, O poor Gloucester"
+4,2,60,81,21,25,4,no,25,81,Lost he his other eye?
+4,2,81,90,9,10,1,no,1,,"Both, both, my lord."
+4,2,81,90,9,10,1,no,2,,"This letter, madam, craves a speedy answer;"
+4,2,81,90,9,10,1,no,3,,'Tis from your sister.
+4,2,81,90,9,10,1,no,4,,[Aside]
+4,2,81,90,9,10,1,no,5,,"But being widow, and my Gloucester with her,"
+4,2,81,90,9,10,1,no,6,,May all the building in my fancy pluck
+4,2,81,90,9,10,1,no,7,,"Upon my hateful life: another way,"
+4,2,81,90,9,10,1,no,8,,"The news is not so tart.--I'll read, and answer."
+4,2,81,90,9,10,1,no,9,,Where was his son
+4,2,81,90,9,10,1,no,10,90,Come with my lady hither.
+4,3,10,20,10,11,1,no,1,,La Far.
+4,3,10,20,10,11,1,no,2,,Did your letters pierce the queen to
+4,3,10,20,10,11,1,no,3,,any demonstration of grief?
+4,3,10,20,10,11,1,no,4,,"Ay, sir; she took them, read them in my presence;"
+4,3,10,20,10,11,1,no,5,,And now and then an ample tear trill'd down
+4,3,10,20,10,11,1,no,6,,Her delicate cheek: it seem'd she was a queen
+4,3,10,20,10,11,1,no,7,,"Over her passion; who, most rebel-like,"
+4,3,10,20,10,11,1,no,8,,Sought to be king o'er her.
+4,3,10,20,10,11,1,no,9,,"O, then it moved her."
+4,3,10,20,10,11,1,no,10,,Not to a rage: patience and sorrow strove
+4,3,10,20,10,11,1,no,11,20,Who should express her goodliest. You have seen
+4,3,20,30,10,11,1,no,1,,Sunshine and rain at once: her smiles and tears
+4,3,20,30,10,11,1,no,2,,"Were like a better way: those happy smilets,"
+4,3,20,30,10,11,1,no,3,,"That play'd on her ripe lip, seem'd not to know"
+4,3,20,30,10,11,1,no,4,,"What guests were in her eyes: which parted thence,"
+4,3,20,30,10,11,1,no,5,,"As pearls from diamonds dropp'd. In brief,"
+4,3,20,30,10,11,1,no,6,,"Sorrow would be a rarity most beloved,"
+4,3,20,30,10,11,1,no,7,,If all could so become it.
+4,3,20,30,10,11,1,no,8,,Made she no verbal question?
+4,3,20,30,10,11,1,no,9,,"'Faith, once or twice she heaved the name of 'father'"
+4,3,20,30,10,11,1,no,10,,"Pantingly forth, as if it press'd her heart:"
+4,3,20,30,10,11,1,no,11,30,Cried 'Sisters! sisters! Shame of ladies! sisters!
+4,3,30,40,10,12,2,no,1,,"Kent! father! sisters! What, i' the storm? i' the night?"
+4,3,30,40,10,12,2,no,2,,Let pity not be believed!' There she shook
+4,3,30,40,10,12,2,no,3,,"The holy water from her heavenly eyes,"
+4,3,30,40,10,12,2,no,4,,And clamour moisten'd: then away she started
+4,3,30,40,10,12,2,no,5,,To deal with grief alone.
+4,3,30,40,10,12,2,no,6,,It is the stars.
+4,3,30,40,10,12,2,no,7,,"The stars above us, govern our conditions;"
+4,3,30,40,10,12,2,no,8,,Else one self mate and mate could not beget
+4,3,30,40,10,12,2,no,9,,Such different issues. You spoke not with her since?
+4,3,30,40,10,12,2,no,10,,No.
+4,3,30,40,10,12,2,no,11,,Was this before the king return'd?
+4,3,30,40,10,12,2,no,12,40,"No, since."
+4,3,40,50,10,13,3,no,1,,"Well, sir, the poor distressed Lear's i' the town;"
+4,3,40,50,10,13,3,no,2,,"Who sometime, in his better tune, remembers"
+4,3,40,50,10,13,3,no,3,,"What we are come about, and by no means"
+4,3,40,50,10,13,3,no,4,,Will yield to see his daughter.
+4,3,40,50,10,13,3,no,5,,"Why, good sir?"
+4,3,40,50,10,13,3,no,6,,"A sovereign shame so elbows him: his own unkindness,"
+4,3,40,50,10,13,3,no,7,,"That stripp'd her from his benediction, turn'd her"
+4,3,40,50,10,13,3,no,8,,"To foreign casualties, gave her dear rights"
+4,3,40,50,10,13,3,no,9,,"To his dog-hearted daughters, these things sting"
+4,3,40,50,10,13,3,no,10,,"His mind so venomously, that burning shame"
+4,3,40,50,10,13,3,no,11,,Detains him from Cordelia.
+4,3,40,50,10,13,3,no,12,,"Alack, poor gentleman"
+4,3,40,50,10,13,3,no,13,50,Of Albany's and Cornwall's powers
+4,4,11,20,9,11,2,no,1,,"There is means, madam:"
+4,4,11,20,9,11,2,no,2,,"Our foster-nurse of nature is repose,"
+4,4,11,20,9,11,2,no,3,,"The which he lacks; that to provoke in him,"
+4,4,11,20,9,11,2,no,4,,"Are many simples operative, whose power"
+4,4,11,20,9,11,2,no,5,,Will close the eye of anguish.
+4,4,11,20,9,11,2,no,6,,"All blest secrets,"
+4,4,11,20,9,11,2,no,7,,"All you unpublish'd virtues of the earth,"
+4,4,11,20,9,11,2,no,8,,Spring with my tears! be aidant and remediate
+4,4,11,20,9,11,2,no,9,,"In the good man's distress! Seek, seek for him;"
+4,4,11,20,9,11,2,no,10,,Lest his ungovern'd rage dissolve the life
+4,4,11,20,9,11,2,no,11,20,That wants the means to lead it.
+4,5,10,20,10,11,1,no,1,,To let him live: where he arrives he moves
+4,5,10,20,10,11,1,no,2,,"All hearts against us: Edmund, I think, is gone,"
+4,5,10,20,10,11,1,no,3,,"In pity of his misery, to dispatch"
+4,5,10,20,10,11,1,no,4,,"His nighted life; moreover, to descry"
+4,5,10,20,10,11,1,no,5,,The strength o' the enemy.
+4,5,10,20,10,11,1,no,6,,"I must needs after him, madam, with my letter."
+4,5,10,20,10,11,1,no,7,,Our troops set forth to-morrow: stay with us;
+4,5,10,20,10,11,1,no,8,,The ways are dangerous.
+4,5,10,20,10,11,1,no,9,,"I may not, madam:"
+4,5,10,20,10,11,1,no,10,,My lady charged my duty in this business.
+4,5,10,20,10,11,1,no,11,20,Why should she write to Edmund? Might not you
+4,5,20,31,11,12,1,no,1,,"Transport her purposes by word? Belike,"
+4,5,20,31,11,12,1,no,2,,"Something--I know not what: I'll love thee much,"
+4,5,20,31,11,12,1,no,3,,Let me unseal the letter.
+4,5,20,31,11,12,1,no,4,,"Madam, I had rather--"
+4,5,20,31,11,12,1,no,5,,I know your lady does not love her husband;
+4,5,20,31,11,12,1,no,6,,I am sure of that: and at her late being here
+4,5,20,31,11,12,1,no,7,,She gave strange oeillades and most speaking looks
+4,5,20,31,11,12,1,no,8,,To noble Edmund. I know you are of her bosom.
+4,5,20,31,11,12,1,no,9,,"I, madam?"
+4,5,20,31,11,12,1,no,10,,"I speak in understanding; you are, I know 't:"
+4,5,20,31,11,12,1,no,11,,"Therefore I do advise you, take this note:"
+4,5,20,31,11,12,1,no,12,31,My lord is dead; Edmund and I have talk'd;
+4,5,31,40,9,10,1,no,1,,And more convenient is he for my hand
+4,5,31,40,9,10,1,no,2,,Than for your lady's: you may gather more.
+4,5,31,40,9,10,1,no,3,,"If you do find him, pray you, give him this;"
+4,5,31,40,9,10,1,no,4,,"And when your mistress hears thus much from you,"
+4,5,31,40,9,10,1,no,5,,"I pray, desire her call her wisdom to her."
+4,5,31,40,9,10,1,no,6,,"So, fare you well."
+4,5,31,40,9,10,1,no,7,,"If you do chance to hear of that blind traitor,"
+4,5,31,40,9,10,1,no,8,,Preferment falls on him that cuts him off.
+4,5,31,40,9,10,1,no,9,,"Would I could meet him, madam! I should show"
+4,5,31,40,9,10,1,no,10,40,What party I do follow.
+4,6,10,20,10,10,0,yes,,,
+4,6,20,30,10,12,2,no,1,,"Almost too small for sight: the murmuring surge,"
+4,6,20,30,10,12,2,no,2,,"That on the unnumber'd idle pebbles chafes,"
+4,6,20,30,10,12,2,no,3,,Cannot be heard so high. I'll look no more;
+4,6,20,30,10,12,2,no,4,,"Lest my brain turn, and the deficient sight"
+4,6,20,30,10,12,2,no,5,,Topple down headlong.
+4,6,20,30,10,12,2,no,6,,Set me where you stand.
+4,6,20,30,10,12,2,no,7,,Give me your hand:
+4,6,20,30,10,12,2,no,8,,Of the extreme verge:
+4,6,20,30,10,12,2,no,9,,Would I not leap upright.
+4,6,20,30,10,12,2,no,10,,Let go my hand.
+4,6,20,30,10,12,2,no,11,,"Here, friend, 's another purse; in it a jewel"
+4,6,20,30,10,12,2,no,12,30,Well worth a poor man's taking: fairies and gods
+4,6,30,39,9,11,2,no,1,,Prosper it with thee Go thou farther off;
+4,6,30,39,9,11,2,no,2,,"Bid me farewell, and let me hear thee going."
+4,6,30,39,9,11,2,no,3,,"Now fare you well, good sir."
+4,6,30,39,9,11,2,no,4,,With all my heart.
+4,6,30,39,9,11,2,no,5,,Why I do trifle thus with his despair
+4,6,30,39,9,11,2,no,6,,Is done to cure it.
+4,6,30,39,9,11,2,no,7,,[Kneeling]
+4,6,30,39,9,11,2,no,8,,"This world I do renounce, and in your sights,"
+4,6,30,39,9,11,2,no,9,,Shake patiently my great affliction off:
+4,6,30,39,9,11,2,no,10,,"If I could bear it longer, and not fall"
+4,6,30,39,9,11,2,no,11,39,"To quarrel with your great opposeless wills,"
+4,6,39,50,11,13,2,no,1,,My snuff and loathed part of nature should
+4,6,39,50,11,13,2,no,2,,"Burn itself out. If Edgar live, O, bless him!"
+4,6,39,50,11,13,2,no,3,,"Now, fellow, fare thee well."
+4,6,39,50,11,13,2,no,4,,"Gone, sir: farewell."
+4,6,39,50,11,13,2,no,5,,And yet I know not how conceit may rob
+4,6,39,50,11,13,2,no,6,,"The treasury of life, when life itself"
+4,6,39,50,11,13,2,no,7,,"Yields to the theft: had he been where he thought,"
+4,6,39,50,11,13,2,no,8,,"By this, had thought been past. Alive or dead?"
+4,6,39,50,11,13,2,no,9,,"Ho, you sir! friend! Hear you, sir! speak!"
+4,6,39,50,11,13,2,no,10,,Thus might he pass indeed: yet he revives.
+4,6,39,50,11,13,2,no,11,,"What are you, sir?"
+4,6,39,50,11,13,2,no,12,,"Away, and let me die."
+4,6,39,50,11,13,2,no,13,50,Hadst thou been aught
+4,6,50,60,10,10,0,yes,,,
+4,6,60,70,10,13,3,no,1,,"Alack, I have no eyes."
+4,6,60,70,10,13,3,no,2,,"Is wretchedness deprived that benefit,"
+4,6,60,70,10,13,3,no,3,,"To end itself by death? 'Twas yet some comfort,"
+4,6,60,70,10,13,3,no,4,,"When misery could beguile the tyrant's rage,"
+4,6,60,70,10,13,3,no,5,,And frustrate his proud will.
+4,6,60,70,10,13,3,no,6,,Give me your arm:
+4,6,60,70,10,13,3,no,7,,Up: so. How is't? Feel you your legs? You stand.
+4,6,60,70,10,13,3,no,8,,"Too well, too well."
+4,6,60,70,10,13,3,no,9,,This is above all strangeness.
+4,6,60,70,10,13,3,no,10,,"Upon the crown o' the cliff, what thing was that"
+4,6,60,70,10,13,3,no,11,,Which parted from you?
+4,6,60,70,10,13,3,no,12,,A poor unfortunate beggar.
+4,6,60,70,10,13,3,no,13,70,"As I stood here below, methought his eyes"
+4,6,70,80,10,11,1,no,1,,"Were two full moons; he had a thousand noses,"
+4,6,70,80,10,11,1,no,2,,Horns whelk'd and waved like the enridged sea:
+4,6,70,80,10,11,1,no,3,,"It was some fiend; therefore, thou happy father,"
+4,6,70,80,10,11,1,no,4,,"Think that the clearest gods, who make them honors"
+4,6,70,80,10,11,1,no,5,,"Of men's impossibilities, have preserved thee."
+4,6,70,80,10,11,1,no,6,,I do remember now: henceforth I'll bear
+4,6,70,80,10,11,1,no,7,,Affliction till it do cry out itself
+4,6,70,80,10,11,1,no,8,,"'Enough, enough,' and die. That thing you speak of,"
+4,6,70,80,10,11,1,no,9,,I took it for a man; often 'twould say
+4,6,70,80,10,11,1,no,10,,"'The fiend, the fiend:' he led me to that place."
+4,6,70,80,10,11,1,no,11,80,Bear free and patient thoughts.
+4,6,80,120,40,43,3,no,1,,who comes here?
+4,6,80,120,40,43,3,no,2,,The safer sense will ne'er accommodate
+4,6,80,120,40,43,3,no,3,,His master thus.
+4,6,80,120,40,43,3,no,4,,"No, they cannot touch me for coining;"
+4,6,80,120,40,43,3,no,5,,I am the
+4,6,80,120,40,43,3,no,6,,O thou side-piercing sight!
+4,6,80,120,40,43,3,no,7,,Nature's above art in that respect.
+4,6,80,120,40,43,3,no,8,,There's your
+4,6,80,120,40,43,3,no,9,,his bow like a crow-keeper:
+4,6,80,120,40,43,3,no,10,,"a clothier's yard. Look, look, a"
+4,6,80,120,40,43,3,no,11,,peace; this piece of toasted cheese will
+4,6,80,120,40,43,3,no,12,,There's my gauntlet; I'll prove it on a giant.
+4,6,80,120,40,43,3,no,13,,"Bring up the brown bills. O, well flown, bird!"
+4,6,80,120,40,43,3,no,14,,i' the
+4,6,80,120,40,43,3,no,15,,word.
+4,6,80,120,40,43,3,no,16,,Sweet marjoram.
+4,6,80,120,40,43,3,no,17,,Pass.
+4,6,80,120,40,43,3,no,18,,I know that voice.
+4,6,80,120,40,43,3,no,19,,"Ha! Goneril, with a white beard!"
+4,6,80,120,40,43,3,no,20,,They flattered
+4,6,80,120,40,43,3,no,21,,had white hairs in
+4,6,80,120,40,43,3,no,22,,ones were there. To say 'ay' and
+4,6,80,120,40,43,3,no,23,,every thing that I said!--'Ay' and 'no' too
+4,6,80,120,40,43,3,no,24,,was no good
+4,6,80,120,40,43,3,no,25,,"wet me once, and the"
+4,6,80,120,40,43,3,no,26,,when the thunder would not
+4,6,80,120,40,43,3,no,27,,"bidding; there I found 'em, there I smelt 'em"
+4,6,80,120,40,43,3,no,28,,"out. Go to, they are not men o' their words:"
+4,6,80,120,40,43,3,no,29,,they told
+4,6,80,120,40,43,3,no,30,,am not ague-proof.
+4,6,80,120,40,43,3,no,31,,The trick of that voice I do well remember:
+4,6,80,120,40,43,3,no,32,,Is't not the king?
+4,6,80,120,40,43,3,no,33,,"Ay, every inch a king:"
+4,6,80,120,40,43,3,no,34,,"When I do stare, see how the subject quakes."
+4,6,80,120,40,43,3,no,35,,I pardon that man's life. What was thy cause?
+4,6,80,120,40,43,3,no,36,,Adultery?
+4,6,80,120,40,43,3,no,37,,Thou shalt not die: die for adultery!
+4,6,80,120,40,43,3,no,38,,"The wren goes to't, and the small gilded fly"
+4,6,80,120,40,43,3,no,39,,Does lecher in my sight.
+4,6,80,120,40,43,3,no,40,,Let copulation thrive;
+4,6,80,120,40,43,3,no,41,,Was kinder to his father
+4,6,80,120,40,43,3,no,42,,Got 'tween the lawful sheets.
+4,6,80,120,40,43,3,no,43,120,"To't, luxury, pell-mell! for I lack soldiers."
+4,6,120,130,10,10,0,yes,,,
+4,6,130,151,21,22,1,no,1,,"There's hell, there's darkness,"
+4,6,130,151,21,22,1,no,2,,"Burning, scalding, stench,"
+4,6,130,151,21,22,1,no,3,,"fie, fie! pah, pah! Give me an ounce"
+4,6,130,151,21,22,1,no,4,,"good apothecary, to sweeten my imagination:"
+4,6,130,151,21,22,1,no,5,,there's money for thee.
+4,6,130,151,21,22,1,no,6,,"O, let me kiss that hand!"
+4,6,130,151,21,22,1,no,7,,Let me wipe it first;
+4,6,130,151,21,22,1,no,8,,O ruin'd piece of nature! This great world
+4,6,130,151,21,22,1,no,9,,Shall so wear out to nought.
+4,6,130,151,21,22,1,no,10,,I remember thine eyes well enough.
+4,6,130,151,21,22,1,no,11,,Dost thou
+4,6,130,151,21,22,1,no,12,,blind Cupid; I'll not
+4,6,130,151,21,22,1,no,13,,challenge; mark but the penning
+4,6,130,151,21,22,1,no,14,,"Were all the letters suns, I could not see one."
+4,6,130,151,21,22,1,no,15,,I would not take this from report;
+4,6,130,151,21,22,1,no,16,,And my heart breaks at it.
+4,6,130,151,21,22,1,no,17,,Read.
+4,6,130,151,21,22,1,no,18,,"What, with the case of eyes?"
+4,6,130,151,21,22,1,no,19,,"O, ho, are you there with me? No"
+4,6,130,151,21,22,1,no,20,,eyes in your
+4,6,130,151,21,22,1,no,21,,purse? Your eyes are in a heavy
+4,6,130,151,21,22,1,no,22,151,purse in a light: yet you see how this world
+4,6,151,160,9,9,0,yes,,,
+4,6,160,169,9,9,0,yes,,,
+4,6,169,180,11,11,0,yes,,,
+4,6,180,191,11,11,0,yes,,,
+4,6,191,200,9,10,1,no,1,,"Then, kill, kill, kill, kill, kill, kill!"
+4,6,191,200,9,10,1,no,2,,"O, here he is: lay hand upon him. Sir,"
+4,6,191,200,9,10,1,no,3,,Your most dear daughter--
+4,6,191,200,9,10,1,no,4,,"No rescue? What, a prisoner? I am even"
+4,6,191,200,9,10,1,no,5,,The natural fool of fortune. Use me well;
+4,6,191,200,9,10,1,no,6,,You shall have ransom. Let me have surgeons;
+4,6,191,200,9,10,1,no,7,,I am cut to the brains.
+4,6,191,200,9,10,1,no,8,,You shall have any thing.
+4,6,191,200,9,10,1,no,9,,No seconds? all myself?
+4,6,191,200,9,10,1,no,10,200,"Why, this would make a man a man of salt,"
+4,6,200,211,11,14,3,no,1,,"To use his eyes for garden water-pots,"
+4,6,200,211,11,14,3,no,2,,"Ay, and laying autumn's dust."
+4,6,200,211,11,14,3,no,3,,"Good sir,--"
+4,6,200,211,11,14,3,no,4,,"I will die bravely,"
+4,6,200,211,11,14,3,no,5,,What!
+4,6,200,211,11,14,3,no,6,,I will be jovial:
+4,6,200,211,11,14,3,no,7,,"My masters, know you that."
+4,6,200,211,11,14,3,no,8,,"You are a royal one, and we obey you."
+4,6,200,211,11,14,3,no,9,,"Then there's life in 't. Nay, if you"
+4,6,200,211,11,14,3,no,10,,"get it,"
+4,6,200,211,11,14,3,no,11,,"sa, sa."
+4,6,200,211,11,14,3,no,12,,"A sight most pitiful in the meanest wretch,"
+4,6,200,211,11,14,3,no,13,,"Past speaking of in a king! Thou hast one daughter,"
+4,6,200,211,11,14,3,no,14,211,Who redeems nature from the general curse
+4,6,211,220,9,13,4,no,1,,Which twain have brought her to.
+4,6,211,220,9,13,4,no,2,,"Hail, gentle sir."
+4,6,211,220,9,13,4,no,3,,"Sir, speed you: what's your will?"
+4,6,211,220,9,13,4,no,4,,"Do you hear aught, sir, of a battle toward?"
+4,6,211,220,9,13,4,no,5,,Most sure and vulgar:
+4,6,211,220,9,13,4,no,6,,Which can distinguish sound.
+4,6,211,220,9,13,4,no,7,,"But, by your favour,"
+4,6,211,220,9,13,4,no,8,,How near's the other army?
+4,6,211,220,9,13,4,no,9,,Near and on speedy foot; the main descry
+4,6,211,220,9,13,4,no,10,,Stands on the hourly thought.
+4,6,211,220,9,13,4,no,11,,"I thank you, sir: that's all."
+4,6,211,220,9,13,4,no,12,,"Though that the queen on special cause is here,"
+4,6,211,220,9,13,4,no,13,220,Her army is moved on.
+4,6,220,231,11,14,3,no,1,,"I thank you, sir."
+4,6,220,231,11,14,3,no,2,,"You ever-gentle gods, take my breath from me;"
+4,6,220,231,11,14,3,no,3,,Let not my worser spirit tempt me again
+4,6,220,231,11,14,3,no,4,,To die before you please!
+4,6,220,231,11,14,3,no,5,,"Well pray you, father."
+4,6,220,231,11,14,3,no,6,,"Now, good sir, what are you?"
+4,6,220,231,11,14,3,no,7,,"A most poor man, made tame to fortune's blows;"
+4,6,220,231,11,14,3,no,8,,"Who, by the art of known and feeling sorrows,"
+4,6,220,231,11,14,3,no,9,,"Am pregnant to good pity. Give me your hand,"
+4,6,220,231,11,14,3,no,10,,I'll lead you to some biding.
+4,6,220,231,11,14,3,no,11,,Hearty thanks:
+4,6,220,231,11,14,3,no,12,,The bounty and the benison of heaven
+4,6,220,231,11,14,3,no,13,,"To boot, and boot!"
+4,6,220,231,11,14,3,no,14,231,A proclaim'd prize! Most happy!
+4,6,231,240,9,11,2,no,1,,That eyeless head of thine was first framed flesh
+4,6,231,240,9,11,2,no,2,,"To raise my fortunes. Thou old unhappy traitor,"
+4,6,231,240,9,11,2,no,3,,Briefly thyself remember: the sword is out
+4,6,231,240,9,11,2,no,4,,That must destroy thee.
+4,6,231,240,9,11,2,no,5,,Now let thy friendly hand
+4,6,231,240,9,11,2,no,6,,Put strength enough to't.
+4,6,231,240,9,11,2,no,7,,"Wherefore, bold peasant,"
+4,6,231,240,9,11,2,no,8,,Darest thou support a publish'd traitor? Hence;
+4,6,231,240,9,11,2,no,9,,Lest that the infection of his fortune take
+4,6,231,240,9,11,2,no,10,,Like hold on thee. Let go his arm.
+4,6,231,240,9,11,2,no,11,240,"Chill not let go, zir,"
+4,6,240,251,11,11,0,yes,,,
+4,6,251,260,9,10,1,no,1,,matter vor
+4,6,251,260,9,10,1,no,2,,"Slave, thou hast slain me: villain, take my purse:"
+4,6,251,260,9,10,1,no,3,,"If ever thou wilt thrive, bury my body;"
+4,6,251,260,9,10,1,no,4,,And give the letters which thou find'st about me
+4,6,251,260,9,10,1,no,5,,To Edmund earl of Gloucester; seek him out
+4,6,251,260,9,10,1,no,6,,"Upon the British party: O, untimely death!"
+4,6,251,260,9,10,1,no,7,,I know thee well: a serviceable villain;
+4,6,251,260,9,10,1,no,8,,As duteous to the vices of thy mistress
+4,6,251,260,9,10,1,no,9,,As badness would desire.
+4,6,251,260,9,10,1,no,10,260,"What, is he dead?"
+4,6,260,281,21,20,-1,no,1,,"Sit you down, father; rest you"
+4,6,260,281,21,20,-1,no,2,,Let's see these pockets: the letters that he speaks of
+4,6,260,281,21,20,-1,no,3,,May be my friends. He's dead; I am only sorry
+4,6,260,281,21,20,-1,no,4,,He had no other death's-man. Let us see:
+4,6,260,281,21,20,-1,no,5,,"Leave, gentle wax; and, manners, blame us not:"
+4,6,260,281,21,20,-1,no,6,,"To know our enemies' minds, we'ld rip their hearts;"
+4,6,260,281,21,20,-1,no,7,,"Their papers, is more lawful."
+4,6,260,281,21,20,-1,no,8,,'Let our reciprocal vows be remembered.
+4,6,260,281,21,20,-1,no,9,,You have many
+4,6,260,281,21,20,-1,no,10,,"him off: if your will want not, time and"
+4,6,260,281,21,20,-1,no,11,,will be fruitfully offered. There is nothing
+4,6,260,281,21,20,-1,no,12,,"done, if he"
+4,6,260,281,21,20,-1,no,13,,"the prisoner, and his bed my"
+4,6,260,281,21,20,-1,no,14,,"loathed warmth whereof deliver me, and supply"
+4,6,260,281,21,20,-1,no,15,,the place for your labour.
+4,6,260,281,21,20,-1,no,16,,'Affectionate
+4,6,260,281,21,20,-1,no,17,,'GONERIL.'
+4,6,260,281,21,20,-1,no,18,,O undistinguished space of woman's will!
+4,6,260,281,21,20,-1,no,19,,A plot upon her virtuous husband's life;
+4,6,260,281,21,20,-1,no,20,281,"And the exchange my brother! Here, in the sands,"
+4,6,281,290,9,9,0,yes,,,
+4,7,10,21,11,13,2,no,1,,"My boon I make it, that you know me not"
+4,7,10,21,11,13,2,no,2,,Till time and I think meet.
+4,7,10,21,11,13,2,no,3,,"Then be't so, my good lord."
+4,7,10,21,11,13,2,no,4,,"Madam, sleeps still."
+4,7,10,21,11,13,2,no,5,,"O you kind gods,"
+4,7,10,21,11,13,2,no,6,,Cure this great breach in his abused nature!
+4,7,10,21,11,13,2,no,7,,"The untuned and jarring senses, O, wind up"
+4,7,10,21,11,13,2,no,8,,Of this child-changed father!
+4,7,10,21,11,13,2,no,9,,So please your majesty
+4,7,10,21,11,13,2,no,10,,That we may wake the king: he hath slept long.
+4,7,10,21,11,13,2,no,11,,"Be govern'd by your knowledge, and proceed"
+4,7,10,21,11,13,2,no,12,,I' the sway of your own will. Is he array'd?
+4,7,10,21,11,13,2,no,13,21,"Ay, madam; in the heaviness of his"
+4,7,21,30,9,11,2,no,1,,sleep
+4,7,21,30,9,11,2,no,2,,We put fresh garments on him.
+4,7,21,30,9,11,2,no,3,,"Be by, good madam, when we do awake him;"
+4,7,21,30,9,11,2,no,4,,I doubt not of his temperance.
+4,7,21,30,9,11,2,no,5,,Very well.
+4,7,21,30,9,11,2,no,6,,"Please you, draw near. Louder the music there!"
+4,7,21,30,9,11,2,no,7,,O my dear father! Restoration hang
+4,7,21,30,9,11,2,no,8,,Thy medicine on my lips; and let this kiss
+4,7,21,30,9,11,2,no,9,,Repair those violent harms that my two sisters
+4,7,21,30,9,11,2,no,10,,Have in thy reverence made!
+4,7,21,30,9,11,2,no,11,30,Kind and dear princess!
+4,7,30,40,10,10,0,yes,,,
+4,7,40,50,10,11,1,no,1,,"In short and musty straw? Alack, alack!"
+4,7,40,50,10,11,1,no,2,,'Tis wonder that thy life and wits at once
+4,7,40,50,10,11,1,no,3,,Had not concluded all. He wakes; speak to him.
+4,7,40,50,10,11,1,no,4,,"Madam, do you; 'tis fittest."
+4,7,40,50,10,11,1,no,5,,How does my royal lord?
+4,7,40,50,10,11,1,no,6,,You do me wrong to take me out o' the grave:
+4,7,40,50,10,11,1,no,7,,Thou art a soul in bliss; but I am bound
+4,7,40,50,10,11,1,no,8,,"Upon a wheel of fire, that mine own tears"
+4,7,40,50,10,11,1,no,9,,Do scald like molten lead.
+4,7,40,50,10,11,1,no,10,,"Sir, do you know me?"
+4,7,40,50,10,11,1,no,11,50,"You are a spirit, I know: when did you die?"
+4,7,50,60,10,12,2,no,1,,"Still, still, far wide!"
+4,7,50,60,10,12,2,no,2,,He's scarce awake:
+4,7,50,60,10,12,2,no,3,,Where have I been?
+4,7,50,60,10,12,2,no,4,,"I am mightily abused. I should e'en die with pity,"
+4,7,50,60,10,12,2,no,5,,To see another thus. I know not what to say.
+4,7,50,60,10,12,2,no,6,,I will not swear these are my hands: let's see;
+4,7,50,60,10,12,2,no,7,,I feel this pin prick. Would I were assured
+4,7,50,60,10,12,2,no,8,,Of my condition!
+4,7,50,60,10,12,2,no,9,,"O, look upon me, sir,"
+4,7,50,60,10,12,2,no,10,,And hold your hands in benediction o'er me:
+4,7,50,60,10,12,2,no,11,,"No, sir, you must not kneel."
+4,7,50,60,10,12,2,no,12,60,"Pray, do not mock me:"
+4,7,60,70,10,11,1,no,1,,"I am a very foolish fond old man,"
+4,7,60,70,10,11,1,no,2,,"Fourscore and upward,"
+4,7,60,70,10,11,1,no,3,,"And, to deal plainly,"
+4,7,60,70,10,11,1,no,4,,I fear I am not in my perfect mind.
+4,7,60,70,10,11,1,no,5,,"Methinks I should know you, and know this man;"
+4,7,60,70,10,11,1,no,6,,Yet I am doubtful: for I am mainly ignorant
+4,7,60,70,10,11,1,no,7,,What place this is; and all the skill I have
+4,7,60,70,10,11,1,no,8,,Remembers not these garments; nor I know not
+4,7,60,70,10,11,1,no,9,,Where I did lodge last night. Do not laugh at me;
+4,7,60,70,10,11,1,no,10,,"For, as I am a man, I think this lady"
+4,7,60,70,10,11,1,no,11,70,To be my child Cordelia.
+4,7,70,81,11,13,2,no,1,,"And so am I, I am."
+4,7,70,81,11,13,2,no,2,,Be your tears wet?
+4,7,70,81,11,13,2,no,3,,"If you have poison for me, I will drink it."
+4,7,70,81,11,13,2,no,4,,I know you do not love me; for your sisters
+4,7,70,81,11,13,2,no,5,,"Have, as I do remember, done me wrong:"
+4,7,70,81,11,13,2,no,6,,"You have some cause, they have not."
+4,7,70,81,11,13,2,no,7,,"No cause, no cause."
+4,7,70,81,11,13,2,no,8,,Am I in France?
+4,7,70,81,11,13,2,no,9,,"In your own kingdom, sir."
+4,7,70,81,11,13,2,no,10,,Do not abuse me.
+4,7,70,81,11,13,2,no,11,,"Be comforted, good madam: the great rage,"
+4,7,70,81,11,13,2,no,12,,"You see, is kill'd in him: and yet it is danger"
+4,7,70,81,11,13,2,no,13,81,To make him even o'er the time he has lost.
+4,7,81,90,9,10,1,no,1,,Desire him to go in;
+4,7,81,90,9,10,1,no,2,,Till further settling.
+4,7,81,90,9,10,1,no,3,,Will't please your highness walk?
+4,7,81,90,9,10,1,no,4,,You must bear with me:
+4,7,81,90,9,10,1,no,5,,"Pray you now, forget and forgive:"
+4,7,81,90,9,10,1,no,6,,"Holds it true, sir, that the Duke of"
+4,7,81,90,9,10,1,no,7,,Cornwall was so slain?
+4,7,81,90,9,10,1,no,8,,"Most certain, sir."
+4,7,81,90,9,10,1,no,9,,Who is conductor of his people?
+4,7,81,90,9,10,1,no,10,90,"As 'tis said, the bastard son of"
+4,7,90,99,9,9,0,yes,,,
+5,1,10,21,11,13,2,no,1,,But have you never found my brother's way
+5,1,10,21,11,13,2,no,2,,To the forfended place?
+5,1,10,21,11,13,2,no,3,,"That thought abuses you,"
+5,1,10,21,11,13,2,no,4,,I am doubtful that you have been conjunct
+5,1,10,21,11,13,2,no,5,,"And bosom'd with her, as far as we call hers."
+5,1,10,21,11,13,2,no,6,,"No, by mine honour, madam."
+5,1,10,21,11,13,2,no,7,,"I never shall endure her: dear my lord,"
+5,1,10,21,11,13,2,no,8,,Be not familiar with her.
+5,1,10,21,11,13,2,no,9,,Fear me not:
+5,1,10,21,11,13,2,no,10,,She and the duke her husband!
+5,1,10,21,11,13,2,no,11,,[Aside]
+5,1,10,21,11,13,2,no,12,,Should loosen him and me.
+5,1,10,21,11,13,2,no,13,21,"Our very loving sister, well be-met."
+5,1,21,30,9,10,1,no,1,,"Sir, this I hear; the king is come to his daughter,"
+5,1,21,30,9,10,1,no,2,,With others whom the rigour of our state
+5,1,21,30,9,10,1,no,3,,"Forced to cry out. Where I could not be honest,"
+5,1,21,30,9,10,1,no,4,,"I never yet was valiant: for this business,"
+5,1,21,30,9,10,1,no,5,,"It toucheth us, as France invades our land,"
+5,1,21,30,9,10,1,no,6,,"Not bolds the king, with others, whom I fear,"
+5,1,21,30,9,10,1,no,7,,Most just and heavy causes make oppose.
+5,1,21,30,9,10,1,no,8,,"Sir, you speak nobly."
+5,1,21,30,9,10,1,no,9,,Why is this reason'd?
+5,1,21,30,9,10,1,no,10,30,Combine together 'gainst the enemy;
+5,1,30,40,10,12,2,no,1,,For these domestic and particular broils
+5,1,30,40,10,12,2,no,2,,Are not the question here.
+5,1,30,40,10,12,2,no,3,,Let's then determine
+5,1,30,40,10,12,2,no,4,,With the ancient of war
+5,1,30,40,10,12,2,no,5,,I shall attend you presently at your tent.
+5,1,30,40,10,12,2,no,6,,"Sister, you'll go with us?"
+5,1,30,40,10,12,2,no,7,,No.
+5,1,30,40,10,12,2,no,8,,"'Tis most convenient; pray you, go with us."
+5,1,30,40,10,12,2,no,9,,[Aside]
+5,1,30,40,10,12,2,no,10,,"If e'er your grace had speech with man so poor,"
+5,1,30,40,10,12,2,no,11,,Hear me one word.
+5,1,30,40,10,12,2,no,12,40,I'll overtake you. Speak.
+5,1,40,50,10,11,1,no,1,,"Before you fight the battle, ope this letter."
+5,1,40,50,10,11,1,no,2,,"If you have victory, let the trumpet sound"
+5,1,40,50,10,11,1,no,3,,"For him that brought it: wretched though I seem,"
+5,1,40,50,10,11,1,no,4,,I can produce a champion that will prove
+5,1,40,50,10,11,1,no,5,,"What is vouched there. If you miscarry,"
+5,1,40,50,10,11,1,no,6,,"Your business of the world hath so an end,"
+5,1,40,50,10,11,1,no,7,,And machination ceases. Fortune love you!
+5,1,40,50,10,11,1,no,8,,Stay till I have read the letter.
+5,1,40,50,10,11,1,no,9,,I was forbid it.
+5,1,40,50,10,11,1,no,10,,"When time shall serve, let but the herald cry,"
+5,1,40,50,10,11,1,no,11,50,And I'll appear again.
+5,1,50,60,10,11,1,no,1,,"Why, fare thee well: I will o'erlook thy paper."
+5,1,50,60,10,11,1,no,2,,The enemy's in view; draw up your powers.
+5,1,50,60,10,11,1,no,3,,Here is the guess of their true strength and forces
+5,1,50,60,10,11,1,no,4,,By diligent discovery; but your haste
+5,1,50,60,10,11,1,no,5,,Is now urged on you.
+5,1,50,60,10,11,1,no,6,,We will greet the time.
+5,1,50,60,10,11,1,no,7,,To both these sisters have I sworn my love;
+5,1,50,60,10,11,1,no,8,,"Each jealous of the other, as the stung"
+5,1,50,60,10,11,1,no,9,,Are of the adder. Which of them shall I take?
+5,1,50,60,10,11,1,no,10,,"Both? one? or neither? Neither can be enjoy'd,"
+5,1,50,60,10,11,1,no,11,60,If both remain alive: to take the widow
+5,3,10,20,10,11,1,no,1,,"When thou dost ask me blessing, I'll kneel down,"
+5,3,10,20,10,11,1,no,2,,"And ask of thee forgiveness: so we'll live,"
+5,3,10,20,10,11,1,no,3,,"And pray, and sing, and tell old tales, and laugh"
+5,3,10,20,10,11,1,no,4,,"At gilded butterflies, and hear poor rogues"
+5,3,10,20,10,11,1,no,5,,"Talk of court news; and we'll talk with them too,"
+5,3,10,20,10,11,1,no,6,,"Who loses and who wins; who's in, who's out;"
+5,3,10,20,10,11,1,no,7,,"And take upon's the mystery of things,"
+5,3,10,20,10,11,1,no,8,,"As if we were God's spies: and we'll wear out,"
+5,3,10,20,10,11,1,no,9,,"In a wall'd prison, packs and sects of great ones,"
+5,3,10,20,10,11,1,no,10,,That ebb and flow by the moon.
+5,3,10,20,10,11,1,no,11,20,Take them away.
+5,3,20,31,11,12,1,no,1,,"Upon such sacrifices, my Cordelia,"
+5,3,20,31,11,12,1,no,2,,The gods themselves throw incense.
+5,3,20,31,11,12,1,no,3,,"He that parts us shall bring a brand from heaven,"
+5,3,20,31,11,12,1,no,4,,And fire us hence like foxes. Wipe thine eyes;
+5,3,20,31,11,12,1,no,5,,"The good-years shall devour them, flesh and fell,"
+5,3,20,31,11,12,1,no,6,,Ere they shall make us weep: we'll see 'em starve first.
+5,3,20,31,11,12,1,no,7,,Come.
+5,3,20,31,11,12,1,no,8,,"Come hither, captain; hark."
+5,3,20,31,11,12,1,no,9,,Take thou this note
+5,3,20,31,11,12,1,no,10,,One step I have advanced thee; if thou dost
+5,3,20,31,11,12,1,no,11,,"As this instructs thee, thou dost make thy way"
+5,3,20,31,11,12,1,no,12,31,"To noble fortunes: know thou this, that men"
+5,3,31,40,9,10,1,no,1,,Are as the time is: to be tender-minded
+5,3,31,40,9,10,1,no,2,,Does not become a sword: thy great employment
+5,3,31,40,9,10,1,no,3,,"Will not bear question; either say thou'lt do't,"
+5,3,31,40,9,10,1,no,4,,Or thrive by other means.
+5,3,31,40,9,10,1,no,5,,"I'll do't, my lord."
+5,3,31,40,9,10,1,no,6,,About it; and write happy when thou hast done.
+5,3,31,40,9,10,1,no,7,,"Mark, I say, instantly; and carry it so"
+5,3,31,40,9,10,1,no,8,,As I have set it down.
+5,3,31,40,9,10,1,no,9,,"I cannot draw a cart, nor eat dried oats;"
+5,3,31,40,9,10,1,no,10,40,"If it be man's work, I'll do it."
+5,3,40,50,10,11,1,no,1,,"Sir, you have shown to-day your valiant strain,"
+5,3,40,50,10,11,1,no,2,,And fortune led you well: you have the captives
+5,3,40,50,10,11,1,no,3,,That were the opposites of this day's strife:
+5,3,40,50,10,11,1,no,4,,"We do require them of you, so to use them"
+5,3,40,50,10,11,1,no,5,,As we shall find their merits and our safety
+5,3,40,50,10,11,1,no,6,,May equally determine.
+5,3,40,50,10,11,1,no,7,,"Sir, I thought it fit"
+5,3,40,50,10,11,1,no,8,,To send the old and miserable king
+5,3,40,50,10,11,1,no,9,,To some retention and appointed guard;
+5,3,40,50,10,11,1,no,10,,"Whose age has charms in it, whose title more,"
+5,3,40,50,10,11,1,no,11,50,"To pluck the common bosom on his side,"
+5,3,50,60,10,11,1,no,1,,And turn our impress'd lances in our eyes
+5,3,50,60,10,11,1,no,2,,Which do command them. With him I sent the queen;
+5,3,50,60,10,11,1,no,3,,My reason all the same; and they are ready
+5,3,50,60,10,11,1,no,4,,"To-morrow, or at further space, to appear"
+5,3,50,60,10,11,1,no,5,,Where you shall hold your session. At this time
+5,3,50,60,10,11,1,no,6,,We sweat and bleed: the friend hath lost his friend;
+5,3,50,60,10,11,1,no,7,,"And the best quarrels, in the heat are cursed"
+5,3,50,60,10,11,1,no,8,,By those that feel their sharpness:
+5,3,50,60,10,11,1,no,9,,The question of Cordelia and her father
+5,3,50,60,10,11,1,no,10,,Requires a fitter place.
+5,3,50,60,10,11,1,no,11,60,"Sir, by your patience,"
+5,3,60,70,10,13,3,no,1,,"I hold you but a subject of this war,"
+5,3,60,70,10,13,3,no,2,,Not as a brother.
+5,3,60,70,10,13,3,no,3,,That's as we list to grace him.
+5,3,60,70,10,13,3,no,4,,"Methinks our pleasure might have been demanded,"
+5,3,60,70,10,13,3,no,5,,Ere you had spoke so far. He led our powers;
+5,3,60,70,10,13,3,no,6,,Bore the commission of my place and person;
+5,3,60,70,10,13,3,no,7,,"The which immediacy may well stand up,"
+5,3,60,70,10,13,3,no,8,,And call itself your brother.
+5,3,60,70,10,13,3,no,9,,Not so hot:
+5,3,60,70,10,13,3,no,10,,"In his own grace he doth exalt himself,"
+5,3,60,70,10,13,3,no,11,,More than in your addition.
+5,3,60,70,10,13,3,no,12,,"In my rights,"
+5,3,60,70,10,13,3,no,13,70,"By me invested, he compeers the best."
+5,3,70,80,10,13,3,no,1,,"That were the most, if he should husband you."
+5,3,70,80,10,13,3,no,2,,Jesters do oft prove prophets.
+5,3,70,80,10,13,3,no,3,,"Holla, holla!"
+5,3,70,80,10,13,3,no,4,,That eye that told you so look'd but a-squint.
+5,3,70,80,10,13,3,no,5,,"Lady, I am not well; else I should answer"
+5,3,70,80,10,13,3,no,6,,"From a full flowing stomach. General,"
+5,3,70,80,10,13,3,no,7,,"Take thou my soldiers, prisoners, patrimony;"
+5,3,70,80,10,13,3,no,8,,"Dispose of them, of me; the walls are thine:"
+5,3,70,80,10,13,3,no,9,,"Witness the world, that I create thee here"
+5,3,70,80,10,13,3,no,10,,My lord and master.
+5,3,70,80,10,13,3,no,11,,Mean you to enjoy him?
+5,3,70,80,10,13,3,no,12,,The let-alone lies not not in your good will.
+5,3,70,80,10,13,3,no,13,80,"Nor in thine, lord."
+5,3,80,90,10,13,3,no,1,,"Half-blooded fellow, yes."
+5,3,80,90,10,13,3,no,2,,"Let the drum strike, and prove my title thine."
+5,3,80,90,10,13,3,no,3,,and prove my title thine.
+5,3,80,90,10,13,3,no,4,,"Stay yet; hear reason. Edmund, I arrest thee"
+5,3,80,90,10,13,3,no,5,,"On capital treason; and, in thine attaint,"
+5,3,80,90,10,13,3,no,6,,This gilded serpent
+5,3,80,90,10,13,3,no,7,,I bar it in the interest of my wife:
+5,3,80,90,10,13,3,no,8,,"'Tis she is sub-contracted to this lord,"
+5,3,80,90,10,13,3,no,9,,"And I, her husband, contradict your bans."
+5,3,80,90,10,13,3,no,10,,"If you will marry, make your loves to me,"
+5,3,80,90,10,13,3,no,11,,My lady is bespoke.
+5,3,80,90,10,13,3,no,12,,An interlude!
+5,3,80,90,10,13,3,no,13,90,"Thou art arm'd, Gloucester: let the"
+5,3,90,100,10,12,2,no,1,,trumpet sound:
+5,3,90,100,10,12,2,no,2,,If none appear to prove upon thy head
+5,3,90,100,10,12,2,no,3,,"Thy heinous, manifest, and many treasons,"
+5,3,90,100,10,12,2,no,4,,There is my pledge
+5,3,90,100,10,12,2,no,5,,"I'll prove it on thy heart,"
+5,3,90,100,10,12,2,no,6,,"Ere I taste bread, thou art in nothing less"
+5,3,90,100,10,12,2,no,7,,Than I have here proclaim'd thee.
+5,3,90,100,10,12,2,no,8,,"Sick, O, sick!"
+5,3,90,100,10,12,2,no,9,,"If not, I'll ne'er trust medicine."
+5,3,90,100,10,12,2,no,10,,There's my exchange
+5,3,90,100,10,12,2,no,11,,"That names me traitor, villain-like he lies:"
+5,3,90,100,10,12,2,no,12,100,"Call by thy trumpet: he that dares approach,"
+5,3,100,119,19,23,4,no,1,,"On him, on you, who not? I will maintain"
+5,3,100,119,19,23,4,no,2,,My truth and honour firmly.
+5,3,100,119,19,23,4,no,3,,"A herald, ho!"
+5,3,100,119,19,23,4,no,4,,"A herald, ho, a herald!"
+5,3,100,119,19,23,4,no,5,,"Trust to thy single virtue; for thy soldiers,"
+5,3,100,119,19,23,4,no,6,,"All levied in my name, have in my name"
+5,3,100,119,19,23,4,no,7,,Took their discharge.
+5,3,100,119,19,23,4,no,8,,My sickness grows upon me.
+5,3,100,119,19,23,4,no,9,,She is not well; convey her to my tent.
+5,3,100,119,19,23,4,no,10,,"Come hither, herald,--Let the trumpet sound,--"
+5,3,100,119,19,23,4,no,11,,And read out this.
+5,3,100,119,19,23,4,no,12,,"Sound, trumpet!"
+5,3,100,119,19,23,4,no,13,,'If any man of quality or degree within the lists of the arm
+5,3,100,119,19,23,4,no,14,,within the lists of the army
+5,3,100,119,19,23,4,no,15,,"upon Edmund, supposed Earl of Gloucester,"
+5,3,100,119,19,23,4,no,16,,"that he is a manifold traitor, let him appear"
+5,3,100,119,19,23,4,no,17,,by the third
+5,3,100,119,19,23,4,no,18,,in his defence.'
+5,3,100,119,19,23,4,no,19,,Sound!
+5,3,100,119,19,23,4,no,20,,Again!
+5,3,100,119,19,23,4,no,21,,Again!
+5,3,100,119,19,23,4,no,22,,"Ask him his purposes, why he appears"
+5,3,100,119,19,23,4,no,23,119,Upon this call o' the trumpet.
+5,3,119,130,11,14,3,no,1,,What are you?
+5,3,119,130,11,14,3,no,2,,"Your name, your quality? and why you answer"
+5,3,119,130,11,14,3,no,3,,This present summons?
+5,3,119,130,11,14,3,no,4,,"Know, my name is lost;"
+5,3,119,130,11,14,3,no,5,,By treason's tooth bare-gnawn and canker-bit:
+5,3,119,130,11,14,3,no,6,,Yet am I noble as the adversary
+5,3,119,130,11,14,3,no,7,,I come to cope.
+5,3,119,130,11,14,3,no,8,,Which is that adversary?
+5,3,119,130,11,14,3,no,9,,What's he that speaks for Edmund Earl of Gloucester?
+5,3,119,130,11,14,3,no,10,,Himself: what say'st thou to him?
+5,3,119,130,11,14,3,no,11,,"Draw thy sword,"
+5,3,119,130,11,14,3,no,12,,"That, if my speech offend a noble heart,"
+5,3,119,130,11,14,3,no,13,,Thy arm may do thee justice: here is mine.
+5,3,119,130,11,14,3,no,14,130,"Behold, it is"
+5,3,130,140,10,10,0,yes,,,
+5,3,140,150,10,11,1,no,1,,"To prove upon thy heart, whereto I speak,"
+5,3,140,150,10,11,1,no,2,,Thou liest.
+5,3,140,150,10,11,1,no,3,,In wisdom I should ask thy name;
+5,3,140,150,10,11,1,no,4,,"But, since thy outside looks so fair and war-like,"
+5,3,140,150,10,11,1,no,5,,"And that thy tongue some say of breeding breathes,"
+5,3,140,150,10,11,1,no,6,,What safe and nicely I might well delay
+5,3,140,150,10,11,1,no,7,,"By rule of knighthood, I disdain and spurn:"
+5,3,140,150,10,11,1,no,8,,Back do I toss these treasons to thy head;
+5,3,140,150,10,11,1,no,9,,With the hell-hated lie o'erwhelm thy heart;
+5,3,140,150,10,11,1,no,10,,"Which, for they yet glance by and scarcely bruise,"
+5,3,140,150,10,11,1,no,11,150,"This sword of mine shall give them instant way,"
+5,3,150,161,11,12,1,no,1,,"Where they shall rest for ever. Trumpets, speak!"
+5,3,150,161,11,12,1,no,2,,"Save him, save him!"
+5,3,150,161,11,12,1,no,3,,"This is practice, Gloucester:"
+5,3,150,161,11,12,1,no,4,,By the law of arms thou wast not bound to answer
+5,3,150,161,11,12,1,no,5,,"An unknown opposite; thou art not vanquish'd,"
+5,3,150,161,11,12,1,no,6,,But cozen'd and beguiled.
+5,3,150,161,11,12,1,no,7,,"Shut your mouth, dame,"
+5,3,150,161,11,12,1,no,8,,"Or with this paper shall I stop it. Hold, sir;"
+5,3,150,161,11,12,1,no,9,,"Thou worse than any name, read thine own evil:"
+5,3,150,161,11,12,1,no,10,,"No tearing, lady; I perceive you know it."
+5,3,150,161,11,12,1,no,11,,"Say, if I do, the laws are mine, not thine:"
+5,3,150,161,11,12,1,no,12,161,Who can arraign me for't?
+5,3,161,171,10,15,5,no,1,,Most monstrous! oh!
+5,3,161,171,10,15,5,no,2,,Know'st thou this paper?
+5,3,161,171,10,15,5,no,3,,Ask me not what I know.
+5,3,161,171,10,15,5,no,4,,Go after her: she's desperate; govern her.
+5,3,161,171,10,15,5,no,5,,"What you have charged me with,"
+5,3,161,171,10,15,5,no,6,,that have I done;
+5,3,161,171,10,15,5,no,7,,"And more, much more; the time will bring it out:"
+5,3,161,171,10,15,5,no,8,,"'Tis past, and so am I. But what art thou"
+5,3,161,171,10,15,5,no,9,,"That hast this fortune on me? If thou'rt noble,"
+5,3,161,171,10,15,5,no,10,,I do forgive thee.
+5,3,161,171,10,15,5,no,11,,Let's exchange charity.
+5,3,161,171,10,15,5,no,12,,"I am no less in blood than thou art, Edmund;"
+5,3,161,171,10,15,5,no,13,,"If more, the more thou hast wrong'd me."
+5,3,161,171,10,15,5,no,14,,"My name is Edgar, and thy father's son."
+5,3,161,171,10,15,5,no,15,171,"The gods are just, and of our pleasant vices"
+5,3,171,180,9,11,2,no,1,,Make instruments to plague us:
+5,3,171,180,9,11,2,no,2,,The dark and vicious place where thee he got
+5,3,171,180,9,11,2,no,3,,Cost him his eyes.
+5,3,171,180,9,11,2,no,4,,"Thou hast spoken right, 'tis true;"
+5,3,171,180,9,11,2,no,5,,The wheel is come full circle; I am here.
+5,3,171,180,9,11,2,no,6,,Methought thy very gait did prophesy
+5,3,171,180,9,11,2,no,7,,A royal nobleness: I must embrace thee:
+5,3,171,180,9,11,2,no,8,,"Let sorrow split my heart, if ever I"
+5,3,171,180,9,11,2,no,9,,Did hate thee or thy father!
+5,3,171,180,9,11,2,no,10,,"Worthy prince, I know't."
+5,3,171,180,9,11,2,no,11,180,Where have you hid yourself?
+5,3,180,190,10,10,0,yes,,,
+5,3,190,200,10,11,1,no,1,,"Their precious stones new lost; became his guide,"
+5,3,190,200,10,11,1,no,2,,"Led him, begg'd for him, saved him from despair;"
+5,3,190,200,10,11,1,no,3,,"Never,--O fault!--reveal'd myself unto him,"
+5,3,190,200,10,11,1,no,4,,"Until some half-hour past, when I was arm'd:"
+5,3,190,200,10,11,1,no,5,,"Not sure, though hoping, of this good success,"
+5,3,190,200,10,11,1,no,6,,"I ask'd his blessing, and from first to last"
+5,3,190,200,10,11,1,no,7,,"Told him my pilgrimage: but his flaw'd heart,"
+5,3,190,200,10,11,1,no,8,,"Alack, too weak the conflict to support!"
+5,3,190,200,10,11,1,no,9,,"'Twixt two extremes of passion, joy and grief,"
+5,3,190,200,10,11,1,no,10,,Burst smilingly.
+5,3,190,200,10,11,1,no,11,200,"This speech of yours hath moved me,"
+5,3,200,211,11,12,1,no,1,,And shall perchance do good: but speak you on;
+5,3,200,211,11,12,1,no,2,,You look as you had something more to say.
+5,3,200,211,11,12,1,no,3,,"If there be more, more woeful, hold it in;"
+5,3,200,211,11,12,1,no,4,,"For I am almost ready to dissolve,"
+5,3,200,211,11,12,1,no,5,,Hearing of this.
+5,3,200,211,11,12,1,no,6,,This would have seem'd a period
+5,3,200,211,11,12,1,no,7,,"To such as love not sorrow; but another,"
+5,3,200,211,11,12,1,no,8,,"To amplify too much, would make much more,"
+5,3,200,211,11,12,1,no,9,,And top extremity.
+5,3,200,211,11,12,1,no,10,,"Whilst I was big in clamour came there in a man,"
+5,3,200,211,11,12,1,no,11,,"Who, having seen me in my worst estate,"
+5,3,200,211,11,12,1,no,12,211,"Shunn'd my abhorr'd society; but then, finding"
+5,3,211,221,10,11,1,no,1,,"Who 'twas that so endured, with his strong arms"
+5,3,211,221,10,11,1,no,2,,"He fasten'd on my neck, and bellow'd out"
+5,3,211,221,10,11,1,no,3,,As he'ld burst heaven; threw him on my father;
+5,3,211,221,10,11,1,no,4,,Told the most piteous tale of Lear and him
+5,3,211,221,10,11,1,no,5,,That ever ear received: which in recounting
+5,3,211,221,10,11,1,no,6,,"His grief grew puissant, and the strings of life"
+5,3,211,221,10,11,1,no,7,,"Began to crack: twice then the trumpets sounded,"
+5,3,211,221,10,11,1,no,8,,And there I left him tranced.
+5,3,211,221,10,11,1,no,9,,But who was this?
+5,3,211,221,10,11,1,no,10,,"Kent, sir, the banish'd Kent; who in disguise"
+5,3,211,221,10,11,1,no,11,221,"Follow'd his enemy king, and did him service"
+5,3,221,230,9,13,4,no,1,,Improper for a slave.
+5,3,221,230,9,13,4,no,2,,"Help, help, O, help!"
+5,3,221,230,9,13,4,no,3,,What kind of help?
+5,3,221,230,9,13,4,no,4,,"Speak, man."
+5,3,221,230,9,13,4,no,5,,What means that bloody knife?
+5,3,221,230,9,13,4,no,6,,"'Tis hot, it smokes;"
+5,3,221,230,9,13,4,no,7,,It came even from the heart
+5,3,221,230,9,13,4,no,8,,"Who dead? speak, man."
+5,3,221,230,9,13,4,no,9,,"Your lady, sir, your lady: and her sister"
+5,3,221,230,9,13,4,no,10,,By her is poisoned! she hath confess'd it.
+5,3,221,230,9,13,4,no,11,,I was contracted to them both: all three
+5,3,221,230,9,13,4,no,12,,Now marry in an instant.
+5,3,221,230,9,13,4,no,13,230,Here comes Kent.
+5,3,230,240,10,14,4,no,1,,"Produce their bodies, be they alive or dead:"
+5,3,230,240,10,14,4,no,2,,"This judgement of the heavens, that makes us tremble,"
+5,3,230,240,10,14,4,no,3,,Touches us not with pity.
+5,3,230,240,10,14,4,no,4,,"O, is this he?"
+5,3,230,240,10,14,4,no,5,,The time will not allow the compliment
+5,3,230,240,10,14,4,no,6,,Which very manners urges.
+5,3,230,240,10,14,4,no,7,,I am come
+5,3,230,240,10,14,4,no,8,,To bid my king and master aye good night:
+5,3,230,240,10,14,4,no,9,,Is he not here?
+5,3,230,240,10,14,4,no,10,,Great thing of us forgot!
+5,3,230,240,10,14,4,no,11,,"Speak, Edmund, where's the king? and where's Cordelia?"
+5,3,230,240,10,14,4,no,12,,"See'st thou this object, Kent?"
+5,3,230,240,10,14,4,no,13,,"Alack, why thus?"
+5,3,230,240,10,14,4,no,14,240,Yet Edmund was beloved:
+5,3,240,251,11,12,1,no,1,,"The one the other poison'd for my sake,"
+5,3,240,251,11,12,1,no,2,,And after slew herself.
+5,3,240,251,11,12,1,no,3,,Even so. Cover their faces.
+5,3,240,251,11,12,1,no,4,,"I pant for life: some good I mean to do,"
+5,3,240,251,11,12,1,no,5,,"Despite of mine own nature. Quickly send,"
+5,3,240,251,11,12,1,no,6,,"Be brief in it, to the castle; for my writ"
+5,3,240,251,11,12,1,no,7,,Is on the life of Lear and on Cordelia:
+5,3,240,251,11,12,1,no,8,,"Nay, send in time."
+5,3,240,251,11,12,1,no,9,,"Run, run, O, run!"
+5,3,240,251,11,12,1,no,10,,"To who, my lord? Who hath the office? send"
+5,3,240,251,11,12,1,no,11,,Thy token of reprieve.
+5,3,240,251,11,12,1,no,12,251,"Well thought on: take my sword,"
+5,3,251,259,8,9,1,no,1,,Give it the captain.
+5,3,251,259,8,9,1,no,2,,"Haste thee, for thy life."
+5,3,251,259,8,9,1,no,3,,He hath commission from thy wife and me
+5,3,251,259,8,9,1,no,4,,"To hang Cordelia in the prison, and"
+5,3,251,259,8,9,1,no,5,,"To lay the blame upon her own despair,"
+5,3,251,259,8,9,1,no,6,,That she fordid herself.
+5,3,251,259,8,9,1,no,7,,The gods defend her! Bear him hence awhile.
+5,3,251,259,8,9,1,no,8,,"Howl, howl, howl, howl! O, you are men of stones:"
+5,3,251,259,8,9,1,no,9,259,"Had I your tongues and eyes, I'ld use them so"
+5,3,259,270,11,15,4,no,1,,That heaven's vault should crack. She's gone for ever!
+5,3,259,270,11,15,4,no,2,,"I know when one is dead, and when one lives;"
+5,3,259,270,11,15,4,no,3,,She's dead as earth. Lend me a looking-glass;
+5,3,259,270,11,15,4,no,4,,"If that her breath will mist or stain the stone,"
+5,3,259,270,11,15,4,no,5,,"Why, then she lives."
+5,3,259,270,11,15,4,no,6,,Is this the promised end?
+5,3,259,270,11,15,4,no,7,,Or image of that horror?
+5,3,259,270,11,15,4,no,8,,"Fall, and cease!"
+5,3,259,270,11,15,4,no,9,,"This feather stirs; she lives! if it be so,"
+5,3,259,270,11,15,4,no,10,,It is a chance which does redeem all sorrows
+5,3,259,270,11,15,4,no,11,,That ever I have felt.
+5,3,259,270,11,15,4,no,12,,O my good master!
+5,3,259,270,11,15,4,no,13,,"Prithee, away."
+5,3,259,270,11,15,4,no,14,,"'Tis noble Kent, your friend."
+5,3,259,270,11,15,4,no,15,270,"A plague upon you, murderers, traitors all!"
+5,3,270,280,10,11,1,no,1,,I might have saved her; now she's gone for ever!
+5,3,270,280,10,11,1,no,2,,"Cordelia, Cordelia! stay a little. Ha!"
+5,3,270,280,10,11,1,no,3,,"What is't thou say'st? Her voice was ever soft,"
+5,3,270,280,10,11,1,no,4,,"Gentle, and low, an excellent thing in woman."
+5,3,270,280,10,11,1,no,5,,I kill'd the slave that was a-hanging thee.
+5,3,270,280,10,11,1,no,6,,"'Tis true, my lords, he did."
+5,3,270,280,10,11,1,no,7,,"Did I not, fellow?"
+5,3,270,280,10,11,1,no,8,,"I have seen the day, with my good biting falchion"
+5,3,270,280,10,11,1,no,9,,"I would have made them skip: I am old now,"
+5,3,270,280,10,11,1,no,10,,And these same crosses spoil me. Who are you?
+5,3,270,280,10,11,1,no,11,280,Mine eyes are not o' the best: I'll tell you straight.
+5,3,280,290,10,12,2,no,1,,"If fortune brag of two she loved and hated,"
+5,3,280,290,10,12,2,no,2,,One of them we behold.
+5,3,280,290,10,12,2,no,3,,This is a dull sight. Are you not Kent?
+5,3,280,290,10,12,2,no,4,,"The same,"
+5,3,280,290,10,12,2,no,5,,Your servant Kent. Where is your servant Caius?
+5,3,280,290,10,12,2,no,6,,"He's a good fellow, I can tell you that;"
+5,3,280,290,10,12,2,no,7,,"He'll strike, and quickly too: he's dead and rotten."
+5,3,280,290,10,12,2,no,8,,"No, my good lord; I am the very man,--"
+5,3,280,290,10,12,2,no,9,,I'll see that straight.
+5,3,280,290,10,12,2,no,10,,"That, from your first of difference and decay,"
+5,3,280,290,10,12,2,no,11,,Have follow'd your sad steps.
+5,3,280,290,10,12,2,no,12,290,You are welcome hither.
+5,3,290,319,29,35,6,no,1,,Nor no man else:
+5,3,290,319,29,35,6,no,2,,"Your eldest daughters have fordone themselves,"
+5,3,290,319,29,35,6,no,3,,And desperately are dead.
+5,3,290,319,29,35,6,no,4,,"Ay, so I think."
+5,3,290,319,29,35,6,no,5,,He knows not what he says: and vain it is
+5,3,290,319,29,35,6,no,6,,That we present us to him.
+5,3,290,319,29,35,6,no,7,,Very bootless.
+5,3,290,319,29,35,6,no,8,,"Edmund is dead, my lord."
+5,3,290,319,29,35,6,no,9,,"That's but a trifle here,"
+5,3,290,319,29,35,6,no,10,,"You lords and noble friends, know our intent."
+5,3,290,319,29,35,6,no,11,,What comfort to this great decay may come
+5,3,290,319,29,35,6,no,12,,"Shall be applied: for us, we will resign,"
+5,3,290,319,29,35,6,no,13,,"During the life of this old majesty,"
+5,3,290,319,29,35,6,no,14,,To him our absolute power:
+5,3,290,319,29,35,6,no,15,,"With boot, and such addition as your honors"
+5,3,290,319,29,35,6,no,16,,Have more than merited. All friends shall taste
+5,3,290,319,29,35,6,no,17,,"The wages of their virtue, and all foes"
+5,3,290,319,29,35,6,no,18,,"The cup of their deservings. O, see, see!"
+5,3,290,319,29,35,6,no,19,,"And my poor fool is hang'd! No, no, no life!"
+5,3,290,319,29,35,6,no,20,,"Why should a dog, a horse, a rat, have life,"
+5,3,290,319,29,35,6,no,21,,"And thou no breath at all? Thou'lt come no more,"
+5,3,290,319,29,35,6,no,22,,"Never, never, never, never, never!"
+5,3,290,319,29,35,6,no,23,,"Pray you, undo this button: thank you, sir."
+5,3,290,319,29,35,6,no,24,,"Do you see this? Look on her, look, her lips,"
+5,3,290,319,29,35,6,no,25,,"Look there, look there!"
+5,3,290,319,29,35,6,no,26,,"He faints! My lord, my lord!"
+5,3,290,319,29,35,6,no,27,,"Break, heart; I prithee, break!"
+5,3,290,319,29,35,6,no,28,,"Look up, my lord."
+5,3,290,319,29,35,6,no,29,,"Vex not his ghost: O, let him pass! he hates him much"
+5,3,290,319,29,35,6,no,30,,That would upon the rack of this tough world
+5,3,290,319,29,35,6,no,31,,Stretch him out longer.
+5,3,290,319,29,35,6,no,32,,"He is gone, indeed."
+5,3,290,319,29,35,6,no,33,,"The wonder is, he hath endured so long:"
+5,3,290,319,29,35,6,no,34,,He but usurp'd his life.
+5,3,290,319,29,35,6,no,35,319,Bear them from hence. Our present business

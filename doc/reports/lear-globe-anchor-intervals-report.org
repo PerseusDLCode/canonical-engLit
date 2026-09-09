@@ -1,0 +1,215 @@
+#+TITLE: King Lear Globe-Anchor Interval Closure Report
+#+DATE: 2026-09-08
+#+AUTHOR: Clifford Wulfman
+#+OPTIONS: toc:t num:nil
+
+* Overview
+
+Deliverable of [[file:agenda.org::#phase1/rederive-lear-p5][#phase1/rederive-lear-p5]] (see [[file:alignment-oracles.org][alignment-oracles.org]] for the full
+diagnosis and method). =corpus-tools='s new =rederive-globe-lineation=
+command re-derived =data/shakespeare/lr/shakespeare.lr.globe.xml= from
+its P4 source (=Renaissance/Shakespeare/opensource/lr.xml=), restoring
+every Globe and F1 =<lb>= as a =<milestone>= rather than the
+interpolated, collision-prone =@n= the 2025 migration produced. This
+report is the resulting *anchor-interval closure audit*: for every pair
+of consecutive transcribed Globe line numbers within a scene, whether
+the number of Globe boundaries actually falling between them matches
+the arithmetic gap between the two numbers.
+
+Full data: [[file:reports/lear-globe-anchor-intervals.csv][reports/lear-globe-anchor-intervals.csv]] (2,385 rows: one row
+per closing interval, one row per boundary of each non-closing
+interval). This report does not resolve the non-closing intervals --
+that is the alignment-oracle task (=phase1/alignment-oracle-lear=, to
+be written), which will adjudicate them against Schmidt's Lear
+citations. This is its input.
+
+** Counts
+
+Of King Lear's 6,927 =<lb>= elements in the P4 source, 3,626 are Globe
+(=ed="G"=, only 274 transcribed with a number) and 3,301 are F1
+(=ed="F1"=, effectively all numbered). All 6,927 are now =<milestone>=
+elements in the re-derived file; =check_corpus.py= confirms the
+=citeStructure= line level reaches all 3,626 Globe milestones (leaf
+depth =d2=3626=), against 65 before re-derivation.
+
+The 274 transcribed anchors, taken 26-scenes-at-a-time, define **249
+within-scene intervals** (one scene, III.3, has no transcribed anchor
+at all and so contributes none; one scene, V.2, has exactly one and so
+contributes none either -- an interval needs two anchors to bound it).
+
+| Status                          | Count |
+|----------------------------------+-------|
+| Intervals audited                 |   249 |
+| Close exactly (excess 0)          |    84 |
+| Do not close                      |   165 |
+
+** Excess histogram (non-closing intervals)
+
+"Excess" is the count of Globe boundaries actually found between two
+anchors, minus the arithmetic gap between their values. Positive means
+more boundaries were marked than the page's numbering allows for (the
+dominant pattern -- see below); negative means fewer.
+
+| Excess | Intervals |
+|--------+-----------|
+|     −1 |        10 |
+|     +1 |        87 |
+|     +2 |        36 |
+|     +3 |        18 |
+|     +4 |        12 |
+|     +5 |         1 |
+|     +6 |         1 |
+
+*Correction to =alignment-oracles.org=*: that document's working-session
+count (250 intervals, 166 non-closing, "larger" excess bucket = 3) was
+an informal estimate from manual inspection. This report's counts come
+from the actual re-derived structure via the =globe_anchor_intervals=
+module (=corpus-tools=) and are one interval lower throughout, traced
+to III.3's zero-anchor scene; the "larger" bucket splits as +5×1, +6×1
+(2, not 3). These figures, not the working-session ones, should be
+treated as authoritative going forward.
+
+* Why intervals fail to close
+
+The dominant pattern (110 of 165 non-closing intervals, excess
++1..+4) is exactly the mechanism =alignment-oracles.org= §Layer 3a
+diagnoses: Greg's P4 markup emits a Globe =<lb>= boundary at *every*
+verse-line element, including both halves of a shared/split line that
+the printed page counts as a single Globe line. Each such split line
+inflates the boundary count by one without changing the anchor values
+on either side of it.
+
+** Worked example: Act II, Scene 4, anchors 160→170
+
+Immediately following the collision this task set out to fix (Globe
+160 = "Return you to my sister.", now correctly disambiguated from the
+line before it -- see =alignment-oracles.org= §2), the very next
+interval does not close:
+
+| gap | boundaries found | excess |
+|-----+-------------------+--------|
+|  10 |                11 |     +1 |
+
+The eleven lines between anchors 160 and 170 (King Lear's curse on
+Goneril) contain no textually obvious split line in this span -- the
+excess boundary is somewhere in "Never, Regan: / She hath abated me of
+half my train; / Look'd black upon me... / ... / You fen-suck'd fogs,
+drawn by the powerful sun" (full boundary-by-boundary text is in the
+CSV, rows with =anchor_a=160, anchor_b=170=). This is precisely the
+shape of problem =alignment-oracles.org= describes as tractable for the
+oracle: not "which of 3,626 lines is which," but "which one of these
+eleven boundaries is spurious."
+
+** The −1 cases (10 intervals)
+
+Ten intervals have *fewer* boundaries than the gap requires -- a
+transcribed anchor was possibly mis-transcribed, or a Globe boundary
+was dropped entirely somewhere the F1 milestones (denser, present on
+nearly every line) may help disambiguate. See the CSV rows with
+=excess=-1= for the full list; not analyzed further here, left for the
+oracle task alongside the positive-excess cases.
+
+* Milestone placement: start-forward, not trailing
+
+An earlier draft of this task's output placed each =<milestone>= where
+the P4 =<lb>= physically sat -- trailing the content it numbered,
+matching Greg's own encoding. Cliff caught this against
+[[https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-lb.html][TEI's own =<lb>= reference]] (already the settled corpus-wide
+convention for =<lb>= in this repo's =CLAUDE.md=: "marks the
+*beginning* of the line it labels, not the end"). Checking =perseus_cts=
+before implementing confirmed this isn't just a style question: the
+resolver's =_milestone_chunks=/=elements_between= walk *forward* from a
+matched milestone to the next one to build its cited span, and
+canonical-greekLit's existing =card=-milestone =citeStructure=s already
+place their milestones as a preceding sibling of the element they
+introduce -- both assume start-forward placement. Trailing placement
+would have made every citation resolve to the *next* line's text, off
+by one, silently.
+
+Fixed via a post-conversion pass
+(=corpus-tools/src/globe_lineation.py=,
+=reposition_milestones_start_forward=): each edition's milestone =@n=
+values are shifted back by one boundary-slot (Globe scoped per scene,
+since it resets there; F1 continuous across the whole play), and each
+now-relabeled marker is physically relocated to lead the =<l>=/=<p>= it
+describes -- not just left document-order-adjacent, genuinely renested
+-- except a boundary embedded mid-sentence in flowing prose, which is
+relabeled in place only (it already sits at the exact character offset
+where its content begins; there's nowhere structurally to move it).
+One new leading milestone was synthesized where a scope's very first
+boundary was itself transcribed and had nowhere existing to shift
+into: the F1 sequence's opening boundary (P4's =<lb n="2" ed="F1"/>=
+immediately after the "ACT I" heading, before any scene begins). No
+Globe scene needed one -- none of the 26 scenes' own first transcribed
+boundary happened to be numbered.
+
+A real bug surfaced and was fixed during this: Globe and F1 markers
+routinely sit back-to-back in P4 (=<lb ed="G"/><lb n="311"
+ed="F1"/>of what...=), so a Globe marker's own =.tail= is empty even
+when real prose immediately follows its F1 neighbor. The first
+implementation checked only the marker's own tail to decide "is this
+mid-paragraph or a genuine line-end," misclassifying several
+mid-paragraph boundaries as terminal and moving them -- which shuffled
+document order and changed the interval-closure counts reported by an
+earlier draft of this report (172 non-closing, spurious new −7/+7
+buckets). Fixed by looking past adjacent same-position markers of
+*any* edition to find the next real content before deciding
+(=_has_content_after=, with a regression test,
+=tests/test_globe_lineation_reposition.py=). The counts above are from
+the corrected code and are stable: re-running the whole pipeline
+reproduces them exactly.
+
+* Validation
+
+- =jing= against local =perseus_drama.rng=: 0 errors.
+- =corpus-tools= Schematron encoding audit: 0 findings.
+- =check_corpus.py=: =ok=, =d0=6 d1=26 d2=3626=.
+- Full =data/shakespeare/= re-check: unchanged from baseline (77 =ok=,
+  no regressions).
+
+* No schema change needed for P4's <reg orig> shorthand
+
+An earlier draft of this task added =orig=/=reg= to
+=perseus_base.odd='s core include list, converting P4's
+=<reg orig="X">Y</reg>= (hyphenation-regularization shorthand, 12
+instances in Lear, non-standard =@orig= attribute, not valid TEI P5)
+to =<choice><orig>X</orig><reg>Y</reg></choice>=. Cliff judged this
+unnecessary -- there's nothing worth preserving in keeping the original
+hyphenated form separately marked up; the regularized reading is what
+matters. **Reverted**: =perseus-schemas= commit =274d300= ("adds orig
+and rec to allowable elements") reverted at =715787c=/=e6fd910=, and
+the corresponding Schematron narrowing in
+=corpus-tools/schematron/perseus_encoding.sch= (=legacy-reg= pattern)
+reverted to its original unconditional form -- every bare =<reg>= is
+flagged again, matching pre-task behaviour.
+
+The re-derivation now collapses =<reg orig="X">Y</reg>= straight to
+plain text =Y= (=corpus-tools/src/globe_lineation.py=, handled as a
+special case in =convert_children= alongside entity resolution, since
+it produces text rather than an element). No schema change, no
+wrapper element, no effect on any other corpus. All 12 instances in
+Lear verified to collapse correctly (=tests/test_globe_lineation.py=,
+=TestRegConversion=).
+
+The =@ed= closed-vocabulary change =alignment-oracles.org= calls for
+(so a stray =ed="G"= fails validation) was **not** made: =@ed= is used
+corpus-wide with dozens of distinct, legitimate sigils in
+canonical-greekLit, canonical-latinLit and First1KGreek (Bekker, Spiro,
+Loeb, actscene, oct, alt, ...), and =att.edition= is declared once in
+=perseus_base.odd= for all of them. A hard closed list there would have
+broken validation across three other corpora. Deferred; needs its own
+design (most likely a per-genre or per-document scoping this toolchain
+doesn't yet have a working pattern for -- see
+=ODD-CHAINING-PROTOCOL.md='s note that a prior per-child attribute
+override "never worked").
+
+* Deliverables produced
+
+1. Baseline =check_corpus.py= CSV over =data/shakespeare/= as it stood
+   before this task: [[file:reports/lear-rederivation-baseline-check-corpus.csv]].
+2. Re-derived =data/shakespeare/lr/shakespeare.lr.globe.xml=.
+3. This report and [[file:reports/lear-globe-anchor-intervals.csv]].
+4. Post-change =check_corpus.py= result: =ok=, leaf count 3,626 (above).
+
+Not committed in either repository yet; commit on request per this
+repo's corpus-cleanup workflow.
