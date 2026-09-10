@@ -261,8 +261,8 @@ count unchanged at 233,265; =<bibl>= count dropped from 233,374 to
 reports 0 errors, same before and after (the file now validates
 clean — a byproduct of the unrelated in-progress
 =<emph>=->=<mentioned>= cleanup already in the working tree, not of
-this task). Not yet committed — file still carries that unrelated
-uncommitted diff; commit on request per the corpus-cleanup workflow.
+this task). Committed as part of =a43f7cb=/=3e135d7= in the Schmidt
+citation-repair sequence.
 
 * DONE Merge orphaned citations into their <cit> in Schmidt
 CLOSED: [2026-09-01 Tue]
@@ -557,8 +557,9 @@ unchanged for the schema-PI fix. All six =__cts__.xml= created (Globe
 edition only -- see scope note below). All six Globe files re-validate
 clean (0 jing errors) against =perseus_verse.rng=; element counts
 (=<l>=, =<lg>=, =<div>=) verified unchanged except where the task called
-for structural changes (div unwrap in =ven=/=lc=). Not yet committed --
-commit on request per the corpus-cleanup workflow.
+for structural changes (div unwrap in =ven=/=lc=). Committed
+(=4333e4e=, =fb8559b=; the =ven=/=pp= continuous-numbering fix below in
+=e510a77=).
 
 Scope, confirmed with Cliff before implementation:
 - Folger integration (raw FDT files already present in =ven=, =luc=,
@@ -811,10 +812,105 @@ into the URN. Neither is a Lear data defect; both are =perseus_cts=
 gaps relevant to =phase2/validate-one-play=. Recorded, not fixed here:
 =forum.org= =#citations/perseus-cts-milestone-resolve-gap=.
 
-Not yet committed in any of the three repos touched
-(=canonical-engLit=, =corpus-tools=, =perseus-schemas=) -- commit on
-request per the corpus-cleanup workflow. Stopping here for review
-before generalising to the other 36 plays, per this task's own scope.
+Committed across all three repos touched (=canonical-engLit= =9199559=,
+=corpus-tools= =393869b=, =perseus-schemas= =55af9cb=). Stopping here
+for review before generalising to the other 36 plays, per this task's
+own scope.
+
+* TODO Extract Globe citation evidence from Schmidt (Lear first)
+:PROPERTIES:
+:CUSTOM_ID: phase1/schmidt-citation-evidence
+:ASSIGNEES: Claude Code
+:DEPENDS: phase1/schmidt-extract-identity
+:END:
+Repo: =schmidt-lexicon-workshop=. Extends the existing
+=extract-schmidt-citations= command; not a new extractor.
+
+*Why.* =citations.tsv= gives pointers (=key=, =ordinal=,
+=cit_ordinal=, =p4_bibl_n=, =p4_display_text=, =p5_ref_target=) but no
+*evidence*. The alignment oracle needs the text Schmidt quotes, so it
+can ask "does this quotation actually occur at the line Schmidt says?"
+A headword alone is weak evidence; a full quoted line is strong.
+Schmidt's =<quote>= elements number 103,949 corpus-wide.
+
+*What to add*, joined on =(key, cit_ordinal)= back into
+=vendor/schmidt.xml=:
+- =headword= -- the entry's =<orth>=, normalised.
+- =quote_raw= -- the =<quote>= text as encoded.
+- =quote_expanded= -- the same with headword shorthand resolved:
+  dash-elision (=--d= → =abated=) and initial-letter abbreviation (=a.=
+  → =abate=), using the entry's own headword. Leave the token in place
+  and unexpanded if it cannot be resolved; do not guess.
+- =has_quote= -- some =<cit>= carry a bare =<ref>= with no quotation.
+
+Emit as a separate table (=citation_quotes.tsv=) keyed to
+=citations.tsv=, not by widening that file: it is already stamped and
+consumed elsewhere.
+
+*Scope.* Lear (=urn:cts:engLit:shakespeare.lr:=) is the pilot -- 2,259
+well-formed citations across all 26 scenes. Report coverage per scene.
+Run corpus-wide once the shape is agreed.
+
+*Also report, do not fix:* 27 Lear rows carry malformed targets where
+the scene position holds a line number (=lr:1.102=, =lr:4.140=) --
+residue of the single-scene-act collapse. A validity check against each
+play's actual act/scene inventory would catch this class corpus-wide.
+
+*Provenance.* Same stamped header as =citations.tsv=. Do not generate
+from a dirty tree -- =citations.tsv= currently reads
+=commit=74e5ee7-DIRTY= and so cannot be reproduced from its own record.
+See =forum.org= =#protocol/commit-discipline=.
+
+* TODO Re-derive Antony and Cleopatra P5 from the P4 (prose-encoded pilot)
+:PROPERTIES:
+:CUSTOM_ID: phase1/rederive-antony-p5
+:ASSIGNEES: Claude Code
+:DEPENDS: phase1/rederive-lear-p5
+:END:
+Second pilot. Apply the pipeline built for =phase1/rederive-lear-p5=
+unchanged where possible; the point is to prove the milestone model on
+a play with *no verse encoding at all*.
+
+*Why this play.* =ant.xml= has 1,173 =<p>= and *zero* =<l>=: the verse
+is encoded as prose. It is therefore the case that broke every
+=<l>=-based tool in the corpus, and the reason
+=done/interpolate-line-numbers= wrongly concluded these plays have no
+Globe apparatus. They do -- see the supersession note there. It is also
+one of the Roman plays, which Greg has a particular interest in.
+
+*Starting state, verified in the P4:* 3,570 =<lb ed="G"/>= boundaries,
+*273* of them numbered; 3,628 =<lb ed="F1">=. The P5 currently retains
+273 =<lb>= total -- all of them =ed="G"= anchors, since nothing could
+be transferred to a nonexistent =<l>=. So the P5 has *no interpolated
+numbers to distrust*: 273 genuine anchors and nothing between them.
+
+*Interval audit, first pass:* 236 intervals, 53 closing exactly, 183
+not (excess +1×61, +2×61, +3×21, +4×26, larger×8, *negative×3*). The
+three negative intervals are the Priority-1 class -- anchors running
+backwards or boundaries missing -- and have never been examined,
+because the collision logic in =done/interpolate-line-numbers= never
+ran on this file. Report them individually.
+
+*Same rules as Lear:* =<l>= carries no =@n= (moot here); Globe
+reference points are =<milestone unit="line" ed="Globe">= placed
+*leading* the line they number; =@source= on transcribed anchors and
+absent on counted ones; unresolved numbers get a bare unnumbered
+milestone, *not* =@cert=; F1 milestones preserved in document order
+with their provenance recorded as unknown.
+
+*Required assertion*, the one the Lear re-run needed: every transcribed
+number must still precede the same text it preceded in the P4, checked
+for *both* reference systems. This belongs in the test suite, not in a
+review pass -- =test_globe_lineation_reposition.py= passed while all
+274 Lear anchors sat one position out.
+
+*Out of scope:* restoring verse structure to this play. Real, but
+separable -- citation resolution needs to know where the Globe's line
+boundaries fall, not which lines are verse. Open a separate item.
+
+*Deliverables:* re-derived =shakespeare.ant.globe.xml=;
+=check_corpus.py= =ok= with leaf depth ~3,570 (not 273); an interval
+report in the Lear format; the three negative intervals called out.
 
 * Phase 2: MVP pipeline integration
 
