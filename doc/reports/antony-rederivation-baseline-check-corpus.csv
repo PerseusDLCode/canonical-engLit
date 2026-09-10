@@ -1,0 +1,131 @@
+path,status,detail,urn,d0,d1,d2
+../canonical-engLit/data/shakespeare/1h4/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/1h4/shakespeare.1h4.f1.xml,ok,,urn:cts:engLit:shakespeare.1h4.f1,5,19,
+../canonical-engLit/data/shakespeare/1h4/shakespeare.1h4.globe.xml,ok,,urn:cts:engLit:shakespeare.1h4.globe,5,19,250
+../canonical-engLit/data/shakespeare/1h6/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/1h6/shakespeare.1h6.f1.xml,ok,,urn:cts:engLit:shakespeare.1h6.f1,5,27,
+../canonical-engLit/data/shakespeare/1h6/shakespeare.1h6.globe.xml,ok,,urn:cts:engLit:shakespeare.1h6.globe,6,27,236
+../canonical-engLit/data/shakespeare/2h4/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/2h4/shakespeare.2h4.f1.xml,ok,,urn:cts:engLit:shakespeare.2h4.f1,7,17,
+../canonical-engLit/data/shakespeare/2h4/shakespeare.2h4.globe.xml,ok,,urn:cts:engLit:shakespeare.2h4.globe,8,19,239
+../canonical-engLit/data/shakespeare/2h6/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/2h6/shakespeare.2h6.f1.xml,ok,,urn:cts:engLit:shakespeare.2h6.f1,5,24,
+../canonical-engLit/data/shakespeare/2h6/shakespeare.2h6.globe.xml,ok,,urn:cts:engLit:shakespeare.2h6.globe,6,24,261
+../canonical-engLit/data/shakespeare/3h6/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/3h6/shakespeare.3h6.f1.xml,ok,,urn:cts:engLit:shakespeare.3h6.f1,5,28,
+../canonical-engLit/data/shakespeare/3h6/shakespeare.3h6.globe.xml,ok,,urn:cts:engLit:shakespeare.3h6.globe,6,28,255
+../canonical-engLit/data/shakespeare/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/ado/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/ado/shakespeare.ado.f1.xml,ok,,urn:cts:engLit:shakespeare.ado.f1,5,17,
+../canonical-engLit/data/shakespeare/ado/shakespeare.ado.globe.xml,ok,,urn:cts:engLit:shakespeare.ado.globe,6,17,145
+../canonical-engLit/data/shakespeare/ant/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/ant/shakespeare.ant.f1.xml,ok,,urn:cts:engLit:shakespeare.ant.f1,5,42,
+../canonical-engLit/data/shakespeare/ant/shakespeare.ant.globe.xml,ok,,urn:cts:engLit:shakespeare.ant.globe,6,42,273
+../canonical-engLit/data/shakespeare/aww/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/aww/shakespeare.aww.f1.xml,ok,,urn:cts:engLit:shakespeare.aww.f1,5,23,
+../canonical-engLit/data/shakespeare/aww/shakespeare.aww.globe.xml,ok,,urn:cts:engLit:shakespeare.aww.globe,6,23,215
+../canonical-engLit/data/shakespeare/ayl/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/ayl/shakespeare.ayl.f1.xml,ok,,urn:cts:engLit:shakespeare.ayl.f1,5,22,
+../canonical-engLit/data/shakespeare/ayl/shakespeare.ayl.globe.xml,ok,,urn:cts:engLit:shakespeare.ayl.globe,6,22,85
+../canonical-engLit/data/shakespeare/cor/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/cor/shakespeare.cor.f1.xml,ok,,urn:cts:engLit:shakespeare.cor.f1,5,29,
+../canonical-engLit/data/shakespeare/cor/shakespeare.cor.globe.xml,ok,,urn:cts:engLit:shakespeare.cor.globe,5,29,36
+../canonical-engLit/data/shakespeare/cym/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/cym/shakespeare.cym.f1.xml,ok,,urn:cts:engLit:shakespeare.cym.f1,5,27,
+../canonical-engLit/data/shakespeare/cym/shakespeare.cym.globe.xml,ok,,urn:cts:engLit:shakespeare.cym.globe,6,27,3
+../canonical-engLit/data/shakespeare/err/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/err/shakespeare.err.f1.xml,ok,,urn:cts:engLit:shakespeare.err.f1,5,11,
+../canonical-engLit/data/shakespeare/err/shakespeare.err.globe.xml,ok,,urn:cts:engLit:shakespeare.err.globe,6,11,15
+../canonical-engLit/data/shakespeare/h5/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/h5/shakespeare.h5.f1.xml,ok,,urn:cts:engLit:shakespeare.h5.f1,6,23,
+../canonical-engLit/data/shakespeare/h5/shakespeare.h5.globe.xml,ok,,urn:cts:engLit:shakespeare.h5.globe,8,27,75
+../canonical-engLit/data/shakespeare/h8/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/h8/shakespeare.h8.f1.xml,ok,,urn:cts:engLit:shakespeare.h8.f1,6,16,
+../canonical-engLit/data/shakespeare/h8/shakespeare.h8.globe.xml,ok,,urn:cts:engLit:shakespeare.h8.globe,8,17,5
+../canonical-engLit/data/shakespeare/ham/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/ham/shakespeare.ham.f1.xml,ok,,urn:cts:engLit:shakespeare.ham.f1,5,20,
+../canonical-engLit/data/shakespeare/ham/shakespeare.ham.globe.xml,ok,,urn:cts:engLit:shakespeare.ham.globe,6,20,67
+../canonical-engLit/data/shakespeare/jc/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/jc/shakespeare.jc.f1.xml,ok,,urn:cts:engLit:shakespeare.jc.f1,5,18,
+../canonical-engLit/data/shakespeare/jc/shakespeare.jc.globe.xml,ok,,urn:cts:engLit:shakespeare.jc.globe,5,18,7
+../canonical-engLit/data/shakespeare/jn/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/jn/shakespeare.jn.f1.xml,ok,,urn:cts:engLit:shakespeare.jn.f1,5,16,
+../canonical-engLit/data/shakespeare/jn/shakespeare.jn.globe.xml,ok,,urn:cts:engLit:shakespeare.jn.globe,6,16,
+../canonical-engLit/data/shakespeare/lc/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/lc/shakespeare.lc.globe.xml,ok,,urn:cts:engLit:shakespeare.lc.globe,45,331,
+../canonical-engLit/data/shakespeare/lll/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/lll/shakespeare.lll.f1.xml,ok,,urn:cts:engLit:shakespeare.lll.f1,5,9,
+../canonical-engLit/data/shakespeare/lll/shakespeare.lll.globe.xml,ok,,urn:cts:engLit:shakespeare.lll.globe,5,9,48
+../canonical-engLit/data/shakespeare/lr/Bod-F-lr.xml,skipped,no refsDecl[citeStructure],,,,
+../canonical-engLit/data/shakespeare/lr/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/lr/lr-first-11-lines.xml,skipped,no refsDecl[citeStructure],,,,
+../canonical-engLit/data/shakespeare/lr/shakespeare.lr.f1.xml,ok,,urn:cts:engLit:shakespeare.lr.f1,5,25,
+../canonical-engLit/data/shakespeare/lr/shakespeare.lr.globe.xml,ok,,urn:cts:engLit:shakespeare.lr.globe,6,26,3626
+../canonical-engLit/data/shakespeare/luc/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/luc/shakespeare.luc.folger.xml,skipped,no refsDecl[citeStructure],,,,
+../canonical-engLit/data/shakespeare/luc/shakespeare.luc.globe.xml,config_error,First-level citeStructure declares delim='.'; must be ':' (CTS passage separator),,,,
+../canonical-engLit/data/shakespeare/mac/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/mac/shakespeare.mac.f1.xml,ok,,urn:cts:engLit:shakespeare.mac.f1,5,28,
+../canonical-engLit/data/shakespeare/mac/shakespeare.mac.globe.xml,ok,,urn:cts:engLit:shakespeare.mac.globe,6,28,8
+../canonical-engLit/data/shakespeare/mm/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/mm/shakespeare.mm.f1.xml,ok,,urn:cts:engLit:shakespeare.mm.f1,5,17,
+../canonical-engLit/data/shakespeare/mm/shakespeare.mm.globe.xml,ok,,urn:cts:engLit:shakespeare.mm.globe,6,17,67
+../canonical-engLit/data/shakespeare/mnd/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/mnd/shakespeare.mnd.f1.xml,ok,,urn:cts:engLit:shakespeare.mnd.f1,5,9,
+../canonical-engLit/data/shakespeare/mnd/shakespeare.mnd.globe.xml,ok,,urn:cts:engLit:shakespeare.mnd.globe,6,9,16
+../canonical-engLit/data/shakespeare/mv/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/mv/shakespeare.mv.f1.xml,ok,,urn:cts:engLit:shakespeare.mv.f1,5,20,
+../canonical-engLit/data/shakespeare/mv/shakespeare.mv.globe.xml,ok,,urn:cts:engLit:shakespeare.mv.globe,6,20,29
+../canonical-engLit/data/shakespeare/oth/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/oth/shakespeare.oth.f1.xml,ok,,urn:cts:engLit:shakespeare.oth.f1,5,15,
+../canonical-engLit/data/shakespeare/oth/shakespeare.oth.globe.xml,ok,,urn:cts:engLit:shakespeare.oth.globe,6,15,14
+../canonical-engLit/data/shakespeare/per/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/per/shakespeare.per.f1.xml,ok,,urn:cts:engLit:shakespeare.per.f1,5,22,
+../canonical-engLit/data/shakespeare/per/shakespeare.per.globe.xml,ok,,urn:cts:engLit:shakespeare.per.globe,6,28,4
+../canonical-engLit/data/shakespeare/pht/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/pht/shakespeare.pht.folger.xml,skipped,no refsDecl[citeStructure],,,,
+../canonical-engLit/data/shakespeare/pht/shakespeare.pht.globe.xml,ok,,urn:cts:engLit:shakespeare.pht.globe,18,67,
+../canonical-engLit/data/shakespeare/pp/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/pp/shakespeare.pp.globe.xml,config_error,First-level citeStructure declares delim='.'; must be ':' (CTS passage separator),,,,
+../canonical-engLit/data/shakespeare/r2/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/r2/shakespeare.r2.f1.xml,ok,,urn:cts:engLit:shakespeare.r2.f1,5,19,
+../canonical-engLit/data/shakespeare/r2/shakespeare.r2.globe.xml,ok,,urn:cts:engLit:shakespeare.r2.globe,6,19,10
+../canonical-engLit/data/shakespeare/r3/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/r3/shakespeare.r3.f1.xml,ok,,urn:cts:engLit:shakespeare.r3.f1,5,25,
+../canonical-engLit/data/shakespeare/r3/shakespeare.r3.globe.xml,ok,,urn:cts:engLit:shakespeare.r3.globe,6,25,7
+../canonical-engLit/data/shakespeare/rom/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/rom/shakespeare.rom.f1.xml,ok,,urn:cts:engLit:shakespeare.rom.f1,6,24,
+../canonical-engLit/data/shakespeare/rom/shakespeare.rom.globe.xml,ok,,urn:cts:engLit:shakespeare.rom.globe,7,25,33
+../canonical-engLit/data/shakespeare/shr/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/shr/shakespeare.shr.f1.xml,ok,,urn:cts:engLit:shakespeare.shr.f1,6,12,
+../canonical-engLit/data/shakespeare/shr/shakespeare.shr.globe.xml,ok,,urn:cts:engLit:shakespeare.shr.globe,7,14,23
+../canonical-engLit/data/shakespeare/son/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/son/shakespeare.son.folger.xml,skipped,no refsDecl[citeStructure],,,,
+../canonical-engLit/data/shakespeare/son/shakespeare.son.globe.xml,ok,,urn:cts:engLit:shakespeare.son.globe,154,2155,
+../canonical-engLit/data/shakespeare/tgv/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/tgv/shakespeare.tgv.f1.xml,ok,,urn:cts:engLit:shakespeare.tgv.f1,5,20,
+../canonical-engLit/data/shakespeare/tgv/shakespeare.tgv.globe.xml,ok,,urn:cts:engLit:shakespeare.tgv.globe,5,20,40
+../canonical-engLit/data/shakespeare/tim/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/tim/shakespeare.tim.f1.xml,ok,,urn:cts:engLit:shakespeare.tim.f1,5,17,
+../canonical-engLit/data/shakespeare/tim/shakespeare.tim.globe.xml,ok,,urn:cts:engLit:shakespeare.tim.globe,6,17,38
+../canonical-engLit/data/shakespeare/tit/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/tit/shakespeare.tit.f1.xml,ok,,urn:cts:engLit:shakespeare.tit.f1,5,14,
+../canonical-engLit/data/shakespeare/tit/shakespeare.tit.globe.xml,ok,,urn:cts:engLit:shakespeare.tit.globe,5,14,2
+../canonical-engLit/data/shakespeare/tmp/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/tmp/shakespeare.tmp.f1.xml,ok,,urn:cts:engLit:shakespeare.tmp.f1,5,9,
+../canonical-engLit/data/shakespeare/tmp/shakespeare.tmp.globe.xml,ok,,urn:cts:engLit:shakespeare.tmp.globe,6,9,45
+../canonical-engLit/data/shakespeare/tn/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/tn/shakespeare.tn.f1.xml,ok,,urn:cts:engLit:shakespeare.tn.f1,5,18,
+../canonical-engLit/data/shakespeare/tn/shakespeare.tn.globe.xml,ok,,urn:cts:engLit:shakespeare.tn.globe,5,18,108
+../canonical-engLit/data/shakespeare/tro/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/tro/shakespeare.tro.f1.xml,ok,,urn:cts:engLit:shakespeare.tro.f1,6,25,
+../canonical-engLit/data/shakespeare/tro/shakespeare.tro.globe.xml,ok,,urn:cts:engLit:shakespeare.tro.globe,6,24,
+../canonical-engLit/data/shakespeare/ven/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/ven/shakespeare.ven.folger.xml,skipped,no refsDecl[citeStructure],,,,
+../canonical-engLit/data/shakespeare/ven/shakespeare.ven.globe.xml,config_error,First-level citeStructure declares delim='.'; must be ':' (CTS passage separator),,,,
+../canonical-engLit/data/shakespeare/wiv/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/wiv/shakespeare.wiv.f1.xml,ok,,urn:cts:engLit:shakespeare.wiv.f1,5,23,
+../canonical-engLit/data/shakespeare/wiv/shakespeare.wiv.globe.xml,ok,,urn:cts:engLit:shakespeare.wiv.globe,5,23,146
+../canonical-engLit/data/shakespeare/wt/__cts__.xml,skipped,not a TEI document,,,,
+../canonical-engLit/data/shakespeare/wt/shakespeare.wt.f1.xml,ok,,urn:cts:engLit:shakespeare.wt.f1,5,15,
+../canonical-engLit/data/shakespeare/wt/shakespeare.wt.globe.xml,ok,,urn:cts:engLit:shakespeare.wt.globe,5,15,38

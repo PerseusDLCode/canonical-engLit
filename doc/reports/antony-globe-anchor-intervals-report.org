@@ -1,0 +1,289 @@
+#+TITLE: Antony and Cleopatra Globe-Anchor Interval Closure Report
+#+DATE: 2026-09-10
+#+AUTHOR: Claude Code
+#+OPTIONS: toc:t num:nil
+
+* Overview
+
+Deliverable of [[file:../agenda.org::#phase1/rederive-antony-p5][#phase1/rederive-antony-p5]], the second pilot for the Globe
+re-derivation pipeline built in
+[[file:lear-globe-anchor-intervals-report.org][lear-globe-anchor-intervals-report.org]]. Antony and Cleopatra was chosen
+specifically because its P4 source (=Renaissance/Shakespeare/opensource/ant.xml=)
+has *zero* =<l>= elements -- all verse is encoded as =<p>=, the class of
+play =done/interpolate-line-numbers= wrongly concluded had no Globe
+apparatus at all (see that item's supersession note in =agenda.org=).
+This pilot proves the pipeline generalizes to prose-encoded plays, not
+just verse-encoded ones like Lear.
+
+=corpus-tools='s =rederive-globe-lineation= command (unchanged in
+algorithm from the Lear pilot; see below for the one attribute-handling
+gap it needed) re-derived
+=data/shakespeare/ant/shakespeare.ant.globe.xml= from the P4 source,
+restoring every Globe and F1 =<lb>= as a =<milestone>=. This report is
+the resulting anchor-interval closure audit: for every pair of
+consecutive transcribed Globe line numbers within a scene, whether the
+number of Globe boundaries actually falling between them matches the
+arithmetic gap between the two numbers.
+
+Full data: [[file:antony-globe-anchor-intervals.csv][antony-globe-anchor-intervals.csv]] (one row per closing
+interval, one row per boundary of each non-closing interval). This
+report does not resolve the non-closing intervals -- same as Lear's,
+that is alignment-oracle territory, not this pilot's.
+
+** Counts
+
+Of Antony and Cleopatra's 7,198 =<lb>= elements in the P4 source, 3,570
+are Globe (=ed="G"=, only 273 transcribed with a number) and 3,628 are
+F1 (=ed="F1"=, all numbered) -- essentially the same density as Lear
+(3,626 / 274), confirming the premise that this play's Globe apparatus
+was never missing, just unreachable through =<l>=-based tooling. All
+7,198 are now =<milestone>= elements; =check_corpus.py= confirms the
+=citeStructure= line level reaches all 3,570 Globe milestones (leaf
+depth =d2=3570=), against 273 before re-derivation.
+
+The 273 transcribed anchors, taken 42-scenes-at-a-time, define **234
+within-scene intervals**.
+
+| Status                   | Count |
+|---------------------------+-------|
+| Intervals audited          |   234 |
+| Close exactly (excess 0)   |    53 |
+| Do not close                |   181 |
+
+** Excess histogram (non-closing intervals)
+
+"Excess" is the count of Globe boundaries actually found between two
+anchors, minus the arithmetic gap between their values. Positive means
+more boundaries were marked than the page's numbering allows for
+(same dominant pattern as Lear -- split verse-as-prose lines given two
+boundaries where the printed page counts one); negative means fewer.
+
+| Excess | Intervals |
+|--------+-----------|
+|     −3 |         1 |
+|     −1 |         2 |
+|     +1 |        61 |
+|     +2 |        61 |
+|     +3 |        21 |
+|     +4 |        26 |
+|     +5 |         6 |
+|     +6 |         1 |
+|     +7 |         1 |
+|    +10 |         1 |
+
+An earlier informal audit of the raw P4 (=agenda.org=
+=phase1/rederive-antony-p5=, before this task ran) estimated 236
+intervals, 53 closing, negative excess ×3 -- close, but not exact
+(same kind of drift documented in Lear's own report between its
+working-session estimate and the real re-derived count). This report's
+counts, from the actual re-derived structure via the
+=globe_anchor_intervals= module, are authoritative.
+
+* Why intervals fail to close
+
+The dominant pattern (178 of 181 non-closing intervals, excess
++1..+10) is the same mechanism Lear's report diagnoses: Greg's P4
+markup emits a Globe =<lb>= boundary at every verse-line-as-typeset
+break, including both halves of a shared/split line the printed page
+counts as one Globe line. Antony's all-prose encoding does not change
+this mechanism -- it only means every such split shows up as a =<lb>=
+inside a =<p>= rather than a separate =<l>=. Not examined
+boundary-by-boundary here, same as Lear's positive-excess cases; the
+full text is in the CSV.
+
+** The negative-excess cases (3 intervals) -- examined individually
+
+Unlike Lear's 10 negative-excess intervals (already dispositioned in an
+earlier phase), these three have never been looked at before -- the
+collision/interval logic never ran on this file until this task, since
+=strip-lb-tags.xsl= had nothing to transfer =@n= onto without =<l>=
+elements to receive it. All three examined below using the CSV's
+=leads_into= text.
+
+*** Act I, Scene 2, anchors 41→50 (gap 9, 6 boundaries, excess −3)
+
+#+begin_example
+1: You think none but your sheets are privy to
+2: Nay, come, tell Iras hers.
+3: We'll know all our fortunes.
+4: Mine, and most of our fortunes, to night,
+5: shall
+6: There's a palm presages chastity, if nothing else.  [anchor 50]
+#+end_example
+
+This is the Soothsayer scene's fortune-telling banter among Charmian,
+Alexas, and Iras -- rapid one-line interjections, several under ten
+words, one ("shall") a single word. Three fewer Globe boundaries were
+marked here than the printed numbering (41→50) implies. Given the
+density of very short exchanges in this exact span, the likely
+mechanism is the *opposite* of the dominant +1..+10 pattern elsewhere:
+rather than one printed line being counted twice, several short
+interjections here were probably typeset sharing printed lines with
+the interjection before or after them, and the P4 transcription marked
+one boundary per typeset line rather than per speech -- undercounting
+relative to what the marginal numbering 41→50 would need. Not
+confirmed against the printed Globe page (out of scope for this
+pilot, per its own deliverables list); flagged as the clearest
+candidate for the alignment-oracle task to adjudicate first, since the
+hypothesis here is falsifiable against Schmidt/Abbott/Onions/Dyce
+citations landing in this span.
+
+*** Act I, Scene 2, anchors 50→60 (gap 10, 9 boundaries, excess −1)
+
+#+begin_example
+1: E'en as the o'erflowing Nilus pre sageth
+2: Go, you wild bedfellow, you cannot
+3: soothsay.
+4: Nay, if an oily palm be not a fruitful
+5: prognostication,
+6: Prithee, tell her
+7: Your fortunes are alike.
+8: But how, but how ? give me particulars.
+9: I have said.  [anchor 60]
+#+end_example
+
+Immediately following the −3 interval above, in the same
+fortune-telling exchange, with the same short-interjection density
+("soothsay.", "Prithee, tell her", "I have said.") -- almost certainly
+the same undercounting mechanism, one boundary short rather than
+three. Also flagged for the oracle task; the two intervals sitting
+back-to-back in the same speech-dense passage is itself evidence for a
+single underlying cause rather than two unrelated transcription slips.
+
+*** Act II, Scene 7, anchors 11→20 (gap 9, 8 boundaries, excess −1)
+
+#+begin_example
+1: between him and his
+2: Why, this is to have a name in
+3: great men's fellowship:
+4: reed that will do me no
+5: I could not heave.
+6: To be called into a huge sphere,
+7: and not to be seen
+8: where eyes should be, which  [anchor 20]
+#+end_example
+
+Pompey's barge-party scene -- a different scene from the two above, so
+not the same speech-exchange context, but the same shape: short,
+broken clauses ("I could not heave.", "and not to be seen") rather
+than full printed lines. One boundary short of the gap. Consistent
+with the same general undercounting mechanism as the two Act I, Scene
+2 cases, though occurring independently; not assumed to share a root
+cause with them without checking the printed page.
+
+* Milestone placement: start-forward, not trailing
+
+Unchanged from Lear -- see
+[[file:lear-globe-anchor-intervals-report.org::*Milestone placement: start-forward, not trailing][that report's own section]] for the full account of why milestones lead
+rather than trail the content they number, and the back-to-back-marker
+bug (=_has_content_after=) that placement fix required. Antony's
+all-prose shape exercises this exact code path more densely than
+Lear's did -- Globe and F1 markers sit back-to-back constantly in
+Antony's flowing =<p>= text (averaging roughly six =<lb>= per
+paragraph across 1,173 paragraphs) -- and produced no new placement
+bugs; the existing fix, and the new =TestProseRepositioning=/
+=TestFidelityCheckHasTeeth= tests added for this pilot, confirm the
+terminal-relocation and mid-sentence-relabel paths both behave
+identically for =<p>= targets as they do for =<l>= targets.
+
+* Coverage-discipline findings: one stray attribute, two new entities
+
+Three P4 encoding details not anticipated in this task's own write-up
+in =agenda.org= (which only knew of the two negative-interval buckets
+in advance), each handled and reported per this project's coverage
+discipline rather than silently dropped or worked around with a
+one-off pre-clean of the source file:
+
+- *One stray =<sp @n>=.* A single =<sp who="ant-1" n="20">= (Act III,
+  Scene 6) -- =@n= is not a legal P5 attribute for =<sp>=. Mirrors the
+  existing =<l>= stray-=@n=-stripped handling exactly (strip and log,
+  don't raise, don't widen the attribute allow-list):
+  =corpus-tools/src/globe_lineation.py='s =_convert_passthrough= now
+  special-cases =sp= the same way =_convert_l= already special-cased
+  =<l>=. New tests: =TestSpConversion= in =test_globe_lineation.py=.
+- *Two new named entities.* =&aelig;= (lowercase; 280 resolved) --
+  Antony spells "Caesar" as "C&aelig;sar" throughout, the lowercase
+  form of the =AElig= entity Lear's =ENTITY_MAP= already had (Lear
+  never needed the lowercase form; Antony needed it 280 times, 0
+  uppercase-context collisions) -- and =&mdash;= (82 resolved), an
+  em-dash Lear's P4 source doesn't use at all (0 occurrences there)
+  but Antony's uses 75+ times for interrupted speech. Both added to
+  =ENTITY_MAP= alongside the existing =AElig= -> =Æ= mapping; new
+  tests =test_lowercase_aelig_entity_resolved= and
+  =test_mdash_entity_resolved=.
+
+None of the three required a schema change, a change to the
+conversion's core algorithm, or a one-off pre-clean of the P4 source --
+all fit the existing, established patterns for handling P4 encoding
+oddities (log-and-strip for attributes, extend =ENTITY_MAP= for
+entities) that Lear's pilot already established.
+
+* Anchor-text-fidelity check
+
+=agenda.org= =phase1/rederive-antony-p5= names, as a required
+assertion carried over from the Lear pilot's own gap, that "every
+transcribed number must still precede the same text it preceded in the
+P4, checked for both reference systems... This belongs in the test
+suite, not in a review pass" -- since Lear's existing structural tests
+passed throughout while all 274 of its anchors sat one position out of
+place. A new, generic (not Antony-specific) regression check,
+=corpus-tools/tests/test_globe_anchor_fidelity.py=, derives the
+expected leading text for every transcribed anchor directly from the
+raw P4 source and compares it against the actual re-derived output.
+Validated to have real teeth before being trusted: a synthetic test
+deliberately reverts to the historical trailing-placement bug and
+confirms the check fails against it
+(=TestFidelityCheckHasTeeth=), then the same check is run for real
+against both the already-shipped Lear P4/P5 pair (retroactive
+regression guard -- passes) and this pilot's new Antony P4/P5 pair
+(passes). Every one of Antony's 273 transcribed Globe anchors and
+3,628 transcribed F1 anchors leads the same text after conversion that
+it led (per its own trailing convention) in the P4 source.
+
+* Validation
+
+- =jing= against local =perseus_drama.rng=: 0 errors.
+- =corpus-tools= Schematron encoding audit (=perseus_encoding.sch=): 0
+  findings.
+- =check_corpus.py=: =ok=, =d0=6 d1=42 d2=3570=.
+- Full =data/shakespeare/= re-check: unchanged from baseline (77 =ok=
+  / 50 =skipped= / 3 pre-existing =config_error= on the unrelated
+  poem files) except =ant='s own leaf-depth jump from 273 to 3570 --
+  confirmed by a row-level diff against the pre-task baseline CSV, not
+  just the summary counts.
+- =corpus-tools= full test suite: 512 passed, 1 pre-existing failure
+  (=test_tln_globe_map.py=, checks a flat-file layout convention
+  superseded by the nested per-work layout, unrelated to this task and
+  confirmed failing identically before this task's changes via
+  =git stash=), 6 skipped (unrelated sibling-repo fixtures).
+
+* Out of scope
+
+Restoring verse structure to Antony's prose encoding is real -- the
+play is, after all, mostly verse typeset as continuous prose in this
+P4 source -- but separable from this task, per =agenda.org='s own
+scope note: citation resolution needs to know where the Globe's line
+boundaries fall, not which lines are verse. Not attempted here. Also
+out of scope, unchanged from the agenda: the other remaining plays,
+resolving (as opposed to reporting) the non-closing intervals,
+anything touching FTLN/=corpus-tools='s Globe↔TLN mapping utility, and
+=@ed= ODD-level schema closure (deferred corpus-wide, per Lear's own
+report).
+
+* Deliverables produced
+
+1. Baseline =check_corpus.py= CSV over =data/shakespeare/= as it stood
+   before this task:
+   [[file:antony-rederivation-baseline-check-corpus.csv]].
+2. Re-derived =data/shakespeare/ant/shakespeare.ant.globe.xml=.
+3. This report and [[file:antony-globe-anchor-intervals.csv]].
+4. Post-change =check_corpus.py= result: =ok=, leaf count 3570 (above).
+5. The =<sp @n>= fix, two new =ENTITY_MAP= entries, and their tests
+   (=corpus-tools=).
+6. The generic anchor-text-fidelity regression check
+   (=corpus-tools/tests/test_globe_anchor_fidelity.py=), validated
+   against a deliberately reintroduced historical bug and run for real
+   against both Lear and Antony.
+
+Not committed in either repository yet; commit on request per this
+repo's corpus-cleanup workflow.
