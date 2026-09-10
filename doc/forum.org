@@ -303,7 +303,7 @@ in =corpus-tools= (=add-citeStructure.xsl=, =pipeline.py=,
 :CUSTOM_ID: encoding/citestructure-refworks-strategy
 :ASSIGNEES: Cliff, Claude Code
 :SOURCE: session/2026-08-22
-:DISPOSITION: open
+:DISPOSITION: adopt
 :END:
 
 =phase1/citestructure-refworks= (agenda.org) was scoped assuming
@@ -388,6 +388,33 @@ ever has to understand one format, not four.
   identify as Shakespeare's; harder to review than new XSLT (diffing a
   regenerated attribute against free text is less legible than
   reviewing template logic).
+
+*** Decision
+[2026-09-10] B + C, with D deferred. Two things already on the ground
+argued for this rather than against it:
+
+- Schmidt's citeStructure work already shipped decoupled from its
+  bibl-tagging work (alpha-level =textpart= citeStructure landed
+  separately from the wrapper-strip and orphan-merge passes) -- B is
+  already the de facto pattern for Schmidt, not a new choice.
+- Abbott's citeStructure (=§/subsection/paragraph=) is a structural
+  question about Abbott's own document and does not need the
+  author/play whitelist that its *bibl-tagging* work depends on
+  (=phase3/play-abbr-map=, not started). Strategy A would have made
+  Abbott's citeStructure wait on a whitelist it doesn't actually need.
+
+Concretely: write one parameterized =lexicon-headword-cs= template
+(alpha -> entryFree) for Schmidt/Onions/Dyce, escape-hatching for
+exceptions if the full ~280K-entry sweep finds structural variation the
+sampled check didn't; write Abbott's section/subsection/paragraph
+citeStructure as its own template. Both proceed now, independent of
+=phase3/play-abbr-map= and =phase3/bibl-resolver=.
+
+Strategy D's free-text-normalization question is *not* decided here --
+it is a Phase 3 resolver-design question, not a citeStructure question,
+and committing to it now would be premature (it can't start on Abbott
+before the whitelist exists regardless). Revisit when
+=phase3/bibl-resolver= is actually designed.
 
 ** Schmidt play-abbreviation table: verification against DraCor corpus
 :PROPERTIES:

@@ -210,21 +210,30 @@ Expected:
 - Abbott: sections numbered =§1=, =§2=, … — one or two-level structure
 - Schmidt, Onions, Dyce: alphabetically-ordered headword entries
 
-Strategy under discussion, not yet decided — see forum.org
-=#encoding/citestructure-refworks-strategy= (four candidate
-approaches with pros/cons, informed by the bibl survey above).
-
-Write a separate XSLT per work type once the structure is confirmed.
+*Strategy decided [2026-09-10]* — see forum.org
+=#encoding/citestructure-refworks-strategy=: B + C, D deferred to
+Phase 3. citeStructure work proceeds decoupled from bibl-tagging/
+whitelist work (=phase3/play-abbr-map=, =phase3/bibl-resolver=); one
+parameterized =lexicon-headword-cs= template (alpha -> entryFree) for
+Schmidt/Onions/Dyce's shared structure, with escape hatches if the full
+sweep finds exceptions the sampled check didn't; Abbott gets its own
+section/subsection/paragraph template.
 
 *Progress:* Schmidt done — =citeStructure unit="alpha"= over the 26
 alpha-level =textpart= divs, replacing the broken =cRefPattern=; jing
 error count against =perseus_lexical.rng= unchanged (19,526 before and
 after). Schema constraint found along the way, relevant to the
-Abbott/Onions/Dyce templates still to come: this customization
-requires =citeStructure= to nest inside =refsDecl= (not replace it),
-and forbids =citeData= outright (=model.descLike= is =notAllowed= in
-=perseus_lexical.rng=). Abbott/Onions/Dyce strategy still open, per
-=#encoding/citestructure-refworks-strategy=.
+Onions/Dyce templates still to come: this customization requires
+=citeStructure= to nest inside =refsDecl= (not replace it), and forbids
+=citeData= outright (=model.descLike= is =notAllowed= in
+=perseus_lexical.rng=).
+
+*Next:* generalize Schmidt's =citeStructure unit="alpha"= into the
+shared =lexicon-headword-cs= template and apply to Onions and Dyce
+(both still ~7,000 jing errors from =phase1/cts-structure-onions-dyce=
+independent of this — citeStructure work does not need to wait on that
+cleanup, but full validation will); write Abbott's
+section/subsection/paragraph template separately.
 
 * DONE remove enclosing <bibl @n> elements from <ref @target> elements in Schmidt
 CLOSED: [2026-08-25 Tue]
