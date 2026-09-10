@@ -826,12 +826,23 @@ Committed across all three repos touched (=canonical-engLit= =9199559=,
 for review before generalising to the other 36 plays, per this task's
 own scope.
 
-* TODO Extract Globe citation evidence from Schmidt (Lear first)
+* DONE Extract Globe citation evidence from Schmidt (Lear first)
+CLOSED: [2026-09-10 Thu]
 :PROPERTIES:
 :CUSTOM_ID: phase1/schmidt-citation-evidence
 :ASSIGNEES: Claude Code
 :DEPENDS: phase1/schmidt-extract-identity
 :END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-09-10 Thu]
+:END:
+Note: =phase1/schmidt-extract-identity= was already done by the time
+this task started -- the agenda's =DEPENDS= was stale (the workshop
+repo, =vendor/schmidt.xml= checksum-pinning, =make verify=,
+=entries.tsv=/=suffixes.tsv=/=citations.tsv= were all already built and
+committed there); verified against the repo directly rather than
+trusted from this file.
+
 Repo: =schmidt-lexicon-workshop=. Extends the existing
 =extract-schmidt-citations= command; not a new extractor.
 
@@ -870,11 +881,32 @@ from a dirty tree -- =citations.tsv= currently reads
 =commit=74e5ee7-DIRTY= and so cannot be reproduced from its own record.
 See =forum.org= =#protocol/commit-discipline=.
 
-* TODO Re-derive Antony and Cleopatra P5 from the P4 (prose-encoded pilot)
+*Done:* =schmidt-lexicon-workshop= =053dfed= (pipeline: refactored the
+shared bibl/ref walk into =_matched_citation_positions()= so
+=citations.tsv= and the new =citation_quotes.tsv= share one join-key
+source rather than risking drift; =citations.tsv='s own output pinned
+unchanged by regression test) + =21b82f6= (regenerated outputs,
+including the new =out/citation_quotes.tsv=). Lear pilot: 2,259
+well-formed citations, 27 malformed (matches this task's own estimate
+exactly, correcting the 26 a hand-recount got during planning); 1,344
+of 2,259 have a quote; 1,218 shorthand tokens resolved, 8 left
+unresolved rather than guessed. =quote_expanded= reuses the existing
+oref detection machinery (=schmidt_oref.py=) rather than reimplementing
+elision logic, with one addition: capitalized letter-abbreviations
+(=A.=, =S.=, ...) needed a new, expansion-only regex, since the
+existing =LETTER_ABBREV_RE= is lowercase-only and already feeds the
+pinned =oref_candidates.tsv=/=suffixes.tsv= -- not touched. Corpus-wide
+run remains a later step, per this task's own scope.
+
+* DONE Re-derive Antony and Cleopatra P5 from the P4 (prose-encoded pilot)
+CLOSED: [2026-09-10 Thu]
 :PROPERTIES:
 :CUSTOM_ID: phase1/rederive-antony-p5
 :ASSIGNEES: Claude Code
 :DEPENDS: phase1/rederive-lear-p5
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-09-10 Thu]
 :END:
 Second pilot. Apply the pipeline built for =phase1/rederive-lear-p5=
 unchanged where possible; the point is to prove the milestone model on
@@ -920,6 +952,48 @@ boundaries fall, not which lines are verse. Open a separate item.
 *Deliverables:* re-derived =shakespeare.ant.globe.xml=;
 =check_corpus.py= =ok= with leaf depth ~3,570 (not 273); an interval
 report in the Lear format; the three negative intervals called out.
+
+*Done:* =corpus-tools= =4d5acf8= (pipeline fix + tests) and
+=canonical-engLit= =42f562a= (re-derived file + report), tagged
+=[xrepo: antony-p5-rederivation]= in both per the shared-token
+convention proposed in =forum.org= =#protocol/commit-discipline=.
+Report: [[file:reports/antony-globe-anchor-intervals-report.org][antony-globe-anchor-intervals-report.org]].
+
+Real numbers, from the actual re-derived structure rather than the
+first-pass estimate above: 234 within-scene intervals (not 236), 53
+close exactly, 181 do not (excess +1×61, +2×61, +3×21, +4×26, +5×6,
++6×1, +7×1, +10×1, *negative×3* -- matches the first-pass count).
+=check_corpus.py=: =ok=, leaf depth 273 → 3,570. 0 jing errors, 0
+Schematron findings, full-corpus re-check confirms no regressions
+elsewhere.
+
+Two corrections to this task's own framing, found while implementing:
+- The three negative intervals are *not* the Priority-1
+  backward-running-anchor class this entry hypothesized -- examined
+  individually (never done before), all three sit in dense,
+  short-interjection dialogue (the Soothsayer scene I.2, Pompey's barge
+  scene II.7) and look like *undercounting*, the opposite mechanism
+  from the dominant +1 pattern elsewhere. Flagged as a falsifiable
+  hypothesis for the alignment-oracle task, not resolved here.
+- =@source= on transcribed anchors, as described above, does not exist
+  anywhere in the actual shipped Lear implementation or in
+  =globe_lineation.py= -- the real, working convention is bare
+  presence/absence of =@n=. Followed the working code; this entry's
+  own prose was stale on that point.
+
+Two P4 encoding gaps found only by running on real data, not
+anticipated by this task's own write-up: one stray =<sp who="ant-1"
+n="20">= (=@n= not legal on P5 =<sp>=, stripped and logged mirroring
+=<l>='s existing stray-=@n= handling) and two missing =ENTITY_MAP=
+entries (=&aelig;= lowercase, 280×; =&mdash;=, 82×; neither needed by
+Lear's P4 source). Neither required a schema change or a pre-clean of
+the source file.
+
+The *required assertion* above is now a real, generic regression test,
+=corpus-tools/tests/test_globe_anchor_fidelity.py= -- validated to have
+teeth against a deliberately reintroduced copy of the historical Lear
+bug before being trusted, then run for real against both the shipped
+Lear pair (passes, retroactive guard) and the new Antony pair (passes).
 
 * Phase 2: MVP pipeline integration
 
