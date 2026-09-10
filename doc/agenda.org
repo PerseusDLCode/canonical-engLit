@@ -682,6 +682,17 @@ carry no =@source=. There are 274 transcribed Globe anchors in Lear;
 they fall at 11, 31, 41, 191, 219 and similar -- *not* a clean decade
 series, so derive them from the P4 markup, never by assuming a pattern.
 
+/Correction [2026-09-10]: this paragraph describes the design as this
+task originally intended it, not as it was actually built --
+=@source= did not exist in =globe_lineation.py= or in the shipped
+Lear file until =phase1/milestone-source-provenance= implemented it.
+That task also settled two things left open here: the pointer target
+is a =<bibl>= in =<sourceDesc>=, never a =<witness>=, describing the
+edition rather than a specific scan/copy; and F1 milestones do not get
+a per-element =@source= at all (see that task's own entry for why).
+Treat =phase1/milestone-source-provenance= as authoritative over this
+paragraph./
+
 Losing the distinction between transcribed and counted numbers is the
 single most damaging thing the 2025 migration did. It must survive this
 one, in the markup, not in a convention.
@@ -981,6 +992,14 @@ Two corrections to this task's own framing, found while implementing:
   presence/absence of =@n=. Followed the working code; this entry's
   own prose was stale on that point.
 
+  /Update [2026-09-10]: =phase1/milestone-source-provenance= has since
+  implemented =@source="#globe-edition"= for real, in both this play
+  and Lear -- see that task's own entry. Line 948 above ("Same rules as
+  Lear ... =@source= on transcribed anchors and absent on counted
+  ones") was, at the time this task ran, describing an intention, not
+  yet-shipped behavior, exactly as this correction says; it is now
+  accurate again, restored by the later task rather than by this one./
+
 Two P4 encoding gaps found only by running on real data, not
 anticipated by this task's own write-up: one stray =<sp who="ant-1"
 n="20">= (=@n= not legal on P5 =<sp>=, stripped and logged mirroring
@@ -994,6 +1013,201 @@ The *required assertion* above is now a real, generic regression test,
 teeth against a deliberately reintroduced copy of the historical Lear
 bug before being trusted, then run for real against both the shipped
 Lear pair (passes, retroactive guard) and the new Antony pair (passes).
+
+* DONE Implement @source on transcribed Globe milestones
+CLOSED: [2026-09-10 Thu]
+:PROPERTIES:
+:CUSTOM_ID: phase1/milestone-source-provenance
+:ASSIGNEES: Claude Code
+:DEPENDS: phase1/rederive-antony-p5
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-09-10 Thu]
+:END:
+Repos: =corpus-tools= (code), =canonical-engLit= (docs + both play
+files). Cross-repo: tag every commit =[xrepo: milestone-source]=.
+
+*Why now.* Documentation, code and data currently disagree, and the
+disagreement is about to become a data loss. =alignment-oracles.org=,
+=forum.org= =#citations/globe-recap= and both re-derivation agenda
+entries all state that transcribed anchors carry =@source=. They do
+not: =globe_lineation.py= has no such attribute and neither shipped
+play file contains one. The convention that actually works today is
+presence/absence of =@n= -- which holds *only because nothing yet
+interpolates numbers*. =phase1/alignment-oracle-*= will interpolate.
+The moment it does, =@n= means two different things and nothing
+distinguishes evidence from inference. That distinction's loss in the
+2025 migration is the thing this whole line of work exists to repair;
+losing it again by omission would be worse than losing it by accident.
+
+*Design.*
+- A Globe milestone whose =@n= came from a transcribed P4 number
+  carries =source="#globe-edition"=. One whose =@n= was derived any
+  other way (interpolation, oracle fit) carries =@n= and no =@source=.
+  A milestone with no =@n= carries no =@source=.
+- The pointer target is a =<bibl>= in =<sourceDesc>= -- *not* a
+  =<witness>=. Settled 2026-09-10: =<witness>= belongs to =<listWit>=
+  and exists to be pointed at by =@wit= in a critical apparatus. Using
+  it would assert that this document collates witnesses. It does not;
+  it is an annotation surface for Globe act/scene/line citations.
+  =<bibl>= makes the weaker, true claim.
+- The =<bibl>= describes *the Globe edition* (Clark and Wright,
+  Macmillan, 1864 and reprints), not a copy. The Globe's lineation is
+  stable across printings -- that stability is why it became the
+  citation standard -- so the edition is what is being cited. Add a
+  note recording that these numbers were keyed from an unidentified
+  printing c.2003 and survive in the P4 source. One entry, carrying
+  both the stable claim and the honest gap.
+- *Do not name a specific copy.* Cliff's own printings differ: the
+  Google Books 1866 Macmillan puts Lear at p. 847 and Antony at p. 911,
+  while the Internet Archive copy in use has Antony at p. 971 -- it is
+  a Nelson Doubleday reprint "arranged in their chronological order",
+  so pagination differs by arrangement. Digitisations are verification
+  tools for the reconciliation work; they belong in the interval
+  reports, not in =sourceDesc=.
+
+*F1 milestones get no =@source=.* Reversing an earlier instruction in
+this entry. =@source= earns its place on Globe milestones because it
+*discriminates*: 274 carry numbers read off a page, 3,352 do not, and
+once the oracle interpolates, nothing else marks the difference. F1 has
+no such division -- all 3,301 are numbered, all arrived by the same
+route, and nothing will ever interpolate more of them (aligning to the
+Bodleian or to Folger would add a *different* reference system with its
+own =@ed=, not fill gaps in this one). A constant repeated 3,301 times
+per file is noise wearing the costume of data, and worse, an attribute
+that looks informative on elements where it is not.
+
+Instead, state it *once per document*, at the level of the system: a
+=<bibl>= in =<sourceDesc>= or a note in =<encodingDesc>= recording that
+the F1 reference system's origin is unidentified -- it matches neither
+Bodleian Folio text-line numbering (drift +3 to +103 across Lear) nor
+Folger FTLN (drift −6 to +342). Reference it from the F1
+=citeStructure= if that makes it reachable from the declaration.
+
+*General rule, worth stating in the ODD:* =@source= marks evidence
+*within a class where some members are not evidence*. Where every
+member shares a provenance, say it once at the level of the class.
+
+*The part that will bite.* =_shift_scope_to_start_forward()= reassigns
+=@n= values *between* milestones (shifting each back one boundary slot
+to convert end-of-line to start-of-line convention) and *synthesizes* a
+new milestone per scope to carry the first value. So:
+- =@source= must travel *with the value*, not stay on the element. If
+  it is set in =_convert_lb()= and left alone, every flag ends up one
+  slot out -- the identical failure the historical Lear anchor
+  displacement had.
+- The synthesized leading milestone inherits =@source= if the value it
+  carries was transcribed.
+- Test this specifically. =test_globe_anchor_fidelity.py= checks that a
+  transcribed number precedes the same text it preceded in the P4; add
+  the parallel assertion that every =@n= of transcribed origin, and
+  only those, carries =@source= after repositioning. Validate it has
+  teeth the same way that test was validated -- break it deliberately
+  first.
+
+*Data.* Regenerate =shakespeare.lr.globe.xml= and
+=shakespeare.ant.globe.xml=. Expect 274 and 273 =@source=-bearing Globe
+milestones respectively, and *no* =@source= on any F1 milestone. Re-run
+=check_corpus.py=, jing and Schematron; leaf depths must be unchanged
+(3,626 and 3,570).
+
+*Documentation to bring into line* -- the point is that all three
+agree, so fix the prose wherever it is now wrong or vague:
+=alignment-oracles.org= (provenance section), =forum.org=
+=#citations/globe-recap= (Decided list), the =globe_lineation.py=
+module docstring (currently documents the =@n=-presence convention),
+and the two re-derivation agenda entries. Add the convention to
+=CLAUDE.md='s encoding conventions so it is found by someone who reads
+nothing else.
+
+*ODD.* Declare it: =@source= permitted on =<milestone>=, with the
+permitted target values documented. A convention that lives only in
+prose does not survive a transform -- that is the lesson of this entire
+phase.
+
+*Nothing left to ask.* Both open questions from the first draft are
+settled above (=<bibl>= not =<witness>=; no per-milestone =@source= on
+F1). Anything else requiring a new ODD construct: flag and ask.
+
+*This is the last blocker before the alignment-oracle work.* Keep it
+tight -- it is one attribute, one header entry, one test, and a prose
+sweep. Do not expand scope.
+
+*Done:* =corpus-tools= (=globe_lineation.py=: =_convert_lb= sets
+=source="#globe-edition"= alongside a transcribed Globe =@n=;
+=_shift_scope_to_start_forward= now captures and shifts =(n, source)=
+in lockstep, and the synthesized leading milestone inherits =source=
+when its value was transcribed -- the "travel with the value" fix this
+entry called out as the part that would bite) + =test_globe_anchor_fidelity.py=
+(new =assert_transcribed_anchors_have_source=, independently derived
+from the P4 exactly like the existing text-fidelity check, asserting
+both directions -- every P4-transcribed anchor has =@source= and
+nothing else does; a =TestSourceCheckHasTeeth= pair proves it catches
+the specific "@source stuck on the original element" bug via a
+reconstructed broken repositioning function, mirroring
+=TestFidelityCheckHasTeeth='s own discipline; both real-file retroactive
+guards extended and passing). =canonical-engLit=: both play files
+regenerated -- exactly 274 (Lear) and 273 (Antony) Globe milestones
+carry =source="#globe-edition"=, matching the numbered-anchor counts
+exactly in both directions (no numbered-anchor without =@source=, no
+unnumbered/F1 milestone with one); leaf depths, jing (0 errors),
+Schematron (0 findings via =perseus_encoding.sch=; the 2 findings from
+=perseus_normalized.sch= are the pre-existing missing-genre/missing-CTS-idno
+gaps on these still-un-normalized flat Globe files, confirmed unchanged
+against the pre-task commit, not something this task touches), and the
+anchor-interval CSVs (byte-identical to the committed
+=lear=/=antony-globe-anchor-intervals.csv=) all unchanged, confirming
+=@source= is purely additive. =<bibl xml:id="globe-edition">= added to
+both files' =<sourceDesc>=, plus an =<editorialDecl>/<p>= in
+=<encodingDesc>= recording F1's unidentified provenance once per
+document (bare =<note>= in =<encodingDesc>= is not schema-legal here --
+=perseus_drama.rng= wants =p=/=editorialDecl=/etc.; found by jing, not
+guessed). Full corpus-tools test suite: 516 passed, 6 skipped, the one
+failure (=test_playid_matches_canonical_englit_filenames=) confirmed
+pre-existing against the pre-task commit and unrelated (a stale
+flat-filename assumption elsewhere in that test, not touched here).
+=check_corpus.py= over the whole =data/shakespeare/= tree: unchanged
+77 =ok= / 50 =skipped= / 3 =config_error= baseline.
+
+Two corrections to this task's own write-up, found while implementing,
+reported rather than acted on silently:
+- *The ODD ask was broader than necessary.* =<milestone>= is already a
+  member of =att.global= -> =att.global.source= in
+  =perseus_base.compiled.odd= (confirmed live in the built
+  =perseus_drama.rng=/=.rnc=), so =source="..."= already validated on
+  =<milestone>= before this task touched anything -- no grammar
+  permission was missing. What *was* missing was documentation: added a
+  descriptive =<p>= to =perseus-schemas/perseus_drama.odd= (the file's
+  own established style for corpus-specific notes -- see its existing
+  prose paragraphs -- rather than a formal =mode="change"= =attDef=
+  remark on the shared, corpus-wide =att.global.source=, which would
+  have risked the exact "silently dropped under =mode="change"="
+  failure class =ODD-CHAINING-PROTOCOL.md= Rule 5 warns about, for an
+  untested construct, on an attribute every other Perseus corpus also
+  inherits). Rebuilt via =make perseus_drama.rnc=: diff against the
+  pre-edit =.rng=/=.rnc= is the generation timestamp only, confirming
+  the grammar itself is unchanged, exactly as expected for a
+  documentation-only edit.
+- *The =@ed=-closure deferral's own reasoning was stale.* This entry
+  and =phase1/rederive-lear-p5= (see that entry's =@ed= closure
+  paragraph) both describe =att.edition=/=@ed= as "declared once" in
+  =perseus_base.odd=, implying it is sitting there ready to be closed
+  later. It isn't declared there at all yet -- no =att.edition=
+  customization exists in any source =.odd= in =perseus-schemas=; =@ed=
+  is fully open (=teidata.word=, no =valList=) via unmodified inherited
+  TEI. The deferral decision itself is unaffected (still correctly out
+  of scope, still needs a corpus-wide =type="semi"= =valList= in
+  =perseus_base.odd= per the =att.metrical=/=@met= pattern, per
+  =ODD-CHAINING-PROTOCOL.md='s "declare once in base, no per-child
+  override" rule) -- only the "already declared" premise was wrong.
+  Not touched here; flagging so the next person who picks up =@ed=
+  closure doesn't start from a false premise.
+
+Commits tagged =[xrepo: milestone-source]= across =corpus-tools=,
+=canonical-engLit=, and =perseus-schemas=. =perseus-schemas= not
+pushed pending Cliff's confirmation -- its =.rng=/=.rnc= are consumed
+by every corpus via raw-GitHub-URL PI, so pushing is a shared-infrastructure
+action even though this particular change is inert for validation.
 
 * Phase 2: MVP pipeline integration
 

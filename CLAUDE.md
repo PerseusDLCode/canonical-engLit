@@ -87,6 +87,25 @@ never add it, and strip it if encountered. Do not confuse absence of
 *beginning* of the line it labels, not the end. Place it immediately
 before the content of the line it numbers.
 
+**`@source` on Globe milestones:** A re-derived Globe play file
+(`data/shakespeare/{work}/shakespeare.{work}.globe.xml`) marks line
+citation points as `<milestone unit="line" ed="Globe" [n="..."]/>`.
+When `@n` was transcribed from the printed Globe edition, the
+milestone also carries `source="#globe-edition"`, pointing to a
+`<bibl xml:id="globe-edition">` in the file's own `<sourceDesc>` that
+describes the edition itself (Clark & Wright, Macmillan), not a
+specific digitized copy. A milestone whose `@n` arose any other way
+(counted boundaries, future interpolation/oracle fit), and any
+milestone with no `@n` at all, carries no `@source`. `@source` is the
+durable marker of evidence vs. inference; `@n`-presence alone stops
+discriminating the moment anything starts interpolating numbers.
+`<milestone ed="F1">` never carries `@source` — every F1 anchor is
+numbered by the same route, so nothing is discriminated by marking it
+per element; F1's own unidentified provenance is instead recorded
+once per document, in an `<editorialDecl>/<p>` in `<encodingDesc>`.
+See `forum.org` `#citations/globe-recap` and `agenda.org`
+`phase1/milestone-source-provenance`.
+
 **CTS URNs:** The namespace for this corpus is `urn:cts:engLit:`.
 Settled with Alison Babeu (see `forum.org`
 `#citations/cts-urns-and-citation-families`):

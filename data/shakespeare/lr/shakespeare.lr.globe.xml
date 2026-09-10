@@ -19,11 +19,35 @@
             </imprint>
           </monogr>
         </biblStruct>
+        <bibl xml:id="globe-edition">
+          <title>The Globe Shakespeare</title>
+          <editor>W. G. Clark</editor>
+          <editor>W. Aldis Wright</editor>
+          <publisher>Macmillan</publisher>
+          <date>1864</date>
+          <note>The edition, not a specific printing, is the citation standard being
+          referenced: Globe act.scene.line numbering is stable across printings, which is
+          why it became the convention the reference works (Schmidt, Abbott, Onions, Dyce)
+          cite by. The specific printing this play's Globe line numbers were originally
+          keyed from (c.2003) is not identified. A &lt;milestone unit="line" ed="Globe"&gt; whose
+          @n was transcribed from that printing carries source="#globe-edition"; one whose
+          @n was arrived at by counting boundaries, or has no @n at all, carries no
+          @source.</note>
+        </bibl>
       </sourceDesc>
     </fileDesc>
 
     <encodingDesc>
       <refsDecl n="CTS" xml:id="CTS"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure unit="act" delim=":" match="div[@type='act']" use="@n"><citeStructure unit="scene" delim="." match="div[@type='scene']" use="@n"><citeStructure unit="line" delim="." match=".//milestone[@ed='Globe']" use="@n"/></citeStructure></citeStructure></citeStructure></refsDecl>
+      <editorialDecl>
+        <p>Every &lt;milestone unit="line" ed="F1"&gt; in this file carries a
+        through-line number transcribed from the P4 source, but the reference system's own
+        origin is unidentified: it matches neither Bodleian First Folio text-line numbering
+        (drift +3 to +103 across this play) nor Folger Through-Line-Numbers (drift -6 to
+        +342). All F1 milestones share this same unknown provenance, so it is stated once
+        here rather than per milestone -- unlike Globe milestones, where @source
+        distinguishes a transcribed subset from a counted one.</p>
+      </editorialDecl>
     </encodingDesc>
 
     <profileDesc>
@@ -167,7 +191,7 @@
         <speaker>Glou.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="13"/> His breeding, sir, hath been at my <milestone unit="line" ed="Globe" n="11"/>charge: I have <milestone unit="line" ed="F1" n="14"/>so
+          <milestone unit="line" ed="F1" n="13"/> His breeding, sir, hath been at my <milestone unit="line" ed="Globe" n="11" source="#globe-edition"/>charge: I have <milestone unit="line" ed="F1" n="14"/>so
               often blushed to acknowledge <milestone unit="line" ed="Globe"/>him, that now I am <milestone unit="line" ed="F1" n="15"/>brazed to it. </p>
       </sp>
       <sp who="lr-9">
@@ -221,7 +245,7 @@
       <sp who="lr-9">
         <speaker>Kent.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="31"/>
+          <milestone unit="line" ed="Globe" n="31" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="34"/> I must love you, and sue to know <milestone unit="line" ed="Globe"/>you better. </p>
       </sp>
       <sp who="lr-5">
@@ -266,7 +290,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="44"/>In three our kingdom: and 'tis our fast intent </l>
         <l>
-          <milestone unit="line" ed="Globe" n="41"/>
+          <milestone unit="line" ed="Globe" n="41" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="45"/>To shake all cares and business from our age; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -293,7 +317,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="53"/>Long in our court have made their amorous sojourn, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="50"/>
+          <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="54"/>And here are to be answer'd. Tell me, my daughters,-- </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -363,7 +387,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="73"/>Be this perpetual. What says our second daughter, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="70"/>
+          <milestone unit="line" ed="Globe" n="70" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="74"/>Our dearest Regan, wife to Cornwall? Speak. </l>
       </sp>
       <sp who="lr-12">
@@ -402,7 +426,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="83"/>Then poor Cordelia! </l>
         <l>
-          <milestone unit="line" ed="Globe" n="80"/>
+          <milestone unit="line" ed="Globe" n="80" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="84"/>And yet not so; since, I am sure, my love's </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -438,7 +462,7 @@
       <sp who="lr-3">
         <speaker>Cor.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="90"/>
+          <milestone unit="line" ed="Globe" n="90" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="94"/> Nothing, my lord. </p>
       </sp>
       <sp who="lr-11">
@@ -489,7 +513,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="104"/>You have begot me, bred me, loved me: I </l>
         <l>
-          <milestone unit="line" ed="Globe" n="100"/>
+          <milestone unit="line" ed="Globe" n="100" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="105"/>Return those duties back as are right fit, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -533,7 +557,7 @@
       <sp who="lr-3">
         <speaker>Cor.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="110"/>
+          <milestone unit="line" ed="Globe" n="110" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="115"/> So young, my lord, and true. </l>
       </sp>
       <sp who="lr-11">
@@ -566,7 +590,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="124"/>Hold thee, from this, for ever. The barbarous Scythian, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="120"/>
+          <milestone unit="line" ed="Globe" n="120" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="125"/>Or he that makes his generation messes </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -605,7 +629,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="135"/>Her father's heart from her! Call France; who stirs? </l>
         <l>
-          <milestone unit="line" ed="Globe" n="130"/>
+          <milestone unit="line" ed="Globe" n="130" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="136"/>Call Burgundy. Cornwall and Albany, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -635,7 +659,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="145"/>The name, and all the additions to a king; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="140"/>
+          <milestone unit="line" ed="Globe" n="140" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="146"/>The sway, revenue, execution of the rest, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -678,7 +702,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="156"/>When Lear is mad. What wilt thou do, old man? </l>
         <l>
-          <milestone unit="line" ed="Globe" n="150"/>
+          <milestone unit="line" ed="Globe" n="150" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="157"/>Think'st thou that duty shall have dread to speak, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -723,7 +747,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="160"/>
+          <milestone unit="line" ed="Globe" n="160" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="169"/>Out of my sight! </l>
       </sp>
       <sp who="lr-9">
@@ -790,7 +814,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="170"/>
+          <milestone unit="line" ed="Globe" n="170" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="183"/>Hear me, recreant! </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -817,7 +841,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="191"/>To shield thee from diseases of the world; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="179"/>
+          <milestone unit="line" ed="Globe" n="179" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="192"/>And on the sixth to turn thy hated back </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -865,7 +889,7 @@
       <sp who="lr-7">
         <speaker>Glou.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="191"/>
+          <milestone unit="line" ed="Globe" n="191" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="205"/> Here's France and Burgundy, my noble <milestone unit="line" ed="Globe"/>lord. </p>
       </sp>
       <sp who="lr-11">
@@ -904,7 +928,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="214"/>Right noble Burgundy, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="200"/>
+          <milestone unit="line" ed="Globe" n="200" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="215"/>When she was dear to us, we did hold her so; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -949,7 +973,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="226"/>Pardon me, royal sir; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="210"/>
+          <milestone unit="line" ed="Globe" n="210" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="227"/>Election makes not up on such conditions. </l>
       </sp>
       <sp who="lr-11">
@@ -985,7 +1009,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="236"/>That she, that even but now was your best object, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="219"/>
+          <milestone unit="line" ed="Globe" n="219" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="237"/>The argument of your praise, balm of your age, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -1024,7 +1048,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="248"/>To speak and purpose not; since what I well intend, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="230"/>
+          <milestone unit="line" ed="Globe" n="230" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="249"/>I'll do't before I speak,--that you make known </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -1060,7 +1084,7 @@
       <sp who="lr-6">
         <speaker>France.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="239"/>
+          <milestone unit="line" ed="Globe" n="239" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="259"/>Is it but this,--a tardiness in nature </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -1114,7 +1138,7 @@
       <sp who="lr-3">
         <speaker>Cor.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="251"/>
+          <milestone unit="line" ed="Globe" n="251" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="273"/>Peace be with Burgundy! </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -1147,7 +1171,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="282"/>Thy dowerless daughter, king, thrown to my chance, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="261"/>
+          <milestone unit="line" ed="Globe" n="261" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="283"/>Is queen of us, of ours, and our fair France: </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -1177,7 +1201,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="291"/>Without our grace, our love, our benison. </l>
         <l>
-          <milestone unit="line" ed="Globe" n="270"/>
+          <milestone unit="line" ed="Globe" n="270" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="292"/>Come, noble Burgundy. <stage>[Flourish.</stage>
           <stage type="exit">Exeunt all but
                 France, Goneril, Regan, and Cordelia.</stage>
@@ -1219,7 +1243,7 @@
       <sp who="lr-12">
         <speaker>Reg.</speaker>
         <l part="I">
-          <milestone unit="line" ed="Globe" n="279"/>
+          <milestone unit="line" ed="Globe" n="279" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="302"/>Prescribe not us our duties. </l>
       </sp>
       <sp who="lr-8">
@@ -1270,7 +1294,7 @@
       <sp who="lr-12">
         <speaker>Reg.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="290"/>
+          <milestone unit="line" ed="Globe" n="290" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="314"/> That's most certain, and with you; <milestone unit="line" ed="Globe"/>next month with us. </p>
       </sp>
       <sp who="lr-8">
@@ -1302,7 +1326,7 @@
         <speaker>Gon.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="328"/> There is further compliment of leave-taking <milestone unit="line" ed="Globe"/>between <milestone unit="line" ed="F1" n="329"/>France and him. Pray you, <milestone unit="line" ed="Globe"/>let's hit together: if our <milestone unit="line" ed="F1" n="330"/>father carry authority with <milestone unit="line" ed="Globe" n="310"/>such dispositions as he bears, <milestone unit="line" ed="F1" n="331"/>this last surrender <milestone unit="line" ed="Globe"/>of his will but offend us. </p>
+          <milestone unit="line" ed="F1" n="328"/> There is further compliment of leave-taking <milestone unit="line" ed="Globe"/>between <milestone unit="line" ed="F1" n="329"/>France and him. Pray you, <milestone unit="line" ed="Globe"/>let's hit together: if our <milestone unit="line" ed="F1" n="330"/>father carry authority with <milestone unit="line" ed="Globe" n="310" source="#globe-edition"/>such dispositions as he bears, <milestone unit="line" ed="F1" n="331"/>this last surrender <milestone unit="line" ed="Globe"/>of his will but offend us. </p>
       </sp>
       <sp who="lr-12">
         <speaker>Reg.</speaker>
@@ -1351,7 +1375,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="343"/>My mind as generous, and my shape as true, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="10"/>
+          <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="344"/>As honest madam's issue? Why brand they us </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -1381,7 +1405,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="353"/>As to the legitimate: fine word,--legitimate! </l>
         <l>
-          <milestone unit="line" ed="Globe" n="20"/>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="354"/>Well, my legitimate, if this letter speed, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -1427,7 +1451,7 @@
       <sp who="lr-5">
         <speaker>Edm.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="30"/>
+          <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="365"/> I know no news, my lord. </p>
       </sp>
       <sp who="lr-7">
@@ -1454,7 +1478,7 @@
         <p>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="372"/> I beseech you, sir, pardon me: it is <milestone unit="line" ed="Globe"/>a letter <milestone unit="line" ed="F1" n="373"/>from
-              my brother, that I have not all <milestone unit="line" ed="Globe" n="40"/>o'er-read; and for so <milestone unit="line" ed="F1" n="374"/>much as I have perused. <milestone unit="line" ed="Globe"/>I find it not fit for your <milestone unit="line" ed="F1" n="375"/>o'er-looking. </p>
+              my brother, that I have not all <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>o'er-read; and for so <milestone unit="line" ed="F1" n="374"/>much as I have perused. <milestone unit="line" ed="Globe"/>I find it not fit for your <milestone unit="line" ed="F1" n="375"/>o'er-looking. </p>
       </sp>
       <sp who="lr-7">
         <speaker>Glou.</speaker>
@@ -1514,7 +1538,7 @@
         <speaker>Edm.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="399"/> If the matter were good, my lord, I <milestone unit="line" ed="Globe" n="70"/>durst swear <milestone unit="line" ed="F1" n="400"/>it
+          <milestone unit="line" ed="F1" n="399"/> If the matter were good, my lord, I <milestone unit="line" ed="Globe" n="70" source="#globe-edition"/>durst swear <milestone unit="line" ed="F1" n="400"/>it
               were his; but, in respect of that, <milestone unit="line" ed="Globe"/>I would fain think it <milestone unit="line" ed="F1" n="401"/>were not. </p>
       </sp>
       <sp who="lr-7">
@@ -1569,7 +1593,7 @@
         <speaker>Edm.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="424"/> If your honour judge it meet, I will <milestone unit="line" ed="Globe"/>place you <milestone unit="line" ed="F1" n="425"/>where you shall hear us confer of <milestone unit="line" ed="Globe"/>this, and by an auricular <milestone unit="line" ed="F1" n="426"/>assurance have your <milestone unit="line" ed="Globe" n="101"/>satisfaction; and that without <milestone unit="line" ed="F1" n="427"/>any further delay
+          <milestone unit="line" ed="F1" n="424"/> If your honour judge it meet, I will <milestone unit="line" ed="Globe"/>place you <milestone unit="line" ed="F1" n="425"/>where you shall hear us confer of <milestone unit="line" ed="Globe"/>this, and by an auricular <milestone unit="line" ed="F1" n="426"/>assurance have your <milestone unit="line" ed="Globe" n="101" source="#globe-edition"/>satisfaction; and that without <milestone unit="line" ed="F1" n="427"/>any further delay
               <milestone unit="line" ed="Globe"/>than this very evening. </p>
       </sp>
       <sp who="lr-7">
@@ -1595,7 +1619,7 @@
         <p>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="432"/> I will seek him, sir, presently; convey
-              <milestone unit="line" ed="Globe" n="111"/>the business <milestone unit="line" ed="F1" n="433"/>as I shall find means, and <milestone unit="line" ed="Globe"/>acquaint you withal. </p>
+              <milestone unit="line" ed="Globe" n="111" source="#globe-edition"/>the business <milestone unit="line" ed="F1" n="433"/>as I shall find means, and <milestone unit="line" ed="Globe"/>acquaint you withal. </p>
       </sp>
       <sp who="lr-7">
         <speaker>Glou.</speaker>
@@ -1641,7 +1665,7 @@
       <sp who="lr-13">
         <speaker>Edg.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="151"/>
+          <milestone unit="line" ed="Globe" n="151" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="468"/> How now, brother Edmund! what serious <milestone unit="line" ed="Globe"/>contemplation <milestone unit="line" ed="F1" n="469"/>are you in? </p>
       </sp>
       <sp who="lr-5">
@@ -1685,7 +1709,7 @@
       <sp who="lr-5">
         <speaker>Edm.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="170"/>
+          <milestone unit="line" ed="Globe" n="170" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="477"/> Spake you with him? </p>
       </sp>
       <sp who="lr-13">
@@ -1712,7 +1736,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="482"/> Bethink yourself wherein you may <milestone unit="line" ed="Globe"/>have offended <milestone unit="line" ed="F1" n="483"/>him:
               and at my entreaty forbear <milestone unit="line" ed="Globe"/>his presence till <milestone unit="line" ed="F1" n="484"/>some
-              little time hath <milestone unit="line" ed="Globe"/>qualified the heat of his displeasure; <milestone unit="line" ed="F1" n="485"/>which at <milestone unit="line" ed="Globe" n="179"/>this instant so rageth in him, that with the mischief
+              little time hath <milestone unit="line" ed="Globe"/>qualified the heat of his displeasure; <milestone unit="line" ed="F1" n="485"/>which at <milestone unit="line" ed="Globe" n="179" source="#globe-edition"/>this instant so rageth in him, that with the mischief
                 <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="486"/>of your person it would scarcely allay. </p>
       </sp>
@@ -1765,7 +1789,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="502"/>That he suspects none; on whose foolish honesty </l>
         <l>
-          <milestone unit="line" ed="Globe" n="199"/>
+          <milestone unit="line" ed="Globe" n="199" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="503"/>My practices ride easy! I see the business. </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -1812,7 +1836,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="515"/>On every trifle. When he returns from hunting, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="9"/>
+          <milestone unit="line" ed="Globe" n="9" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="516"/>I will not speak with him; say I am sick: </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -1849,7 +1873,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>That he hath given away! Now, by my life, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="20"/>Old fools are babes again; and must be used </l>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>Old fools are babes again; and must be used </l>
         <l>
           <milestone unit="line" ed="Globe"/>With checks as flatteries,--when they are seen abused. </l>
         <l part="I">
@@ -1916,7 +1940,7 @@
         <speaker>Lear.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="540"/> Let me not stay a jot for dinner; go <milestone unit="line" ed="Globe" n="10"/>get it ready. <stage type="exit">[Exit an Attendant.]</stage>
+          <milestone unit="line" ed="F1" n="540"/> Let me not stay a jot for dinner; go <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>get it ready. <stage type="exit">[Exit an Attendant.]</stage>
           <milestone unit="line" ed="F1" n="541"/>How now! <milestone unit="line" ed="Globe"/>what art thou? </p>
       </sp>
       <sp who="lr-9">
@@ -1949,7 +1973,7 @@
       <sp who="lr-9">
         <speaker>Kent.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="21"/>
+          <milestone unit="line" ed="Globe" n="21" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="551"/> A very honest-hearted fellow, and as <milestone unit="line" ed="Globe"/>poor as <milestone unit="line" ed="F1" n="552"/>the king. </p>
       </sp>
       <sp who="lr-11">
@@ -1985,8 +2009,8 @@
       <sp who="lr-9">
         <speaker>Kent.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="30"/>
-          <milestone unit="line" ed="F1" n="559"/> No, sir; but you have that in your <milestone unit="line" ed="Globe" n="31"/>countenance <milestone unit="line" ed="F1" n="560"/>which I would fain call master. </p>
+          <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>
+          <milestone unit="line" ed="F1" n="559"/> No, sir; but you have that in your <milestone unit="line" ed="Globe" n="31" source="#globe-edition"/>countenance <milestone unit="line" ed="F1" n="560"/>which I would fain call master. </p>
       </sp>
       <sp who="lr-11">
         <speaker>Lear.</speaker>
@@ -2011,7 +2035,7 @@
         <p>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="564"/> I can keep honest counsel, ride, run, <milestone unit="line" ed="Globe"/>mar a <milestone unit="line" ed="F1" n="565"/>curious
-              tale in telling it, and deliver a <milestone unit="line" ed="Globe"/>plain message <milestone unit="line" ed="F1" n="566"/>bluntly: that which ordinary <milestone unit="line" ed="Globe"/>men are fit for, I am qualified <milestone unit="line" ed="F1" n="567"/>in; and the best <milestone unit="line" ed="Globe" n="39"/>of me is diligence. </p>
+              tale in telling it, and deliver a <milestone unit="line" ed="Globe"/>plain message <milestone unit="line" ed="F1" n="566"/>bluntly: that which ordinary <milestone unit="line" ed="Globe"/>men are fit for, I am qualified <milestone unit="line" ed="F1" n="567"/>in; and the best <milestone unit="line" ed="Globe" n="39" source="#globe-edition"/>of me is diligence. </p>
       </sp>
       <sp who="lr-11">
         <speaker>Lear.</speaker>
@@ -2071,7 +2095,7 @@
         <p>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="584"/>Sir, he answered me in the roundest
-              <milestone unit="line" ed="Globe" n="60"/>manner, he <milestone unit="line" ed="F1" n="585"/>would not. </p>
+              <milestone unit="line" ed="Globe" n="60" source="#globe-edition"/>manner, he <milestone unit="line" ed="F1" n="585"/>would not. </p>
       </sp>
       <sp who="lr-11">
         <speaker>Lear.</speaker>
@@ -2100,7 +2124,7 @@
         <speaker>Knight.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="594"/> I beseech you, pardon me, my <milestone unit="line" ed="Globe" n="71"/>lord, if I be <milestone unit="line" ed="F1" n="595"/>mistaken; for my duty cannot be <milestone unit="line" ed="Globe"/>silent when I think <milestone unit="line" ed="F1" n="596"/>your highness wronged. </p>
+          <milestone unit="line" ed="F1" n="594"/> I beseech you, pardon me, my <milestone unit="line" ed="Globe" n="71" source="#globe-edition"/>lord, if I be <milestone unit="line" ed="F1" n="595"/>mistaken; for my duty cannot be <milestone unit="line" ed="Globe"/>silent when I think <milestone unit="line" ed="F1" n="596"/>your highness wronged. </p>
       </sp>
       <sp who="lr-11">
         <speaker>Lear.</speaker>
@@ -2116,7 +2140,7 @@
       <sp who="lr-16">
         <speaker>Knight.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="80"/>
+          <milestone unit="line" ed="Globe" n="80" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="603"/>Since my young lady's going into <milestone unit="line" ed="Globe"/>France, <milestone unit="line" ed="F1" n="604"/>sir,
               the fool hath much pined away. </p>
       </sp>
@@ -2148,7 +2172,7 @@
       <sp who="lr-14">
         <speaker>Osw.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="91"/>
+          <milestone unit="line" ed="Globe" n="91" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="613"/> I am none of these, my lord; <milestone unit="line" ed="F1" n="614"/>I beseech <milestone unit="line" ed="Globe"/>your
               pardon. </p>
       </sp>
@@ -2230,7 +2254,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="630"/> Why, for taking one's part that's out <milestone unit="line" ed="Globe"/>of favour: <milestone unit="line" ed="F1" n="631"/>nay, an thou canst not smile as the <milestone unit="line" ed="Globe"/>wind sits, thou'lt catch <milestone unit="line" ed="F1" n="632"/>cold shortly: there, <milestone unit="line" ed="Globe"/>take my coxcomb: why, this fellow <milestone unit="line" ed="F1" n="633"/>has banished <milestone unit="line" ed="Globe"/>two on's daughters, and did the third a
                 <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="634"/>blessing against his will; if thou follow him, <milestone unit="line" ed="Globe"/>thou must <milestone unit="line" ed="F1" n="635"/>needs wear my coxcomb. How now, <milestone unit="line" ed="Globe"/>nuncle! Would <milestone unit="line" ed="F1" n="636"/>I had two coxcombs and two <milestone unit="line" ed="Globe" n="119"/>daughters!
+          <milestone unit="line" ed="F1" n="634"/>blessing against his will; if thou follow him, <milestone unit="line" ed="Globe"/>thou must <milestone unit="line" ed="F1" n="635"/>needs wear my coxcomb. How now, <milestone unit="line" ed="Globe"/>nuncle! Would <milestone unit="line" ed="F1" n="636"/>I had two coxcombs and two <milestone unit="line" ed="Globe" n="119" source="#globe-edition"/>daughters!
                 </p>
       </sp>
       <sp who="lr-11">
@@ -2275,7 +2299,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="130"/>
+          <milestone unit="line" ed="Globe" n="130" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="647"/> Do. </p>
       </sp>
       <sp who="lr-15">
@@ -2308,7 +2332,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="656"/>And keep in-a-door, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="140"/>
+          <milestone unit="line" ed="Globe" n="140" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="657"/>And thou shalt have more </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -2339,7 +2363,7 @@
         <stage>[To Kent]</stage>
         <milestone unit="line" ed="Globe"/>
         <milestone unit="line" ed="F1" n="665"/>
-        <p> Prithee, tell him, so much <milestone unit="line" ed="Globe"/>the rent of his land <milestone unit="line" ed="F1" n="666"/>comes to: he will not believe <milestone unit="line" ed="Globe" n="150"/>a fool. </p>
+        <p> Prithee, tell him, so much <milestone unit="line" ed="Globe"/>the rent of his land <milestone unit="line" ed="F1" n="666"/>comes to: he will not believe <milestone unit="line" ed="Globe" n="150" source="#globe-edition"/>a fool. </p>
       </sp>
       <sp who="lr-11">
         <speaker>Lear.</speaker>
@@ -2373,7 +2397,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>The sweet and bitter fool </l>
         <l>
-          <milestone unit="line" ed="Globe" n="160"/> Will presently appear; </l>
+          <milestone unit="line" ed="Globe" n="160" source="#globe-edition"/> Will presently appear; </l>
         <l>
           <milestone unit="line" ed="Globe"/>The one in motley here, </l>
         <l>
@@ -2399,7 +2423,7 @@
         <p>
           <milestone unit="line" ed="Globe"/> No, faith, lords and great men will <milestone unit="line" ed="Globe"/>not let me; if I had a monopoly out,
               they <milestone unit="line" ed="Globe"/>would have part on't: and ladies too, they <milestone unit="line" ed="Globe"/>will not let
-              me have all fool to myself; they'll <milestone unit="line" ed="Globe" n="171"/>be snatching. <milestone unit="line" ed="F1" n="671"/>Give me an egg, nuncle, and I'll <milestone unit="line" ed="Globe"/>give thee <milestone unit="line" ed="F1" n="672"/>two crowns. </p>
+              me have all fool to myself; they'll <milestone unit="line" ed="Globe" n="171" source="#globe-edition"/>be snatching. <milestone unit="line" ed="F1" n="671"/>Give me an egg, nuncle, and I'll <milestone unit="line" ed="Globe"/>give thee <milestone unit="line" ed="F1" n="672"/>two crowns. </p>
       </sp>
       <sp who="lr-11">
         <speaker>Lear.</speaker>
@@ -2413,7 +2437,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="674"/> Why, after I have cut the egg i' the <milestone unit="line" ed="Globe"/>middle, and <milestone unit="line" ed="F1" n="675"/>eat up the meat, the two crowns <milestone unit="line" ed="Globe"/>of the egg. When <milestone unit="line" ed="F1" n="676"/>thou clovest thy crown i' <milestone unit="line" ed="Globe"/>the middle, and gavest away <milestone unit="line" ed="F1" n="677"/>both parts, thou <milestone unit="line" ed="Globe"/>borest thy ass on thy back o'er the <milestone unit="line" ed="F1" n="678"/>dirt: thou <milestone unit="line" ed="Globe"/>hadst little wit in thy bald crown, when
               thou <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="679"/>gavest thy golden one away. If I speak like <milestone unit="line" ed="Globe" n="180"/>myself in <milestone unit="line" ed="F1" n="680"/>this, let him be whipped that first <milestone unit="line" ed="Globe"/>finds it so. </p>
+          <milestone unit="line" ed="F1" n="679"/>gavest thy golden one away. If I speak like <milestone unit="line" ed="Globe" n="180" source="#globe-edition"/>myself in <milestone unit="line" ed="F1" n="680"/>this, let him be whipped that first <milestone unit="line" ed="Globe"/>finds it so. </p>
         <l>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="681"/>
@@ -2439,7 +2463,7 @@
         <p>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="686"/> I have used it, nuncle, ever since <milestone unit="line" ed="Globe"/>thou madest <milestone unit="line" ed="F1" n="687"/>thy
-              daughters thy mother: for <milestone unit="line" ed="Globe" n="190"/>when thou gavest them <milestone unit="line" ed="F1" n="688"/>the
+              daughters thy mother: for <milestone unit="line" ed="Globe" n="190" source="#globe-edition"/>when thou gavest them <milestone unit="line" ed="F1" n="688"/>the
               rod, and put'st <milestone unit="line" ed="Globe"/>down thine own breeches, <stage>[Singing]</stage>
         </p>
         <l>
@@ -2481,7 +2505,7 @@
         <speaker>Lear.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="704"/> How now, daughter! what makes <milestone unit="line" ed="Globe" n="209"/>that frontlet <milestone unit="line" ed="F1" n="705"/>on?
+          <milestone unit="line" ed="F1" n="704"/> How now, daughter! what makes <milestone unit="line" ed="Globe" n="209" source="#globe-edition"/>that frontlet <milestone unit="line" ed="F1" n="705"/>on?
               Methinks you are too much <milestone unit="line" ed="Globe"/>of late i' the frown. </p>
       </sp>
       <sp who="lr-15">
@@ -2491,7 +2515,7 @@
           <milestone unit="line" ed="F1" n="706"/> Thou wast a pretty fellow when thou <milestone unit="line" ed="Globe"/>hadst no <milestone unit="line" ed="F1" n="707"/>need
               to care for her frowning; now <milestone unit="line" ed="Globe"/>thou art an O without <milestone unit="line" ed="F1" n="708"/>a
               figure: I am better <milestone unit="line" ed="Globe"/>than thou art now; I am a fool, <milestone unit="line" ed="F1" n="709"/>thou art <milestone unit="line" ed="Globe"/>nothing. <stage>[To Gon.]</stage> Yes, forsooth, I will <milestone unit="line" ed="Globe"/>hold my tongue; so <milestone unit="line" ed="F1" n="710"/>your face bids me, though <milestone unit="line" ed="Globe"/>you say nothing. <milestone unit="line" ed="F1" n="711"/>Mum, mum, <milestone unit="line" ed="Globe"/>He that keeps nor crust
-              nor crum, <milestone unit="line" ed="Globe" n="220"/>
+              nor crum, <milestone unit="line" ed="Globe" n="220" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="712"/>Weary of all, shall want some.
                 <stage>[Pointing to Lear]</stage> That's a shealed peascod. </p>
       </sp>
@@ -2561,7 +2585,7 @@
       <sp who="lr-8">
         <speaker>Gon.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="240"/>Come, sir. </p>
+          <milestone unit="line" ed="Globe" n="240" source="#globe-edition"/>Come, sir. </p>
         <l>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="732"/>I would you would make use of that good wisdom, </l>
@@ -2594,7 +2618,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="742"/>Either his notion weakens, his discernings </l>
         <l>
-          <milestone unit="line" ed="Globe" n="250"/>
+          <milestone unit="line" ed="Globe" n="250" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="743"/>Are lethargied--Ha! waking? 'tis not so. </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -2629,7 +2653,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="747"/>This admiration, sir, is much o' the savor </l>
         <l>
-          <milestone unit="line" ed="Globe" n="260"/>
+          <milestone unit="line" ed="Globe" n="260" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="748"/>Of other your new pranks. I do beseech you </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -2659,7 +2683,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="757"/>For instant remedy: be then desired </l>
         <l>
-          <milestone unit="line" ed="Globe" n="270"/>
+          <milestone unit="line" ed="Globe" n="270" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="758"/>By her, that else will take the thing she begs, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -2708,7 +2732,7 @@
           <milestone unit="line" ed="F1" n="770"/>Woe, that too late repents,--<stage>[To</stage>
           <stage>Alb.]</stage> O, sir, are you come? </l>
         <l>
-          <milestone unit="line" ed="Globe" n="281"/>
+          <milestone unit="line" ed="Globe" n="281" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="771"/>Is it your will? Speak, sir. Prepare my horses. </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -2745,7 +2769,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="780"/>The worships of their name. O most small fault, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="290"/>
+          <milestone unit="line" ed="Globe" n="290" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="781"/>How ugly didst thou in Cordelia show! </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -2785,7 +2809,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="791"/>Suspend thy purpose, if thou didst intend </l>
         <l>
-          <milestone unit="line" ed="Globe" n="300"/>
+          <milestone unit="line" ed="Globe" n="300" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="792"/>To make this creature fruitful! </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -2815,7 +2839,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="801"/>Turn all her mother's pains and benefits </l>
         <l>
-          <milestone unit="line" ed="Globe" n="310"/>
+          <milestone unit="line" ed="Globe" n="310" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="802"/>To laughter and contempt; that she may feel </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -2868,7 +2892,7 @@
           <milestone unit="line" ed="F1" n="814"/>I'll tell thee: <stage>[To Gon.]</stage>
           <milestone unit="line" ed="F1" n="815"/>Life and death! I am ashamed </l>
         <l>
-          <milestone unit="line" ed="Globe" n="320"/>
+          <milestone unit="line" ed="Globe" n="320" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="816"/>That thou hast power to shake my manhood thus; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -2897,10 +2921,10 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="826"/>Who, I am sure, is kind and comfortable: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="329"/>
+          <milestone unit="line" ed="Globe" n="329" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="827"/>When she shall hear this of thee, with her <milestone unit="line" ed="Globe"/>nails </l>
         <l>
-          <milestone unit="line" ed="Globe" n="331"/>
+          <milestone unit="line" ed="Globe" n="331" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="828"/>She'll flay thy wolvish visage. Thou shalt find </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -2939,7 +2963,7 @@
       <sp who="lr-15">
         <speaker>Fool.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="340"/>
+          <milestone unit="line" ed="Globe" n="340" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="836"/> Nuncle Lear, nuncle Lear, <milestone unit="line" ed="F1" n="837"/>tarry and <milestone unit="line" ed="Globe"/>take
               the fool with thee. <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="838"/>A fox, when one has caught her,
@@ -3016,7 +3040,7 @@
       <sp who="lr-8">
         <speaker>Gon.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="360"/>
+          <milestone unit="line" ed="Globe" n="360" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="861"/>Take you some company, and away to horse: </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -3050,7 +3074,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="870"/>How far your eyes may pierce I cannot tell: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="370"/>
+          <milestone unit="line" ed="Globe" n="370" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="871"/>Striving to better, oft we mar what's well. </l>
       </sp>
       <sp who="lr-8">
@@ -3091,7 +3115,7 @@
         <speaker>Fool.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="883"/> If a man's brains were in's heels, <milestone unit="line" ed="Globe" n="10"/>were't not in <milestone unit="line" ed="F1" n="884"/>danger of kibes? </p>
+          <milestone unit="line" ed="F1" n="883"/> If a man's brains were in's heels, <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>were't not in <milestone unit="line" ed="F1" n="884"/>danger of kibes? </p>
       </sp>
       <sp who="lr-11">
         <speaker>Lear.</speaker>
@@ -3127,7 +3151,7 @@
         <speaker>Fool.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="893"/> She will taste as like this as a crab <milestone unit="line" ed="Globe" n="20"/>does to a <milestone unit="line" ed="F1" n="894"/>crab. Thou canst tell why one's nose <milestone unit="line" ed="Globe"/>stands i' the middle <milestone unit="line" ed="F1" n="895"/>on's face? </p>
+          <milestone unit="line" ed="F1" n="893"/> She will taste as like this as a crab <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>does to a <milestone unit="line" ed="F1" n="894"/>crab. Thou canst tell why one's nose <milestone unit="line" ed="Globe"/>stands i' the middle <milestone unit="line" ed="F1" n="895"/>on's face? </p>
       </sp>
       <sp who="lr-11">
         <speaker>Lear.</speaker>
@@ -3163,7 +3187,7 @@
       <sp who="lr-15">
         <speaker>Fool.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="30"/>
+          <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="902"/> Nor I neither; but I can tell why a <milestone unit="line" ed="Globe"/>snail has <milestone unit="line" ed="F1" n="903"/>a house. </p>
       </sp>
       <sp who="lr-11">
@@ -3190,7 +3214,7 @@
         <p>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="909"/> Thy asses are gone about 'em. The <milestone unit="line" ed="Globe"/>reason why <milestone unit="line" ed="F1" n="910"/>the
-              seven stars are no more than <milestone unit="line" ed="Globe" n="40"/>seven is a pretty reason. </p>
+              seven stars are no more than <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>seven is a pretty reason. </p>
       </sp>
       <sp who="lr-11">
         <speaker>Lear.</speaker>
@@ -3227,7 +3251,7 @@
         <speaker>Fool.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="917"/> Thou shouldst not have been old till <milestone unit="line" ed="Globe" n="50"/>thou hadst <milestone unit="line" ed="F1" n="918"/>been wise. </p>
+          <milestone unit="line" ed="F1" n="917"/> Thou shouldst not have been old till <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>thou hadst <milestone unit="line" ed="F1" n="918"/>been wise. </p>
       </sp>
       <sp who="lr-11">
         <speaker>Lear.</speaker>
@@ -3299,7 +3323,7 @@
         <speaker>Cur.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="935"/> Nay, I know not. You have heard <milestone unit="line" ed="Globe"/>of the news abroad; <milestone unit="line" ed="F1" n="936"/>I mean the whispered ones, <milestone unit="line" ed="Globe" n="10"/>for they are yet but <milestone unit="line" ed="F1" n="937"/>ear-kissing arguments? </p>
+          <milestone unit="line" ed="F1" n="935"/> Nay, I know not. You have heard <milestone unit="line" ed="Globe"/>of the news abroad; <milestone unit="line" ed="F1" n="936"/>I mean the whispered ones, <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>for they are yet but <milestone unit="line" ed="F1" n="937"/>ear-kissing arguments? </p>
       </sp>
       <sp who="lr-5">
         <speaker>Edm.</speaker>
@@ -3342,7 +3366,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="946"/>My father hath set guard to take my brother; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="20"/>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="947"/>And I have one thing, of a queasy question, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -3422,7 +3446,7 @@
       <sp who="lr-7">
         <speaker>Glou.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="40"/>
+          <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="972"/> Now, Edmund, where's the villain? </p>
       </sp>
       <sp who="lr-5">
@@ -3483,7 +3507,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="984"/>Spoke, with how manifold and strong a bond </l>
         <l>
-          <milestone unit="line" ed="Globe" n="51"/>
+          <milestone unit="line" ed="Globe" n="51" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="985"/>The child was bound to the father; sir, in fine, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -3516,7 +3540,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="994"/>Let him fly far: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="60"/>
+          <milestone unit="line" ed="Globe" n="60" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="995"/>Not in this land shall he remain uncaught; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -3552,7 +3576,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1005"/>'Thou unpossessing bastard! dost thou think, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="71"/>
+          <milestone unit="line" ed="Globe" n="71" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1006"/>If i would stand against thee, would the reposal </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -3622,7 +3646,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1026"/>How now, my noble friend! since I came hither, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="90"/>
+          <milestone unit="line" ed="Globe" n="90" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1027"/>Which I can call but now, I have heard strange news, </l>
       </sp>
       <sp who="lr-12">
@@ -3670,7 +3694,7 @@
       <sp who="lr-5">
         <speaker>Edm.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="100"/>
+          <milestone unit="line" ed="Globe" n="100" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1037"/> Yes, madam, he was of that consort. </p>
       </sp>
       <sp who="lr-12">
@@ -3770,7 +3794,7 @@
       <sp who="lr-7">
         <speaker>Glou.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="120"/>
+          <milestone unit="line" ed="Globe" n="120" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1061"/>For him I thank your grace. </l>
       </sp>
       <sp who="lr-4">
@@ -3809,7 +3833,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1071"/>Your needful counsel to our business, </l>
         <l part="I">
-          <milestone unit="line" ed="Globe" n="130"/>
+          <milestone unit="line" ed="Globe" n="130" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1072"/>Which craves the instant use. </l>
       </sp>
       <sp who="lr-7">
@@ -3874,7 +3898,7 @@
       <sp who="lr-9">
         <speaker>Kent.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="10"/>
+          <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1084"/> If I had thee in Lipsbury pinfold, I <milestone unit="line" ed="Globe"/>would make <milestone unit="line" ed="F1" n="1085"/>thee care for me. </p>
       </sp>
       <sp who="lr-14">
@@ -3911,7 +3935,7 @@
         <speaker>Osw.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="1099"/> Why, what a monstrous fellow art <milestone unit="line" ed="Globe" n="29"/>thou, thus <milestone unit="line" ed="F1" n="1100"/>to
+          <milestone unit="line" ed="F1" n="1099"/> Why, what a monstrous fellow art <milestone unit="line" ed="Globe" n="29" source="#globe-edition"/>thou, thus <milestone unit="line" ed="F1" n="1100"/>to
               rail on one that is neither known <milestone unit="line" ed="Globe"/>of thee nor <milestone unit="line" ed="F1" n="1101"/>knows thee! </p>
       </sp>
       <sp who="lr-9">
@@ -3975,7 +3999,7 @@
       <sp who="lr-7">
         <speaker>Glou.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="51"/>
+          <milestone unit="line" ed="Globe" n="51" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1122"/> Weapons! arms! What's the matter
               <milestone unit="line" ed="Globe"/>here? </p>
       </sp>
@@ -4007,7 +4031,7 @@
         <speaker>Kent.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="1128"/> No marvel, you have so bestirred <milestone unit="line" ed="Globe" n="60"/>your valour. <milestone unit="line" ed="F1" n="1129"/>You
+          <milestone unit="line" ed="F1" n="1128"/> No marvel, you have so bestirred <milestone unit="line" ed="Globe" n="60" source="#globe-edition"/>your valour. <milestone unit="line" ed="F1" n="1129"/>You
               cowardly rascal, nature disclaims <milestone unit="line" ed="Globe"/>in thee: a tailor <milestone unit="line" ed="F1" n="1130"/>made thee. </p>
       </sp>
       <sp who="lr-4">
@@ -4067,7 +4091,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1146"/>That such a slave as this should wear a sword, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="80"/>
+          <milestone unit="line" ed="Globe" n="80" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1147"/>Who wears no honesty. Such smelling rogues as these, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4097,7 +4121,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1156"/>Smile you my speeches, as I were a fool? </l>
         <l>
-          <milestone unit="line" ed="Globe" n="90"/>
+          <milestone unit="line" ed="Globe" n="90" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1157"/>Goose, if I had you upon Sarum plain, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4150,7 +4174,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1167"/>Sir, 'tis my occupation to be plain: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="100"/>
+          <milestone unit="line" ed="Globe" n="100" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1168"/>I have seen better faces in my time </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4186,7 +4210,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1178"/>Harbour more craft and more corrupter ends </l>
         <l>
-          <milestone unit="line" ed="Globe" n="110"/>
+          <milestone unit="line" ed="Globe" n="110" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1179"/>Than twenty silly ducking observants </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4250,7 +4274,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1198"/>That worthied him, got praises of the king </l>
         <l>
-          <milestone unit="line" ed="Globe" n="130"/>
+          <milestone unit="line" ed="Globe" n="130" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1199"/>For him attempting who was self-subdued; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4298,7 +4322,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1211"/>Against the grace and person of my master, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="140"/>
+          <milestone unit="line" ed="Globe" n="140" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1212"/>Stocking his messenger. </l>
       </sp>
       <sp who="lr-4">
@@ -4348,7 +4372,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1221"/>Let me beseech your grace not to do so: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="149"/>His fault is much, and <milestone unit="line" ed="F1" n="1222"/>the good king his master </l>
+          <milestone unit="line" ed="Globe" n="149" source="#globe-edition"/>His fault is much, and <milestone unit="line" ed="F1" n="1222"/>the good king his master </l>
         <l>
           <milestone unit="line" ed="Globe"/>Will check him for't: your purposed low correction </l>
         <l>
@@ -4394,7 +4418,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1229"/>I am sorry for thee, friend; 'tis the duke's pleasure, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="161"/>
+          <milestone unit="line" ed="Globe" n="161" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1230"/>Whose disposition, all the world well knows, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4434,7 +4458,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1240"/>To the warm sun! </l>
         <l>
-          <milestone unit="line" ed="Globe" n="171"/>
+          <milestone unit="line" ed="Globe" n="171" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1241"/>Approach, thou beacon to this under globe, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4458,7 +4482,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1248"/>Losses their remedies. All weary and o'er- <milestone unit="line" ed="Globe"/>watch'd, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="179"/>
+          <milestone unit="line" ed="Globe" n="179" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1249"/>Take vantage, heavy eyes, not to behold </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4504,7 +4528,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1261"/>Brought near to beast: my face I'll grime with filth; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="11"/>
+          <milestone unit="line" ed="Globe" n="11" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1262"/>Blanket my loins; elf all my hair in knots; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4531,7 +4555,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1270"/>Poor pelting villages, sheep-cotes, and mills, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="20"/>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1271"/>Sometime with lunatic bans, sometime with prayers, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4594,7 +4618,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1283"/> Ha, ha! he wears cruel garters. <milestone unit="line" ed="Globe"/>Horses are <milestone unit="line" ed="F1" n="1284"/>tied by
               the heads, dogs and bears <milestone unit="line" ed="Globe"/>by the neck, <milestone unit="line" ed="F1" n="1285"/>monkeys by
-              the loins, and men <milestone unit="line" ed="Globe" n="11"/>by the legs: when a man's <milestone unit="line" ed="F1" n="1286"/>over-lusty at legs, <milestone unit="line" ed="Globe"/>then he wears wooden nether-stocks. </p>
+              the loins, and men <milestone unit="line" ed="Globe" n="11" source="#globe-edition"/>by the legs: when a man's <milestone unit="line" ed="F1" n="1286"/>over-lusty at legs, <milestone unit="line" ed="Globe"/>then he wears wooden nether-stocks. </p>
       </sp>
       <sp who="lr-11">
         <speaker>Lear.</speaker>
@@ -4641,7 +4665,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="20"/> No, no, they would not. </p>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/> No, no, they would not. </p>
       </sp>
       <sp who="lr-9">
         <speaker>Kent.</speaker>
@@ -4693,7 +4717,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1306"/>Ere I was risen from the place that show'd </l>
         <l>
-          <milestone unit="line" ed="Globe" n="31"/>
+          <milestone unit="line" ed="Globe" n="31" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1307"/>My duty kneeling, came there a reeking post, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4720,7 +4744,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1315"/>And meeting here the other messenger, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="40"/>
+          <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1316"/>Whose welcome, I perceived, had poison'd mine,-- </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4745,7 +4769,7 @@
         <speaker>Fool.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="1323"/> Winter's not gone yet, if the wild-geese <milestone unit="line" ed="Globe"/>fly that way. <milestone unit="line" ed="F1" n="1324"/>Fathers that wear rags <milestone unit="line" ed="Globe" n="50"/>Do make their children blind; <milestone unit="line" ed="Globe"/>
+          <milestone unit="line" ed="F1" n="1323"/> Winter's not gone yet, if the wild-geese <milestone unit="line" ed="Globe"/>fly that way. <milestone unit="line" ed="F1" n="1324"/>Fathers that wear rags <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>Do make their children blind; <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1325"/>But fathers that bear bags <milestone unit="line" ed="Globe"/>Shall see their
               children kind. <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1326"/>Fortune, that arrant whore, <milestone unit="line" ed="Globe"/>Ne'er turns the key to the poor. <milestone unit="line" ed="Globe"/>
@@ -4821,7 +4845,7 @@
               would have none but knaves follow <milestone unit="line" ed="Globe"/>it, since a <milestone unit="line" ed="F1" n="1350"/>fool
               gives it. </p>
         <l>
-          <milestone unit="line" ed="Globe" n="80"/>
+          <milestone unit="line" ed="Globe" n="80" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1351"/> That which serves and seeks for gain, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4866,7 +4890,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1362"/>Deny to speak with me? <milestone unit="line" ed="F1" n="1363"/>They are sick? they are weary? </l>
         <l>
-          <milestone unit="line" ed="Globe" n="91"/>
+          <milestone unit="line" ed="Globe" n="91" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1364"/>They have travell'd all the night? Mere fetches; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4911,7 +4935,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="100"/>
+          <milestone unit="line" ed="Globe" n="100" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1375"/> Inform'd them! Dost thou under- <milestone unit="line" ed="Globe"/>stand me, man? </p>
       </sp>
       <sp who="lr-7">
@@ -4944,7 +4968,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1384"/>Whereto our health is bound; we are not ourselves </l>
         <l>
-          <milestone unit="line" ed="Globe" n="110"/>
+          <milestone unit="line" ed="Globe" n="110" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1385"/>When nature, being oppress'd, commands the mind </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -4975,7 +4999,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1394"/>Now, presently: bid them come forth and hear me, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="120"/>
+          <milestone unit="line" ed="Globe" n="120" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1395"/>Or at their chamber-door I'll beat the drum </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -5012,7 +5036,7 @@
       <sp who="lr-4">
         <speaker>Corn.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="130"/>
+          <milestone unit="line" ed="Globe" n="130" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1406"/>Hail to your grace. <stage>[Kent is set at liberty.</stage>
         </l>
       </sp>
@@ -5050,7 +5074,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1415"/>I can scarce speak to thee; thou'lt not believe </l>
         <l>
-          <milestone unit="line" ed="Globe" n="140"/>
+          <milestone unit="line" ed="Globe" n="140" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1416"/>With how depraved a quality--O Regan! </l>
       </sp>
       <sp who="lr-12">
@@ -5098,7 +5122,7 @@
       <sp who="lr-12">
         <speaker>Reg.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="149"/>
+          <milestone unit="line" ed="Globe" n="149" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1427"/>O, sir, you are old; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -5144,7 +5168,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1439"/>Good sir, no more; these are unsightly tricks: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="160"/>
+          <milestone unit="line" ed="Globe" n="160" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1440"/>Return you to my sister. </l>
       </sp>
       <sp who="lr-11">
@@ -5187,7 +5211,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1450"/>Into her scornful eyes! Infect her beauty, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="170"/>
+          <milestone unit="line" ed="Globe" n="170" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1451"/>You fen-suck'd fogs, drawn by the powerful sun, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -5225,7 +5249,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1461"/>And in conclusion to oppose the bolt </l>
         <l>
-          <milestone unit="line" ed="Globe" n="181"/>
+          <milestone unit="line" ed="Globe" n="181" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1462"/>Against my coming in: thou better know'st </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -5287,7 +5311,7 @@
       <sp who="lr-4">
         <speaker>Corn.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="191"/>
+          <milestone unit="line" ed="Globe" n="191" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1476"/>What means your grace? </l>
       </sp>
       <sp who="lr-11">
@@ -5332,7 +5356,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="201"/>
+          <milestone unit="line" ed="Globe" n="201" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1489"/>O sides, you are too tough; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -5371,7 +5395,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1499"/>I am now from home, and out of that provision </l>
         <l>
-          <milestone unit="line" ed="Globe" n="210"/>
+          <milestone unit="line" ed="Globe" n="210" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1500"/>Which shall be needful to your entertainment. </l>
       </sp>
       <sp who="lr-11">
@@ -5414,7 +5438,7 @@
       <sp who="lr-8">
         <speaker>Gon.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="221"/>
+          <milestone unit="line" ed="Globe" n="221" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1512"/>At your choice, sir. </l>
       </sp>
       <sp who="lr-11">
@@ -5444,7 +5468,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1520"/>In my corrupted blood. But I'll not chide thee; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="230"/>
+          <milestone unit="line" ed="Globe" n="230" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1521"/>Let shame come when it will, I do not call it: </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -5486,7 +5510,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="240"/>
+          <milestone unit="line" ed="Globe" n="240" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1533"/>Is this well spoken? </l>
       </sp>
       <sp who="lr-12">
@@ -5525,7 +5549,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1542"/>Why not, my lord? <milestone unit="line" ed="F1" n="1543"/>If then they chanced to slack you, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="250"/>
+          <milestone unit="line" ed="Globe" n="250" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1544"/>We could control them. If you will come to me,-- </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -5573,7 +5597,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="260"/>
+          <milestone unit="line" ed="Globe" n="260" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1555"/>Those wicked creatures yet do look well-favour'd, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -5618,7 +5642,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1566"/>Are in the poorest things superfluous: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="270"/>
+          <milestone unit="line" ed="Globe" n="270" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1567"/>Allow not nature more than nature needs, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -5651,7 +5675,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1577"/>To bear it tamely; touch me with noble anger, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="281"/>
+          <milestone unit="line" ed="Globe" n="281" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1578"/>And let not women's weapons, water-drops, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -5687,7 +5711,7 @@
       <sp who="lr-4">
         <speaker>Corn.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="291"/>
+          <milestone unit="line" ed="Globe" n="291" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1588"/> Let us withdraw; 'twill be a storm. </p>
       </sp>
       <sp who="lr-12">
@@ -5792,7 +5816,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1610"/>He is attended with a desperate train; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="310"/>
+          <milestone unit="line" ed="Globe" n="310" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1611"/>And what they may incense him to, being apt </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -5856,7 +5880,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>Catch in their fury, and make nothing of; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="11"/>Strives in his little world of man to out-scorn </l>
+          <milestone unit="line" ed="Globe" n="11" source="#globe-edition"/>Strives in his little world of man to out-scorn </l>
         <l>
           <milestone unit="line" ed="Globe"/>The to-and-fro-conflicting wind and rain. </l>
         <l>
@@ -5892,7 +5916,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1628"/>And dare, upon the warrant of my note, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="20"/>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1629"/>Commend a dear thing to you. There is division, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -5922,7 +5946,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1638"/>Against the old kind king; or something deeper, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="30"/>
+          <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1639"/>Whereof perchance these are but furnishings; </l>
         <l>
           <milestone unit="line" ed="Globe"/>But, true it is, from France there comes a power </l>
@@ -5943,7 +5967,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>Of how unnatural and bemadding sorrow </l>
         <l>
-          <milestone unit="line" ed="Globe" n="40"/>The king hath cause to plain. </l>
+          <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>The king hath cause to plain. </l>
         <l>
           <milestone unit="line" ed="Globe"/>I am a gentleman of blood and breeding; </l>
         <l>
@@ -5978,7 +6002,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1646"/>And she will tell you who your fellow is </l>
         <l>
-          <milestone unit="line" ed="Globe" n="50"/>
+          <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1647"/>That yet you do not know. Fie on this storm! </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -6037,7 +6061,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1663"/>Smite flat the thick rotundity o' the world! </l>
         <l>
-          <milestone unit="line" ed="Globe" n="9"/>
+          <milestone unit="line" ed="Globe" n="9" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1664"/>Crack nature's moulds, all germens spill at once, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -6070,7 +6094,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1675"/>Your horrible pleasure; here I stand, your slave, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="21"/>
+          <milestone unit="line" ed="Globe" n="21" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1676"/>A poor, infirm, weak, and despised old man: </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -6090,7 +6114,7 @@
         <p>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1681"/> He that has a house to put's head in <milestone unit="line" ed="Globe"/>has a good <milestone unit="line" ed="F1" n="1682"/>head-piece. <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="1683"/>The cod-piece that will house <milestone unit="line" ed="Globe"/>Before the head has any, <milestone unit="line" ed="Globe" n="30"/>
+          <milestone unit="line" ed="F1" n="1683"/>The cod-piece that will house <milestone unit="line" ed="Globe"/>Before the head has any, <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1684"/>The head and he
               shall louse; <milestone unit="line" ed="Globe"/>So beggars marry many. <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1685"/>The man that makes his toe <milestone unit="line" ed="Globe"/>What he his heart should make <milestone unit="line" ed="Globe"/>
@@ -6119,7 +6143,7 @@
       <sp who="lr-15">
         <speaker>Fool.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="41"/>
+          <milestone unit="line" ed="Globe" n="41" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1693"/> Marry, here's grace and a cod-piece; <milestone unit="line" ed="Globe"/>that's a <milestone unit="line" ed="F1" n="1694"/>wise man and a fool. </p>
       </sp>
       <sp who="lr-9">
@@ -6155,7 +6179,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1703"/>Let the great gods, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="51"/>
+          <milestone unit="line" ed="Globe" n="51" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1704"/>That keep this dreadful pother o'er our heads, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -6185,7 +6209,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1713"/>These dreadful summoners grace. I am a man </l>
         <l part="I">
-          <milestone unit="line" ed="Globe" n="60"/>
+          <milestone unit="line" ed="Globe" n="60" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1714"/>More sinn'd against than sinning. </l>
       </sp>
       <sp who="lr-9">
@@ -6224,7 +6248,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1724"/>Come on, my boy: how dost, my boy? art cold? </l>
         <l>
-          <milestone unit="line" ed="Globe" n="70"/>
+          <milestone unit="line" ed="Globe" n="70" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1725"/>I am cold myself. Where is this straw, my fellow? </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -6266,7 +6290,7 @@
       <sp who="lr-15">
         <speaker>Fool.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="80"/>
+          <milestone unit="line" ed="Globe" n="80" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1735"/>This is a brave night to cool a courtezan. </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -6299,7 +6323,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1745"/>When usurers tell their gold i' the field; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="91"/>
+          <milestone unit="line" ed="Globe" n="91" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1746"/>And bawds and whores do churches build; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -6426,7 +6450,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1789"/>But where the greater malady is fix'd, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="10"/>
+          <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1790"/>The lesser is scarce felt. Thou'ldst shun a bear; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -6459,7 +6483,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1800"/>Tn such a night as this! O Regan, Goneril! </l>
         <l>
-          <milestone unit="line" ed="Globe" n="20"/>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1801"/>Your old kind father, whose frank heart gave <milestone unit="line" ed="Globe"/>all,-- </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -6497,7 +6521,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1810"/>Poor naked wretches, wheresoe'er you are, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="30"/>
+          <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1811"/>That bide the pelting of this pitiless storm, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -6572,7 +6596,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="50"/>
+          <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1831"/>Hast thou given all to thy two daughters? </l>
         <l>
           <milestone unit="line" ed="Globe"/>And art <milestone unit="line" ed="F1" n="1832"/>thou come to this? </l>
@@ -6613,7 +6637,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1849"/>Now, all the plagues that in the pendulous air </l>
         <l>
-          <milestone unit="line" ed="Globe" n="70"/>
+          <milestone unit="line" ed="Globe" n="70" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1850"/>Hang fated o'er men's faults light on thy <milestone unit="line" ed="Globe"/>daughters! </l>
       </sp>
       <sp who="lr-9">
@@ -6680,7 +6704,7 @@
           <milestone unit="line" ed="F1" n="1870"/>them in the sweet face of heaven: one that <milestone unit="line" ed="Globe"/>slept in the <milestone unit="line" ed="F1" n="1871"/>contriving of lust, and waked to <milestone unit="line" ed="Globe"/>do it: wine loved I deeply, dice <milestone unit="line" ed="F1" n="1872"/>dearly; and <milestone unit="line" ed="Globe"/>in woman out-paramoured <milestone unit="line" ed="F1" n="1873"/>the Turk: false of <milestone unit="line" ed="Globe"/>heart, light of ear, bloody of hand; <milestone unit="line" ed="F1" n="1874"/>hog in <milestone unit="line" ed="Globe"/>sloth,
               fox in stealth, wolf in greediness, dog <milestone unit="line" ed="F1" n="1875"/>in <milestone unit="line" ed="Globe"/>madness,
               lion in prey. Let not the creaking <milestone unit="line" ed="Globe"/>of shoes <milestone unit="line" ed="F1" n="1876"/>nor the
-              rustling of silks betray thy <milestone unit="line" ed="Globe"/>poor heart to woman: <milestone unit="line" ed="F1" n="1877"/>keep thy foot out of <milestone unit="line" ed="Globe" n="101"/>brothels, thy hand out of <milestone unit="line" ed="F1" n="1878"/>plackets, thy pen <milestone unit="line" ed="Globe"/>from lenders' books, and defy the <milestone unit="line" ed="F1" n="1879"/>foul fiend. <milestone unit="line" ed="Globe"/>Still through the hawthorn blows the <milestone unit="line" ed="F1" n="1880"/>cold wind: <milestone unit="line" ed="Globe"/>Says suum, mun, ha, no, nonny. <milestone unit="line" ed="Globe"/>Dolphin
+              rustling of silks betray thy <milestone unit="line" ed="Globe"/>poor heart to woman: <milestone unit="line" ed="F1" n="1877"/>keep thy foot out of <milestone unit="line" ed="Globe" n="101" source="#globe-edition"/>brothels, thy hand out of <milestone unit="line" ed="F1" n="1878"/>plackets, thy pen <milestone unit="line" ed="Globe"/>from lenders' books, and defy the <milestone unit="line" ed="F1" n="1879"/>foul fiend. <milestone unit="line" ed="Globe"/>Still through the hawthorn blows the <milestone unit="line" ed="F1" n="1880"/>cold wind: <milestone unit="line" ed="Globe"/>Says suum, mun, ha, no, nonny. <milestone unit="line" ed="Globe"/>Dolphin
               my boy, my <milestone unit="line" ed="F1" n="1881"/>boy, sessa! let him trot by. <stage>[Storm
                 still.</stage>
         </p>
@@ -6698,7 +6722,7 @@
         <speaker>Fool.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="1892"/> Prithee, nuncle, be contented; 'tis a <milestone unit="line" ed="Globe"/>naughty <milestone unit="line" ed="F1" n="1893"/>night to swim in. Now a little fire in <milestone unit="line" ed="Globe"/>a wild field <milestone unit="line" ed="F1" n="1894"/>were like an old lecher's heart; <milestone unit="line" ed="Globe" n="119"/>a small spark, all the rest <milestone unit="line" ed="F1" n="1895"/>on's body cold. <milestone unit="line" ed="Globe"/>Look, here comes a walking
+          <milestone unit="line" ed="F1" n="1892"/> Prithee, nuncle, be contented; 'tis a <milestone unit="line" ed="Globe"/>naughty <milestone unit="line" ed="F1" n="1893"/>night to swim in. Now a little fire in <milestone unit="line" ed="Globe"/>a wild field <milestone unit="line" ed="F1" n="1894"/>were like an old lecher's heart; <milestone unit="line" ed="Globe" n="119" source="#globe-edition"/>a small spark, all the rest <milestone unit="line" ed="F1" n="1895"/>on's body cold. <milestone unit="line" ed="Globe"/>Look, here comes a walking
               fire. <stage type="entrance">Enter GLOUCESTER, with a torch.</stage>
         </p>
       </sp>
@@ -6721,7 +6745,7 @@
         <l>
           <milestone unit="line" ed="Globe"/> And her troth plight, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="130"/>
+          <milestone unit="line" ed="Globe" n="130" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1904"/> And, aroint thee, witch, aroint thee! </l>
       </sp>
       <sp who="lr-9">
@@ -6782,7 +6806,7 @@
       <sp who="lr-7">
         <speaker>Glou.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="150"/>
+          <milestone unit="line" ed="Globe" n="150" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1924"/>Our flesh and blood is grown so <milestone unit="line" ed="F1" n="1925"/>vile, <milestone unit="line" ed="Globe"/>my
               lord, </l>
         <l>
@@ -6818,7 +6842,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="160"/>
+          <milestone unit="line" ed="Globe" n="160" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1933"/>First let me talk with this philosopher. </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -6870,7 +6894,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="1944"/>His daughters seek his death; ah, that good Kent! </l>
         <l>
-          <milestone unit="line" ed="Globe" n="170"/>
+          <milestone unit="line" ed="Globe" n="170" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1945"/>He said it would be thus, poor banish'd man! </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -6930,7 +6954,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="181"/>
+          <milestone unit="line" ed="Globe" n="181" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="1959"/>With him; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -7004,7 +7028,7 @@
         <speaker>Corn.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="1976"/> I now perceive, it was not altogether <milestone unit="line" ed="Globe"/>your <milestone unit="line" ed="F1" n="1977"/>brother's evil disposition made him seek <milestone unit="line" ed="Globe" n="9"/>his death; but <milestone unit="line" ed="F1" n="1978"/>a provoking merit set a-work <milestone unit="line" ed="Globe"/>by a reproveable badness <milestone unit="line" ed="F1" n="1979"/>in himself. </p>
+          <milestone unit="line" ed="F1" n="1976"/> I now perceive, it was not altogether <milestone unit="line" ed="Globe"/>your <milestone unit="line" ed="F1" n="1977"/>brother's evil disposition made him seek <milestone unit="line" ed="Globe" n="9" source="#globe-edition"/>his death; but <milestone unit="line" ed="F1" n="1978"/>a provoking merit set a-work <milestone unit="line" ed="Globe"/>by a reproveable badness <milestone unit="line" ed="F1" n="1979"/>in himself. </p>
       </sp>
       <sp who="lr-5">
         <speaker>Edm.</speaker>
@@ -7030,7 +7054,7 @@
         <speaker>Corn.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="1988"/> True or false, it hath made thee earl <milestone unit="line" ed="Globe" n="20"/>of Gloucester. <milestone unit="line" ed="F1" n="1989"/>Seek out where thy father is, <milestone unit="line" ed="Globe"/>that be may he <milestone unit="line" ed="F1" n="1990"/>ready for our apprehension. </p>
+          <milestone unit="line" ed="F1" n="1988"/> True or false, it hath made thee earl <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>of Gloucester. <milestone unit="line" ed="F1" n="1989"/>Seek out where thy father is, <milestone unit="line" ed="Globe"/>that be may he <milestone unit="line" ed="F1" n="1990"/>ready for our apprehension. </p>
       </sp>
       <sp who="lr-5">
         <speaker>Edm.</speaker>
@@ -7082,7 +7106,7 @@
       <sp who="lr-15">
         <speaker>Fool.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="11"/>
+          <milestone unit="line" ed="Globe" n="11" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2008"/> Prithee, nuncle, tell me whether a <milestone unit="line" ed="Globe"/>madman be <milestone unit="line" ed="F1" n="2009"/>a gentleman or a yeoman? </p>
       </sp>
       <sp who="lr-11">
@@ -7116,7 +7140,7 @@
       <sp who="lr-15">
         <speaker>Fool.</speaker>
         <p>
-          <milestone unit="line" ed="Globe"/> He's mad that trusts in the tameness <milestone unit="line" ed="Globe" n="21"/>of a wolf, a horse's health, a
+          <milestone unit="line" ed="Globe"/> He's mad that trusts in the tameness <milestone unit="line" ed="Globe" n="21" source="#globe-edition"/>of a wolf, a horse's health, a
               boy's love, or a <milestone unit="line" ed="Globe"/>whore's oath. </p>
       </sp>
       <sp who="lr-11">
@@ -7171,7 +7195,7 @@
           <milestone unit="line" ed="Globe"/>
           <stage>[To Edgar]</stage> Thou robed man of justice, take thy place; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="40"/>
+          <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>
           <stage>[To the Fool]</stage> And thou, his yoke-fellow of equity, </l>
         <l>
           <milestone unit="line" ed="Globe"/>Bench by his side: <stage>[To Kent]</stage> you are o' the commission, </l>
@@ -7196,7 +7220,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <p>
-          <milestone unit="line" ed="Globe"/> Arraign her first: 'tis Goneril. I here <milestone unit="line" ed="Globe" n="50"/>take my oath before this
+          <milestone unit="line" ed="Globe"/> Arraign her first: 'tis Goneril. I here <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>take my oath before this
               honourable assembly, <milestone unit="line" ed="Globe"/>she kicked the poor king her father. </p>
       </sp>
       <sp who="lr-15">
@@ -7223,7 +7247,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>Arms, arms, sword, fire! Corruption in the place! </l>
         <l>
-          <milestone unit="line" ed="Globe" n="60"/>False justicer, why hast thou let her 'scape? </l>
+          <milestone unit="line" ed="Globe" n="60" source="#globe-edition"/>False justicer, why hast thou let her 'scape? </l>
       </sp>
       <sp who="lr-13">
         <speaker>Edg.</speaker>
@@ -7266,7 +7290,7 @@
           <milestone unit="line" ed="F1" n="2023"/> Tom will throw his head at them. <milestone unit="line" ed="Globe"/>Avaunt, you <milestone unit="line" ed="F1" n="2024"/>curs!
                 </p>
         <l>
-          <milestone unit="line" ed="Globe" n="70"/> Be thy mouth or black or white, </l>
+          <milestone unit="line" ed="Globe" n="70" source="#globe-edition"/> Be thy mouth or black or white, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2025"/> Tooth that poisons if it bite; </l>
@@ -7292,7 +7316,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2032"/>Do de, de, de. Sessa! Come, march to wakes </l>
         <l>
-          <milestone unit="line" ed="Globe" n="79"/>and fairs <milestone unit="line" ed="F1" n="2033"/>and market-towns. Poor Tom, thy <milestone unit="line" ed="Globe"/>horn is dry. </l>
+          <milestone unit="line" ed="Globe" n="79" source="#globe-edition"/>and fairs <milestone unit="line" ed="F1" n="2033"/>and market-towns. Poor Tom, thy <milestone unit="line" ed="Globe"/>horn is dry. </l>
       </sp>
       <sp who="lr-11">
         <speaker>Lear.</speaker>
@@ -7315,7 +7339,7 @@
         <speaker>Lear.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="2042"/> Make no noise, make no noise; draw <milestone unit="line" ed="Globe" n="91"/>the curtains: <milestone unit="line" ed="F1" n="2043"/>so, so, so. We'll go to supper i' <milestone unit="line" ed="Globe"/>the morning. So, so, so. </p>
+          <milestone unit="line" ed="F1" n="2042"/> Make no noise, make no noise; draw <milestone unit="line" ed="Globe" n="91" source="#globe-edition"/>the curtains: <milestone unit="line" ed="F1" n="2043"/>so, so, so. We'll go to supper i' <milestone unit="line" ed="Globe"/>the morning. So, so, so. </p>
       </sp>
       <sp who="lr-15">
         <speaker>Fool.</speaker>
@@ -7348,7 +7372,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2050"/>There is a litter ready; lay him in 't, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="99"/>
+          <milestone unit="line" ed="Globe" n="99" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2051"/>And drive towards Dover, friend, where thou shalt meet </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -7391,7 +7415,7 @@
       <sp who="lr-13">
         <speaker>Edg.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="110"/>When we our betters see bearing our woes, </l>
+          <milestone unit="line" ed="Globe" n="110" source="#globe-edition"/>When we our betters see bearing our woes, </l>
         <l>
           <milestone unit="line" ed="Globe"/>We scarcely think our miseries our foes. </l>
         <l>
@@ -7413,7 +7437,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>When false opinion, whose wrong thought defiles thee, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="121"/>In thy just proof, repeals and reconciles thee. </l>
+          <milestone unit="line" ed="Globe" n="121" source="#globe-edition"/>In thy just proof, repeals and reconciles thee. </l>
         <l>
           <milestone unit="line" ed="Globe"/>What will hap more to-night, safe 'scape the king! </l>
         <l>
@@ -7487,7 +7511,7 @@
       <sp who="lr-4">
         <speaker>Corn.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="21"/>
+          <milestone unit="line" ed="Globe" n="21" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2081"/>Get horses for your mistress. </l>
       </sp>
       <sp who="lr-8">
@@ -7536,7 +7560,7 @@
       <sp who="lr-4">
         <speaker>Corn.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="30"/>
+          <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2092"/> Bind fast his corky arms. </p>
       </sp>
       <sp who="lr-7">
@@ -7598,7 +7622,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2105"/>These hairs, which thou dost ravish from my chin, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="40"/>
+          <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2106"/>Will quicken, and accuse thee: I am your host: </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -7657,7 +7681,7 @@
       <sp who="lr-12">
         <speaker>Reg.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="50"/>
+          <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2120"/>And false. </l>
       </sp>
       <sp who="lr-4">
@@ -7708,7 +7732,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2131"/>In his anointed flesh stick boarish fangs. </l>
         <l>
-          <milestone unit="line" ed="Globe" n="60"/>
+          <milestone unit="line" ed="Globe" n="60" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2132"/>The sea, with such a storm as his bare head </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -7802,7 +7826,7 @@
       <sp who="lr-19">
         <speaker>First Serv.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="80"/>
+          <milestone unit="line" ed="Globe" n="80" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2154"/>Nay, then, come on, and take the chance of anger. </l>
       </sp>
       <sp who="lr-12">
@@ -7854,7 +7878,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2166"/>Thou call'st on him that hates thee: it was he </l>
         <l>
-          <milestone unit="line" ed="Globe" n="90"/>
+          <milestone unit="line" ed="Globe" n="90" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2167"/>That made the overture of thy treasons to us; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -7972,7 +7996,7 @@
               here? <stage type="entrance">Enter GLOUCESTER, led by Old Man.</stage>
         </l>
         <l>
-          <milestone unit="line" ed="Globe" n="11"/>My father, poorly led? <milestone unit="line" ed="F1" n="2191"/>World, world, O world! </l>
+          <milestone unit="line" ed="Globe" n="11" source="#globe-edition"/>My father, poorly led? <milestone unit="line" ed="F1" n="2191"/>World, world, O world! </l>
         <l>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2192"/>But that thy strange mutations make us hate thee, </l>
@@ -8002,7 +8026,7 @@
       <sp who="lr-20">
         <speaker>Old Man.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="20"/>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2199"/>Alack, sir, you cannot see your way. </l>
       </sp>
       <sp who="lr-7">
@@ -8056,7 +8080,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2211"/>
-          <stage>[Aside]</stage>And worse I may be yet: the <milestone unit="line" ed="Globe" n="30"/>worst is not </l>
+          <stage>[Aside]</stage>And worse I may be yet: the <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>worst is not </l>
         <l>
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2212"/>So long as we can say 'This is the worst.' </l>
@@ -8158,7 +8182,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2235"/>'Tis the times' plague, <milestone unit="line" ed="F1" n="2236"/>when mad-men lead the blind. </l>
         <l>
-          <milestone unit="line" ed="Globe" n="50"/>
+          <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2237"/>Do as I bid thee, or rather do thy pleasure; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -8224,7 +8248,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2251"/>Have humbled to all strokes: that I am wretched </l>
         <l>
-          <milestone unit="line" ed="Globe" n="70"/>
+          <milestone unit="line" ed="Globe" n="70" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2252"/>Makes thee the happier: heavens, deal so still! </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -8266,7 +8290,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2263"/>With something rich about me: from that place </l>
         <l part="I">
-          <milestone unit="line" ed="Globe" n="81"/>
+          <milestone unit="line" ed="Globe" n="81" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2264"/>I shall no leading need. </l>
       </sp>
       <sp who="lr-13">
@@ -8319,7 +8343,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2276"/>When I inform'd him, then he call'd me sot, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="10"/>
+          <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2277"/>And told me I had turn'd the wrong side out: </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -8355,7 +8379,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2287"/>Into my husband's hands. This trusty servant </l>
         <l>
-          <milestone unit="line" ed="Globe" n="20"/>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2288"/>Shall pass between us: ere long you are like to hear, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -8414,7 +8438,7 @@
       <sp who="lr-1">
         <speaker>Alb.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="30"/>
+          <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2302"/>O Goneril! </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -8443,7 +8467,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>Wisdom and goodness to the vile seem vile: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="40"/>Filths savour but themselves. What have you done? </l>
+          <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>Filths savour but themselves. What have you done? </l>
         <l>
           <milestone unit="line" ed="Globe"/>Tigers, not daughters, what have you perform'd? </l>
         <l>
@@ -8465,7 +8489,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>Humanity must perforce prey on itself, </l>
         <l part="I">
-          <milestone unit="line" ed="Globe" n="50"/>Like monsters of the deep. </l>
+          <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>Like monsters of the deep. </l>
       </sp>
       <sp who="lr-8">
         <speaker>Gon.</speaker>
@@ -8497,7 +8521,7 @@
       <sp who="lr-1">
         <speaker>Alb.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="60"/>
+          <milestone unit="line" ed="Globe" n="60" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2309"/>See thyself, devil! </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -8591,7 +8615,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2326"/>So speedily can venge! But, O poor Gloucester </l>
         <l>
-          <milestone unit="line" ed="Globe" n="81"/>
+          <milestone unit="line" ed="Globe" n="81" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2327"/>Lost he his other eye? </l>
       </sp>
       <sp who="lr-21">
@@ -8635,7 +8659,7 @@
       <sp who="lr-21">
         <speaker>Mess.</speaker>
         <l part="I">
-          <milestone unit="line" ed="Globe" n="90"/>
+          <milestone unit="line" ed="Globe" n="90" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2338"/>Come with my lady hither. </l>
       </sp>
       <sp who="lr-1">
@@ -8711,7 +8735,7 @@
       <sp who="lr-17">
         <speaker>Gent.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="10"/>The Marshal of France, Monsieur </l>
+          <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>The Marshal of France, Monsieur </l>
         <l>
           <milestone unit="line" ed="Globe"/>La Far. </l>
       </sp>
@@ -8743,7 +8767,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>Not to a rage: patience and sorrow strove </l>
         <l>
-          <milestone unit="line" ed="Globe" n="20"/>Who should express her goodliest. You have seen </l>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>Who should express her goodliest. You have seen </l>
         <l>
           <milestone unit="line" ed="Globe"/>Sunshine and rain at once: her smiles and tears </l>
         <l>
@@ -8771,7 +8795,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>Pantingly forth, as if it press'd her heart: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="30"/>Cried 'Sisters! sisters! Shame of ladies! sisters! </l>
+          <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>Cried 'Sisters! sisters! Shame of ladies! sisters! </l>
         <l>
           <milestone unit="line" ed="Globe"/>Kent! father! sisters! What, i' the storm? i' the night? </l>
         <l>
@@ -8807,7 +8831,7 @@
       <sp who="lr-17">
         <speaker>Gent.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="40"/>No, since. </l>
+          <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>No, since. </l>
       </sp>
       <sp who="lr-9">
         <speaker>Kent.</speaker>
@@ -8848,7 +8872,7 @@
       <sp who="lr-9">
         <speaker>Kent.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="50"/> Of Albany's and Cornwall's powers <milestone unit="line" ed="Globe"/>you heard not? </l>
+          <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/> Of Albany's and Cornwall's powers <milestone unit="line" ed="Globe"/>you heard not? </l>
       </sp>
       <sp who="lr-17">
         <speaker>Gent.</speaker>
@@ -8908,7 +8932,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2360"/>In the restoring his bereaved sense? </l>
         <l>
-          <milestone unit="line" ed="Globe" n="11"/>
+          <milestone unit="line" ed="Globe" n="11" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2361"/>He that helps him take all my outward worth. </l>
       </sp>
       <sp who="lr-22">
@@ -8947,7 +8971,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2371"/>Lest his ungovern'd rage dissolve the life </l>
         <l>
-          <milestone unit="line" ed="Globe" n="20"/>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2372"/>That wants the means to lead it. <milestone unit="line" ed="F1" n="2373"/>
           <stage type="entrance">Enter a
                 Messenger.</stage>
@@ -9053,7 +9077,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2394"/>'Faith, he is posted hence on serious matter. </l>
         <l>
-          <milestone unit="line" ed="Globe" n="10"/>
+          <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2395"/>It was great ignorance, Gloucester's eyes being out, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -9098,7 +9122,7 @@
       <sp who="lr-12">
         <speaker>Reg.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="20"/>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2406"/>Why should she write to Edmund? Might not you </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -9146,7 +9170,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2417"/>Therefore I do advise you, take this note: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="31"/>
+          <milestone unit="line" ed="Globe" n="31" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2418"/>My lord is dead; Edmund and I have talk'd; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -9179,7 +9203,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2427"/>Would I could meet him, madam! I should show </l>
         <l part="I">
-          <milestone unit="line" ed="Globe" n="40"/>
+          <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2428"/>What party I do follow. </l>
       </sp>
       <sp who="lr-12">
@@ -9256,7 +9280,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2443"/>You're much deceived: in nothing am I changed </l>
         <l>
-          <milestone unit="line" ed="Globe" n="10"/>
+          <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2444"/>But in my garments. </l>
       </sp>
       <sp who="lr-7">
@@ -9292,7 +9316,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2454"/>Appear like mice; and yond tall anchoring bark, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="20"/>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2455"/>Diminish'd to her cock; her cock, a buoy </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -9335,7 +9359,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2466"/>Here, friend, 's another purse; in it a jewel </l>
         <l>
-          <milestone unit="line" ed="Globe" n="30"/>
+          <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2467"/>Well worth a poor man's taking: fairies and gods </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -9381,7 +9405,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2477"/>If I could bear it longer, and not fall </l>
         <l>
-          <milestone unit="line" ed="Globe" n="39"/>
+          <milestone unit="line" ed="Globe" n="39" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2478"/>To quarrel with your great opposeless wills, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -9430,7 +9454,7 @@
       <sp who="lr-13">
         <speaker>Edg.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="50"/>
+          <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2491"/>Hadst thou been aught <milestone unit="line" ed="F1" n="2492"/>but gossamer, feathers, air, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -9466,7 +9490,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2501"/>Look up a-height; the shrill-gorged lark so far </l>
         <l>
-          <milestone unit="line" ed="Globe" n="60"/>
+          <milestone unit="line" ed="Globe" n="60" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2502"/>Cannot be seen or heard: do but look up. </l>
       </sp>
       <sp who="lr-7">
@@ -9523,7 +9547,7 @@
       <sp who="lr-13">
         <speaker>Edg.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="70"/>
+          <milestone unit="line" ed="Globe" n="70" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2515"/>As I stood here below, methought his eyes </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -9562,7 +9586,7 @@
       <sp who="lr-13">
         <speaker>Edg.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="80"/>
+          <milestone unit="line" ed="Globe" n="80" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2526"/> Bear free and patient thoughts. <milestone unit="line" ed="F1" n="2527"/>
           <milestone unit="line" ed="F1" n="2528"/>But <milestone unit="line" ed="Globe"/>who comes here? <stage type="entrance">Enter LEAR, fantastically
                 dressed with wild flowers.</stage>
@@ -9662,7 +9686,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>Got 'tween the lawful sheets. </l>
         <l>
-          <milestone unit="line" ed="Globe" n="120"/>
+          <milestone unit="line" ed="Globe" n="120" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2563"/>To't, luxury, pell-mell! for I lack soldiers. </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -9685,7 +9709,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>But to the girdle do the gods inherit, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="130"/>
+          <milestone unit="line" ed="Globe" n="130" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2570"/>Beneath is all the fiends'; </l>
         <l>
           <milestone unit="line" ed="Globe"/>There's hell, there's darkness, <milestone unit="line" ed="F1" n="2571"/>there's the sulphurous pit, </l>
@@ -9753,7 +9777,7 @@
         <speaker>Lear.</speaker>
         <p>
           <milestone unit="line" ed="Globe"/>
-          <milestone unit="line" ed="F1" n="2590"/> O, ho, are you there with me? No <milestone unit="line" ed="Globe"/>eyes in your <milestone unit="line" ed="F1" n="2591"/>head, nor no money in your <milestone unit="line" ed="Globe"/>purse? Your eyes are in a heavy <milestone unit="line" ed="F1" n="2592"/>case, your <milestone unit="line" ed="Globe" n="151"/>purse in a light: yet you see how this world <milestone unit="line" ed="Globe"/>
+          <milestone unit="line" ed="F1" n="2590"/> O, ho, are you there with me? No <milestone unit="line" ed="Globe"/>eyes in your <milestone unit="line" ed="F1" n="2591"/>head, nor no money in your <milestone unit="line" ed="Globe"/>purse? Your eyes are in a heavy <milestone unit="line" ed="F1" n="2592"/>case, your <milestone unit="line" ed="Globe" n="151" source="#globe-edition"/>purse in a light: yet you see how this world <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2593"/>goes. </p>
       </sp>
       <sp who="lr-7">
@@ -9770,7 +9794,7 @@
               with no eyes. Look with <milestone unit="line" ed="Globe"/>thine ears: see how <milestone unit="line" ed="F1" n="2597"/>yond
               justice rails upon <milestone unit="line" ed="Globe"/>yond simple thief. Hark, in <milestone unit="line" ed="F1" n="2598"/>thine
               ear: change <milestone unit="line" ed="Globe"/>places; and, handy-dandy, which is <milestone unit="line" ed="F1" n="2599"/>the
-              justice, <milestone unit="line" ed="Globe"/>which is the thief? Thou hast seen a <milestone unit="line" ed="Globe" n="160"/>farmer's <milestone unit="line" ed="F1" n="2600"/>dog bark at a beggar? </p>
+              justice, <milestone unit="line" ed="Globe"/>which is the thief? Thou hast seen a <milestone unit="line" ed="Globe" n="160" source="#globe-edition"/>farmer's <milestone unit="line" ed="F1" n="2600"/>dog bark at a beggar? </p>
       </sp>
       <sp who="lr-7">
         <speaker>Glou.</speaker>
@@ -9792,7 +9816,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>For which <milestone unit="line" ed="F1" n="2607"/>thou whipp'st her. The usurer hangs the cozener. </l>
         <l>
-          <milestone unit="line" ed="Globe" n="169"/>
+          <milestone unit="line" ed="Globe" n="169" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2608"/>Through tatter'd clothes small vices do appear; </l>
         <l>
           <milestone unit="line" ed="Globe"/>Robes <milestone unit="line" ed="F1" n="2609"/>and furr'd gowns hide all. Plate sin with gold, </l>
@@ -9819,7 +9843,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2617"/>O, matter and impertinency mix'd! </l>
         <l>
-          <milestone unit="line" ed="Globe" n="180"/>
+          <milestone unit="line" ed="Globe" n="180" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2618"/>Reason in madness! </l>
       </sp>
       <sp who="lr-11">
@@ -9861,7 +9885,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2628"/>A troop of horse with felt: I'll put't in proof; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="191"/>
+          <milestone unit="line" ed="Globe" n="191" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2629"/>And when I have stol'n upon these sons-in-law, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -9905,7 +9929,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2639"/>No seconds? all myself? </l>
         <l>
-          <milestone unit="line" ed="Globe" n="200"/>
+          <milestone unit="line" ed="Globe" n="200" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2640"/>Why, this would make a man a man of salt, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -9951,7 +9975,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2648"/>Past speaking of in a king! Thou hast one daughter, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="211"/>
+          <milestone unit="line" ed="Globe" n="211" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2649"/>Who redeems nature from the general curse </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -10013,7 +10037,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2661"/>Though that the queen on special cause is here, </l>
         <l part="I">
-          <milestone unit="line" ed="Globe" n="220"/>
+          <milestone unit="line" ed="Globe" n="220" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2662"/>Her army is moved on. </l>
       </sp>
       <sp who="lr-13">
@@ -10079,7 +10103,7 @@
       <sp who="lr-14">
         <speaker>Osw.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="231"/>
+          <milestone unit="line" ed="Globe" n="231" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2677"/>A proclaim'd prize! Most happy! </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -10122,7 +10146,7 @@
       <sp who="lr-13">
         <speaker>Edg.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="240"/>
+          <milestone unit="line" ed="Globe" n="240" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2688"/>Chill not let go, zir, <milestone unit="line" ed="F1" n="2689"/>without vurther <milestone unit="line" ed="Globe"/>'casion. </l>
       </sp>
       <sp who="lr-14">
@@ -10149,7 +10173,7 @@
       <sp who="lr-13">
         <speaker>Edg.</speaker>
         <p>
-          <milestone unit="line" ed="Globe" n="251"/>
+          <milestone unit="line" ed="Globe" n="251" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2698"/> Chill pick your teeth, zir: come; no <milestone unit="line" ed="Globe"/>matter vor <milestone unit="line" ed="F1" n="2699"/>your foins. <stage>[They fight, and Edgar knocks him down.</stage>
         </p>
       </sp>
@@ -10187,7 +10211,7 @@
       <sp who="lr-7">
         <speaker>Glou.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="260"/>
+          <milestone unit="line" ed="Globe" n="260" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2708"/>What, is he dead? </l>
       </sp>
       <sp who="lr-13">
@@ -10230,7 +10254,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2726"/>A plot upon her virtuous husband's life; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="281"/>
+          <milestone unit="line" ed="Globe" n="281" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2727"/>And the exchange my brother! Here, in the sands, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -10260,7 +10284,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2736"/>Of my huge sorrows! Better I were distract: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="290"/>
+          <milestone unit="line" ed="Globe" n="290" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2737"/>So should my thoughts be sever'd from my griefs, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -10334,7 +10358,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2757"/>Pardon me, dear madam; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="10"/>
+          <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2758"/>Yet to be known shortens my made intent: </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -10392,7 +10416,7 @@
       <sp who="lr-17">
         <speaker>Gent.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="21"/>
+          <milestone unit="line" ed="Globe" n="21" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2773"/>
           <milestone unit="line" ed="F1" n="2772"/>Ay, madam; in the heaviness of his <milestone unit="line" ed="Globe"/>sleep </l>
         <l>
@@ -10436,7 +10460,7 @@
       <sp who="lr-9">
         <speaker>Kent.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="30"/>
+          <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2781"/>Kind and dear princess! </l>
       </sp>
       <sp who="lr-3">
@@ -10463,7 +10487,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>Against my fire; <milestone unit="line" ed="F1" n="2787"/>and wast thou fain, poor father, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="40"/>
+          <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2788"/>To hovel thee with swine, and rogues forlorn, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -10511,7 +10535,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="50"/>
+          <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2800"/> You are a spirit, I know: when did you die? </l>
       </sp>
       <sp who="lr-3">
@@ -10562,7 +10586,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="60"/>
+          <milestone unit="line" ed="Globe" n="60" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2814"/>Pray, do not mock me: </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -10595,7 +10619,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2825"/>For, as I am a man, I think this lady </l>
         <l part="I">
-          <milestone unit="line" ed="Globe" n="70"/>
+          <milestone unit="line" ed="Globe" n="70" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2826"/>To be my child Cordelia. </l>
       </sp>
       <sp who="lr-3">
@@ -10655,7 +10679,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2839"/>You see, is kill'd in him: and yet it is danger </l>
         <l>
-          <milestone unit="line" ed="Globe" n="81"/>To make him even o'er the time he has lost. </l>
+          <milestone unit="line" ed="Globe" n="81" source="#globe-edition"/>To make him even o'er the time he has lost. </l>
         <l>
           <milestone unit="line" ed="Globe"/>Desire him to go in; <milestone unit="line" ed="F1" n="2840"/>trouble him not more </l>
         <l>
@@ -10697,7 +10721,7 @@
       <sp who="lr-9">
         <speaker>Kent.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="90"/>As 'tis said, the bastard son of </l>
+          <milestone unit="line" ed="Globe" n="90" source="#globe-edition"/>As 'tis said, the bastard son of </l>
         <l>
           <milestone unit="line" ed="Globe"/>Gloucester. </l>
       </sp>
@@ -10725,7 +10749,7 @@
       <sp who="lr-9">
         <speaker>Kent.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="99"/>My point and period will be thoroughly wrought, </l>
+          <milestone unit="line" ed="Globe" n="99" source="#globe-edition"/>My point and period will be thoroughly wrought, </l>
         <l>
           <milestone unit="line" ed="Globe"/>Or well or ill, as this day's battle's fought. <stage type="exit">[Exit.</stage>
         </l>
@@ -10787,7 +10811,7 @@
       <sp who="lr-5">
         <speaker>Edm.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="10"/>
+          <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2858"/>In honour'd love. </l>
       </sp>
       <sp who="lr-12">
@@ -10848,7 +10872,7 @@
       <sp who="lr-1">
         <speaker>Alb.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="21"/>
+          <milestone unit="line" ed="Globe" n="21" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2866"/>Our very loving sister, well be-met. </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -10882,7 +10906,7 @@
       <sp who="lr-8">
         <speaker>Gon.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="30"/>
+          <milestone unit="line" ed="Globe" n="30" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2871"/>Combine together 'gainst the enemy; </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -10945,7 +10969,7 @@
       <sp who="lr-1">
         <speaker>Alb.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="40"/>
+          <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2884"/>I'll overtake you. Speak. <stage type="exit">[Exeunt all but Albany and
                 Edgar.</stage>
         </l>
@@ -10989,7 +11013,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2894"/>When time shall serve, let but the herald cry, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="50"/>
+          <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2895"/>And I'll appear again. </l>
       </sp>
       <sp who="lr-1">
@@ -11038,7 +11062,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2906"/>Both? one? or neither? Neither can be enjoy'd, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="60"/>
+          <milestone unit="line" ed="Globe" n="60" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2907"/>If both remain alive: to take the widow </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -11123,7 +11147,7 @@
       <sp who="lr-7">
         <speaker>Glou.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="9"/>
+          <milestone unit="line" ed="Globe" n="9" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2932"/>No farther, sir; a man may rot even here. </l>
       </sp>
       <sp who="lr-13">
@@ -11188,7 +11212,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2949"/>No, no, no, no! Come, let's away to prison: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="10"/>
+          <milestone unit="line" ed="Globe" n="10" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2950"/>We two alone will sing like birds i' the cage: </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -11224,7 +11248,7 @@
       <sp who="lr-5">
         <speaker>Edm.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="20"/>
+          <milestone unit="line" ed="Globe" n="20" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2961"/>Take them away. </l>
       </sp>
       <sp who="lr-11">
@@ -11267,7 +11291,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2973"/>As this instructs thee, thou dost make thy way </l>
         <l>
-          <milestone unit="line" ed="Globe" n="31"/>
+          <milestone unit="line" ed="Globe" n="31" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2974"/>To noble fortunes: know thou this, that men </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -11305,7 +11329,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>I cannot draw a cart, nor eat dried oats; </l>
         <l>
-          <milestone unit="line" ed="Globe" n="40"/>If it be man's work, I'll do it. <stage type="exit">[Exit.</stage>
+          <milestone unit="line" ed="Globe" n="40" source="#globe-edition"/>If it be man's work, I'll do it. <stage type="exit">[Exit.</stage>
           <milestone unit="line" ed="F1" n="2983"/>
           <stage>Flourish.</stage>
           <stage type="entrance">Enter ALBANY,
@@ -11347,7 +11371,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="2992"/>Whose age has charms in it, whose title more, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="50"/>
+          <milestone unit="line" ed="Globe" n="50" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2993"/>To pluck the common bosom on his side, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -11378,7 +11402,7 @@
       <sp who="lr-1">
         <speaker>Alb.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="60"/>
+          <milestone unit="line" ed="Globe" n="60" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="2999"/>Sir, by your patience, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -11426,7 +11450,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="3011"/>In my rights, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="70"/>
+          <milestone unit="line" ed="Globe" n="70" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3012"/>By me invested, he compeers the best. </l>
       </sp>
       <sp who="lr-8">
@@ -11486,7 +11510,7 @@
       <sp who="lr-5">
         <speaker>Edm.</speaker>
         <l part="I">
-          <milestone unit="line" ed="Globe" n="80"/>
+          <milestone unit="line" ed="Globe" n="80" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3025"/>Nor in thine, lord. </l>
       </sp>
       <sp who="lr-1">
@@ -11539,7 +11563,7 @@
       <sp who="lr-1">
         <speaker>Alb.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="90"/>
+          <milestone unit="line" ed="Globe" n="90" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3037"/> Thou art arm'd, Gloucester: let the <milestone unit="line" ed="Globe"/>trumpet sound: </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -11583,7 +11607,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="3047"/>That names me traitor, villain-like he lies: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="100"/>
+          <milestone unit="line" ed="Globe" n="100" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3048"/>Call by thy trumpet: he that dares approach, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -11685,7 +11709,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="3069"/>Ask him his purposes, why he appears </l>
         <l part="I">
-          <milestone unit="line" ed="Globe" n="119"/>
+          <milestone unit="line" ed="Globe" n="119" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3070"/>Upon this call o' the trumpet. </l>
       </sp>
       <sp who="lr-25">
@@ -11745,7 +11769,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="3083"/>Thy arm may do thee justice: here is mine. </l>
         <l>
-          <milestone unit="line" ed="Globe" n="130"/>
+          <milestone unit="line" ed="Globe" n="130" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3084"/>Behold, it is <milestone unit="line" ed="F1" n="3085"/>the privilege of mine honours, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -11775,7 +11799,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="3094"/>A most toad-spotted traitor. Say thou 'No,' </l>
         <l>
-          <milestone unit="line" ed="Globe" n="140"/>
+          <milestone unit="line" ed="Globe" n="140" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3095"/>This sword, this arm, and my best spirits, are bent </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -11811,7 +11835,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="3105"/>Which, for they yet glance by and scarcely bruise, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="150"/>
+          <milestone unit="line" ed="Globe" n="150" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3106"/>This sword of mine shall give them instant way, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -11862,7 +11886,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="3117"/>Say, if I do, the laws are mine, not thine: </l>
         <l part="I">
-          <milestone unit="line" ed="Globe" n="161"/>
+          <milestone unit="line" ed="Globe" n="161" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3118"/>Who can arraign me for't? </l>
       </sp>
       <sp who="lr-1">
@@ -11921,7 +11945,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="3131"/>My name is Edgar, and thy father's son. </l>
         <l>
-          <milestone unit="line" ed="Globe" n="171"/>
+          <milestone unit="line" ed="Globe" n="171" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3132"/>The gods are just, and of our pleasant vices </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -11966,7 +11990,7 @@
       <sp who="lr-1">
         <speaker>Alb.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="180"/>
+          <milestone unit="line" ed="Globe" n="180" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3143"/>Where have you hid yourself? </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -11999,7 +12023,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="3152"/>That very dogs disdain'd: and in this habit </l>
         <l>
-          <milestone unit="line" ed="Globe" n="190"/>
+          <milestone unit="line" ed="Globe" n="190" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3153"/>Met I my father with his bleeding rings, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -12035,7 +12059,7 @@
       <sp who="lr-5">
         <speaker>Edm.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="200"/>
+          <milestone unit="line" ed="Globe" n="200" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3164"/>This speech of yours hath moved me, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -12071,7 +12095,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>Who, having seen me in my worst estate, </l>
         <l>
-          <milestone unit="line" ed="Globe" n="211"/>Shunn'd my abhorr'd society; but then, finding </l>
+          <milestone unit="line" ed="Globe" n="211" source="#globe-edition"/>Shunn'd my abhorr'd society; but then, finding </l>
         <l>
           <milestone unit="line" ed="Globe"/>Who 'twas that so endured, with his strong arms </l>
         <l>
@@ -12099,7 +12123,7 @@
         <l>
           <milestone unit="line" ed="Globe"/>Kent, sir, the banish'd Kent; who in disguise </l>
         <l>
-          <milestone unit="line" ed="Globe" n="221"/>Follow'd his enemy king, and did him service </l>
+          <milestone unit="line" ed="Globe" n="221" source="#globe-edition"/>Follow'd his enemy king, and did him service </l>
         <l>
           <milestone unit="line" ed="Globe"/>Improper for a slave. <milestone unit="line" ed="F1" n="3170"/>
           <stage type="entrance">Enter a Gentleman,
@@ -12165,7 +12189,7 @@
       <sp who="lr-13">
         <speaker>Edg.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="230"/>
+          <milestone unit="line" ed="Globe" n="230" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3182"/>Here comes Kent. </l>
       </sp>
       <sp who="lr-1">
@@ -12227,7 +12251,7 @@
       <sp who="lr-5">
         <speaker>Edm.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="240"/>
+          <milestone unit="line" ed="Globe" n="240" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3197"/>Yet Edmund was beloved: </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -12278,7 +12302,7 @@
       <sp who="lr-5">
         <speaker>Edm.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="251"/>
+          <milestone unit="line" ed="Globe" n="251" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3209"/>Well thought on: take my sword, </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -12323,7 +12347,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="3218"/>Howl, howl, howl, howl! O, you are men of stones: </l>
         <l>
-          <milestone unit="line" ed="Globe" n="259"/>
+          <milestone unit="line" ed="Globe" n="259" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3219"/>Had I your tongues and eyes, I'ld use them so </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -12393,7 +12417,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="270"/>
+          <milestone unit="line" ed="Globe" n="270" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3234"/>A plague upon you, murderers, traitors all! </l>
         <l>
           <milestone unit="line" ed="Globe"/>
@@ -12432,7 +12456,7 @@
           <milestone unit="line" ed="Globe"/>
           <milestone unit="line" ed="F1" n="3244"/>And these same crosses spoil me. Who are you? </l>
         <l>
-          <milestone unit="line" ed="Globe" n="280"/>
+          <milestone unit="line" ed="Globe" n="280" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3245"/>Mine eyes are not o' the best: I'll tell you straight. </l>
       </sp>
       <sp who="lr-9">
@@ -12492,7 +12516,7 @@
       <sp who="lr-11">
         <speaker>Lear.</speaker>
         <l part="F">
-          <milestone unit="line" ed="Globe" n="290"/>
+          <milestone unit="line" ed="Globe" n="290" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3257"/>You are welcome hither. </l>
       </sp>
       <sp who="lr-9">
@@ -12643,7 +12667,7 @@
       <sp who="lr-1">
         <speaker>Alb.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="319"/>
+          <milestone unit="line" ed="Globe" n="319" source="#globe-edition"/>
           <milestone unit="line" ed="F1" n="3294"/>Bear them from hence. Our present business </l>
         <l>
           <milestone unit="line" ed="Globe"/>

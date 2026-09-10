@@ -112,6 +112,24 @@ interpolated sequence. *The distinction between a transcribed number
 and a counted one is the most valuable thing in the P4 file, and it is
 precisely what the migration destroyed.*
 
+/Mechanism, settled 2026-09-10 (=phase1/milestone-source-provenance=,
+see =forum.org= =#citations/globe-recap=): the re-derivation pipeline
+now marks this distinction explicitly rather than leaving it to be
+inferred from bare =@n= presence, which stops discriminating the
+moment anything starts interpolating numbers -- exactly what the
+alignment-oracle fit below is about to do. A Globe milestone whose
+=@n= is transcribed carries =source="#globe-edition"=, pointing to a
+=<bibl xml:id="globe-edition">= in the play's =<sourceDesc>= that
+describes the Globe edition itself, not a specific printing. A
+milestone whose =@n= was arrived at by counting, or an oracle-fitted
+=@n= yet to come, carries no =@source=. F1 milestones never carry
+=@source= (every one arrives by the same route, so nothing is
+discriminated by marking it per element); F1's own unidentified
+provenance is recorded once per document instead. See
+=CLAUDE.md='s encoding-conventions section for the summary and
+=canonical-engLit= commit history tagged =[xrepo: milestone-source]=
+for the implementation./
+
 Those anchors make the count auditable interval by interval. Of the 250
 intervals between consecutive anchors in Lear, 84 close exactly and 166
 do not, with a small and bounded excess:

@@ -836,8 +836,13 @@ is the summary to start from; the detail is in
   DraCor/Folger is a reading text with no role in citation resolution.
 - =<l>= is an Expression-level verse line and carries *no* =@n=.
 - Globe reference points are =<milestone unit="line" ed="Globe">=;
-  =@source= points to the witness for transcribed numbers and is absent
-  for counted ones.
+  =@source="#globe-edition"= points to a =<bibl>= in =<sourceDesc>=
+  -- *not* a =<witness>= -- for transcribed numbers, and is absent for
+  counted ones. /Corrected 2026-09-10: this bullet originally said
+  "witness" and described a design not yet built. Both are fixed as
+  of =phase1/milestone-source-provenance= (agenda.org), which
+  implemented it and records the =<bibl>=-not-=<witness>= reasoning in
+  full./
 - Structural lines -- =<head>=, =<stage>= -- get *no* Globe milestone.
   The Globe numbers only spoken text: counting text lines from the top
   of I.1 reaches exactly 11 at "him, that now I am brazed to it," which
@@ -863,13 +868,30 @@ is the summary to start from; the detail is in
   checked against the printed page they follow the /Folio/ lineation
   ("...seem so to us: but" | "now, in the division...") rather than the
   Globe's ("...but now," | "in the division...").
-- Greg's =ed="F1"= numbers: recommend *keeping* them with a =@source=
-  recording that provenance is unknown. They are neither Bodleian Folio
-  text-line numbers (drift +3 to +103 across the play) nor Folger FTLNs
-  (drift −6 to +342). Deleting uninterpretable transcribed data is the
-  move that lost Schmidt's =@key= values.
-- ODD: declare the =@ed= value list and the milestone conventions, so
-  they fail validation rather than evaporating in the next transform.
+- Greg's =ed="F1"= numbers: *keeping* them, per the original
+  recommendation here -- but not with a per-milestone =@source=.
+  /Reversed 2026-09-10 (=phase1/milestone-source-provenance=): every
+  F1 anchor is numbered by the same route (all transcribed, none
+  interpolated), so a per-element =@source= would discriminate
+  nothing and just repeat a constant thousands of times. F1's
+  provenance -- neither Bodleian Folio text-line numbers (drift +3 to
+  +103 across Lear) nor Folger FTLNs (drift −6 to +342) -- is instead
+  recorded once per document, in an =<editorialDecl>/<p>= in
+  =<encodingDesc>=. Deleting uninterpretable transcribed data is still
+  the move that lost Schmidt's =@key= values; nothing here proposes
+  that./
+- ODD: declare the milestone =@source= convention, so it's found in
+  the schema and not only in prose. /Narrower than this bullet
+  originally suggested: research for
+  =phase1/milestone-source-provenance= found =@source= is already
+  permitted on =<milestone>= via inherited TEI =att.global.source= --
+  no grammar change was needed, only a documentation remark added to
+  =perseus-schemas/perseus_drama.odd=. The =@ed= value-list closure
+  named in the same breath here is a separate, larger, still-open
+  question -- no =att.edition= customization exists anywhere in
+  =perseus-schemas= yet (despite =agenda.org='s =phase1/rederive-lear-p5=
+  entry implying the closure is only a matter of scoping one), so it
+  remains deferred, not resolved by this task./
 
 *** Not started
 The oracle fit itself. Everything to date is diagnosis.
