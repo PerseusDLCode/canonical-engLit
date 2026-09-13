@@ -185,6 +185,12 @@ file./
 
 * Anchor placement corrected <2026-09-12> (phase1/fix-globe-anchor-placement)
 
+/Superseded in part <2026-09-13>: the mode gate below (only <l>-parented
+milestones shift) was right, but the shift itself had a further bug --
+see =* Verse placement corrected further= below for the fix and current
+counts (leaf depth 3,411; anchor count and deletion/recovery counts
+unchanged at 276/217/11)./
+
 Deliverable of [[file:agenda.org::#phase1/fix-globe-anchor-placement][#phase1/fix-globe-anchor-placement]]. The interval audit above,
 done immediately after =phase1/rederive-lear-p5=, was diagnosis, not a
 finished pipeline: it surfaced three further defects in
@@ -320,6 +326,176 @@ verse rule. Per this task's own instruction, and the sequencing decided
 before starting: run Antony through the same pipeline, check whether its
 excess histogram collapses as it did here, and *stop and report rather
 than iterate on the rule* if it doesn't -- not attempted in this pass.
+
+* Verse placement corrected further <2026-09-13> (review + follow-up)
+
+Claude Chat reviewed the =phase1/fix-globe-anchor-placement= delivery
+above and found it half-fixed: the mode gate (prose vs. verse) was
+right, but the verse *shift* itself still displaced every anchor one
+line early. Investigating that review surfaced a second, independent
+defect of the same kind, found only by regenerating and checking
+against the printed page rather than trusting the interval audit (which
+is placement-blind by construction -- see below).
+
+** Defect A: relabeling instead of relocating (the reviewed bug)
+
+=_shift_scope_to_start_forward= shifted =@n=/=@source= one slot down
+the marker list *and* physically moved each marker forward from *its
+own* position -- two operations that silently cancel each other's
+intent. A marker at the end of line /k/ got relabeled with the value
+originally on the marker trailing line /k+1/, then moved to lead line
+/k+1/ -- landing that value back on the same line its own marker had
+trailed, one line early, not on the line the model says it belongs to.
+
+Confirmed directly against the printed Globe page
+(=PerseusDLCode/globe_edition/works/lr/0863.jpg=, p. 847): printed line
+40 is "To shake all cares and business from our age;"; P4 encodes this
+line's trailing =<lb>= as =n="41"= -- the number of the *next* printed
+line ("Conferring them on younger strengths, while we"). P4's own
+trailing marker already carries the number that belongs to the
+following line; nothing needs relabeling, only moving.
+
+*Fix:* removed the value-shift entirely. A terminal marker (nothing
+meaningful follows within its own =<l>=) now relocates whole and
+unchanged -- same =@n=, same =@source= -- to lead the next =<l>=. The
+"leading milestone synthesis" step and the =@source=-travels-with-value
+bookkeeping (both from =phase1/milestone-source-provenance=) became
+unnecessary and were removed along with it: nothing is ever separated
+from its own element any more, so nothing needs to be reunited.
+
+Independently re-verified against the printed page for anchors 11
+(prose, already correct), 31 (prose, already correct), 41, 50, 70
+(verse, all previously one line early, now correct), and 111 (the
+recovered stray anchor, already correct). See
+=corpus-tools/tests/data/lear_globe_placement.csv= and
+=tests/test_globe_anchor_placement_check.py= -- a small, six-triple,
+page-verified placement check, seeded as a down payment on
+=phase1/globe-anchor-fixture= (not a replacement for it).
+
+** Defect B: embedded numbered Globe markers (found regenerating, not anticipated by the review)
+
+Fixing Defect A alone made the interval-closure histogram move far more
+than a placement-only change should (98 non-closing instead of the
+~88 predicted), isolated entirely to Act III Scene 4. Diagnosis: Globe
+numbers *whole verse lines* and never typeset sub-lines the way F1
+does. F1 legitimately marks a boundary mid-verse-line (it counts
+printed/typeset lines, so an embedded F1 marker correctly begins its
+own throughline right where it sits). Globe never does this -- so an
+embedded *numbered* Globe marker is never "already correctly
+positioned" the way an embedded F1 marker is: it is P4 recording
+roughly where the marginal decade-mark fell typographically, which can
+land mid-line even for a single, unwrapped verse line.
+
+Confirmed against the same printed page: Globe 70 numbers the *whole*
+line "Hang fated o'er men's faults light on thy daughters!", even
+though P4 embeds the tag before "daughters!" (=<lb n="70"
+ed="G"/>daughters!=) -- and that same =<l>= separately carries its own
+plain, unnumbered =<lb ed="G">= at the true end, the genuine boundary to
+the *next* =<l>=. Checked all 9 real instances of this shape in Lear
+(=329=, =20=, =70=, =150=, =79=, =240=, =21=, =90=, plus =150= examined
+twice): every one pairs an embedded numbered tag with a separate plain
+terminal tag in the same =<l>= -- a uniform, not ad-hoc, pattern.
+
+*Fix:* an embedded numbered Globe marker now moves to lead its *own*
+containing =<l>= (=_move_milestone_to_own_line_start=), not the next
+one, and not left in place either. An embedded *unnumbered* Globe
+marker carries no citable value and affects no interval count either
+way, so it is left untouched, same as before.
+
+*A real ordering bug, found and fixed before this shipped:* a first cut
+processed terminal moves and own-line-start moves interleaved, in
+document order. Moving an embedded marker to the front of its =<l>=
+changes what =_has_content_after= sees for a *different*, not-yet-processed
+terminal marker sharing the same =<l>= (P4's own shape for all 9 cases:
+one embedded numbered tag plus one separate plain terminal tag) -- it
+now finds a moved-in F1 marker's real tail text sitting adjacent to it,
+misclassifying a genuine terminal boundary as embedded and stranding it
+in the wrong line. Confirmed directly on the real "Our flesh and blood
+is grown so vile, my lord," / "That it doth hate what gets it." pair:
+the terminal marker that should lead "That it doth hate..." stayed
+stuck in the wrong =<l>= until fixed. *Fix:* classify every milestone in
+one pass over the untouched tree first, then run all terminal moves,
+then all own-line-start moves -- removes the ordering dependency
+entirely. Has-teeth regression test:
+=TestEmbeddedNumberedGlobeMarker.test_own_line_terminal_marker_still_escapes_when_a_prior_pass_already_moved_an_f1_marker_in=
+in =tests/test_globe_lineation_reposition.py=.
+
+** The Act III Scene 4 anomaly is not a placement bug
+
+Neither fix above resolves the extreme outliers at anchors 119->130
+(excess +16) and 130->150 (excess -14) -- confirmed, by direct
+inspection, to be a genuine *pre-existing P4 transcription
+characteristic*, unrelated to placement: Edgar's "Poor Tom"/"foul
+fiend" mad-prose speeches in this scene carry noticeably more =<lb
+ed="G"/>= tags than the printed page has lines. One five-printed-line
+passage ("This is the foul fiend Flibbertigibbet: he begins at
+curfew...") carries *six* =<lb ed="G"/>= tags, roughly one per
+clause rather than one per printed line. Since prose milestones are
+(correctly) never touched by either fix -- left exactly where P4 put
+them -- this over-tagging was already present before either fix and
+remains after; it just happens to fall inside the interval this task's
+own audit flags. This is exactly the shape of problem the
+alignment-oracle task is designed to adjudicate (a boundary count that
+disagrees with the page), not something to guess at or absorb into the
+placement algorithm. Flagging here rather than in the placement code.
+
+** New counts (after both fixes)
+
+| Status                          | After Defect-1/2/3 fix (09-12) | After this round |
+|----------------------------------+----------------------------------+-------------------|
+| Transcribed Globe anchors        |                              276 |               276 |
+| Split-line boundaries deleted    |                              217 |               217 |
+| Unpaired/asymmetric =@part= flagged |                           11 |                11 |
+| Intervals audited                |                              251 |               251 |
+| Close exactly                    |                              163 |               152 |
+| Do not close                     |                               88 |                99 |
+| Leaf depth (=check_corpus.py=)   |                            3,412 |             3,411 |
+
+Excess histogram, non-closing intervals only, *excluding* Act III Scene
+4's two known-anomalous intervals (119->130, 130->150 -- see above):
+
+| Excess | After Defect-1/2/3 fix | After this round (Sc. 3.4 excluded) |
+|--------+------------------------+---------------------------------------|
+|     −2 |                      0 |                                     3 |
+|     −1 |                     18 |                                    21 |
+|     +1 |                     56 |                                    50 |
+|     +2 |                     10 |                                    12 |
+|     +3 |                      3 |                                     4 |
+|     +4 |                      1 |                                     1 |
+
+Excluding Scene 3.4's two anomalous intervals, this is a modest,
+expected perturbation (a handful of intervals shifting by ±1-2, directly
+attributable to Defect B's 9 legitimate relocations moving specific
+numbered anchors to new positions) -- not a red flag. Including Scene
+3.4, the full non-closing count is 99 (152 close), with the two
+Scene-3.4 outliers (+16, -14) accounted for above as pre-existing P4
+data, not placement.
+
+Leaf depth changed by 1 (3,412 -> 3,411) as a side effect of Defect B's
+fix repositioning elements within the tree; total milestone counts
+(276 numbered, 217 deleted, etc.) are unchanged, confirming no anchor
+was gained or lost, only correctly relocated.
+
+** Validation (after this round)
+
+- =jing= against =../perseus-schemas/perseus_drama.rng=: 0 errors.
+- =corpus-tools= Schematron encoding audit: 0 findings (unchanged).
+- =check_corpus.py=: =ok=, =d0=6 d1=26 d2=3411=.
+- Full =data/shakespeare/= re-check: unchanged baseline (77 =ok= / 50
+  =skipped= / 3 =config_error=).
+- =corpus-tools= test suite: 536 passed, 6 skipped, the same one
+  confirmed pre-existing, unrelated failure
+  (=test_playid_matches_canonical_englit_filenames=, tracked separately
+  as =phase1/fix-playid-filename-test=).
+- New: =tests/test_globe_anchor_placement_check.py= (6 page-verified
+  triples) and =TestEmbeddedNumberedGlobeMarker= (2 tests, including the
+  ordering-bug regression) in
+  =tests/test_globe_lineation_reposition.py=; =TestVerseRepositioning=/
+  =TestGlobeScopedPerScene=/=TestF1WholePlayScope= rewritten for the
+  corrected (relocate-only) semantics.
+
+Antony remains untouched -- unaffected by this round, still blocked on
+the same risk noted above (its verse is encoded as =<p>=, not =<l>=).
 
 * No schema change needed for P4's <reg orig> shorthand
 

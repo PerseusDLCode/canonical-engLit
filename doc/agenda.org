@@ -1380,6 +1380,164 @@ The test fixture (=phase1/globe-anchor-fixture=). Resolving the
 remaining non-closing intervals -- that is the oracle's job. Anything
 touching =perseus-cts='s =elements_between()=.
 
+*** Review [2026-09-12]: Defect 1 only half fixed -- do not start Antony
+Most of the Lear delivery is right and should be kept: 276 anchors all
+carrying =source="#globe-edition"=; 217 split-line boundaries deleted;
+the +1 bucket down 87 -> 56, which confirms the shared-line diagnosis;
+recovered =n="111"= correctly leading "Is he pursued?" on the
+=part="I"= half; prose placement genuinely corrected (=n="11"= now leads
+"him, that now I am", where the previous build had it on "charge: I
+have").
+
+*What is still wrong:* verse markers were moved to the head of *their
+own* =<l>= instead of the head of the *next* one.
+
+P4:
+#+BEGIN_SRC xml
+<l>In three our kingdom: and 'tis our fast intent <lb ed="G"/><lb n="44" ed="F1"/></l>
+<l>To shake all cares and business from our age; <lb n="41" ed="G"/><lb n="45" ed="F1"/></l>
+#+END_SRC
+
+Regenerated:
+#+BEGIN_SRC xml
+<l><milestone unit="line" ed="Globe" n="41" source="#globe-edition"/>
+   <milestone unit="line" ed="F1" n="45"/>To shake all cares and business from our age; </l>
+#+END_SRC
+
+A marker at the *end* of a line labels the line that *follows* -- the
+same start-forward reading that makes the prose case work. Relocating it
+to the front of the line it sat inside silently reinterprets it as
+labelling that line. Checked against the printed Globe (I.1):
+
+| Anchor | Leads, in the new file | Printed Globe |
+|--------+------------------------+---------------|
+| 41 | =To shake all cares and business from our age;= | *40* |
+| 50 | =And here are to be answer'd. Tell me, my daughters,--= | *49* |
+| 70 | =Our dearest Regan, wife to Cornwall? Speak.= | *69* |
+
+Every verse line number is one too high. *F1 is displaced identically*
+-- =n="45"= should label "Conferring them on younger strengths" -- so
+fix both systems in the same change.
+
+*The fix:* for a marker that trails its containing =<l>= (no following
+text in that element), the number moves to the head of the *following*
+line element, not the head of its own. Prose is already correct: leave
+the mode gate as built. Recovered stray-=@n= anchors are already correct
+-- they were placed by a different mechanism -- so do *not* put them
+through the shift again.
+
+*Why the previous validation missed it*, which matters because the same
+gap will swallow the next attempt:
+1. *A uniform shift preserves every interval gap*, so the interval audit
+   is structurally blind to it. The +1 collapse is real and means the
+   shared-line diagnosis was right; it says *nothing* about whether
+   anchors sit on the right lines.
+2. The F1 check compared *values in document order* ("2,3,4,...,12
+   matching P4 exactly"), which is true of the sequence and silent about
+   what those values label -- the same tautology the note correctly
+   identifies in the old fidelity test, one level up.
+
+*Therefore: validate this fix against the page, not against the audit.*
+Build a minimal placement check first -- six triples is enough: Lear I.1
+anchors 11, 31, 41, 50, 70 and the II.1 worked example (106 leads "I'll
+not be there,"; 108 leads "A child-like office."; 111 leads "Is he
+pursued?"). Images at =PerseusDLCode/globe_edition/works/lr/=. This is a
+small down payment on =phase1/globe-anchor-fixture=, not a replacement
+for it; keep it in the same file so the fuller fixture extends it.
+
+*One independent confirmation available now:* the recovered anchors were
+placed correctly while the shifted ones are one early, so the file is
+internally inconsistent and the intervals adjacent to =n="111"= (II.1)
+and =n="100"= (III.7) should fail to close by one. Check the current CSV
+before fixing -- if that is what it shows, the diagnosis is confirmed
+from the data alone; if it is not, *stop and report*, because then
+something else is going on.
+
+*After the fix, expect:* the interval histogram essentially unchanged (a
+uniform shift does not alter gaps), except that the intervals adjacent
+to the two recovered anchors should now close. Anchor count stays 276.
+Leaf depth stays 3,412. If the histogram moves much, something beyond
+placement changed -- stop and report.
+
+Antony stays untouched until the placement check passes.
+
+*** Response to review [2026-09-13]: fixed, plus a second defect the review didn't anticipate
+Confirmed the review's diagnosis two ways before touching code: hand-traced
+the algorithm (the value-shift and the physical move were computed from
+different markers' positions, so they silently cancelled), and read the
+printed Globe page directly (=PerseusDLCode/globe_edition/works/lr/=,
+already present locally) -- P4's own trailing marker at the end of a line
+already carries the number belonging to the *next* line, confirmed for
+anchors 41, 50, 70. Also independently reconfirmed, from the CSV alone
+before touching code, the review's own predicted signature: the intervals
+adjacent to =n="111"= and =n="100"= were failing to close by exactly ±1,
+exactly as a one-line-early displacement would produce.
+
+*Fix:* =_shift_scope_to_start_forward= no longer relabels values between
+markers at all -- a terminal marker (nothing meaningful follows within its
+own =<l>=) simply relocates whole and unchanged (same =@n=, same =@source=)
+to lead the next =<l>=. The "leading milestone synthesis" step and the
+=@source=-travels-with-value bookkeeping from
+=phase1/milestone-source-provenance= both became unnecessary and were
+removed -- nothing is ever separated from its own element any more.
+
+*Regenerating surfaced a second, independent defect the review didn't
+name:* fixing the reviewed bug alone made the interval histogram move far
+more than a placement-only change should (98 non-closing instead of the
+predicted ~88), isolated to Act III Scene 4. Diagnosis: Globe numbers whole
+verse lines and never typeset sub-lines the way F1 does, so an embedded
+*numbered* Globe marker (P4 recording roughly where the marginal
+decade-mark fell typographically, which can land mid-line even for a
+single, unwrapped verse line) is never "already correct" the way an
+embedded F1 marker is. Confirmed against the same printed page: Globe 70
+numbers the *whole* line "Hang fated o'er men's faults light on thy
+daughters!", even though P4 embeds the tag before "daughters!" -- and that
+=<l>= separately carries its own plain, unnumbered =<lb ed="G">= at the
+true end. Checked uniform across all 9 real instances in Lear. Fixed:
+such a marker now moves to lead its *own* containing =<l>=, not the next
+one. A real ordering bug in the first cut of this second fix (interleaving
+this move with ordinary terminal moves let one corrupt the other's
+classification, confirmed and fixed by classifying every milestone before
+either kind of move runs) was found and fixed before it shipped, per this
+project's has-teeth discipline, not after.
+
+*Neither fix explains, and neither should absorb, a further anomaly at
+Act III Scene 4* (anchors 119->130 excess +16, 130->150 excess -14):
+confirmed, by direct inspection, to be a genuine pre-existing P4
+transcription characteristic -- Edgar's "Poor Tom" mad-prose speeches carry
+noticeably more =<lb ed="G"/>= tags than the page has lines (one
+five-line passage alone has six). Prose is untouched by either fix, so
+this was already there; it just happens to fall inside this task's own
+audit. Flagged for the alignment-oracle task, not guessed at here.
+
+*New counts:* anchor count (276), deletions (217), and flagged markers
+(11) all unchanged -- confirming no anchor was gained or lost, only
+correctly relocated. Leaf depth 3,412 -> 3,411 (a side effect of the
+second fix's repositioning). Intervals: 163 -> 152 close (99 non-closing,
+up from 88 -- entirely the two Scene III.4 intervals now correctly
+identified as a separate, pre-existing issue rather than absorbed into
+the "placement fixed" count; excluding them, the histogram shows only the
+modest, expected perturbation from the second fix's 9 legitimate
+relocations). Full detail, including the six-triple page-verified
+placement check
+(=corpus-tools/tests/data/lear_globe_placement.csv= +
+=tests/test_globe_anchor_placement_check.py=, a down payment on
+=phase1/globe-anchor-fixture=, not a replacement for it) and the complete
+before/after histograms:
+[[file:lear-globe-anchor-intervals-report.org::*Verse placement corrected further][lear-globe-anchor-intervals-report.org, "Verse placement corrected further"]].
+
+Validation unchanged/clean: =check_corpus.py= =ok=; jing 0 errors;
+Schematron 0 findings; full corpus-tools suite 536 passed / 6 skipped,
+same one confirmed pre-existing unrelated failure
+(=test_playid_matches_canonical_englit_filenames=).
+
+Antony still untouched -- this round was entirely about getting Lear's
+verse placement right; the placement check now passes, so Antony is
+unblocked, but running it is a separate step not taken in this pass.
+
+Not committed yet; commit on request, tagged =[xrepo: anchor-placement]=
+in both repos as before.
+
 *** Progress: Lear done, stopping for review before Antony
 Decided with Cliff before starting: do Lear fully (implement, regenerate,
 validate, report) and stop for review before touching Antony at all, per
