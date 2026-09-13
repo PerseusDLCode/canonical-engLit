@@ -3,6 +3,18 @@
 #+AUTHOR: Clifford Wulfman
 #+OPTIONS: toc:t num:nil
 
+* Superseded in part <2026-09-12> (phase1/fix-globe-anchor-placement)
+
+The counts throughout this report (274 transcribed anchors, 249
+intervals, 165 non-closing, leaf depth 3,626) describe the *first* Lear
+re-derivation (=phase1/rederive-lear-p5=), before three further defects
+in that pass were found and fixed. See the new =* Anchor placement
+corrected= section below for the current counts (276 anchors, 251
+intervals, 88 non-closing, leaf depth 3,412) and what changed. The
+placement-history material below (start-forward repositioning, the
+=<reg orig>= schema decision, the =@ed= closure deferral) is unaffected
+and still accurate.
+
 * Overview
 
 Deliverable of [[file:agenda.org::#phase1/rederive-lear-p5][#phase1/rederive-lear-p5]] (see [[file:alignment-oracles.org][alignment-oracles.org]] for the full
@@ -161,11 +173,153 @@ reproduces them exactly.
 
 * Validation
 
+/Superseded by the =* Anchor placement corrected= section's own
+Validation subsection below -- these numbers describe the pre-fix
+file./
+
 - =jing= against local =perseus_drama.rng=: 0 errors.
 - =corpus-tools= Schematron encoding audit: 0 findings.
 - =check_corpus.py=: =ok=, =d0=6 d1=26 d2=3626=.
 - Full =data/shakespeare/= re-check: unchanged from baseline (77 =ok=,
   no regressions).
+
+* Anchor placement corrected <2026-09-12> (phase1/fix-globe-anchor-placement)
+
+Deliverable of [[file:agenda.org::#phase1/fix-globe-anchor-placement][#phase1/fix-globe-anchor-placement]]. The interval audit above,
+done immediately after =phase1/rederive-lear-p5=, was diagnosis, not a
+finished pipeline: it surfaced three further defects in
+=globe_lineation.py= itself (not just cases for the alignment-oracle to
+adjudicate), all now fixed. Antony is out of scope for this pass --
+per the established pilot-then-review pattern, Lear was done fully
+first, with Antony's own pass deliberately deferred pending review (see
+below, "Antony not yet re-run").
+
+** The three defects
+
+1. *Mode-blind repositioning.* The start-forward shift described above
+   (=_shift_scope_to_start_forward=) shifted every milestone's value
+   uniformly, whether its =<lb>= sat inside =<l>= (verse -- P4 trails the
+   marker, belongs to the *next* line, needs the shift) or =<p>= (prose --
+   P4 already leads the marker into the text it numbers, needs none).
+   Confirmed directly in this file's own opening: P4's F1 sequence at the
+   very start of I.1 reads =2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12=, all
+   prose-embedded (Kent and Gloucester's opening exchange is prose); the
+   pre-fix file had shifted every one of them to =3, 4, 5, 6, 7, 8, 9, 10,
+   11, 12, 13= -- one out, exactly the symptom this defect describes, and
+   not limited to the two anchors named below. Fixed by gating the shift
+   chain on the milestone's direct parent tag: only =<l>=-parented
+   milestones enter it now.
+2. *Two transcribed anchors discarded as noise.* =<l n="111" part="I">Is
+   he pursued?= (II.1) and =<l n="100" part="F">If she live long,= (III.7)
+   are transcribed Globe anchors P4 recorded on the =<l>= itself rather
+   than on a =<lb>= -- the previous pass's stray-=@n=-stripping logic
+   could not tell these apart from the 2,548 ordinary interpolated cases
+   and discarded them. Recovered: a stray =@n= is now staged for recovery
+   (rather than stripped) whenever the immediately preceding =<l>= in
+   document order lacks its own =<lb ed="G">=. *Anchor count: 274 -> 276.*
+3. *Shared verse lines double-counted.* A verse line split across two
+   speakers (=<l part="I">=/=<l part="F">=) got one Globe boundary per
+   half where the printed page counts one Globe line. Fixed: after
+   recovery, an adjacent I/F pair's boundary is consolidated onto the
+   I-half (transferring a transcribed value first, if the number
+   happened to land on the F-half -- confirmed for both known cases:
+   111 already sat on II.1's I-half; 100 sat on III.7's F-half and
+   relocated). *217 spurious boundaries deleted.* Where =@part= is
+   missing or asymmetric (Lear: 221 =I= vs 224 =F=, plus real splits with
+   no =@part= at all, e.g. II.4's "Return you to my sister."/"Never,
+   Regan:"), nothing is guessed -- both boundaries stay, and the interval
+   is now flagged in the CSV's new =interval_flagged=/=boundary_flagged=
+   columns instead of just showing up as unexplained excess. *11 such
+   markers flagged.*
+
+** New counts
+
+| Status                    | Before this fix | After |
+|---------------------------+------------------+-------|
+| Transcribed Globe anchors |              274 |   276 |
+| Intervals audited         |              249 |   251 |
+| Close exactly             |               84 |   163 |
+| Do not close              |              165 |    88 |
+| Leaf depth (=check_corpus.py=) |         3,626 | 3,412 |
+
+Excess histogram, non-closing intervals only:
+
+| Excess | Before | After |
+|--------+--------+-------|
+|     −1 |     10 |    18 |
+|     +1 |     87 |    56 |
+|     +2 |     36 |    10 |
+|     +3 |     18 |     3 |
+|     +4 |     12 |     1 |
+|     +5 |      1 |     0 |
+|     +6 |      1 |     0 |
+
+The dominant +1 population -- Defect 3's signature -- collapsed from 87
+to 56, and every larger positive bucket shrank sharply, confirming the
+predicted mechanism rather than contradicting it: the residual +1..+4
+population is exactly the 11 flagged unpaired/asymmetric-=@part=
+markers plus genuinely unmarked splits (no =@part= at all, like II.4's
+known case), left for the alignment-oracle task by design, not
+guessed at here. The −1 bucket grew (10 -> 18); not investigated
+further in this pass -- flagging for the oracle task alongside the
+positive-excess cases rather than speculating, per this task's own
+"stop and report rather than iterate" instruction.
+
+** Validation (current)
+
+- =jing= against =../perseus-schemas/perseus_drama.rng=: 0 errors.
+- =corpus-tools= Schematron encoding audit (=perseus_encoding.sch=): 0
+  findings. =perseus_normalized.sch= still reports the same 2
+  pre-existing, unrelated findings (missing genre/CTS-idno on this
+  still-un-normalized flat file) confirmed unchanged from before this
+  task.
+- =check_corpus.py=: =ok=, =d0=6 d1=26 d2=3412=.
+- Full =data/shakespeare/= re-check: unchanged baseline (77 =ok= / 50
+  =skipped= / 3 =config_error=, the 3 being the pre-existing poem
+  =citeStructure= delimiter issue, unrelated).
+- =corpus-tools= test suite: full suite green except one confirmed
+  pre-existing, unrelated failure
+  (=test_playid_matches_canonical_englit_filenames=, a stale
+  flat-filename assumption, not touched by this task).
+
+** Test changes
+
+New/changed tests in =corpus-tools=, written against the pre-fix code
+first and confirmed to fail there before the fix landed (this repo's
+established has-teeth discipline): mode-aware reposition tests
+(=tests/test_globe_lineation_reposition.py=, =TestProseRepositioning=/
+=TestProseEmbedded= flipped to assert no-shift; new
+=TestMixedModeScope=/=TestStrayAnchorRecovery=/=TestSharedVerseLineMerge=
+classes), stray-anchor recovery-vs-noise tests
+(=tests/test_globe_lineation.py=), and interval-flagging tests
+(=tests/test_globe_anchor_intervals.py=, =TestUnpairedPartFlagging=).
+
+=tests/test_globe_anchor_fidelity.py= renamed to
+=tests/test_globe_anchor_value_fidelity.py= and narrowed: its previous
+oracle re-derived "expected placement" using the same private decision
+logic the code under test uses (a tautology that cannot catch a
+systematic, same-direction placement bug -- precisely how it passed on
+this task's Defect 1). It now asserts only that every transcribed
+value survives the conversion/recovery/merge pipeline exactly once
+(extended with the two Defect-2 recoveries, and explicitly asserting no
+Defect-3 deletion ever removes a *numbered* boundary) and that =@source=
+still travels with exactly that set. A hand-verified placement fixture
+is the deliberately separate =phase1/globe-anchor-fixture= task, not
+built here.
+
+** Antony not yet re-run
+
+=shakespeare.ant.globe.xml= still reflects the pre-fix pipeline. Antony
+carries a real, confirmed risk the mode-blind-to-mode-aware fix does not
+resolve on its own: its P4 source encodes long verse passages as one
+=<p>= per speech with per-line trailing =<lb ed="G">= (confirmed
+directly, e.g. Philo's opening speech), structurally identical to
+Lear's =<l>= convention but tagged prose -- so the =<l>=-only verse gate
+will very likely leave those passages unshifted, when they need the
+verse rule. Per this task's own instruction, and the sequencing decided
+before starting: run Antony through the same pipeline, check whether its
+excess histogram collapses as it did here, and *stop and report rather
+than iterate on the rule* if it doesn't -- not attempted in this pass.
 
 * No schema change needed for P4's <reg orig> shorthand
 

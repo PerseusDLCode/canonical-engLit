@@ -106,6 +106,33 @@ The existing flat Globe files (=data/shakespeare/{work}.xml=,
 =globe-eng1=... not yet renamed) are untouched -- migrating them into
 the same nested layout is separate, later work, not done here.
 
+** TODO Fix stale flat-filename assumption in test_playid_matches_canonical_englit_filenames
+:PROPERTIES:
+:CUSTOM_ID: phase1/fix-playid-filename-test
+:ASSIGNEES: Claude Code
+:END:
+=corpus-tools/tests/test_tln_globe_map.py='s
+=test_playid_matches_canonical_englit_filenames= checks that every
+ShakeDraCor play has a matching file at
+=canonical_englit_shakespeare_dir / f"{playid}.xml"= -- the flat
+convention this same task (=phase1/import-shakedracor=, above)
+abandoned in favour of
+=data/shakespeare/{playid}/shakespeare.{playid}.f1.xml=. The test was
+never updated, so it now fails for all 37 plays (confirmed: this is
+checking for files nothing writes to any more, not a real content
+problem). First noticed as an unrelated pre-existing failure during
+=phase1/milestone-source-provenance= and reconfirmed unchanged during
+=phase1/fix-globe-anchor-placement=.
+
+=PlayMapper.playid= itself derives the id from the Folger =idno= in the
+header, independent of any file path, so nothing about id derivation
+needs to change -- this is a one-line fix to the test's own existence
+check: replace
+=canonical_englit_shakespeare_dir / f"{playid}.xml"= with
+=canonical_englit_shakespeare_dir / playid / f"shakespeare.{playid}.f1.xml"=.
+Small and isolated; no other logic in the test or in =tln_globe_map.py=
+needs to change.
+
 * Phase 1: Corpus repair (canonical-engLit/mvp branch)
 
 * CANCELLED Correct Priority-1 Globe anchor errors
@@ -1208,6 +1235,299 @@ Commits tagged =[xrepo: milestone-source]= across =corpus-tools=,
 pushed pending Cliff's confirmation -- its =.rng=/=.rnc= are consumed
 by every corpus via raw-GitHub-URL PI, so pushing is a shared-infrastructure
 action even though this particular change is inert for validation.
+
+* TODO Fix Globe anchor placement and recover lost anchors (Lear, then Antony)
+:PROPERTIES:
+:CUSTOM_ID: phase1/fix-globe-anchor-placement
+:ASSIGNEES: Claude Code
+:DEPENDS: phase1/milestone-source-provenance
+:END:
+Repos: =corpus-tools= (code + tests), =canonical-engLit= (regenerated
+play files, reports). Cross-repo: tag commits =[xrepo: anchor-placement]=.
+
+*Blocks the alignment-oracle work.* The anchors are the oracle's ground
+truth. Fitting citations against anchors that are uniformly one line out
+would produce a confident wrong answer -- and the citations would appear
+to /confirm/ it, since they would be consistently one out too.
+
+*** Root cause
+=<lb ed="G">= in the P4 does two jobs at once: it marks a typographic
+break /and/ carries a citation number, with nothing distinguishing them.
+Separating those is what this re-derivation is for. Four defects follow
+from not having separated them cleanly.
+
+*** Defect 1: anchors sit one boundary early, throughout
+Verified against the printed Globe (Internet Archive copy, I.1):
+
+| Anchor =@n= | Text it leads in the shipped P5 | Printed Globe line |
+|-------------+---------------------------------+--------------------|
+| 11 | =charge: I have= | *10* |
+| 31 | =I must love you, and sue to know you= | *30* |
+| 41 | =To shake all cares and business from our age;= | *40* |
+| 50 | =And here are to be answer'd. Tell me, my daughters= | *49* |
+| 70 | =Our dearest Regan, wife to Cornwall? Speak.= | *69* |
+
+The P4 is correct in both modes, but *differently*, and the current
+repositioning applies one rule to both:
+- *Prose:* the marker sits mid-paragraph, immediately before the text of
+  the line it numbers -- =<lb n="11" ed="G"/>him, that now I am=.
+  Correct as it stands. *No shift.*
+- *Verse:* the marker sits at the /end/ of the preceding =<l>= --
+  =<l>To shake all cares... <lb n="41" ed="G"/></l>= -- and labels the
+  line that follows. Its number belongs on the *next* =<l>=
+  ("Conferring them on younger strengths"). *Shift forward, not back.*
+
+The same start-forward reading governs F1 markers: =<lb n="1038"
+ed="F1"/>= trailing "No marvel" begins "'Tis they have put him". Fix
+both systems together; the current output shifts both the same wrong way.
+
+*** Defect 2: two transcribed anchors were discarded
+=phase1/rederive-lear-p5= logged these as "stray =<l @n>= (P4 encoding
+oddities)" and stripped them. They are *not* oddities -- they are
+transcribed Globe anchors recorded in a different slot:
+
+- II.1 =<l n="111" part="I">Is he pursued?=
+- III.7 =<l n="100" part="F">If she live long,=
+
+The corroboration is an absence: in each case the /preceding/ verse line
+lacks the =<lb ed="G"/>= every other line has (=<l>This hurt you see,
+striving to apprehend him. <lb n="1050" ed="F1"/></l>= -- F1 only). The
+boundary was recorded as =@n= on the following =<l>= instead.
+
+*Lear therefore has 276 transcribed Globe anchors, not 274.* Recover
+both as milestones carrying =source="#globe-edition"=. The
+strip-=@n=-from-=<l>= rule was written for the 2,550 /interpolated/
+numbers from the 2025 pass; it must not consume transcribed ones. Re-run
+the audit on Antony for the same class.
+
+*** Defect 3: shared verse lines are double-counted
+A verse line split between speakers is *one* Globe line. The Globe
+prints its marginal number beside whichever typographic line it fits --
+the P4 is inconsistent about which half carries the marking (=n="111"=
+on =part="I"=, =n="100"= on =part="F"=), because that is the
+compositor's choice showing through. The rule comes from the model, not
+the page:
+
+- *One* Globe milestone per Globe line, at the line's *start* -- i.e. on
+  the =part="I"= half.
+- The boundary at the split is *deleted*, not left unnumbered. An
+  unnumbered Globe milestone there breaks countability, which is the
+  property the whole model rests on. If the typographic break is worth
+  recording, it is =<lb/>=, not a Globe milestone.
+
+*When =@part= is absent, do not guess.* The rule above depends on
+=@part= being present and correct, and it often is not: Lear has 221
+=I= against 224 =F= -- already asymmetric -- and the shared line "Return
+you to my sister." / "Never, Regan:" carries no =@part= at all, though
+it is demonstrably one printed line. Where a split is unmarked, *leave
+both boundaries in place and flag the interval* in the report. Those are
+the oracle's cases. Do not infer split lines from metre, speaker
+changes, or line length.
+
+Worked example, Lear II.1 99--111: 106 leads =I'll not be there,=; 108
+leads =A child-like office.=; 111 leads =Is he pursued?=. F1 numbers each
+half separately -- the Folio sets them as separate lines and it is a
+through-/line/ count -- so F1 milestones stay on both halves.
+
+This is the mechanism behind the +1 excess that dominates the interval
+audit (87 intervals at +1 in Lear, 61 in Antony).
+
+*** Defect 4: the pipeline must insert, not only delete
+Lear II.1 line 110 ("This hurt you see, striving to apprehend him.")
+needs a Globe milestone the P4 never had. A fitter built only to remove
+spurious boundaries will fail here. Design for both operations and
+report insertions separately from deletions.
+
+*Insert only where the P4 implies the position.* In this class the
+evidence is local and unambiguous: a =<l>= carries an =@n= while the
+preceding line lacks its =<lb ed="G"/>=, so the missing boundary belongs
+immediately before the numbered =<l>=. That is the only insertion this
+task performs. Do *not* build a general inserter that places boundaries
+wherever an interval comes up short -- deciding those requires the page,
+and they are the oracle's work.
+
+*** The test has to change -- but not in this task
+=test_globe_anchor_fidelity.py= passes on displaced output. It compares
+P5 placement against P4 placement, which cannot work when the P4's own
+convention is mode-dependent -- a faithful copy of a trailing verse
+marker is exactly the bug.
+
+The replacement assertion needs page images read by hand, so it is a
+separate item: =phase1/globe-anchor-fixture=. *Do not build it here.*
+Run this task against the existing tests plus the interval audit, and
+let the fixture land independently -- a fixture built in the same pass
+as the fix can silently certify the fix's own errors.
+
+One change here, though: rename =test_globe_anchor_fidelity.py= for what
+it actually verifies (values and counts survive conversion), so its name
+stops implying a guarantee it does not give.
+
+*** Deliverables
+1. Corrected =globe_lineation.py= with mode-aware placement.
+2. Regenerated =shakespeare.lr.globe.xml= and =shakespeare.ant.globe.xml=.
+3. New interval CSVs for both. *Expect the +1 population to collapse* --
+   if it does not, the shared-line rule is not doing what we think.
+   *Stop and report rather than iterate.* The temptation on a failed
+   prediction is to adjust the rule until the numbers look right; that
+   is how we would get a fourth displacement bug.
+4. A report of inserted and deleted boundaries, separately.
+5. Counts of recovered anchors per play (Lear should reach 276).
+6. =check_corpus.py=, jing, Schematron all clean; leaf depths will change
+   (deletions), so state the new numbers rather than asserting the old.
+
+*** Out of scope
+The test fixture (=phase1/globe-anchor-fixture=). Resolving the
+remaining non-closing intervals -- that is the oracle's job. Anything
+touching =perseus-cts='s =elements_between()=.
+
+*** Progress: Lear done, stopping for review before Antony
+Decided with Cliff before starting: do Lear fully (implement, regenerate,
+validate, report) and stop for review before touching Antony at all, per
+this project's established pilot-then-review pattern -- Antony carries a
+confirmed risk (below) that this task's own "stop and report rather than
+iterate" instruction is designed to catch.
+
+*Root cause, confirmed against the real file, not just synthetically.*
+All three defects traced to real code in =corpus-tools/src/globe_lineation.py=:
+=_shift_scope_to_start_forward= shifted every milestone uniformly
+regardless of verse/prose mode (Defect 1); =_convert_l= stripped *every*
+stray =<l @n>= as noise, including the two real transcribed anchors
+(Defect 2); =@part= was never read anywhere in the module (Defect 3).
+Defect 4 ("the pipeline must insert, not only delete") turned out not to
+be a separate mechanism: tracing the real II.1 markup showed the missing
+boundary before "This hurt you see..." falls out automatically once
+Defect 1's chain runs correctly (the line simply receives a shifted-in
+boundary like any other), and Defect 2's recovery mechanism is what
+restores =n="111"=/=n="100"= -- one fix each, not two.
+
+*Fix, in =corpus-tools=* (=globe_lineation.py=): a mode gate
+(=_is_verse_milestone=) excludes every non-=<l>=-parented milestone from
+the shift chain entirely -- not just =<p>=, but the corpus's other real
+shapes too (an =<lb>= sitting directly in =<div1>=/=<div2>= before any
+=<sp>=, marking an act/scene's opening boundary; one embedded in a
+=<stage>= direction) -- confirmed necessary when the first regeneration
+attempt raised on exactly these shapes. Stray-=@n= recovery
+(=_stray_n_is_recoverable=/=_recover_pending_anchors=) stages a recovery
+when the preceding =<l>= (crossing =<sp>= boundaries -- shared lines split
+across a speaker change) lacks its own =<lb ed="G">=, and updates
+whatever leading milestone the ordinary shift chain already placed there
+rather than blindly inserting a second one (a real bug caught by tracing
+through by hand before trusting the code). Split-line merge
+(=_merge_split_pair=/=_dedupe_shared_verse_lines=) consolidates an
+adjacent I/F pair onto the I-half, transferring a transcribed value from
+the F-half first if that's where P4 recorded it (confirmed necessary:
+III.7's =n="100"= sits on the F-half in P4, the compositor's choice, not
+the model's, exactly as Defect 3's own text warns) -- raises on two
+differently-numbered halves rather than guessing. Unpaired/asymmetric
+=@part= markers are left untouched and flagged, both at conversion time
+and (independently, read-only from the final tree) at the interval-report
+level (=globe_anchor_intervals.py= gained a =flagged= field/CSV columns).
+
+*Has-teeth discipline followed throughout*: every new/changed test was
+written against the pre-fix code first and confirmed to fail there,
+including two real hand-tracing corrections to the test fixtures
+themselves before the assertions were right (a "preceding line" fixture
+that accidentally had the very feature that should be absent; a
+mixed-mode fixture that didn't account for the existing
+first-anchor-in-scope synthesis behavior).
+
+*Real Lear regeneration:* 276 transcribed anchors (274 + 2 recovered, as
+predicted), 217 split-line boundaries deleted, 11 unpaired/asymmetric
+=@part= markers flagged. Interval closure: 165 -> 88 non-closing (out of
+249 -> 251, since the two new anchors add scene intervals), the dominant
++1 excess bucket 87 -> 56 and every larger positive bucket shrinking
+sharply -- the predicted collapse, not a failed one; the residual is
+exactly the flagged/unmarked-split population left for the oracle by
+design. =check_corpus.py= =ok=, leaf depth 3,626 -> 3,412 (deletions);
+jing 0 errors; Schematron 0 findings (=perseus_encoding.sch=; the 2
+=perseus_normalized.sch= findings are the same pre-existing
+missing-genre/CTS-idno gap, confirmed unchanged). Full corpus-tools test
+suite green except the one already-confirmed pre-existing, unrelated
+failure (=test_playid_matches_canonical_englit_filenames=). Full detail,
+including the before/after excess histogram and the opening-scene F1
+sequence that confirms Defect 1's fix directly against the real P4 source
+(=2,3,4,...,12= unshifted, matching P4 exactly, vs. the pre-fix file's
+uniformly-shifted =3,4,...,13=):
+[[file:lear-globe-anchor-intervals-report.org::*Anchor placement corrected][lear-globe-anchor-intervals-report.org, "Anchor placement corrected"]].
+
+=test_globe_anchor_fidelity.py= renamed to
+=test_globe_anchor_value_fidelity.py= and narrowed to a placement-independent
+value/source-survival check, per this task's own instruction (its old
+oracle re-derived expected placement from the same private decision logic
+the code under test used -- a tautology that could not have caught this
+task's own Defect 1). The page-image fixture remains a separate,
+deliberately decoupled task (=phase1/globe-anchor-fixture=), not built
+here.
+
+*Not yet done:* Antony. Its P4 source encodes long verse passages as one
+=<p>= per speech (confirmed directly, e.g. Philo's opening speech) --
+structurally identical to Lear's =<l>= convention but tagged prose, so the
+=<l>=-only verse gate will very likely leave those passages unshifted.
+Next: run the same pipeline on Antony, check whether its excess histogram
+collapses as Lear's did, and stop and report rather than adjust the rule
+if it doesn't.
+
+Not committed yet in either repository; commit on request per this
+repo's corpus-cleanup workflow, tagged =[xrepo: anchor-placement]= in
+both.
+
+* TODO Build the Globe anchor test fixture from page images
+:PROPERTIES:
+:CUSTOM_ID: phase1/globe-anchor-fixture
+:ASSIGNEES: Claude Code
+:DEPENDS: phase1/fix-globe-anchor-placement
+:END:
+Repo: =corpus-tools=. Separate from the fix it validates, deliberately:
+a fixture built in the same pass as the correction can certify the
+correction's own errors.
+
+*Run this on a stronger model than the fix, and treat the output as work
+to review rather than accept.* Reading marginal line numbers off scanned
+Victorian type is where silent error lives -- a plausible wrong number
+produces a fixture that passes against wrong output, and the oracle
+would then be fitted against a test certifying the error. Two of the
+three diagnostic mistakes in this whole phase came from generalising off
+too small a sample of exactly this kind.
+
+*What to build.* A fixture of hand-verified triples: (act, scene,
+Globe =@n=, the text that line begins with, as printed). The assertion
+the test makes is *anchor N leads the line the printed Globe numbers N*
+-- an assertion that can actually fail, unlike anything derived from the
+P4, which inherits the P4's mode-dependence.
+
+*Page images*, from the Internet Archive scan in use
+(=worksofwilliamsh0000shak_y3h8=), converted to JPEG and named by
+four-digit *scan* page number, at =PerseusDLCode/globe_edition/works/=:
+- =lr/= -- 32 files, =0863.jpg= to =0894.jpg=
+- =ant/= -- 33 files, =0927.jpg= to =0959.jpg=
+
+The filename is the scan page number, *not* the number printed on the
+leaf. Establish the offset once per play by reading the printed page
+number in a header, and record it in the fixture so a later reader can
+re-verify a triple without rediscovering it.
+
+*Coverage, at minimum:*
+- Lear I.1 and II.4 -- the intervals already checked by hand, so they
+  double as a check on the reading method itself.
+- Lear II.1 99--111 and III.7 -- the recovered-anchor cases; II.1 has a
+  worked expectation in =phase1/fix-globe-anchor-placement= (106 leads
+  "I'll not be there,"; 108 leads "A child-like office."; 111 leads "Is
+  he pursued?").
+- Two Antony scenes, one of them heavily prose-set, since prose is where
+  the placement rule differs and Lear exercises it only lightly.
+
+*Method.* Read each anchor twice, independently, and *surface
+disagreements rather than resolving them*. A triple you are not certain
+of should be reported, not guessed -- a smaller fixture that is right
+beats a larger one that is plausible. Record which image each triple
+came from.
+
+*Validate the fixture has teeth* the same way the current test was
+validated: break it deliberately first and confirm it fails.
+
+*Deliverables:* the fixture (data separate from test code, so it can be
+reviewed as data); the rewritten test; the per-play scan-to-page offset;
+a list of any triples that could not be read confidently.
 
 * Phase 2: MVP pipeline integration
 
