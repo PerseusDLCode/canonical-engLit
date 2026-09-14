@@ -1687,6 +1687,88 @@ validated: break it deliberately first and confirm it fails.
 reviewed as data); the rewritten test; the per-play scan-to-page offset;
 a list of any triples that could not be read confidently.
 
+* TODO Rekey the Globe-anchor mode gate on marker position, not tag
+:PROPERTIES:
+:CUSTOM_ID: phase1/rekey-mode-gate
+:ASSIGNEES: Claude Code
+:DEPENDS: phase1/fix-globe-anchor-placement
+:END:
+Repo: =corpus-tools=, plus regenerated play files in =canonical-engLit=.
+Tag commits =[xrepo: mode-gate]=. *Unblocks Antony.*
+
+*The finding is Claude Code's own*, in =forum.org=
+=#citations/antony-verse-in-prose-placement=, and it is right. Read it
+first. Verified independently in the P4: =<p>Out, fool! I forgive thee
+for a witch. <lb ed="G" n="41"/></p>= -- a numbered marker terminal
+within a one-line =<p>=, nothing after it, currently excluded from the
+shift and therefore leading whitespace.
+
+*The change:* drop the =<l>=/=<p>= test entirely. The gate is
+=_has_content_after= alone.
+- *Embedded* (real content follows within the same element): P4 already
+  places it correctly. Leave it.
+- *Terminal* (nothing follows within its own element): it labels the
+  next content element. Move it, whole and unchanged.
+
+The tag was never doing the work. What makes an embedded marker correct
+is that it sits at the character offset where the next line begins; what
+makes a terminal marker need moving is that it sits at a boundary
+between elements. Containing tag is irrelevant to both. In Lear the
+prose anchors happened to be embedded and the verse anchors happened to
+be terminal, so the tag correlated with the property and got mistaken
+for its cause.
+
+Antony also shows the tag cannot mean what we assumed: its verse --
+including unambiguous blank verse -- is entirely =<p>=. So a tag-keyed
+gate never distinguished prose from verse; it distinguished *encoded as
+prose* from *encoded as verse*, an artifact of the 2003 keying rather
+than a fact about the text. Removing it drops a dependency on encoding
+quality the pipeline should not have.
+
+*** Step 1 -- do this before changing any code
+Enumerate every *terminal-prose* Globe anchor in Lear: numbered,
+=<p>=-parented, with no real content after it in its own element. This
+is the only class whose behaviour changes.
+
+- *If there are none*, the change is provably inert for Lear. Say so,
+  and proceed.
+- *If there are some*, they are the anchors currently placed wrong in
+  Lear too. Verify each against the page images
+  (=PerseusDLCode/globe_edition/works/lr/=) before proceeding, and add
+  them to =tests/data/lear_globe_placement.csv=. Finding some is a
+  *result*, not a regression -- report it as such.
+
+Report the count either way. Do not skip this step on the grounds that
+the change looks safe; "looks inert" is what the tag gate looked like.
+
+*** Step 2 -- change and re-validate
+1. Rekey the gate. Preserve the embedded-numbered-Globe-marker rule from
+   the previous round (a numbered Globe marker embedded mid-verse-line
+   is a marginal decade-mark, not a line division) -- that is orthogonal
+   and still needed.
+2. Regenerate Lear. *Expect: no change at all*, unless Step 1 found
+   terminal-prose anchors. Anchor count 276, leaf depth 3,411, six-triple
+   placement check passing, interval histogram unmoved. If Lear moves and
+   Step 1 found nothing, *stop and report* -- the gate is catching
+   something neither of us has characterised.
+3. Regenerate Antony. Expect Globe 41 to move to lead "You think none
+   but your sheets are privy to your wishes." Verify against
+   =globe_edition/works/ant/0928.jpg= (p. 912), and add two or three
+   Antony triples to the placement fixture -- at least one terminal-prose
+   case and one embedded case (=n="10"= or =n="30"= on =0927.jpg=).
+4. =check_corpus.py=, jing, Schematron clean for both. State the new
+   Antony interval histogram; some movement is expected there, unlike
+   Lear.
+
+*** Out of scope
+Antony's shared/split verse lines. Its P4 has no =@part= anywhere, so
+=_merge_split_pair= has nothing to key on and the fortune-telling
+scene's negative-excess intervals will survive this change. That is the
+oracle's work -- flagged in the forum entry, not to be guessed at here.
+
+Also out of scope: any re-derivation of lineation from page images. That
+is a live question but an unvalidated one; it does not block this.
+
 * Phase 2: MVP pipeline integration
 
 * DONE Register engLit in MVP config

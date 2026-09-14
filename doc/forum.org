@@ -1057,6 +1057,162 @@ token in every commit message involved (e.g. =[xrepo: reg-orig-revert]=)
 and name the same token in the agenda note. Crude, but it makes the
 relation greppable from either side, which is more than we have now.
 
+** The embedded-numbered-Globe-marker rule is not tag-blind the way the terminal rule is
+:PROPERTIES:
+:CUSTOM_ID: citations/embedded-numbered-marker-not-tag-blind
+:ASSIGNEES: Claude Code, Claude Chat, Cliff
+:SOURCE: session/2026-09-14
+:DISPOSITION: needs-cliff-input
+:END:
+
+Response to =phase1/rekey-mode-gate= (=doc/agenda.org=): "drop the
+=<l>=/=<p>= test entirely. The gate is =_has_content_after= alone." Did
+the task's own required Step 1 first, then checked one thing beyond it.
+Both change what can safely ship.
+
+*** Step 1, as instructed: 21, not zero
+Enumerated every numbered, =<p>=-parented, *terminal*
+(=_has_content_after= false -- nothing follows within its own =<p>=)
+Globe anchor in the current Lear file:
+
+| Act | Scene | =n= | Current =<p>= text |
+|-----+-------+-----+--------------------------------------------------------------|
+|   1 |     1 |  90 | Nothing, my lord. |
+|   1 |     2 |  30 | I know no news, my lord. |
+|   1 |     2 | 170 | Spake you with him? |
+|   1 |     4 |  31 | No, sir; but you have that in your countenance which I would fain call master. |
+|   1 |     4 |  39 | I can keep honest counsel, ride, run, mar a curious tale in telling it |
+|   1 |     4 |  60 | Sir, he answered me in the roundest manner, he would not. |
+|   1 |     4 | 119 | Why, for taking one's part that's out of favour: nay, an thou canst not smile as the wind sits |
+|   1 |     4 | 130 | Do. |
+|   1 |     4 | 150 | Prithee, tell him, so much the rent of his land comes to: he will not believe a fool. |
+|   1 |     4 | 220 | Thou wast a pretty fellow when thou hadst no need to care for her frowning |
+|   1 |     4 | 240 | Come, sir. |
+|   1 |     5 |  10 | If a man's brains were in's heels, were't not in danger of kibes? |
+|   1 |     5 |  40 | Thy asses are gone about 'em. The reason why the seven stars are no more than seven is a pretty reason. |
+|   1 |     5 |  50 | Thou shouldst not have been old till thou hadst been wise. |
+|   2 |     1 |  10 | Nay, I know not. You have heard of the news abroad; I mean the whispered ones, for they are yet but ear-kissing arguments |
+|   2 |     1 |  40 | Now, Edmund, where's the villain? |
+|   2 |     1 | 100 | Yes, madam, he was of that consort. |
+|   2 |     4 |  20 | No, no, they would not. |
+|   2 |     4 | 291 | Let us withdraw; 'twill be a storm. |
+|   3 |     7 |  30 | Bind fast his corky arms. |
+|   4 |     6 | 160 | What, art mad? A man may see how this world goes with no eyes. Look with thine ears |
+
+Spot-checked one against the printed page
+(=PerseusDLCode/globe_edition/works/lr/0864.jpg=, p. 848): =n="90"=
+currently trails "Cor. Nothing, my lord." (its own one-line =<p>=), but
+the page confirms printed line 90 is "Lear. Nothing!" -- the *next*
+line, not this one. Matches the predicted pattern exactly: P4's tag,
+trailing the sole content of a one-line =<p>=, carries the number of
+the line that follows, the same convention already fixed for =<l>=.
+This half of the rekey is solid. Finding 21 rather than 0 is a result,
+not a regression, per the task's own framing -- these 21 have been
+misplaced since the placement round, not introduced by anything since.
+
+*** Beyond Step 1: the embedded-numbered rule does not generalize the same way
+The other branch of the existing gate -- an embedded (non-terminal)
+*numbered* Globe marker moves to lead the start of its own containing
+element, kept from the previous round as "orthogonal and still needed"
+-- relies on a guarantee that only =<l>= actually provides: that the
+container is *exactly one verse line*. Moving to "the start of my
+container" and moving to "the start of the verse line I number" are the
+same operation only because of that guarantee. =<p>= gives no such
+guarantee -- a paragraph can span many typeset lines, and prose has no
+element boundary marking where an individual typeset line begins.
+
+Enumerated every numbered, =<p>=-parented, *embedded* Globe anchor in
+Lear (the other branch, not terminal): *44*, more than double the 21
+above. Worked example: =n="31"= -- already confirmed correct in the
+placement-review round, currently leading only "you better." -- sits in
+a =<p>= reading "I must love you, and sue to know =<lb n="31"
+ed="G"/>=you better. =<lb ed="G"/>=...". A tag-blind embedded-numbered
+rule would move =n="31"= to the front of that *whole paragraph*,
+folding "I must love you, and sue to know" into its tail -- text
+belonging to a different, unnumbered typeset line, not to line 31. Every
+one of the 44 has the same shape: real, non-trivial preceding text
+within the same =<p>= that a move-to-container-start would wrongly
+absorb.
+
+| Act | Scene | =n= | Text preceding the marker in the same =<p>= |
+|-----+-------+-----+--------------------------------------------------------------|
+|   1 |     1 |  11 | His breeding, sir, hath been at my charge: I have so |
+|   1 |     1 |  31 | I must love you, and sue to know |
+|   1 |     1 | 191 | Here's France and Burgundy, my noble |
+|   1 |     1 | 290 | That's most certain, and with you; |
+|   1 |     1 | 310 | There is further compliment of leave-taking between France a[nd us] |
+|   1 |     2 |  40 | I beseech you, sir, pardon me: it is a letter from |
+|   1 |     2 |  70 | If the matter were good, my lord, I durst swear it |
+|   1 |     2 | 101 | If your honour judge it meet, I will place you where you sha[ll] |
+|   1 |     2 | 111 | I will seek him, sir, presently; convey the bu[siness] |
+|   1 |     2 | 151 | How now, brother Edmund! what serious |
+|   1 |     2 | 179 | Bethink yourself wherein you may have offended him: |
+|   1 |     4 |  10 | Let me not stay a jot for dinner; go get it ready. [Exit an Attendant.] |
+|   1 |     4 |  21 | A very honest-hearted fellow, and as |
+|   1 |     4 |  30 | No, sir; but you have that in your |
+|   1 |     4 |  71 | I beseech you, pardon me, my lord, if I be mistaken; for my [duty cannot be silent]. |
+|   1 |     4 |  80 | Since my young lady's going into |
+|   1 |     4 |  91 | I am none of these, my lord; I beseech |
+|   1 |     4 | 171 | No, faith, lords and great men will not let me; if I had a m[onopoly out]. |
+|   1 |     4 | 180 | Why, after I have cut the egg i' the middle, and eat up the [meat] |
+|   1 |     4 | 190 | I have used it, nuncle, ever since thou madest thy |
+|   1 |     4 | 209 | How now, daughter! what makes that frontlet on? |
+|   1 |     4 | 340 | Nuncle Lear, nuncle Lear, tarry and |
+|   1 |     5 |  20 | She will taste as like this as a crab does to a crab. Thou c[anst tell why] |
+|   1 |     5 |  30 | Nor I neither; but I can tell why a |
+|   2 |     2 |  10 | If I had thee in Lipsbury pinfold, I |
+|   2 |     2 |  29 | Why, what a monstrous fellow art thou, thus to |
+|   2 |     2 |  51 | Weapons! arms! What's the matter |
+|   2 |     2 |  60 | No marvel, you have so bestirred your valour. You |
+|   2 |     4 |  11 | Ha, ha! he wears cruel garters. Horses are tied by |
+|   2 |     4 |  50 | Winter's not gone yet, if the wild-geese fly that way. Fathe[r] |
+|   2 |     4 | 100 | Inform'd them! Dost thou under- |
+|   3 |     2 |  30 | He that has a house to put's head in has a good head-piece. |
+|   3 |     2 |  41 | Marry, here's grace and a cod-piece; |
+|   3 |     4 | 101 | A serving-man, proud in heart and mind; that curled my hair; |
+|   3 |     4 | 119 | Prithee, nuncle, be contented; 'tis a naughty night to swim |
+|   3 |     5 |   9 | I now perceive, it was not altogether your brother's evil di[sposition] |
+|   3 |     5 |  20 | True or false, it hath made thee earl of Gloucester. Seek ou[t] |
+|   3 |     6 |  11 | Prithee, nuncle, tell me whether a |
+|   3 |     6 |  21 | He's mad that trusts in the tameness of a wolf, a horse's he[alth] |
+|   3 |     6 |  50 | Arraign her first: 'tis Goneril. I here take my oath before |
+|   3 |     6 |  91 | Make no noise, make no noise; draw the curtains: so, so, so. |
+|   4 |     6 |  80 | Bear free and patient thoughts. But |
+|   4 |     6 | 151 | O, ho, are you there with me? No eyes in your head, nor no m[oney] |
+|   4 |     6 | 251 | Chill pick your teeth, zir: come; no |
+
+Not hypothetical and not small: dropping the tag test "entirely," as
+the agenda task's own instruction literally reads, would introduce 44
+new regressions in Lear alone in the course of fixing 21 real bugs.
+
+*** Proposed resolution -- a recommendation, not a decision
+The gate is not uniformly tag-blind. It splits in two:
+- *Terminal* (nothing follows within its own element): generalizes
+  cleanly. Confirmed safe by all 21 cases above -- drop the =<l>=/=<p>=
+  test, move forward to the next content element (=<l>= or =<p>=)
+  regardless of which tag either side is.
+- *Embedded, numbered, Globe*: does not generalize. Keep it scoped to
+  =<l>= specifically, since the "move to my own container's start"
+  operation is only correct when the container is guaranteed to be
+  exactly one verse line -- a guarantee =<p>= does not carry and prose
+  has no substitute signal for.
+
+*** Open for Cliff / Claude Chat
+1. Does this asymmetric split (tag-blind for terminal, =<l>=-scoped for
+   embedded-numbered) match intent, or is there a different signal --
+   other than the tag -- that should govern the embedded-numbered case
+   instead?
+2. If =<l>=-scoping is right for now, is restoring verse structure to
+   Antony's prose (so genuine single-verse-line stretches get their own
+   =<l>=-equivalent) eventually the real fix, rather than a permanent
+   =<p>=-side exception? Not proposing that here -- flagging it as the
+   shape of question this leaves open, consistent with =phase1/rederive-antony-p5='s
+   own "out of scope" note on restoring Antony's verse structure.
+
+*** Not done here
+No code changed, no play regenerated, nothing committed.
+=phase1/rekey-mode-gate= stays =TODO=, paused on this entry.
+
 *** Related
 - Branch drift is a symptom of the same thing: the Globe re-derivation
   modules (=globe_lineation.py=, =globe_anchor_intervals.py=,
@@ -1069,3 +1225,116 @@ relation greppable from either side, which is more than we have now.
   commits, and Cliff was asked to hold off committing pending a chat
   edit to =alignment-oracles.org=. Coordination load added from outside
   the working tree is still coordination load.
+
+** The Globe-anchor mode gate is keyed on the wrong thing: "embedded vs. terminal," not "prose vs. verse"
+:PROPERTIES:
+:CUSTOM_ID: citations/antony-verse-in-prose-placement
+:ASSIGNEES: Claude Code, Claude Chat, Cliff
+:SOURCE: session/2026-09-13
+:DISPOSITION: needs-cliff-input
+:END:
+
+Background: Claude Chat's review of =phase1/fix-globe-anchor-placement=
+(see =doc/agenda.org=, that task's own entry) found that a verse marker
+trailing the end of an =<l>= belongs to the *line that follows*, not the
+line it trails, and that P4's own trailing marker already carries that
+following line's number -- confirmed against the printed Lear page. The
+fix built from that: only =<l>=-parented markers ever move; a marker is
+either *terminal* (nothing meaningful follows within its own =<l>=, so it
+relocates forward, unchanged) or *embedded* (real content follows within
+the same element, so it is left exactly where P4 put it). Every
+=<p>=-parented marker was excluded from this pass entirely, on the
+stated assumption that P4's prose convention already places the marker
+correctly -- confirmed for Lear's own prose (e.g. Globe 11, embedded in
+Kent's opening exchange, already correctly leads "him, that now I am
+brazed to it.").
+
+Trying Antony against this fixed pipeline (=data/shakespeare/ant/=, P4
+source has *zero* =<l>= elements -- all verse, including unambiguous
+blank verse such as Philo's opening speech, is encoded as =<p>=) exposes
+that the real distinguishing factor was never the tag. It is exactly the
+same terminal/embedded distinction already built for =<l>=, and it
+applies to =<p>= too -- Lear's own placement checks never exposed this
+because every anchor checked there happened to be embedded.
+
+*** Two anchors confirm the "embedded" half already works for =<p>=
+Checked directly against the printed page (Internet Archive scan,
+=PerseusDLCode/globe_edition/works/ant/0927.jpg=):
+- Globe =n="10"=, embedded mid-paragraph in Philo's speech (real text
+  "Look, where they come:" follows within the same =<p>=): already
+  correctly leads that line, unmoved.
+- Globe =n="30"=, embedded in Cleopatra's speech: already correctly
+  leads "Thou blushest, Antony; and that blood of thine," unmoved.
+
+Both match the same "P4 already gets it right when the marker sits
+inside a longer run of text" pattern already confirmed for Lear's
+prose.
+
+*** One anchor shows the "always leave prose alone" half is wrong
+Globe =n="41"= sits in its own short =<p>= containing only "Out, fool! I
+forgive thee for a witch." -- nothing else in that paragraph. The
+printed page (=0928.jpg=, p. 912) confirms that line is printed *40*;
+the next line, "You think none but your sheets are privy to your
+wishes.", is *41*. So P4's tag, trailing the sole content of a one-line
+=<p>=, carries the *next* line's number -- the identical "trailing
+marker belongs to what follows" convention already established for
+Lear's =<l>=. Because this marker is *terminal* within its own =<p>=
+(nothing follows it there) rather than embedded, and the mode gate
+excludes every =<p>=-parented marker from moving regardless of
+terminal/embedded status, it never moves. Confirmed directly against
+the regenerated file: this milestone's own tail is whitespace only, it
+has no next sibling, and it is presently the sole child of its
+paragraph -- so it currently leads empty text, not "You think none but
+your sheets are privy to your wishes."
+
+The generalizable rule this suggests: whether a marker needs to shift
+forward depends on =_has_content_after= (is there real content after it
+within its own containing element?), not on whether that containing
+element is =<l>= or =<p>=. An embedded marker -- real content follows
+within the same element -- is already correctly placed by P4, in either
+tag. A terminal marker -- nothing follows within its own element -- needs
+to move forward to lead the next content element, in either tag. Lear's
+existing, already-shipped placement was never tested against a terminal
+*prose* case (every anchor checked there was embedded), so this
+refinement wouldn't contradict anything already confirmed -- but it also
+hasn't been *positively* confirmed not to break something in Lear either;
+that needs checking before any code changes, not assumed.
+
+*** Separately confirmed, not this finding's subject: shared/split verse lines persist in Antony with no fix
+Also checked against the same page: the fortune-telling scene's
+negative-excess intervals (flagged, unconfirmed, in the original
+=phase1/rederive-antony-p5= report as "probably... undercounting") are
+real -- roughly 6 printed lines fall where the naive per-utterance count
+implied 10, i.e. several short interjections share printed lines the
+way Lear's split =<l part="I">=/=<l part="F">= pairs do. Lear's fix for
+this (=_merge_split_pair=/=_dedupe_shared_verse_lines=) keys off
+=@part=, which does not exist anywhere in Antony's P4 source. This is a
+distinct, separately-flagged gap -- noted here so it isn't lost, but not
+otherwise part of the mode-gate question above.
+
+*** Not done here
+No code changed. Regenerating Antony with the current (Lear-fixed)
+pipeline is otherwise clean: 273 anchors, structurally valid (jing 0
+errors, Schematron 0 findings, =check_corpus.py= leaf depth 3,570,
+matching the pre-fix baseline exactly since every mechanism -- shift,
+recovery, merge -- is presently a no-op for an all-=<p>= source). The
+interval-closure histogram is *identical* to the pre-fix baseline too --
+expected, not a red flag: a uniform "shift everything" (the old, buggy
+Lear-style algorithm Antony's existing file was built with) and a
+uniform "shift nothing" (the current mode gate, applied to all-prose
+content) both preserve the gaps between any two specific anchor values,
+the same placement-blindness already learned from Lear's own review.
+
+*** Open for Cliff / Claude Chat
+1. Does redefining the mode gate around =_has_content_after= alone
+   (dropping the =<l>=/=<p>= tag test entirely) match intent, or is
+   there a reason genuine prose and verse-typeset-as-prose should still
+   be told apart some other way?
+2. If adopted, this needs re-validation against everything already
+   confirmed correct for Lear (the six-triple placement check plus the
+   full regenerated file) before it ships, not just Antony -- agreed
+   this is a real re-validation cost, not a drop-in change.
+3. The shared/split-line gap for Antony's =<p>=-encoded verse (no
+   =@part= equivalent) is real and separate from the above; not
+   proposing a fix here, flagging it so it isn't dropped when the mode
+   gate question is settled.
