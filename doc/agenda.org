@@ -1,5 +1,6 @@
 #+TITLE: canonical-engLit / MVP Agenda
 #+STARTUP: overview
+#+TODO: TODO NEXT IN-PROGRESS | DONE CANCELLED
 #+FILETAGS: :englit:mvp:
 
 Task list for the Globe Shakespeare and commentary reference works
