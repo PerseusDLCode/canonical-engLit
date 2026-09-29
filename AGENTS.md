@@ -54,10 +54,21 @@ Located alongside this one under `PerseusDLCode/`:
 
 ## Branches
 
-Work happens on topic branches (`schmidt`, `n-equal-chunk`, …) merged
-into `mvp`, the integration branch for this sprint. `mvp` was branched
-from `p6`. Check `git branch` rather than trusting this paragraph for
-which branch is current.
+- **Two repositories.** `upstream` is `PerseusDL/canonical-engLit`,
+  the Perseus original, controlled by Lisa Cerrato. `origin` is
+  `PerseusDLCode/canonical-engLit`, the fork we work in. Never push to
+  `upstream` or open a pull request against it.
+- **`main` is not ours**, in either repository. It belongs to Lisa and
+  Charles and supports the P4 Perseus ("the Hopper"). Never commit to
+  it, branch from it, merge into it, or compare against it as a
+  baseline; its `data/` is not the state of this corpus.
+- **`mvp` is the integration branch and the base for all work.** Topic
+  branches start from `mvp` and merge back into it. Any PR targets
+  `--base mvp` explicitly; `gh` otherwise defaults to `main`.
+- **`p6`** holds the 2025 P4-to-P5 migration, from which `mvp` was
+  branched. History only.
+- **`alignment-oracles`** holds abandoned Globe lineation work, archived
+  as the tag `archive/alignment-oracles`. Build nothing on it.
 
 ## Tools
 
@@ -101,13 +112,21 @@ Identifiers for the reference works (Abbott, Schmidt, Onions, Dyce)
 are less settled than the Shakespeare ones — check `forum.org` before
 minting new URN components.
 
-**Shakespeare source text:** The Globe editions have been set aside in
-favour of ShakeDraCor's F1 texts, imported as
-`data/shakespeare/{work}/shakespeare.{work}.f1.xml` with a per-work
-`__cts__.xml`. The older flat Globe files (`data/shakespeare/{work}.xml`)
-are still present and not yet migrated to the nested layout. F1
-editions additionally carry a Folger Through-Line-Number refsDecl
-derived from ShakeDraCor's `xml:id="ftln-NNNN"`.
+**Shakespeare source text:** Each work has a directory,
+`data/shakespeare/{work}/`, with a `__cts__.xml`, the Globe edition
+`shakespeare.{work}.globe.xml`, and beside it a ShakeDraCor text:
+`shakespeare.{work}.f1.xml` for each of the 37 plays,
+`shakespeare.{work}.folger.xml` for `son`, `ven`, `luc` and `pht`
+(`lc` and `pp` have the Globe only). The Globe
+editions are being regenerated, not set aside: body from the P4 in
+`Renaissance/` and Globe lineation from page images of the printed
+edition, header and conventions from the existing Globe file. The
+generator is `globe-lineation-workshop`, moving to `corpus-tools`, and
+each Globe file is replaced in place as its play is published. Until
+then the Globe files here carry the 2025 migration's interpolated line
+numbers, which are unreliable. F1 editions additionally carry a Folger
+Through-Line-Number refsDecl derived from ShakeDraCor's
+`xml:id="ftln-NNNN"`.
 
 ## Gotchas
 
