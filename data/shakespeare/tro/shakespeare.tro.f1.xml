@@ -34,31 +34,21 @@
          <refsDecl n="CTS" xml:id="CTS">
             <citeStructure match="/TEI/text/body" use="@xml:base">
                <citeStructure unit="act" delim=":" match="div[@type='act']" use="@n">
-                  <citeStructure unit="scene" delim="." match="div[@type='scene']" use="@n" n="chunk">
-                     <citeStructure unit="line" delim="." match="l" use="@n"/>
-                  </citeStructure>
+                  <citeStructure unit="scene" delim="." match="div[@type='scene']" use="@n" n="chunk"/>
                </citeStructure>
                <citeStructure unit="induction"
                               delim=":"
                               match="div[@type='induction']"
-                              use="@n">
-                  <citeStructure unit="line" delim="." match="l" use="@n"/>
-               </citeStructure>
+                              use="@n"/>
                <citeStructure unit="prologue"
                               delim=":"
                               match="div[@type='prologue']"
-                              use="@n">
-                  <citeStructure unit="line" delim="." match="l" use="@n"/>
-               </citeStructure>
+                              use="@n"/>
                <citeStructure unit="epilogue"
                               delim=":"
                               match="div[@type='epilogue']"
-                              use="@n">
-                  <citeStructure unit="line" delim="." match="l" use="@n"/>
-               </citeStructure>
-               <citeStructure unit="chorus" delim=":" match="div[@type='chorus']" use="@n">
-                  <citeStructure unit="line" delim="." match="l" use="@n"/>
-               </citeStructure>
+                              use="@n"/>
+               <citeStructure unit="chorus" delim=":" match="div[@type='chorus']" use="@n"/>
             </citeStructure>
          </refsDecl>
          <refsDecl n="CTS-tln" xml:id="CTS-tln">

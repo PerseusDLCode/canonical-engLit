@@ -298,6 +298,10 @@ See =agenda.org= =corpus-tools/generate-line-map= (DONE).
 :SOURCE: session/2026-08-19
 :DISPOSITION: adopt
 :END:
+*Superseded in part <2026-09-29>:* for the =f1= (DraCor) editions the
+act/scene and flat-div branches no longer end in a line level; lines are
+cited only by TLN through =CTS-tln=. See =#encoding/shakespeare-citestructures=.
+
 
 Converting ShakeDraCor plays (=import-shakedracor=, see =agenda.org=
 =phase1/import-shakedracor=) surfaced two gaps in the existing
@@ -776,3 +780,85 @@ Retired, on unmerged branches for review:
 
 =import-shakedracor= and the =CTS-tln= refsDecl stay. The entries this
 supersedes carry a note saying so, and are otherwise left as they were.
+
+** citeStructures for the two Shakespeare editions
+:PROPERTIES:
+:CUSTOM_ID: encoding/shakespeare-citestructures
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: session/2026-09-29
+:DISPOSITION: adopt
+:END:
+
+With full Globe lineation in the Globe editions and Folger TLNs in the
+DraCor editions (=#encoding/globe-lineation-and-tln=), each edition
+needs one clear citation scheme. A survey of =mvp= found none of the
+Shakespeare line schemes resolving in =perseus-cts=, the resolver MVP
+uses:
+- *The 37 Globe plays* cite lines by =position()= among =lb[@ed='G']=.
+  The 2025 migration removed most of those =<lb>=s (=lr= has 65 left
+  against 2,550 verse lines; =jn= has none), and =perseus-cts= resolves
+  only an attribute =@use=.
+- *The DraCor plays' =CTS= scheme* ended in the Folger's own
+  act.scene.line on =<l>=. That reached verse only (28,003 prose lines
+  carry their number on =<lb>=). Worse, it has the Globe's shape but
+  not its numbering: =shakespeare.lr.f1:2.4.109= and
+  =shakespeare.lr.globe:2.4.109= are different lines.
+- *Their =CTS-tln= scheme* covers every line, but computes the TLN from
+  =@xml:id= with an XPath =@use=, which =perseus-cts= could not resolve.
+
+*** Decision
+[2026-09-29]
+
+- *Globe editions* are cited by Globe act.scene.line only. The
+  generator writes the refsDecl, replacing the shell's:
+  - act (not the cast list) -> scene (=n="chunk"=) -> the Globe
+    milestone by =@n=;
+  - plus act -> line for speeches that are an act's own children, such
+    as an act-level prologue.
+
+  The build stops if any Globe milestone is not citable exactly once.
+  Globe plays not yet regenerated keep their broken scheme until they
+  are replaced. The six poems' =l[@n]= schemes already work.
+- *DraCor editions* are cited by TLN only.
+  - Their =CTS= scheme stops at the scene (the chunk) and at the
+    induction, prologue, epilogue and chorus divs.
+  - The Folger act.scene.line level is dropped, so that ambiguous shape
+    can no longer be generated.
+  - Lines are cited through =CTS-tln=, each line a chunk, as since
+    2026-08-27.
+- *=perseus-cts= evaluates an XPath =@use=.* That makes TLNs resolvable
+  without changing the encoding.
+- *Schmidt's URNs keep their edition token.* Schmidt cites the Globe,
+  and a work-level URN is ambiguous between the editions. So
+  =strip-schmidt-urn-edition= is retired. The Schmidt lexicon here was
+  already stripped (all 219,287 references are work-level). It is
+  superseded by =schmidt-lexicon-workshop=, whose generated TEI should
+  cite =shakespeare.{work}.globe:=.
+
+Implemented on unmerged branches:
+- =perseus-cts= =computed-use=
+- =corpus-tools= =citestructure/dracor-tln= (=add-citeStructure.xsl=),
+  and =retire/globe-rederive= (the Schmidt tool)
+- =globe-lineation-workshop= =build/globe-citestructure=, with Lear
+  regenerated
+- this branch: the 37 DraCor files' refsDecls, edited in place,
+  refsDecl only
+- =schmidt-lexicon-workshop= =retire/tln-schmidt-tools=
+
+Checked with =perseus-cts=:
+- Lear's 3,332 Globe lines have 3,332 unique URNs, all round-trip, in
+  26 scene chunks.
+- In the DraCor Lear and Henry V, every TLN resolves and round-trips,
+  and no act.scene.line line URN remains.
+
+*** Open
+1. *The flat divs are not paged.* A DraCor edition's induction,
+   prologue, epilogue and chorus divs fall on no page: MVP pages only
+   at the =n="chunk"= level, which is the scene. The same will hold for
+   a Globe play's act-level prologue. This predates the change.
+2. *Should each TLN be its own page?* The =CTS-tln= scheme makes it so.
+3. *The four Folger poem files have no citeStructure.*
+   =shakespeare.{son,ven,luc,pht}.folger.xml= are unconverted Folger
+   Digital Texts, and MVP lists them but does not paginate them.
+4. *=perseus-cts= does not namespace-prefix a name after an XPath axis*
+   (=ancestor::div=), so citeStructure paths avoid axes.
