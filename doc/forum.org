@@ -905,6 +905,11 @@ numbering.
 - *A row that a =<stage>= or =<head>= opens* gets its marker before
   that element, not inside it. A later row of a stage direction that
   runs to several rows gets =<lb/>= inside it.
+- *A row can begin partway through a stage direction* that started on
+  the row before. Its marker then goes inside the =<stage>=, before the
+  word the row begins with. That word may be the second half of a
+  hyphenated word, as in Lear III.6: "[To Ed- | gar] You, sir" gives
+  =<stage>[To <milestone n="83"/>Edgar]</stage> You, sir=.
 - *Stage directions and headings are never Globe lines.* The rows they
   occupy get =<lb/>=, never a milestone. The Globe numbers only spoken
   text.
