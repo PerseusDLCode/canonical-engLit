@@ -23,6 +23,11 @@ those threads.
 :SOURCE: chat/2026-08-17
 :DISPOSITION: adopt
 :END:
+*Superseded <2026-09-29>:* the Globe↔FTLN mapping named below as
+citation infrastructure is not planned; Globe citations resolve against
+the Globe edition's own lineation. See =forum.org=
+=#encoding/globe-lineation-and-tln=.
+
 
 Scope of this sprint: get the Globe Shakespeare editions (44 plays and
 poems) and the four NVS reference works (Abbott, Schmidt, Onions, Dyce)
@@ -53,6 +58,11 @@ the right granularity.
 :SOURCE: chat/2026-08-11
 :DISPOSITION: adopt
 :END:
+*Superseded <2026-09-29>:* the DraCor edition is a second edition
+alongside the regenerated Globe, cited by its own TLNs. The CorpusMap
+and the plan to resolve Globe citations by translating them to FTLN are
+retired. See =forum.org= =#encoding/globe-lineation-and-tln=.
+
 
 Which Shakespeare edition to use as the primary text in Perseus MVP,
 given that: the existing Perseus Globe encoding lacks =citeStructure=
@@ -92,6 +102,13 @@ translate to FTLN for linking to the Folger text.
 :SOURCE: chat/2026-08-12
 :DISPOSITION: adopt
 :END:
+*Superseded <2026-09-29>:* Globe lineation is regenerated from page
+images of the printed Globe edition. Transferring =@n= to =<l>= and
+interpolating between anchors is retired, and so is the rationale for
+stripping F1 =<lb>= given below: TLN data does not come from a
+CorpusMap. F1 =<lb>= markers are abandoned as inaccurate and unused. See
+=forum.org= =#encoding/globe-lineation-and-tln=.
+
 
 The existing Globe encoding had three classes of problems with line
 milestones: (1) all =<lb/>= placed at end of lines rather than
@@ -184,6 +201,11 @@ elements may now be removed.
 :SOURCE: chat/2026-08-14
 :DISPOSITION: adopt (pragmatic stance); open (theoretical)
 :END:
+*Superseded <2026-09-29>:* the CorpusMap named below as a provisional
+registry between citation families is retired, and no mapping between
+Globe and TLN numbering is planned. The citation-family analysis is not
+affected. See =forum.org= =#encoding/globe-lineation-and-tln=.
+
 
 The fundamental problem: CTS's work/version distinction presupposes a
 stable, edition-independent textual identity to which a canonical
@@ -244,6 +266,12 @@ Alison and Greg agree with this approach. We should implement it.
 :SOURCE: chat/2026-08-14
 :DISPOSITION: adopt
 :END:
+*Superseded <2026-09-29>:* this decision is withdrawn. Its "Globe" key
+was the DraCor/Folger act.scene.line, not the Globe's lineation, and
+resolving Globe citations through TLNs was misguided.
+=generate-line-map= and =CorpusMap= are retired. See =forum.org=
+=#encoding/globe-lineation-and-tln=.
+
 
 Required for resolving Globe act.scene.line citations (Schmidt, Abbott,
 Onions, Dyce) to FTLN for linking to the DraCor/Folger text.
@@ -685,3 +713,66 @@ or started here.
    - <2026-09-03 Thu 09:03> answer :: I modified the agenda item for
      Venus and Adonis and Lucrece to include all the poems ([[file:agenda.org::*Bring the poems up to speed][Bring the
      poems up to speed]]); Claude Code has completed the task.
+
+** Globe lineation from the witness pages; F1 =<lb>= abandoned; no Globe↔TLN mapping
+:PROPERTIES:
+:CUSTOM_ID: encoding/globe-lineation-and-tln
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: session/2026-09-29
+:DISPOSITION: adopt
+:END:
+
+=globe-lineation-workshop= found a way to give the Globe plays full,
+verified lineation: Globe line starts are read from page images of the
+printed Globe edition, and each page's count is gated against every
+line number printed in its margin. The words and structure still come
+from the P4 in =Renaissance/=. King Lear is regenerated this way, and
+the pipeline moves into =corpus-tools=. That makes every earlier
+attempt at the same problem obsolete:
+- transferring the P4's numbered =<lb ed="G">= to =<l @n>= and
+  interpolating between them (=#encoding/lb-and-line-numbering=;
+  =number-verse-lines=);
+- correcting individual anchor errors against print
+  (=agenda.org= =#encoding/priority1-anchor-errors=);
+- re-deriving lineation from the P4's =<lb>= boundaries in
+  =corpus-tools= (the "alignment oracles" work, archived as the tag
+  =archive/alignment-oracles= here and =archive/globe-rederive= in
+  =corpus-tools=).
+
+*F1 =<lb>= markers are abandoned.* The P4's =<lb ed="F1">= markers
+turned out to be inaccurate, and nothing used them. The regenerated
+Globe editions do not carry them, and any code that relies on them is
+retired.
+
+*The DraCor edition is a second edition of the plays.* It is
+well-encoded and well-maintained, and it numbers lines with a variant
+of Hinman's through-line numbers. It is cited by those numbers, through
+its own =CTS-tln= refsDecl (=#encoding/citestructure-induction-and-tln=).
+
+*There is no mapping between Globe numbering and TLNs.* The earlier
+plan resolved Globe act.scene.line citations (Schmidt, Abbott, Onions,
+Dyce) by first converting them to TLNs (=#citations/globe-ftln-mapping=).
+That was misguided. Globe citations resolve against the Globe edition's
+own lineation. The mapping also rested on a false assumption: its
+"Globe" key was the DraCor/Folger text's act.scene.line, which is a
+different lineation from the Globe's. So the Schmidt repairs built on
+it checked Globe citations against the wrong numbering.
+
+*** Decision
+[2026-09-29] Globe lineation comes only from the witness-page
+pipeline, and all earlier lineation code is retired. Globe editions
+carry no F1 markers. DraCor is carried as a second edition, cited by
+its own TLNs. No Globe↔TLN mapping is planned.
+
+Retired, on unmerged branches for review:
+- *=corpus-tools=, branch =retire/globe-rederive=:*
+  - =rederive-globe-lineation=
+  - =number-verse-lines=
+  - =generate-line-map= and =CorpusMap=
+  - =repair-schmidt-citations=
+  - =recover-schmidt-line-numbers=
+- *=schmidt-lexicon-workshop=, branch =retire/tln-schmidt-tools=:* the
+  migrated copies of the last three.
+
+=import-shakedracor= and the =CTS-tln= refsDecl stay. The entries this
+supersedes carry a note saying so, and are otherwise left as they were.
