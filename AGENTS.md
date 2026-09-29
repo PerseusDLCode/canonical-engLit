@@ -153,7 +153,7 @@ loading, and treat any attribute value matching a schema's own
 documented `a:defaultValue` as a candidate instance of this same
 artifact class.
 
-**`data/shakespeare/tro.xml` and `data/shakespeare/per.xml`** are
+**`shakespeare.tro.globe.xml` and `shakespeare.per.globe.xml`** are
 under-encoded: Troilus and Cressida has no `<lb>` markup at all;
 Pericles has only 4. Do not treat these as representative of the
 corpus; do not use them as test cases.
