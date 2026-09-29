@@ -862,3 +862,66 @@ Checked with =perseus-cts=:
    Digital Texts, and MVP lists them but does not paginate them.
 4. *=perseus-cts= does not namespace-prefix a name after an XPath axis*
    (=ancestor::div=), so citeStructure paths avoid axes.
+
+** The Globe milestone and =<lb/>= convention
+:PROPERTIES:
+:CUSTOM_ID: encoding/globe-milestone-and-lb
+:ASSIGNEES: Cliff, Claude Code
+:SOURCE: globe-lineation-workshop doc/forum.org #lineation/regenerate-from-witnesses; doc/agenda.org #build/tei-header
+:DISPOSITION: adopt
+:END:
+
+How a regenerated Globe edition marks its lines and printed rows. It
+was settled in =globe-lineation-workshop= and applies to every Globe
+play regenerated there, King Lear first. It is recorded here because it
+shapes the corpus encoding and anyone reading these files needs it.
+
+Each regenerated edition states the convention in its header's
+=encodingDesc=, in these words:
+
+#+begin_quote
+=<milestone unit="line" ed="Globe">= marks the first word of a Globe
+line, and every Globe line carries one, numbered. A Globe line may
+occupy more than one printed row: a verse line too long for the column,
+or a line shared between two speakers. =<lb/>= marks each printed row
+that begins no Globe line. A Globe milestone therefore also marks the
+start of a printed row, and reconstructing the page's rows requires
+reading both elements.
+
+The =@part= attribute, which marks the parts of a verse line shared
+between speakers, is retained from the Perseus P4 edition and was not
+regenerated. It does not always agree with the Globe's division of
+shared lines; where the two differ, the Globe milestones govern the
+numbering.
+#+end_quote
+
+*** Placement
+- *A milestone precedes the content it numbers.* A speech-initial one
+  is the first child of its =<p>= or =<l>=.
+- *A shared verse line gets one milestone*, at the start of its first
+  half.
+- *A row break inside a hyphenated word* puts the milestone or =<lb/>=
+  before the whole word.
+- *A row that a =<stage>= or =<head>= opens* gets its marker before
+  that element, not inside it. A later row of a stage direction that
+  runs to several rows gets =<lb/>= inside it.
+- *Stage directions and headings are never Globe lines.* The rows they
+  occupy get =<lb/>=, never a milestone. The Globe numbers only spoken
+  text.
+- *A Globe milestone carries only =@unit=, =@ed= and =@n=*: no =@source=
+  and no =@type=. The Globe's numbering is an abstraction that outlived
+  any one printing, so the edition records the number, not which
+  witness printed it.
+- *No =ed="F1"= milestones are carried*
+  (=#encoding/globe-lineation-and-tln=).
+- *Citation goes through the milestones.* The =CTS= refsDecl's line
+  level is =milestone[@unit='line'][@ed='Globe']= by =@n=
+  (=#encoding/shakespeare-citestructures=). The =<lb/>= elements carry
+  no number and are not cited.
+
+*** Decision
+[2026-09-29] Adopted for the Globe editions as they are regenerated.
+The Globe files on =mvp= not yet regenerated still carry the 2025
+migration's =<l n>= and are not described by this entry. The DraCor
+editions keep their own encoding (=@n= and =xml:id="ftln-NNNN"= on
+=<l>= and =<lb>=).
