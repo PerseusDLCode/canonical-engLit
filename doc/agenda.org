@@ -119,6 +119,11 @@ CLOSED: [2026-08-25 Tue 10:48]
   We have set aside (at least for now) Perseus's Globe editions and
   replaced them with DraCor's Shakespeare.
 :END:
+*Superseded <2026-09-29>:* the Globe editions were not set aside after
+all; they are regenerated from page images of the printed Globe, which
+supersedes correcting anchors one by one. The cancellation stands. See
+=forum.org= =#encoding/globe-lineation-and-tln=.
+
 7 scenes with backward-running Globe line-number anchors, identified
 in the dry-run survey. See [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]] §Priority 1.
 
@@ -673,6 +678,11 @@ survey. Review output with Cliff.
 :ASSIGNEES: Cliff, Claude Code
 :DEPENDS: phase0/cts-urns, phase1/bibl-survey
 :END:
+*Superseded <2026-09-29>:* the CorpusMap and Globe→FTLN translation this
+task builds on are retired; Globe citations resolve against the Globe
+edition's own lineation. The play-abbreviation table itself is
+unaffected. See =forum.org= =#encoding/globe-lineation-and-tln=.
+
 Once URN naming is settled and the =<bibl @n>= survey is complete:
 build a mapping table from Schmidt/Abbott play abbreviations to CTS
 edition identifiers. The CorpusMap already handles Globe→FTLN; this
@@ -698,6 +708,11 @@ Strategies A and D).
 :ASSIGNEES: Claude Code
 :DEPENDS: phase3/play-abbr-map
 :END:
+*Superseded <2026-09-29>:* there is no CorpusMap to resolve through.
+Globe citations resolve against the regenerated Globe edition's
+lineation (=milestone[@ed='Globe']=). Re-scope this task before starting
+it. See =forum.org= =#encoding/globe-lineation-and-tln=.
+
 A script that reads the reference work XML files, finds all Shakespeare
 =<bibl @n>= citations, resolves them to CTS URNs via the CorpusMap,
 and rewrites them as =<bibl><ref @target="urn:cts:...">= (for attributed
@@ -753,6 +768,10 @@ Applied to all Shakespeare play files.
 :PROPERTIES:
 :CUSTOM_ID: done/strip-lb
 :END:
+*Superseded <2026-09-29>:* the lineation this produced is replaced play
+by play by the witness-page regeneration. See =forum.org=
+=#encoding/globe-lineation-and-tln=.
+
 =src/strip-lb-tags.xsl= — removes all =<lb ed="F1">= (TLN); removes
 unnumbered =<lb ed="G">= from verse; transfers =@n= from numbered
 =<lb ed="G">= to enclosing =<l>=; drops all =<lb>= inside =<l>=.
@@ -762,6 +781,12 @@ Numbered =<lb ed="G">= in prose retained in place.
 :PROPERTIES:
 :CUSTOM_ID: done/interpolate-line-numbers
 :END:
+*Superseded <2026-09-29>:* =number-verse-lines= is retired, and its
+interpolated =@n= is replaced play by play by the witness-page
+regeneration. The Globe editions are not set aside, and DraCor is a
+second edition, not the primary one. See =forum.org=
+=#encoding/globe-lineation-and-tln=.
+
 =corpus-tools: number-verse-lines= — adds scene-relative =@n= to =<l>=
 elements by interpolating between existing anchor values. Dry-run mode
 reports collisions. Applied to all plays except excluded files.
@@ -794,6 +819,10 @@ Parameterized by schema name. Applied to all Shakespeare play files.
 :PROPERTIES:
 :CUSTOM_ID: done/corpus-map
 :END:
+*Superseded <2026-09-29>:* retired. The map's "Globe" key was DraCor's
+own act.scene.line, and no Globe↔TLN mapping is planned. See =forum.org=
+=#encoding/globe-lineation-and-tln=.
+
 =corpus-tools: generate-line-map= — extracts FTLN and Globe act.scene.line
 from DraCor TEI XML; serializes as JSON; provides bidirectional lookup
 via =CorpusMap= class. Covers all 37 DraCor plays.
