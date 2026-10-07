@@ -725,6 +725,135 @@ until Cliff has reviewed the dry-run report.
 Incomplete location refs (=@n="shak. tn 2.5"= with no line number)
 should be flagged for manual review, not silently dropped.
 
+* Globe lineation: carried from globe-lineation-workshop
+Carried <2026-10-07> when the workshop was frozen at its tag =v1.0=
+(globe-lineation-workshop =doc/agenda.org= =#phase0/migrate-pipeline=, decision 3). The witness-page
+pipeline now lives in corpus-tools (=src/globe/=, =doc/globe-lineation.org=;
+=make globe-regenerate=, =make globe-verify=), and the witnesses in
+=PerseusDLCode/globe-witnesses=. Each task names its entry in the
+workshop, where its history and reasoning stay; =#id= references below
+without a file are to that workshop at =v1.0=. Build only with this
+repository on =mvp= (the build refuses otherwise).
+
+** TODO A per-play table for the Globe build
+:PROPERTIES:
+:CUSTOM_ID: globe/per-play-table
+:END:
+From globe-lineation-workshop =doc/agenda.org= =#phase0/migrate-pipeline=, "After the move", item 1; the
+first of three things Antony needs, in this order.
+
+Replace =PLAYS= in corpus-tools' =src/globe/regenerate.py= (one entry,
+Lear) and =FOLGER= in =src/globe/shared_lines.py= (an absolute path to
+one play's file outside these repositories) with a per-play table: P4
+source, shell, printed pages, DraCor file. Antony is printed pages
+911-943. Prove it with =make globe-verify PLAY=lr=: Lear must not move.
+
+** TODO Pin the DraCor clone
+:PROPERTIES:
+:CUSTOM_ID: globe/pin-dracor
+:DEPENDS: globe/per-play-table
+:END:
+From globe-lineation-workshop =doc/agenda.org= =#phase0/migrate-pipeline=, "After the move", item 2.
+
+The Lear header already claims ShakeDraCor commit =c34c2d4=; the build
+reads whatever the clone has checked out. Pin it, as the witnesses are
+pinned (=data/globe/witness-manifest.tsv=).
+
+** TODO Build an edition from sources, not from its last output
+:PROPERTIES:
+:CUSTOM_ID: globe/shell-template
+:DEPENDS: globe/per-play-table
+:END:
+From globe-lineation-workshop =doc/agenda.org= =#phase0/migrate-pipeline=, "After the move", item 3.
+
+Each published edition is the shell of its own next build. Replace the
+shell with a header template and the per-play table, so that an edition
+is built from sources and never from its last output. Not needed for
+Antony, whose shell is =mvp='s 2025 file; do it before the batch.
+
+** TODO Regenerate Antony
+:PROPERTIES:
+:CUSTOM_ID: build/regenerate-ant
+:DEPENDS: globe/per-play-table globe/pin-dracor
+:END:
+From globe-lineation-workshop =doc/agenda.org= =#build/regenerate-ant=.
+
+*The test of whether Lear's rules generalise*, and the decision point
+for the schedule. Antony's P4 tags its verse as =<p>= throughout, which
+the regeneration should not care about: lineation comes from the page,
+and verse or prose affects the markup only. Same task shape as
+=#build/regenerate-lear=, same gate, same reports, same two builds.
+
+All of Lear is now design data, so rule changes here are the signal to
+watch: if Antony needs few or none, the batch is cheap; if it needs
+many, that is the moment to reconsider rather than push through.
+Printed pages 911-943.
+
+** TODO Batch the remaining plays
+:PROPERTIES:
+:CUSTOM_ID: build/batch-remaining
+:DEPENDS: build/regenerate-ant globe/shell-template
+:END:
+From globe-lineation-workshop =doc/agenda.org= =#build/batch-remaining=.
+
+The other 41 texts (36 plays, 6 poems; the poems' layout differs and
+may need its own pass). Run, gate, report; a play whose pages all pass
+needs no reading. Groups B and C are in scope -- their deferral reasons
+no longer hold (=#deferred/group-b=, =#deferred/group-c=).
+
+Titus and Richard II are held out (=#phase2/held-out=): run them
+unchanged once the classifier is frozen, before the rest, as a cold
+test. Their held-out status is unspent; record it if it ever is.
+
+** TODO Word corrections, demand-driven
+:PROPERTIES:
+:CUSTOM_ID: build/text-corrections
+:END:
+From globe-lineation-workshop =doc/agenda.org= =#build/text-corrections= (rescoped <2026-09-24>).
+
+*The rule:* the transcription stands; disagreements are reported and
+not acted on. A correction is made only when a citation fails to
+resolve because the P4's word is not the word the commentator quotes --
+the failing citation is the evidence and the occasion. Evidence for a
+correction is both witnesses agreeing against the P4, checked on the
+image; =#compare/doubleday= showed the Doubleday agreeing with the
+witnesses on these readings too, so a correction usually has two
+independently set editions behind it.
+
+Blocked on the workshop's =doc/forum.org= =#lineation/word-authority=,
+which should be settled in those narrow terms. The mechanism (a
+reviewed =data/globe/text-corrections.tsv= in corpus-tools on the
+=shared-lines= pattern, the word-stream invariant amended to "equals
+the P4's except at applied rows, and differs at every one") is still
+the right one; build it when the first citation needs it, not before.
+
+** TODO Reconcile perseus-cts =main= with Charles's =dev=
+:PROPERTIES:
+:CUSTOM_ID: ops/perseus-cts-reconcile
+:END:
+From globe-lineation-workshop =doc/agenda.org= =#ops/perseus-cts-reconcile= (<2026-09-30>).
+
+Cliff: =computed-use= should have been a feature branch from =dev= and
+a pull request, not a merge into =main=.
+
+*Where things stood <2026-09-30>* (check before acting):
+- The repository is =PerseusDLCode/perseus-cts=, and its default branch
+  on GitHub is =dev=, Charles's line.
+- =main= (=db88e5f=) has 6 commits that =dev= lacks: =computed-use=
+  (=c543b34=), =compile_corpus.py=, =NOTES.md= and README edits.
+- =dev= (=a957963=) has 37 commits that =main= lacks, including its own
+  XPath =@use= support (=5ed129b=, =d91ccb6=). Both sides edit
+  =cts_resolver.py=.
+
+*MVP is unaffected.* Both of its branches pin perseus-cts by
+=rev = a957963=, not by branch. That commit resolves the published Lear
+(3,332 lines, all round-tripping; checked again <2026-10-07>) and the
+F1/DraCor Lear's =CTS-tln= scheme (3,513 citations).
+
+*What is left:* decide with Charles whether anything in =computed-use=
+is still needed on top of =dev=. If it is, open a pull request from a
+feature branch off =dev=; either way, settle what =main= is for.
+
 * Completed work
 
 * DONE Strip @default="false" and @status="draft" schema-default artifacts
