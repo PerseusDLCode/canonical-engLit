@@ -735,7 +735,7 @@ workshop, where its history and reasoning stay; =#id= references below
 without a file are to that workshop at =v1.0=. Build only with this
 repository on =mvp= (the build refuses otherwise).
 
-** TODO A per-play table for the Globe build
+** DONE A per-play table for the Globe build
 :PROPERTIES:
 :CUSTOM_ID: globe/per-play-table
 :END:
@@ -748,7 +748,13 @@ one play's file outside these repositories) with a per-play table: P4
 source, shell, printed pages, DraCor file. Antony is printed pages
 911-943. Prove it with =make globe-verify PLAY=lr=: Lear must not move.
 
-** TODO Pin the DraCor clone
+*Done <2026-10-08>:* corpus-tools =data/globe/plays.tsv= (read by
+=src/globe/plays.py=), rows for Lear and Antony; the ShakeDraCor clone at
+=$SHAKEDRACOR= (default =../../shakedracor=). =shared-lines.tsv= rows now
+name their play too, and the header counts only the play's own. Lear did
+not move. corpus-tools merges =863f8ec= (table), =f7fbf47= (play column).
+
+** DONE Pin the DraCor clone
 :PROPERTIES:
 :CUSTOM_ID: globe/pin-dracor
 :DEPENDS: globe/per-play-table
@@ -758,6 +764,13 @@ From globe-lineation-workshop =doc/agenda.org= =#phase0/migrate-pipeline=, "Afte
 The Lear header already claims ShakeDraCor commit =c34c2d4=; the build
 reads whatever the clone has checked out. Pin it, as the witnesses are
 pinned (=data/globe/witness-manifest.tsv=).
+
+*Done <2026-10-08>:* a row per play in =witness-manifest.tsv= (witness
+=dracor=): the file's sha256, and the clone's commit and the play's DraCor
+id as they were when pinned; a file that differs from its commit cannot
+be pinned. The build refuses the file if it differs, and the header's
+Folger citation is written from the row. Lear is pinned at =c34c2d4=,
+Antony likewise (=shake000035=). corpus-tools merge =02f0107=.
 
 ** TODO Build an edition from sources, not from its last output
 :PROPERTIES:
@@ -771,7 +784,7 @@ shell with a header template and the per-play table, so that an edition
 is built from sources and never from its last output. Not needed for
 Antony, whose shell is =mvp='s 2025 file; do it before the batch.
 
-** TODO Regenerate Antony
+** DONE Regenerate Antony
 :PROPERTIES:
 :CUSTOM_ID: build/regenerate-ant
 :DEPENDS: globe/per-play-table globe/pin-dracor
@@ -788,6 +801,66 @@ All of Lear is now design data, so rule changes here are the signal to
 watch: if Antony needs few or none, the batch is cheap; if it needs
 many, that is the moment to reconsider rather than push through.
 Printed pages 911-943.
+
+*Done <2026-10-08>:* published (=bdabe46=). 3,063 Globe lines; 33 of 33
+pages pass; Schmidt 1913/2037 citations, no runs; validates against
+=perseus_drama.rng=. The first build failed 24 of 33 pages (46
+intervals). corpus-tools merge =3ec2ec1=.
+
+The decision point. Antony needed changes to the code, none of them
+fitted to Antony's typography; each left Lear byte-identical:
+- a P4 =<p>= means prose only where the P4 marks verse at all (seven P4s
+  mark none: 1h4, 1h6, 2h4, 2h6, 3h6, ant, aww);
+- a stray match at a page's foot no longer ends the page (a watermark's
+  "OF" moved the next page's floor);
+- rows sit on their ALTO baselines, deskewed, not on box centres
+  (marginal numbers attached to the wrong row on Trent);
+- each row's margin is local to it (Trent's margin drifts half a pitch
+  down a column);
+- a speech row may open with a longer stage direction (asides; "[To
+  Proculeius and the Guard] Guard her till");
+- the scanner's watermark is furniture (=witnesses.toml= declares it);
+- a table row that does not apply in one witness rules that witness out
+  for the page, not the build (Michigan pp.939-942 carry a reader's
+  pencilled numbers).
+And a new table kind, =separate=: a row the page displaces as if it
+completed the line above, which the Globe numbers as a line of its own
+("Well;", II.6; "Sole sir o' the world,", V.2; "All dead.", V.2; the
+heading "THE SONG.", II.7, which the Globe counts). Lear had none. 19
+Antony rows, checked by Cliff <2026-10-08>; Lear's 9.
+
+Found on the way:
+- The printings differ: at "Ant. Come, sir, come;" (III.2, p.925)
+  Michigan (1866) prints 60, Trent (1887) 61; Schmidt agrees with 61. The
+  build already takes the other witness's reading where it closes, and
+  the intervals report says so. Lineation stable across printings holds;
+  marginal numbers can be corrected between them.
+- Schmidt is now a standing check (corpus-tools =schmidt_smoke.py=, run
+  on every build; schmidt-lexicon-workshop =citation_quotes.tsv= now
+  covers every play, its merge =687b876=). Its "runs" (citations in a
+  row off by one amount) located II.7's errors.
+
+** TODO Lear V.3.111-114: Schmidt cites four lines one later than ours
+:PROPERTIES:
+:CUSTOM_ID: build/lear-herald-run
+:END:
+Found by the standing Schmidt check <2026-10-08> (corpus-tools
+=reports/globe/schmidt-smoke-lr.md=, "Runs"): the Herald's proclamation,
+prose. The gate's interval (110-120) closes over it, so the count agrees
+with the page at both ends; inside it, Schmidt's numbers run one later
+than our rows. Look at the page: a prose row break the printings set
+differently, or ours.
+
+** TODO The header's junction sentence
+:PROPERTIES:
+:CUSTOM_ID: build/header-junctions
+:END:
+The editorialDecl says "N junctions in this play, where two speeches may
+share a verse line but the page's typography does not show whether they
+do, were decided individually". N counts every row of =shared-lines.tsv=
+but numerals: same-speaker turnovers (Lear's two, Antony's three) and,
+since Antony, =separate= rows, decided the other way. Reword before the
+batch republishes everything (=#globe/shell-template= is the moment).
 
 ** TODO Batch the remaining plays
 :PROPERTIES:
