@@ -862,6 +862,34 @@ but numerals: same-speaker turnovers (Lear's two, Antony's three) and,
 since Antony, =separate= rows, decided the other way. Reword before the
 batch republishes everything (=#globe/shell-template= is the moment).
 
+** Deferred: the witnesses are two states of the plates
+:PROPERTIES:
+:CUSTOM_ID: deferred/plate-states
+:END:
+Parked <2026-10-08>, deliberately: interesting, and not on the path to
+the Globe lineation.
+
+At "Ant. Come, sir, come;" (III.2, p.925) Michigan (1866) prints 60 and
+Trent (1887) prints 61, seen on both scans. The count, with the checked
+junctions, makes that line 61, and Schmidt agrees ("outgo" 60-61, "I'll
+wrestle" 62). So the 1866 numeral was misplaced and the plate was
+corrected by 1887: the two witnesses are different states of the same
+plates, in the marginal numbers at least. The lineation itself agrees.
+
+Nothing to do for the build: the numerals are the gate's check, not what
+it reproduces, and where the witnesses disagree it takes the reading that
+closes the count and says so in the intervals report.
+
+If it is ever taken up:
+- collate the printed numerals across the whole volume, both witnesses
+  being OCR'd end to end, to see whether III.2 is a lone correction or one
+  of a series (and perhaps which state Schmidt used);
+- compare the two witnesses' words directly, not only each against the
+  P4, for text corrected in the plates;
+- "same plates" was inferred from identical page and line breaks; shared
+  type damage would be the stronger evidence, if many differences turned
+  up.
+
 ** TODO Batch the remaining plays
 :PROPERTIES:
 :CUSTOM_ID: build/batch-remaining
