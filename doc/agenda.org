@@ -1015,6 +1015,28 @@ Header data added first: Doubleday Volume One pp. 278-305.
   Lear, Antony or Titus, which are byte-identical. Richard II: 23 of 26
   pages. Left: the shared row (p.363), the lacuna (p.364), the numeral
   set a line low (p.370).
+- *The shared row*: proposed and checked by Cliff <2026-10-12>; the
+  Folger marks only its second half (ftln-0791 =part=F=), which is why the
+  build did not propose it. 24 of 26 pages.
+- *Two new =shared-lines.tsv= kinds, done <2026-10-12>* (corpus-tools
+  =29410f5=). Cliff's decisions: the names =lacuna= and =misplaced=; the
+  lacuna's dots are an =<ellipsis>= with a =<metamark>=, as Titus's are;
+  and *the header says nothing about the lacuna*. It is a famous crux,
+  but the edition reproduces the Globe as it is and draws no more
+  attention to this crux than to any other. Neither kind counts as a
+  junction.
+  - =lacuna=: a line the page prints without words. The row names the
+    line above; the build inserts the page's one row without letters
+    there as a line, with its numeral, and refuses unless the P4 has a
+    wordless =<l>= at that point too. The milestone opens that =<l>=. The
+    Folger has no such line, but its numbering skips 2.1.290 and
+    ftln-0959 for it.
+  - =misplaced=: a numeral the page prints beside a row of the next line.
+    The row names both lines, and the build checks the numeral against
+    the line it numbers. Kept apart from =numeral=, which corrects an OCR
+    misreading.
+  With both rows proposed (unchecked), *26 of 26 pages pass*; Schmidt
+  1758/1811, no runs. Lear, Antony and Titus are byte-identical.
 This is the decision point the batch was waiting for. Titus needed no
 rule change; Richard II needs two, both about turnovers, plus a way to
 count a line with no words and to say that a numeral is set a line low. Decide whether to change it, with Lear, Antony and
