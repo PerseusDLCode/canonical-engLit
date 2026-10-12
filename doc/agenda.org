@@ -946,6 +946,13 @@ build is in corpus-tools =out/globe/tit/= (=083ab80=). The header needed
 Titus's title and its Doubleday pages (Volume One, =bwb_KT-315-451_1=,
 pp. 1-26: =c409398=), so every other play will need its own too.
 
+*Titus published <2026-10-12>.* Cliff checked both rows (the II.1
+junction is shared; p.704 prints 179 in both printings). Built on
+corpus-tools =main= (merge =2e79eed=): 24 of 24 pages, 2,523 Globe
+lines, Schmidt 1432/1496 with no runs; validates against
+=perseus_drama.rng=; =make globe-verify PLAY=tit= OK. Next: Richard II,
+once =#build/p4-coverage= lets its P4 convert.
+
 ** TODO Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
