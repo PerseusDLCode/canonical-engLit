@@ -976,7 +976,7 @@ masque), wiv (1, 1), ado (3, 2), tn (6, 5: letters and songs), h8 (1
 song in a =blockquote=), ham (26, 4: the letters, the Mousetrap, the
 Player's speech), cym (1 =lg=).
 
-** TODO P4 encoding the conversion does not handle yet
+** DONE P4 encoding the conversion does not handle yet
 :PROPERTIES:
 :CUSTOM_ID: build/p4-coverage
 :END:
@@ -999,6 +999,31 @@ stops on three things. Each play's counts are for the body.
 Clean now, besides lr and ant: err lll mnd ayl aww wt jn 2h4 3h6 r3
 tit rom jc mac. *Richard II is not*: one =<p @n>= and two =<lb>= with no
 =@ed=, so its cold run waits on this task.
+
+*Done <2026-10-12>* (corpus-tools merge =ba52bfd=). 31 of the 37 plays
+now convert; the other six (tmp wiv ado tn ham cym) wait only on
+=#build/inset-numbering=. Lear, Antony and Titus are byte-identical.
+Since the build strips every line marker before it reads the pages,
+none of the three can change a play's lineation. They decide whether
+the play converts, and what the old-vs-new anchors report reads.
+- Entities: added to =ENTITY_MAP= (=727d13f=). =&oelig;= and =&agrave;=
+  fall out of the tokens' normalisation, as =&aelig;= already does
+  ("Cæsar" -> "csar"): a word disagreement at worst, never a line.
+- =<lb>= with no =@ed= (3,560): *Globe markers missing =ed="G"=*, read
+  as such and counted (=5ede8eb=). Pericles (2,269; it has 4 =ed="G"=
+  and, not being in the Folio, no F1) and Troilus (725; no =ed="G"= at
+  all) mark their Globe rows this way almost throughout. Elsewhere a
+  numbered one falls in the play's =ed="G"= sequence (Othello II.3 70G,
+  81, 100G; Timon IV.3 299G, 319, 350G). Othello's 437 follow an
+  =<lb ed="G"/>= directly, a doubled marker.
+- =<p @n>= (78): *the Globe number of the speech's first row*, recorded
+  on the paragraph for want of a marker. Every one falls in order in its
+  scene's Globe sequence (R2 II.3 30, 40, 50; 1H4 II.4 489, 510, 541),
+  none duplicates a neighbour, and each paragraph's own first Globe
+  marker is unnumbered. Cliff's decision: recover them as anchors, as
+  Lear's misplaced =<l @n>= is, not strip them as Antony's =<sp @n>= is
+  (=#build/p4-coverage=, corpus-tools =dbf1375=). Troilus
+  takes 54 of its 68 anchors from them.
 
 ** TODO Word corrections, demand-driven
 :PROPERTIES:
