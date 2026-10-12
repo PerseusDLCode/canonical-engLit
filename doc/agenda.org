@@ -953,6 +953,30 @@ lines, Schmidt 1432/1496 with no runs; validates against
 =perseus_drama.rng=; =make globe-verify PLAY=tit= OK. Next: Richard II,
 once =#build/p4-coverage= lets its P4 convert.
 
+*Richard II, cold <2026-10-12>; held-out status spent.* Run with the
+classifier unchanged, once its P4 converted (=#build/p4-coverage=):
+2,758 Globe lines, *22 of 26 pages pass*, 6 failing intervals on pp.
+362, 363, 364, 370 (corpus-tools =globe/regenerate-r2=, not merged).
+Header data added first: Doubleday Volume One pp. 278-305.
+- I.4 (+1, 30 -> 40, p.361): the row "friends;'" is set at the turnover
+  indent below "With 'Thanks, my countrymen, my loving" (seen on the
+  Michigan scan), and the P4 has the two in one =<l>=, but the classifier
+  made it a new line. The borderline-rows report gives the row above as
+  1.30 units short of the measure: the turnover test looks too strict
+  for a justified row that ends short. *A classifier rule, not a table
+  row.*
+- III.3 (+1 then -1 around 10, p.370): the P4's anchor and the Folger's
+  shared line at 11 ("Left I his title out." / "The time hath been,")
+  reach the printed 19 exactly; the build counts one line too many
+  before the printed 10, one too few after it. The rows above 10 include
+  two turnovers like I.4's ("lord:", "berland"). Not yet diagnosed.
+- II.1 (+1 at 80 -> 90, +1 at 110 -> 120, -1 at 270 -> 290; pp. 362-364;
+  Michigan ruled out on p.363): not yet diagnosed.
+This is the decision point the batch was waiting for. Titus needed no
+rule change; Richard II, on present evidence, needs at least one (the
+turnover test). Decide whether to change it, with Lear, Antony and
+Titus required to stay byte-identical, before running the rest.
+
 ** TODO Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
