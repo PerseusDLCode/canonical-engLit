@@ -923,6 +923,76 @@ Titus and Richard II are held out (=#phase2/held-out=): run them
 unchanged once the classifier is frozen, before the rest, as a cold
 test. Their held-out status is unspent; record it if it ever is.
 
+<2026-10-12>: the first Titus run stopped in the P4 conversion (an
+unhandled =<gap/>=, III.1), before any page was read, so its held-out
+status is still unspent. The conversion was extended (corpus-tools
+=6769601=, not a classifier change) and Titus run again.
+
+*Titus, cold <2026-10-12>; held-out status spent.* Run with the
+classifier unchanged: 2,524 Globe lines, *22 of 24 pages pass*, 2 failing
+intervals (corpus-tools =72dc080=). Antony's first build, by comparison,
+failed 24 of 33. Neither failure needs a rule change; each needs a
+=shared-lines.tsv= row, proposed and *not yet checked*:
+- p.693, II.1 (+1): "Dem. Ay, boy, grow ye so brave? [They draw." /
+  "Aar. [Coming forward] Why, how now, lords!" Both rows are set full
+  width, so the page cannot show the junction; counted from the printed
+  41 (OCR'd as "sheath41", hence the wide 30 -> 51 interval), the
+  printed 51 needs the fold. The Folger joins the two halves.
+- p.704, IV.2 (+3): the page prints 179 (seen on both scans); Kraken
+  reads 176 in Michigan and 170 in Trent.
+With both rows, 24 of 24 pages pass: 2,523 lines; Schmidt 1432/1496, no
+runs. The canonical build is refused until Cliff checks them; the review
+build is in corpus-tools =out/globe/tit/= (=083ab80=). The header needed
+Titus's title and its Doubleday pages (Volume One, =bwb_KT-315-451_1=,
+pp. 1-26: =c409398=), so every other play will need its own too.
+
+** TODO Songs, masques and letters: does the Globe number their rows?
+:PROPERTIES:
+:CUSTOM_ID: build/inset-numbering
+:END:
+Found <2026-10-12>, when the first Titus run stopped in the P4 conversion
+and every play's P4 was surveyed. Some plays carry text set off from the
+dialogue: a song (=<lg>=), a masque or a letter read aloud (a =<text>=
+inside the body, with its own =<closer>=/=<signed>=), a song inside a
+=<quote rend="blockquote">=. Whether the Globe counts those rows in the
+scene's numbering, and whether it counts every row or only some (a
+song's heading, as Antony's "THE SONG." in II.7 is counted), is
+undecided. It has to be settled from the page images before these plays
+are built, and may differ between kinds.
+
+The conversion raises on =<lg>= and on an inset =<text>= until it is
+settled. Henry VIII's song converts, its =<quote>= being inline, but
+the question is the same.
+
+Plays that depend on it (P4 counts): tmp (9 =lg=, 1 =text=: the
+masque), wiv (1, 1), ado (3, 2), tn (6, 5: letters and songs), h8 (1
+song in a =blockquote=), ham (26, 4: the letters, the Mousetrap, the
+Player's speech), cym (1 =lg=).
+
+** TODO P4 encoding the conversion does not handle yet
+:PROPERTIES:
+:CUSTOM_ID: build/p4-coverage
+:END:
+Found by the same survey <2026-10-12>. Apart from the inline elements
+now handled (corpus-tools =6769601=: =<gap>=, =<foreign>=, =<q>=,
+=<quote>=, =<hi>=, =<seg>=, =<closer>=, =<signed>=), the conversion
+stops on three things. Each play's counts are for the body.
+
+- =<lb>= with no =@ed= (=<lb/>=, =<lb n="N"/>=, =<lb rend="centered"/>=):
+  per 2269, tro 725, oth 475, h8 64, cym 14, tim 6, r2 2, tgv 1, shr 1,
+  1h4 1, h5 1, ham 1. Where there are hundreds the P4 was probably
+  encoded differently, perhaps with rows not marked =ed="G"=; look before
+  mapping. It is a lineation question, not a mechanical one.
+- =<p n="...">=: tro 54, per 8, 1h4 6, cym 5, mm 2, mv 1, shr 1, r2 1.
+  Probably stray anchors like Lear's =<l @n>= and Antony's =<sp @n>=,
+  which the conversion logs and does not use; confirm first.
+- Entities missing from =ENTITY_MAP=: =&lsquo;= and =&rsquo;= (ham, 1h4,
+  cor), =&oelig;= (2h6), =&agrave;= (1h6). Mechanical.
+
+Clean now, besides lr and ant: err lll mnd ayl aww wt jn 2h4 3h6 r3
+tit rom jc mac. *Richard II is not*: one =<p @n>= and two =<lb>= with no
+=@ed=, so its cold run waits on this task.
+
 ** TODO Word corrections, demand-driven
 :PROPERTIES:
 :CUSTOM_ID: build/text-corrections
