@@ -1037,6 +1037,20 @@ Header data added first: Doubleday Volume One pp. 278-305.
     misreading.
   With both rows proposed (unchecked), *26 of 26 pages pass*; Schmidt
   1758/1811, no runs. Lear, Antony and Titus are byte-identical.
+
+*Richard II published <2026-10-12>.* Cliff checked the lacuna and
+misplaced rows. Built on corpus-tools =main= (merge =50f1e36=): 2,756
+Globe lines, 26 of 26 pages, Schmidt 1758/1811 with no runs; the lacuna
+at II.1.280 is an =<ellipsis>= in the P4's wordless line. Validates
+against =perseus_drama.rng=; =make globe-verify PLAY=r2= OK. Its title
+stays "Richard II", as its =__cts__.xml= has it.
+
+*Both cold tests are spent.* Titus needed table rows only; Richard II
+needed two classifier rules (both about turnovers) and two new table
+kinds. Next is the rest of the batch. Each play needs its witness pins
+(=globe-lineation manifest PLAY=) and its header data (title and
+Doubleday pages, =tei_header.py=) first, and the seven
+=#build/inset-numbering= plays wait on that question.
 This is the decision point the batch was waiting for. Titus needed no
 rule change; Richard II needs two, both about turnovers, plus a way to
 count a line with no words and to say that a numeral is set a line low. Decide whether to change it, with Lear, Antony and
