@@ -772,7 +772,7 @@ be pinned. The build refuses the file if it differs, and the header's
 Folger citation is written from the row. Lear is pinned at =c34c2d4=,
 Antony likewise (=shake000035=). corpus-tools merge =02f0107=.
 
-** TODO Build an edition from sources, not from its last output
+** DONE Build an edition from sources, not from its last output
 :PROPERTIES:
 :CUSTOM_ID: globe/shell-template
 :DEPENDS: globe/per-play-table
@@ -783,6 +783,15 @@ Each published edition is the shell of its own next build. Replace the
 shell with a header template and the per-play table, so that an edition
 is built from sources and never from its last output. Not needed for
 Antony, whose shell is =mvp='s 2025 file; do it before the batch.
+
+*Done <2026-10-12>:* corpus-tools =data/globe/edition-template.xml=
+and the per-play table; the build never reads the published edition.
+Lear and Antony rebuilt from it and republished: from =<body>= to the
+end, each is byte-identical to the edition it replaces; only the header
+changed (the template's layout, the junction sentence below, and
+=<language>= without a stray =tei:= prefix). Both validate against
+=perseus_drama.rng=; =make globe-verify= is OK for both. corpus-tools
+merge =2ae76c9=.
 
 ** DONE Regenerate Antony
 :PROPERTIES:
@@ -851,7 +860,7 @@ with the page at both ends; inside it, Schmidt's numbers run one later
 than our rows. Look at the page: a prose row break the printings set
 differently, or ours.
 
-** TODO The header's junction sentence
+** DONE The header's junction sentence
 :PROPERTIES:
 :CUSTOM_ID: build/header-junctions
 :END:
@@ -861,6 +870,14 @@ do, were decided individually". N counts every row of =shared-lines.tsv=
 but numerals: same-speaker turnovers (Lear's two, Antony's three) and,
 since Antony, =separate= rows, decided the other way. Reword before the
 batch republishes everything (=#globe/shell-template= is the moment).
+
+*Done <2026-10-12>:* the sentence now says what the junctions are, not
+how many there are of one kind (Antony's: "In seventeen places in this play the
+page's typography does not show where a Globe line begins: two speeches
+that may share a verse line, a speech's line continued on a row set
+flush with the margin, or a row set as though it completed the line
+above which the Globe numbers as a line of its own"). corpus-tools
+=a2ff3b4=; republished with =#globe/shell-template=.
 
 ** Deferred: the witnesses are two states of the plates
 :PROPERTIES:
