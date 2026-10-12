@@ -953,6 +953,19 @@ lines, Schmidt 1432/1496 with no runs; validates against
 =perseus_drama.rng=; =make globe-verify PLAY=tit= OK. Next: Richard II,
 once =#build/p4-coverage= lets its P4 convert.
 
+*Titus republished <2026-10-12>: the lacuna is an =<ellipsis>=.* At
+III.1.36 ("And bootless unto them . . . . . . . . .") the Globe marks the
+omission itself, so it is P5's =<ellipsis>= with the dots as its
+=<metamark function="ellipsis">=, not =<gap>=, which is for what the
+encoder leaves out (Cliff, from the TEI Guidelines, COEDADD). The
+Folger marks nothing there: "And bootless unto them." is an ordinary
+short line. =<ellipsis>= is new in TEI P5 4.12.0, so perseus-schemas now
+builds against 4.12.0 (=8900886=, branch =ellipsis=; the upgrade alone
+drops =<re>=, which no corpus file uses, and adds optional attributes).
+corpus-tools merge =5efc258=. Titus differs from the edition it replaces
+at that line only; it validates and =make globe-verify PLAY=tit= is OK.
+Richard II's lacuna (II.1.280) will be encoded the same way.
+
 *Richard II, cold <2026-10-12>; held-out status spent.* Run with the
 classifier unchanged, once its P4 converted (=#build/p4-coverage=):
 2,758 Globe lines, *22 of 26 pages pass*, 6 failing intervals on pp.
