@@ -1051,6 +1051,29 @@ kinds. Next is the rest of the batch. Each play needs its witness pins
 (=globe-lineation manifest PLAY=) and its header data (title and
 Doubleday pages, =tei_header.py=) first, and the seven
 =#build/inset-numbering= plays wait on that question.
+
+*Two Gentlemen published <2026-10-13>* (corpus-tools merge =7420927=),
+the first of the batch. Doubleday Volume One pp. 103-124. First build
+17 of 21 pages; *21 of 21* after:
+- a rule: a one-word row whose word the P4 spells otherwise ("labour."
+  / "labor.", "favoured." / "well-favored.", "colour?" / "color?") had
+  no start, so was no line; it now starts at the one word left over
+  between the matched rows around it, if the two are spelt alike;
+- a rule: a row in the indented band in the same =<l>= as a full row
+  above continues it (turnovers at 2.89u, III.1);
+- two =separate= rows, checked by Cliff: prose rows set in at the
+  turnover indent (p.22, I.1). As a rule this broke Lear II.1.45, whose
+  P4 sets verse in =<p>=.
+Schmidt 1279/1316 once the smoke test took "Gentl." as well as "Gent."
+for the play (it had read 382 citations as another play's). Its one
+run, 4.4.133-134 +1, is Schmidt's own: he cites lines the page prints
+consecutively as 134 and 136.
+
+*Lear, Titus and Richard II republished* with the same build: every
+milestone unchanged; 4, 5 and 1 =<lb/>= added at turnovers the old build
+missed ("much o' the / savor"). In Richard II, Michigan's p.356 now
+passes and is chosen over Trent, and gives "ACT I" a row of its own:
+one more =<lb/>=. Antony unchanged. All five =globe-verify= OK.
 This is the decision point the batch was waiting for. Titus needed no
 rule change; Richard II needs two, both about turnovers, plus a way to
 count a line with no words and to say that a numeral is set a line low. Decide whether to change it, with Lear, Antony and

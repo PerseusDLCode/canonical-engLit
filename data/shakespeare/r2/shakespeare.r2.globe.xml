@@ -104,8 +104,8 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
-      <change when="2026-10-12">
-        <ab>Globe lineation regenerated from the witness pages by regenerate.py 0.1.0 at corpus-tools commit 300bf5d; sources: r2.xml sha256 fdaf120cc0ea253b; shared-lines.tsv sha256 e67037e721e21f16; edition-template.xml sha256 47381fe6c26e8920. Generated file: DO NOT EDIT.</ab>
+      <change when="2026-10-13">
+        <ab>Globe lineation regenerated from the witness pages by regenerate.py 0.1.0 at corpus-tools commit 5cfccf2; sources: r2.xml sha256 fdaf120cc0ea253b; shared-lines.tsv sha256 faf45a0fa3999f0c; edition-template.xml sha256 47381fe6c26e8920. Generated file: DO NOT EDIT.</ab>
       </change>
       <change>
         <ab>converted to TEI P5</ab>
@@ -352,6 +352,7 @@
     </castList>
   </div>
   <div type="act" n="1">
+    <lb/>
     <head>ACT I</head>
     <div type="scene" n="1">
       <lb/>
@@ -2747,7 +2748,7 @@
       <sp who="r2-14">
         <speaker>North.</speaker>
         <l>
-          <milestone unit="line" ed="Globe" n="262"/>His noble kinsman: most degenerate king ! </l>
+          <milestone unit="line" ed="Globe" n="262"/>His noble kinsman: most degenerate <lb/>king ! </l>
         <l>
           <milestone unit="line" ed="Globe" n="263"/>But, lords, we hear this fearful tempest sing, </l>
         <l>
