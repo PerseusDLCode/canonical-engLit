@@ -1074,6 +1074,23 @@ milestone unchanged; 4, 5 and 1 =<lb/>= added at turnovers the old build
 missed ("much o' the / savor"). In Richard II, Michigan's p.356 now
 passes and is chosen over Trent, and gives "ACT I" a row of its own:
 one more =<lb/>=. Antony unchanged. All five =globe-verify= OK.
+
+*Measure for Measure published <2026-10-13>* (corpus-tools merge
+=3051e88=). Doubleday Volume Two pp. 663-689. 2,822 Globe lines, *26 of
+26 pages*, with no rule change, after nine rows Cliff checked:
+- three =separate= ("to the world?", I.2 p.69; "Isab. Why,", III.1
+  p.78; "Ang. Happy return…", V.1 p.87) and three =shared= (Lucio's
+  asides set flush, II.2 p.74 ×2; "Be perfect." / "I warrant your
+  honour.", V.1 p.88);
+- two =numeral=: a damaged 130 read as 120 (II.4 p.76); and the "I"
+  ending "said even now, I" read as a marginal 1 (V.1 p.92), where no
+  number is printed: a =numeral= row may now leave =first_half= empty;
+- one =misplaced=: II.1 p.72 prints 160 a row below the line it
+  numbers. The 1864 first printing (UVa, leaf 90) is set identically,
+  so it is the Globe's own slip, not a later resetting.
+Schmidt 1682/1770. Its runs, III.2 43-77 −1, are Schmidt's: p.80 gives
+the printed 81 only if "cord, sir." is a turnover, as it is set (1864
+too, UVa leaf 98). All six =globe-verify= OK.
 This is the decision point the batch was waiting for. Titus needed no
 rule change; Richard II needs two, both about turnovers, plus a way to
 count a line with no words and to say that a numeral is set a line low. Decide whether to change it, with Lear, Antony and
