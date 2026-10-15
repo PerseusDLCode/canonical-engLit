@@ -1113,6 +1113,36 @@ too, UVa leaf 98). All six =globe-verify= OK.
 Schmidt 1127/1175. Its one run, IV.4.40-45 +1, is Schmidt's: p.104
 prints no 30 or 40, and the prose rows from 21 give the 50 on p.105.
 All seven =globe-verify= OK.
+
+*Love's Labour's Lost published <2026-10-15>* (corpus-tools merge
+=970434b=). Doubleday Volume One pp. 56-83. 2,788 Globe lines, *26 of
+26 pages*, after nineteen rows Cliff checked and two rule changes he
+approved:
+- the page reader splits columns at the empty gutter, and takes a
+  column's margin from the leftmost cluster of flush rows (at least
+  four), not its leftmost row. Six published plays build byte-identical;
+  Errors moves one milestone one word (II.2.155 now starts at "When"),
+  and is republished here;
+- a =separate= row's second half may start with words the witnesses lost
+  ("silly thought my", III.1 p.142, where both read "thought"), and
+  =line= "all" applies a row to every identical junction on its page
+  (the refrains "Cuckoo;" and "Tu-whit;", V.2 p.160).
+The rows: seven =separate= (displaced lines, verse set with every other
+line indented, the refrains); two =shared= (IV.1 p.144, V.2 p.154); one
+=turnover= ("almighty,", V.2 p.158); four =misplaced= (II.1 p.141, IV.3
+pp.146-147, V.2 p.160); two =numeral= (59 read as 50, I.2 p.138; 30
+read as 50, II.1 p.139, where Trent, Michigan and UVa all print 30);
+two =miscount=: I.1 p.137 folds Armado's subscription "DON ADRIANO DE
+ARMADO." into the line above, though IV.1 numbers the same subscription
+(89); V.2 p.153 prints eleven lines between 160 and 171 (1864 too, UVa
+leaf 171), and the row folds "Out--" / "True; out indeed."; "Not to
+behold--" / "Once to behold, rogue." is the other candidate, and nothing
+decides between them.
+The P4 typo at I.2 ("gamester,sir." and a stray "ed=G>") is corrected
+(=5c60a64=). Schmidt 1872/1997. Its three runs are his: IV.3.42-45 and
+V.2.892-895 count from the misplaced 40 and 890; IV.3.212-215 contradicts
+his own 207, 211 and 220, and the printed 200 and 220. All eight
+=globe-verify= OK.
 This is the decision point the batch was waiting for. Titus needed no
 rule change; Richard II needs two, both about turnovers, plus a way to
 count a line with no words and to say that a numeral is set a line low. Decide whether to change it, with Lear, Antony and
