@@ -1091,6 +1091,28 @@ one more =<lb/>=. Antony unchanged. All five =globe-verify= OK.
 Schmidt 1682/1770. Its runs, III.2 43-77 −1, are Schmidt's: p.80 gives
 the printed 81 only if "cord, sir." is a turnover, as it is set (1864
 too, UVa leaf 98). All six =globe-verify= OK.
+
+*Comedy of Errors published <2026-10-15>* (corpus-tools merge
+=9af9d96=). Doubleday Volume One pp. 84-102. 1,777 Globe lines, *18 of
+18 pages*, after six rows Cliff checked and one new table kind:
+- two =shared= on p.99 (III.1): rhymed fourteeners whose second half is
+  set at the speaker indent ("Let my master in, Luce." / "Faith, no; he
+  comes too late;", "Thou baggage, let me in." / "Can you tell for whose
+  sake?"); and two =numeral= there: a stray mark read as 19, a 90 read
+  as 2. Trent reads that page's turnovers as starts; Michigan does not;
+- =misplaced=: V.1 p.109 prints 380 a row *above* the line it numbers
+  (Richard II's 10 was a row below);
+- =miscount=, new: V.1 p.108 prints eleven lines between 230 and 240,
+  none a turnover or a shared half, set so in the 1864 printing (UVa
+  leaf 126). The Globe's count runs one behind the rows to the scene's
+  end, and Schmidt follows it. The row folds "Of vile confederates.
+  Along with them" into the line above, as a shared half is folded, so
+  the edition keeps the Globe's numbers; it is not a junction. Which
+  neighbour shares the number the page does not show: Schmidt's
+  "rabble" 236 and "hungry" 237 allow either.
+Schmidt 1127/1175. Its one run, IV.4.40-45 +1, is Schmidt's: p.104
+prints no 30 or 40, and the prose rows from 21 give the 50 on p.105.
+All seven =globe-verify= OK.
 This is the decision point the batch was waiting for. Titus needed no
 rule change; Richard II needs two, both about turnovers, plus a way to
 count a line with no words and to say that a numeral is set a line low. Decide whether to change it, with Lear, Antony and
