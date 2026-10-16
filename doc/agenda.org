@@ -1162,6 +1162,24 @@ the P4 conversion. P4 anchors at IV.1 80-180 are wrong (the page and
 Schmidt agree with us). The P4 typos at II.2 ('conme', 'kyou') are
 corrected (=dc68e93=). Schmidt 1359/1440, no runs. All nine
 =globe-verify= OK.
+
+*The Merchant of Venice published <2026-10-16>* (corpus-tools merge
+=d7714d3=). Doubleday Volume One pp. 331-355. 2,658 Globe lines, *24 of
+24 pages* (first run 18 of 24, eight intervals), after six rows Cliff
+checked and no rule change. The rows: three =miscount= (I.1 p.182, two
+of the last three prose rows of Bassanio's "Gratiano speaks an infinite
+deal of nothing" share a number, which two the page does not show, and
+the row takes the line above; III.2 p.193, "Fair Portia's counterfeit"
+shares 115, as Schmidt's 'surfeit', 'counterfeit' and 'demi-god' do;
+III.2 p.194, "Besides, it should appear" shares 274, one of four rows
+that might, the P4's 280, 290, 310 and 330 standing one row above the
+page's); one =misplaced= (I.3 p.185, 160 printed beside "This bond
+expires", numbering "Of thrice three times"); one =numeral= (III.5 p.196,
+39 read as 3 and 30); one =separate= (III.2 p.193, the turnover "shadow"
+taken as a line of its own: the Globe's count runs one ahead of the
+rows from 128 to 130 and no kind says that a number is skipped, so this
+row is the nearest; it contradicts Schmidt's 'underprize' 128 by one).
+Schmidt 1512/1602, no runs. All ten =globe-verify= OK.
 This is the decision point the batch was waiting for. Titus needed no
 rule change; Richard II needs two, both about turnovers, plus a way to
 count a line with no words and to say that a numeral is set a line low. Decide whether to change it, with Lear, Antony and
