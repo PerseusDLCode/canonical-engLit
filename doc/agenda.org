@@ -1182,7 +1182,7 @@ row is the nearest; it contradicts Schmidt's 'underprize' 128 by one).
 Schmidt 1512/1602, no runs. All ten =globe-verify= OK.
 
 *Much Ado About Nothing published <2026-10-17>* (corpus-tools merge
-=bf2e0c4=' + merge commit). Doubleday Volume One pp. 497-521. 2,825 Globe
+=54e55b0=). Doubleday Volume One pp. 497-521. 2,825 Globe
 lines, *24 of 24 pages* (first run 18 of 24, eight intervals), after five
 rows Cliff checked, one aligner rule he approved, and one widening of a
 table kind:
