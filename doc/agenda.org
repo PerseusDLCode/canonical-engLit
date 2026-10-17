@@ -1050,7 +1050,7 @@ needed two classifier rules (both about turnovers) and two new table
 kinds. Next is the rest of the batch. Each play needs its witness pins
 (=globe-lineation manifest PLAY=) and its header data (title and
 Doubleday pages, =tei_header.py=) first, and the seven
-=#build/inset-numbering= plays wait on that question.
+=#build/inset-numbering= plays waited on that question (settled <2026-10-17>).
 
 *Two Gentlemen published <2026-10-13>* (corpus-tools merge =7420927=),
 the first of the batch. Doubleday Volume One pp. 103-124. First build
@@ -1180,12 +1180,38 @@ taken as a line of its own: the Globe's count runs one ahead of the
 rows from 128 to 130 and no kind says that a number is skipped, so this
 row is the nearest; it contradicts Schmidt's 'underprize' 128 by one).
 Schmidt 1512/1602, no runs. All ten =globe-verify= OK.
+
+*Much Ado About Nothing published <2026-10-17>* (corpus-tools merge
+=bf2e0c4=' + merge commit). Doubleday Volume One pp. 497-521. 2,825 Globe
+lines, *24 of 24 pages* (first run 18 of 24, eight intervals), after five
+rows Cliff checked, one aligner rule he approved, and one widening of a
+table kind:
+- the rule: a page's last row that is a hyphenated compound printed as
+  two words ("chamber window." / P4 "chamber-window.", II.2 p.117) starts
+  at the one word left over; nothing else of a page's last row is
+  inferred (a wider version broke Measure for Measure);
+- =misplaced= may now be two rows off (II.3 p.119 prints 210 beside "her
+  heart out first.", two rows below the line Schmidt's 'impossible' 211
+  puts it on); every earlier row is one row off;
+- the rows: one =miscount= (II.1 p.117, 371 to 391 is twenty numbers for
+  twenty-one rows; Schmidt's 'cost' 387, 'watching' 388, 'modest' 390 show
+  two of the three rows at "And I, my lord." share a number, which two the
+  page does not show); one =turnover= (II.3 p.118, "himself?" set flush);
+  two =misplaced= (II.3 p.119 210; V.1 p.131 270, a row high); one
+  =separate= (V.2 p.132, "shall live no longer", the top of a column, its
+  first word lost by both witnesses).
+The songs (II.3 "Sigh no more", V.2 "The god of love", V.3 "Pardon,
+goddess") passed on =#build/inset-numbering= with no row. The P5 with
+=<lg>= and =<floatingText>= in a speech validates against
+=perseus_drama.rng=. Schmidt 1301/1367, no runs. P4 anchors disagree at
+1.2.10, II.1 (30, 230, 240, 260, 330, 340) and IV.1.50, not examined; the
+pages and Schmidt agree with the build. All eleven =globe-verify= OK.
 This is the decision point the batch was waiting for. Titus needed no
 rule change; Richard II needs two, both about turnovers, plus a way to
 count a line with no words and to say that a numeral is set a line low. Decide whether to change it, with Lear, Antony and
 Titus required to stay byte-identical, before running the rest.
 
-** TODO Songs, masques and letters: does the Globe number their rows?
+** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
 :END:
@@ -1193,20 +1219,36 @@ Found <2026-10-12>, when the first Titus run stopped in the P4 conversion
 and every play's P4 was surveyed. Some plays carry text set off from the
 dialogue: a song (=<lg>=), a masque or a letter read aloud (a =<text>=
 inside the body, with its own =<closer>=/=<signed>=), a song inside a
-=<quote rend="blockquote">=. Whether the Globe counts those rows in the
-scene's numbering, and whether it counts every row or only some (a
-song's heading, as Antony's "THE SONG." in II.7 is counted), is
-undecided. It has to be settled from the page images before these plays
-are built, and may differ between kinds.
+=<quote rend="blockquote">=. The question was whether the Globe counts
+those rows in the scene's numbering.
 
-The conversion raises on =<lg>= and on an inset =<text>= until it is
-settled. Henry VIII's song converts, its =<quote>= being inline, but
-the question is the same.
-
-Plays that depend on it (P4 counts): tmp (9 =lg=, 1 =text=: the
-masque), wiv (1, 1), ado (3, 2), tn (6, 5: letters and songs), h8 (1
-song in a =blockquote=), ham (26, 4: the letters, the Mousetrap, the
-Player's speech), cym (1 =lg=).
+*Settled <2026-10-17>* (corpus-tools =64cd52f=, branch =globe/inset-numbering=),
+from the printed numerals of the blocked plays' pages:
+- *Every printed row of a verse song is a Globe line*, however short or
+  deep it is set: Much Ado V.3 ("Pardon, goddess" ... "Heavily, heavily."
+  the page prints 10 and 20 only if each row counts, the refrain
+  included); The Tempest I.2 ("Full fathom five" 396 ... 400 at "But doth
+  suffer a sea-change", and "Burthen. Ding-dong." is 403). It is the
+  rule =inset= rows already gave A Midsummer Night's Dream.
+- *A heading is not counted* ("SONG." in Much Ado, a centred row with no
+  speech); Antony's "THE SONG." is the exception recorded earlier.
+- Letters and other prose insets are ordinary prose: every printed row is
+  a line, as before.
+- A P4 =<l>= in a song is no guide: it often holds two printed rows
+  (Tempest I.2 "And then take hands:" / "Courtsied when you have
+  and kiss'd"). A row of a song is a turnover only if it completes a
+  broken word or follows a row that ran to the full measure in the same
+  =<l>=. =lineate.in_song= and =continues= do that; no table row is
+  needed. The conversion now keeps =<lg>= (=@id=/=@next=/=@part= as
+  =xml:id=, a pointer and I/M/F; P4's Y is M) and writes an inset =<text>=
+  as =<floatingText>=.
+The ten published plays are byte-identical. The seven plays (tmp wiv ado
+tn h8 ham cym) now build, with their header data and witnesses pinned;
+they are not yet cold-run to the end (ado 18 of 24 pages, tmp 7 of 20, wiv
+22 of 25, tn 18 of 23, h8 20 of 30, ham 23 of 36, cym 21 of 33). Remaining
+intervals are ordinary page-by-page work, a few of them in songs (Hamlet
+IV.5, Tempest I.2). Not yet checked: that the P5 validates against
+=perseus_drama.rng= with =<lg>= and =<floatingText>= in a speech.
 
 ** DONE P4 encoding the conversion does not handle yet
 :PROPERTIES:
