@@ -1224,6 +1224,22 @@ Schmidt 1464/1565, one run off by a constant at I.1.92-93 (two citations,
 bracketed by the page's own 30 and 100; no row). P4 anchors disagree by one
 at five places (III.2, two in I.2, III.5, V.4), not examined. All twelve
 =globe-verify= OK.
+
+*Twelfth Night published <2026-10-18>* (corpus-tools merge =031c9ca=).
+Doubleday Volume One pp. 547-570. 2,691 Globe lines, *23 of 23 pages*
+(first run 18 of 23, six intervals), after five rows Cliff checked, one P4
+correction he approved and no rule change:
+- the P4: Act III's scenes were numbered 1, 1, 2, 3 (heads SCENE I, I, II,
+  III) where the Globe has four; renumbered 1-4 (engLit =4ee41ac=), which
+  cleared the p.293 interval that ran across the clash;
+- two =numeral= (II.3 p.287, 31 read 21; II.5 p.291, 209 read 200);
+- one =inset= and one =separate= for Malvolio's rhyme (II.5 p.290; the P4
+  has no =<lg>=, and its last row repeats the first words of the row after
+  it, so it is cut by a =separate= row instead of ending the inset);
+- one =separate= (IV.2 p.299, "Tell me how thy lady does." is a line of its
+  own though the P4 marks it part=F).
+Schmidt 1443/1514, no runs. P4 anchors disagree by one at II.5 (120, 289)
+and one place near 11, not examined. All thirteen =globe-verify= OK.
 This is the decision point the batch was waiting for. Titus needed no
 rule change; Richard II needs two, both about turnovers, plus a way to
 count a line with no words and to say that a numeral is set a line low. Decide whether to change it, with Lear, Antony and
