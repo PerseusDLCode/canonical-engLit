@@ -1180,6 +1180,10 @@ taken as a line of its own: the Globe's count runs one ahead of the
 rows from 128 to 130 and no kind says that a number is skipped, so this
 row is the nearest; it contradicts Schmidt's 'underprize' 128 by one).
 Schmidt 1512/1602, no runs. All ten =globe-verify= OK.
+This is the decision point the batch was waiting for. Titus needed no
+rule change; Richard II needs two, both about turnovers, plus a way to
+count a line with no words and to say that a numeral is set a line low. Decide whether to change it, with Lear, Antony and
+Titus required to stay byte-identical, before running the rest.
 
 *Much Ado About Nothing published <2026-10-17>* (corpus-tools merge
 =54e55b0=). Doubleday Volume One pp. 497-521. 2,825 Globe
@@ -1240,10 +1244,6 @@ correction he approved and no rule change:
   own though the P4 marks it part=F).
 Schmidt 1443/1514, no runs. P4 anchors disagree by one at II.5 (120, 289)
 and one place near 11, not examined. All thirteen =globe-verify= OK.
-This is the decision point the batch was waiting for. Titus needed no
-rule change; Richard II needs two, both about turnovers, plus a way to
-count a line with no words and to say that a numeral is set a line low. Decide whether to change it, with Lear, Antony and
-Titus required to stay byte-identical, before running the rest.
 
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
