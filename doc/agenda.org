@@ -1206,6 +1206,24 @@ goddess") passed on =#build/inset-numbering= with no row. The P5 with
 =perseus_drama.rng=. Schmidt 1301/1367, no runs. P4 anchors disagree at
 1.2.10, II.1 (30, 230, 240, 260, 330, 340) and IV.1.50, not examined; the
 pages and Schmidt agree with the build. All eleven =globe-verify= OK.
+
+*As You Like It published <2026-10-18>* (corpus-tools merge =b1cf30b=).
+Doubleday Volume One pp. 522-546. 2,852 Globe lines, *24 of 24 pages*
+(first run 17 of 24, nine intervals), after seven rows Cliff checked and
+no rule change:
+- four =inset= rows for the songs (II.5 p.212 and p.213 twice, II.7 p.215):
+  this P4 has no =<lg>= at all, so the automatic rule had nothing to read
+  (the p.215 row ends at "As friend remember'd not.", since the last row's
+  words repeat an earlier row's);
+- two =miscount= (I.2 p.208, "I am more proud" / "His youngest son", both
+  Schmidt 245; III.2 p.218, 419 to 450 is 31 numbers for 32 rows, Schmidt
+  agrees to 'cote' 448 and the fold is after it, taken at "woo me.", which
+  the P4's Globe line breaks set with the row above);
+- one =misplaced= (III.5 p.220, 80 a row high).
+Schmidt 1464/1565, one run off by a constant at I.1.92-93 (two citations,
+bracketed by the page's own 30 and 100; no row). P4 anchors disagree by one
+at five places (III.2, two in I.2, III.5, V.4), not examined. All twelve
+=globe-verify= OK.
 This is the decision point the batch was waiting for. Titus needed no
 rule change; Richard II needs two, both about turnovers, plus a way to
 count a line with no words and to say that a numeral is set a line low. Decide whether to change it, with Lear, Antony and
