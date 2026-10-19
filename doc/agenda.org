@@ -1263,6 +1263,22 @@ Schmidt 1515/1593, no runs. P4 anchors disagree at five places (240, 221,
 edition replaces an older file at the same path. All fourteen =globe-verify=
 OK.
 
+*The Tempest published <2026-10-19>* (corpus-tools merge =25c9ebf=).
+Doubleday Volume One pp. 1-20. 2,040 Globe lines, *20 of 20 pages*
+(first run 7 of 20, 25 failing intervals), after 27 rows Cliff checked and
+no rule change, no P4 change:
+- 17 =shared= (7 proposed by the Folger; the rest from Schmidt or verse
+  metre: I.2 songs, III.3, IV.1, V.1 pp.19-20);
+- 4 =separate=, 3 =numeral= (I.2 p.5, 390 read 290; II.2 p.10, 121 read
+  120, unsettled; V.1 p.18, 90 read 9), 2 =misplaced= (IV.1 p.17, 220; V.1
+  p.19, 240), 1 =miscount= (V.1 p.20, 300).
+Weakest rows are the prose ones: II.1 p.7, II.2 p.10 and p.11. Schmidt
+1676/1766, two runs off by a constant: I.1.69-72 -3 (the five italic
+"confused noise within" rows; the page prints no numeral after 60) and
+II.2.126-130 -1 (tied to the p.10 reading). P4 anchors disagree at 7 of 151
+in the scenes that pass, not examined. The edition replaces an older file at
+the same path. All fifteen =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
