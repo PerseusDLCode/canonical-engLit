@@ -1264,7 +1264,7 @@ edition replaces an older file at the same path. All fourteen =globe-verify=
 OK.
 
 *The Tempest published <2026-10-19>* (corpus-tools merge =25c9ebf=).
-Doubleday Volume One pp. 1-20. 2,040 Globe lines, *20 of 20 pages*
+Doubleday Volume Two pp. 971-992. 2,040 Globe lines, *20 of 20 pages*
 (first run 7 of 20, 25 failing intervals), after 27 rows Cliff checked and
 no rule change, no P4 change:
 - 17 =shared= (7 proposed by the Folger; the rest from Schmidt or verse
