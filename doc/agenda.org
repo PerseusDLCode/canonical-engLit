@@ -1245,6 +1245,24 @@ correction he approved and no rule change:
 Schmidt 1443/1514, no runs. P4 anchors disagree by one at II.5 (120, 289)
 and one place near 11, not examined. All thirteen =globe-verify= OK.
 
+*Merry Wives of Windsor published <2026-10-19>* (corpus-tools merge =e765837=).
+Doubleday Volume One pp. 471-496. 3,018 Globe lines, *25 of 25 pages*
+(first run 22 of 25, three intervals), after two rows Cliff checked, one P4
+addition he approved and no rule change:
+- the P4: IV.2 lacked Ford's "Well, he's not here I seek for." (p.60; both
+  witnesses print it, the Folio lacks it and the Globe adds it); inserted
+  as a speech of its own (engLit =9aafac8=);
+- two =miscount= rows: IV.4 p.61 (10 to 30 is 21 numbers for 22 rows;
+  Schmidt is one behind from 'terror' 23 on, cites nothing in the stretch
+  and the page does not show which junction, so the fold is taken at "So
+  think I too." with the line above, one of seven candidates); IV.5 p.63
+  (50 to 91 is 41 numbers for 42 rows; Schmidt 'grand' and 'Jamany' both
+  89).
+Schmidt 1515/1593, no runs. P4 anchors disagree at five places (240, 221,
+29, and two larger, 39/89 and 81/85, possibly P4 typos), not examined. The
+edition replaces an older file at the same path. All fourteen =globe-verify=
+OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
