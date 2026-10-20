@@ -1279,6 +1279,28 @@ II.2.126-130 -1 (tied to the p.10 reading). P4 anchors disagree at 7 of 151
 in the scenes that pass, not examined. The edition replaces an older file at
 the same path. All fifteen =globe-verify= OK.
 
+*Hamlet published <2026-10-20>* (corpus-tools merge =44a2006=, rebuilt =5c9a5fd=).
+Doubleday Volume Two pp. 597-634. 3,930 Globe lines, *36 of 36 pages*
+(first run 23 of 36, 14 failing intervals), after 17 rows Cliff checked,
+two P4 changes he approved and no rule change:
+- the P4: V.1 lacked the gravedigger's song line "And hath shipp'd me intil
+  the land," (p.840 prints it, and so does the Doubleday witness; lost in
+  the original encoding; both F1 line breaks had stacked on the line
+  above) -- restored as an =<l>= (engLit =d30915e=); and the em-dash after
+  the Pyrrhus quotation (II.2, Globe 472 and 525) was a =<seg>= directly in
+  the =<sp>=, which the schema does not allow, moved inside the =<l>=;
+- 10 =shared= and 1 =turnover= (one proposed by the Folger; I.2 p.813,
+  I.3 p.815, II.1 p.819 twice, II.2 p.825, III.1 p.825 and p.826, III.4
+  p.832, IV.5 p.837), 5 =separate= (II.2 p.821 and p.824, III.4 p.832, IV.7
+  p.838, V.1 p.841), 1 =numeral= (V.1 p.840, 89 read 80).
+Weakest are III.4 p.832's three rows (Folger and metre against the P4's
+part marks; the count only requires one fold in III.4.21-30) and IV.5
+p.837 ("As day does to your eye." with "Let her come in." on Cliff's
+reading; the other fold gives the same count). Schmidt 2771/2907, no runs.
+P4 anchors disagree at 2 of 251 in scenes that pass, not examined (52
+unmapped). The edition replaces an older file at the same path. All
+sixteen =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
