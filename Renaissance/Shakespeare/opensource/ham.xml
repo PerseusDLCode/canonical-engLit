@@ -3653,9 +3653,8 @@
         ed="G"/>see&mdash; <lb ed="G"/>
       </p>
       <lg next="speech1.2" part="I" type="speech" id="speech1.1">
-       <l>&lsquo;The rugged Pyrrhus, like <lb n="1493" ed="F1"/>the Hyrcanian beast,&rsquo; </l>
+       <l>&lsquo;The rugged Pyrrhus, like <lb n="1493" ed="F1"/>the Hyrcanian beast,&rsquo;&mdash;</l>
       </lg>
-      <seg>&mdash;</seg>
       <lb ed="G"/>
       <p>it is not so:&mdash;it begins with Pyrrhus:&mdash; <lb ed="G"/>
       </p>
@@ -3739,9 +3738,8 @@
       <speaker>First Play.</speaker>
       <lg next="speech1.5" part="Y" type="speech" id="speech1.4">
        <lb n="1542" ed="F1"/>
-       <l>&lsquo;But who, O, who had seen the mobled queen&rsquo; </l>
+       <l>&lsquo;But who, O, who had seen the mobled queen&rsquo;&mdash;</l>
       </lg>
-      <seg>&mdash;</seg>
 
       <lb ed="G"/>
      </sp>
