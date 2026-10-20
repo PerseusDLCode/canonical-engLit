@@ -1293,10 +1293,12 @@ two P4 changes he approved and no rule change:
   I.3 p.815, II.1 p.819 twice, II.2 p.825, III.1 p.825 and p.826, III.4
   p.832, IV.5 p.837), 5 =separate= (II.2 p.821 and p.824, III.4 p.832, IV.7
   p.838, V.1 p.841), 1 =numeral= (V.1 p.840, 89 read 80).
-Weakest are III.4 p.832's three rows (Folger and metre against the P4's
-part marks; the count only requires one fold in III.4.21-30) and IV.5
-p.837 ("As day does to your eye." with "Let her come in." on Cliff's
-reading; the other fold gives the same count). Schmidt 2771/2907, no runs.
+Settled by Cliff: III.4 p.832 reads "O, I am slain! / O me, what hast
+thou done?" as one line and "Nay, I know not: is it the king?" as another
+(the Folger's reading and the metre, against the P4's part marks; the count
+only requires one fold in III.4.21-30), and IV.5 p.837 folds "As day does
+to your eye." with "Let her come in." (the other fold gives the same
+count). Schmidt 2771/2907, no runs.
 P4 anchors disagree at 2 of 251 in scenes that pass, not examined (52
 unmapped). The edition replaces an older file at the same path. All
 sixteen =globe-verify= OK.
