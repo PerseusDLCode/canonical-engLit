@@ -2161,8 +2161,9 @@
        />her remain; but I'll <lb ed="G"/>never give o'er. First, a very excellent <lb ed="F1"
         n="978"/>good- <lb ed="G"/>conceited thing; after, a wonderful sweet air, <lb ed="G"/><lb
         ed="F1" n="979"/>with admirable rich words to it: and then let <lb ed="G"/>her <lb ed="F1"
-        n="980"/>consider. <lb/><lb ed="F1" n="981"/><stage>SONG.</stage></p>
+        n="980"/>consider. <lb/><lb ed="F1" n="981"/></p>
       <lg type="song">
+       <head>SONG.</head>
        <lb ed="G"/>
        <lb ed="F1" n="982"/>
        <l>Hark, hark! the lark at heaven's gate sings, <lb ed="G"/><lb ed="F1" n="983"/></l>
@@ -5043,70 +5044,95 @@
      </sp>
      <sp who="arv.">
       <speaker>Arv.</speaker>
-      <l part="F">So. Begin, <lb/><lb ed="F1" n="2576"/><stage>SONG.</stage>
+      <l part="F">So. Begin, <lb/><lb ed="F1" n="2576"/>
        <lb ed="G"/><lb ed="F1" n="2577"/></l>
      </sp>
      <sp who="gui.">
       <speaker>Gui.</speaker>
+      <lg type="song" id="d1">
+       <head>SONG.</head>
       <l>Fear no more the heat o' the sun, <lb/><lb ed="F1" n="2578"/></l>
       <l> Nor the furious winter's rages; <lb ed="G" n="260"/><lb ed="F1" n="2579"/></l>
       <l>Thou thy worldly task hast done, <lb/><lb ed="F1" n="2580"/></l>
       <l> Home art gone, and ta'en thy wages:" <lb/><lb ed="F1" n="2581"/></l>
       <l>Golden lads and girls all must, <lb/><lb ed="F1" n="2582"/></l>
       <l>As chimney-sweepers, come to dust. <lb ed="G"/><lb ed="F1" n="2583"/></l>
+      </lg>
      </sp>
      <sp who="arv.">
       <speaker>Arv.</speaker>
+      <lg type="song" id="d2">
       <l>Fear no more the frown o' the great; <lb/><lb ed="F1" n="2584"/></l>
       <l> Thou art past the tyrant's stroke; <lb/><lb ed="F1" n="2585"/></l>
       <l>Care no more to clothe and eat; <lb/><lb ed="F1" n="2586"/></l>
       <l> To thee the reed is as the oak: <lb/><lb ed="F1" n="2587"/></l>
       <l>The sceptre, learning, physic, must <lb/><lb ed="F1" n="2588"/></l>
       <l>All follow this, and come to dust. <lb ed="G" n="270"/><lb ed="F1" n="2589"/></l>
+      </lg>
      </sp>
      <sp who="gui.">
       <speaker>Gui.</speaker>
+      <lg next="d3b" part="I" type="song" id="d3a">
       <l>Fear no more the lightning-flash, <lb ed="G"/><lb ed="F1" n="2590"/></l>
+      </lg>
      </sp>
      <sp who="arv.">
       <speaker>Arv.</speaker>
+      <lg next="d3c" part="Y" type="song" id="d3b">
       <l> Nor the all-dreaded thunder-stone; <lb ed="G"/><lb ed="F1" n="2591"/></l>
+      </lg>
      </sp>
      <sp who="gui.">
       <speaker>Gui.</speaker>
+      <lg next="d3d" part="Y" type="song" id="d3c">
       <l>Fear not slander, censure rash; <lb ed="G"/><lb ed="F1" n="2592"/></l>
+      </lg>
      </sp>
      <sp who="arv.">
       <speaker>Arv.</speaker>
+      <lg next="d3e" part="Y" type="song" id="d3d">
       <l> Thou hast finish'd joy and moan: <lb ed="G"/><lb ed="F1" n="2593"/></l>
+      </lg>
      </sp>
      <sp who="both.">
       <speaker>Both.</speaker>
+      <lg part="F" type="song" id="d3e">
       <l part="I">All lovers young, all lovers must <lb/><lb ed="F1" n="2594"/></l>
       <l>Consign to thee, and come to dust. <lb ed="G"/><lb ed="F1" n="2595"/></l>
+      </lg>
      </sp>
      <sp who="gui.">
       <speaker>Gui.</speaker>
+      <lg next="d4b" part="I" type="song" id="d4a">
       <l>No exorciser harm thee! <lb ed="G"/><lb ed="F1" n="2596"/></l>
+      </lg>
      </sp>
      <sp who="arv.">
       <speaker>Arv.</speaker>
+      <lg next="d4c" part="Y" type="song" id="d4b">
       <l>Nor no witchcraft charm thee! <lb ed="G"/><lb ed="F1" n="2597"/></l>
+      </lg>
      </sp>
      <sp who="gui.">
       <speaker>Gui.</speaker>
+      <lg next="d4d" part="Y" type="song" id="d4c">
       <l>Ghost unlaid forbear thee! <lb ed="G"/><lb ed="F1" n="2598"/></l>
+      </lg>
      </sp>
      <sp who="arv.">
       <speaker>Arv.</speaker>
+      <lg next="d4e" part="Y" type="song" id="d4d">
       <l>Nothing ill come near thee! <lb ed="G" n="280"/><lb ed="F1" n="2599"/></l>
+      </lg>
      </sp>
      <sp who="both.">
       <speaker>Both.</speaker>
+      <lg part="F" type="song" id="d4e">
       <l>Quiet consummation have; <lb/>
        <lb ed="F1" n="2600"/>And renowned be thy grave! <lb ed="F1" n="2601"/><stage type="entrance"
         >Re-enter BELARIUS, with the body of CLOTEN.</stage>
        <lb ed="G"/><lb ed="F1" n="2602"/></l>
+      </lg>
      </sp>
      <sp who="gui.">
       <speaker>Gui.</speaker>
