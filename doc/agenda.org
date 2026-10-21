@@ -1303,6 +1303,31 @@ P4 anchors disagree at 2 of 251 in scenes that pass, not examined (52
 unmapped). The edition replaces an older file at the same path. All
 sixteen =globe-verify= OK.
 
+*Cymbeline published <2026-10-21>* (corpus-tools merge =62dfcc7=).
+Printed pp. 945-977. 3,341 Globe lines, *33 of 33 pages*, after 13 rows
+Cliff checked, two P4 changes he approved and one new table kind:
+- the P4: both songs were miscoded. In II.3 "SONG." was a =<stage>= inside
+  Cloten's =<p>=; in IV.2 the dirge ("Fear no more the heat o' the sun") had
+  no =<lg>= and "SONG." was a =<stage>= in Arviragus's line. Both are now
+  =<lg type="song">= with the title a =<head>=, the dirge as chained
+  stanzas (=next=, =part= I/Y/F) (engLit =de96a0a=);
+- the new kind =heading=: the Globe numbers II.3's "SONG." as a line (20
+  beside "words to it" and 30 beside "Arise, arise." are ten numbers for the
+  heading and the song's nine rows) but not IV.2's, which looks the same on
+  the page, so no rule can say which and the table does. The milestone sits
+  inside the =<head>=; the sixteen earlier editions are byte-identical;
+- 7 =shared= (I.5 p.948, III.1 p.956, III.5 p.960 and p.961, III.6 p.962,
+  4.3 p.967, V.5 p.975; the Folger proposed four), 2 =separate= (4.3 p.967,
+  V.4 p.970), 1 =heading= (II.3 p.952), 2 =numeral= (III.1 p.956, 39 read
+  30; I.1 p.945, the sheet signature "60" printed at the foot, no line
+  number), 1 =turnover= (4.2 p.963).
+Schmidt 2146/2255, one run left: 2.3.22-26 +1, inside the song, which
+Schmidt numbers one short of the printed 30 and of his own "consider" 32
+after it; not explained. P4 anchors disagree at 2 of 204 in scenes that pass,
+not examined (48 unmapped). The edition replaces an older file at the same
+path and validates against =perseus_drama.rng=. All seventeen
+=globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
