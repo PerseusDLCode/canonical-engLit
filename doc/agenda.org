@@ -1328,6 +1328,29 @@ not examined (48 unmapped). The edition replaces an older file at the same
 path and validates against =perseus_drama.rng=. All seventeen
 =globe-verify= OK.
 
+*Henry VIII published <2026-10-21>* (corpus-tools merge =50cf58b=).
+Doubleday Volume Two pp. 1023-1054 (printed pp. 592-621). 2,822 Globe lines,
+*30 of 30 pages* (first run 20 of 30, 16 failing intervals), after 18 rows
+Cliff checked, no P4 change and no rule change, but one change to the
+header:
+- the Prologue (32 lines) and the Epilogue (14) are =<p>= and =<l>= directly
+  in =<div1 type="act">=, with no speaker (the Folio prints none), so the
+  refsDecl could not reach them. =build_refs_decl= now has a third =line=
+  branch (=p//M | l//M | lg//M=), cited =prologue.N= and =epilogue.N=,
+  emitted only where a play has such lines, so the seventeen earlier
+  editions keep their refsDecl;
+- 16 =shared= (nine proposed by the Folger; I.2 p.595 and p.597, II.2
+  p.601 three times and p.602, II.4 p.604, III.1 p.606 five times, III.2
+  p.607, IV.1 p.613, IV.2 p.613, V.1 p.616), 2 =numeral= (V.1 p.617: the
+  page prints 130 and 169, read 150 and 160 by Michigan and 129 by Trent).
+Schmidt 1620/1656, no runs. P4 anchors disagree at 13 of 208 in scenes
+that pass, not examined (37 unmapped). New: every build writes
+=reports/globe/regenerate-PLAY-table-lines.tsv=, each table row with the
+act.scene.line it acts on (Cliff, 2026-10-21: the table's scene column was
+too coarse to find a row). The edition replaces an older file at the same
+path and validates against =perseus_drama.rng=. All eighteen
+=globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
