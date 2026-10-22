@@ -893,6 +893,11 @@ wrestle" 62). So the 1866 numeral was misplaced and the plate was
 corrected by 1887: the two witnesses are different states of the same
 plates, in the marginal numbers at least. The lineation itself agrees.
 
+The numeral checks of <2026-10-22> found two more places where the
+witnesses print different numerals on the same line: Measure for Measure
+II.1 p.73 (Michigan 280 and 290, Trent 290 and 300; the count follows
+Trent) and Much Ado II.1 p.116 (Michigan 230, Trent 231).
+
 Nothing to do for the build: the numerals are the gate's check, not what
 it reproduces, and where the witnesses disagree it takes the reading that
 closes the count and says so in the intervals report.
@@ -1350,6 +1355,22 @@ act.scene.line it acts on (Cliff, 2026-10-21: the table's scene column was
 too coarse to find a row). The edition replaces an older file at the same
 path and validates against =perseus_drama.rng=. All eighteen
 =globe-verify= OK.
+
+*Witness review <2026-10-22>* (corpus-tools merge =8f1e3c0=). The batch was
+paused for a review of the witnesses; it may now resume. Two outcomes:
+- *The 1864 printing is consulted, not registered.* The two HathiTrust
+  copies of the 1864 Macmillan Globe (NYPL, UVa) were OCR'd and sampled
+  against Michigan (1866): the same setting on every play page sampled.
+  NYPL adds nothing Michigan and Trent do not have; UVa's leaves drift
+  against the printed pages. See corpus-tools =doc/witnesses.org=.
+- *Every re-read numeral is checked.* Where one witness's margin numeral
+  does not close the count and the other's does, the build takes the
+  other's; both are OCR. Each such re-read now needs a checked row in
+  corpus-tools =data/globe/numeral-checks.tsv=, or the canonical build is
+  refused, as with =shared-lines.tsv=. Cliff checked the 66 re-reads in
+  the eighteen published plays against the scans; nearly all were Kraken
+  misreads of Michigan. No edition changed, and all eighteen
+  =globe-verify= OK without =--allow-pending=.
 
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
