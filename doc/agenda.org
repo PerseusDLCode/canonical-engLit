@@ -1372,6 +1372,35 @@ paused for a review of the witnesses; it may now resume. Two outcomes:
   misreads of Michigan. No edition changed, and all eighteen
   =globe-verify= OK without =--allow-pending=.
 
+*The Taming of the Shrew published <2026-10-23>* (corpus-tools merge
+=d3e0975=); *Hamlet republished* (=5e65b71=). Shrew: Doubleday Volume One
+pp. 445-470. 2,653 Globe lines, *25 of 25 pages* (first run 19 of 25, 8
+failing intervals), after 5 rows and 6 re-read numerals Cliff checked, no
+P4 change, and one rule change:
+- *the margin refit* (=50d3b82=): at the head of Michigan p.236's left
+  column the speech starts sit inside the flush band and outnumber the
+  flush rows, so the fitted margin was the speech indent and four
+  turnovers read as starts; Trent, which reads the page right, dropped the
+  row "Till I can find occasion of revenge." Where a row hangs more than
+  half a pitch into its fitted margin, the fit is now made again without
+  rows opening with a speaker's prefix. It also corrects Trent's Hamlet
+  pp.817, 819 and 831: Trent now reads p.819 as Cliff's two checked rows
+  there had it, and on his decision those rows are retired. Hamlet's text
+  and lineation are unchanged; its header counts fourteen table rows, not
+  sixteen.
+- rows: II.1 p.238 =separate= ("look not sour.": the Globe's count skips a
+  number between 230 and 240; Schmidt's /aim/ II.237 and /care/ II.240 put
+  it before "Well aim'd"), III.1 p.240 =numeral= (20, its 0 broken in both
+  printings), III.2 p.241 =inset= (Biondello's rhyme), III.2 p.242
+  =misplaced= 201, IV.3 p.247 =shared= (Folger and the P4 agree).
+- re-read numerals: pp.242, 245 (two), 246, 247, 250. Michigan misnumbers
+  IV.1 from p.244: it prints 199, 210, 220 where Trent prints 189, 200,
+  210, which the count bears out; a reader has corrected Michigan in
+  pencil (Cliff).
+Shrew's Act II is one scene, so Schmidt cites it =II, N=. Schmidt
+1291/1372, no runs. Both editions replace older files at the same paths
+and validate against =perseus_drama.rng=. All nineteen =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
