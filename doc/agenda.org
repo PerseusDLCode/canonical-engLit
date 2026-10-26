@@ -1429,6 +1429,24 @@ Schmidt 1889/1946, no runs. The edition replaces the older file at the
 same path and validates against =perseus_drama.rng=. All twenty
 =globe-verify= OK.
 
+*King John published <2026-10-26>* (corpus-tools merge =bae7ea9=).
+Doubleday Volume One pp. 306-330. 2,571 Globe lines, *24 of 24 pages*
+(first run 22 of 24), after 2 rows and 8 re-read numerals Cliff checked,
+no P4 change and no rule change:
+- rows: III.1 p.341 =shared= ("Because—" / "Your breeches best may carry
+  them.": Folger pairs them, and Schmidt's /breech/ 201 holds only with
+  the fold), IV.3 p.350 =turnover= ("Our souls religiously confirm thy
+  / words.", one speech for Pembroke and Bigot with their prefixes
+  braced on two rows; the second prefix made the turnover read as a
+  line).
+- re-read numerals: pp.334, 335, 339, 344, 349, 350 (two), 352. Six pages
+  come from Trent (340, 343, 344, 346, 351, 353).
+The Folger divides V.6's "What's that to thee? Why may not I demand" as
+the start of a line; the Globe does not, and Schmidt's /perfect/ V.6.6
+agrees with the Globe count. Schmidt 1816/1890, no runs. The edition
+replaces the older file at the same path and validates against
+=perseus_drama.rng=. All twenty-one =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
