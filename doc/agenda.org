@@ -1401,6 +1401,34 @@ Shrew's Act II is one scene, so Schmidt cites it =II, N=. Schmidt
 1291/1372, no runs. Both editions replace older files at the same paths
 and validate against =perseus_drama.rng=. All nineteen =globe-verify= OK.
 
+*The Winter's Tale published <2026-10-26>* (corpus-tools merge
+=642e0d8=). Doubleday Volume Two pp. 993-1022. 3,075 Globe lines, *28 of
+28 pages* (first run 18 of 28), after 10 rows and 3 re-read numerals Cliff
+checked, no P4 change, and one rule change:
+- *the page before, from the other witness* (=9067eb7=): on Michigan
+  p.317 Kraken has no line for three prose rows below the page's last
+  number ("sidered, as too much I cannot, to be more thank-" and two
+  more); Trent has them. The count fell short only at 50 on p.318, after
+  p.317 was set from Michigan. Where a page fails in both witnesses on an
+  interval from a number on the page before, that page is now built again
+  from the other witness, and kept if both pages then pass. p.317 comes
+  from Trent; so does p.310, as before. A table kind =dropped= (=9910822=)
+  was first made for these rows, on the mistaken note that Trent lost them
+  too; its rows are retired (=5c72170=) and the kind is unused.
+- rows: I.2 p.305 =numeral= (59 read 50), II.1 pp.309 (two), 310 and III.2
+  p.315 =shared=, II.3 p.311 =shared= ("How does the boy?" / "He took good
+  rest to-night;", chosen over a fold into line 9: each pair is a
+  pentameter), II.3 p.313 =misplaced= 140, IV.4 p.322 =separate=
+  ("after.", the turnover of "here-": the Globe's count skips a number
+  between 351 and 359, and the placement among the candidates is Cliff's
+  arbitrary choice), IV.4 p.325 =misplaced= 701 (the count and Schmidt's
+  /careful/ and /session/ put it at 702), V.1 p.327 =numeral= (the "I"
+  ending a row read as 1; no number printed).
+- re-read numerals: pp.322 (339), 324 (590), 325 (731).
+Schmidt 1889/1946, no runs. The edition replaces the older file at the
+same path and validates against =perseus_drama.rng=. All twenty
+=globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
