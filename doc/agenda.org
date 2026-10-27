@@ -1524,6 +1524,26 @@ agree with our count. The edition replaces the older file at the same
 path and validates against =perseus_drama.rng=. All twenty-four
 =globe-verify= OK.
 
+*1 Henry VI published <2026-10-27>* (corpus-tools merge =60e8c97=).
+Doubleday Volume One pp. 27-55. 2,677 Globe lines, *27 of 27 pages*
+(first run 22 of 27), after 2 rows and 4 re-read numerals Cliff checked,
+no rule change (the P4 has no =<l>=, handled as for Antony and 1 and 2
+Henry IV), and three P4 changes (=a034e50=): I.4 puts "And even these
+three days have I watch'd," (F1 480) back before "If I could see them."
+(F1 481); III.1 and IV.7 take "pates." and "of the French preceding."
+back into their entry directions, from which the P4 had left them out as
+speech, each counted as a Globe line.
+- rows: III.1 p.480 =shared= ("Rome shall remedy this." / "Roam thither,
+  then.", Folger part=I/F), V.3 p.491 =misplaced= 80 (beside "wife;", the
+  turnover of "Fond man, remember that thou hast a", not beside "Wilt thou
+  accept of ransom? yea, or no.", the line it numbers; Folger 5.3.80).
+- re-read numerals: pp.474 (60), 483 (49), 484 (30), 490 (19).
+Schmidt 2063/2103, no runs. The P4's Globe markers slip at III.1 90 (it
+makes "Nay, if we be forbidden stones, we'll fall to it with our teeth."
+one line, the page two rows) and III.3 41; the page and Schmidt agree
+with our count. The edition replaces the older file at the same path and
+validates against =perseus_drama.rng=. All twenty-five =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
