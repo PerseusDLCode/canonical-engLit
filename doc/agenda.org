@@ -1544,6 +1544,28 @@ one line, the page two rows) and III.3 41; the page and Schmidt agree
 with our count. The edition replaces the older file at the same path and
 validates against =perseus_drama.rng=. All twenty-five =globe-verify= OK.
 
+*2 Henry VI published <2026-10-27>* (corpus-tools merge =cedd1d5=).
+Doubleday Volume One pp. 146-177. 3,161 Globe lines, *30 of 30 pages*
+(first run 28 of 30), after 2 rows and 2 re-read numerals Cliff checked,
+no rule change, and one P4 change (=71b1183=): V.2 puts "I would speak
+blasphemy ere bid you fly:" (F1 3313) back before "But fly you must;
+uncurable discomfit" (F1 3314). With the P4's order Kraken's row "But fly
+you must" did not align, and the build lost a line after V.2's last
+numeral (80), where the page check compares nothing; Schmidt's
+/discomfit/ 86 and /relief/ 88 hold only with the fix. Lines after a
+scene's last numeral are checked only by Schmidt.
+- rows: II.1 p.503 =separate= ("and Saint Alban.", the turnover of "Yes,
+  master, clear as day, I thank God": the Globe counts ten lines from 100
+  to 110 where the page has nine, and every later number in II.1 is one
+  ahead; Schmidt's /clear/ 107 and /coal-black/ 112 place it between;
+  Cliff's choice, the Folger's 2.1.122, over "cloak of?"), V.1 p.523
+  =numeral= (90, read 2 in Michigan and 99 in Trent).
+- re-read numerals: pp.497 (140), 508 (60).
+Schmidt 1958/2036, no runs. The P4's Globe markers slip at I.3 10, II.3 99
+and IV.2 100; the page agrees with our count. The edition replaces the
+older file at the same path and validates against =perseus_drama.rng=.
+All twenty-six =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
