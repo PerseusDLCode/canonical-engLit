@@ -1474,6 +1474,33 @@ all in prose, where the P4's Globe markers follow another setting of the
 rows. The edition replaces the older file at the same path and validates
 against =perseus_drama.rng=. All twenty-two =globe-verify= OK.
 
+*2 Henry IV published <2026-10-27>* (corpus-tools merge =fb42cab=).
+Doubleday Volume One pp. 384-413. 3,446 Globe lines, *30 of 30 pages*
+(first run 25 of 30), after 5 rows and 6 re-read numerals Cliff checked,
+one P4 change (=a4a1d5b=): IV.1 puts "Cried hate upon him; and all their
+prayers and love" (F1 2003) back before "Were set on Hereford, whom they
+doted on" (F1 2004), as both witnesses, the Folger and the P4's own Globe
+marker 141 have it. One change to a table kind (=cad1747=): a =dropped=
+row is one the OCR of the witness the page is built from lost, not
+necessarily both.
+- rows: I.2 p.413 =misplaced= 160 (printed beside "your waste is great.",
+  one row below "Ch. Just. Your means are very slender, and"; 171 eleven
+  rows on is exact), II.1 p.416 =dropped= ("Fal. Master Gower, if they
+  become me not,": Michigan's Kraken lost it, Trent has it; II.1 prints
+  no number after 200, and only Schmidt's /fence/ 206, /fair/ 207 and
+  /lighten/ 208 showed it), II.2 p.417 =dropped= ("cheap.", the turnover
+  of "in East-", lost in both witnesses), IV.5 p.432 =turnover= ("hence!"
+  at 2.85 pitches, just past the band), V.3 p.436 =inset= (Silence's "Do
+  me right, / And dub me knight: / Samingo.", three rows, as Schmidt's
+  /dub/ 78 and /Samingo/ 79 count them).
+- re-read numerals: pp.417 (170), 422 (70), 424 (249, 271), 428 (69), 430
+  (70).
+Schmidt 1995/2108, one run: I.2.159-166 +1, Schmidt counting from the
+misplaced 160. Of the P4's Globe anchors, 1.2 160 follows the misplaced
+numeral, and at 4.5 10 and 5.3 101 the page and Schmidt agree with our
+count. The edition replaces the older file at the same path and validates
+against =perseus_drama.rng=. All twenty-three =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
