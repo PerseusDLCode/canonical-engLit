@@ -1447,6 +1447,33 @@ agrees with the Globe count. Schmidt 1816/1890, no runs. The edition
 replaces the older file at the same path and validates against
 =perseus_drama.rng=. All twenty-one =globe-verify= OK.
 
+*1 Henry IV published <2026-10-27>* (corpus-tools merge =de75b5f=).
+Doubleday Volume One pp. 356-383. 3,177 Globe lines, *27 of 27 pages*
+(first run 21 of 27), after 4 rows and 4 re-read numerals Cliff checked,
+no rule change, and one P4 change (=210d989=): II.2 restores "to make me
+love him, I'll be hanged; it could not be else; I have drunk medicines.",
+and III.2 puts "Which oft the ear of greatness needs must hear," back
+before "By smiling pick-thanks and base newsmongers,".
+- rows: I.2 p.384 =separate= ("hold", the turnover of "Prince. I know you
+  all, and will awhile up-": the Globe counts fifty-one lines between 169
+  and 220 where the page has fifty, and the placement among the candidates
+  is Cliff's choice), II.4 p.391 =turnover= ("How now, wool-sack! what
+  mutter / you?": the page prints 149 beside "you?", and Schmidt's /lath/
+  151 holds only with the fold), II.4 p.395 =inset= (Falstaff's tavern
+  bill in six printed rows, "Item, A capon" to "Item, Bread, ob.", counted
+  row by row as Schmidt's /gallon/ 587, /anchovy/ 588 and /ob/ 590 do),
+  V.4 p.408 =turnover= ("Why, Percy I killed myself and saw / thee
+  dead.", the turnover set at 2.9 pitches, just past the band).
+- re-read numerals: pp.391 (99), 392 (239), 402 (85), 406 (29). Three
+  pages come from Trent (386, 397, 408).
+Schmidt 1906/2009, one run: III.1.52 /vasty/ +1. Both witnesses set 50
+beside "Welsh. I'll to dinner.", one row under the full-measure "Hot. I
+think there's no man speaks better", as 61 is set on "hence."; the count
+stands and Schmidt is off by one. The six P4 anchors that disagree are
+all in prose, where the P4's Globe markers follow another setting of the
+rows. The edition replaces the older file at the same path and validates
+against =perseus_drama.rng=. All twenty-two =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
