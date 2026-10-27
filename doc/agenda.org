@@ -1501,6 +1501,29 @@ numeral, and at 4.5 10 and 5.3 101 the page and Schmidt agree with our
 count. The edition replaces the older file at the same path and validates
 against =perseus_drama.rng=. All twenty-three =globe-verify= OK.
 
+*Henry V published <2026-10-27>* (corpus-tools merge =fcf6352=).
+Doubleday Volume One pp. 414-444. 3,380 Globe lines, *30 of 30 pages*
+(first run 26 of 30), after 3 rows and 6 re-read numerals Cliff checked,
+no rule change, and one P4 change (=dc97c7e=): I.2's entry "Enter the
+ARCHBISHOP OF CANTERBURY, and the BISHOP OF ELY." is one stage direction
+again. The P4 closed it after "and" and set "the BISHOP OF ELY." in the
+King's verse after an extra Globe marker, which put I.2 one line ahead.
+- rows: II.4 p.447 =shared= ("A little cloth." / "Think we King Harry
+  strong;", Folger part=I/F), III.6 p.452 =misplaced= 30 (beside "That
+  goddess blind,", one row above "That stands upon the rolling restless
+  stone—", the line it numbers; Schmidt's /roll/ 30), IV.3 p.458
+  =numeral= (29 read 20 in both witnesses).
+- re-read numerals: pp.442 (250), 450 (149), 467 (281, 330, 359, 380).
+  The Michigan copy's margin numbers are scratched out on pp.466-468;
+  the last three on p.467 are obscured there and come from Trent.
+Schmidt 1939/2225, no runs. Most of the failures are 203 citations of the
+act Choruses (II-V) that the smoke does not take as citations of the
+play, which is not a question of our count. The P4's Globe markers slip at
+I.2 161 (for 61), II.3 60, III.2 90 and III.4 20; the page's numerals
+agree with our count. The edition replaces the older file at the same
+path and validates against =perseus_drama.rng=. All twenty-four
+=globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
