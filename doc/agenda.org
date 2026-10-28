@@ -1604,6 +1604,43 @@ Schmidt 1734/1781, no runs. The P4's Globe markers slip at I.2 71 and II.1
 109 (for 190). The edition replaces the older file at the same path and
 validates against =perseus_drama.rng=. All twenty-seven =globe-verify= OK.
 
+*Scene endings swept; six plays republished <2026-10-28>* (corpus-tools
+merge =56a6215=). The page check compares the count only between printed
+numerals, so lines after a scene's last numeral were checked by nothing
+but Schmidt (2 Henry VI V.2, the Shrew V.2). Every published play was
+swept: Schmidt's citations after each scene's last numeral, and every
+number printed on a row that belongs to no line. (The Folger's scene
+lengths, and the P4's count of its Globe markers, differ too often to
+serve.) Two code changes (Cliff's decisions): a number on a row that is no
+line's now numbers the line above it, after the table rows are applied
+(=58a124c=), and a table kind =stage=, a stage direction whose rows the
+Globe numbers as lines (=63afacc=). Two P4 changes: Antony IV.12's F1
+2803-2804 back in order (=cf51e4c=), and the Tempest's Epilogue moved from
+=<back>=, which the build does not read, into =<body>= (=37f995e=). Six
+rows Cliff checked:
+- The Tempest (2,040 to 2,063 lines): the Epilogue was missing, twenty
+  lines with 10 and 20 printed (p.20, =inset=); and I.1's cries within,
+  printed as a stage direction in five rows, are Globe lines 64-66 (p.1,
+  =stage=), so I.1 ends at 72, not 69, as Schmidt's /furlong/ 69 to
+  /furze/ 71 have it.
+- As You Like It (2,852 to 2,856): III.3, Touchstone's song, every row a
+  line (p.219, =inset=); the page prints 109 beside "[Exit.", below the
+  scene's last line, where we had 105. Schmidt counts "but,— Wind away" as
+  one line and runs one behind the page from 104 to 108.
+- Antony (3,063 to 3,064): IV.12 lost a line after 40 to the P4's swap
+  (Kraken's row "Alcides" did not align); Schmidt's /Lichas/ 45 to
+  /subdue/ 47 hold.
+- The Taming of the Shrew (2,648 to 2,649): Ind.2, "tumbling-trick?", a
+  row Kraken read as one word, is 141, printed so (p.231, =dropped=).
+- Cymbeline (3,341 to 3,342): III.5, "Haven?", the turnover of
+  "Milford-", is a line of the prose (p.961, =dropped=); Schmidt's /mute/
+  158 to /meed/ 168 hold.
+- 2 Henry VI (3,161 to 3,162): IV.7, "ye. [Exeunt some with Lord Say.", a
+  row of Cade's prose read as a direction (p.520, =dropped=); Schmidt's
+  /capite/ 131 to /corner/ 145 hold.
+The six editions replace the published files and validate against
+=perseus_drama.rng=. All twenty-seven =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
