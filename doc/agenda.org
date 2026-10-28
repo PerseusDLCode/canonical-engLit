@@ -1566,6 +1566,22 @@ and IV.2 100; the page agrees with our count. The edition replaces the
 older file at the same path and validates against =perseus_drama.rng=.
 All twenty-six =globe-verify= OK.
 
+*The Taming of the Shrew republished <2026-10-28>* (corpus-tools merge
+=8171df3=). A change to the margin fit (=ae11b42=, Cliff's decision),
+made for 3 Henry VI p.540, whose left column is speeches and their
+turnovers with one row at the margin: the refit that leaves out speech
+prefixes now also leaves out an initial and a name ("K. Edw.", "L.
+Grey."), and where fewer than 20 rows are left to fit, the margin is the
+median of those and the rows that hang. It changes one column of the
+published plays, the Shrew's p.253 col.2, the end of V.2: five turnovers
+after the scene's last numeral (180), "toward.", "froward.", "hit the
+white;", "curst shrew." and "be tamed so.", had read as lines, and the
+published edition ran V.2 to 194. It now ends at 189, as the Globe does,
+and Schmidt's /harsh/ 183, /speed/ 185 and /winner/ 187 agree (they were
+off by 1, 2 and 3, a growing offset the smoke does not report as a run).
+Lines after a scene's last numeral are checked only by Schmidt. The other
+twenty-five =globe-verify= OK unchanged.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
