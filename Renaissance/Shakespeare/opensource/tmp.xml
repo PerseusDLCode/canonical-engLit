@@ -5096,8 +5096,6 @@
           </sp>
         </div2>
       </div1>
-    </body>
-    <back>
 
       <div1 type="act" n="epilogue">
         <head>EPILOGUE.</head>
@@ -5126,6 +5124,6 @@
               ed="F1" n="2341"/>Let your indulgence set me free.</p>
         </sp>
       </div1>
-    </back>
+    </body>
   </text>
 </TEI.2>
