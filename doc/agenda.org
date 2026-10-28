@@ -1582,6 +1582,28 @@ off by 1, 2 and 3, a growing offset the smoke does not report as a run).
 Lines after a scene's last numeral are checked only by Schmidt. The other
 twenty-five =globe-verify= OK unchanged.
 
+*3 Henry VI published <2026-10-28>* (corpus-tools merge =ab5bbc6=).
+Doubleday Volume One pp. 178-208. 2,904 Globe lines, *30 of 30 pages*
+(first run 23 of 30), after 3 rows and 8 re-read numerals Cliff checked,
+the margin refit (=ae11b42=, above) for p.540, and two P4 changes
+(=10f6a68=): II.5 is set in the Globe's order, which transposes F1's
+"What time the shepherd, blowing of his nails," and "When dying clouds
+contend with growing light," (both witnesses, p.536; the F1 markers now
+run 1137, 1136); IV.1 puts "Tell me if you love Warwick more than me?"
+(F1 2171) back before "If it be so, then both depart to him;" (F1 2172).
+- rows: I.2 p.529 =separate= ("in the field.", the turnover of "She
+  shall not need; we'll meet her": the Globe counts ten lines from 60 to
+  70 where the page has nine; Schmidt's /Sandal/ 63 and /issue/ 71 agree
+  with the page; Cliff's choice), II.6 p.537 =numeral= (31, read 41 in
+  Michigan and 81 in Trent), IV.3 p.546 =turnover= ("Richard and
+  Hastings: let them go; here is / The duke.", the last row set flush;
+  Folger ftln-2092).
+- re-read numerals: pp.528 (220), 530 (30), 537 (120), 542 (70), 545
+  (100), 546 (19), 549 (60, 80).
+Schmidt 1734/1781, no runs. The P4's Globe markers slip at I.2 71 and II.1
+109 (for 190). The edition replaces the older file at the same path and
+validates against =perseus_drama.rng=. All twenty-seven =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
