@@ -1641,6 +1641,32 @@ rows Cliff checked:
 The six editions replace the published files and validate against
 =perseus_drama.rng=. All twenty-seven =globe-verify= OK.
 
+*Richard III published <2026-10-29>* (corpus-tools merge =150b01c=).
+Doubleday Volume One pp. 209-246. 3,621 Globe lines, *36 of 36 pages*
+(first run 28 of 36), after 12 rows and 2 re-read numerals Cliff
+checked; no rule change and no change to the P4.
+- rows: I.3 p.562 two =shared= for one line, "Margaret. Richard! Ha! I
+  call thee not.", each half set on after the one before (the Folger
+  pairs "detested—"/"Margaret." instead); I.4 p.565 =misplaced= (170
+  beside "A man, as you are.", numbering "But not, as I am, royal.";
+  Schmidt's /menace/ 175 and /scarcely/ 180); II.4 p.570 =shared=
+  ("Gloucester and Buckingham." / "For what offence?"); III.7 p.576
+  =shared= ("What says he?" / "My lord, he doth entreat your grace",
+  which the page cannot show); IV.4 p.584 two =shared= ("And wilt thou
+  learn of me?" / "Madam, with all my heart."; "To win your daughter." /
+  "There is no other way;"); IV.4 p.585 four =shared=, the oath
+  stichomythia ("I swear—", "Now, by the world—", "My father's death—",
+  "Why then, by God—", Folger ftln-3076 to 3091); V.3 p.588 =shared=
+  ("It's nine o'clock." / "I will not sup to-night.", which the page
+  cannot show).
+- re-read numerals: p.557 (50, 120).
+Michigan p.566 has a stray row ("O") the backtrack rule avoids by taking
+the page from Trent. Schmidt 2095/2202, no runs; after each scene's last
+numeral it holds where its headwords are found. The P4's Globe markers
+slip at III.1 50, III.7 120 and IV.4 80; the page agrees with our count.
+The edition replaces the older file at the same path and validates
+against =perseus_drama.rng=. All twenty-eight =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
