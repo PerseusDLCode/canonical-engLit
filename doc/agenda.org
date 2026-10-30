@@ -1696,6 +1696,39 @@ Schmidt 1673/1734, no runs. The P4's Globe markers slip at I.3 220, II.5
 older file at the same path and validates against =perseus_drama.rng=.
 All twenty-nine =globe-verify= OK.
 
+*Troilus and Cressida published <2026-10-30>* (corpus-tools merge =ca0a79b=).
+Doubleday Volume Two pp. 690-723. 3,496 Globe lines, *32 of 32 pages*
+(first run 24 of 32), after 12 rows and 4 re-read numerals Cliff
+checked; no rule change and no change to the P4.
+- rows: nine =shared= the page cannot show, most of them Æneas'
+  entries after a short line: I.1 p.623 ("By whom, Æneas?" / "Troilus,
+  by Menelaus.", after the scene's last numeral, on Schmidt's Scar 114
+  and Gore 115), I.3 p.628 ("He tells thee so himself." / "Trumpet, blow
+  loud,"), IV.1 p.640 ("Did haunt you in the field." / "Health to you,
+  valiant sir,") and p.641 ("We shall be much unwelcome." / "That I
+  assure you:"), both of which the Folger sets as short lines, IV.4
+  p.643 ("Nay, good my lord,—" / "Come, kiss; and let us part."; "Hark!
+  Hector's trumpet." / "How have we spent this morning!"), IV.5 p.644
+  ("The knight opposed." / "If not Achilles, sir,") and p.645 ("You must
+  no more." / "Princes, enough, so please you."; "Who must we answer?" /
+  "The noble Menelaus."); III.1 p.635 two =separate= in Pandarus' song,
+  which the P4 does not set as =<lg>= ("Love, love, nothing but love,
+  still more!", "Doth turn oh! oh! to ha! ha! he!"); V.3 p.651 =numeral=
+  (109, its 9 set low, read 100 by both witnesses).
+- re-read numerals: p.624 (89), p.627 (200), p.635 (80; the Michigan
+  copy prints 40, with a vertical line drawn through the first figure
+  and 8 written in the margin), p.649 (160).
+Kraken read the 40 on p.641 into the text. Schmidt 2311/2411, no runs;
+after each scene's last numeral it holds where its headwords are found
+(V.2 /commodious/ and V.7 /illegitimate/ are cited on the row where the
+hyphenated word begins). The P4's Globe markers stand on a prose
+speech's first row where the page prints the number on a later one
+(III.1 80, 90, 111; IV.2 81; V.2 11), and slip at III.2 221, where the
+page prints 220 beside "Bed, chamber, Pandar to provide this gear!" and
+Schmidt's /gear/ and /provide/ agree. The edition replaces the
+older file at the same path and validates against =perseus_drama.rng=.
+All thirty =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
