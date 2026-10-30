@@ -1729,6 +1729,38 @@ Schmidt's /gear/ and /provide/ agree. The edition replaces the
 older file at the same path and validates against =perseus_drama.rng=.
 All thirty =globe-verify= OK.
 
+*Coriolanus published <2026-10-30>* (corpus-tools merge =bc9a626=).
+Doubleday Volume Two pp. 850-885. 3,407 Globe lines, *34 of 34 pages*
+(first run 24 of 34), after 9 rows and 7 re-read numerals Cliff
+checked, and a fix to the P4; no rule change.
+- P4 (=d5779ad=): I.9 line 2, "Thou'ldst not believe thy deeds: but
+  I'll report it", which the P4 had dropped, restored as the page (p.661)
+  and the F1 have it, with a Globe marker only; the P4's F1 line count is
+  left as it was.
+- rows: =shared= the page cannot show: I.1 p.655 ("Make yourselves
+  scabs?" / "We have ever your good word."), I.2 p.657 ("Consider of
+  it." / "Our army's in the field:"), III.3 p.675 ("It shall be so." /
+  "It shall be so, it shall be so."), V.3 p.684 ("Living to time." / "A'
+  shall not tread on me;") and V.6 p.687 ("'Fore your own eyes and
+  ears?" / "Let him die for't."); III.2 p.672, of three short lines
+  ("Be thus to them." / "You do the nobler." / "I muse my mother"), the
+  last two, chosen on metre, the other pairing giving the same numbers;
+  IV.6 p.679 ("The gods preserve you both!" / "God-den, our neighbours.")
+  and p.680 ("O, you have made good work!" / "What news? what news?"),
+  each second half set to the right but starting left of where the row
+  above ends, which the P4 marks part=I/F; II.1 p.663 =dropped= "saw't.",
+  a prose row of its own that aligns with nothing because the P4 reads
+  "I saw 't."
+- re-read numerals: p.657 (40), p.658 (91, 10), p.663 (190), p.667 (99),
+  p.676 (19), p.684 (159).
+Schmidt 2069/2139, no runs; after each scene's last numeral it holds
+where its headwords are found (IV.3 /aptness/ and /fortunate/ are cited
+on the row where the hyphenated word begins). The P4's Globe marker
+slips at IV.6 91, set on "He is their god", where the page prints 90 and
+Schmidt's /deity/ 91 falls on the next line. The edition replaces the
+older file at the same path and validates against =perseus_drama.rng=.
+All thirty-one =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
