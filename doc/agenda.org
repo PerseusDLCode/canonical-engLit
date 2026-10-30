@@ -1667,6 +1667,35 @@ slip at III.1 50, III.7 120 and IV.4 80; the page agrees with our count.
 The edition replaces the older file at the same path and validates
 against =perseus_drama.rng=. All twenty-eight =globe-verify= OK.
 
+*All's Well That Ends Well published <2026-10-30>* (corpus-tools merge =a0cdf01=).
+Doubleday Volume Two pp. 635-662. 2,965 Globe lines, *27 of 27 pages*
+(first run 17 of 27), after 13 rows and 4 re-read numerals Cliff
+checked, one new table kind and a fix to the P4.
+- P4 (=893829d=): five F1 pairs set out of order (1197/1198, 1525/1526,
+  2026/2027, 2059/2060, 2075/2076) put back in the page's order, and two
+  word slips ("duty duty to", "shall persever"). This alone cleared III.2
+  110-120 and all of IV.2.
+- new kind =skip=: II.3 p.262 the Globe passes over 48 between "Lustig,
+  as the Dutchman says" (46) and "head: why, he's able to lead her a
+  coranto" (49), with no junction to account for it; the row sits after
+  "a maid the better", and the next line counts two on.
+- rows: =shared= I.2 p.256 ("A braving war." / "So 'tis reported") and
+  V.3 p.278 ("If I be one." / "He blushes"), both Folger pairs the page
+  cannot show; =shared= III.1 p.265 ("As often as I guess'd." / "Be it
+  his pleasure.") and III.2 p.266 ("'Tis bitter." / "Find you that
+  there?"), each half set on; IV.1 p.271 =shared= ("Inform on that." /
+  "So I will, sir."), after the scene's last numeral and on Schmidt alone
+  (/dark/, /safely/ 104); letter signatures the Globe numbers: III.2
+  p.266 two =separate= ("Your unfortunate son," / "BERTRAM."), IV.3
+  p.273 =separate= "PAROLLES." and two =turnover= in his letter ("him
+  drop gold", "make it"); =numeral= II.2 p.261 (39 read 30) and IV.1
+  p.270 (80 read 89).
+- re-read numerals: p.265 (29), p.270 (29), p.273 (169), p.279 (301).
+Schmidt 1673/1734, no runs. The P4's Globe markers slip at I.3 220, II.5
+90 and V.3 339; the page agrees with our count. The edition replaces the
+older file at the same path and validates against =perseus_drama.rng=.
+All twenty-nine =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
