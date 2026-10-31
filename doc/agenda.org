@@ -1761,6 +1761,40 @@ Schmidt's /deity/ 91 falls on the next line. The edition replaces the
 older file at the same path and validates against =perseus_drama.rng=.
 All thirty-one =globe-verify= OK.
 
+*Romeo and Juliet published <2026-10-31>* (corpus-tools merge =1c6e76d=).
+Doubleday Volume One pp. 247-277. 3,053 Globe lines, *29 of 29 pages*
+(first run 24 of 29), after 5 rows and 2 re-read numerals Cliff
+checked, and a fix to the P4; no rule change.
+- P4 (=d8fc8a6=): II.1 lines 26-28, "Till she had laid it and conjured
+  it down;" / "That were some spite: my invocation" / "Is fair and
+  honest, and in his mistress' name", which the P4 had dropped, restored
+  as the page (p.719) has them, with a Globe marker each; the P4's F1
+  markers 777-779, piled on line 25, are left where they were.
+- rows: I.5 p.718 two =separate= in the sonnet ("Ay, pilgrim, lips that
+  they must use in prayer." and "Then have my lips the sin that they
+  have took."), whose speeches the page sets at the margin, so the build
+  read them as displaced; II.4 p.723 =inset= Mercutio's song "An old hare
+  hoar," ... "When it hoars ere it be spent."; IV.4 p.734 =shared= "A
+  jealous-hood, a jealous-hood!" / "Now, fellow," / "What's there?", one
+  line (13) over three rows: the page prints 21 beside "The county will
+  be here", because line 20's row is full, as it prints 31 on p.718;
+  V.1 p.736 =shared= "What, ho! apothecary!" / "Who calls so loud?", the
+  page taken from Trent.
+- re-read numerals: p.737 (70), p.740 (290).
+Schmidt 1661/1750, one run: II.2.151-156 +1. The page prints 150 and
+160, and the build joins the two half-lines set to the right ("By and
+by, I come:" and "So thrive my soul"); Schmidt's /by/ 151, /thrive/ 153
+and /schoolboy/ 156, with his /falconer/ 159 and /lure/ 160, would need
+one line fewer between the two numerals than the page has. In IV.4
+Schmidt's /loggerhead/ 21 and /chat/ 26 fall a line late. After each
+scene's last numeral Schmidt holds where its headwords are found. Of the
+P4's Globe markers, the disagreements are prose speeches, where the P4
+sets its number at the speech's start or breaks the prose its own way,
+and III.3, where it reads 50 for the page's 60 ("It helps not, it
+prevails not"). The edition replaces the older file at the same path
+and validates against =perseus_drama.rng=. All thirty-two
+=globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
