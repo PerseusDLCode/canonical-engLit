@@ -1926,6 +1926,41 @@ numbers at its first row. The edition replaces the older file at the
 same path and validates against =perseus_drama.rng=. All thirty-six
 =globe-verify= OK.
 
+*Pericles published <2026-11-02>* (corpus-tools merge =d5d805f=; rule
+change =f74bbe9=). Doubleday Volume Two pp. 911-935. 2,388 Globe lines,
+*23 of 23 pages* (first run 19 of 23), after 8 rows and 5 re-read
+numerals Cliff checked. The last of the thirty-seven plays. Gower's
+speeches decided two new table kinds, both Cliff's choice:
+- =runs-on=: V.2 ("Now our sands are almost run", p.998) is headed
+  "Scene II", but the page numbers it on from V.1, which ends at 265
+  (270 beside its 5th line, 280 beside its 15th). It is numbered 1-20,
+  as the heading has it and Schmidt cites it (Pageantry V.2.6).
+- =merged=: the epilogue ("In Antiochus and his daughter", p.999), the
+  P4's scene "chorus2", is printed inside Scene III with no heading and
+  numbered on (91, 100), as Schmidt cites it (Descry V.3.91, Ending
+  V.3.102). It is V.3.85-102 here; the older file numbered it 1-18 as a
+  scene of its own.
+- rows: IV chorus pp.989-990 two =inset= (the chorus is set at the
+  turnover indent, and three of its lines were taken for turnovers of
+  the full rows above; Schmidt's Settle 2, Earn 13, Neeld 23, Cambric
+  24); V.2 p.998 =inset= (its first row joined to "Come, my Marina.
+  [Exeunt.", which runs to the full measure); IV.2 p.991 =numeral= 39
+  (both witnesses read 30); V.3 p.998 =shared= "Recovered." / "O, let me
+  look!" 28; V.3 p.999 =misplaced= 100, printed one row low.
+- re-read numerals: p.984 30, 50, 60 (the Michigan scan's gutter clips
+  the second digit; Trent prints them), p.985 50, p.993 49.
+- The page prints numerals that are not tens (I.3 11, IV.2 21 and 39,
+  IV.3 49, the epilogue's 91); each checked is where the count puts it.
+- Not tabled: I.2 p.979 prints 30 one row low, beside "them," (line 31);
+  Kraken read it "3°", so the build never took it. Schmidt's Care 28,
+  Top 29, Fence 30, Pine 31 follow the misplaced 30 and agree with the
+  count again at 36 and 39.
+Schmidt 1101 of 1205 (65 are Prologue citations the extraction left
+without a line number), no runs. Of the P4's 40 Globe markers 15 begin a
+line, all agreeing; I.3's 10 is a prose speech the page numbers 11. The
+edition replaces the older file at the same path and validates against
+=perseus_drama.rng=. All thirty-seven =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
