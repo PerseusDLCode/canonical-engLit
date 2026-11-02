@@ -1828,7 +1828,15 @@ while the Folger marks Against/Please part=I/F (and runs "and past"
 into line 30, which may be how Schmidt's count came by its offset).
 Schmidt's /clamorous/ 37 and /detention/ 39 fall on adjacent rows, so he
 errs here on any reading. The 1911 Globe (pp.793-794) sets the passage
-the same way, with the same numerals. Schmidt's /purchase/ and /right/ III.5.78 fall a line late. After
+the same way, with the same numerals.
+*Settled by Bartlett <2026-11-02>*: his /Concordance/ (1894; Internet
+Archive =completeconcorda00bart_0=) prints "Your steward puts me off, my
+lord" at ii 2 32 (p.1466, leaf n1475) and /Detention/ at ii 2 39 (p.364,
+leaf n373); its OCR has /Date-broke/ at 38. Only the build's reading,
+"And past." alone, puts the steward's line at 32: leaving "Come hither:
+pray you." or "Please you, gentlemen," alone puts it at 31 (and the
+second, which Schmidt's /expressly/ to /clamorous/ favour, puts
+/detention/ at 38). The published edition stands; the run is Schmidt's. Schmidt's /purchase/ and /right/ III.5.78 fall a line late. After
 each scene's last numeral Schmidt holds where its headwords are found.
 The P4's Globe markers disagree at I.2 70, IV.3 413 (the page's 410) and
 V.1 180, where the page and Schmidt agree with the build. The edition
