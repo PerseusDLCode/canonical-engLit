@@ -1835,6 +1835,30 @@ V.1 180, where the page and Schmidt agree with the build. The edition
 replaces the older file at the same path and validates against
 =perseus_drama.rng=. All thirty-three =globe-verify= OK.
 
+*Julius Cæsar published <2026-11-02>* (corpus-tools merge =0f7c6f1=).
+Doubleday Volume Two pp. 571-596. 2,478 Globe lines, *24 of 24 pages*
+(first run 21 of 24), after 3 rows and 9 re-read numerals Cliff
+checked; no rule change, no P4 change.
+- rows: III.2 p.778 =turnover= "will! read the will.", set at the
+  margin like a prose row but the turnover of "Sec. Cit. They were
+  villains, murderers: the", the page's 160 beside it as beside the last
+  row of a line (Schmidt's /compel/ 161, /hearse/ 169), though in the
+  next column "we'll die with him.", set the same way, is a line of its
+  own (the page's 221 needs it); IV.3 p.782 =shared= "Immediately to
+  us." / "Lucius, a bowl of wine!", a stage direction between; V.1 p.784
+  =shared= "Messala!" / "[Standing forth] What says my general?", the
+  second opening with a direction.
+- re-read numerals: p.765 (89), p.766 (200), p.767 (320), p.769 (30),
+  p.770 (130), p.776 (289), p.777 (109), p.782 (210), p.784 (71).
+Schmidt 1129/1184, no runs. After each scene's last numeral Schmidt
+holds where its headwords are found (his /overeye/ IV.1.95 is cited
+past the scene's 51 lines). Of the P4's Globe markers, IV.3 puts 120 at
+"Cas. O Brutus!", which the build counts in line 118 with "And my heart
+too." and "What's the matter?"; Schmidt's /forgetful/ 121 and
+/over-earnest/ 122 agree with the build. The edition replaces the older
+file at the same path and validates against =perseus_drama.rng=. All
+thirty-four =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
