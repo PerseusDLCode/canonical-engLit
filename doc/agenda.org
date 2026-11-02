@@ -1859,6 +1859,27 @@ too." and "What's the matter?"; Schmidt's /forgetful/ 121 and
 file at the same path and validates against =perseus_drama.rng=. All
 thirty-four =globe-verify= OK.
 
+*Macbeth published <2026-11-02>* (corpus-tools merge =2bb26fd=).
+Doubleday Volume Two pp. 792-815. 2,108 Globe lines, *23 of 23 pages*
+(first run 19 of 23), after 6 rows and 2 re-read numerals Cliff
+checked; no rule change, no P4 change.
+- rows: II.3 p.795 =shared= "Cannot conceive nor name thee!" / "What's
+  the matter?", set right, its two speakers braced over two rows (70);
+  "Courage to make 's love known?" / "Help me hence, ho!" / "Look to
+  the lady." (124) and "Our tears are not yet brew'd." / "Nor our
+  strong sorrow" (130), junctions the page cannot show; IV.1 p.801
+  =turnover= "wolf," under "Third Witch. Scale of dragon, tooth of";
+  two =shared= rows making line 61 of four parts, "To what I ask you."
+  / "Speak." / "Demand." / "We'll answer.", each set further right.
+- re-read numerals: p.788 (10), p.794 (59).
+Schmidt 1511/1559, no runs. After each scene's last numeral Schmidt
+holds where its headwords are found. Of the P4's Globe markers, the
+three disagreements (IV.2 50, V.1 31 and 71) are prose speeches, where
+the P4 numbers the speech's first row and the page prints its number
+beside a later one. The edition replaces the older file at the same
+path and validates against =perseus_drama.rng=. All thirty-five
+=globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
