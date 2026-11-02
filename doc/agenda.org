@@ -1880,6 +1880,52 @@ beside a later one. The edition replaces the older file at the same
 path and validates against =perseus_drama.rng=. All thirty-five
 =globe-verify= OK.
 
+*Othello published <2026-11-02>* (corpus-tools merge =4fa8ef4=).
+Doubleday Volume Two pp. 724-757. 3,315 Globe lines, *32 of 32 pages*
+(first run 21 of 32), after 17 rows and 2 re-read numerals Cliff
+checked, and two fixes to the P4; no rule change. The P4's Globe
+markers, once noted as doubled, are one to a line. The Michigan copy
+of this play is extensively marked up with underlining and marginal
+brackets.
+- P4 (=4a61a60=): V.2 "Oth. What, now?" restored, where the P4 had an
+  empty =<l>= (its Globe and F1 3374 markers only) in Emilia's speech;
+  II.3, in Iago's song, "A soldier's but a man;" corrected to "A
+  soldier's a man;", as the page (p.889) and the Folger read.
+- rows: I.3 p.882 four =shared= the page cannot show ("That gives them
+  credit." / "Indeed, they are disproportion'd;" 2; "In fearful sense."
+  / "What, ho! ..." 12; "My daughter! O, my daughter!" / "Dead?" / "Ay,
+  to me;" 59; "Hath hither brought." / "We are very sorry for't." 73);
+  II.1 p.886 =separate= "Welcome, mistress:" and IV.1 p.901 =separate=
+  "What trumpet is that same?", each set at the turnover indent below a
+  row a stage direction fills; II.1 p.887 =shared= "That e'er our hearts
+  shall make!" / "O, you are well tuned now!" 201; II.3 p.889 =inset=
+  the canakin song; III.3 p.895 =shared= "To have me filch it?" /
+  "[Snatching it] Why, what's that to you?" 315; IV.1 p.901 line 240 in
+  three parts, "Are you sure of that?" / "My lord?" / the letter, whose
+  "will--" at the margin is its =turnover=; IV.3 p.904 =turnover=
+  "garland." in the willow song; V.2 p.908 =shared= "'Tis a strange
+  truth." / "O monstrous act!" 189.
+- *IV.1.110-130 (p.900) left open for Bartlett.* The page prints 110,
+  120 and 130, but its rows, which set the short speeches as verse with
+  turnovers at the indent, give two lines too few to 120 and one to 130,
+  however the indented rows ("loves me.", "out.", "her:", "umph?",
+  "her.") are read. The rows take "out." and "her:" as lines
+  (=separate=) and a =skip= after "Do you triumph, Roman? do you
+  tri-umph?": the minimum that fits the page and Schmidt's /faintly/
+  113, /triumph/ 121 and /customer/ 123. The 1864 printing (UVa) has
+  the same setting and numerals; the Doubleday (p.746) resets the
+  passage, prints the same numerals beside the same lines, and its rows
+  do not give them either. The P4's Globe markers here break the prose
+  as the Doubleday does.
+- re-read numerals: p.887 (200), p.895 (290).
+Schmidt 1893/1999, no runs. After each scene's last numeral Schmidt
+holds where its headwords are found (in II.2, the herald's prose, his
+/celebration/ 7 falls on the row before the word's). Of the P4's Globe
+markers, the one disagreement (II.3 21) is a prose speech the P4
+numbers at its first row. The edition replaces the older file at the
+same path and validates against =perseus_drama.rng=. All thirty-six
+=globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
