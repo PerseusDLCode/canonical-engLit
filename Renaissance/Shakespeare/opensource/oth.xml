@@ -2307,7 +2307,7 @@
       <l>
        <stage>[Sings]</stage> And let me the canakin clink, clink; <lb n="1183" ed="F1"/></l>
       <l>And let me the canakin clink: <lb n="1184" ed="F1"/></l>
-      <l>A soldier's but a man;</l>
+      <l>A soldier's a man;</l>
       <l>A life's but a span; <lb n="1185" ed="F1"/></l>
       <l>Why, then, let a soldier drink. <lb ed="G"/><lb n="1186" ed="F1"/></l>
       <l>Some wine, boys! <lb ed="G"/><lb n="1187" ed="F1"/></l>
@@ -7194,11 +7194,10 @@
       <speaker>Emil.</speaker>
       <l>O, my good lord, yonder's foul murders <lb n="3372" ed="F1"/>done! <lb ed="G"/><lb n="3373"
         ed="F1"/></l>
-      <l>
-
-       <lb ed="G"/>
-       <lb n="3374" ed="F1"/>
-      </l>
+     </sp>
+     <sp who="oth.">
+      <speaker>Oth.</speaker>
+      <l>What, now? <lb ed="G"/><lb n="3374" ed="F1"/></l>
      </sp>
      <sp who="emil.">
       <speaker>Emil.</speaker>
