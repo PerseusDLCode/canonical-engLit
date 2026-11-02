@@ -1795,6 +1795,46 @@ prevails not"). The edition replaces the older file at the same path
 and validates against =perseus_drama.rng=. All thirty-two
 =globe-verify= OK.
 
+*Timon of Athens published <2026-11-02>* (corpus-tools merge =c73f0bb=).
+Doubleday Volume Two pp. 886-910. 2,374 Globe lines, *23 of 23 pages*
+(first run 14 of 23), after 9 rows and 2 re-read numerals Cliff
+checked, and a fix to the P4; no rule change. The Michigan copy of this
+play is heavily marked up by a reader.
+- P4 (=06b80de=): II.2.229 "Prithee, be not sad," taken out of the
+  stage direction "[To Flav.]" and given back to Timon.
+- rows: I.1 p.741 =shared= "He passes." / "I have a jewel here--";
+  I.1 p.742 =shared= "What levity's in youth." / "Love you the maid?";
+  I.2 p.744 =numeral= 79, which both witnesses' OCR read 78;
+  I.2 p.746 =shared= "Am I to you." / "So infinitely endear'd--", each
+  a junction the page cannot show, closed by the numerals and Schmidt;
+  II.2 p.747 =separate= "Apem. No, 'tis to thyself.", a prose row the
+  build joined to the line above (the 1911 Globe, p.794, prints 59 beside
+  "Caph. Where's the fool now?", which holds only with it a line); II.2
+  p.748 =turnover= "-- hum!"; II.2 p.749 =dropped= "[To a Serv.] Go to
+  Ventidius. [To Flav.]", read as a direction; III.5 p.753 =shared= "He
+  dies." / "Hard fate! he might have died in war."; III.6 p.754
+  =separate= "I feel 't upon my bones.", beside which the page prints
+  130.
+- re-read numerals: p.747 (10), p.758 (359).
+Schmidt 1441/1495, one run: II.2.32-36 +1, *left open for Bartlett*.
+The page (p.747) sets three half-lines as if each shared a line: "And
+past." (at the margin) before Isidore's "Your steward puts me off, my
+lord;", "Come hither: pray you." after "I'll wait upon you instantly.",
+and "Please you, gentlemen," after "Against my honour?". But 30 and 40
+close with only two of them joined. The build leaves "And past." alone;
+Schmidt's /expressly/ 32, /keep/ 34, /encounter/ 36 and /clamorous/ 37,
+with the P4's 40, would rather leave "Please you, gentlemen," alone,
+while the Folger marks Against/Please part=I/F (and runs "and past"
+into line 30, which may be how Schmidt's count came by its offset).
+Schmidt's /clamorous/ 37 and /detention/ 39 fall on adjacent rows, so he
+errs here on any reading. The 1911 Globe (pp.793-794) sets the passage
+the same way, with the same numerals. Schmidt's /purchase/ and /right/ III.5.78 fall a line late. After
+each scene's last numeral Schmidt holds where its headwords are found.
+The P4's Globe markers disagree at I.2 70, IV.3 413 (the page's 410) and
+V.1 180, where the page and Schmidt agree with the build. The edition
+replaces the older file at the same path and validates against
+=perseus_drama.rng=. All thirty-three =globe-verify= OK.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
