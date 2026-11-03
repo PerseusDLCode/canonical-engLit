@@ -849,7 +849,7 @@ Found on the way:
   covers every play, its merge =687b876=). Its "runs" (citations in a
   row off by one amount) located II.7's errors.
 
-** TODO Lear V.3.111-114: Schmidt cites four lines one later than ours
+** DONE Lear V.3.111-114: Schmidt cites four lines one later than ours
 :PROPERTIES:
 :CUSTOM_ID: build/lear-herald-run
 :END:
@@ -859,6 +859,21 @@ prose. The gate's interval (110-120) closes over it, so the count agrees
 with the page at both ends; inside it, Schmidt's numbers run one later
 than our rows. Look at the page: a prose row break the printings set
 differently, or ours.
+*Settled by Bartlett <2026-11-03>*: the interval is in fact 100-119
+(p.876 prints 100 beside "On him, on you, who not?" and 119 beside "Her.
+What are you?", no 110), 19 lines on the page and in the build. The
+proclamation is five rows, 110-114. Bartlett's /Concordance/ (1894;
+Internet Archive =completeconcorda00bart_0=) numbers it as the build
+does: /Quality/ "Any man of quality or degree" v 3 110 (p.1243, leaf
+n1252), /List/ "within the lists of the army" 111 (p.913, n922),
+/Maintain/ "will maintain upon Edmund ..." 111 (p.967, n976), /Suppose/
+"Edmund, supposed Earl of Gloucester" 112 (p.1496, n1505), /Manifold/
+"That he is a manifold traitor" 113 (p.988, n997); and on either side
+"I will maintain My truth and honour firmly" 100 and "What are you? Your
+name, your quality?" 120, where Schmidt agrees too (/Discharge/ 105,
+/Call/ 119, /Quality/ 120). Schmidt's count gains a line somewhere in
+106-110 and loses it in 115-118, where he cites nothing. The published
+edition stands; the run is Schmidt's.
 
 ** DONE The header's junction sentence
 :PROPERTIES:
