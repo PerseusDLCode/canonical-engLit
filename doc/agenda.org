@@ -1925,6 +1925,23 @@ brackets.
   passage, prints the same numerals beside the same lines, and its rows
   do not give them either. The P4's Globe markers here break the prose
   as the Doubleday does.
+  *Settled by Bartlett <2026-11-02>* (corpus-tools merge =ba403e7=;
+  the edition republished). The 1911 Globe (p.956) keeps the setting
+  but sets Iago's "'Faith, the cry goes that you shall" / "marry her."
+  as prose, flush, and with that row a line 120 to 130 closes with no
+  number passed over. Bartlett's /Concordance/ (1894; Internet Archive
+  =completeconcorda00bart_0=), whose entries cite the line the headword
+  is on, agrees line for line: /faintly/, /laugh/ and /out/ 113 (so
+  "out." is a turnover), /Cassio/ 114 ("Do you hear, Cassio?"),
+  /importune/ 115 (the displaced "Now he importunes him", a line of its
+  own), /tell/ 117, /marry/, /give/ and /out/ 118 (so "her:" is a
+  turnover), /intend/ 119, /customer/ 122, /charity/ 123, /unwholesome/
+  124, /laugh/ 125, /marry/ 127, /true/ 128, /villain/ 129. He too passes
+  over a number, 116: no reading of the rows closes 110 to 120. The rows
+  are now =separate= "Now he importunes him", a =skip= after it, and
+  =separate= "her." (replacing the =separate= "out." and "her:" and the
+  =skip= at 122). IV.1.114-126 are renumbered; Schmidt's /customer/ 123
+  falls a line late (his slip, as at Timon II.2).
 - re-read numerals: p.887 (200), p.895 (290).
 Schmidt 1893/1999, no runs. After each scene's last numeral Schmidt
 holds where its headwords are found (in II.2, the herald's prose, his
