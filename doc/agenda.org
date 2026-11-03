@@ -1969,6 +1969,21 @@ line, all agreeing; I.3's 10 is a prose speech the page numbers 11. The
 edition replaces the older file at the same path and validates against
 =perseus_drama.rng=. All thirty-seven =globe-verify= OK.
 
+*The poems checked against the page <2026-11-02>* (corpus-tools
+=df713d7=, =globe-lineation poem-check=; account in corpus-tools
+=doc/globe-lineation.org=, "The poems"). The poems are not regenerated:
+their published line numbers were checked against the Globe's numerals
+(Michigan 1866 pp.1000-1054; the 1864 NYPL printing by eye where the OCR
+fails). Venus (1,194 lines), Lucrece (1,855), The Passionate Pilgrim
+(430, its row of asterisks 118 counted), The Phoenix and Turtle (67) and
+the Sonnets (each 14 lines, but XCIX 15 and CXXVI 12) agree with the page.
+- /A Lover's Complaint/ fixed: the P4 marks two stanza breaks with an
+  empty =<l>=, which the published file numbered 99 and 212, so it ran one
+  line over from 100 and two from 213, in two 15-line stanzas. Now 47
+  stanzas of seven lines, 329 lines, as the page numbers them (every
+  numeral, 20 to 329, closes); stanza numbers from 15 change with it.
+  Validates against =perseus_verse.rng=.
+
 ** DONE Songs, masques and letters: does the Globe number their rows?
 :PROPERTIES:
 :CUSTOM_ID: build/inset-numbering
