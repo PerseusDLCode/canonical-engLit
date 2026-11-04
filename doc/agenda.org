@@ -639,21 +639,29 @@ Add =engLit= to =_CORPUS_LABELS= in =MinimumViablePerseus/src/mvp/site/config.py
 Confirm corpus discovery handles =canonical-engLit/data/= layout.
 Coordinate with Charles Pletcher.
 
-* TODO Validate one Shakespeare play end-to-end
+* DONE Validate one Shakespeare play end-to-end
+CLOSED: [2026-11-04 Wed 16:34]
 :PROPERTIES:
 :CUSTOM_ID: phase2/validate-one-play
 :ASSIGNEES: Cliff
 :DEPENDS: phase2/register-englit
 :END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-11-04 Wed 16:34]
+:END:
 Run King Lear through the full MVP pipeline: corpus discovery →
 =ReferenceParser= → =ChunkCompiler= → dev server reading view. Validate
 rendering before processing all 44 plays.
 
-* TODO Full Shakespeare corpus through pipeline
+* DONE Full Shakespeare corpus through pipeline
+CLOSED: [2026-11-04 Wed 16:35]
 :PROPERTIES:
 :CUSTOM_ID: phase2/full-shakespeare
 :ASSIGNEES: Claude Code
 :DEPENDS: phase2/validate-one-play
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2026-11-04 Wed 16:35]
 :END:
 Run all 44 play files through the pipeline; review a sample for
 rendering correctness. Exclude non-dramatic works (son, ven, lc, pht,
@@ -742,6 +750,43 @@ Strategies A and D).
 Globe citations resolve against the regenerated Globe edition's
 lineation (=milestone[@ed='Globe']=). Re-scope this task before starting
 it. See =forum.org= =#encoding/globe-lineation-and-tln=.
+
+*Re-scoped <2026-11-04>* (Cliff, with Claude), now that the Globe is
+finished (=#build/batch-remaining=, closed):
+- /Option (a): linked citations first./ Generate a Schmidt TEI whose
+  Shakespeare citations are resolved links, from =entries.tsv= and the
+  resolved citations, keeping entries largely as they are; defer the
+  sense, =gramGrp= and cross-reference passes, and design the generator
+  so that those passes add columns later rather than force a rewrite.
+  The point is to get Schmidt into MVP soon, so that Cliff and Charles
+  can debug the integration.
+- /Where it lives:/ schmidt-lexicon-workshop, which already owns
+  =out/citations.tsv= and =out/citation_quotes.tsv= and will generate
+  the TEI. It reads the Globe editions from canonical-engLit
+  (=data/shakespeare/*/shakespeare.*.globe.xml=, tag
+  =globe-editions-2026-11=), pinned by sha256 as the Globe build pins its
+  witnesses.
+- /Starting point:/ corpus-tools =src/globe/schmidt_smoke.py=, the
+  standing check that already matches every Schmidt citation of a play
+  against its regenerated edition (quotation or headword on the cited
+  line; runs of misses; Schmidt's printed abbreviations, =Lr.=, =Ant.=,
+  not the P4's =@n=). Across the 37 plays 63,530 of 66,701 citations
+  (95.2%) fall on the cited line, with no unexplained runs; reports in
+  corpus-tools =reports/globe/schmidt-smoke-<play>.md=.
+- /First steps:/ (1) move the matching logic into the workshop as the
+  resolver; (2) have it write a reviewed table, one row per citation,
+  with its CTS URN (=urn:cts:engLit:shakespeare.<play>.globe:<a>.<s>.<l>=)
+  and a status (on the line; near it; Schmidt's slip; unresolved); (3)
+  make the corpus-tools smoke test a thin reader of that table; (4) sort
+  the 4.8% residue -- Schmidt's slips, prose rows broken differently,
+  citations of another play, extraction gaps (e.g. 65 Pericles Prologue
+  citations without a line number) -- before any TEI is generated. A
+  residue that is the P4's word, not Schmidt's, is
+  =#build/text-corrections='s trigger.
+- The play-abbreviation table this entry depended on
+  (=#phase3/play-abbr-map=) mapped each id to itself; the abbreviations
+  that matter are Schmidt's printed ones, which the smoke test already
+  handles. The dry-run-first rule below still holds.
 
 A script that reads the reference work XML files, finds all Shakespeare
 =<bibl @n>= citations, resolves them to CTS URNs via the CorpusMap,
