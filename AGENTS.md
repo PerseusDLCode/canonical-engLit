@@ -35,7 +35,11 @@ it distorted a citation-resolution survey.)
 - `src/` — one-off scripts from the prior corpus refurbishment, most of
   them specific to individual Marlowe plays or other non-Shakespeare
   texts. Do not reuse them for Shakespeare without careful inspection;
-  write new tools instead.
+  write new tools instead. Shakespeare's tooling lives in corpus-tools;
+  the 2024 Shakespeare conversion scripts and the August 2026 Globe/TLN
+  scripts were retired on 2026-11-04 (tag `archive/pre-regeneration`).
+- `doc/superseded/` — reports and specifications kept for the record,
+  each marked with what replaced it.
 - `doc/` — project documentation (see above).
 
 ### Sibling repositories
@@ -118,13 +122,15 @@ minting new URN components.
 `shakespeare.{work}.f1.xml` for each of the 37 plays,
 `shakespeare.{work}.folger.xml` for `son`, `ven`, `luc` and `pht`
 (`lc` and `pp` have the Globe only). The Globe
-editions are being regenerated, not set aside: body from the P4 in
-`Renaissance/` and Globe lineation from page images of the printed
-edition, header and conventions from the existing Globe file. The
-generator is `globe-lineation-workshop`, moving to `corpus-tools`, and
-each Globe file is replaced in place as its play is published. Until
-then the Globe files here carry the 2025 migration's interpolated line
-numbers, which are unreliable. F1 editions additionally carry a Folger
+editions of the 37 plays were regenerated in 2026 by corpus-tools
+(`src/globe/`; method and status in its `doc/globe-lineation.org`): body
+from the P4 in `Renaissance/`, Globe lineation from page images of the
+1866 and 1887 printings, header from corpus-tools' template. They are
+generated files (a `<change>` stamp names the corpus-tools commit and
+the sources): do not edit them here; change corpus-tools' inputs and
+republish, and `make globe-verify PLAY=<id>` there checks a published
+file against its sources. The poems' Globe files were not regenerated;
+their line numbers were checked against the page (2026-11-02). F1 editions additionally carry a Folger
 Through-Line-Number refsDecl derived from ShakeDraCor's
 `xml:id="ftln-NNNN"`.
 
@@ -152,11 +158,6 @@ this time, of `@default="false"` on `sourceDesc`/`biblStruct`/
 loading, and treat any attribute value matching a schema's own
 documented `a:defaultValue` as a candidate instance of this same
 artifact class.
-
-**`shakespeare.tro.globe.xml` and `shakespeare.per.globe.xml`** are
-under-encoded: Troilus and Cressida has no `<lb>` markup at all;
-Pericles has only 4. Do not treat these as representative of the
-corpus; do not use them as test cases.
 
 **Schmidt cites `ven`, `luc`, and `pp` by continuous global line
 number, not by stanza/poem position.** All three poems' citeStructures

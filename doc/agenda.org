@@ -125,7 +125,7 @@ supersedes correcting anchors one by one. The cancellation stands. See
 =forum.org= =#encoding/globe-lineation-and-tln=.
 
 7 scenes with backward-running Globe line-number anchors, identified
-in the dry-run survey. See [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]] §Priority 1.
+in the dry-run survey. See [[file:superseded/globe-line-numbering-report.org][globe-line-numbering-report.org]] §Priority 1.
 
 Requires checking each case against a printed Globe edition (or
 Spevack concordance) and correcting the anchor =@n= value in the
@@ -716,7 +716,11 @@ adds the play-abbreviation layer on top.
 
 *Progress:* Schmidt's table done and verified — 44 abbreviations
 (43 works + =e3= flagged as non-Shakespeare), =PLAY_ABBR_TO_ID= in
-=src/mvp/resolve_schmidt_bibls.py=. Verification against the
+=src/mvp/resolve_schmidt_bibls.py= (retired 2026-11-04, at the tag
+=archive/pre-regeneration=; the table mapped each of the 43 ids to itself,
+since the P4's =@n= abbreviations are the work ids. Schmidt's printed
+abbreviations, =Lr.=, =Ant.=, are what a resolver must map, as corpus-tools
+=src/globe/schmidt_smoke.py= already does). Verification against the
 DraCor/ShakeDraCor corpus recorded in =doc/forum.org=
 =#citations/schmidt-play-abbr-table=: the five histories (1h4, 2h4,
 1h6, 2h6, 3h6) confirmed exact against the imported ShakeDraCor files;
@@ -1123,7 +1127,7 @@ files); diffs confirmed minimal (3 lines changed per file).
 :PROPERTIES:
 :CUSTOM_ID: done/strip-part-n
 :END:
-=src/strip-part-attrs.xsl= — removes =@part="N"= (lxml DTD artifact)
+=src/strip-part-attrs.xsl= (retired 2026-11-04; tag =archive/pre-regeneration=) — removes =@part="N"= (lxml DTD artifact)
 from all =<l>= and =<p>= elements; preserves I, M, F, Y.
 Applied to all Shakespeare play files.
 
@@ -1135,7 +1139,7 @@ Applied to all Shakespeare play files.
 by play by the witness-page regeneration. See =forum.org=
 =#encoding/globe-lineation-and-tln=.
 
-=src/strip-lb-tags.xsl= — removes all =<lb ed="F1">= (TLN); removes
+=src/strip-lb-tags.xsl= (retired 2026-11-04; tag =archive/pre-regeneration=) — removes all =<lb ed="F1">= (TLN); removes
 unnumbered =<lb ed="G">= from verse; transfers =@n= from numbered
 =<lb ed="G">= to enclosing =<l>=; drops all =<lb>= inside =<l>=.
 Numbered =<lb ed="G">= in prose retained in place.
@@ -1153,7 +1157,7 @@ second edition, not the primary one. See =forum.org=
 =corpus-tools: number-verse-lines= — adds scene-relative =@n= to =<l>=
 elements by interpolating between existing anchor values. Dry-run mode
 reports collisions. Applied to all plays except excluded files.
-See [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]] for full survey and collision report.
+See [[file:superseded/globe-line-numbering-report.org][globe-line-numbering-report.org]] for full survey and collision report.
 
 *Correction [2026-08-19]:* this note previously read "applied to all
 plays except excluded files" without qualification. It silently

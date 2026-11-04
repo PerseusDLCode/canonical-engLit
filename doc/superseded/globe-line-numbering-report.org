@@ -3,6 +3,14 @@
 #+AUTHOR: Clifford Wulfman
 #+OPTIONS: toc:t num:nil
 
+*Superseded.* This report reviewed the interpolation of Globe line
+numbers between the P4's transcribed markers (August 2026). That approach
+was abandoned: the Globe lineation was regenerated from page images of the
+1866 and 1887 printings instead (corpus-tools =doc/globe-lineation.org=;
+the editions in =data/shakespeare/=). The scripts it names
+(=strip-lb-tags.xsl=, =strip-part-attrs.xsl=) were retired on 2026-11-04
+and are at the tag =archive/pre-regeneration=.
+
 * Overview
 
 This report documents every place the automated Globe line-numbering

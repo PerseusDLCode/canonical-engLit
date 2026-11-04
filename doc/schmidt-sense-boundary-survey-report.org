@@ -15,7 +15,7 @@ cites an "earlier citation-structure survey" that doesn't exist as a
 retrievable artifact anywhere in this repo. Before building anything
 that rewrites 20,101 dictionary entries, this report quantifies the
 actual problem and proposes a design, following the same pattern as
-the earlier [[file:globe-line-numbering-report.org][Globe
+the earlier [[file:superseded/globe-line-numbering-report.org][Globe
 line-numbering report]]: survey first, hand to Cliff for review, build
 second.
 

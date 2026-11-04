@@ -114,7 +114,7 @@ The existing Globe encoding had three classes of problems with line
 milestones: (1) all =<lb/>= placed at end of lines rather than
 beginning per TEI P5; (2) F1 TLN milestones (=<lb ed="F1" n="..."/>= )
 embedded in the Globe text — a conceptual muddle; (3) Globe =<lb ed="G">= elements mostly unnumbered, with the =cRefPattern= working by
-positional counting. Full analysis in [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]].
+positional counting. Full analysis in [[file:superseded/globe-line-numbering-report.org][globe-line-numbering-report.org]].
 
 Research established:
 - Numbered =<lb ed="G" @n>= are primarily a *prose* device; in verse,
@@ -128,7 +128,7 @@ Research established:
   the CorpusMap, not from milestones embedded in the Globe text.
 - 7 Priority-1 anchor errors (backward-running Globe numbers within
   scenes) identified; need correction against a printed Globe edition.
-  See [[file:globe-line-numbering-report.org][globe-line-numbering-report.org]] §Priority 1.
+  See [[file:superseded/globe-line-numbering-report.org][globe-line-numbering-report.org]] §Priority 1.
 - 9 plays have no Globe number anchors at all (1h4, 1h6, 2h4, 2h6,
   3h6, ant, aww, per, tro): line numbers there are interpolated counts,
   not verified against print.
@@ -429,7 +429,7 @@ ever has to understand one format, not four.
 :DISPOSITION: adopt (histories); open (unregistered poems)
 :END:
 
-=src/mvp/schmidt_spec.md= requires verifying the 43-entry Schmidt
+=doc/superseded/schmidt-spec.md= requires verifying the 43-entry Schmidt
 play-abbreviation → CTS playid table against the actual DraCor corpus
 before implementing the =<bibl>= resolver, with particular attention to
 the histories (1h4, 2h4, 1h6, 2h6, 3h6) and the shorter poems (lc, pp,
@@ -471,7 +471,7 @@ written -- consistent with the existing MLA-convention naming
 decision -- but flag them as unverified-against-DraCor-by-construction
 rather than confirmed, since DraCor has no corresponding entries to
 check against. Proceeding to implement =phase1/citestructure-refworks=
-(Schmidt) and the Task 2 resolver per =src/mvp/schmidt_spec.md=.
+(Schmidt) and the Task 2 resolver per =doc/superseded/schmidt-spec.md=.
 
 ** Merging orphaned citations into their <cit>
 :PROPERTIES:

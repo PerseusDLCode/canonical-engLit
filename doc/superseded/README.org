@@ -1,0 +1,15 @@
+#+TITLE: Superseded documents
+#+DATE: 2026-11-04
+
+Reports and specifications kept for the record, each marked at its head
+with what replaced it. Moved here from =doc/= on 2026-11-04, when the
+scripts they describe were retired (those are at the tag
+=archive/pre-regeneration=).
+
+- =globe-line-numbering-report.org= -- the August 2026 review of
+  interpolating Globe line numbers; replaced by regeneration from the
+  page (corpus-tools =doc/globe-lineation.org=).
+- =schmidt-lexicon-tln-crosswalk-report.org= -- Schmidt's citations
+  against the Globe-to-TLN map; the map was retired on 2026-09-29.
+- =schmidt-spec.md= -- citeStructure for Schmidt (done) and a resolver
+  through the TLN map (retired); formerly =src/mvp/schmidt_spec.md=.

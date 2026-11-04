@@ -3,6 +3,13 @@
 #+AUTHOR: Clifford Wulfman
 #+OPTIONS: toc:t num:nil
 
+*Superseded.* This report measured Schmidt's citations against the
+Globe-to-TLN map (August 2026). The map was retired on 2026-09-29
+(=doc/forum.org= =#encoding/globe-lineation-and-tln=): Globe citations
+resolve against the regenerated Globe's own lineation, and Schmidt is now
+checked directly against each regenerated play (corpus-tools
+=reports/globe/schmidt-smoke-<play>.md=).
+
 * Overview
 
 =corpus-tools= recently gained =tln_globe_map.py=, which builds a

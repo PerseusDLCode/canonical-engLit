@@ -1,5 +1,13 @@
 # Spec: Schmidt citeStructure and <bibl> resolver
 
+> *Superseded (2026-11-04).* Task 1 below (citeStructure for the
+> Schmidt P5 file) was done. Task 2, the resolver, resolved citations
+> through the Globe-to-TLN map, which was retired on 2026-09-29; its
+> script, `src/mvp/resolve_schmidt_bibls.py`, is at the tag
+> `archive/pre-regeneration`. Its play-abbreviation table mapped each
+> of 43 ids to itself. The resolver is to be re-scoped against the
+> regenerated Globe (`doc/agenda.org` `#phase3/bibl-resolver`).
+
 Two coupled but independent tasks. Do them in separate commits.
 
 ## Task 1: citeStructure for Schmidt's lexicon
