@@ -1,0 +1,271 @@
+#+TITLE: Shakespeare Digital Editions: A Comparative Review for the Perseus Shakespeare Project
+#+AUTHOR:
+#+DATE: 2026-08-07
+
+* Note (2026-11-04)
+A record of the August 2026 review that preceded the decision in
+=doc/forum.org= (the entry that links here), kept as it was written. Read
+it as that, not as current fact; three things in it have since been
+corrected:
+- Perseus's Globe was encoded around 2003, not ~2006, and its copy-text
+  was the two-volume Nelson Doubleday /Complete Works/ (Clark and
+  Wright's text), not the 1866 Globe.
+- The Perseus encoding is no longer "unverified": its Globe lineation was
+  regenerated from page images of the 1866 and 1887 printings in
+  October-November 2026 (corpus-tools =doc/globe-lineation.org=), and
+  the published editions are in =data/shakespeare/*/shakespeare.*.globe.xml=.
+- The Globe-to-TLN correlation this review was framed around was set
+  aside on 2026-09-29 (=doc/forum.org=
+  =#encoding/globe-lineation-and-tln=): Globe citations resolve against
+  the Globe's own lineation, and TLN citations against the DraCor/Folger
+  edition. The scraping script and Macbeth lookup this review mentions
+  (=~/shakespeare-tln/=) were not kept.
+
+* Purpose
+
+Perseus's original Shakespeare corpus (Globe edition, encoded ~2006) is being
+revisited as part of a new effort to build a Perseus-style reading
+environment for Shakespeare -- readable text, tokenized and linked to
+linguistic analysis, with links to dictionaries and commentaries, comparable
+to Perseus's existing environment for Greek and Latin.
+
+This document compares four candidate sources of encoded Shakespeare text --
+the existing Perseus encoding, the Folger Shakespeare Library's digital
+texts, the Text Creation Partnership's EEBO transcriptions, and Internet
+Shakespeare Editions -- as possible foundations for that work.
+
+* Characteristics of Available Editions
+
+** Perseus (original Globe edition encoding)
+
+*** Source text
+The 1866 Globe edition (Clark & Wright), out of copyright. This is the same
+base edition used by, e.g., OpenSourceShakespeare.
+
+*** Encoding quality
+Encoded roughly twenty years ago under Perseus Digital Library conventions
+of that period: structural TEI markup for acts/scenes/speeches with
+canonical citation, but -- consistent with Perseus practice of that era
+generally -- almost certainly *not* tokenized at the word level, and without
+an embedded citation scheme tying individual lines to any alternative
+numbering system (e.g., Folio TLN). Should be confirmed directly against
+the original files rather than assumed here.
+
+*** Scholarly use
+Perseus Digital Library is one of the most heavily used digital humanities
+resources in existence -- but overwhelmingly for its Greek and Latin
+holdings. Its Shakespeare/English Renaissance materials are a much smaller
+part of its footprint and are not a standard citation in Shakespeare
+studies the way Folger, Arden, or ISE editions are.
+
+*** Licensing
+Perseus's own licensing is mixed and has evolved over time: public-domain
+source texts have historically been released under CC BY-NC-SA 3.0 US;
+newer Perseus components (annotations, derived datasets) trend toward CC
+BY-SA 4.0 (no NC clause). Worth confirming which license actually applies
+to the specific Shakespeare files in question.
+
+** Folger Shakespeare Library digital texts (Folger Digital Texts)
+
+*** Source text
+The New Folger Shakespeare: a modern-spelling critical edition, edited by
+Folger's own editorial team from Folio/Quarto sources. Not diplomatic --
+spelling, punctuation, and some lineation are editorially normalized.
+
+*** Encoding quality
+The strongest of the four by a clear margin. TEI XML with genuine
+word-level tokenization: every word, space, and punctuation mark has its
+own =xml:id= (=<w>=, =<c>=, =<pc>=). Every line carries a =milestone=
+element (=unit="ftln"=) giving both a Folger-specific through-line number
+and, directly as an attribute, the Globe-style act.scene.line citation
+(=n="1.1.1"=), plus verse/prose type and =prev=/=next= links for
+reconstructing split verse lines. Most named characters resolve to full
+names via a =<listPerson>= in the header; anonymous/chorus roles (Witches,
+Murderers, Apparitions) are only given numbered IDs with no individual
+names encoded. Actively maintained; bulk XML download available for all 37
+plays as static files (no scraping required).
+
+*** Scholarly use
+Very widely used as a reading text, especially in education and by digital
+tools that need a free, modern-spelling Shakespeare source. The Folger
+Shakespeare Library is a leading institution, though for textual/editorial
+scholarship specifically, Folger's edition is one voice among several
+(Arden, Oxford, RSC, ISE), not a singular standard.
+
+*** Licensing
+CC BY-NC 3.0 (Attribution-NonCommercial), confirmed directly in the XML
+header (=<licence target="http://creativecommons.org/licenses/by-nc/3.0/...">=).
+Non-commercial use only; commercial use would require separate permission.
+
+** EEBO-TCP (Text Creation Partnership, now hosted via University of
+   Michigan)
+
+*** Source text
+A diplomatic, old-spelling transcription of the actual 1623 First Folio
+(TCP id =A11954=), double-keyed by the Text Creation Partnership rather
+than OCR'd. Not an edited reading text -- original spelling, capitalization,
+and typography (including the long s) are preserved as printed.
+
+*** Encoding quality
+Structurally the lightest of the four. TEI markup at the =<l>=/=<p>=
+(line/paragraph) level, not tokenized to the word. Speaker tags use the
+literal Folio speech-prefixes as printed (=<speaker>1.</speaker>=,
+=<speaker>King.</speaker>=), with no resolved character identity or ID to
+look one up by. Page breaks are marked with the original Folio page number
+and a facsimile-image reference (=<pb n="131" facs="tcp:11596:372"/>=), but
+there is no line-, column-, or through-line-level numbering of any kind --
+neither Hinman's TLN nor a modern act.scene.line citation.
+
+*** Scholarly use
+Extremely widely used as a foundational corpus in digital humanities and
+historical-English corpus linguistics generally (it underlies many
+downstream projects, e.g. EarlyPrint). For Shakespeare specifically it is
+used more by bibliographers and textual/historical-linguistics scholars
+than by literary scholars seeking a citable reading edition.
+
+*** Licensing
+CC0 1.0 Universal -- full public-domain dedication, no restrictions
+whatsoever, not even attribution. Phase 1 texts were freed in 2015; Phase 2
+(which includes this Folio transcription) was freed on 2020-08-01.
+
+** Internet Shakespeare Editions (ISE, University of Victoria)
+
+*** Source text
+Multiple parallel editions per play: old-spelling diplomatic transcriptions
+of specific Quarto/Folio witnesses, plus a modern-spelling critical edition
+prepared by ISE's own scholarly editors (each play individually edited and
+attributed, generally peer-reviewed).
+
+*** Encoding quality
+High scholarly quality, with one feature unique among these four sources:
+ISE's modern-edition pages tag *every line* with both a Globe-style
+act.scene.line number and Hinman's First Folio through-line number (TLN)
+together -- directly solving the Folio-TLN-to-Globe-line correlation that
+motivated this whole inquiry. Verified directly by scraping ISE's Macbeth
+pages: e.g. TLN 98 = line 1.3.1 = "Where hast thou been, sister?". However,
+this data is only available as rendered HTML (line milestones as anchor
+tags), not as a bulk XML/TEI download -- extracting it correctly required
+reverse-engineering several undocumented rendering conventions (split
+verse lines, mid-line speaker interruptions, multiple TLNs embedded within
+a single modern line).
+
+*** Scholarly use
+Well-established (founded 1999) and specifically respected within
+Shakespeare studies, since -- unlike Folger, TCP, or Perseus -- it exists
+solely to produce peer-reviewed scholarly editions of Shakespeare with
+named textual editors per play.
+
+*** Licensing
+"Educational, non-profit purposes" explicitly permitted; commercial/other
+use requires negotiation with the rights holder (the individual editor, or
+ISE itself for unedited texts). Similar restrictive character to Folger and
+Perseus's NC-licensed materials; not CC0.
+
+* Comparison Summary
+
+| Edition  | Text type              | Tokenization  | Citation scheme               | License          |
+|----------+-------------------------+---------------+--------------------------------+-------------------|
+| Perseus  | Modernized (Globe 1866) | Line-level    | Canonical, no TLN link         | CC BY-NC-SA 3.0 (mixed w/ newer CC BY-SA 4.0 components) |
+| Folger   | Modernized (edited)     | Word-level    | FTLN + Globe act.scene.line    | CC BY-NC 3.0     |
+| EEBO-TCP | Diplomatic (Folio 1623) | Line-level    | None (page breaks only)        | CC0 1.0          |
+| ISE      | Both (diplomatic + modernized) | Line-level | Hinman TLN + Globe act.scene.line | Educational/non-profit only |
+
+* Pros and Cons as a Basis for the New Perseus Work
+
+** Perseus (retain and upgrade the existing encoding)
+
+*** Pros
+- No licensing renegotiation needed; Perseus already controls (most of) the
+  rights to its own materials.
+- Continuity with twenty years of existing citations, links, and any
+  downstream tools built against the current URNs/structure.
+- Full control over encoding decisions going forward.
+
+*** Cons
+- Requires redoing essentially all of the architectural work Folger has
+  already done: word-level tokenization, a coherent citation/milestone
+  scheme, split-line handling.
+- The existing encoding's actual quality is unverified in this review and
+  should be audited before committing to build on it.
+- Reinvents infrastructure other projects have already built and
+  maintained for years.
+
+** Folger Digital Texts
+
+*** Pros
+- By far the best engineering to build on: word-level IDs are exactly the
+  granularity needed to attach morphological/linguistic annotation, and the
+  Globe-style citation is already embedded per line.
+- Actively maintained, bulk-downloadable, consistent across all 37 plays.
+- Would dramatically cut development time compared to encoding from
+  scratch.
+
+*** Cons
+- CC BY-NC 3.0 licensing conflicts with Perseus's historical goal of
+  maximal reuse (including by downstream commercial tools/mirrors); any
+  corpus built on it inherits the NC restriction and cannot be relicensed
+  more permissively.
+- It's a modernized edition, not the original-spelling historical document
+  -- a different scholarly artifact than what bibliographically-minded
+  users may want.
+- Anonymous/chorus role names (Witches, Murderers, etc.) are not resolved
+  in the source data and would need to be supplied from elsewhere.
+
+** EEBO-TCP
+
+*** Pros
+- Fully unencumbered (CC0): the only source here with zero licensing
+  constraints on redistribution or commercial use, matching Perseus's
+  traditional preference for maximally open materials.
+- The actual historical document (the 1623 Folio itself), useful if
+  bibliographic/documentary fidelity matters to the project's goals.
+- Professionally double-keyed rather than OCR'd, so transcription quality
+  is high even though structural markup is light.
+
+*** Cons
+- Least processed of the four: no word tokenization, no line-numbering
+  scheme of any kind (not even a reconstructable one), and speaker
+  identity is just the raw printed abbreviation with no resolvable ID.
+- Old-spelling text is a harder base for general-purpose linguistic
+  tooling (lemmatization, dictionary linking) without significant
+  additional normalization work.
+- Adopting it means taking on effectively the same scope of original
+  encoding work as updating the existing Perseus corpus, just from a
+  better-proofread starting text.
+
+** Internet Shakespeare Editions
+
+*** Pros
+- Only source that already solves the original Hinman-TLN-to-Globe-line
+  correlation problem directly, per line, for both diplomatic and modern
+  editions.
+- Genuine peer-reviewed scholarly editing per play, specific to
+  Shakespeare, by named textual editors.
+- Offers both a diplomatic and a modernized edition of most plays side by
+  side, which could support both reading and bibliographic use cases.
+
+*** Cons
+- No bulk data export; everything must be scraped from rendered HTML, and
+  the rendering conventions (split lines, mid-line speaker changes,
+  multiple TLNs per modern line) are undocumented and had to be
+  reverse-engineered empirically in this review -- a fragile foundation to
+  build 37 plays' worth of tooling on.
+- Licensing is non-commercial/educational only, same restriction class as
+  Folger.
+- Not word-tokenized; would still require building out linguistic-analysis
+  infrastructure from line-level text.
+
+* Open Questions for Discussion
+
+- Does the new Perseus environment need to support commercial/unrestricted
+  downstream reuse, or is non-commercial academic use sufficient? This is
+  the single factor that most determines whether Folger/ISE are viable at
+  all.
+- Is bibliographic fidelity to the First Folio itself a project goal, or is
+  a modernized reading text (Globe- or Folger-style) sufficient?
+- Is the Hinman TLN correlation (the original motivating question) actually
+  a requirement for the new reading environment, or was it specific to a
+  separate lookup-file use case?
+- Could Folger's *structure* (word-level IDs, milestone citation scheme) be
+  reimplemented over the CC0 EEBO-TCP text, combining the best encoding
+  design with the most open license?
