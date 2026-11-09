@@ -50,8 +50,8 @@ Located alongside this one under `PerseusDLCode/`:
   documents by raw-GitHub-URL `<?xml-model?>` PIs; this is the
   project-wide convention.
 - `corpus-tools` — the shared transformation toolchain (Python CLI +
-  XSLT + Schematron gate). New corpus-wide tooling belongs here, not in
-  this repo's `src/`.
+  XSLT), including the Globe build. New corpus-wide tooling belongs
+  here, not in this repo's `src/`.
 - `schmidt-lexicon-workshop` — the Schmidt record-extraction pipeline.
   See the Schmidt section below.
 - `MinimumViablePerseus` — the consuming application.
@@ -85,11 +85,16 @@ saxon -s:input.xml -xsl:transform.xsl -o:output.xml
 ```
 
 **Validation:** Validate against the appropriate schema from
-`perseus-schemas`, using jing, plus the `corpus-tools` Schematron gate:
+`perseus-schemas`, using jing:
 
 - Shakespeare plays → `perseus_drama.rng`
+- Shakespeare's poems → `perseus_verse.rng`
 - Abbott (grammar) → `perseus_prose.rng`
 - Schmidt, Onions, Dyce (lexica) → `perseus_lexical.rng`
+
+corpus-tools' Schematron gate (`perseus_normalized.sch`) checks the
+output of its normalization pipeline; it is not part of the Globe or
+reference-work phase.
 
 ## Encoding conventions
 
