@@ -23,7 +23,7 @@
     </fileDesc>
 
     <encodingDesc>
-      <refsDecl n="CTS" xml:id="CTS"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure unit="line" delim="." match=".//l[@n]" use="@n"/></citeStructure></refsDecl>
+      <refsDecl n="CTS" xml:id="CTS"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure unit="line" delim=":" match=".//l[@n]" use="@n"/></citeStructure></refsDecl>
     </encodingDesc>
 
     <profileDesc>
