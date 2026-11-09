@@ -38,14 +38,14 @@
 
   <text xml:lang="en">
     <front>
-      <div type="textpart" subtype="section" n="epigraph">
+      <div type="section" n="epigraph">
         <lg xml:lang="la">
           <l>Vilia miretur vulgus; mihi flavus Apollo</l>
           <l>Pocula Castalia plena ministret aqua.</l>
         </lg>
       </div>
 
-      <div type="textpart" subtype="section" n="dedication">
+      <div type="section" n="dedication">
         <opener>To the Right Honorable Henry Wriothesly, Earl of Southampton, and Baron of
           Tichfield. <salute>Right Honourable,</salute>
         </opener>

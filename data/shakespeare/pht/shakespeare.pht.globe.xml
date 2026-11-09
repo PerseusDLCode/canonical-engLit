@@ -23,7 +23,7 @@
     </fileDesc>
 
     <encodingDesc>
-      <refsDecl n="CTS" xml:id="CTS"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure unit="stanza" delim=":" match=".//lg[@type='stanza']" use="@n"><citeStructure unit="line" delim="." match="l" use="@n"/></citeStructure></citeStructure></refsDecl>
+      <refsDecl n="CTS" xml:id="CTS"><citeStructure match="/TEI/text/body" use="@xml:base"><citeStructure unit="line" delim=":" match=".//l[@n]" use="@n"/><citeStructure unit="stanza" delim=":" match=".//lg[@type='stanza']" use="@n"><citeStructure unit="line" delim="." match="l" use="@n"/></citeStructure></citeStructure></refsDecl>
     </encodingDesc>
 
     <profileDesc>
@@ -37,7 +37,7 @@
 
   <text xml:lang="en">
     <body xml:base="urn:cts:engLit:shakespeare.pht.globe">
-      <div type="textpart" subtype="section" n="1">
+      <div type="section" n="1">
         <head>THE PHOENIX AND THE TURTLE</head>
         <lg n="1" type="stanza">
           <l n="1">LET the bird of loudest lay,</l>
@@ -119,7 +119,7 @@
         </lg>
       </div>
 
-      <div type="textpart" subtype="section" n="2">
+      <div type="section" n="2">
         <head>THRENOS</head>
         <lg n="14" type="stanza">
           <l n="53">Beauty, truth, and rarity,</l>

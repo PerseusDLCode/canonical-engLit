@@ -37,7 +37,7 @@
 
   <text xml:lang="en">
     <front>
-      <div type="textpart" subtype="section" n="Dedication">
+      <div type="section" n="Dedication">
         <head>Dedication</head>
         <opener>To the Right Honourable Henry Wriothesly, Earl of Southampton, and Baron of
           Tichfield.</opener>
@@ -54,7 +54,7 @@
           <signed>WILLIAM SHAKESPEARE.</signed>
         </closer>
       </div>
-      <div type="textpart" subtype="section" n="Argument">
+      <div type="section" n="Argument">
         <head>THE ARGUMENT</head>
 
         <p><milestone unit="line" ed="Globe" n="1"/>LUCIUS TARQUINIUS, for his excessive pride surnamed Superbus, after he had caused his own
@@ -87,7 +87,7 @@
       </div>
     </front>
     <body xml:base="urn:cts:engLit:shakespeare.luc.globe">
-      <div type="textpart" subtype="section" n="The Rape of Lucrece">
+      <div type="section" n="The Rape of Lucrece">
         <head>The Rape of Lucrece</head>
         <div type="stanza" n="1">
           <head>1</head>
