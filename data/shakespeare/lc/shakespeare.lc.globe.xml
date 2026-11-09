@@ -23,12 +23,15 @@
     </fileDesc>
 
     <encodingDesc>
-      <refsDecl n="CTS" xml:id="CTS"><citeStructure match="/TEI/text/body" use="@xml:base">
+      <refsDecl n="CTS" xml:id="CTS">
+        <citeStructure match="/TEI/text/body" use="@xml:base">
           <citeStructure unit="line" delim=":" match=".//l[@n]" use="@n"/>
-          <citeStructure unit="stanza" delim=":" match="lg[@type='stanza']" use="@n">
-            <citeStructure unit="line" delim="." match=".//l" use="@n"/>
+          <citeStructure unit="section" delim=":" match="/TEI/text/body" use="'stanza'">
+            <citeStructure unit="stanza" delim="." match=".//lg[@type='stanza']" use="@n">
+              <citeStructure unit="line" delim="." match=".//l" use="@n"/>
+            </citeStructure>
           </citeStructure>
-      </citeStructure>
+        </citeStructure>
       </refsDecl>
     </encodingDesc>
 
