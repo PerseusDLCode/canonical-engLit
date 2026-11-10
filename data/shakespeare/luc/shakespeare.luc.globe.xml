@@ -29,6 +29,9 @@
           <citeStructure unit="section" delim=":" match="/TEI/text/front/div[@n='Argument']" use="'argument'">
             <citeStructure unit="line" delim="." match=".//milestone[@unit='line'][@ed='Globe']" use="@n"/>
           </citeStructure>
+          <citeStructure unit="section" delim=":" match="/TEI/text/front/div[@n='dedication']" use="'dedication'">
+            <citeStructure unit="line" delim="." match=".//milestone[@unit='line'][@ed='Globe']" use="@n"/>
+          </citeStructure>
           <citeStructure unit="section" delim=":" match="/TEI/text/body" use="'stanza'">
             <citeStructure unit="stanza" delim="." match=".//div[@type='stanza']" use="@n">
               <citeStructure unit="line" delim="." match=".//l" use="@n"/>
@@ -49,21 +52,21 @@
 
   <text xml:lang="en">
     <front>
-      <div type="section" n="Dedication">
+      <div type="section" n="dedication">
         <head>Dedication</head>
         <opener>To the Right Honourable Henry Wriothesly, Earl of Southampton, and Baron of
           Tichfield.</opener>
 
-        <p>THE love I dedicate to your lordship is without end; whereof this pamphlet, without
-          beginning, is but a superfluous moiety. The warrant I have of your honourable disposition,
-          not the worth of my untutored lines, makes it assured of acceptance. What I have done is
-          yours; what I have to do is yours; being part in all I have, devoted yours. Were my worth
-          greater, my duty would show greater; meantime, as it is, it is bound to your lordship, to
-          whom I wish long life, still lengthened with all happiness.</p>
+        <p><milestone unit="line" ed="Globe" n="1"/>THE love I dedicate to your lordship is without end; whereof this pamphlet, without
+          beginning, <milestone unit="line" ed="Globe" n="2"/>is but a superfluous moiety. The warrant I have of your honourable disposition,
+          not the worth <milestone unit="line" ed="Globe" n="3"/>of my untutored lines, makes it assured of acceptance. What I have done is
+          yours; what I <milestone unit="line" ed="Globe" n="4"/>have to do is yours; being part in all I have, devoted yours. Were my worth
+          greater, my duty <milestone unit="line" ed="Globe" n="5"/>would show greater; meantime, as it is, it is bound to your lordship, to
+          whom I wish long life, <milestone unit="line" ed="Globe" n="6"/>still lengthened with all happiness.</p>
 
         <closer>
-          <salute>Your lordship's in all duty,</salute>
-          <signed>WILLIAM SHAKESPEARE.</signed>
+          <salute><milestone unit="line" ed="Globe" n="7"/>Your lordship's in all duty,</salute>
+          <signed><milestone unit="line" ed="Globe" n="8"/>WILLIAM SHAKESPEARE.</signed>
         </closer>
       </div>
       <div type="section" n="Argument">

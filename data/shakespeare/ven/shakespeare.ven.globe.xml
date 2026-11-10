@@ -26,6 +26,9 @@
       <refsDecl n="CTS" xml:id="CTS">
         <citeStructure match="/TEI/text/body" use="@xml:base">
           <citeStructure unit="line" delim=":" match=".//l[@n]" use="@n"/>
+          <citeStructure unit="section" delim=":" match="/TEI/text/front/div[@n='dedication']" use="'dedication'">
+            <citeStructure unit="line" delim="." match=".//milestone[@unit='line'][@ed='Globe']" use="@n"/>
+          </citeStructure>
           <citeStructure unit="section" delim=":" match="/TEI/text/body" use="'stanza'">
             <citeStructure unit="stanza" delim="." match=".//lg[@type='stanza']" use="@n">
               <citeStructure unit="line" delim="." match=".//l" use="@n"/>
@@ -58,17 +61,17 @@
         <opener>To the Right Honorable Henry Wriothesly, Earl of Southampton, and Baron of
           Tichfield. <salute>Right Honourable,</salute>
         </opener>
-        <p> I KNOW not how I shall offend in dedicating my unpolished lines to your lordship, nor
+        <p> <milestone unit="line" ed="Globe" n="1"/>I KNOW not how I shall offend in dedicating my unpolished lines to your lordship, <milestone unit="line" ed="Globe" n="2"/>nor
           how the world will censure me for choosing so strong a prop to support so weak a burden:
-          only if your honor seem but pleased, I account myself highly praised, and vow to take
-          advantage of all idle hours, till I have honored you with some graver labor. But if the
-          first heir of my invention prove deformed, I shall be sorry it had so noble a god-father,
-          and never after ear so barren a land, for fear it yield me still so bad a harvest. I leave
-          it to your honor- able survey, and your honor to your heart's content; which I wish may
-          always answer your own wish and the world's hopeful expectation. </p>
+          <milestone unit="line" ed="Globe" n="3"/>only if your honor seem but pleased, I account myself highly praised, and vow to take
+          advantage <milestone unit="line" ed="Globe" n="4"/>of all idle hours, till I have honored you with some graver labor. But if the
+          first heir of my <milestone unit="line" ed="Globe" n="5"/>invention prove deformed, I shall be sorry it had so noble a god-father,
+          and never after ear so <milestone unit="line" ed="Globe" n="6"/>barren a land, for fear it yield me still so bad a harvest. I leave
+          it to your honor- able survey, <milestone unit="line" ed="Globe" n="7"/>and your honor to your heart's content; which I wish may
+          always answer your own wish and <milestone unit="line" ed="Globe" n="8"/>the world's hopeful expectation. </p>
         <closer>
-          <salute>Your honour's in all duty,</salute>
-          <signed>WILLIAM SHAKESPEARE.</signed>
+          <salute><milestone unit="line" ed="Globe" n="9"/>Your honour's in all duty,</salute>
+          <signed><milestone unit="line" ed="Globe" n="10"/>WILLIAM SHAKESPEARE.</signed>
         </closer>
       </div>
     </front>
